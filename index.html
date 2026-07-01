@@ -53,7 +53,7 @@
     background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
     background-size:64px 64px;mask-image:radial-gradient(circle at 70% 30%,#000,transparent 75%);}
   .hero-inner{position:relative;z-index:2;max-width:1100px}
-  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:30px}
+  .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:30px}
   .eyebrow::before{content:"";width:38px;height:1px;background:var(--gold)}
   .hero h1{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:clamp(34px,5.2vw,64px);line-height:1.06;letter-spacing:-.02em;margin-bottom:24px}
   .hero h1 em{font-style:italic;color:var(--gold)}
@@ -61,8 +61,8 @@
   .hero .client{position:relative;margin-top:46px;padding-top:30px;display:flex;flex-wrap:wrap;gap:38px 60px;align-items:flex-end}
   .hero .client::before{content:"";position:absolute;top:0;left:0;height:4px;width:0;border-radius:2px;background:linear-gradient(90deg,var(--gold),var(--gold-soft));transition:width 1s cubic-bezier(.22,1,.36,1) .25s}
   body.dash.entered .hero .client::before{width:220px}
-  .hero .client .lbl{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#8086a0;margin-bottom:6px}
-  .hero .client .val{font-size:18px;color:#fff;font-weight:600}
+  .hero .client .lbl{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8086a0;font-weight:500;margin-bottom:6px}
+  .hero .client .val{font-size:18px;color:#fff;font-weight:600;font-variant-numeric:tabular-nums}
   .scrollcue{margin:56px auto 0;z-index:2;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#717892;display:flex;flex-direction:column;align-items:center;gap:8px}
   .scrollcue span{width:1px;height:34px;background:linear-gradient(var(--gold),transparent);animation:cue 1.8s var(--t) infinite}
   @keyframes cue{0%{opacity:.2;transform:scaleY(.4)}50%{opacity:1}100%{opacity:.2;transform:scaleY(.4)}}
@@ -157,7 +157,7 @@
   /* sections */
   section.block{padding:clamp(70px,9vw,130px) clamp(20px,6vw,90px);position:relative}
   .sec-head{max-width:760px;margin-bottom:56px}
-  .sec-num{font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;color:var(--gold);letter-spacing:.18em;text-transform:uppercase;display:block;margin-bottom:16px}
+  .sec-num{font-family:'Montserrat',sans-serif;font-weight:600;font-size:13px;color:var(--gold);letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:16px}
   .sec-head h2{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:clamp(26px,3.6vw,42px);line-height:1.12;letter-spacing:-.01em;margin-bottom:18px}
   .sec-head p{color:#9fa4ba;font-size:16px;font-weight:300;max-width:620px}
   .alt{background:linear-gradient(180deg,var(--navy-deep),var(--navy) 18%,var(--navy) 82%,var(--navy-deep))}
@@ -169,7 +169,7 @@
   @media(max-width:440px){.kpis{grid-template-columns:1fr}}
   .kpi{background:var(--navy);padding:28px 22px;position:relative;transition:background .4s;min-width:0;overflow:hidden}
   .kpi:hover{background:#23284a}
-  .kpi .n{font-family:'Montserrat',sans-serif;font-weight:700;color:var(--gold);font-size:clamp(26px,3vw,42px);line-height:1.05;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .kpi .n{font-family:'Montserrat',sans-serif;font-weight:700;color:var(--gold);font-size:clamp(26px,3vw,42px);line-height:1.05;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-variant-numeric:tabular-nums}
   .kpi .n small{font-size:.42em;color:var(--gold-soft);font-weight:500;letter-spacing:0}
   .kpi .k{margin-top:12px;font-size:13px;color:#aab0c6}
   .kpi .sub{margin-top:4px;font-size:11.5px;color:#71788f}
@@ -181,7 +181,7 @@
   .g2{grid-template-columns:1fr 1fr}
   @media(max-width:900px){.g2{grid-template-columns:1fr}}
   .card{background:var(--card);border:1px solid var(--card-bd);border-radius:18px;padding:30px 30px 26px;backdrop-filter:blur(4px);position:relative;min-width:0;overflow:hidden}
-  .card h3{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:6px}
+  .card h3{font-size:14px;letter-spacing:0;color:var(--gold);font-weight:600;margin-bottom:6px}
   .card .desc{font-size:13px;color:#888ea6;margin-bottom:24px;font-weight:300}
 
 
@@ -340,7 +340,7 @@
   .land-top .brand-logo{height:46px;filter:brightness(0) invert(1);opacity:.97}
   .land-top .tag{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600}
   .land-hero{padding:60px 0 46px;max-width:820px}
-  .land-hero .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:26px}
+  .land-hero .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:26px}
   .land-hero .eyebrow::before{content:"";width:38px;height:1px;background:var(--gold)}
   .land-hero h1{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:clamp(34px,5vw,60px);line-height:1.06;letter-spacing:-.02em;margin-bottom:18px}
   .land-hero h1 em{font-style:italic;color:var(--gold)}
@@ -356,7 +356,7 @@
   .ccard.soon{cursor:default;opacity:.6}
   .ccard.soon:hover{transform:none;border-color:var(--card-bd);background:var(--card)}
   .ccard .tipo{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px}
-  .ccard .cnome{font-size:19px;font-weight:700;color:#fff;line-height:1.25;min-height:48px;position:relative;z-index:2;text-transform:uppercase;letter-spacing:.01em}
+  .ccard .cnome{font-size:19px;font-weight:700;color:#fff;line-height:1.25;min-height:48px;position:relative;z-index:2;letter-spacing:-.01em}
   .ccard .cmeta{display:flex;gap:22px;margin-top:20px;padding-top:18px;border-top:1px solid var(--line);position:relative;z-index:2}
   .ccard .cmeta .mi .mv{font-size:22px;font-weight:700;color:var(--gold)}
   .ccard .cmeta .mi .ml{font-size:11px;color:#8890a6;margin-top:2px}
