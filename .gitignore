@@ -1,0 +1,16 @@
+# Dados brutos / confidenciais — NUNCA subir
+_*.json
+_*.md
+*.docx
+*.pdf
+_para_github/
+
+# arquivos de trabalho locais
+scratchpad/
+*.py
+.claude/
+launch.json
+
+# sistema
+.DS_Store
+Thumbs.db
