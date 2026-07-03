@@ -302,6 +302,8 @@
   .insight .t{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:8px}
   .insight p{color:#d7dae5;font-size:15.5px;font-weight:300}
   .insight strong{color:#fff;font-weight:600}
+  .insight .hn-mark{color:var(--gold);font-weight:700;font-size:1.15em;margin-right:2px}
+  #horas-nota{font-size:13.5px;line-height:1.65;color:#c3c8d8}
 
   /* people */
   .people{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:8px}
@@ -702,7 +704,6 @@ body.dash.is-semdados #sd-overlay{display:block}
     <span class="sec-num">04 — Horas dedicadas <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
     <h2>Horas dedicadas à carteira</h2>
     <p>Tempo efetivamente apontado pela equipe nos processos do cliente, consolidado a partir dos registros de timesheet do sistema.</p>
-    <p id="horas-nota" style="font-size:12px;color:var(--amber);margin-top:10px;line-height:1.5;font-weight:300"></p>
   </div>
 
   <div class="kpis reveal" style="margin-bottom:24px;--kn:3">
@@ -711,20 +712,13 @@ body.dash.is-semdados #sd-overlay{display:block}
     <div class="kpi"><div class="n" id="h-mediaativos">—</div><div class="k">Média por processo ativo</div><div class="sub" id="h-mediaativos-sub">—</div></div>
   </div>
 
-  <div class="grid g2">
-    <div class="card reveal">
-      <h3><span class="bt"></span>Evolução das horas por ano</h3>
-      <div class="desc">Horas apontadas por ano — evolução da carga de trabalho ao longo do contrato.</div>
-      <div class="vbars" id="horasano"></div>
-    </div>
-    <div class="card reveal">
-      <h3><span class="bt"></span>Onde o tempo é gasto</h3>
-      <div class="desc">Distribuição das horas por tipo de atividade.</div>
-      <div class="hbars" id="horastipo" style="margin-top:6px"></div>
-      <div class="insight" style="margin-top:30px">
-        <div class="t">Leitura</div>
-        <p id="ins3">—</p>
-      </div>
+  <div class="card reveal">
+    <h3><span class="bt"></span>Evolução das horas por ano</h3>
+    <div class="desc">Horas apontadas por ano — evolução da carga de trabalho ao longo do contrato.</div>
+    <div class="vbars" id="horasano"></div>
+    <div class="insight" id="horas-nota-box" style="margin-top:34px;display:none">
+      <div class="t">Sobre este indicador</div>
+      <p id="horas-nota"></p>
     </div>
   </div>
 </section>
@@ -930,7 +924,7 @@ function renderDashboard(){
   el('ins1').innerHTML=`A carteira acompanha o cliente desde <strong>${primAno}</strong>, com <strong>${k.proc} processos</strong> no total (${ds.ativos} ativos). O estoque sob gestão evoluiu ao longo do período.`;
   el('ins2').innerHTML=`Atuação em <strong>${Object.keys(ds.tribunais).length} tribunais</strong> e <strong>${Object.keys(ds.uf).length} estados</strong>, com carteira multidisciplinar em ${Object.keys(ds.area).length} áreas do Direito.`;
   // limpar containers
-  ['estoque','instancia','polo','donut-leg','regioes','tribunais','ranking','audano','atividades','people','horasano','horastipo'].forEach(limpa);
+  ['estoque','instancia','polo','donut-leg','regioes','tribunais','ranking','audano','atividades','people','horasano'].forEach(limpa);
   el('donut').innerHTML=''; const fx=el('fluxo'); fx.innerHTML=''; delete fx.dataset.built;
   // Volume + Complexidade (dados reais)
   vbars('estoque',ds.estoque,ds.estoqueHl);
@@ -966,17 +960,14 @@ function renderDashboard(){
   if(el('h-media')){ if(semHoras){el('h-media').innerHTML='—';if(el('h-media-sub'))el('h-media-sub').textContent='em atualização';} else {el('h-media').innerHTML=String(hs.media||0).replace('.',',')+'<small>h</small>'; el('h-media-sub').textContent=Math.round(hs.total||0)+'h / '+k.proc+' processos';} }
   if(el('h-mediaativos')){ if(semHoras){el('h-mediaativos').innerHTML='—';if(el('h-mediaativos-sub'))el('h-mediaativos-sub').textContent='em atualização';} else {el('h-mediaativos').innerHTML=String(hs.mediaAtivos||0).replace('.',',')+'<small>h</small>'; el('h-mediaativos-sub').textContent=Math.round(hs.total||0)+'h / '+ds.ativos+' ativos';} }
   if(hs.horasano) vbars('horasano',hs.horasano,[Object.keys(hs.horasano).slice(-1)[0]],'h');
-  if(hs.horastipo) hbars('horastipo',hs.horastipo);
-  // nota explicativa da secao horas
-  var _hn=el('horas-nota');
+  // nota explicativa (dentro do card de evolucao, estilo .insight)
+  var _hn=el('horas-nota'); var _hnbox=el('horas-nota-box');
   if(_hn){
-    if(hs._estimativa){ _hn.innerHTML='^ Total parcial de horas apontadas no timesheet até 30/06/2026. Reflete os registros efetivamente lançados no sistema — não cobre 100% dos processos (parte dos apontamentos não é recuperável pela API do EasyJur). Serve como indicador da evolução do esforço, não como fechamento contábil de horas.'; }
-    else if(semHoras){ _hn.innerHTML=''; }
-    else { _hn.innerHTML=''; }
+    if(hs._estimativa){ _hn.innerHTML='<strong class="hn-mark">^</strong> Total parcial de horas apontadas no timesheet até 30/06/2026. Reflete os registros efetivamente lançados no sistema — não cobre 100% dos processos (parte dos apontamentos não é recuperável pela API do EasyJur). Serve como indicador da evolução do esforço, não como fechamento contábil de horas.'; if(_hnbox)_hnbox.style.display=''; }
+    else { _hn.innerHTML=''; if(_hnbox)_hnbox.style.display='none'; }
   }
-  // se nao ha serie de horas por ano, esconder esse card especifico
+  // se nao ha serie de horas por ano, esconder esse card (a nota vai junto)
   var _hac=el('horasano'); if(_hac){ var card=_hac.closest('.card'); if(card){ card.style.display = (hs.horasano && Object.keys(hs.horasano).length) ? '' : 'none'; } }
-  var _htc=el('horastipo'); if(_htc){ var card2=_htc.closest('.card'); if(card2){ card2.style.display = (hs.horastipo && Object.keys(hs.horastipo).length) ? '' : 'none'; } }
 }
 
 /* animações on-scroll */
