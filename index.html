@@ -163,7 +163,7 @@
   .alt{background:linear-gradient(180deg,var(--navy-deep),var(--navy) 18%,var(--navy) 82%,var(--navy-deep))}
 
   /* KPIs */
-  .kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--card-bd);border:1px solid var(--card-bd);border-radius:18px;overflow:hidden}
+  .kpis{display:grid;grid-template-columns:repeat(var(--kn,5),1fr);gap:1px;background:var(--card-bd);border:1px solid var(--card-bd);border-radius:18px;overflow:hidden}
   @media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}}
   @media(max-width:720px){.kpis{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:440px){.kpis{grid-template-columns:1fr}}
@@ -432,7 +432,7 @@
     .vbar,.gbar{flex:1 1 auto !important;min-width:0 !important}
     .vbar .col,.gbar .b,.hbar .fill{transition:none !important}
     .g2{grid-template-columns:1fr 1fr !important}
-    .kpis{grid-template-columns:repeat(5,1fr) !important}
+    .kpis{grid-template-columns:repeat(var(--kn,5),1fr) !important}
     .amp-wm{display:none !important}
     /* ===== QUEBRAS DINÂMICAS (fluxo — adapta ao volume de cada empresa) ===== */
     /* NÃO força seção por página: o conteúdo flui e preenche. */
@@ -573,7 +573,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     <p>Como a carteira deste cliente se comporta ao longo do tempo: o ritmo de entrada de novos processos, os encerramentos e o saldo de casos ativos sob gestão a cada ano.</p>
   </div>
 
-  <div class="kpis reveal" style="margin-bottom:24px">
+  <div class="kpis reveal" style="margin-bottom:24px;--kn:4">
     <div class="kpi"><div class="n" id="v-cresc">—</div><div class="k">Crescimento do estoque</div><div class="sub" id="v-cresc-sub">—</div><span class="trend" id="v-trend">▲ expansão</span></div>
     <div class="kpi"><div class="n" id="v-entradas">0</div><div class="k">Entradas no período</div><div class="sub">total de processos abertos</div></div>
     <div class="kpi"><div class="n" id="v-encerr">0</div><div class="k">Encerramentos</div><div class="sub">casos finalizados (por status)</div></div>
@@ -658,7 +658,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     <p>Volume de trabalho dedicado à carteira: compromissos executados, produção por processo e tempo médio de tramitação.</p>
   </div>
 
-  <div class="kpis reveal" style="margin-bottom:24px">
+  <div class="kpis reveal" style="margin-bottom:24px;--kn:4">
     <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub">prazos + audiências + tarefas</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-prod">0</div><div class="k">Processos com produção</div><div class="sub" id="e-prod-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-atosproc">0</div><div class="k">Atos por processo</div><div class="sub">média de compromissos por caso</div></div>
@@ -705,7 +705,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     <p id="horas-nota" style="font-size:12px;color:var(--amber);margin-top:10px;line-height:1.5;font-weight:300"></p>
   </div>
 
-  <div class="kpis reveal" style="margin-bottom:24px">
+  <div class="kpis reveal" style="margin-bottom:24px;--kn:3">
     <div class="kpi"><div class="n" data-count="152" id="h-total">0</div><div class="k">Horas totais</div><div class="sub" id="h-total-sub">no período</div></div>
     <div class="kpi"><div class="n" id="h-media">—</div><div class="k">Horas médias por processo</div><div class="sub" id="h-media-sub">—</div></div>
     <div class="kpi"><div class="n" id="h-mediaativos">—</div><div class="k">Média por processo ativo</div><div class="sub" id="h-mediaativos-sub">—</div></div>
