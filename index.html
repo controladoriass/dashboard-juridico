@@ -180,6 +180,10 @@
   .grid>*{min-width:0}
   .g2{grid-template-columns:1fr 1fr}
   @media(max-width:900px){.g2{grid-template-columns:1fr}}
+  .g3{grid-template-columns:1fr 1fr 1fr}
+  @media(max-width:1000px){.g3{grid-template-columns:1fr 1fr}}
+  @media(max-width:640px){.g3{grid-template-columns:1fr}}
+  .sub-lead{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px;opacity:.85}
   .card{background:var(--card);border:1px solid var(--card-bd);border-radius:18px;padding:30px 30px 26px;backdrop-filter:blur(4px);position:relative;min-width:0;overflow:hidden}
   .card h3{font-size:14px;letter-spacing:0;color:var(--gold);font-weight:600;margin-bottom:6px}
   .card .desc{font-size:13px;color:#888ea6;margin-bottom:24px;font-weight:300}
@@ -651,17 +655,18 @@ body.dash.is-semdados #sd-overlay{display:block}
   <div class="sec-head reveal">
     <span class="sec-num">03 — Esforço operacional <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
     <h2>Esforço operacional da equipe</h2>
-    <p>Volume de trabalho dedicado à carteira: atividades registradas, profissionais envolvidos e tempo médio de tramitação dos processos.</p>
+    <p>Volume de trabalho dedicado à carteira: compromissos executados, produção por processo e tempo médio de tramitação.</p>
   </div>
 
   <div class="kpis reveal" style="margin-bottom:24px">
-    <div class="kpi"><div class="n" data-count="379" id="e-apont">0</div><div class="k">Apontamentos registrados</div><div class="sub">cada ação operacional contada</div></div>
-    <div class="kpi"><div class="n" data-count="15" id="e-prof">0</div><div class="k">Profissionais envolvidos</div><div class="sub">equipe mobilizada na carteira</div></div>
-    <div class="kpi"><div class="n" data-count="13" id="e-prod">0</div><div class="k">Processos com produção</div><div class="sub" id="e-prod-sub">—</div></div>
-    <div class="kpi"><div class="n" data-count="659" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub">relacionamento de longo prazo</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub">prazos + audiências + tarefas</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-prod">0</div><div class="k">Processos com produção</div><div class="sub" id="e-prod-sub">—</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-atosproc">0</div><div class="k">Atos por processo</div><div class="sub">média de compromissos por caso</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub">relacionamento de longo prazo</div></div>
   </div>
 
-  <div class="grid g2">
+  <div class="sub-lead reveal">Atividades executadas por ano</div>
+  <div class="grid g3">
     <div class="card reveal">
       <h3><span class="bt"></span>Prazos cumpridos por ano</h3>
       <div class="desc">Prazos processuais trabalhados pela equipe, ano a ano (compromissos principais, sem subetapas de fluxo).</div>
@@ -672,18 +677,16 @@ body.dash.is-semdados #sd-overlay{display:block}
       <div class="desc">Presença da equipe em audiências efetivas, ano a ano.</div>
       <div class="vbars" id="audano"></div>
     </div>
-  </div>
-  <div class="grid g2">
     <div class="card reveal">
       <h3><span class="bt"></span>Tarefas executadas por ano</h3>
       <div class="desc">Tarefas e diligências registradas pela equipe, ano a ano (compromissos principais).</div>
       <div class="vbars" id="tarefano"></div>
     </div>
-    <div class="card reveal" id="card-atividades">
-      <h3><span class="bt"></span>Atividades por tipo (total)</h3>
-      <div class="desc">Total acumulado de compromissos por natureza no período.</div>
-      <div class="hbars" id="atividades"></div>
-    </div>
+  </div>
+  <div class="card reveal" id="card-atividades" style="margin-top:22px">
+    <h3><span class="bt"></span>Atividades por tipo (total)</h3>
+    <div class="desc">Total acumulado de compromissos por natureza no período.</div>
+    <div class="hbars" id="atividades"></div>
   </div>
 
   <div class="card reveal" style="margin-top:22px">
@@ -938,9 +941,10 @@ function renderDashboard(){
   // === ESFORCO ===
   const esf=ds.esforco||{};
   const semEsf = !esf || Object.keys(esf).length===0;
-  if(el('e-apont')){ if(semEsf){el('e-apont').removeAttribute('data-count');el('e-apont').textContent='—';} else {el('e-apont').dataset.count=esf.apontamentos||0; el('e-apont').textContent='0';} }
-  if(el('e-prof')){ if(semEsf||!esf.profissionais){el('e-prof').removeAttribute('data-count');el('e-prof').textContent='—';} else {el('e-prof').dataset.count=esf.profissionais; el('e-prof').textContent='0';} }
+  var _atv=esf.atividades||{}; var _totComp=Object.keys(_atv).reduce(function(a,kk){return a+(_atv[kk]||0);},0);
+  if(el('e-compromissos')){ if(semEsf||!_totComp){el('e-compromissos').removeAttribute('data-count');el('e-compromissos').textContent='—';} else {el('e-compromissos').dataset.count=_totComp; el('e-compromissos').textContent='0';} }
   if(el('e-prod')){ if(semEsf){el('e-prod').removeAttribute('data-count');el('e-prod').textContent='—';if(el('e-prod-sub'))el('e-prod-sub').textContent='em atualização';} else {el('e-prod').dataset.count=esf.comProducao||0; el('e-prod').textContent='0'; el('e-prod-sub').textContent='de '+k.proc+' na carteira';} }
+  if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
   if(esf.audano) vbars('audano',esf.audano,[Object.keys(esf.audano).slice(-1)[0]]);
   if(esf.prazano) vbars('prazano',esf.prazano,[Object.keys(esf.prazano).slice(-1)[0]]);
