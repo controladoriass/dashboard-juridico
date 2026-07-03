@@ -400,7 +400,8 @@
   /* barra de controle: setas + progresso "01 / 04" + titulo da aba */
   .aba-ctrl{display:none}
   body.carrossel .aba-ctrl{display:flex;align-items:center;justify-content:space-between;gap:18px;
-    max-width:none;margin:0 clamp(20px,6vw,90px) 4px;padding:14px 0 18px;border-bottom:1px solid var(--line)}
+    max-width:none;margin:0;padding:16px clamp(20px,6vw,90px);border-bottom:1px solid var(--line);
+    position:sticky;top:81px;z-index:40;background:rgba(9,0,30,.82);backdrop-filter:blur(14px)}
   .aba-ctrl .lado{display:flex;align-items:center;gap:16px}
   .aba-ctrl .seta{width:44px;height:44px;border-radius:50%;border:1px solid var(--card-bd);background:var(--card);
     color:var(--gold);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .25s;flex:0 0 auto}
@@ -1070,11 +1071,11 @@ function montarDots(){
   ABAS.forEach(function(a,i){
     var d=document.createElement('i'); d.title=a.t;
     if(i===abaAtual)d.className='on';
-    d.onclick=function(){trocarAba(i);};
+    d.onclick=function(){trocarAba(i, true);};
     box.appendChild(d);
   });
 }
-function trocarAba(idx){
+function trocarAba(idx, rolar){
   if(idx<0||idx>=ABAS.length)return;
   var alvo=el(ABAS[idx].id); if(!alvo)return;
   var atual=el(ABAS[abaAtual].id);
@@ -1086,7 +1087,15 @@ function trocarAba(idx){
   // força reinício da animação
   alvo.style.animation='none'; void alvo.offsetWidth; alvo.style.animation='';
   revelarSecaoImediata(alvo);
-  window.scrollTo({top:0,behavior:'auto'});
+  // ao INTERAGIR (clique/seta), leva a tela até a barra de abas para o usuário
+  // VER a troca acontecer (a barra fica sticky logo abaixo do menu do topo).
+  if(rolar){
+    var ctrl=document.querySelector('.aba-ctrl');
+    if(ctrl){
+      var y=ctrl.getBoundingClientRect().top+window.scrollY-81; // 81 = altura da topbar fixa
+      window.scrollTo({top:Math.max(0,y),behavior:'smooth'});
+    }
+  }
   // atualiza controles
   var num=el('aba-num'); if(num)num.textContent=String(idx+1).padStart(2,'0');
   var tit=el('aba-tit'); if(tit)tit.textContent=ABAS[idx].t;
@@ -1098,7 +1107,7 @@ function trocarAba(idx){
   });
   document.querySelectorAll('#aba-dots i').forEach(function(d,i){ d.classList.toggle('on', i===idx); });
 }
-function navAba(dir){ trocarAba(abaAtual+dir); }
+function navAba(dir){ trocarAba(abaAtual+dir, true); }
 var _carrosselLigado=false;
 function initCarrossel(){
   document.body.classList.add('carrossel');
@@ -1113,7 +1122,7 @@ function initCarrossel(){
       if(!a)return;
       var href=a.getAttribute('href')||'';
       var i=ABAS.findIndex(function(x){return '#'+x.id===href;});
-      if(i>=0){ ev.preventDefault(); ev.stopPropagation(); trocarAba(i); }
+      if(i>=0){ ev.preventDefault(); ev.stopPropagation(); trocarAba(i, true); }
     },true); // fase de captura: pega antes de qualquer navegação de âncora
     document.addEventListener('keydown',function(ev){
       if(!document.body.classList.contains('carrossel')||!document.body.classList.contains('dash'))return;
