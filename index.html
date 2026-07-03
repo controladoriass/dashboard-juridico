@@ -556,7 +556,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     <div class="kpi"><div class="n" data-count="16" id="k-proc">0</div><div class="k">Processos na carteira</div><div class="sub" id="k-proc-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="152" id="k-horas">0</div><div class="k">Horas dedicadas</div><div class="sub" id="k-horas-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="6" id="k-areas">0</div><div class="k">Áreas do Direito</div><div class="sub" id="k-areas-sub">—</div></div>
-    <div class="kpi"><div class="n" id="k-valor">—</div><div class="k">Valor de causa sob gestão</div><div class="sub" id="k-valor-sub">valor aproximado, sobre os processos com valor informado na carteira</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="k-ativos">0</div><div class="k">Processos ativos</div><div class="sub" id="k-ativos-sub">em andamento hoje</div></div>
     <div class="kpi"><div class="n" data-count="4" id="k-trib">0</div><div class="k">Tribunais</div><div class="sub" id="k-trib-sub">—</div></div>
   </div>
 </section>
@@ -577,8 +577,8 @@ body.dash.is-semdados #sd-overlay{display:block}
 
   <div class="grid g2">
     <div class="card reveal">
-      <h3><span class="bt"></span>Estoque de processos ativos</h3>
-      <div class="desc">Saldo acumulado em gestão ao fim de cada ano (entradas − encerramentos).</div>
+      <h3><span class="bt"></span>Processos ativos por ano</h3>
+      <div class="desc">Quantos processos estavam ativos (em andamento) ao fim de cada ano — a carteira viva em gestão.</div>
       <div class="vbars" id="estoque"></div>
     </div>
     <div class="card reveal">
@@ -890,7 +890,7 @@ function renderDashboard(){
   if(k.horas && k.horas!=='—'){ el('k-horas').innerHTML=k.horas; el('k-horas-sub').textContent=k.horasSub||'horas apontadas'; }
   else { el('k-horas').textContent='—'; el('k-horas-sub').textContent='em atualização'; }
   el('k-areas').dataset.count=k.areas; el('k-areas').textContent='0'; el('k-areas-sub').textContent=k.areasSub;
-  el('k-valor').innerHTML=k.valor; if(el('k-valor-sub')&&k.valorSub){el('k-valor-sub').textContent=k.valorSub;} else if(el('k-valor-sub')){el('k-valor-sub').textContent='valor aproximado, sobre os processos com valor informado na carteira';}
+  if(el('k-ativos')){ el('k-ativos').dataset.count=DATA.dataset.ativos||0; el('k-ativos').textContent='0'; el('k-ativos-sub').textContent='em andamento hoje'; }
   el('k-trib').dataset.count=k.trib; el('k-trib').textContent='0'; el('k-trib-sub').textContent=k.tribSub;
   // insights dinâmicos (gerados dos dados)
   const ds=DATA.dataset;
