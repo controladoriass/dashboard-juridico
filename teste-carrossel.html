@@ -1099,22 +1099,29 @@ function trocarAba(idx){
   document.querySelectorAll('#aba-dots i').forEach(function(d,i){ d.classList.toggle('on', i===idx); });
 }
 function navAba(dir){ trocarAba(abaAtual+dir); }
+var _carrosselLigado=false;
 function initCarrossel(){
   document.body.classList.add('carrossel');
   abaAtual=0;
   montarDots();
-  // liga os links do nav pra trocar aba (em vez de rolar)
-  document.querySelectorAll('.topbar nav a').forEach(function(a){
-    var href=a.getAttribute('href')||'';
-    var i=ABAS.findIndex(function(x){return '#'+x.id===href;});
-    if(i>=0){ a.onclick=function(ev){ ev.preventDefault(); trocarAba(i); }; }
-  });
-  // teclado: setas ← →
-  document.onkeydown=function(ev){
-    if(!document.body.classList.contains('carrossel')||!document.body.classList.contains('dash'))return;
-    if(ev.key==='ArrowLeft')navAba(-1);
-    else if(ev.key==='ArrowRight')navAba(1);
-  };
+  // DELEGAÇÃO DE EVENTOS: um único listener global captura o clique em qualquer
+  // link do nav — imune a cache/recriação de elementos e a ordem de carregamento.
+  if(!_carrosselLigado){
+    document.addEventListener('click',function(ev){
+      if(!document.body.classList.contains('carrossel'))return;
+      var a=ev.target.closest('.topbar nav a');
+      if(!a)return;
+      var href=a.getAttribute('href')||'';
+      var i=ABAS.findIndex(function(x){return '#'+x.id===href;});
+      if(i>=0){ ev.preventDefault(); ev.stopPropagation(); trocarAba(i); }
+    },true); // fase de captura: pega antes de qualquer navegação de âncora
+    document.addEventListener('keydown',function(ev){
+      if(!document.body.classList.contains('carrossel')||!document.body.classList.contains('dash'))return;
+      if(ev.key==='ArrowLeft')navAba(-1);
+      else if(ev.key==='ArrowRight')navAba(1);
+    });
+    _carrosselLigado=true;
+  }
   // começa na primeira aba
   trocarAba(0);
 }
