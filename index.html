@@ -1114,12 +1114,14 @@ function abrirPorHash(){
   function lift(){
     if(!curtain) return ready();
     if(temHash){ curtain.style.display='none'; return ready(); } // deep-link: pula cortina
-    setTimeout(()=>{ curtain.classList.add('up'); ready(); }, 1700);
-    curtain.addEventListener('transitionend',()=>curtain.style.display='none',{once:true});
-    setTimeout(()=>{ if(curtain) curtain.style.display='none'; ready(); }, 3200); // segurança
+    curtain.style.display='flex'; // garante visível
+    // timers com setTimeout puro (NÃO usar rAF — não dispara em aba de fundo e travaria a cortina)
+    setTimeout(function(){ curtain.classList.add('up'); ready(); }, 1900); // 1.9s: tempo de ver a animação do logo
+    curtain.addEventListener('transitionend', function(){ curtain.style.display='none'; }, {once:true});
+    setTimeout(function(){ if(curtain){curtain.classList.add('up'); curtain.style.display='none';} ready(); }, 3400); // segurança dupla
   }
   if(document.readyState==='complete') lift();
-  else window.addEventListener('load',lift);
+  else window.addEventListener('load', lift);
 })();
 
 /* garante que TUDO apareça antes de imprimir (números, barras, gráfico) */
