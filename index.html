@@ -463,6 +463,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 .ccard.is-panorama .cmeta{margin-top:18px}
 .ccard.is-panorama .mv{color:var(--gold)}
 .pano-selo{position:absolute;top:22px;right:24px;color:var(--gold);font-size:22px;line-height:1;opacity:.9}
+.hero-sub-grupo{display:block;font-size:.42em;font-weight:600;color:var(--gold);letter-spacing:.04em;margin-top:.35em;opacity:.92}
 </style>
 </head>
 <body>
@@ -1078,7 +1079,13 @@ function abrirGrupo(gk, cardEl){
 // Nível 3: dashboard da EMPRESA -> zoom no nome da empresa -> dashboard monta
 function montarDashboard(gk, ek){
   const emp=GRUPOS[gk].empresas[ek];
-  DATA=Object.assign({}, emp.dataset, {meta:{nome:emp.nome, nomeHtml:emp.nome, periodo:'2010 — 2026'}, dataset:emp.dataset});
+  const g=GRUPOS[gk];
+  let nomeHtml=emp.nome;
+  // Panorama: mostra "Panorama Geral" com o nome do grupo embaixo
+  if(emp.dataset._panorama){
+    nomeHtml='Panorama Geral<span class="hero-sub-grupo">'+(g.nome||'')+'</span>';
+  }
+  DATA=Object.assign({}, emp.dataset, {meta:{nome:emp.nome, nomeHtml:nomeHtml, periodo:'2010 — 2026'}, dataset:emp.dataset});
   renderDashboard();
 }
 function abrirEmpresa(gk, ek, cardEl){
