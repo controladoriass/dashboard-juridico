@@ -391,12 +391,12 @@
   /* nav vira barra de abas com indicador da aba ativa */
   body.carrossel .topbar nav a.tab-ativa{color:var(--gold)}
   body.carrossel .topbar nav a.tab-ativa::before{opacity:1;height:19px}
-  /* as 4 secoes viram slides: escondidas por padrao, a ativa aparece deslizando */
-  body.carrossel section.aba-slide{display:none;animation:slideIn .5s var(--t) both}
+  /* as 4 secoes viram slides: escondidas por padrao; a ativa aparece (sem animação por padrão) */
+  body.carrossel section.aba-slide{display:none}
   body.carrossel section.aba-slide.slide-ativa{display:block}
-  @keyframes slideIn{from{opacity:0;transform:translateX(38px)}to{opacity:1;transform:none}}
-  body.carrossel section.aba-slide.slide-sai{animation:slideOut .28s var(--t) both}
-  @keyframes slideOut{from{opacity:1;transform:none}to{opacity:0;transform:translateX(-30px)}}
+  /* a animação de fade só roda quando a classe .anim-entra é adicionada via JS */
+  body.carrossel section.aba-slide.anim-entra{animation:fadeAba .5s ease both}
+  @keyframes fadeAba{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
   /* barra de controle: setas + progresso "01 / 04" + titulo da aba */
   .aba-ctrl{display:none}
   body.carrossel .aba-ctrl{display:flex;align-items:center;justify-content:space-between;gap:18px;
@@ -1082,11 +1082,14 @@ function trocarAba(idx, rolar){
   // esconde a atual (se diferente)
   if(atual && atual!==alvo){ atual.classList.remove('slide-ativa'); }
   abaAtual=idx;
-  // mostra alvo com animação de entrada e revela conteúdo
+  // mostra alvo e revela conteúdo
   alvo.classList.add('slide-ativa');
-  // força reinício da animação
-  alvo.style.animation='none'; void alvo.offsetWidth; alvo.style.animation='';
   revelarSecaoImediata(alvo);
+  // dispara a animação de fade de forma robusta: remove a classe, força reflow,
+  // re-adiciona na próxima frame (garante que a animação reinicia do zero)
+  alvo.classList.remove('anim-entra');
+  void alvo.offsetWidth;
+  requestAnimationFrame(function(){ alvo.classList.add('anim-entra'); });
   // ao INTERAGIR (clique/seta), leva a tela até a barra de abas para o usuário
   // VER a troca acontecer (a barra fica sticky logo abaixo do menu do topo).
   if(rolar){
