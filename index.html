@@ -573,6 +573,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     <div class="kpi"><div class="n" id="v-cresc">—</div><div class="k">Crescimento do estoque</div><div class="sub" id="v-cresc-sub">—</div><span class="trend" id="v-trend">▲ expansão</span></div>
     <div class="kpi"><div class="n" id="v-entradas">0</div><div class="k">Entradas no período</div><div class="sub">total de processos abertos</div></div>
     <div class="kpi"><div class="n" id="v-encerr">0</div><div class="k">Encerramentos</div><div class="sub">casos finalizados (por status)</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="v-ativos">0</div><div class="k">Ativos hoje</div><div class="sub">processos em andamento (30/06/2026)</div></div>
   </div>
 
   <div class="grid g2">
@@ -922,6 +923,7 @@ function renderDashboard(){
     el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
   if(el('v-encerr')){ el('v-encerr').dataset.count=totEncerr; el('v-encerr').textContent=totEncerr.toLocaleString('pt-BR'); }
+  if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
   el('ins1').innerHTML=`A carteira acompanha o cliente desde <strong>${primAno}</strong>, com <strong>${k.proc} processos</strong> no total (${ds.ativos} ativos). O estoque sob gestão evoluiu ao longo do período.`;
   el('ins2').innerHTML=`Atuação em <strong>${Object.keys(ds.tribunais).length} tribunais</strong> e <strong>${Object.keys(ds.uf).length} estados</strong>, com carteira multidisciplinar em ${Object.keys(ds.area).length} áreas do Direito.`;
   // limpar containers
