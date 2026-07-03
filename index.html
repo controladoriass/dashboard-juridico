@@ -1081,9 +1081,10 @@ function montarDashboard(gk, ek){
   const emp=GRUPOS[gk].empresas[ek];
   const g=GRUPOS[gk];
   let nomeHtml=emp.nome;
-  // Panorama: mostra "Panorama Geral" com o nome do grupo embaixo
+  // Panorama: "Panorama Geral do Grupo" com o nome do grupo embaixo (sem repetir "Grupo")
   if(emp.dataset._panorama){
-    nomeHtml='Panorama Geral<span class="hero-sub-grupo">'+(g.nome||'')+'</span>';
+    var nomeGrupo=(g.nome||'').replace(/^Grupo\s+/i,'');
+    nomeHtml='Panorama Geral do Grupo<span class="hero-sub-grupo">'+nomeGrupo+'</span>';
   }
   DATA=Object.assign({}, emp.dataset, {meta:{nome:emp.nome, nomeHtml:nomeHtml, periodo:'2010 — 2026'}, dataset:emp.dataset});
   renderDashboard();
