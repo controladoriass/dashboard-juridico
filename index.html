@@ -232,13 +232,13 @@
   .vbars::-webkit-scrollbar,.gbars::-webkit-scrollbar{height:6px}
   .vbars::-webkit-scrollbar-thumb,.gbars::-webkit-scrollbar-thumb{background:rgba(207,163,110,.3);border-radius:3px}
   .vbars::-webkit-scrollbar-track,.gbars::-webkit-scrollbar-track{background:transparent}
-  .vbars{display:flex;align-items:flex-end;gap:clamp(2px,0.8vw,8px);height:220px;padding-top:14px}
-  .vbar{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:8px}
+  .vbars{display:flex;align-items:flex-end;gap:clamp(10px,2vw,22px);height:220px;padding-top:14px;overflow-x:auto;overflow-y:hidden}
+  .vbar{flex:1 1 0;min-width:34px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:10px}
   .vbar .col{width:100%;max-width:44px;border-radius:6px 6px 2px 2px;position:relative;background:linear-gradient(180deg,var(--navy-mid),#2c3656);transition:height 1.1s var(--t);height:0}
   .vbar .col.hl{background:linear-gradient(180deg,var(--gold),#b98a4f)}
   .vbar .col .v{position:absolute;top:-22px;left:50%;transform:translateX(-50%);font-size:12px;font-weight:600;color:#cdd1e0;white-space:nowrap}
   .vbar .col.hl .v{color:var(--gold)}
-  .vbar .x{font-size:clamp(8px,1vw,12px);color:#828aa3;font-weight:500;white-space:nowrap}
+  .vbar .x{font-size:12px;color:#828aa3;font-weight:500;white-space:nowrap;letter-spacing:.01em}
 
   .chartwrap{position:relative}
   .legend{display:flex;gap:22px;margin-top:18px;flex-wrap:wrap}
