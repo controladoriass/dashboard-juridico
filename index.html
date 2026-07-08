@@ -1084,7 +1084,7 @@ function montarEmpresas(gk){
     d.className='ccard'+(sem?' is-sem':'')+(pano?' is-panorama':'');
     d.style.setProperty('--i', Math.min(i,8)); i++;
     d.onclick=()=>abrirEmpresa(gk, ek, d);
-    const tipo = pano ? 'Consolidado do grupo' : (emp.dataset._semProcessos ? 'Sem processos' : (sem ? 'Em breve' : 'Parte do grupo'));
+    const tipo = pano ? 'Consolidado do grupo' : 'Parte do grupo';
     const vp = sem ? '—' : k.proc;
     const va = sem ? '—' : k.ativos;
     const vr = sem ? '—' : k.areas;
