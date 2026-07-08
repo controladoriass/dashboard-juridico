@@ -741,6 +741,17 @@ let DATA = {}; let GRUPO_ATUAL=null;
 const GOLD='#CFA36E', NAVYMID='#3F5276';
 /* ===== DATA DE CORTE — mudar SO AQUI na atualizacao mensal (tudo acompanha) ===== */
 const DATA_CORTE = { curta:'30/06/2026', extenso:'Junho de 2026' };
+// Recorte de exibição: séries por ano mostram só ANO_MIN..2026 (base pré-2022 é pouco
+// confiável para leitura). NÃO exclui processos — só corta a SÉRIE dos gráficos e os
+// cálculos derivados dela. Os KPIs de total (processos, ativos, áreas, horas) seguem reais.
+const ANO_MIN = 2022;
+// filtra um objeto {ano:valor} mantendo só os anos >= ANO_MIN (chaves não-numéricas caem)
+function cortaAnos(obj){
+  if(!obj) return obj;
+  var out={};
+  Object.keys(obj).forEach(function(a){ if(/^\d{4}$/.test(a) && +a>=ANO_MIN) out[a]=obj[a]; });
+  return out;
+}
 
 function countUp(el){
   const target=+el.dataset.count; const dur=1300, t0=performance.now();
@@ -870,8 +881,8 @@ function people(){
 function fluxo(){
   const box=document.getElementById('fluxo');
   if(box.dataset.built)return; box.dataset.built='1';
-  const years=Object.keys(DATA.entradas);
-  const ent=DATA.entradas, enc=DATA.encerrados;
+  const ent=cortaAnos(DATA.entradas), enc=cortaAnos(DATA.encerrados);
+  const years=Object.keys(ent);
   const max=Math.max(...Object.values(ent),...Object.values(enc),1);
   years.forEach(yr=>{
     const e=ent[yr]||0, c=enc[yr]||0;
@@ -910,8 +921,8 @@ function renderDashboard(){
   } else { document.body.classList.remove('is-semdados'); }
   el('ph-titulo').innerHTML = m.nome+' — '+DATA_CORTE.extenso;
   el('hero-nome').innerHTML = m.nomeHtml;
-  // período de análise DINÂMICO: do ano do processo mais antigo ao mais recente (dados reais deste grupo/empresa)
-  var _anosEst = (DATA.dataset && DATA.dataset.estoque) ? Object.keys(DATA.dataset.estoque).filter(function(a){return /^\d{4}$/.test(a);}).sort() : [];
+  // período de análise: recorte de exibição ANO_MIN..último ano com dados (base pré-2022 omitida)
+  var _anosEst = (DATA.dataset && DATA.dataset.estoque) ? Object.keys(cortaAnos(DATA.dataset.estoque)).sort() : [];
   var _periodo = _anosEst.length ? (_anosEst[0]+' — '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
   el('hero-periodo').textContent = _periodo;
   el('hero-atualizado').textContent = DATA_CORTE.extenso;
@@ -923,20 +934,19 @@ function renderDashboard(){
   el('k-areas').dataset.count=k.areas; el('k-areas').textContent='0'; el('k-areas-sub').textContent=k.areasSub;
   if(el('k-ativos')){ el('k-ativos').dataset.count=DATA.dataset.ativos||0; el('k-ativos').textContent='0'; el('k-ativos-sub').textContent='em andamento hoje'; }
   el('k-trib').dataset.count=k.trib; el('k-trib').textContent='0'; el('k-trib-sub').textContent=k.tribSub;
-  // insights dinâmicos (gerados dos dados)
+  // insights dinâmicos (gerados dos dados) — séries cortadas ao recorte de exibição (>= ANO_MIN)
   const ds=DATA.dataset;
-  const anos=Object.keys(ds.estoque);
-  const primAno=anos[0], ultAno=anos[anos.length-1];
-  // KPIs da seção Volume (crescimento, entradas totais, encerramentos)
-  const estVals=Object.values(ds.estoque), estKeys=Object.keys(ds.estoque);
+  const _estC=cortaAnos(ds.estoque), _entC=cortaAnos(ds.entradas), _encC=cortaAnos(ds.encerrados);
+  // KPIs da seção Volume (crescimento, entradas totais, encerramentos) — base 2022→2026
+  const estVals=Object.values(_estC), estKeys=Object.keys(_estC);
   const primVal=estVals[0]||1, ultVal=estVals[estVals.length-1]||0;
-  // base representativa: 1º ano com estoque >=5 (evita "107×" a partir de base 1)
+  // base representativa: 1º ano (do recorte) com estoque >=5 (evita multiplicador inflado por base baixa)
   var _baseKey=estKeys[0], _baseVal=primVal;
   if(_baseVal<5){ for(var _bi=0;_bi<estKeys.length;_bi++){ if((estVals[_bi]||0)>=5){ _baseKey=estKeys[_bi]; _baseVal=estVals[_bi]; break; } } }
   const crescPct = _baseVal>0 ? Math.round((ultVal-_baseVal)/_baseVal*100) : 0;
   const crescMult = _baseVal>0 ? (ultVal/_baseVal) : 0;
-  const totEntradas=Object.values(ds.entradas).reduce((a,b)=>a+b,0);
-  const totEncerr=Object.values(ds.encerrados).reduce((a,b)=>a+b,0);
+  const totEntradas=Object.values(_entC).reduce((a,b)=>a+b,0);
+  const totEncerr=Object.values(_encC).reduce((a,b)=>a+b,0);
   if(el('v-cresc')){
     // padrao unico p/ todos os grupos: sempre multiplicador "N×"
     var multTxt = crescMult>=2 ? Math.round(crescMult) : (Math.round(crescMult*10)/10).toString().replace('.',',');
@@ -948,50 +958,62 @@ function renderDashboard(){
   if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
   if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.curta+')';
   // limpar containers
-  ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','atividades','people','horasano'].forEach(limpa);
+  ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','prazano','tarefano','atividades','people','horasano'].forEach(limpa);
   el('donut').innerHTML=''; const fx=el('fluxo'); fx.innerHTML=''; delete fx.dataset.built;
-  // Volume + Complexidade (dados reais)
-  vbars('estoque',ds.estoque,ds.estoqueHl);
+  // Volume + Complexidade (dados reais) — estoque cortado ao recorte (>= ANO_MIN)
+  vbars('estoque',_estC,ds.estoqueHl);
   hbars('instancia',ds.instancia);
   hbars('polo',ds.polo,true);
   donut();regions();tribunais();fluxo();
 
-  // === ESFORCO ===
+  // === ESFORCO === (recorte >= ANO_MIN: recalcula totais a partir das séries por ano cortadas)
   const esf=ds.esforco||{};
   const semEsf = !esf || Object.keys(esf).length===0;
-  var _atv=esf.atividades||{}; var _totComp=Object.keys(_atv).reduce(function(a,kk){return a+(_atv[kk]||0);},0);
+  var _audCe=cortaAnos(esf.audano), _prazCe=cortaAnos(esf.prazano), _tarCe=cortaAnos(esf.tarefano);
+  var _somaSerie=function(o){return Object.values(o||{}).reduce(function(a,b){return a+(+b||0);},0);};
+  var _nPraz=_somaSerie(_prazCe), _nAud=_somaSerie(_audCe), _nTar=_somaSerie(_tarCe);
+  // "Atividades por tipo" reconstruído do recorte; se não há série por ano, cai no total original
+  var _atv;
+  if(_nPraz||_nAud||_nTar){ _atv={}; if(_nPraz)_atv['Prazos']=_nPraz; if(_nAud)_atv['Audiências']=_nAud; if(_nTar)_atv['Tarefas']=_nTar; }
+  else { _atv=esf.atividades||{}; }
+  var _totComp=Object.keys(_atv).reduce(function(a,kk){return a+(_atv[kk]||0);},0);
   if(el('e-compromissos')){ if(semEsf||!_totComp){el('e-compromissos').removeAttribute('data-count');el('e-compromissos').textContent='—';} else {el('e-compromissos').dataset.count=_totComp; el('e-compromissos').textContent='0';} }
   if(el('e-prod')){ if(semEsf){el('e-prod').removeAttribute('data-count');el('e-prod').textContent='—';if(el('e-prod-sub'))el('e-prod-sub').textContent='em atualização';} else {var _cp=esf.comProducao||0; el('e-prod').dataset.count=_cp; el('e-prod').textContent='0'; var _pct=k.proc?Math.round(_cp/k.proc*100):0; var _pf=(k.proc||0).toLocaleString('pt-BR'); el('e-prod-sub').textContent='de '+_pf+' com atividade lançada ('+_pct+'%)';} }
   if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
-  if(esf.audano) vbars('audano',esf.audano,[Object.keys(esf.audano).slice(-1)[0]]);
-  if(esf.prazano) vbars('prazano',esf.prazano,[Object.keys(esf.prazano).slice(-1)[0]]);
-  if(esf.tarefano) vbars('tarefano',esf.tarefano,[Object.keys(esf.tarefano).slice(-1)[0]]);
-  if(esf.atividades) hbars('atividades',esf.atividades);
-  var _au=el('audano'); if(_au){var c1=_au.closest('.card'); if(c1) c1.style.display=(esf.audano&&Object.keys(esf.audano).length)?'':'none';}
-  var _pz=el('prazano'); if(_pz){var cp=_pz.closest('.card'); if(cp) cp.style.display=(esf.prazano&&Object.keys(esf.prazano).length)?'':'none';}
-  var _tf=el('tarefano'); if(_tf){var ct=_tf.closest('.card'); if(ct) ct.style.display=(esf.tarefano&&Object.keys(esf.tarefano).length)?'':'none';}
-  var _at=el('atividades'); if(_at){var c2=_at.closest('.card'); if(c2) c2.style.display=(esf.atividades&&Object.keys(esf.atividades).length)?'':'none';}
+  if(_nAud) vbars('audano',_audCe,[Object.keys(_audCe).slice(-1)[0]]);
+  if(_nPraz) vbars('prazano',_prazCe,[Object.keys(_prazCe).slice(-1)[0]]);
+  if(_nTar) vbars('tarefano',_tarCe,[Object.keys(_tarCe).slice(-1)[0]]);
+  if(_totComp) hbars('atividades',_atv);
+  var _au=el('audano'); if(_au){var c1=_au.closest('.card'); if(c1) c1.style.display=_nAud?'':'none';}
+  var _pz=el('prazano'); if(_pz){var cp=_pz.closest('.card'); if(cp) cp.style.display=_nPraz?'':'none';}
+  var _tf=el('tarefano'); if(_tf){var ct=_tf.closest('.card'); if(ct) ct.style.display=_nTar?'':'none';}
+  var _at=el('atividades'); if(_at){var c2=_at.closest('.card'); if(c2) c2.style.display=_totComp?'':'none';}
   var _pe=el('people'); if(_pe){var c3=_pe.closest('.card'); if(c3) c3.style.display=(esf.people&&esf.people.length)?'':'none';}
   if(esf.people){ const pbox=el('people'); if(pbox){ const ICON='<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg>';
     esf.people.forEach(function(pp){ var n=pp[0],c=pp[1]; var d=document.createElement('div');d.className='person';
       d.innerHTML='<span class="av">'+ICON+'</span><div class="pinfo"><div class="pnome">'+n+'</div><div class="preg"><b>'+c+'</b> apontamentos</div></div>'; pbox.appendChild(d); }); } }
 
-  // === HORAS ===
+  // === HORAS === (recorte >= ANO_MIN: total/médias recalculados a partir da série cortada,
+  // para o KPI bater com o gráfico exibido)
   const hs=ds.horas||{};
   const semHoras = !hs || Object.keys(hs).length===0;
-  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(hs.total||0);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas até 30/06 (parcial)';} else {el('h-total').dataset.count=Math.round(hs.total||0); el('h-total').textContent='0'; el('h-total-sub').textContent='horas no período';} }
-  if(el('h-media')){ if(semHoras){el('h-media').innerHTML='—';if(el('h-media-sub'))el('h-media-sub').textContent='em atualização';} else {el('h-media').innerHTML=String(hs.media||0).replace('.',',')+'<small>h</small>'; el('h-media-sub').textContent=Math.round(hs.total||0)+'h / '+k.proc+' processos';} }
-  if(el('h-mediaativos')){ if(semHoras){el('h-mediaativos').innerHTML='—';if(el('h-mediaativos-sub'))el('h-mediaativos-sub').textContent='em atualização';} else {el('h-mediaativos').innerHTML=String(hs.mediaAtivos||0).replace('.',',')+'<small>h</small>'; el('h-mediaativos-sub').textContent=Math.round(hs.total||0)+'h / '+ds.ativos+' ativos';} }
-  if(hs.horasano) vbars('horasano',hs.horasano,[Object.keys(hs.horasano).slice(-1)[0]],'h');
+  const _horasC = cortaAnos(hs.horasano);
+  const _totHoras = Object.values(_horasC).reduce((a,b)=>a+(+b||0),0);
+  const _mediaH = k.proc ? Math.round(_totHoras/k.proc*10)/10 : 0;
+  const _mediaHAtiv = (ds.ativos) ? Math.round(_totHoras/ds.ativos*10)/10 : 0;
+  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas até 30/06 (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent='horas no período';} }
+  if(el('h-media')){ if(semHoras){el('h-media').innerHTML='—';if(el('h-media-sub'))el('h-media-sub').textContent='em atualização';} else {el('h-media').innerHTML=String(_mediaH).replace('.',',')+'<small>h</small>'; el('h-media-sub').textContent=Math.round(_totHoras)+'h / '+k.proc+' processos';} }
+  if(el('h-mediaativos')){ if(semHoras){el('h-mediaativos').innerHTML='—';if(el('h-mediaativos-sub'))el('h-mediaativos-sub').textContent='em atualização';} else {el('h-mediaativos').innerHTML=String(_mediaHAtiv).replace('.',',')+'<small>h</small>'; el('h-mediaativos-sub').textContent=Math.round(_totHoras)+'h / '+ds.ativos+' ativos';} }
+  if(hs.horasano) vbars('horasano',_horasC,[Object.keys(_horasC).slice(-1)[0]],'h');
   // nota explicativa (dentro do card de evolucao, estilo .insight)
   var _hn=el('horas-nota'); var _hnbox=el('horas-nota-box');
   if(_hn){
     if(hs._estimativa){ _hn.innerHTML='<strong class="hn-mark">^</strong> Total parcial de horas apontadas no timesheet até '+DATA_CORTE.curta+'. Reflete os registros efetivamente lançados no sistema — não cobre 100% dos processos (parte dos apontamentos não é recuperável pela API do EasyJur). Serve como indicador da evolução do esforço, não como fechamento contábil de horas.'; if(_hnbox)_hnbox.style.display=''; }
     else { _hn.innerHTML=''; if(_hnbox)_hnbox.style.display='none'; }
   }
-  // se nao ha serie de horas por ano, esconder esse card (a nota vai junto)
-  var _hac=el('horasano'); if(_hac){ var card=_hac.closest('.card'); if(card){ card.style.display = (hs.horasano && Object.keys(hs.horasano).length) ? '' : 'none'; } }
+  // se nao ha serie de horas por ano NO RECORTE, esconder esse card (a nota vai junto)
+  var _hac=el('horasano'); if(_hac){ var card=_hac.closest('.card'); if(card){ card.style.display = Object.keys(_horasC).length ? '' : 'none'; } }
 }
 
 /* animações on-scroll */
