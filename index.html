@@ -448,22 +448,72 @@
     .kpis{grid-template-columns:repeat(var(--kn,5),1fr) !important}
     .amp-wm{display:none !important}
 
-    /* ===== LAYOUT: cada seção em página nova, cards empilhados e centralizados ===== */
-    /* 1 card por linha (empilha os pares/trios g2/g3) e centraliza a coluna de conteúdo */
-    .grid{grid-template-columns:1fr !important;gap:14px !important;max-width:250mm;margin-left:auto !important;margin-right:auto !important}
-    .kpis{max-width:250mm;margin-left:auto !important;margin-right:auto !important}
-    .card,.insight{max-width:250mm;margin-left:auto !important;margin-right:auto !important;width:100%}
-    .sub-lead{max-width:250mm;margin-left:auto !important;margin-right:auto !important;text-align:center}
+    /* ===== LAYOUT: paginação página-a-página (roteiro definido pelo escritório) ===== */
+    /* Coluna de conteúdo centralizada e contida (não cola nas bordas) */
+    .grid{grid-template-columns:1fr !important;gap:18px !important;max-width:235mm;margin-left:auto !important;margin-right:auto !important;
+      align-content:center;justify-items:center}
+    .kpis{max-width:235mm;margin-left:auto !important;margin-right:auto !important}
+    .card,.insight{max-width:235mm;margin-left:auto !important;margin-right:auto !important;width:100%}
+    .sub-lead{max-width:235mm;margin-left:auto !important;margin-right:auto !important;text-align:center}
+    .sec-head{max-width:235mm;margin-left:auto !important;margin-right:auto !important;text-align:center}
+    .sec-head p{margin-left:auto !important;margin-right:auto !important;max-width:190mm}
 
-    /* cada seção principal abre em página nova; a intro (1ª) não força quebra antes */
-    #volume,#complexidade,#esforco,#horas{break-before:page}
-    section.block{break-inside:auto;padding-top:14px !important;padding-bottom:14px !important}
+    section.block{break-inside:auto;padding-top:16px !important;padding-bottom:16px !important}
     /* nunca cortar um card/kpi/leitura no meio da página */
-    .card,.kpis,.insight,.grid{break-inside:avoid}
-    .sec-head{break-after:avoid}       /* título não fica órfão no fim da página */
+    .card,.kpis,.insight{break-inside:avoid}
     .rank,.rank .r,.region,.person,.pill{break-inside:avoid}
-    footer{padding:14px 8mm 0 !important;break-inside:avoid;background:#141833 !important}
-    footer .foot-grid{gap:20px !important}
+
+    /* --- classe utilitária: força começar em página nova, conteúdo centrado verticalmente --- */
+    .pg{break-before:page;padding-top:0 !important}
+    /* wrapper que centraliza verticalmente o conteúdo de uma "página" de gráfico */
+    .pg-center{min-height:180mm;display:flex;flex-direction:column;justify-content:center;gap:18px}
+
+    /* ==== VOLUME ==== */
+    /* pág 1: hero + KPIs + sec-head do Volume (fluem juntos, sem quebra) */
+    /* pág 2: os 2 gráficos (Evolução / Entradas×Encerr.) centralizados */
+    #volume{break-before:page}
+    #volume .grid{break-before:page}
+    #volume .grid>.card{grid-column:1/-1;width:100%}
+    /* pág 3: Leitura do Volume + abertura da Complexidade (título+texto) logo abaixo */
+    #volume .insight{break-before:page}
+
+    /* ==== COMPLEXIDADE ==== (o sec-head vem junto da leitura do Volume — NÃO quebra antes) */
+    #complexidade{break-before:auto}
+    /* pág 4: Distribuição por área sozinha | pág 5: Por instância sozinha */
+    .pg-cplx1{break-before:page;display:block !important}
+    .pg-cplx1>.pg-area{break-after:page}
+    /* pág 6: Geográfica + Tribunais + Leitura da Complexidade */
+    .pg-cplx2{break-before:page;display:block !important;margin-top:0 !important}
+    .pg-cplx2>.card{margin-bottom:18px}
+    #complexidade .insight{break-before:auto}
+
+    /* ==== ESFORÇO ==== */
+    /* pág 7: sec-head + 4 KPIs + sub-lead "Atividades por ano" (fluem juntos) */
+    #esforco{break-before:page}
+    /* gráficos 2 por página: quebra ANTES do grupo e depois a cada 2 cards.
+       g3 vira bloco; cada card ocupa a largura toda; quebra após o 2º e após o 4º. */
+    #esforco .grid.g3{break-before:page;display:block !important}
+    #esforco .grid.g3>.card{width:100%;margin-bottom:18px}
+    #esforco .grid.g3>.card:nth-child(2){break-after:page}       /* Prazos+Audiências | Tarefas... */
+    #esforco #card-atividades{break-before:auto}                  /* Tarefas + Atividades por tipo = 2 na 2ª pág */
+    /* Equipe mobilizada + Leitura do Esforço: essa leitura vai JUNTO do início de Horas,
+       então força a Equipe para uma página e deixa a leitura seguir para a pág de Horas */
+    .pg-equipe{break-before:page}                                 /* Equipe mobilizada abre página */
+    #esforco .insight{break-before:auto}                          /* Leitura segue o fluxo p/ juntar com Horas */
+
+    /* ==== HORAS ==== */
+    /* Leitura do Esforço + abertura de Horas (sec-head + 3 KPIs) na MESMA página → NÃO quebra Horas */
+    #horas{break-before:auto}
+    /* Evolução das horas sozinha, centralizada */
+    #horas>.card{break-before:page}
+    /* Leitura + Sobre este indicador em página própria, centralizadas */
+    #horas #ins4-box{break-before:page;margin-top:0 !important}
+
+    /* ==== PÁGINA FINAL: logo + redes + endereços, centralizada ==== */
+    footer{break-before:page;padding:0 8mm !important;background:#141833 !important;
+      min-height:180mm;display:flex;align-items:center;justify-content:center}
+    footer .foot-grid{gap:40px !important;justify-items:center;text-align:center;max-width:220mm}
+    footer .foot-social{justify-content:center}
   }
 
 /* ===== Estado 'sem dados / em atualizacao' (empresas ainda nao auditadas) ===== */
@@ -628,8 +678,8 @@ body.dash.is-semdados #sd-overlay{display:block}
     <p>A composição dos processos por área, instância, posição e abrangência geográfica — indicadores que ajudam a dimensionar o nível de especialização e a estrutura necessária para conduzir a carteira.</p>
   </div>
 
-  <div class="grid g2">
-    <div class="card reveal">
+  <div class="grid g2 pg-cplx1">
+    <div class="card reveal pg-area">
       <h3><span class="bt"></span>Distribuição por área</h3>
       <div class="desc">Composição da carteira por área do Direito.</div>
       <div class="donutbox">
@@ -637,7 +687,7 @@ body.dash.is-semdados #sd-overlay{display:block}
         <div class="donut-leg" id="donut-leg"></div>
       </div>
     </div>
-    <div class="card reveal">
+    <div class="card reveal pg-inst">
       <h3><span class="bt"></span>Por instância</h3>
       <div class="desc">Processos que sobem de instância consomem trabalho sênior.</div>
       <div class="hbars" id="instancia"></div>
@@ -647,7 +697,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     </div>
   </div>
 
-  <div class="grid g2" style="margin-top:22px">
+  <div class="grid g2 pg-cplx2" style="margin-top:22px">
     <div class="card reveal">
       <h3><span class="bt"></span>Distribuição geográfica</h3>
       <div class="desc">Presença em mais de um estado e diversas comarcas.</div>
@@ -706,7 +756,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     <div class="hbars" id="atividades"></div>
   </div>
 
-  <div class="card reveal" style="margin-top:22px">
+  <div class="card reveal pg-equipe" style="margin-top:22px">
     <h3><span class="bt"></span>Equipe mobilizada por este cliente</h3>
     <div class="desc">Profissionais com apontamentos na carteira (por nº de registros).</div>
     <div class="people" id="people"></div>
