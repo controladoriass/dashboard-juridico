@@ -393,6 +393,14 @@
   .btn-link svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2}
   @media(max-width:560px){.btn-link{padding:9px 12px;font-size:0}.btn-link svg{width:18px;height:18px}}
   @media print{.btn-link{display:none !important}}
+  /* toast discreto (link copiado) */
+  #toast-msg{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(12px);
+    background:var(--navy-mid,#1c2142);color:#fff;border:1px solid var(--gold);border-radius:10px;
+    padding:11px 20px;font-family:'Montserrat',sans-serif;font-size:13px;font-weight:600;letter-spacing:.02em;
+    box-shadow:0 8px 30px rgba(0,0,0,.4);opacity:0;pointer-events:none;z-index:9999;transition:opacity .25s,transform .25s}
+  #toast-msg.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  #toast-msg::before{content:"✓";color:var(--gold);margin-right:8px;font-weight:700}
+  @media print{#toast-msg{display:none !important}}
   /* modo cliente (link isolado enviado ao cliente): sem acesso à lista de outros grupos */
   body.modo-cliente .btn-back-grupos{display:none !important}
   body.modo-cliente .brand-logo{pointer-events:none !important}
@@ -939,6 +947,9 @@ function renderDashboard(){
   } else { document.body.classList.remove('is-semdados'); }
   el('ph-titulo').innerHTML = m.nome+' — '+DATA_CORTE.extenso;
   el('hero-nome').innerHTML = m.nomeHtml;
+  // botão "Gerar link" só no Panorama do grupo (e nunca no modo cliente)
+  var _bl=el('btn-gerar-link');
+  if(_bl){ _bl.style.display = (DATA.dataset._panorama && !document.body.classList.contains('modo-cliente')) ? '' : 'none'; }
   // período de análise: recorte de exibição ANO_MIN..último ano com dados (base pré-2022 omitida)
   var _anosEst = (DATA.dataset && DATA.dataset.estoque) ? Object.keys(cortaAnos(DATA.dataset.estoque)).sort() : [];
   var _periodo = _anosEst.length ? (_anosEst[0]+' — '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
@@ -1352,20 +1363,22 @@ var LINKS_CLIENTE = {
   russi:'4eccda8c78', wf:'635e9c8ddb', zm:'cb54479644', cn:'70ec698f78', concept:'25864dde3a',
   profor:'4c05b109cc', bhm:'0ff3055e50', integra:'1a33dbec70', porto:'47b98aa046', abc:'17430a49f0'
 };
+// toast discreto (some sozinho) — usado ao copiar o link do cliente
+function toast(msg){
+  var t=document.getElementById('toast-msg');
+  if(!t){ t=document.createElement('div'); t.id='toast-msg'; document.body.appendChild(t); }
+  t.textContent=msg; t.classList.add('show');
+  clearTimeout(toast._tid); toast._tid=setTimeout(function(){ t.classList.remove('show'); }, 2200);
+}
 function gerarLinkCliente(){
   var gk = (typeof GRUPO_ATUAL!=='undefined' && GRUPO_ATUAL) ? GRUPO_ATUAL : null;
-  if(!gk){ alert('Abra o grupo desejado antes de gerar o link.'); return; }
+  if(!gk){ toast('Abra o Panorama do grupo antes de gerar o link.'); return; }
   var cod = LINKS_CLIENTE[gk];
-  if(!cod){ alert('Este grupo ainda não tem link de cliente configurado.'); return; }
-  // base = URL até a pasta do projeto. Remove index.html, barra final e qualquer
-  // segmento /c/<código>/ residual (caso o botão seja acionado já dentro de um link cliente).
+  if(!cod){ toast('Grupo sem link de cliente configurado.'); return; }
   var path = location.pathname.replace(/index\.html$/,'').replace(/\/c\/[^\/]+\/?$/,'/').replace(/\/$/,'');
-  var base = location.origin + path;
-  var link = base + '/c/' + cod + '/';
-  var nome = (GRUPOS[gk] && GRUPOS[gk].nome) ? GRUPOS[gk].nome : gk;
-  // copia para a área de transferência
-  function ok(){ alert('Link do cliente "'+nome+'" copiado:\n\n'+link+'\n\nEnvie este link — ele mostra APENAS este grupo.'); }
-  function fail(){ window.prompt('Copie o link do cliente "'+nome+'":', link); }
+  var link = location.origin + path + '/c/' + cod + '/';
+  function ok(){ toast('Link copiado'); }
+  function fail(){ window.prompt('Copie o link do cliente:', link); }
   if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(link).then(ok, fail); }
   else fail();
 }
