@@ -948,9 +948,15 @@ function renderDashboard(){
   } else { document.body.classList.remove('is-semdados'); }
   el('ph-titulo').innerHTML = m.nome+' — '+DATA_CORTE.extenso;
   el('hero-nome').innerHTML = m.nomeHtml;
-  // botão "Gerar link" só no Panorama do grupo (e nunca no modo cliente)
+  // botão "Gerar link": no Panorama do grupo OU na empresa única (grupo de 1 empresa,
+  // que não tem panorama). Nunca no modo cliente.
   var _bl=el('btn-gerar-link');
-  if(_bl){ _bl.style.display = (DATA.dataset._panorama && !document.body.classList.contains('modo-cliente')) ? '' : 'none'; }
+  if(_bl){
+    var _gAtual = (typeof GRUPO_ATUAL!=='undefined' && GRUPO_ATUAL) ? GRUPOS[GRUPO_ATUAL] : null;
+    var _grupo1 = _gAtual && (_gAtual.nEmpresas===1 || !_gAtual.empresas._panorama);
+    var _mostra = (DATA.dataset._panorama || _grupo1) && !document.body.classList.contains('modo-cliente');
+    _bl.style.display = _mostra ? '' : 'none';
+  }
   // período de análise: recorte de exibição ANO_MIN..último ano com dados (base pré-2022 omitida)
   var _anosEst = (DATA.dataset && DATA.dataset.estoque) ? Object.keys(cortaAnos(DATA.dataset.estoque)).sort() : [];
   var _periodo = _anosEst.length ? (_anosEst[0]+' — '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
