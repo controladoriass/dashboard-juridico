@@ -700,6 +700,11 @@ body.dash.is-semdados #sd-overlay{display:block}
     <div class="desc">Profissionais com apontamentos na carteira (por nº de registros).</div>
     <div class="people" id="people"></div>
   </div>
+
+  <div class="insight reveal" id="ins3-box" style="margin-top:22px">
+    <div class="t">Leitura</div>
+    <p id="ins3">—</p>
+  </div>
 </section>
 
 <!-- HORAS -->
@@ -720,7 +725,11 @@ body.dash.is-semdados #sd-overlay{display:block}
     <h3><span class="bt"></span>Evolução das horas por ano</h3>
     <div class="desc">Horas apontadas por ano — evolução da carga de trabalho ao longo do contrato.</div>
     <div class="vbars" id="horasano"></div>
-    <div class="insight" id="horas-nota-box" style="margin-top:34px;display:none">
+    <div class="insight" id="ins4-box" style="margin-top:34px;display:none">
+      <div class="t">Leitura</div>
+      <p id="ins4">—</p>
+    </div>
+    <div class="insight" id="horas-nota-box" style="margin-top:22px;display:none">
       <div class="t">Sobre este indicador</div>
       <p id="horas-nota"></p>
     </div>
@@ -903,6 +912,159 @@ function fluxo(){
 function el(id){return document.getElementById(id);}
 function limpa(id){const e=el(id);if(e)e.innerHTML='';}
 
+/* ===== LEITURAS INTERPRETATIVAS (geradas dos dados — nunca opinião) =====
+   Traduz os números de cada aba em observações concretas. Só afirma o que os
+   dados sustentam; frase sem base é omitida. Vale para todos os grupos e o
+   Panorama automaticamente. Escreve em <p id="insN"> e some se não há o quê dizer. */
+function _b(x){return '<strong>'+x+'</strong>';}                 // negrito
+function _n(x){return Number(x||0).toLocaleString('pt-BR');}     // milhar pt-BR
+function _pl(n,sing,plur){return Number(n)===1?sing:plur;}       // concordância de plural
+function _anosNum(obj){ return obj ? Object.keys(obj).filter(function(a){return /^\d{4}$/.test(a);}).sort() : []; }
+function _sujeito(ds){ return ds._panorama ? 'o grupo' : 'a carteira'; }
+// aplica um texto (ou vazio) a um <p id> e mostra/esconde o bloco .insight que o contém
+function _setLeitura(id, html){
+  var p=el(id); if(!p) return;
+  var box=p.closest('.insight'); // pode ser o proprio bloco ou o container id-box
+  if(html && html.trim()){ p.innerHTML=html; if(box) box.style.display=''; else p.style.display=''; }
+  else { p.innerHTML=''; if(box) box.style.display='none'; else p.style.display='none'; }
+}
+function gerarLeituras(ds, k){
+  var suj=_sujeito(ds);
+  var SujC = suj.charAt(0).toUpperCase()+suj.slice(1);
+
+  /* ---------- VOLUME (ins1): trajetória + dinâmica recente ---------- */
+  (function(){
+    var frases=[];
+    var anos=_anosNum(ds.estoque); if(!anos.length){ _setLeitura('ins1',''); return; }
+    var prim=anos[0], ult=anos[anos.length-1];
+    var estPrim=ds.estoque[prim]||0, estUlt=ds.estoque[ult]||0;
+    // frase 1: origem + tamanho atual (ativos vs. total, mesma base dos KPIs)
+    var _ativ=ds.ativos||0;
+    var _procTxt=_b(_n(k.proc)+' '+_pl(k.proc,'processo','processos'));
+    if(_ativ>0) frases.push(SujC+' acompanha o cliente desde '+_b(prim)+', somando '+_procTxt+
+      ', '+(_ativ===k.proc?'todos ativos hoje':'dos quais '+_b(_n(_ativ)+' '+_pl(_ativ,'segue ativo','seguem ativos'))+' hoje')+'.');
+    else frases.push(SujC+' acompanha o cliente desde '+_b(prim)+', somando '+_procTxt+', '+_pl(k.proc,'já encerrado','já encerrados')+'.');
+    // frase 2: dinâmica dos últimos anos (entradas x encerramentos) — janela de até 3 anos
+    var janela=anos.slice(-3);
+    var entJ=janela.reduce(function(a,y){return a+((ds.entradas&&ds.entradas[y])||0);},0);
+    var encJ=janela.reduce(function(a,y){return a+((ds.encerrados&&ds.encerrados[y])||0);},0);
+    if(entJ||encJ){
+      var saldo=entJ-encJ;
+      var mov = saldo>0 ? 'ampliou o estoque' : (saldo<0 ? 'reduziu o estoque' : 'manteve o estoque estável');
+      var periodoTxt = janela.length===1 ? 'No último ano ('+janela[0]+')' : ('Nos últimos '+janela.length+' anos ('+janela[0]+'–'+janela[janela.length-1]+')');
+      frases.push(periodoTxt+' assumiu '+
+        _b(_n(entJ)+' '+_pl(entJ,'novo processo','novos processos'))+' e encerrou '+_b(_n(encJ))+', o que '+mov+
+        (saldo!==0?' em '+_n(Math.abs(saldo)):'')+'.');
+    }
+    // frase 3: tendência de longo prazo do estoque.
+    // Base muito pequena (<5) infla o múltiplo (ex.: 1→107 = "107×"), pouco informativo:
+    // nesse caso ancora no 1º ano com estoque >=5 (base representativa).
+    if(anos.length>=3){
+      var baseAno=prim, baseVal=estPrim;
+      if(baseVal<5){ for(var _i=0;_i<anos.length;_i++){ if((ds.estoque[anos[_i]]||0)>=5){ baseAno=anos[_i]; baseVal=ds.estoque[anos[_i]]; break; } } }
+      if(baseVal>0 && baseAno!==ult){
+        var mult=estUlt/baseVal;
+        if(mult>=1.6){ var mt=mult>=2?Math.round(mult):(Math.round(mult*10)/10).toString().replace('.',','); frases.push('O estoque sob gestão cresceu cerca de '+_b(mt+'×')+' desde '+baseAno+' ('+baseVal+'→'+estUlt+' processos).'); }
+        else if(mult<=0.7){ frases.push('O estoque foi sendo reduzido ao longo do período ('+baseVal+'→'+estUlt+'), sinal de encerramentos acima das entradas.'); }
+        else { frases.push('O estoque manteve-se relativamente estável ao longo do período ('+baseVal+'→'+estUlt+').'); }
+      }
+    }
+    _setLeitura('ins1', frases.join(' '));
+  })();
+
+  /* ---------- COMPLEXIDADE (ins2): perfil da carteira ---------- */
+  (function(){
+    var frases=[];
+    var area=ds.area||{}, aKeys=Object.keys(area);
+    var totA=aKeys.reduce(function(a,x){return a+area[x];},0);
+    if(totA>0){
+      var ord=aKeys.slice().sort(function(a,b){return area[b]-area[a];});
+      var top=ord[0], topPct=Math.round(area[top]/totA*100);
+      if(topPct>=55) frases.push('Carteira concentrada em '+_b(top)+' ('+topPct+'% dos processos), com '+(aKeys.length-1)+' outras áreas de apoio.');
+      else if(ord.length>=2){ var seg=ord[1]; frases.push('Perfil multidisciplinar em '+_b(aKeys.length+' áreas')+', puxado por '+_b(top)+' ('+topPct+'%) e '+seg+' ('+Math.round(area[seg]/totA*100)+'%).'); }
+      else frases.push('Atuação concentrada em '+_b(top)+'.');
+    }
+    // instância predominante
+    var inst=ds.instancia||{}; var iKeys=Object.keys(inst).filter(function(x){return x!=='Não informado'&&x!=='N/I';});
+    var totI=iKeys.reduce(function(a,x){return a+inst[x];},0);
+    if(totI>0){
+      var iOrd=iKeys.slice().sort(function(a,b){return inst[b]-inst[a];});
+      var sup=(inst['2º Grau']||0)+(inst['Superiores']||0);
+      if(sup>0 && totI>0){ var supPct=Math.round(sup/totI*100); if(supPct>=15) frases.push(_b(supPct+'%')+' dos processos já subiram para 2º grau ou tribunais superiores — demanda de trabalho sênior.'); else frases.push('Predomínio de '+_b(iOrd[0])+', com pequena fração em instâncias recursais.'); }
+      else frases.push('Predomínio de '+_b(iOrd[0])+'.');
+    }
+    // posição processual
+    var polo=ds.polo||{}; var pTot=Object.values(polo).reduce(function(a,b){return a+b;},0);
+    if(pTot>0){
+      var pas=polo['Polo passivo']||0, atv=polo['Polo ativo']||0;
+      if(pas>atv*1.3) frases.push('Atuação majoritariamente '+_b('defensiva')+' (polo passivo em '+Math.round(pas/pTot*100)+'% dos casos).');
+      else if(atv>pas*1.3) frases.push('Atuação majoritariamente '+_b('ofensiva')+' (polo ativo em '+Math.round(atv/pTot*100)+'% dos casos).');
+    }
+    // dispersão geográfica
+    var uf=ds.uf||{}; var ufKeys=Object.keys(uf).filter(function(x){return x!=='N/I'&&x!=='Não informado';});
+    var totU=ufKeys.reduce(function(a,x){return a+uf[x];},0);
+    if(totU>0 && ufKeys.length>=1){
+      var uOrd=ufKeys.slice().sort(function(a,b){return uf[b]-uf[a];});
+      var mainPct=Math.round(uf[uOrd[0]]/totU*100);
+      if(ufKeys.length>=3 && mainPct<85) frases.push('Presença em '+_b(ufKeys.length+' estados')+' (base em '+uOrd[0]+', '+mainPct+'%) — carteira com capilaridade nacional.');
+      else frases.push('Concentração geográfica em '+_b(uOrd[0])+' ('+mainPct+'%).');
+    }
+    _setLeitura('ins2', frases.join(' '));
+  })();
+
+  /* ---------- ESFORÇO (ins3): volume operacional + tendência ---------- */
+  (function(){
+    var esf=ds.esforco||{};
+    if(!esf || Object.keys(esf).length===0){ _setLeitura('ins3',''); return; }
+    var frases=[];
+    var atv=esf.atividades||{}; var totC=Object.keys(atv).reduce(function(a,x){return a+(atv[x]||0);},0);
+    if(totC>0){
+      var ord=Object.keys(atv).sort(function(a,b){return atv[b]-atv[a];});
+      frases.push('A equipe executou '+_b(_n(totC)+' '+_pl(totC,'compromisso','compromissos'))+' na carteira, com predomínio de '+_b(ord[0].toLowerCase())+' ('+_n(atv[ord[0]])+').');
+    }
+    // tendência recente: soma dos compromissos por ano (prazano+audano+tarefano)
+    var porAno={};
+    ['prazano','audano','tarefano'].forEach(function(kk){ var o=esf[kk]||{}; Object.keys(o).forEach(function(y){ if(/^\d{4}$/.test(y)) porAno[y]=(porAno[y]||0)+o[y]; }); });
+    var anosE=Object.keys(porAno).sort();
+    if(anosE.length>=4){
+      var metade=Math.floor(anosE.length/2);
+      var recente=anosE.slice(-2).reduce(function(a,y){return a+porAno[y];},0);
+      var antes=anosE.slice(0,2).reduce(function(a,y){return a+porAno[y];},0);
+      var ultY=anosE[anosE.length-1], picoY=anosE.slice().sort(function(a,b){return porAno[b]-porAno[a];})[0];
+      if(recente>antes*1.3) frases.push('O ritmo operacional '+_b('acelerou')+' nos últimos anos (pico em '+_b(picoY)+', com '+_n(porAno[picoY])+' compromissos).');
+      else if(recente<antes*0.7) frases.push('O ritmo operacional '+_b('desacelerou')+' recentemente, após pico em '+_b(picoY)+'.');
+      else frases.push('Ritmo operacional '+_b('constante')+' ao longo dos anos (pico em '+picoY+').');
+    }
+    // tramitação média
+    if(esf.tramitacaoDias){ var anosT=Math.floor(esf.tramitacaoDias/365); frases.push('Tempo médio de tramitação de '+_b(_n(esf.tramitacaoDias)+' dias')+(anosT>=1?' (~'+anosT+(anosT>1?' anos':' ano')+')':'')+', refletindo o giro da carteira.'); }
+    _setLeitura('ins3', frases.join(' '));
+  })();
+
+  /* ---------- HORAS (ins4): carga e evolução ---------- */
+  (function(){
+    var hs=ds.horas||{};
+    if(!hs || Object.keys(hs).length===0 || !hs.total){ _setLeitura('ins4',''); return; }
+    var frases=[];
+    var tot=Math.round(hs.total);
+    frases.push('Foram apontadas ao menos '+_b('^'+_n(tot)+'h')+' de trabalho na carteira'+(hs.mediaAtivos?', média de '+_b(String(hs.mediaAtivos).replace('.',',')+'h')+' por processo ativo':'')+'.');
+    var anosH=_anosNum(hs.horasano);
+    if(anosH.length>=3){
+      var hobj=hs.horasano;
+      var picoY=anosH.slice().sort(function(a,b){return hobj[b]-hobj[a];})[0];
+      var ultY=anosH[anosH.length-1];
+      // 2026 é ano-corte parcial (até 30/06): não penalizar tendência por ele estar incompleto
+      var refUlt = (ultY==='2026' && anosH.length>=2) ? anosH[anosH.length-2] : ultY;
+      var idxPico=anosH.indexOf(picoY), idxRefUlt=anosH.indexOf(refUlt);
+      var cauda;
+      if(picoY===ultY || idxPico>=idxRefUlt) cauda=', esforço que segue em alta';           // pico é o ano mais recente (ou o de referência)
+      else if(idxPico>=anosH.length-3) cauda=', com o ritmo se acomodando depois disso';       // pico recente mas já passou
+      else cauda=', com a carga se estabilizando em anos posteriores';                          // pico antigo
+      frases.push('O maior esforço concentrou-se em '+_b(picoY)+' ('+_b(_n(Math.round(hobj[picoY]))+'h')+')'+cauda+'.');
+    }
+    _setLeitura('ins4', frases.join(' '));
+  })();
+}
+
 function renderDashboard(){
   const m=DATA.meta, k=DATA.dataset.kpi;
   // Empresa sem dados / sem processos: mostra overlay e nao renderiza graficos
@@ -942,22 +1104,25 @@ function renderDashboard(){
   // KPIs da seção Volume (crescimento, entradas totais, encerramentos)
   const estVals=Object.values(ds.estoque), estKeys=Object.keys(ds.estoque);
   const primVal=estVals[0]||1, ultVal=estVals[estVals.length-1]||0;
-  const crescPct = primVal>0 ? Math.round((ultVal-primVal)/primVal*100) : 0;
-  const crescMult = primVal>0 ? (ultVal/primVal) : 0;
+  // base representativa: 1º ano com estoque >=5 (evita "107×" a partir de base 1)
+  var _baseKey=estKeys[0], _baseVal=primVal;
+  if(_baseVal<5){ for(var _bi=0;_bi<estKeys.length;_bi++){ if((estVals[_bi]||0)>=5){ _baseKey=estKeys[_bi]; _baseVal=estVals[_bi]; break; } } }
+  const crescPct = _baseVal>0 ? Math.round((ultVal-_baseVal)/_baseVal*100) : 0;
+  const crescMult = _baseVal>0 ? (ultVal/_baseVal) : 0;
   const totEntradas=Object.values(ds.entradas).reduce((a,b)=>a+b,0);
   const totEncerr=Object.values(ds.encerrados).reduce((a,b)=>a+b,0);
   if(el('v-cresc')){
     // padrao unico p/ todos os grupos: sempre multiplicador "N×"
     var multTxt = crescMult>=2 ? Math.round(crescMult) : (Math.round(crescMult*10)/10).toString().replace('.',',');
     el('v-cresc').innerHTML = multTxt+'<small>×</small>';
-    el('v-cresc-sub').textContent='de '+primVal+' ('+estKeys[0]+') a '+ultVal+' ('+estKeys[estKeys.length-1]+')';
+    el('v-cresc-sub').textContent='de '+_baseVal+' ('+_baseKey+') a '+ultVal+' ('+estKeys[estKeys.length-1]+')';
     el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
   if(el('v-encerr')){ el('v-encerr').dataset.count=totEncerr; el('v-encerr').textContent=totEncerr.toLocaleString('pt-BR'); }
   if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
   if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.curta+')';
-  el('ins1').innerHTML=`A carteira acompanha o cliente desde <strong>${primAno}</strong>, com <strong>${k.proc} processos</strong> no total (${ds.ativos} ativos). O estoque sob gestão evoluiu ao longo do período.`;
-  el('ins2').innerHTML=`Atuação em <strong>${Object.keys(ds.tribunais).length} tribunais</strong> e <strong>${Object.keys(ds.uf).length} estados</strong>, com carteira multidisciplinar em ${Object.keys(ds.area).length} áreas do Direito.`;
+  // leituras interpretativas (Volume/Complexidade/Esforço/Horas) — geradas dos dados
+  gerarLeituras(ds, k);
   // limpar containers
   ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','atividades','people','horasano'].forEach(limpa);
   el('donut').innerHTML=''; const fx=el('fluxo'); fx.innerHTML=''; delete fx.dataset.built;
