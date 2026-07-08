@@ -1,1 +1,733 @@
-{"nome": "Porto Florêncio", "nomeHtml": "Porto <em>Florêncio</em>", "kpiGrupo": {"proc": 57, "procSub": "13 ativos · 44 encerrados", "horas": "^737", "horasSub": "horas apontadas (parcial — ver notas por empresa)", "areas": 7, "areasSub": "Trabalhista, Cível, Imobiliário", "valor": "~R$ 7<small>mi</small>", "trib": 7, "tribSub": "TRT12, TJSC, Não informado, INPI", "ativos": 13, "encerrados": 44, "valorTotal": 7068328.28}, "empresas": {"_panorama": {"nome": "Panorama Geral do Grupo", "_idCliente": null, "dataset": {"estoque": {"2018": 1, "2020": 3, "2021": 9, "2022": 22, "2023": 19, "2024": 33, "2025": 29, "2026": 13}, "estoqueHl": ["2026", "2025"], "entradas": {"2018": 1, "2020": 2, "2021": 7, "2022": 13, "2023": 4, "2024": 18, "2025": 9, "2026": 3}, "encerrados": {"2021": 1, "2023": 7, "2024": 4, "2025": 13, "2026": 19}, "area": {"Trabalhista": 29, "Cível": 20, "Imobiliário": 3, "Propriedade intelectual": 2, "Penal-Criminal": 1, "Tributário": 1, "Administrativo": 1}, "areaTotal": 57, "instancia": {"1º Grau": 51, "2º Grau": 5, "Superiores": 1}, "polo": {"Polo passivo": 23, "Polo ativo": 17, "Terceiro/Outros": 17}, "uf": {"SC": 46, "N/I": 8, "RS": 2, "PR": 1}, "tribunais": {"TRT12": 16, "TJSC": 16, "Não informado": 16, "INPI": 2, "TJRS": 2, "TJPR": 1, "STJ": 1}, "ranking": [["MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA", 9], ["PEDRO HENRIQUE CLAUMAN", 3], ["SANTOS GUERRA ADMINISTRADORA DE BENS LTDA", 3], ["INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL", 2], ["L F PRADO IMPORTACAO E EXPORTACAO DE PRODUTOS TEXTEIS LTDA", 2]], "kpi": {"proc": 57, "procSub": "13 ativos · 44 encerrados", "ativos": 13, "areas": 7, "areasSub": "Trabalhista, Cível, Imobiliário", "trib": 7, "tribSub": "TRT12, TJSC, Não informado, INPI", "valor": "~R$ 7<small>mi</small>", "horas": "^737", "horasSub": "horas apontadas até 30/06 (parcial)"}, "valorTotal": 7068328.28, "qtdComValor": 33, "ativos": 13, "encerradosTotal": 44, "esforco": {"comProducao": 57, "tramitacaoDias": 687, "prazano": {"2021": 7, "2022": 31, "2023": 46, "2024": 71, "2025": 96, "2026": 23}, "audano": {"2022": 1, "2024": 6, "2025": 5, "2026": 2}, "tarefano": {"2020": 36, "2021": 35, "2022": 219, "2023": 460, "2024": 441, "2025": 270, "2026": 168}, "atividades": {"Prazos": 408, "Audiências": 35, "Tarefas": 1849}}, "horas": {"total": 737, "media": 12.9, "mediaAtivos": 56.7, "horasano": {"2021": 0.8, "2022": 24.2, "2023": 86.2, "2024": 278.6, "2025": 229.7, "2026": 118.0}, "_estimativa": true}, "_dadosReais": true, "_panorama": true}}, "porto_florencio": {"nome": "Porto Florêncio & Vequi Empreend. Imob. Ltda", "dataset": {"kpi": {"proc": 13, "procSub": "5 ativos · 8 encerrados", "ativos": 5, "areas": 2, "areasSub": "3 áreas top", "trib": 3, "tribSub": "até 4", "valor": "~R$ 1.2mi", "horas": "^248", "horasSub": "horas apontadas até 30/06 (parcial)"}, "estoque": {"2022": 1, "2024": 9, "2025": 5, "2026": 5}, "estoqueHl": ["2026", "2025"], "entradas": {"2022": 1, "2024": 8, "2025": 1, "2026": 3}, "encerrados": {"2025": 5, "2026": 3}, "area": {"Trabalhista": 10, "Cível": 3}, "areaTotal": 13, "instancia": {"1º Grau": 11, "2º Grau": 2}, "polo": {"Polo ativo": 2, "Polo passivo": 10, "Terceiro/Outros": 1}, "uf": {"SC": 11, "PR": 1, "N/I": 1}, "tribunais": {"TRT12": 9, "TJSC": 2, "TJPR": 1}, "ranking": [["CITTA DI MARANELLO", 1], ["MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO", 1], ["JOSE FERNANDES DE SOUZA", 1], ["SERAL OTIS INDUSTRIA METALURGICA LTDA", 1], ["DENOIR MARCOS SANTIN", 1]], "ativos": 5, "valorTotal": 1243465.13, "qtdComValor": 12, "esforco": {"comProducao": 13, "tramitacaoDias": 474, "atividades": {"Prazos": 134, "Audiências": 21, "Tarefas": 220}}, "horas": {"total": 248, "media": 19.1, "mediaAtivos": 62, "horasano": {"2023": 35.1, "2024": 106.1, "2025": 74.2, "2026": 32.7}, "_estimativa": true}, "_dadosReais": true}, "_idCliente": "676964125"}, "maria_ap_florencio": {"nome": "Maria Aparecida Porto Florêncio", "_idCliente": "2122942", "dataset": {"kpi": {"proc": 3, "procSub": "1 ativos · 2 encerrados", "ativos": 1, "areas": 2, "areasSub": "3 áreas top", "trib": 1, "tribSub": "até 4", "valor": "~R$ 8mil", "horas": "^47", "horasSub": "horas apontadas até 30/06 (parcial)"}, "estoque": {"2020": 1, "2024": 3, "2025": 2, "2026": 1}, "estoqueHl": ["2026", "2025"], "entradas": {"2020": 1, "2024": 2}, "encerrados": {"2025": 1, "2026": 1}, "area": {"Cível": 2, "Penal-Criminal": 1}, "areaTotal": 3, "instancia": {"1º Grau": 3}, "polo": {"Polo ativo": 3}, "uf": {"SC": 3}, "tribunais": {"TJSC": 2}, "ranking": [["MANUEL DA MAIA CORDEIRO", 1], ["EDUARDO HENRIQUE CABRAL", 1], ["AUTORIDADE POLICIAL", 1]], "ativos": 1, "valorTotal": 8160.74, "qtdComValor": 2, "esforco": {"prazano": {"2024": 7, "2025": 10, "2026": 8}, "audano": {"2026": 1}, "tarefano": {"2020": 3, "2024": 5, "2025": 4}, "comProducao": 3, "tramitacaoDias": 995, "atividades": {"Prazos": 25, "Audiências": 1, "Tarefas": 12}}, "horas": {"total": 47, "media": 15.8, "mediaAtivos": 47.4, "horasano": {"2024": 9.2, "2025": 16.4, "2026": 21.8}, "_estimativa": true}, "_dadosReais": true}}, "porto_florencio_pfv": {"nome": "Porto Florêncio Empreendimentos Imobiliários Ltda (PFV)", "_idCliente": "2123511", "dataset": {"kpi": {"proc": 35, "procSub": "4 ativos · 31 encerrados", "ativos": 4, "areas": 6, "areasSub": "3 áreas top", "trib": 4, "tribSub": "até 4", "valor": "~R$ 3.6mi", "horas": "^275", "horasSub": "horas apontadas até 30/06 (parcial)"}, "estoque": {"2018": 1, "2020": 2, "2021": 8, "2022": 20, "2023": 17, "2024": 18, "2025": 18, "2026": 4}, "estoqueHl": ["2026", "2025"], "entradas": {"2018": 1, "2020": 1, "2021": 7, "2022": 12, "2023": 4, "2024": 5, "2025": 5}, "encerrados": {"2021": 1, "2023": 7, "2024": 4, "2025": 5, "2026": 14}, "area": {"Trabalhista": 19, "Cível": 9, "Imobiliário": 3, "Propriedade intelectual": 2, "Tributário": 1, "Administrativo": 1}, "areaTotal": 35, "instancia": {"1º Grau": 33, "2º Grau": 1, "Superiores": 1}, "polo": {"Polo ativo": 9, "Polo passivo": 11, "Terceiro/Outros": 15}, "uf": {"SC": 29, "N/I": 6}, "tribunais": {"TJSC": 9, "TRT12": 7, "INPI": 2, "STJ": 1, "Não informado": 16}, "ranking": [["MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA", 9], ["PEDRO HENRIQUE CLAUMAN", 3], ["INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL", 2], ["L F PRADO IMPORTACAO E EXPORTACAO DE PRODUTOS TEXTEIS LTDA", 2], ["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA", 2]], "ativos": 4, "valorTotal": 3576438.25, "qtdComValor": 15, "esforco": {"prazano": {"2021": 7, "2022": 31, "2023": 46, "2024": 56, "2025": 57, "2026": 11}, "audano": {"2022": 1, "2024": 5, "2025": 3}, "tarefano": {"2020": 33, "2021": 35, "2022": 219, "2023": 460, "2024": 436, "2025": 264, "2026": 168}, "comProducao": 35, "tramitacaoDias": 794, "atividades": {"Prazos": 208, "Audiências": 9, "Tarefas": 1615}}, "horas": {"total": 275, "media": 7.86, "mediaAtivos": 68.75, "horasano": {"2021": 0.8, "2022": 24.2, "2023": 51.1, "2024": 111.5, "2025": 72.1, "2026": 15.3}, "_estimativa": true}, "_dadosReais": true}}, "adalberto_florencio": {"nome": "Adalberto Florêncio", "_idCliente": "676946597", "dataset": {"kpi": {"proc": 3, "procSub": "1 ativos · 2 encerrados", "ativos": 1, "areas": 1, "areasSub": "1 área top", "trib": 1, "tribSub": "até 4", "valor": "~R$ 280mil", "horas": "^88", "horasSub": "horas apontadas até 30/06 (parcial)"}, "estoque": {"2024": 1, "2025": 2, "2026": 1}, "estoqueHl": ["2026", "2025"], "entradas": {"2024": 1, "2025": 2}, "encerrados": {"2025": 1, "2026": 1}, "area": {"Cível": 3}, "areaTotal": 3, "instancia": {"1º Grau": 2, "2º Grau": 1}, "polo": {"Polo ativo": 2, "Terceiro/Outros": 1}, "uf": {"RS": 2, "N/I": 1}, "tribunais": {"TJRS": 2}, "ranking": [["HASAM INCORPORACOES LTDA", 2]], "ativos": 1, "valorTotal": 279534.76, "qtdComValor": 2, "esforco": {"prazano": {"2024": 2, "2025": 16, "2026": 4}, "audano": {"2025": 2}, "comProducao": 3, "tramitacaoDias": 268, "atividades": {"Prazos": 22, "Audiências": 2, "Tarefas": 0}}, "horas": {"total": 88, "media": 29.4, "mediaAtivos": 88.2, "horasano": {"2024": 34.1, "2025": 39.5, "2026": 14.6}, "_estimativa": true}, "_dadosReais": true}}, "daniel_florencio": {"nome": "Daniel Florêncio", "_idCliente": "677012457", "dataset": {"kpi": {"proc": 3, "procSub": "2 ativos · 1 encerrados", "ativos": 2, "areas": 1, "areasSub": "1 área top", "trib": 1, "tribSub": "até 1", "valor": "~R$ 2mi", "horas": "^79", "horasSub": "horas apontadas até 30/06 (parcial)"}, "estoque": {"2024": 2, "2025": 2}, "estoqueHl": ["2025", "2024"], "entradas": {"2024": 2, "2025": 1}, "encerrados": {"2025": 1}, "area": {"Cível": 3}, "areaTotal": 3, "instancia": {"1º Grau": 2, "2º Grau": 1}, "polo": {"Polo ativo": 1, "Polo passivo": 2, "Terceiro/Outros": 0}, "uf": {"SC": 3}, "tribunais": {"TJSC": 3}, "ranking": [["SANTOS GUERRA ADMINISTRADORA DE BENS LTDA", 3]], "ativos": 2, "valorTotal": 1960729.4, "qtdComValor": 2, "esforco": {"prazano": {"2024": 6, "2025": 13}, "audano": {"2024": 1, "2026": 1}, "tarefano": {"2025": 2}, "comProducao": 3, "tramitacaoDias": 472, "atividades": {"Prazos": 19, "Audiências": 2, "Tarefas": 2}}, "horas": {"total": 79, "media": 26.3, "mediaAtivos": 39.4, "horasano": {"2024": 17.7, "2025": 27.5, "2026": 33.6}, "_estimativa": true}, "_dadosReais": true}}}, "nEmpresas": 5}
+{
+  "nome": "Porto Florêncio",
+  "nomeHtml": "Porto <em>Florêncio</em>",
+  "kpiGrupo": {
+    "proc": 57,
+    "procSub": "13 ativos · 44 encerrados",
+    "horas": "^737",
+    "horasSub": "horas apontadas (parcial — ver notas por empresa)",
+    "areas": 7,
+    "areasSub": "Trabalhista, Cível, Imobiliário",
+    "valor": "~R$ 7<small>mi</small>",
+    "trib": 7,
+    "tribSub": "TRT12, TJSC, Não informado, INPI",
+    "ativos": 13,
+    "encerrados": 44,
+    "valorTotal": 7068328.28
+  },
+  "empresas": {
+    "_panorama": {
+      "nome": "Panorama Geral do Grupo",
+      "_idCliente": null,
+      "dataset": {
+        "estoque": {
+          "2018": 1,
+          "2020": 3,
+          "2021": 9,
+          "2022": 22,
+          "2023": 19,
+          "2024": 33,
+          "2025": 29,
+          "2026": 13
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2018": 1,
+          "2020": 2,
+          "2021": 7,
+          "2022": 13,
+          "2023": 4,
+          "2024": 18,
+          "2025": 9,
+          "2026": 3
+        },
+        "encerrados": {
+          "2021": 1,
+          "2023": 7,
+          "2024": 4,
+          "2025": 13,
+          "2026": 19
+        },
+        "area": {
+          "Trabalhista": 29,
+          "Cível": 20,
+          "Imobiliário": 3,
+          "Propriedade intelectual": 2,
+          "Penal-Criminal": 1,
+          "Tributário": 1,
+          "Administrativo": 1
+        },
+        "areaTotal": 57,
+        "instancia": {
+          "1º Grau": 51,
+          "2º Grau": 5,
+          "Superiores": 1
+        },
+        "polo": {
+          "Polo passivo": 23,
+          "Polo ativo": 17,
+          "Terceiro/Outros": 17
+        },
+        "uf": {
+          "SC": 46,
+          "N/I": 8,
+          "RS": 2,
+          "PR": 1
+        },
+        "tribunais": {
+          "TRT12": 16,
+          "TJSC": 16,
+          "Não informado": 16,
+          "INPI": 2,
+          "TJRS": 2,
+          "TJPR": 1,
+          "STJ": 1
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            9
+          ],
+          [
+            "PEDRO HENRIQUE CLAUMAN",
+            3
+          ],
+          [
+            "SANTOS GUERRA ADMINISTRADORA DE BENS LTDA",
+            3
+          ],
+          [
+            "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
+            2
+          ],
+          [
+            "L F PRADO IMPORTACAO E EXPORTACAO DE PRODUTOS TEXTEIS LTDA",
+            2
+          ]
+        ],
+        "kpi": {
+          "proc": 57,
+          "procSub": "13 ativos · 44 encerrados",
+          "ativos": 13,
+          "areas": 7,
+          "areasSub": "Trabalhista, Cível, Imobiliário",
+          "trib": 7,
+          "tribSub": "TRT12, TJSC, Não informado, INPI",
+          "valor": "~R$ 7<small>mi</small>",
+          "horas": "^737",
+          "horasSub": "horas apontadas até 30/06 (parcial)"
+        },
+        "valorTotal": 7068328.28,
+        "qtdComValor": 33,
+        "ativos": 13,
+        "encerradosTotal": 44,
+        "esforco": {
+          "comProducao": 57,
+          "tramitacaoDias": 687,
+          "prazano": {
+            "2021": 7,
+            "2022": 31,
+            "2023": 46,
+            "2024": 71,
+            "2025": 96,
+            "2026": 23
+          },
+          "audano": {
+            "2022": 1,
+            "2024": 6,
+            "2025": 5,
+            "2026": 2
+          },
+          "tarefano": {
+            "2020": 36,
+            "2021": 35,
+            "2022": 219,
+            "2023": 460,
+            "2024": 441,
+            "2025": 270,
+            "2026": 168
+          },
+          "atividades": {
+            "Prazos": 408,
+            "Audiências": 35,
+            "Tarefas": 1849
+          },
+          "extrajudano": {
+            "2022": 208,
+            "2023": 435,
+            "2024": 397,
+            "2025": 366,
+            "2026": 205
+          }
+        },
+        "horas": {
+          "total": 737,
+          "media": 12.9,
+          "mediaAtivos": 56.7,
+          "horasano": {
+            "2021": 0.8,
+            "2022": 24.2,
+            "2023": 86.2,
+            "2024": 278.6,
+            "2025": 229.7,
+            "2026": 118.0
+          },
+          "_estimativa": true
+        },
+        "_dadosReais": true,
+        "_panorama": true
+      }
+    },
+    "porto_florencio": {
+      "nome": "Porto Florêncio & Vequi Empreend. Imob. Ltda",
+      "dataset": {
+        "kpi": {
+          "proc": 13,
+          "procSub": "5 ativos · 8 encerrados",
+          "ativos": 5,
+          "areas": 2,
+          "areasSub": "3 áreas top",
+          "trib": 3,
+          "tribSub": "até 4",
+          "valor": "~R$ 1.2mi",
+          "horas": "^248",
+          "horasSub": "horas apontadas até 30/06 (parcial)"
+        },
+        "estoque": {
+          "2022": 1,
+          "2024": 9,
+          "2025": 5,
+          "2026": 5
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2022": 1,
+          "2024": 8,
+          "2025": 1,
+          "2026": 3
+        },
+        "encerrados": {
+          "2025": 5,
+          "2026": 3
+        },
+        "area": {
+          "Trabalhista": 10,
+          "Cível": 3
+        },
+        "areaTotal": 13,
+        "instancia": {
+          "1º Grau": 11,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Polo passivo": 10,
+          "Terceiro/Outros": 1
+        },
+        "uf": {
+          "SC": 11,
+          "PR": 1,
+          "N/I": 1
+        },
+        "tribunais": {
+          "TRT12": 9,
+          "TJSC": 2,
+          "TJPR": 1
+        },
+        "ranking": [
+          [
+            "CITTA DI MARANELLO",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO",
+            1
+          ],
+          [
+            "JOSE FERNANDES DE SOUZA",
+            1
+          ],
+          [
+            "SERAL OTIS INDUSTRIA METALURGICA LTDA",
+            1
+          ],
+          [
+            "DENOIR MARCOS SANTIN",
+            1
+          ]
+        ],
+        "ativos": 5,
+        "valorTotal": 1243465.13,
+        "qtdComValor": 12,
+        "esforco": {
+          "comProducao": 13,
+          "tramitacaoDias": 474,
+          "atividades": {
+            "Prazos": 134,
+            "Audiências": 21,
+            "Tarefas": 220
+          }
+        },
+        "horas": {
+          "total": 248,
+          "media": 19.1,
+          "mediaAtivos": 62,
+          "horasano": {
+            "2023": 35.1,
+            "2024": 106.1,
+            "2025": 74.2,
+            "2026": 32.7
+          },
+          "_estimativa": true
+        },
+        "_dadosReais": true
+      },
+      "_idCliente": "676964125"
+    },
+    "maria_ap_florencio": {
+      "nome": "Maria Aparecida Porto Florêncio",
+      "_idCliente": "2122942",
+      "dataset": {
+        "kpi": {
+          "proc": 3,
+          "procSub": "1 ativos · 2 encerrados",
+          "ativos": 1,
+          "areas": 2,
+          "areasSub": "3 áreas top",
+          "trib": 1,
+          "tribSub": "até 4",
+          "valor": "~R$ 8mil",
+          "horas": "^47",
+          "horasSub": "horas apontadas até 30/06 (parcial)"
+        },
+        "estoque": {
+          "2020": 1,
+          "2024": 3,
+          "2025": 2,
+          "2026": 1
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2020": 1,
+          "2024": 2
+        },
+        "encerrados": {
+          "2025": 1,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 2,
+          "Penal-Criminal": 1
+        },
+        "areaTotal": 3,
+        "instancia": {
+          "1º Grau": 3
+        },
+        "polo": {
+          "Polo ativo": 3
+        },
+        "uf": {
+          "SC": 3
+        },
+        "tribunais": {
+          "TJSC": 2
+        },
+        "ranking": [
+          [
+            "MANUEL DA MAIA CORDEIRO",
+            1
+          ],
+          [
+            "EDUARDO HENRIQUE CABRAL",
+            1
+          ],
+          [
+            "AUTORIDADE POLICIAL",
+            1
+          ]
+        ],
+        "ativos": 1,
+        "valorTotal": 8160.74,
+        "qtdComValor": 2,
+        "esforco": {
+          "prazano": {
+            "2024": 7,
+            "2025": 10,
+            "2026": 8
+          },
+          "audano": {
+            "2026": 1
+          },
+          "tarefano": {
+            "2020": 3,
+            "2024": 5,
+            "2025": 4
+          },
+          "comProducao": 3,
+          "tramitacaoDias": 995,
+          "atividades": {
+            "Prazos": 25,
+            "Audiências": 1,
+            "Tarefas": 12
+          }
+        },
+        "horas": {
+          "total": 47,
+          "media": 15.8,
+          "mediaAtivos": 47.4,
+          "horasano": {
+            "2024": 9.2,
+            "2025": 16.4,
+            "2026": 21.8
+          },
+          "_estimativa": true
+        },
+        "_dadosReais": true
+      }
+    },
+    "porto_florencio_pfv": {
+      "nome": "Porto Florêncio Empreendimentos Imobiliários Ltda (PFV)",
+      "_idCliente": "2123511",
+      "dataset": {
+        "kpi": {
+          "proc": 35,
+          "procSub": "4 ativos · 31 encerrados",
+          "ativos": 4,
+          "areas": 6,
+          "areasSub": "3 áreas top",
+          "trib": 4,
+          "tribSub": "até 4",
+          "valor": "~R$ 3.6mi",
+          "horas": "^275",
+          "horasSub": "horas apontadas até 30/06 (parcial)"
+        },
+        "estoque": {
+          "2018": 1,
+          "2020": 2,
+          "2021": 8,
+          "2022": 20,
+          "2023": 17,
+          "2024": 18,
+          "2025": 18,
+          "2026": 4
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2018": 1,
+          "2020": 1,
+          "2021": 7,
+          "2022": 12,
+          "2023": 4,
+          "2024": 5,
+          "2025": 5
+        },
+        "encerrados": {
+          "2021": 1,
+          "2023": 7,
+          "2024": 4,
+          "2025": 5,
+          "2026": 14
+        },
+        "area": {
+          "Trabalhista": 19,
+          "Cível": 9,
+          "Imobiliário": 3,
+          "Propriedade intelectual": 2,
+          "Tributário": 1,
+          "Administrativo": 1
+        },
+        "areaTotal": 35,
+        "instancia": {
+          "1º Grau": 33,
+          "2º Grau": 1,
+          "Superiores": 1
+        },
+        "polo": {
+          "Polo ativo": 9,
+          "Polo passivo": 11,
+          "Terceiro/Outros": 15
+        },
+        "uf": {
+          "SC": 29,
+          "N/I": 6
+        },
+        "tribunais": {
+          "TJSC": 9,
+          "TRT12": 7,
+          "INPI": 2,
+          "STJ": 1,
+          "Não informado": 16
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            9
+          ],
+          [
+            "PEDRO HENRIQUE CLAUMAN",
+            3
+          ],
+          [
+            "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
+            2
+          ],
+          [
+            "L F PRADO IMPORTACAO E EXPORTACAO DE PRODUTOS TEXTEIS LTDA",
+            2
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            2
+          ]
+        ],
+        "ativos": 4,
+        "valorTotal": 3576438.25,
+        "qtdComValor": 15,
+        "esforco": {
+          "prazano": {
+            "2021": 7,
+            "2022": 31,
+            "2023": 46,
+            "2024": 56,
+            "2025": 57,
+            "2026": 11
+          },
+          "audano": {
+            "2022": 1,
+            "2024": 5,
+            "2025": 3
+          },
+          "tarefano": {
+            "2020": 33,
+            "2021": 35,
+            "2022": 219,
+            "2023": 460,
+            "2024": 436,
+            "2025": 264,
+            "2026": 168
+          },
+          "comProducao": 35,
+          "tramitacaoDias": 794,
+          "atividades": {
+            "Prazos": 208,
+            "Audiências": 9,
+            "Tarefas": 1615
+          }
+        },
+        "horas": {
+          "total": 275,
+          "media": 7.86,
+          "mediaAtivos": 68.75,
+          "horasano": {
+            "2021": 0.8,
+            "2022": 24.2,
+            "2023": 51.1,
+            "2024": 111.5,
+            "2025": 72.1,
+            "2026": 15.3
+          },
+          "_estimativa": true
+        },
+        "_dadosReais": true
+      }
+    },
+    "adalberto_florencio": {
+      "nome": "Adalberto Florêncio",
+      "_idCliente": "676946597",
+      "dataset": {
+        "kpi": {
+          "proc": 3,
+          "procSub": "1 ativos · 2 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "1 área top",
+          "trib": 1,
+          "tribSub": "até 4",
+          "valor": "~R$ 280mil",
+          "horas": "^88",
+          "horasSub": "horas apontadas até 30/06 (parcial)"
+        },
+        "estoque": {
+          "2024": 1,
+          "2025": 2,
+          "2026": 1
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2024": 1,
+          "2025": 2
+        },
+        "encerrados": {
+          "2025": 1,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 3
+        },
+        "areaTotal": 3,
+        "instancia": {
+          "1º Grau": 2,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Terceiro/Outros": 1
+        },
+        "uf": {
+          "RS": 2,
+          "N/I": 1
+        },
+        "tribunais": {
+          "TJRS": 2
+        },
+        "ranking": [
+          [
+            "HASAM INCORPORACOES LTDA",
+            2
+          ]
+        ],
+        "ativos": 1,
+        "valorTotal": 279534.76,
+        "qtdComValor": 2,
+        "esforco": {
+          "prazano": {
+            "2024": 2,
+            "2025": 16,
+            "2026": 4
+          },
+          "audano": {
+            "2025": 2
+          },
+          "comProducao": 3,
+          "tramitacaoDias": 268,
+          "atividades": {
+            "Prazos": 22,
+            "Audiências": 2,
+            "Tarefas": 0
+          }
+        },
+        "horas": {
+          "total": 88,
+          "media": 29.4,
+          "mediaAtivos": 88.2,
+          "horasano": {
+            "2024": 34.1,
+            "2025": 39.5,
+            "2026": 14.6
+          },
+          "_estimativa": true
+        },
+        "_dadosReais": true
+      }
+    },
+    "daniel_florencio": {
+      "nome": "Daniel Florêncio",
+      "_idCliente": "677012457",
+      "dataset": {
+        "kpi": {
+          "proc": 3,
+          "procSub": "2 ativos · 1 encerrados",
+          "ativos": 2,
+          "areas": 1,
+          "areasSub": "1 área top",
+          "trib": 1,
+          "tribSub": "até 1",
+          "valor": "~R$ 2mi",
+          "horas": "^79",
+          "horasSub": "horas apontadas até 30/06 (parcial)"
+        },
+        "estoque": {
+          "2024": 2,
+          "2025": 2
+        },
+        "estoqueHl": [
+          "2025",
+          "2024"
+        ],
+        "entradas": {
+          "2024": 2,
+          "2025": 1
+        },
+        "encerrados": {
+          "2025": 1
+        },
+        "area": {
+          "Cível": 3
+        },
+        "areaTotal": 3,
+        "instancia": {
+          "1º Grau": 2,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 2,
+          "Terceiro/Outros": 0
+        },
+        "uf": {
+          "SC": 3
+        },
+        "tribunais": {
+          "TJSC": 3
+        },
+        "ranking": [
+          [
+            "SANTOS GUERRA ADMINISTRADORA DE BENS LTDA",
+            3
+          ]
+        ],
+        "ativos": 2,
+        "valorTotal": 1960729.4,
+        "qtdComValor": 2,
+        "esforco": {
+          "prazano": {
+            "2024": 6,
+            "2025": 13
+          },
+          "audano": {
+            "2024": 1,
+            "2026": 1
+          },
+          "tarefano": {
+            "2025": 2
+          },
+          "comProducao": 3,
+          "tramitacaoDias": 472,
+          "atividades": {
+            "Prazos": 19,
+            "Audiências": 2,
+            "Tarefas": 2
+          }
+        },
+        "horas": {
+          "total": 79,
+          "media": 26.3,
+          "mediaAtivos": 39.4,
+          "horasano": {
+            "2024": 17.7,
+            "2025": 27.5,
+            "2026": 33.6
+          },
+          "_estimativa": true
+        },
+        "_dadosReais": true
+      }
+    }
+  },
+  "nEmpresas": 5
+}

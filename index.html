@@ -703,6 +703,11 @@ body.dash.is-semdados #sd-overlay{display:block}
     <div class="desc">Total acumulado de compromissos por natureza no período.</div>
     <div class="hbars" id="atividades"></div>
   </div>
+  <div class="card reveal" id="card-extrajud" style="margin-top:22px">
+    <h3><span class="bt"></span>Atividades extrajudiciais por ano</h3>
+    <div class="desc">Trabalho extrajudicial da equipe (pareceres, contratos, notificações, acordos e diligências), ano a ano.</div>
+    <div class="vbars" id="extrajudano"></div>
+  </div>
 
   <div class="card reveal pg-equipe" style="margin-top:22px">
     <h3><span class="bt"></span>Equipe mobilizada por este cliente</h3>
@@ -997,7 +1002,7 @@ function renderDashboard(){
   if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
   if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.curta+')';
   // limpar containers
-  ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','prazano','tarefano','atividades','people','horasano'].forEach(limpa);
+  ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','prazano','tarefano','atividades','extrajudano','people','horasano'].forEach(limpa);
   el('donut').innerHTML=''; const fx=el('fluxo'); fx.innerHTML=''; delete fx.dataset.built;
   // Volume + Complexidade (dados reais) — estoque cortado ao recorte (>= ANO_MIN)
   vbars('estoque',_estC,ds.estoqueHl);
@@ -1025,10 +1030,14 @@ function renderDashboard(){
   if(_nPraz) vbars('prazano',_prazCe,[Object.keys(_prazCe).slice(-1)[0]]);
   if(_nTar) vbars('tarefano',_tarCe,[Object.keys(_tarCe).slice(-1)[0]]);
   if(_totComp) hbars('atividades',_atv);
+  // atividades extrajudiciais por ano (recorte >= ANO_MIN)
+  var _extC=cortaAnos(esf.extrajudano); var _nExtra=_somaSerie(_extC);
+  if(_nExtra) vbars('extrajudano',_extC,[Object.keys(_extC).slice(-1)[0]]);
   var _au=el('audano'); if(_au){var c1=_au.closest('.card'); if(c1) c1.style.display=_nAud?'':'none';}
   var _pz=el('prazano'); if(_pz){var cp=_pz.closest('.card'); if(cp) cp.style.display=_nPraz?'':'none';}
   var _tf=el('tarefano'); if(_tf){var ct=_tf.closest('.card'); if(ct) ct.style.display=_nTar?'':'none';}
   var _at=el('atividades'); if(_at){var c2=_at.closest('.card'); if(c2) c2.style.display=_totComp?'':'none';}
+  var _ex=el('extrajudano'); if(_ex){var ce=_ex.closest('.card'); if(ce) ce.style.display=_nExtra?'':'none';}
   var _pe=el('people'); if(_pe){var c3=_pe.closest('.card'); if(c3) c3.style.display=(esf.people&&esf.people.length)?'':'none';}
   if(esf.people){ const pbox=el('people'); if(pbox){ const ICON='<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg>';
     esf.people.forEach(function(pp){ var n=pp[0],c=pp[1]; var d=document.createElement('div');d.className='person';
@@ -1353,6 +1362,8 @@ function montarPrint(){
     // pág 10: Tarefas + Atividades por tipo
     var g2=[]; if(visivel('tarefano')) g2.push(cloneCardOf('tarefano')); if(visivel('atividades')) g2.push(cloneCardOf('atividades'));
     if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · tarefas e composição');
+    // pág extrajudicial (se houver dado)
+    if(visivel('extrajudano')) sheet([cloneCardOf('extrajudano')], '03 — Esforço operacional', 'Atividades extrajudiciais por ano');
     // pág 11: Equipe mobilizada
     var eqp=[]; if(visivel('people')) eqp.push(cloneCardOf('people'));
     if(eqp.length) sheet(eqp, '03 — Esforço operacional', 'Equipe mobilizada por este cliente');

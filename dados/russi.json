@@ -1,1 +1,2426 @@
-{"nome": "Grupo J.A. Russi", "nomeHtml": "Grupo <em>J.A. Russi</em>", "kpiGrupo": {"proc": 1060, "procSub": "636 ativos · 411 encerrados", "horas": "^7848", "horasSub": "horas apontadas (parcial — ver notas por empresa)", "areas": 11, "areasSub": "Cível, Tributário, Trabalhista", "valor": "~R$ 723<small>mi</small>", "trib": 26, "tribSub": "TJSC, TRT12, TRF4, TJPR", "ativos": 636, "encerrados": 411, "valorTotal": 722605522.03}, "empresas": {"_panorama": {"nome": "Panorama Geral do Grupo", "_panorama": true, "dataset": {"estoque": {"2010": 16, "2011": 20, "2012": 48, "2013": 98, "2014": 131, "2015": 170, "2016": 209, "2017": 297, "2018": 336, "2019": 425, "2020": 289, "2021": 337, "2022": 385, "2023": 448, "2024": 491, "2025": 604, "2026": 628}, "estoqueHl": ["2026", "2025"], "entradas": {"2010": 11, "2011": 4, "2012": 28, "2013": 52, "2014": 36, "2015": 52, "2016": 42, "2017": 90, "2018": 40, "2019": 119, "2020": 119, "2021": 71, "2022": 92, "2023": 78, "2024": 64, "2025": 122, "2026": 35}, "encerrados": {"2013": 2, "2014": 3, "2015": 13, "2016": 3, "2017": 2, "2018": 1, "2019": 30, "2020": 255, "2021": 23, "2022": 44, "2023": 15, "2024": 7, "2025": 9, "2026": 4}, "area": {"Cível": 583, "Tributário": 247, "Trabalhista": 159, "Administrativo": 26, "Penal-Criminal": 19, "Pública": 9, "Imobiliário": 8, "Ambiental": 5, "Bancário": 2, "Comercial": 1, "Recuperação Judicial": 1}, "areaTotal": 1060, "instancia": {"1º Grau": 765, "2º Grau": 124, "Superiores": 33, "Não informado": 138}, "polo": {"Polo ativo": 470, "Polo passivo": 508, "Terceiro/Outros": 82}, "uf": {"SC": 861, "Não informado": 66, "PR": 38, "RJ": 18, "RS": 17, "DF": 16, "RN": 13, "SP": 9, "MS": 8, "AP": 5, "PA": 3, "BA": 2, "PI": 1, "PE": 1, "SE": 1, "AC": 1}, "tribunais": {"TJSC": 580, "Não informado": 185, "TRT12": 119, "TRF4": 40, "TJPR": 30, "STJ": 20, "TJRS": 16, "TJRJ": 16, "TRT21": 13, "TRT08": 8, "TJMS": 6, "TJSP": 6, "Justiça Federal de Santa Catarina": 3, "TRT02": 2, "DRF": 2, "TRT09": 2, "TJBA": 2, "TRT15": 1, "ALAC": 1, "TRT22": 1, "TRF3": 1, "TRT24": 1, "TRT01": 1, "TRF2": 1, "TJPE": 1, "TRT04": 1, "TJSE": 1}, "ranking": [["196030028613", "Tributário · Não informado · Itajaí", 436627443], ["0900411-38.2015.8.24.0005", "Tributário · TJSC · Balneário Camboriú", 122559431.8], ["5048022-87.2025.8.24.0000", "Cível · TJSC · Florianópolis", 10000000.0], ["5000913-89.2024.8.24.0072", "Cível · TJSC · Tijucas", 10000000.0], ["5004894-40.2019.8.24.0125", "Cível · TJSC · Itapema", 8675998.31]], "kpi": {"proc": 1060, "procSub": "636 ativos · 411 encerrados", "ativos": 636, "areas": 11, "areasSub": "Cível, Tributário, Trabalhista", "trib": 26, "tribSub": "TJSC, TRT12, TRF4, TJPR", "valor": "~R$ 723<small>mi</small>", "valorSub": "soma de 497 processos com valor fixado (consolidado das 13 empresas)", "horas": "^7848", "horasSub": "horas apontadas — consolidado do grupo (parcial)"}, "valorTotal": 722605522.03, "qtdComValor": 497, "ativos": 636, "encerradosTotal": 411, "esforco": {"apontamentos": 23975, "comProducao": 721, "tramitacaoDias": 1515, "atividades": {"Tarefas": 11093, "Prazos": 4185, "Audiências": 338}, "audano": {"2022": 17, "2023": 25, "2024": 80, "2025": 130, "2026": 62}, "_estimativa": true, "prazano": {"2021": 44, "2022": 531, "2023": 718, "2024": 798, "2025": 1357, "2026": 752}, "tarefano": {"2019": 2878, "2020": 4600, "2021": 3368, "2022": 42, "2023": 60, "2024": 38, "2025": 41, "2026": 68}}, "horas": {"total": 7848, "media": 7.4, "mediaAtivos": 10.9, "horasano": {"2021": 51.2, "2022": 767.9, "2023": 1454.9, "2024": 1494.3, "2025": 2664.1, "2026": 1415.8}, "_estimativa": true}, "_dadosReais": true, "_panorama": true, "_nEmpresas": 13}}, "construtora_russi": {"nome": "Construtora e Incorporadora J.A. Russi Ltda", "dataset": {"estoque": {"2010": 6, "2011": 8, "2012": 21, "2013": 48, "2014": 53, "2015": 62, "2016": 75, "2017": 140, "2018": 160, "2019": 218, "2020": 178, "2021": 211, "2022": 266, "2023": 309, "2024": 343, "2025": 439, "2026": 466}, "estoqueHl": ["2026", "2025"], "entradas": {"2010": 3, "2011": 2, "2012": 13, "2013": 28, "2014": 8, "2015": 20, "2016": 14, "2017": 66, "2018": 21, "2019": 70, "2020": 80, "2021": 45, "2022": 66, "2023": 52, "2024": 40, "2025": 99, "2026": 28}, "encerrados": {"2013": 1, "2014": 3, "2015": 11, "2016": 1, "2017": 1, "2018": 1, "2019": 12, "2020": 120, "2021": 12, "2022": 11, "2023": 9, "2024": 6, "2025": 3, "2026": 1}, "area": {"Cível": 323, "Tributário": 188, "Trabalhista": 112, "Administrativo": 13, "Pública": 8, "Imobiliário": 6, "Ambiental": 4, "Penal-Criminal": 4}, "areaTotal": 658, "instancia": {"1º Grau": 469, "2º Grau": 76, "Superiores": 19, "Não informado": 94}, "polo": {"Polo ativo": 270, "Polo passivo": 340, "Terceiro/Outros": 48}, "uf": {"SC": 554, "Não informado": 44, "PR": 21, "RN": 13, "DF": 10, "SP": 4, "AP": 4, "PA": 3, "RS": 2, "MS": 1, "PI": 1, "RJ": 1}, "tribunais": {"TJSC": 380, "Não informado": 116, "TRT12": 78, "TJPR": 19, "TRF4": 19, "TRT21": 13, "STJ": 12, "TRT08": 7, "TRT02": 2, "Justiça Federal de Santa Catarina": 2, "DRF": 2, "TJRS": 2, "TRT15": 1, "TJMS": 1, "ALAC": 1, "TJSP": 1, "TRT22": 1, "TJRJ": 1}, "ranking": [["0900411-38.2015.8.24.0005", "Tributário · TJSC · Balneário Camboriú", 122559431.8], ["5048022-87.2025.8.24.0000", "Cível · TJSC · Florianópolis", 10000000.0], ["5000913-89.2024.8.24.0072", "Cível · TJSC · Tijucas", 10000000.0], ["5004894-40.2019.8.24.0125", "Cível · TJSC · Itapema", 8675998.31], ["5014117-65.2020.8.24.0033", "Cível · TJSC · Itajaí", 8000000.0]], "kpi": {"proc": 658, "procSub": "456 ativos · 192 encerrados", "ativos": 456, "areas": 8, "areasSub": "Cível, Tributário, Trabalhista", "trib": 17, "tribSub": "TJSC, TRT12, TJPR, TRF4", "valor": "~R$ 238<small>mi</small>", "horas": "^5348", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 344 de 658 processos com valor de causa fixado; os demais 314 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 238122120.61, "qtdComValor": 344, "ativos": 456, "encerradosTotal": 192, "esforco": {"apontamentos": 16929, "comProducao": 404, "_estimativa": true, "atividades": {"Prazos": 2905, "Audiências": 255, "Tarefas": 6326}, "audano": {"2022": 14, "2023": 18, "2024": 49, "2025": 97, "2026": 54}, "tramitacaoDias": 1426, "prazano": {"2021": 30, "2022": 361, "2023": 486, "2024": 489, "2025": 990, "2026": 550}, "tarefano": {"2019": 1371, "2020": 2800, "2021": 1968, "2022": 22, "2023": 53, "2024": 30, "2025": 33, "2026": 49}}, "horas": {"total": 5348.3, "media": 8.1, "mediaAtivos": 13.2, "horasano": {"2021": 24.6, "2022": 524.4, "2023": 947.5, "2024": 851.3, "2025": 1949.2, "2026": 1051.1}, "_estimativa": true}, "_idCliente": "2123691", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 344, "sem_valor": 314, "ativos_sem_valor": 180}}, "_idCliente": "2123691"}, "nacional_fund": {"nome": "Nacional Fundações Ltda", "dataset": {"estoque": {"2010": 4, "2011": 5, "2012": 8, "2013": 16, "2014": 31, "2015": 41, "2016": 56, "2017": 60, "2018": 65, "2019": 77, "2020": 45, "2021": 52, "2022": 47, "2023": 51, "2024": 60, "2025": 60, "2026": 60}, "estoqueHl": ["2019", "2018"], "entradas": {"2010": 4, "2011": 1, "2012": 3, "2013": 8, "2014": 15, "2015": 11, "2016": 16, "2017": 5, "2018": 5, "2019": 16, "2020": 8, "2021": 11, "2022": 9, "2023": 6, "2024": 9, "2025": 2, "2026": 1}, "encerrados": {"2015": 1, "2016": 1, "2017": 1, "2019": 4, "2020": 40, "2021": 4, "2022": 14, "2023": 2, "2025": 2, "2026": 1}, "area": {"Cível": 98, "Trabalhista": 17, "Tributário": 13, "Comercial": 1, "Recuperação Judicial": 1}, "areaTotal": 130, "instancia": {"1º Grau": 99, "2º Grau": 19, "Superiores": 5, "Não informado": 7}, "polo": {"Polo ativo": 75, "Polo passivo": 46, "Terceiro/Outros": 9}, "uf": {"SC": 68, "RJ": 17, "RS": 15, "Não informado": 11, "MS": 6, "PR": 6, "BA": 2, "SP": 2, "DF": 1, "PE": 1, "SE": 1}, "tribunais": {"TJSC": 50, "TJRJ": 15, "TJRS": 14, "TRT12": 12, "Não informado": 9, "TRF4": 7, "TJMS": 4, "STJ": 3, "TJPR": 3, "TRT09": 2, "TJBA": 2, "TJSP": 2, "TRF3": 1, "TRT24": 1, "TRT01": 1, "TRF2": 1, "TJPE": 1, "TRT04": 1, "TJSE": 1}, "ranking": [["0809950-92.2021.8.12.0021", "Cível · TJMS · Três Lagoas", 2578334.66], ["5394787-76.2025.8.21.7000", "Cível · TJRS · Porto Alegre", 1563731.81], ["2904085 (2025/0123206-3)", "Cível · STJ · Brasília", 1563731.81], ["5268682-25.2023.8.21.7000", "Cível · TJRS · Porto Alegre", 1563731.81], ["5122744-78.2022.8.21.0001", "Cível · TJRS · Porto Alegre", 1563731.81]], "kpi": {"proc": 130, "procSub": "60 ativos · 70 encerrados", "ativos": 60, "areas": 5, "areasSub": "Cível, Trabalhista, Tributário", "trib": 18, "tribSub": "TJSC, TJRJ, TJRS, TRT12", "valor": "~R$ 22<small>mi</small>", "horas": "^912", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 54 de 130 processos com valor de causa fixado; os demais 76 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 21890802.77, "qtdComValor": 54, "ativos": 60, "encerradosTotal": 70, "esforco": {"apontamentos": 2694, "comProducao": 61, "_estimativa": true, "atividades": {"Prazos": 479, "Audiências": 18, "Tarefas": 2024}, "audano": {"2022": 1, "2024": 9, "2025": 7, "2026": 1}, "tramitacaoDias": 1914, "prazano": {"2021": 9, "2022": 83, "2023": 84, "2024": 133, "2025": 114, "2026": 58}, "tarefano": {"2019": 534, "2020": 844, "2021": 625, "2022": 12, "2023": 1, "2024": 5, "2025": 1, "2026": 2}}, "horas": {"total": 911.9, "media": 7.0, "mediaAtivos": 14.9, "horasano": {"2021": 13.7, "2022": 141.6, "2023": 143.8, "2024": 260.9, "2025": 244.2, "2026": 107.8}, "_estimativa": true}, "_idCliente": "2130232", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_horasFonte": "EasyJur timesheet 01/07/2026 — soma real de 130 processos; parcial pela paginacao instavel da API em processos grandes", "_composicaoValor": {"com_valor": 54, "sem_valor": 76, "ativos_sem_valor": 16}}, "_idCliente": "2130232"}, "alianca": {"nome": "Aliança Empreendimentos Imobiliários Ltda", "dataset": {"estoque": {"2010": 2, "2011": 2, "2012": 10, "2013": 15, "2014": 24, "2015": 37, "2016": 44, "2017": 56, "2018": 61, "2019": 66, "2020": 29, "2021": 33, "2022": 30, "2023": 40, "2024": 46, "2025": 51, "2026": 52}, "estoqueHl": ["2019", "2018"], "entradas": {"2010": 1, "2012": 8, "2013": 6, "2014": 9, "2015": 13, "2016": 8, "2017": 12, "2018": 5, "2019": 11, "2020": 8, "2021": 5, "2022": 6, "2023": 10, "2024": 7, "2025": 7, "2026": 2}, "encerrados": {"2013": 1, "2016": 1, "2019": 6, "2020": 45, "2021": 1, "2022": 9, "2024": 1, "2025": 2, "2026": 1}, "area": {"Cível": 70, "Tributário": 33, "Trabalhista": 6, "Penal-Criminal": 5, "Administrativo": 3, "Ambiental": 1, "Imobiliário": 1}, "areaTotal": 119, "instancia": {"1º Grau": 92, "2º Grau": 15, "Superiores": 3, "Não informado": 9}, "polo": {"Polo ativo": 46, "Polo passivo": 60, "Terceiro/Outros": 13}, "uf": {"SC": 101, "PR": 9, "DF": 3, "SP": 3, "AC": 1, "MS": 1, "Não informado": 1}, "tribunais": {"TJSC": 79, "Não informado": 14, "TRF4": 7, "TJPR": 7, "TRT12": 6, "TJSP": 3, "STJ": 2, "TJMS": 1}, "ranking": [["0004536-83.2007.8.24.0125", "Administrativo · TJSC · Florianópolis", 3268533.0], ["0000349-57.2018.8.16.0064", "Cível · TJPR · Castro", 2195000.0], ["5009797-16.2022.8.24.0125", "Cível · TJSC · Itapema", 2082618.06], ["0300429-68.2017.8.24.0125", "Cível · TJSC · Itapema", 2000000.0], ["5008636-06.2023.8.24.0005", "Cível · TJSC · Balneário Camboriú", 1638235.4]], "kpi": {"proc": 119, "procSub": "50 ativos · 67 encerrados", "ativos": 50, "areas": 7, "areasSub": "Cível, Tributário, Trabalhista", "trib": 7, "tribSub": "TJSC, TRF4, TJPR, TRT12", "valor": "~R$ 21<small>mi</small>", "horas": "^678", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 51 de 119 processos com valor de causa fixado; os demais 68 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 21491328.6, "qtdComValor": 51, "ativos": 50, "encerradosTotal": 67, "esforco": {"apontamentos": 1734, "comProducao": 57, "_estimativa": true, "atividades": {"Prazos": 335, "Audiências": 20, "Tarefas": 1107}, "audano": {"2023": 4, "2024": 10, "2025": 6}, "tramitacaoDias": 1719, "prazano": {"2021": 2, "2022": 37, "2023": 77, "2024": 83, "2025": 91, "2026": 52}, "tarefano": {"2019": 402, "2020": 429, "2021": 268, "2022": 1, "2024": 1, "2025": 1, "2026": 7}}, "horas": {"total": 678.4, "media": 5.7, "mediaAtivos": 11.9, "_estimativa": true, "horasano": {"2021": 0.3, "2022": 26.8, "2023": 178.9, "2024": 204.6, "2025": 179.8, "2026": 88.0}}, "_idCliente": "2118810", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 51, "sem_valor": 68, "ativos_sem_valor": 14}}, "_idCliente": "2118810"}, "embraconci": {"nome": "Embraconci – Emp. Bras. da Const. Civil Ltda ME", "dataset": {"estoque": {"2012": 1, "2013": 1, "2014": 3, "2015": 6, "2016": 8, "2017": 11, "2018": 12, "2019": 14, "2020": 6, "2021": 8, "2022": 6, "2023": 8, "2024": 9, "2025": 10, "2026": 11}, "estoqueHl": ["2019", "2018"], "entradas": {"2012": 1, "2014": 2, "2015": 3, "2016": 2, "2017": 3, "2018": 1, "2019": 2, "2020": 1, "2021": 3, "2023": 2, "2024": 1, "2025": 1, "2026": 1}, "encerrados": {"2020": 9, "2021": 1, "2022": 2}, "area": {"Cível": 13, "Tributário": 6, "Trabalhista": 4}, "areaTotal": 23, "instancia": {"1º Grau": 14, "2º Grau": 5, "Superiores": 2, "Não informado": 2}, "polo": {"Polo ativo": 15, "Polo passivo": 7, "Terceiro/Outros": 1}, "uf": {"SC": 21, "DF": 1, "PR": 1}, "tribunais": {"TJSC": 12, "TRT12": 4, "TRF4": 3, "Não informado": 2, "STJ": 1, "Justiça Federal de Santa Catarina": 1}, "ranking": [["5010206-55.2023.8.24.0125", "Cível · TJSC · Itapema", 690000.0], ["3295817 (2026/0242136-2)", "Cível · STJ · Brasília", 495181.53], ["5005129-36.2021.8.24.0125", "Cível · TJSC · Florianópolis", 495181.53], ["5006014-79.2023.8.24.0125", "Cível · TJSC · Itapema", 150000.0], ["5003119-23.2024.8.24.0025", "Cível · TJSC · Gaspar", 132571.27]], "kpi": {"proc": 23, "procSub": "11 ativos · 12 encerrados", "ativos": 11, "areas": 3, "areasSub": "Cível, Tributário, Trabalhista", "trib": 5, "tribSub": "TJSC, TRT12, TRF4, STJ", "valor": "~R$ 2<small>mi</small>", "horas": "^162", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 12 de 23 processos com valor de causa fixado; os demais 11 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 2310288.78, "qtdComValor": 12, "ativos": 11, "encerradosTotal": 12, "esforco": {"apontamentos": 446, "comProducao": 10, "_estimativa": true, "atividades": {"Prazos": 75, "Audiências": 9, "Tarefas": 150}, "audano": {"2023": 1, "2024": 3, "2025": 5}, "tramitacaoDias": 1653, "prazano": {"2021": 1, "2022": 2, "2023": 9, "2024": 28, "2025": 25, "2026": 10}, "tarefano": {"2019": 55, "2020": 52, "2021": 41, "2025": 1, "2026": 1}}, "horas": {"total": 161.6, "media": 7.0, "mediaAtivos": 16.2, "_estimativa": true, "horasano": {"2021": 2.6, "2022": 2.2, "2023": 38.1, "2024": 28.0, "2025": 52.9, "2026": 37.8}}, "_idCliente": "2123046", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 12, "sem_valor": 11, "ativos_sem_valor": 1}}, "_idCliente": "2123046"}, "calcadao_praia": {"nome": "Calçadão Praia Shopping", "_idCliente": "2122142", "dataset": {"estoque": {"2010": 1, "2011": 1, "2012": 2, "2013": 2, "2014": 3, "2015": 4, "2016": 4, "2017": 4, "2018": 4, "2019": 2, "2020": 2, "2021": 2, "2022": 2, "2023": 6, "2024": 8, "2025": 11, "2026": 11}, "estoqueHl": ["2025", "2026"], "entradas": {"2010": 1, "2012": 1, "2014": 1, "2015": 1, "2020": 1, "2023": 4, "2024": 2, "2025": 3, "2026": 1}, "encerrados": {"2019": 2, "2020": 1, "2026": 1}, "area": {"Cível": 11, "Trabalhista": 3, "Penal-Criminal": 1}, "areaTotal": 15, "instancia": {"1º Grau": 13, "2º Grau": 0, "Superiores": 2, "Não informado": 0}, "polo": {"Polo ativo": 8, "Polo passivo": 7, "Terceiro/Outros": 0}, "uf": {"SC": 11, "Não informado": 3, "PR": 1}, "tribunais": {"TJSC": 7, "Não informado": 4, "TRT12": 3, "TJPR": 1}, "ranking": [["0000055-61.2024.5.12.0062", "Trabalhista · TRT12 · Itapema", 214000], ["5002080-16.2023.8.24.0125", "Cível · TJSC · Itapema", 140910], ["5002445-75.2020.8.24.0125", "Cível · TJSC · Itapema", 106604.3], ["5004633-36.2023.8.24.0125", "Cível · TJSC · Itapema", 84551.38], ["5002165-02.2023.8.24.0125", "Cível · TJSC · Itapema", 58751.31]], "kpi": {"proc": 15, "procSub": "11 ativos · 4 encerrados", "ativos": 11, "areas": 3, "areasSub": "Cível, Trabalhista, Penal-Criminal", "trib": 3, "tribSub": "TJSC, TRT12, TJPR", "valor": "~R$ 713<small>mil</small>", "horas": "^159", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 9 de 15 processos com valor de causa fixado; os demais 6 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 712717.28, "qtdComValor": 9, "ativos": 11, "encerradosTotal": 4, "esforco": {"apontamentos": 561, "comProducao": 10, "_estimativa": true, "atividades": {"Prazos": 113, "Audiências": 7, "Tarefas": 46}, "audano": {"2024": 2, "2025": 3, "2026": 1}, "tramitacaoDias": 1423, "prazano": {"2023": 24, "2024": 25, "2025": 42, "2026": 22}, "tarefano": {"2020": 35, "2021": 8, "2025": 1, "2026": 2}}, "horas": {"total": 158.9, "media": 10.6, "mediaAtivos": 15.9, "_estimativa": true, "horasano": {"2023": 53.5, "2024": 54.6, "2025": 38.5, "2026": 12.3}}, "_idCliente": "2122142", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 9, "sem_valor": 6, "ativos_sem_valor": 2}}}, "ricardo_serpa": {"nome": "Ricardo Alexandre de Oliveira Serpa", "_idCliente": "2122318", "dataset": {"estoque": {"2014": 1, "2015": 2, "2016": 2, "2017": 2, "2018": 3, "2019": 4, "2020": 5, "2021": 6, "2022": 6, "2023": 6, "2024": 9, "2025": 10, "2026": 11}, "estoqueHl": ["2026", "2025"], "entradas": {"2014": 1, "2015": 1, "2018": 1, "2019": 1, "2020": 6, "2021": 1, "2022": 2, "2023": 1, "2024": 3, "2025": 1, "2026": 1}, "encerrados": {"2020": 5, "2022": 2, "2023": 1}, "area": {"Cível": 9, "Penal-Criminal": 6, "Administrativo": 4}, "areaTotal": 19, "instancia": {"1º Grau": 10, "2º Grau": 1, "Superiores": 0, "Não informado": 8}, "polo": {"Polo ativo": 5, "Polo passivo": 9, "Terceiro/Outros": 5}, "uf": {"SC": 18, "Não informado": 1}, "tribunais": {"Não informado": 10, "TJSC": 8, "TRF4": 1}, "ranking": [], "kpi": {"proc": 19, "procSub": "11 ativos · 8 encerrados", "ativos": 11, "areas": 3, "areasSub": "Cível, Penal-Criminal, Administrativo", "trib": 2, "tribSub": "TJSC, TRF4", "valor": "~R$ 161<small>mil</small>", "horas": "^73", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 3 de 19 processos com valor de causa fixado; os demais 16 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 160968.6, "qtdComValor": 3, "ativos": 11, "encerradosTotal": 8, "esforco": {"apontamentos": 247, "comProducao": 10, "_estimativa": true, "atividades": {"Prazos": 41, "Audiências": 9, "Tarefas": 94}, "audano": {"2024": 5, "2025": 2, "2026": 2}, "tramitacaoDias": 1073, "prazano": {"2021": 1, "2022": 5, "2023": 5, "2024": 4, "2025": 17, "2026": 9}, "tarefano": {"2019": 16, "2020": 46, "2021": 25, "2022": 1, "2024": 2, "2025": 2, "2026": 2}}, "horas": {"total": 73.1, "media": 3.8, "mediaAtivos": 7.3, "_estimativa": true, "horasano": {"2021": 2.1, "2022": 3.4, "2023": 2.4, "2024": 1.6, "2025": 31.8, "2026": 31.8}}, "_idCliente": "2122318", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 3, "sem_valor": 16, "ativos_sem_valor": 8}}}, "suzana_chiamenti": {"nome": "Suzana de Fátima Russi Chiamenti", "_idCliente": "2122647", "dataset": {"estoque": {"2012": 2, "2013": 2, "2014": 2, "2015": 2, "2016": 2, "2017": 2, "2018": 3, "2019": 4, "2020": 2, "2021": 2, "2022": 2, "2023": 2, "2024": 2, "2025": 2, "2026": 2}, "estoqueHl": ["2019", "2018"], "entradas": {"2012": 2, "2018": 1, "2019": 1, "2020": 1}, "encerrados": {"2020": 3}, "area": {"Cível": 4, "Penal-Criminal": 1}, "areaTotal": 5, "instancia": {"1º Grau": 5, "2º Grau": 0, "Superiores": 0, "Não informado": 0}, "polo": {"Polo ativo": 4, "Polo passivo": 0, "Terceiro/Outros": 1}, "uf": {"SC": 5}, "tribunais": {"TJSC": 2, "Não informado": 3}, "ranking": [], "kpi": {"proc": 5, "procSub": "2 ativos · 3 encerrados", "ativos": 2, "areas": 2, "areasSub": "Cível, Penal-Criminal", "trib": 1, "tribSub": "TJSC", "valor": "~R$ 47<small>mil</small>", "horas": "^7", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 2 de 5 processos com valor de causa fixado; os demais 3 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 47149.31, "qtdComValor": 2, "ativos": 2, "encerradosTotal": 3, "esforco": {"apontamentos": 25, "comProducao": 2, "_estimativa": true, "atividades": {"Prazos": 5, "Tarefas": 62}, "tramitacaoDias": 2274, "prazano": {"2022": 3, "2023": 2}, "tarefano": {"2019": 25, "2020": 37}}, "horas": {"total": 7.2, "media": 1.4, "mediaAtivos": 3.6, "_estimativa": true, "horasano": {"2022": 6, "2023": 1.2}}, "_idCliente": "2122647", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 2, "sem_valor": 3, "ativos_sem_valor": 1}}}, "joana_reis": {"nome": "Joana Russi Reis", "_idCliente": "2124120", "dataset": {"estoque": {"2010": 1, "2011": 1, "2012": 1, "2013": 1, "2014": 1, "2015": 1, "2016": 1, "2017": 2, "2018": 4, "2019": 4, "2020": 4, "2021": 6, "2022": 6, "2023": 7, "2024": 7, "2025": 8, "2026": 8}, "estoqueHl": ["2025", "2026"], "entradas": {"2017": 1, "2018": 2, "2020": 1, "2021": 2, "2022": 1, "2023": 2, "2025": 1}, "encerrados": {"2020": 1, "2022": 1, "2023": 1}, "area": {"Cível": 8, "Bancário": 2, "Tributário": 1}, "areaTotal": 11, "instancia": {"1º Grau": 8, "2º Grau": 2, "Superiores": 1, "Não informado": 0}, "polo": {"Polo ativo": 2, "Polo passivo": 8, "Terceiro/Outros": 1}, "uf": {"DF": 1, "SC": 10}, "tribunais": {"STJ": 1, "TJSC": 9, "Não informado": 1}, "ranking": [["196030028613", "Tributário · Não informado · Itajaí", 436627443], ["5002556-54.2023.8.24.0125", "Cível · TJSC · Itapema", 200000], ["5001339-44.2021.8.24.0125", "Cível · TJSC · Itapema", 100000], ["5001340-29.2021.8.24.0125", "Cível · TJSC · Itapema", 100000], ["0300417-20.2018.8.24.0125", "Cível · TJSC · Itapema", 20600]], "kpi": {"proc": 11, "procSub": "8 ativos · 3 encerrados", "ativos": 8, "areas": 3, "areasSub": "Cível, Bancário, Tributário", "trib": 2, "tribSub": "TJSC, STJ", "valor": "~R$ 437<small>mi</small>", "horas": "^191", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 7 de 11 processos com valor de causa fixado; os demais 4 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 437069150.13, "qtdComValor": 7, "ativos": 8, "encerradosTotal": 3, "esforco": {"apontamentos": 328, "comProducao": 7, "_estimativa": true, "atividades": {"Prazos": 59, "Audiências": 4, "Tarefas": 176}, "audano": {"2025": 4}, "tramitacaoDias": 1879, "prazano": {"2021": 1, "2022": 5, "2023": 10, "2024": 11, "2025": 18, "2026": 19}, "tarefano": {"2019": 40, "2020": 56, "2021": 79, "2026": 1}}, "horas": {"total": 191.1, "media": 17.4, "mediaAtivos": 27.3, "_estimativa": true, "horasano": {"2021": 7.7, "2022": 14.2, "2023": 57.4, "2024": 32.7, "2025": 53.8, "2026": 25.2}}, "_idCliente": "2124120", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 7, "sem_valor": 4, "ativos_sem_valor": 3}}}, "j_serpa": {"nome": "J. Serpa Construtora e Incorporadora", "_idCliente": "2130397", "dataset": {"kpi": {"proc": 0, "procSub": "—", "ativos": 0, "areas": 0, "areasSub": "em atualização", "trib": 0, "tribSub": "—", "valor": "—"}, "estoque": {}, "estoqueHl": [], "entradas": {}, "encerrados": {}, "area": {}, "areaTotal": 0, "instancia": {}, "polo": {}, "uf": {}, "tribunais": {}, "ranking": [], "ativos": 0, "esforco": {}, "horas": {}, "_placeholder": true, "_semProcessos": true, "_dadosReais": true, "_fonteData": "EasyJur 01/07/2026 — 0 processos (cadastro como fornecedor)"}}, "splendour": {"nome": "Splendour of the Seas Residence", "_idCliente": "2130432", "dataset": {"estoque": {"2010": 2, "2011": 3, "2012": 3, "2013": 13, "2014": 13, "2015": 15, "2016": 16, "2017": 18, "2018": 21, "2019": 31, "2020": 10, "2021": 11, "2022": 16, "2023": 14}, "estoqueHl": ["2019", "2018"], "entradas": {"2010": 2, "2011": 1, "2013": 10, "2015": 3, "2016": 1, "2017": 2, "2018": 3, "2019": 15, "2020": 8, "2021": 1, "2022": 7}, "encerrados": {"2015": 1, "2019": 5, "2020": 29, "2022": 2, "2023": 2}, "area": {"Cível": 39, "Trabalhista": 12, "Imobiliário": 1, "Penal-Criminal": 1}, "areaTotal": 53, "instancia": {"1º Grau": 35, "2º Grau": 2, "Superiores": 0, "Não informado": 16}, "polo": {"Polo ativo": 35, "Polo passivo": 15, "Terceiro/Outros": 3}, "uf": {"SC": 50, "Não informado": 3}, "tribunais": {"TJSC": 24, "Não informado": 17, "TRT12": 12}, "ranking": [["5004688-21.2022.8.24.0125", "Cível · TJSC · Itapema", 34151.14], ["0000191-80.2022.5.12.0045", "Trabalhista · TRT12 · Balneário Camboriú", 14667.11], ["5004909-38.2021.8.24.0125", "Cível · TJSC · Itapema", 14595.15], ["5004438-56.2020.8.24.0125", "Cível · TJSC · Itapema", 14173.92], ["5004200-37.2020.8.24.0125", "Cível · TJSC · Itapema", 11541.08]], "kpi": {"proc": 53, "procSub": "13 ativos · 39 encerrados", "ativos": 13, "areas": 4, "areasSub": "Cível, Trabalhista, Imobiliário", "trib": 2, "tribSub": "TJSC, TRT12", "valor": "~R$ 102<small>mil</small>", "horas": "^141", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 8 de 53 processos com valor de causa fixado; os demais 45 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 102485.73, "qtdComValor": 8, "ativos": 13, "encerradosTotal": 39, "esforco": {"apontamentos": 459, "comProducao": 15, "tramitacaoDias": 1523, "atividades": {"Prazos": 77, "Audiências": 5, "Tarefas": 862}, "audano": {"2022": 2, "2023": 2, "2024": 1}, "_estimativa": true, "prazano": {"2022": 31, "2023": 14, "2024": 14, "2025": 14, "2026": 4}, "tarefano": {"2019": 384, "2020": 252, "2021": 213, "2022": 6, "2023": 6, "2026": 1}}, "horas": {"total": 140.6, "horasano": {"2021": 0.2, "2022": 42.9, "2023": 24.5, "2024": 27.0, "2025": 30.9, "2026": 15.2}, "_estimativa": true, "media": 2.7, "mediaAtivos": 9.4}, "_idCliente": "2130432", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 8, "sem_valor": 45, "ativos_sem_valor": 6}}}, "rcr": {"nome": "RCR Empreendimentos Imobiliários", "_idCliente": "2130460", "dataset": {"estoque": {"2016": 1, "2017": 2, "2018": 3, "2019": 5, "2020": 8, "2021": 6, "2022": 4, "2023": 5, "2024": 5, "2025": 6, "2026": 7}, "estoqueHl": ["2020", "2026"], "entradas": {"2016": 1, "2017": 1, "2018": 1, "2019": 3, "2020": 5, "2021": 3, "2022": 1, "2023": 1, "2025": 1, "2026": 1}, "encerrados": {"2019": 1, "2020": 2, "2021": 5, "2022": 3}, "area": {"Administrativo": 6, "Cível": 6, "Tributário": 5, "Trabalhista": 1}, "areaTotal": 18, "instancia": {"1º Grau": 13, "2º Grau": 2, "Superiores": 1, "Não informado": 2}, "polo": {"Polo ativo": 7, "Polo passivo": 11, "Terceiro/Outros": 0}, "uf": {"SC": 17, "Não informado": 1}, "tribunais": {"Não informado": 7, "TJSC": 6, "TRF4": 3, "STJ": 1, "TRT12": 1}, "ranking": [["5006994-74.2019.4.04.7200", "Tributário · TRF4 · Florianópolis", 100000], ["5002409-29.2025.8.24.0005", "Tributário · TJSC · Balneário Camboriú", 69193.47], ["5014389-51.2026.8.24.0000", "Cível · TJSC · Florianópolis", 66049.87], ["5011284-56.2023.8.24.0005", "Cível · TJSC · Balneário Camboriú", 66049.87], ["5003625-64.2021.8.24.0005", "Cível · TJSC · Balneário Camboriú", 66049.87]], "kpi": {"proc": 18, "procSub": "7 ativos · 11 encerrados", "ativos": 7, "areas": 4, "areasSub": "Administrativo, Cível, Tributário", "trib": 4, "tribSub": "TJSC, TRF4, STJ, TRT12", "valor": "~R$ 417<small>mil</small>", "horas": "^32", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 6 de 18 processos com valor de causa fixado; os demais 12 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 417343.08, "qtdComValor": 6, "ativos": 7, "encerradosTotal": 11, "esforco": {"apontamentos": 162, "comProducao": 7, "_estimativa": true, "atividades": {"Prazos": 36, "Audiências": 1, "Tarefas": 242}, "audano": {"2026": 1}, "tramitacaoDias": 1034, "prazano": {"2022": 4, "2023": 7, "2024": 4, "2025": 11, "2026": 10}, "tarefano": {"2019": 51, "2020": 49, "2021": 141, "2026": 1}}, "horas": {"total": 31.6, "media": 1.8, "mediaAtivos": 4.5, "_estimativa": true, "horasano": {"2022": 6.4, "2023": 7.6, "2024": 5.2, "2025": 5.2, "2026": 7.2}}, "_idCliente": "2130460", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 6, "sem_valor": 12, "ativos_sem_valor": 3}}}, "russi_participacoes": {"nome": "J.A. Russi Participações S.A.", "_idCliente": "675448089", "dataset": {"kpi": {"proc": 0, "procSub": "—", "ativos": 0, "areas": 0, "areasSub": "em atualização", "trib": 0, "tribSub": "—", "valor": "—"}, "estoque": {}, "estoqueHl": [], "entradas": {}, "encerrados": {}, "area": {}, "areaTotal": 0, "instancia": {}, "polo": {}, "uf": {}, "tribunais": {}, "ranking": [], "ativos": 0, "esforco": {}, "horas": {}, "_placeholder": true, "_semProcessos": true, "_dadosReais": true, "_fonteData": "EasyJur 01/07/2026 — 0 processos (holding, sem carteira propria)"}}, "felipe_reis": {"nome": "Felipe Nilton Reis", "_idCliente": "677012382", "dataset": {"kpi": {"proc": 0, "procSub": "—", "ativos": 0, "areas": 0, "areasSub": "em atualização", "trib": 0, "tribSub": "—", "valor": "—"}, "estoque": {}, "estoqueHl": [], "entradas": {}, "encerrados": {}, "area": {}, "areaTotal": 0, "instancia": {}, "polo": {}, "uf": {}, "tribunais": {}, "ranking": [], "ativos": 0, "esforco": {}, "horas": {}, "_placeholder": true, "_semProcessos": true, "_dadosReais": true, "_fonteData": "EasyJur 01/07/2026 — 0 processos vinculados como cliente titular"}}, "harmony": {"nome": "Harmony of the Seas Empreendimentos Imobiliários Ltda", "_idCliente": "677012386", "dataset": {"estoque": {"2024": 1, "2025": 1}, "estoqueHl": ["2024", "2025"], "entradas": {"2024": 1, "2025": 2}, "encerrados": {"2025": 2}, "area": {"Cível": 2, "Penal-Criminal": 1}, "areaTotal": 3, "instancia": {"1º Grau": 3, "2º Grau": 0, "Superiores": 0, "Não informado": 0}, "polo": {"Polo ativo": 2, "Polo passivo": 1, "Terceiro/Outros": 0}, "uf": {"SC": 1, "Não informado": 2}, "tribunais": {"TJSC": 1, "Não informado": 2}, "ranking": [], "kpi": {"proc": 3, "procSub": "1 ativos · 2 encerrados", "ativos": 1, "areas": 2, "areasSub": "Cível, Penal-Criminal", "trib": 1, "tribSub": "TJSC", "valor": "—", "valorSub": "nenhum processo com valor de causa fixado (causas de valor não fixado — êxito, a arbitrar ou peça acessória)", "horas": "^25", "horasSub": "horas apontadas (parcial — ver nota)"}, "valorTotal": 0, "qtdComValor": 0, "ativos": 1, "encerradosTotal": 2, "esforco": {"apontamentos": 40, "comProducao": 3, "_estimativa": true, "atividades": {"Prazos": 7, "Audiências": 1, "Tarefas": 1}, "audano": {"2026": 1}, "tramitacaoDias": 223, "prazano": {"2024": 1, "2025": 6}, "tarefano": {"2025": 1}}, "horas": {"total": 25.4, "media": 8.5, "mediaAtivos": 8.5, "_estimativa": true, "horasano": {"2024": 8.4, "2025": 17.0}}, "_idCliente": "677012386", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 0, "sem_valor": 3, "ativos_sem_valor": 1}}}, "sunny_coast": {"nome": "Sunny Coast Empreendimentos Imobiliários SPE Ltda", "_idCliente": "677012390", "dataset": {"estoque": {"2024": 1, "2025": 4}, "estoqueHl": ["2025", "2024"], "entradas": {"2024": 1, "2025": 3}, "encerrados": {}, "area": {"Trabalhista": 4}, "areaTotal": 4, "instancia": {"1º Grau": 3, "2º Grau": 1, "Superiores": 0, "Não informado": 0}, "polo": {"Polo ativo": 0, "Polo passivo": 4, "Terceiro/Outros": 0}, "uf": {"SC": 3, "AP": 1}, "tribunais": {"TRT12": 3, "TRT08": 1}, "ranking": [["0001734-96.2024.5.12.0062", "Trabalhista · TRT12 · Itapema", 281167.14]], "kpi": {"proc": 4, "procSub": "4 ativos · 0 encerrados", "ativos": 4, "areas": 1, "areasSub": "Trabalhista", "trib": 2, "tribSub": "TRT12, TRT08", "valor": "~R$ 281<small>mil</small>", "horas": "^70", "horasSub": "horas apontadas (parcial — ver nota)", "valorSub": "valor sobre 1 de 4 processos com valor de causa fixado; os demais 3 não têm valor lançado (êxito, a arbitrar ou peça acessória)"}, "valorTotal": 281167.14, "qtdComValor": 1, "ativos": 4, "encerradosTotal": 0, "esforco": {"apontamentos": 219, "comProducao": 4, "_estimativa": true, "atividades": {"Prazos": 33, "Audiências": 6, "Tarefas": 1}, "audano": {"2024": 1, "2025": 3, "2026": 2}, "tramitacaoDias": 351, "prazano": {"2024": 6, "2025": 14, "2026": 13}, "tarefano": {"2026": 1}}, "horas": {"total": 70.2, "media": 17.6, "mediaAtivos": 17.6, "_estimativa": true, "horasano": {"2024": 20, "2025": 15.7, "2026": 34.5}}, "_idCliente": "677012390", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 1, "sem_valor": 3, "ativos_sem_valor": 3}}}, "torremolinos": {"nome": "Condomínio Torremolinos", "_idCliente": "677012391", "dataset": {"kpi": {"proc": 0, "procSub": "—", "ativos": 0, "areas": 0, "areasSub": "em atualização", "trib": 0, "tribSub": "—", "valor": "—"}, "estoque": {}, "estoqueHl": [], "entradas": {}, "encerrados": {}, "area": {}, "areaTotal": 0, "instancia": {}, "polo": {}, "uf": {}, "tribunais": {}, "ranking": [], "ativos": 0, "esforco": {}, "horas": {}, "_placeholder": true, "_semProcessos": true, "_dadosReais": true, "_fonteData": "EasyJur 01/07/2026 — 0 processos vinculados"}}, "garden_mall": {"nome": "Empreendimento Garden Open Mall", "_idCliente": "681898002", "dataset": {"estoque": {"2025": 2}, "estoqueHl": ["2025"], "entradas": {"2025": 2}, "encerrados": {}, "area": {"Pública": 1, "Tributário": 1}, "areaTotal": 2, "instancia": {"1º Grau": 1, "2º Grau": 1, "Superiores": 0, "Não informado": 0}, "polo": {"Polo ativo": 1, "Polo passivo": 0, "Terceiro/Outros": 1}, "uf": {"SC": 2}, "tribunais": {"TJSC": 2}, "ranking": [], "kpi": {"proc": 2, "procSub": "2 ativos · 0 encerrados", "ativos": 2, "areas": 2, "areasSub": "Pública, Tributário", "trib": 1, "tribSub": "TJSC", "valor": "—", "valorSub": "nenhum processo com valor de causa fixado (causas de valor não fixado — êxito, a arbitrar ou peça acessória)", "horas": "^50", "horasSub": "horas apontadas (parcial — ver nota)"}, "valorTotal": 0, "qtdComValor": 0, "ativos": 2, "encerradosTotal": 0, "esforco": {"apontamentos": 131, "comProducao": 131, "_estimativa": true, "atividades": {"Prazos": 20, "Audiências": 3, "Tarefas": 2}, "audano": {"2025": 3}, "tramitacaoDias": 396, "prazano": {"2025": 15, "2026": 5}, "tarefano": {"2025": 1, "2026": 1}}, "horas": {"total": 50.0, "media": 25.0, "mediaAtivos": 0.4, "_estimativa": true, "horasano": {"2025": 45.1, "2026": 4.9}}, "_idCliente": "681898002", "_dadosReais": true, "_fonteData": "EasyJur list_processos 01/07/2026", "_composicaoValor": {"com_valor": 0, "sem_valor": 2, "ativos_sem_valor": 2}}}}, "nEmpresas": 17}
+{
+  "nome": "Grupo J.A. Russi",
+  "nomeHtml": "Grupo <em>J.A. Russi</em>",
+  "kpiGrupo": {
+    "proc": 1060,
+    "procSub": "636 ativos · 411 encerrados",
+    "horas": "^7848",
+    "horasSub": "horas apontadas (parcial — ver notas por empresa)",
+    "areas": 11,
+    "areasSub": "Cível, Tributário, Trabalhista",
+    "valor": "~R$ 723<small>mi</small>",
+    "trib": 26,
+    "tribSub": "TJSC, TRT12, TRF4, TJPR",
+    "ativos": 636,
+    "encerrados": 411,
+    "valorTotal": 722605522.03
+  },
+  "empresas": {
+    "_panorama": {
+      "nome": "Panorama Geral do Grupo",
+      "_panorama": true,
+      "dataset": {
+        "estoque": {
+          "2010": 16,
+          "2011": 20,
+          "2012": 48,
+          "2013": 98,
+          "2014": 131,
+          "2015": 170,
+          "2016": 209,
+          "2017": 297,
+          "2018": 336,
+          "2019": 425,
+          "2020": 289,
+          "2021": 337,
+          "2022": 385,
+          "2023": 448,
+          "2024": 491,
+          "2025": 604,
+          "2026": 628
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2010": 11,
+          "2011": 4,
+          "2012": 28,
+          "2013": 52,
+          "2014": 36,
+          "2015": 52,
+          "2016": 42,
+          "2017": 90,
+          "2018": 40,
+          "2019": 119,
+          "2020": 119,
+          "2021": 71,
+          "2022": 92,
+          "2023": 78,
+          "2024": 64,
+          "2025": 122,
+          "2026": 35
+        },
+        "encerrados": {
+          "2013": 2,
+          "2014": 3,
+          "2015": 13,
+          "2016": 3,
+          "2017": 2,
+          "2018": 1,
+          "2019": 30,
+          "2020": 255,
+          "2021": 23,
+          "2022": 44,
+          "2023": 15,
+          "2024": 7,
+          "2025": 9,
+          "2026": 4
+        },
+        "area": {
+          "Cível": 583,
+          "Tributário": 247,
+          "Trabalhista": 159,
+          "Administrativo": 26,
+          "Penal-Criminal": 19,
+          "Pública": 9,
+          "Imobiliário": 8,
+          "Ambiental": 5,
+          "Bancário": 2,
+          "Comercial": 1,
+          "Recuperação Judicial": 1
+        },
+        "areaTotal": 1060,
+        "instancia": {
+          "1º Grau": 765,
+          "2º Grau": 124,
+          "Superiores": 33,
+          "Não informado": 138
+        },
+        "polo": {
+          "Polo ativo": 470,
+          "Polo passivo": 508,
+          "Terceiro/Outros": 82
+        },
+        "uf": {
+          "SC": 861,
+          "Não informado": 66,
+          "PR": 38,
+          "RJ": 18,
+          "RS": 17,
+          "DF": 16,
+          "RN": 13,
+          "SP": 9,
+          "MS": 8,
+          "AP": 5,
+          "PA": 3,
+          "BA": 2,
+          "PI": 1,
+          "PE": 1,
+          "SE": 1,
+          "AC": 1
+        },
+        "tribunais": {
+          "TJSC": 580,
+          "Não informado": 185,
+          "TRT12": 119,
+          "TRF4": 40,
+          "TJPR": 30,
+          "STJ": 20,
+          "TJRS": 16,
+          "TJRJ": 16,
+          "TRT21": 13,
+          "TRT08": 8,
+          "TJMS": 6,
+          "TJSP": 6,
+          "Justiça Federal de Santa Catarina": 3,
+          "TRT02": 2,
+          "DRF": 2,
+          "TRT09": 2,
+          "TJBA": 2,
+          "TRT15": 1,
+          "ALAC": 1,
+          "TRT22": 1,
+          "TRF3": 1,
+          "TRT24": 1,
+          "TRT01": 1,
+          "TRF2": 1,
+          "TJPE": 1,
+          "TRT04": 1,
+          "TJSE": 1
+        },
+        "ranking": [
+          [
+            "196030028613",
+            "Tributário · Não informado · Itajaí",
+            436627443
+          ],
+          [
+            "0900411-38.2015.8.24.0005",
+            "Tributário · TJSC · Balneário Camboriú",
+            122559431.8
+          ],
+          [
+            "5048022-87.2025.8.24.0000",
+            "Cível · TJSC · Florianópolis",
+            10000000.0
+          ],
+          [
+            "5000913-89.2024.8.24.0072",
+            "Cível · TJSC · Tijucas",
+            10000000.0
+          ],
+          [
+            "5004894-40.2019.8.24.0125",
+            "Cível · TJSC · Itapema",
+            8675998.31
+          ]
+        ],
+        "kpi": {
+          "proc": 1060,
+          "procSub": "636 ativos · 411 encerrados",
+          "ativos": 636,
+          "areas": 11,
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "trib": 26,
+          "tribSub": "TJSC, TRT12, TRF4, TJPR",
+          "valor": "~R$ 723<small>mi</small>",
+          "valorSub": "soma de 497 processos com valor fixado (consolidado das 13 empresas)",
+          "horas": "^7848",
+          "horasSub": "horas apontadas — consolidado do grupo (parcial)"
+        },
+        "valorTotal": 722605522.03,
+        "qtdComValor": 497,
+        "ativos": 636,
+        "encerradosTotal": 411,
+        "esforco": {
+          "apontamentos": 23975,
+          "comProducao": 721,
+          "tramitacaoDias": 1515,
+          "atividades": {
+            "Tarefas": 11093,
+            "Prazos": 4185,
+            "Audiências": 338
+          },
+          "audano": {
+            "2022": 17,
+            "2023": 25,
+            "2024": 80,
+            "2025": 130,
+            "2026": 62
+          },
+          "_estimativa": true,
+          "prazano": {
+            "2021": 44,
+            "2022": 531,
+            "2023": 718,
+            "2024": 798,
+            "2025": 1357,
+            "2026": 752
+          },
+          "tarefano": {
+            "2019": 2878,
+            "2020": 4600,
+            "2021": 3368,
+            "2022": 42,
+            "2023": 60,
+            "2024": 38,
+            "2025": 41,
+            "2026": 68
+          },
+          "extrajudano": {
+            "2022": 3,
+            "2023": 4,
+            "2024": 3,
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 7848,
+          "media": 7.4,
+          "mediaAtivos": 10.9,
+          "horasano": {
+            "2021": 51.2,
+            "2022": 767.9,
+            "2023": 1454.9,
+            "2024": 1494.3,
+            "2025": 2664.1,
+            "2026": 1415.8
+          },
+          "_estimativa": true
+        },
+        "_dadosReais": true,
+        "_panorama": true,
+        "_nEmpresas": 13
+      }
+    },
+    "construtora_russi": {
+      "nome": "Construtora e Incorporadora J.A. Russi Ltda",
+      "dataset": {
+        "estoque": {
+          "2010": 6,
+          "2011": 8,
+          "2012": 21,
+          "2013": 48,
+          "2014": 53,
+          "2015": 62,
+          "2016": 75,
+          "2017": 140,
+          "2018": 160,
+          "2019": 218,
+          "2020": 178,
+          "2021": 211,
+          "2022": 266,
+          "2023": 309,
+          "2024": 343,
+          "2025": 439,
+          "2026": 466
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2010": 3,
+          "2011": 2,
+          "2012": 13,
+          "2013": 28,
+          "2014": 8,
+          "2015": 20,
+          "2016": 14,
+          "2017": 66,
+          "2018": 21,
+          "2019": 70,
+          "2020": 80,
+          "2021": 45,
+          "2022": 66,
+          "2023": 52,
+          "2024": 40,
+          "2025": 99,
+          "2026": 28
+        },
+        "encerrados": {
+          "2013": 1,
+          "2014": 3,
+          "2015": 11,
+          "2016": 1,
+          "2017": 1,
+          "2018": 1,
+          "2019": 12,
+          "2020": 120,
+          "2021": 12,
+          "2022": 11,
+          "2023": 9,
+          "2024": 6,
+          "2025": 3,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 323,
+          "Tributário": 188,
+          "Trabalhista": 112,
+          "Administrativo": 13,
+          "Pública": 8,
+          "Imobiliário": 6,
+          "Ambiental": 4,
+          "Penal-Criminal": 4
+        },
+        "areaTotal": 658,
+        "instancia": {
+          "1º Grau": 469,
+          "2º Grau": 76,
+          "Superiores": 19,
+          "Não informado": 94
+        },
+        "polo": {
+          "Polo ativo": 270,
+          "Polo passivo": 340,
+          "Terceiro/Outros": 48
+        },
+        "uf": {
+          "SC": 554,
+          "Não informado": 44,
+          "PR": 21,
+          "RN": 13,
+          "DF": 10,
+          "SP": 4,
+          "AP": 4,
+          "PA": 3,
+          "RS": 2,
+          "MS": 1,
+          "PI": 1,
+          "RJ": 1
+        },
+        "tribunais": {
+          "TJSC": 380,
+          "Não informado": 116,
+          "TRT12": 78,
+          "TJPR": 19,
+          "TRF4": 19,
+          "TRT21": 13,
+          "STJ": 12,
+          "TRT08": 7,
+          "TRT02": 2,
+          "Justiça Federal de Santa Catarina": 2,
+          "DRF": 2,
+          "TJRS": 2,
+          "TRT15": 1,
+          "TJMS": 1,
+          "ALAC": 1,
+          "TJSP": 1,
+          "TRT22": 1,
+          "TJRJ": 1
+        },
+        "ranking": [
+          [
+            "0900411-38.2015.8.24.0005",
+            "Tributário · TJSC · Balneário Camboriú",
+            122559431.8
+          ],
+          [
+            "5048022-87.2025.8.24.0000",
+            "Cível · TJSC · Florianópolis",
+            10000000.0
+          ],
+          [
+            "5000913-89.2024.8.24.0072",
+            "Cível · TJSC · Tijucas",
+            10000000.0
+          ],
+          [
+            "5004894-40.2019.8.24.0125",
+            "Cível · TJSC · Itapema",
+            8675998.31
+          ],
+          [
+            "5014117-65.2020.8.24.0033",
+            "Cível · TJSC · Itajaí",
+            8000000.0
+          ]
+        ],
+        "kpi": {
+          "proc": 658,
+          "procSub": "456 ativos · 192 encerrados",
+          "ativos": 456,
+          "areas": 8,
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "trib": 17,
+          "tribSub": "TJSC, TRT12, TJPR, TRF4",
+          "valor": "~R$ 238<small>mi</small>",
+          "horas": "^5348",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 344 de 658 processos com valor de causa fixado; os demais 314 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 238122120.61,
+        "qtdComValor": 344,
+        "ativos": 456,
+        "encerradosTotal": 192,
+        "esforco": {
+          "apontamentos": 16929,
+          "comProducao": 404,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 2905,
+            "Audiências": 255,
+            "Tarefas": 6326
+          },
+          "audano": {
+            "2022": 14,
+            "2023": 18,
+            "2024": 49,
+            "2025": 97,
+            "2026": 54
+          },
+          "tramitacaoDias": 1426,
+          "prazano": {
+            "2021": 30,
+            "2022": 361,
+            "2023": 486,
+            "2024": 489,
+            "2025": 990,
+            "2026": 550
+          },
+          "tarefano": {
+            "2019": 1371,
+            "2020": 2800,
+            "2021": 1968,
+            "2022": 22,
+            "2023": 53,
+            "2024": 30,
+            "2025": 33,
+            "2026": 49
+          }
+        },
+        "horas": {
+          "total": 5348.3,
+          "media": 8.1,
+          "mediaAtivos": 13.2,
+          "horasano": {
+            "2021": 24.6,
+            "2022": 524.4,
+            "2023": 947.5,
+            "2024": 851.3,
+            "2025": 1949.2,
+            "2026": 1051.1
+          },
+          "_estimativa": true
+        },
+        "_idCliente": "2123691",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 344,
+          "sem_valor": 314,
+          "ativos_sem_valor": 180
+        }
+      },
+      "_idCliente": "2123691"
+    },
+    "nacional_fund": {
+      "nome": "Nacional Fundações Ltda",
+      "dataset": {
+        "estoque": {
+          "2010": 4,
+          "2011": 5,
+          "2012": 8,
+          "2013": 16,
+          "2014": 31,
+          "2015": 41,
+          "2016": 56,
+          "2017": 60,
+          "2018": 65,
+          "2019": 77,
+          "2020": 45,
+          "2021": 52,
+          "2022": 47,
+          "2023": 51,
+          "2024": 60,
+          "2025": 60,
+          "2026": 60
+        },
+        "estoqueHl": [
+          "2019",
+          "2018"
+        ],
+        "entradas": {
+          "2010": 4,
+          "2011": 1,
+          "2012": 3,
+          "2013": 8,
+          "2014": 15,
+          "2015": 11,
+          "2016": 16,
+          "2017": 5,
+          "2018": 5,
+          "2019": 16,
+          "2020": 8,
+          "2021": 11,
+          "2022": 9,
+          "2023": 6,
+          "2024": 9,
+          "2025": 2,
+          "2026": 1
+        },
+        "encerrados": {
+          "2015": 1,
+          "2016": 1,
+          "2017": 1,
+          "2019": 4,
+          "2020": 40,
+          "2021": 4,
+          "2022": 14,
+          "2023": 2,
+          "2025": 2,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 98,
+          "Trabalhista": 17,
+          "Tributário": 13,
+          "Comercial": 1,
+          "Recuperação Judicial": 1
+        },
+        "areaTotal": 130,
+        "instancia": {
+          "1º Grau": 99,
+          "2º Grau": 19,
+          "Superiores": 5,
+          "Não informado": 7
+        },
+        "polo": {
+          "Polo ativo": 75,
+          "Polo passivo": 46,
+          "Terceiro/Outros": 9
+        },
+        "uf": {
+          "SC": 68,
+          "RJ": 17,
+          "RS": 15,
+          "Não informado": 11,
+          "MS": 6,
+          "PR": 6,
+          "BA": 2,
+          "SP": 2,
+          "DF": 1,
+          "PE": 1,
+          "SE": 1
+        },
+        "tribunais": {
+          "TJSC": 50,
+          "TJRJ": 15,
+          "TJRS": 14,
+          "TRT12": 12,
+          "Não informado": 9,
+          "TRF4": 7,
+          "TJMS": 4,
+          "STJ": 3,
+          "TJPR": 3,
+          "TRT09": 2,
+          "TJBA": 2,
+          "TJSP": 2,
+          "TRF3": 1,
+          "TRT24": 1,
+          "TRT01": 1,
+          "TRF2": 1,
+          "TJPE": 1,
+          "TRT04": 1,
+          "TJSE": 1
+        },
+        "ranking": [
+          [
+            "0809950-92.2021.8.12.0021",
+            "Cível · TJMS · Três Lagoas",
+            2578334.66
+          ],
+          [
+            "5394787-76.2025.8.21.7000",
+            "Cível · TJRS · Porto Alegre",
+            1563731.81
+          ],
+          [
+            "2904085 (2025/0123206-3)",
+            "Cível · STJ · Brasília",
+            1563731.81
+          ],
+          [
+            "5268682-25.2023.8.21.7000",
+            "Cível · TJRS · Porto Alegre",
+            1563731.81
+          ],
+          [
+            "5122744-78.2022.8.21.0001",
+            "Cível · TJRS · Porto Alegre",
+            1563731.81
+          ]
+        ],
+        "kpi": {
+          "proc": 130,
+          "procSub": "60 ativos · 70 encerrados",
+          "ativos": 60,
+          "areas": 5,
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 18,
+          "tribSub": "TJSC, TJRJ, TJRS, TRT12",
+          "valor": "~R$ 22<small>mi</small>",
+          "horas": "^912",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 54 de 130 processos com valor de causa fixado; os demais 76 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 21890802.77,
+        "qtdComValor": 54,
+        "ativos": 60,
+        "encerradosTotal": 70,
+        "esforco": {
+          "apontamentos": 2694,
+          "comProducao": 61,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 479,
+            "Audiências": 18,
+            "Tarefas": 2024
+          },
+          "audano": {
+            "2022": 1,
+            "2024": 9,
+            "2025": 7,
+            "2026": 1
+          },
+          "tramitacaoDias": 1914,
+          "prazano": {
+            "2021": 9,
+            "2022": 83,
+            "2023": 84,
+            "2024": 133,
+            "2025": 114,
+            "2026": 58
+          },
+          "tarefano": {
+            "2019": 534,
+            "2020": 844,
+            "2021": 625,
+            "2022": 12,
+            "2023": 1,
+            "2024": 5,
+            "2025": 1,
+            "2026": 2
+          }
+        },
+        "horas": {
+          "total": 911.9,
+          "media": 7.0,
+          "mediaAtivos": 14.9,
+          "horasano": {
+            "2021": 13.7,
+            "2022": 141.6,
+            "2023": 143.8,
+            "2024": 260.9,
+            "2025": 244.2,
+            "2026": 107.8
+          },
+          "_estimativa": true
+        },
+        "_idCliente": "2130232",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_horasFonte": "EasyJur timesheet 01/07/2026 — soma real de 130 processos; parcial pela paginacao instavel da API em processos grandes",
+        "_composicaoValor": {
+          "com_valor": 54,
+          "sem_valor": 76,
+          "ativos_sem_valor": 16
+        }
+      },
+      "_idCliente": "2130232"
+    },
+    "alianca": {
+      "nome": "Aliança Empreendimentos Imobiliários Ltda",
+      "dataset": {
+        "estoque": {
+          "2010": 2,
+          "2011": 2,
+          "2012": 10,
+          "2013": 15,
+          "2014": 24,
+          "2015": 37,
+          "2016": 44,
+          "2017": 56,
+          "2018": 61,
+          "2019": 66,
+          "2020": 29,
+          "2021": 33,
+          "2022": 30,
+          "2023": 40,
+          "2024": 46,
+          "2025": 51,
+          "2026": 52
+        },
+        "estoqueHl": [
+          "2019",
+          "2018"
+        ],
+        "entradas": {
+          "2010": 1,
+          "2012": 8,
+          "2013": 6,
+          "2014": 9,
+          "2015": 13,
+          "2016": 8,
+          "2017": 12,
+          "2018": 5,
+          "2019": 11,
+          "2020": 8,
+          "2021": 5,
+          "2022": 6,
+          "2023": 10,
+          "2024": 7,
+          "2025": 7,
+          "2026": 2
+        },
+        "encerrados": {
+          "2013": 1,
+          "2016": 1,
+          "2019": 6,
+          "2020": 45,
+          "2021": 1,
+          "2022": 9,
+          "2024": 1,
+          "2025": 2,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 70,
+          "Tributário": 33,
+          "Trabalhista": 6,
+          "Penal-Criminal": 5,
+          "Administrativo": 3,
+          "Ambiental": 1,
+          "Imobiliário": 1
+        },
+        "areaTotal": 119,
+        "instancia": {
+          "1º Grau": 92,
+          "2º Grau": 15,
+          "Superiores": 3,
+          "Não informado": 9
+        },
+        "polo": {
+          "Polo ativo": 46,
+          "Polo passivo": 60,
+          "Terceiro/Outros": 13
+        },
+        "uf": {
+          "SC": 101,
+          "PR": 9,
+          "DF": 3,
+          "SP": 3,
+          "AC": 1,
+          "MS": 1,
+          "Não informado": 1
+        },
+        "tribunais": {
+          "TJSC": 79,
+          "Não informado": 14,
+          "TRF4": 7,
+          "TJPR": 7,
+          "TRT12": 6,
+          "TJSP": 3,
+          "STJ": 2,
+          "TJMS": 1
+        },
+        "ranking": [
+          [
+            "0004536-83.2007.8.24.0125",
+            "Administrativo · TJSC · Florianópolis",
+            3268533.0
+          ],
+          [
+            "0000349-57.2018.8.16.0064",
+            "Cível · TJPR · Castro",
+            2195000.0
+          ],
+          [
+            "5009797-16.2022.8.24.0125",
+            "Cível · TJSC · Itapema",
+            2082618.06
+          ],
+          [
+            "0300429-68.2017.8.24.0125",
+            "Cível · TJSC · Itapema",
+            2000000.0
+          ],
+          [
+            "5008636-06.2023.8.24.0005",
+            "Cível · TJSC · Balneário Camboriú",
+            1638235.4
+          ]
+        ],
+        "kpi": {
+          "proc": 119,
+          "procSub": "50 ativos · 67 encerrados",
+          "ativos": 50,
+          "areas": 7,
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "trib": 7,
+          "tribSub": "TJSC, TRF4, TJPR, TRT12",
+          "valor": "~R$ 21<small>mi</small>",
+          "horas": "^678",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 51 de 119 processos com valor de causa fixado; os demais 68 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 21491328.6,
+        "qtdComValor": 51,
+        "ativos": 50,
+        "encerradosTotal": 67,
+        "esforco": {
+          "apontamentos": 1734,
+          "comProducao": 57,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 335,
+            "Audiências": 20,
+            "Tarefas": 1107
+          },
+          "audano": {
+            "2023": 4,
+            "2024": 10,
+            "2025": 6
+          },
+          "tramitacaoDias": 1719,
+          "prazano": {
+            "2021": 2,
+            "2022": 37,
+            "2023": 77,
+            "2024": 83,
+            "2025": 91,
+            "2026": 52
+          },
+          "tarefano": {
+            "2019": 402,
+            "2020": 429,
+            "2021": 268,
+            "2022": 1,
+            "2024": 1,
+            "2025": 1,
+            "2026": 7
+          }
+        },
+        "horas": {
+          "total": 678.4,
+          "media": 5.7,
+          "mediaAtivos": 11.9,
+          "_estimativa": true,
+          "horasano": {
+            "2021": 0.3,
+            "2022": 26.8,
+            "2023": 178.9,
+            "2024": 204.6,
+            "2025": 179.8,
+            "2026": 88.0
+          }
+        },
+        "_idCliente": "2118810",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 51,
+          "sem_valor": 68,
+          "ativos_sem_valor": 14
+        }
+      },
+      "_idCliente": "2118810"
+    },
+    "embraconci": {
+      "nome": "Embraconci – Emp. Bras. da Const. Civil Ltda ME",
+      "dataset": {
+        "estoque": {
+          "2012": 1,
+          "2013": 1,
+          "2014": 3,
+          "2015": 6,
+          "2016": 8,
+          "2017": 11,
+          "2018": 12,
+          "2019": 14,
+          "2020": 6,
+          "2021": 8,
+          "2022": 6,
+          "2023": 8,
+          "2024": 9,
+          "2025": 10,
+          "2026": 11
+        },
+        "estoqueHl": [
+          "2019",
+          "2018"
+        ],
+        "entradas": {
+          "2012": 1,
+          "2014": 2,
+          "2015": 3,
+          "2016": 2,
+          "2017": 3,
+          "2018": 1,
+          "2019": 2,
+          "2020": 1,
+          "2021": 3,
+          "2023": 2,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "encerrados": {
+          "2020": 9,
+          "2021": 1,
+          "2022": 2
+        },
+        "area": {
+          "Cível": 13,
+          "Tributário": 6,
+          "Trabalhista": 4
+        },
+        "areaTotal": 23,
+        "instancia": {
+          "1º Grau": 14,
+          "2º Grau": 5,
+          "Superiores": 2,
+          "Não informado": 2
+        },
+        "polo": {
+          "Polo ativo": 15,
+          "Polo passivo": 7,
+          "Terceiro/Outros": 1
+        },
+        "uf": {
+          "SC": 21,
+          "DF": 1,
+          "PR": 1
+        },
+        "tribunais": {
+          "TJSC": 12,
+          "TRT12": 4,
+          "TRF4": 3,
+          "Não informado": 2,
+          "STJ": 1,
+          "Justiça Federal de Santa Catarina": 1
+        },
+        "ranking": [
+          [
+            "5010206-55.2023.8.24.0125",
+            "Cível · TJSC · Itapema",
+            690000.0
+          ],
+          [
+            "3295817 (2026/0242136-2)",
+            "Cível · STJ · Brasília",
+            495181.53
+          ],
+          [
+            "5005129-36.2021.8.24.0125",
+            "Cível · TJSC · Florianópolis",
+            495181.53
+          ],
+          [
+            "5006014-79.2023.8.24.0125",
+            "Cível · TJSC · Itapema",
+            150000.0
+          ],
+          [
+            "5003119-23.2024.8.24.0025",
+            "Cível · TJSC · Gaspar",
+            132571.27
+          ]
+        ],
+        "kpi": {
+          "proc": 23,
+          "procSub": "11 ativos · 12 encerrados",
+          "ativos": 11,
+          "areas": 3,
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "trib": 5,
+          "tribSub": "TJSC, TRT12, TRF4, STJ",
+          "valor": "~R$ 2<small>mi</small>",
+          "horas": "^162",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 12 de 23 processos com valor de causa fixado; os demais 11 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 2310288.78,
+        "qtdComValor": 12,
+        "ativos": 11,
+        "encerradosTotal": 12,
+        "esforco": {
+          "apontamentos": 446,
+          "comProducao": 10,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 75,
+            "Audiências": 9,
+            "Tarefas": 150
+          },
+          "audano": {
+            "2023": 1,
+            "2024": 3,
+            "2025": 5
+          },
+          "tramitacaoDias": 1653,
+          "prazano": {
+            "2021": 1,
+            "2022": 2,
+            "2023": 9,
+            "2024": 28,
+            "2025": 25,
+            "2026": 10
+          },
+          "tarefano": {
+            "2019": 55,
+            "2020": 52,
+            "2021": 41,
+            "2025": 1,
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 161.6,
+          "media": 7.0,
+          "mediaAtivos": 16.2,
+          "_estimativa": true,
+          "horasano": {
+            "2021": 2.6,
+            "2022": 2.2,
+            "2023": 38.1,
+            "2024": 28.0,
+            "2025": 52.9,
+            "2026": 37.8
+          }
+        },
+        "_idCliente": "2123046",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 12,
+          "sem_valor": 11,
+          "ativos_sem_valor": 1
+        }
+      },
+      "_idCliente": "2123046"
+    },
+    "calcadao_praia": {
+      "nome": "Calçadão Praia Shopping",
+      "_idCliente": "2122142",
+      "dataset": {
+        "estoque": {
+          "2010": 1,
+          "2011": 1,
+          "2012": 2,
+          "2013": 2,
+          "2014": 3,
+          "2015": 4,
+          "2016": 4,
+          "2017": 4,
+          "2018": 4,
+          "2019": 2,
+          "2020": 2,
+          "2021": 2,
+          "2022": 2,
+          "2023": 6,
+          "2024": 8,
+          "2025": 11,
+          "2026": 11
+        },
+        "estoqueHl": [
+          "2025",
+          "2026"
+        ],
+        "entradas": {
+          "2010": 1,
+          "2012": 1,
+          "2014": 1,
+          "2015": 1,
+          "2020": 1,
+          "2023": 4,
+          "2024": 2,
+          "2025": 3,
+          "2026": 1
+        },
+        "encerrados": {
+          "2019": 2,
+          "2020": 1,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 11,
+          "Trabalhista": 3,
+          "Penal-Criminal": 1
+        },
+        "areaTotal": 15,
+        "instancia": {
+          "1º Grau": 13,
+          "2º Grau": 0,
+          "Superiores": 2,
+          "Não informado": 0
+        },
+        "polo": {
+          "Polo ativo": 8,
+          "Polo passivo": 7,
+          "Terceiro/Outros": 0
+        },
+        "uf": {
+          "SC": 11,
+          "Não informado": 3,
+          "PR": 1
+        },
+        "tribunais": {
+          "TJSC": 7,
+          "Não informado": 4,
+          "TRT12": 3,
+          "TJPR": 1
+        },
+        "ranking": [
+          [
+            "0000055-61.2024.5.12.0062",
+            "Trabalhista · TRT12 · Itapema",
+            214000
+          ],
+          [
+            "5002080-16.2023.8.24.0125",
+            "Cível · TJSC · Itapema",
+            140910
+          ],
+          [
+            "5002445-75.2020.8.24.0125",
+            "Cível · TJSC · Itapema",
+            106604.3
+          ],
+          [
+            "5004633-36.2023.8.24.0125",
+            "Cível · TJSC · Itapema",
+            84551.38
+          ],
+          [
+            "5002165-02.2023.8.24.0125",
+            "Cível · TJSC · Itapema",
+            58751.31
+          ]
+        ],
+        "kpi": {
+          "proc": 15,
+          "procSub": "11 ativos · 4 encerrados",
+          "ativos": 11,
+          "areas": 3,
+          "areasSub": "Cível, Trabalhista, Penal-Criminal",
+          "trib": 3,
+          "tribSub": "TJSC, TRT12, TJPR",
+          "valor": "~R$ 713<small>mil</small>",
+          "horas": "^159",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 9 de 15 processos com valor de causa fixado; os demais 6 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 712717.28,
+        "qtdComValor": 9,
+        "ativos": 11,
+        "encerradosTotal": 4,
+        "esforco": {
+          "apontamentos": 561,
+          "comProducao": 10,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 113,
+            "Audiências": 7,
+            "Tarefas": 46
+          },
+          "audano": {
+            "2024": 2,
+            "2025": 3,
+            "2026": 1
+          },
+          "tramitacaoDias": 1423,
+          "prazano": {
+            "2023": 24,
+            "2024": 25,
+            "2025": 42,
+            "2026": 22
+          },
+          "tarefano": {
+            "2020": 35,
+            "2021": 8,
+            "2025": 1,
+            "2026": 2
+          }
+        },
+        "horas": {
+          "total": 158.9,
+          "media": 10.6,
+          "mediaAtivos": 15.9,
+          "_estimativa": true,
+          "horasano": {
+            "2023": 53.5,
+            "2024": 54.6,
+            "2025": 38.5,
+            "2026": 12.3
+          }
+        },
+        "_idCliente": "2122142",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 9,
+          "sem_valor": 6,
+          "ativos_sem_valor": 2
+        }
+      }
+    },
+    "ricardo_serpa": {
+      "nome": "Ricardo Alexandre de Oliveira Serpa",
+      "_idCliente": "2122318",
+      "dataset": {
+        "estoque": {
+          "2014": 1,
+          "2015": 2,
+          "2016": 2,
+          "2017": 2,
+          "2018": 3,
+          "2019": 4,
+          "2020": 5,
+          "2021": 6,
+          "2022": 6,
+          "2023": 6,
+          "2024": 9,
+          "2025": 10,
+          "2026": 11
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2014": 1,
+          "2015": 1,
+          "2018": 1,
+          "2019": 1,
+          "2020": 6,
+          "2021": 1,
+          "2022": 2,
+          "2023": 1,
+          "2024": 3,
+          "2025": 1,
+          "2026": 1
+        },
+        "encerrados": {
+          "2020": 5,
+          "2022": 2,
+          "2023": 1
+        },
+        "area": {
+          "Cível": 9,
+          "Penal-Criminal": 6,
+          "Administrativo": 4
+        },
+        "areaTotal": 19,
+        "instancia": {
+          "1º Grau": 10,
+          "2º Grau": 1,
+          "Superiores": 0,
+          "Não informado": 8
+        },
+        "polo": {
+          "Polo ativo": 5,
+          "Polo passivo": 9,
+          "Terceiro/Outros": 5
+        },
+        "uf": {
+          "SC": 18,
+          "Não informado": 1
+        },
+        "tribunais": {
+          "Não informado": 10,
+          "TJSC": 8,
+          "TRF4": 1
+        },
+        "ranking": [],
+        "kpi": {
+          "proc": 19,
+          "procSub": "11 ativos · 8 encerrados",
+          "ativos": 11,
+          "areas": 3,
+          "areasSub": "Cível, Penal-Criminal, Administrativo",
+          "trib": 2,
+          "tribSub": "TJSC, TRF4",
+          "valor": "~R$ 161<small>mil</small>",
+          "horas": "^73",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 3 de 19 processos com valor de causa fixado; os demais 16 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 160968.6,
+        "qtdComValor": 3,
+        "ativos": 11,
+        "encerradosTotal": 8,
+        "esforco": {
+          "apontamentos": 247,
+          "comProducao": 10,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 41,
+            "Audiências": 9,
+            "Tarefas": 94
+          },
+          "audano": {
+            "2024": 5,
+            "2025": 2,
+            "2026": 2
+          },
+          "tramitacaoDias": 1073,
+          "prazano": {
+            "2021": 1,
+            "2022": 5,
+            "2023": 5,
+            "2024": 4,
+            "2025": 17,
+            "2026": 9
+          },
+          "tarefano": {
+            "2019": 16,
+            "2020": 46,
+            "2021": 25,
+            "2022": 1,
+            "2024": 2,
+            "2025": 2,
+            "2026": 2
+          }
+        },
+        "horas": {
+          "total": 73.1,
+          "media": 3.8,
+          "mediaAtivos": 7.3,
+          "_estimativa": true,
+          "horasano": {
+            "2021": 2.1,
+            "2022": 3.4,
+            "2023": 2.4,
+            "2024": 1.6,
+            "2025": 31.8,
+            "2026": 31.8
+          }
+        },
+        "_idCliente": "2122318",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 3,
+          "sem_valor": 16,
+          "ativos_sem_valor": 8
+        }
+      }
+    },
+    "suzana_chiamenti": {
+      "nome": "Suzana de Fátima Russi Chiamenti",
+      "_idCliente": "2122647",
+      "dataset": {
+        "estoque": {
+          "2012": 2,
+          "2013": 2,
+          "2014": 2,
+          "2015": 2,
+          "2016": 2,
+          "2017": 2,
+          "2018": 3,
+          "2019": 4,
+          "2020": 2,
+          "2021": 2,
+          "2022": 2,
+          "2023": 2,
+          "2024": 2,
+          "2025": 2,
+          "2026": 2
+        },
+        "estoqueHl": [
+          "2019",
+          "2018"
+        ],
+        "entradas": {
+          "2012": 2,
+          "2018": 1,
+          "2019": 1,
+          "2020": 1
+        },
+        "encerrados": {
+          "2020": 3
+        },
+        "area": {
+          "Cível": 4,
+          "Penal-Criminal": 1
+        },
+        "areaTotal": 5,
+        "instancia": {
+          "1º Grau": 5,
+          "2º Grau": 0,
+          "Superiores": 0,
+          "Não informado": 0
+        },
+        "polo": {
+          "Polo ativo": 4,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 1
+        },
+        "uf": {
+          "SC": 5
+        },
+        "tribunais": {
+          "TJSC": 2,
+          "Não informado": 3
+        },
+        "ranking": [],
+        "kpi": {
+          "proc": 5,
+          "procSub": "2 ativos · 3 encerrados",
+          "ativos": 2,
+          "areas": 2,
+          "areasSub": "Cível, Penal-Criminal",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "~R$ 47<small>mil</small>",
+          "horas": "^7",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 2 de 5 processos com valor de causa fixado; os demais 3 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 47149.31,
+        "qtdComValor": 2,
+        "ativos": 2,
+        "encerradosTotal": 3,
+        "esforco": {
+          "apontamentos": 25,
+          "comProducao": 2,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 5,
+            "Tarefas": 62
+          },
+          "tramitacaoDias": 2274,
+          "prazano": {
+            "2022": 3,
+            "2023": 2
+          },
+          "tarefano": {
+            "2019": 25,
+            "2020": 37
+          }
+        },
+        "horas": {
+          "total": 7.2,
+          "media": 1.4,
+          "mediaAtivos": 3.6,
+          "_estimativa": true,
+          "horasano": {
+            "2022": 6,
+            "2023": 1.2
+          }
+        },
+        "_idCliente": "2122647",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 2,
+          "sem_valor": 3,
+          "ativos_sem_valor": 1
+        }
+      }
+    },
+    "joana_reis": {
+      "nome": "Joana Russi Reis",
+      "_idCliente": "2124120",
+      "dataset": {
+        "estoque": {
+          "2010": 1,
+          "2011": 1,
+          "2012": 1,
+          "2013": 1,
+          "2014": 1,
+          "2015": 1,
+          "2016": 1,
+          "2017": 2,
+          "2018": 4,
+          "2019": 4,
+          "2020": 4,
+          "2021": 6,
+          "2022": 6,
+          "2023": 7,
+          "2024": 7,
+          "2025": 8,
+          "2026": 8
+        },
+        "estoqueHl": [
+          "2025",
+          "2026"
+        ],
+        "entradas": {
+          "2017": 1,
+          "2018": 2,
+          "2020": 1,
+          "2021": 2,
+          "2022": 1,
+          "2023": 2,
+          "2025": 1
+        },
+        "encerrados": {
+          "2020": 1,
+          "2022": 1,
+          "2023": 1
+        },
+        "area": {
+          "Cível": 8,
+          "Bancário": 2,
+          "Tributário": 1
+        },
+        "areaTotal": 11,
+        "instancia": {
+          "1º Grau": 8,
+          "2º Grau": 2,
+          "Superiores": 1,
+          "Não informado": 0
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Polo passivo": 8,
+          "Terceiro/Outros": 1
+        },
+        "uf": {
+          "DF": 1,
+          "SC": 10
+        },
+        "tribunais": {
+          "STJ": 1,
+          "TJSC": 9,
+          "Não informado": 1
+        },
+        "ranking": [
+          [
+            "196030028613",
+            "Tributário · Não informado · Itajaí",
+            436627443
+          ],
+          [
+            "5002556-54.2023.8.24.0125",
+            "Cível · TJSC · Itapema",
+            200000
+          ],
+          [
+            "5001339-44.2021.8.24.0125",
+            "Cível · TJSC · Itapema",
+            100000
+          ],
+          [
+            "5001340-29.2021.8.24.0125",
+            "Cível · TJSC · Itapema",
+            100000
+          ],
+          [
+            "0300417-20.2018.8.24.0125",
+            "Cível · TJSC · Itapema",
+            20600
+          ]
+        ],
+        "kpi": {
+          "proc": 11,
+          "procSub": "8 ativos · 3 encerrados",
+          "ativos": 8,
+          "areas": 3,
+          "areasSub": "Cível, Bancário, Tributário",
+          "trib": 2,
+          "tribSub": "TJSC, STJ",
+          "valor": "~R$ 437<small>mi</small>",
+          "horas": "^191",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 7 de 11 processos com valor de causa fixado; os demais 4 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 437069150.13,
+        "qtdComValor": 7,
+        "ativos": 8,
+        "encerradosTotal": 3,
+        "esforco": {
+          "apontamentos": 328,
+          "comProducao": 7,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 59,
+            "Audiências": 4,
+            "Tarefas": 176
+          },
+          "audano": {
+            "2025": 4
+          },
+          "tramitacaoDias": 1879,
+          "prazano": {
+            "2021": 1,
+            "2022": 5,
+            "2023": 10,
+            "2024": 11,
+            "2025": 18,
+            "2026": 19
+          },
+          "tarefano": {
+            "2019": 40,
+            "2020": 56,
+            "2021": 79,
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 191.1,
+          "media": 17.4,
+          "mediaAtivos": 27.3,
+          "_estimativa": true,
+          "horasano": {
+            "2021": 7.7,
+            "2022": 14.2,
+            "2023": 57.4,
+            "2024": 32.7,
+            "2025": 53.8,
+            "2026": 25.2
+          }
+        },
+        "_idCliente": "2124120",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 7,
+          "sem_valor": 4,
+          "ativos_sem_valor": 3
+        }
+      }
+    },
+    "j_serpa": {
+      "nome": "J. Serpa Construtora e Incorporadora",
+      "_idCliente": "2130397",
+      "dataset": {
+        "kpi": {
+          "proc": 0,
+          "procSub": "—",
+          "ativos": 0,
+          "areas": 0,
+          "areasSub": "em atualização",
+          "trib": 0,
+          "tribSub": "—",
+          "valor": "—"
+        },
+        "estoque": {},
+        "estoqueHl": [],
+        "entradas": {},
+        "encerrados": {},
+        "area": {},
+        "areaTotal": 0,
+        "instancia": {},
+        "polo": {},
+        "uf": {},
+        "tribunais": {},
+        "ranking": [],
+        "ativos": 0,
+        "esforco": {},
+        "horas": {},
+        "_placeholder": true,
+        "_semProcessos": true,
+        "_dadosReais": true,
+        "_fonteData": "EasyJur 01/07/2026 — 0 processos (cadastro como fornecedor)"
+      }
+    },
+    "splendour": {
+      "nome": "Splendour of the Seas Residence",
+      "_idCliente": "2130432",
+      "dataset": {
+        "estoque": {
+          "2010": 2,
+          "2011": 3,
+          "2012": 3,
+          "2013": 13,
+          "2014": 13,
+          "2015": 15,
+          "2016": 16,
+          "2017": 18,
+          "2018": 21,
+          "2019": 31,
+          "2020": 10,
+          "2021": 11,
+          "2022": 16,
+          "2023": 14
+        },
+        "estoqueHl": [
+          "2019",
+          "2018"
+        ],
+        "entradas": {
+          "2010": 2,
+          "2011": 1,
+          "2013": 10,
+          "2015": 3,
+          "2016": 1,
+          "2017": 2,
+          "2018": 3,
+          "2019": 15,
+          "2020": 8,
+          "2021": 1,
+          "2022": 7
+        },
+        "encerrados": {
+          "2015": 1,
+          "2019": 5,
+          "2020": 29,
+          "2022": 2,
+          "2023": 2
+        },
+        "area": {
+          "Cível": 39,
+          "Trabalhista": 12,
+          "Imobiliário": 1,
+          "Penal-Criminal": 1
+        },
+        "areaTotal": 53,
+        "instancia": {
+          "1º Grau": 35,
+          "2º Grau": 2,
+          "Superiores": 0,
+          "Não informado": 16
+        },
+        "polo": {
+          "Polo ativo": 35,
+          "Polo passivo": 15,
+          "Terceiro/Outros": 3
+        },
+        "uf": {
+          "SC": 50,
+          "Não informado": 3
+        },
+        "tribunais": {
+          "TJSC": 24,
+          "Não informado": 17,
+          "TRT12": 12
+        },
+        "ranking": [
+          [
+            "5004688-21.2022.8.24.0125",
+            "Cível · TJSC · Itapema",
+            34151.14
+          ],
+          [
+            "0000191-80.2022.5.12.0045",
+            "Trabalhista · TRT12 · Balneário Camboriú",
+            14667.11
+          ],
+          [
+            "5004909-38.2021.8.24.0125",
+            "Cível · TJSC · Itapema",
+            14595.15
+          ],
+          [
+            "5004438-56.2020.8.24.0125",
+            "Cível · TJSC · Itapema",
+            14173.92
+          ],
+          [
+            "5004200-37.2020.8.24.0125",
+            "Cível · TJSC · Itapema",
+            11541.08
+          ]
+        ],
+        "kpi": {
+          "proc": 53,
+          "procSub": "13 ativos · 39 encerrados",
+          "ativos": 13,
+          "areas": 4,
+          "areasSub": "Cível, Trabalhista, Imobiliário",
+          "trib": 2,
+          "tribSub": "TJSC, TRT12",
+          "valor": "~R$ 102<small>mil</small>",
+          "horas": "^141",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 8 de 53 processos com valor de causa fixado; os demais 45 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 102485.73,
+        "qtdComValor": 8,
+        "ativos": 13,
+        "encerradosTotal": 39,
+        "esforco": {
+          "apontamentos": 459,
+          "comProducao": 15,
+          "tramitacaoDias": 1523,
+          "atividades": {
+            "Prazos": 77,
+            "Audiências": 5,
+            "Tarefas": 862
+          },
+          "audano": {
+            "2022": 2,
+            "2023": 2,
+            "2024": 1
+          },
+          "_estimativa": true,
+          "prazano": {
+            "2022": 31,
+            "2023": 14,
+            "2024": 14,
+            "2025": 14,
+            "2026": 4
+          },
+          "tarefano": {
+            "2019": 384,
+            "2020": 252,
+            "2021": 213,
+            "2022": 6,
+            "2023": 6,
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 140.6,
+          "horasano": {
+            "2021": 0.2,
+            "2022": 42.9,
+            "2023": 24.5,
+            "2024": 27.0,
+            "2025": 30.9,
+            "2026": 15.2
+          },
+          "_estimativa": true,
+          "media": 2.7,
+          "mediaAtivos": 9.4
+        },
+        "_idCliente": "2130432",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 8,
+          "sem_valor": 45,
+          "ativos_sem_valor": 6
+        }
+      }
+    },
+    "rcr": {
+      "nome": "RCR Empreendimentos Imobiliários",
+      "_idCliente": "2130460",
+      "dataset": {
+        "estoque": {
+          "2016": 1,
+          "2017": 2,
+          "2018": 3,
+          "2019": 5,
+          "2020": 8,
+          "2021": 6,
+          "2022": 4,
+          "2023": 5,
+          "2024": 5,
+          "2025": 6,
+          "2026": 7
+        },
+        "estoqueHl": [
+          "2020",
+          "2026"
+        ],
+        "entradas": {
+          "2016": 1,
+          "2017": 1,
+          "2018": 1,
+          "2019": 3,
+          "2020": 5,
+          "2021": 3,
+          "2022": 1,
+          "2023": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "encerrados": {
+          "2019": 1,
+          "2020": 2,
+          "2021": 5,
+          "2022": 3
+        },
+        "area": {
+          "Administrativo": 6,
+          "Cível": 6,
+          "Tributário": 5,
+          "Trabalhista": 1
+        },
+        "areaTotal": 18,
+        "instancia": {
+          "1º Grau": 13,
+          "2º Grau": 2,
+          "Superiores": 1,
+          "Não informado": 2
+        },
+        "polo": {
+          "Polo ativo": 7,
+          "Polo passivo": 11,
+          "Terceiro/Outros": 0
+        },
+        "uf": {
+          "SC": 17,
+          "Não informado": 1
+        },
+        "tribunais": {
+          "Não informado": 7,
+          "TJSC": 6,
+          "TRF4": 3,
+          "STJ": 1,
+          "TRT12": 1
+        },
+        "ranking": [
+          [
+            "5006994-74.2019.4.04.7200",
+            "Tributário · TRF4 · Florianópolis",
+            100000
+          ],
+          [
+            "5002409-29.2025.8.24.0005",
+            "Tributário · TJSC · Balneário Camboriú",
+            69193.47
+          ],
+          [
+            "5014389-51.2026.8.24.0000",
+            "Cível · TJSC · Florianópolis",
+            66049.87
+          ],
+          [
+            "5011284-56.2023.8.24.0005",
+            "Cível · TJSC · Balneário Camboriú",
+            66049.87
+          ],
+          [
+            "5003625-64.2021.8.24.0005",
+            "Cível · TJSC · Balneário Camboriú",
+            66049.87
+          ]
+        ],
+        "kpi": {
+          "proc": 18,
+          "procSub": "7 ativos · 11 encerrados",
+          "ativos": 7,
+          "areas": 4,
+          "areasSub": "Administrativo, Cível, Tributário",
+          "trib": 4,
+          "tribSub": "TJSC, TRF4, STJ, TRT12",
+          "valor": "~R$ 417<small>mil</small>",
+          "horas": "^32",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 6 de 18 processos com valor de causa fixado; os demais 12 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 417343.08,
+        "qtdComValor": 6,
+        "ativos": 7,
+        "encerradosTotal": 11,
+        "esforco": {
+          "apontamentos": 162,
+          "comProducao": 7,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 36,
+            "Audiências": 1,
+            "Tarefas": 242
+          },
+          "audano": {
+            "2026": 1
+          },
+          "tramitacaoDias": 1034,
+          "prazano": {
+            "2022": 4,
+            "2023": 7,
+            "2024": 4,
+            "2025": 11,
+            "2026": 10
+          },
+          "tarefano": {
+            "2019": 51,
+            "2020": 49,
+            "2021": 141,
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 31.6,
+          "media": 1.8,
+          "mediaAtivos": 4.5,
+          "_estimativa": true,
+          "horasano": {
+            "2022": 6.4,
+            "2023": 7.6,
+            "2024": 5.2,
+            "2025": 5.2,
+            "2026": 7.2
+          }
+        },
+        "_idCliente": "2130460",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 6,
+          "sem_valor": 12,
+          "ativos_sem_valor": 3
+        }
+      }
+    },
+    "russi_participacoes": {
+      "nome": "J.A. Russi Participações S.A.",
+      "_idCliente": "675448089",
+      "dataset": {
+        "kpi": {
+          "proc": 0,
+          "procSub": "—",
+          "ativos": 0,
+          "areas": 0,
+          "areasSub": "em atualização",
+          "trib": 0,
+          "tribSub": "—",
+          "valor": "—"
+        },
+        "estoque": {},
+        "estoqueHl": [],
+        "entradas": {},
+        "encerrados": {},
+        "area": {},
+        "areaTotal": 0,
+        "instancia": {},
+        "polo": {},
+        "uf": {},
+        "tribunais": {},
+        "ranking": [],
+        "ativos": 0,
+        "esforco": {},
+        "horas": {},
+        "_placeholder": true,
+        "_semProcessos": true,
+        "_dadosReais": true,
+        "_fonteData": "EasyJur 01/07/2026 — 0 processos (holding, sem carteira propria)"
+      }
+    },
+    "felipe_reis": {
+      "nome": "Felipe Nilton Reis",
+      "_idCliente": "677012382",
+      "dataset": {
+        "kpi": {
+          "proc": 0,
+          "procSub": "—",
+          "ativos": 0,
+          "areas": 0,
+          "areasSub": "em atualização",
+          "trib": 0,
+          "tribSub": "—",
+          "valor": "—"
+        },
+        "estoque": {},
+        "estoqueHl": [],
+        "entradas": {},
+        "encerrados": {},
+        "area": {},
+        "areaTotal": 0,
+        "instancia": {},
+        "polo": {},
+        "uf": {},
+        "tribunais": {},
+        "ranking": [],
+        "ativos": 0,
+        "esforco": {},
+        "horas": {},
+        "_placeholder": true,
+        "_semProcessos": true,
+        "_dadosReais": true,
+        "_fonteData": "EasyJur 01/07/2026 — 0 processos vinculados como cliente titular"
+      }
+    },
+    "harmony": {
+      "nome": "Harmony of the Seas Empreendimentos Imobiliários Ltda",
+      "_idCliente": "677012386",
+      "dataset": {
+        "estoque": {
+          "2024": 1,
+          "2025": 1
+        },
+        "estoqueHl": [
+          "2024",
+          "2025"
+        ],
+        "entradas": {
+          "2024": 1,
+          "2025": 2
+        },
+        "encerrados": {
+          "2025": 2
+        },
+        "area": {
+          "Cível": 2,
+          "Penal-Criminal": 1
+        },
+        "areaTotal": 3,
+        "instancia": {
+          "1º Grau": 3,
+          "2º Grau": 0,
+          "Superiores": 0,
+          "Não informado": 0
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "uf": {
+          "SC": 1,
+          "Não informado": 2
+        },
+        "tribunais": {
+          "TJSC": 1,
+          "Não informado": 2
+        },
+        "ranking": [],
+        "kpi": {
+          "proc": 3,
+          "procSub": "1 ativos · 2 encerrados",
+          "ativos": 1,
+          "areas": 2,
+          "areasSub": "Cível, Penal-Criminal",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "valorSub": "nenhum processo com valor de causa fixado (causas de valor não fixado — êxito, a arbitrar ou peça acessória)",
+          "horas": "^25",
+          "horasSub": "horas apontadas (parcial — ver nota)"
+        },
+        "valorTotal": 0,
+        "qtdComValor": 0,
+        "ativos": 1,
+        "encerradosTotal": 2,
+        "esforco": {
+          "apontamentos": 40,
+          "comProducao": 3,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 7,
+            "Audiências": 1,
+            "Tarefas": 1
+          },
+          "audano": {
+            "2026": 1
+          },
+          "tramitacaoDias": 223,
+          "prazano": {
+            "2024": 1,
+            "2025": 6
+          },
+          "tarefano": {
+            "2025": 1
+          }
+        },
+        "horas": {
+          "total": 25.4,
+          "media": 8.5,
+          "mediaAtivos": 8.5,
+          "_estimativa": true,
+          "horasano": {
+            "2024": 8.4,
+            "2025": 17.0
+          }
+        },
+        "_idCliente": "677012386",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 0,
+          "sem_valor": 3,
+          "ativos_sem_valor": 1
+        }
+      }
+    },
+    "sunny_coast": {
+      "nome": "Sunny Coast Empreendimentos Imobiliários SPE Ltda",
+      "_idCliente": "677012390",
+      "dataset": {
+        "estoque": {
+          "2024": 1,
+          "2025": 4
+        },
+        "estoqueHl": [
+          "2025",
+          "2024"
+        ],
+        "entradas": {
+          "2024": 1,
+          "2025": 3
+        },
+        "encerrados": {},
+        "area": {
+          "Trabalhista": 4
+        },
+        "areaTotal": 4,
+        "instancia": {
+          "1º Grau": 3,
+          "2º Grau": 1,
+          "Superiores": 0,
+          "Não informado": 0
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 4,
+          "Terceiro/Outros": 0
+        },
+        "uf": {
+          "SC": 3,
+          "AP": 1
+        },
+        "tribunais": {
+          "TRT12": 3,
+          "TRT08": 1
+        },
+        "ranking": [
+          [
+            "0001734-96.2024.5.12.0062",
+            "Trabalhista · TRT12 · Itapema",
+            281167.14
+          ]
+        ],
+        "kpi": {
+          "proc": 4,
+          "procSub": "4 ativos · 0 encerrados",
+          "ativos": 4,
+          "areas": 1,
+          "areasSub": "Trabalhista",
+          "trib": 2,
+          "tribSub": "TRT12, TRT08",
+          "valor": "~R$ 281<small>mil</small>",
+          "horas": "^70",
+          "horasSub": "horas apontadas (parcial — ver nota)",
+          "valorSub": "valor sobre 1 de 4 processos com valor de causa fixado; os demais 3 não têm valor lançado (êxito, a arbitrar ou peça acessória)"
+        },
+        "valorTotal": 281167.14,
+        "qtdComValor": 1,
+        "ativos": 4,
+        "encerradosTotal": 0,
+        "esforco": {
+          "apontamentos": 219,
+          "comProducao": 4,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 33,
+            "Audiências": 6,
+            "Tarefas": 1
+          },
+          "audano": {
+            "2024": 1,
+            "2025": 3,
+            "2026": 2
+          },
+          "tramitacaoDias": 351,
+          "prazano": {
+            "2024": 6,
+            "2025": 14,
+            "2026": 13
+          },
+          "tarefano": {
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 70.2,
+          "media": 17.6,
+          "mediaAtivos": 17.6,
+          "_estimativa": true,
+          "horasano": {
+            "2024": 20,
+            "2025": 15.7,
+            "2026": 34.5
+          }
+        },
+        "_idCliente": "677012390",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 1,
+          "sem_valor": 3,
+          "ativos_sem_valor": 3
+        }
+      }
+    },
+    "torremolinos": {
+      "nome": "Condomínio Torremolinos",
+      "_idCliente": "677012391",
+      "dataset": {
+        "kpi": {
+          "proc": 0,
+          "procSub": "—",
+          "ativos": 0,
+          "areas": 0,
+          "areasSub": "em atualização",
+          "trib": 0,
+          "tribSub": "—",
+          "valor": "—"
+        },
+        "estoque": {},
+        "estoqueHl": [],
+        "entradas": {},
+        "encerrados": {},
+        "area": {},
+        "areaTotal": 0,
+        "instancia": {},
+        "polo": {},
+        "uf": {},
+        "tribunais": {},
+        "ranking": [],
+        "ativos": 0,
+        "esforco": {},
+        "horas": {},
+        "_placeholder": true,
+        "_semProcessos": true,
+        "_dadosReais": true,
+        "_fonteData": "EasyJur 01/07/2026 — 0 processos vinculados"
+      }
+    },
+    "garden_mall": {
+      "nome": "Empreendimento Garden Open Mall",
+      "_idCliente": "681898002",
+      "dataset": {
+        "estoque": {
+          "2025": 2
+        },
+        "estoqueHl": [
+          "2025"
+        ],
+        "entradas": {
+          "2025": 2
+        },
+        "encerrados": {},
+        "area": {
+          "Pública": 1,
+          "Tributário": 1
+        },
+        "areaTotal": 2,
+        "instancia": {
+          "1º Grau": 1,
+          "2º Grau": 1,
+          "Superiores": 0,
+          "Não informado": 0
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "tribunais": {
+          "TJSC": 2
+        },
+        "ranking": [],
+        "kpi": {
+          "proc": 2,
+          "procSub": "2 ativos · 0 encerrados",
+          "ativos": 2,
+          "areas": 2,
+          "areasSub": "Pública, Tributário",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "valorSub": "nenhum processo com valor de causa fixado (causas de valor não fixado — êxito, a arbitrar ou peça acessória)",
+          "horas": "^50",
+          "horasSub": "horas apontadas (parcial — ver nota)"
+        },
+        "valorTotal": 0,
+        "qtdComValor": 0,
+        "ativos": 2,
+        "encerradosTotal": 0,
+        "esforco": {
+          "apontamentos": 131,
+          "comProducao": 131,
+          "_estimativa": true,
+          "atividades": {
+            "Prazos": 20,
+            "Audiências": 3,
+            "Tarefas": 2
+          },
+          "audano": {
+            "2025": 3
+          },
+          "tramitacaoDias": 396,
+          "prazano": {
+            "2025": 15,
+            "2026": 5
+          },
+          "tarefano": {
+            "2025": 1,
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 50.0,
+          "media": 25.0,
+          "mediaAtivos": 0.4,
+          "_estimativa": true,
+          "horasano": {
+            "2025": 45.1,
+            "2026": 4.9
+          }
+        },
+        "_idCliente": "681898002",
+        "_dadosReais": true,
+        "_fonteData": "EasyJur list_processos 01/07/2026",
+        "_composicaoValor": {
+          "com_valor": 0,
+          "sem_valor": 2,
+          "ativos_sem_valor": 2
+        }
+      }
+    }
+  },
+  "nEmpresas": 17
+}

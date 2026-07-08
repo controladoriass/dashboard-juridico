@@ -1,1 +1,162 @@
-{"nome": "Íntegra Construtora", "nomeHtml": "Íntegra <em>Construtora</em>", "kpiGrupo": {"proc": 18, "procSub": "16 ativos · 2 encerrados", "horas": "^206", "horasSub": "horas apontadas (parcial — ver notas por empresa)", "areas": 3, "areasSub": "Trabalhista, Cível, Tributário", "valor": "~R$ 2,2 mi", "trib": 4, "tribSub": "TRT12, TJSC, TRT02, N/I", "ativos": 16, "encerrados": 2, "valorTotal": 2187040.32}, "empresas": {"integra": {"nome": "Íntegra Construtora e Incorporadora Ltda", "dataset": {"kpi": {"proc": 18, "procSub": "16 ativos · 2 encerrados", "ativos": 16, "areas": 3, "areasSub": "Trabalhista 11 · Cível 5", "trib": 3, "tribSub": "TRT12 10 · TJSC 4", "valor": "~R$ 2,2 mi", "horas": "^206", "horasSub": "horas apontadas até 30/06 (parcial)"}, "estoque": {"2020": 2, "2022": 3, "2024": 4, "2025": 14, "2026": 16}, "estoqueHl": ["2026", "2025"], "entradas": {"2020": 2, "2022": 1, "2024": 1, "2025": 12, "2026": 2}, "encerrados": {"2025": 2}, "area": {"Trabalhista": 11, "Cível": 5, "Tributário": 2}, "areaTotal": 18, "instancia": {"1º Grau": 14, "2º Grau": 2, "Não informado": 2}, "polo": {"Polo ativo": 5, "Polo passivo": 13, "Terceiro/Outros": 0}, "uf": {"SC": 16, "SP": 1, "N/I": 1}, "tribunais": {"TRT12": 10, "TJSC": 4, "TRT02": 1, "N/I": 3}, "ranking": [["LUIS OTAVIO PINHEIRO PERRI", 2], ["EDUARDO MARTINS LEAL", 1], ["SIDNEY DOMINGUES", 1], ["DIEGO DOS SANTOS", 1], ["PEDRO LADIR DE RAMOS", 1]], "ativos": 16, "valorTotal": 2187040.32, "qtdComValor": 15, "esforco": {"prazano": {"2023": 3, "2024": 7, "2025": 72, "2026": 53}, "audano": {"2024": 2, "2025": 6, "2026": 10}, "tarefano": {"2020": 10, "2021": 12, "2022": 64, "2023": 45, "2024": 88, "2025": 80, "2026": 42}, "comProducao": 18, "tramitacaoDias": 598, "atividades": {"Prazos": 135, "Audiências": 18, "Tarefas": 341}}, "horas": {"total": 206, "media": 11.4, "mediaAtivos": 12.9, "horasano": {"2022": 1.9, "2023": 25.4, "2024": 4.1, "2025": 69, "2026": 105.4}, "_estimativa": true}, "_dadosReais": true}, "_idCliente": "2129549"}}, "nEmpresas": 1}
+{
+  "nome": "Íntegra Construtora",
+  "nomeHtml": "Íntegra <em>Construtora</em>",
+  "kpiGrupo": {
+    "proc": 18,
+    "procSub": "16 ativos · 2 encerrados",
+    "horas": "^206",
+    "horasSub": "horas apontadas (parcial — ver notas por empresa)",
+    "areas": 3,
+    "areasSub": "Trabalhista, Cível, Tributário",
+    "valor": "~R$ 2,2 mi",
+    "trib": 4,
+    "tribSub": "TRT12, TJSC, TRT02, N/I",
+    "ativos": 16,
+    "encerrados": 2,
+    "valorTotal": 2187040.32
+  },
+  "empresas": {
+    "integra": {
+      "nome": "Íntegra Construtora e Incorporadora Ltda",
+      "dataset": {
+        "kpi": {
+          "proc": 18,
+          "procSub": "16 ativos · 2 encerrados",
+          "ativos": 16,
+          "areas": 3,
+          "areasSub": "Trabalhista 11 · Cível 5",
+          "trib": 3,
+          "tribSub": "TRT12 10 · TJSC 4",
+          "valor": "~R$ 2,2 mi",
+          "horas": "^206",
+          "horasSub": "horas apontadas até 30/06 (parcial)"
+        },
+        "estoque": {
+          "2020": 2,
+          "2022": 3,
+          "2024": 4,
+          "2025": 14,
+          "2026": 16
+        },
+        "estoqueHl": [
+          "2026",
+          "2025"
+        ],
+        "entradas": {
+          "2020": 2,
+          "2022": 1,
+          "2024": 1,
+          "2025": 12,
+          "2026": 2
+        },
+        "encerrados": {
+          "2025": 2
+        },
+        "area": {
+          "Trabalhista": 11,
+          "Cível": 5,
+          "Tributário": 2
+        },
+        "areaTotal": 18,
+        "instancia": {
+          "1º Grau": 14,
+          "2º Grau": 2,
+          "Não informado": 2
+        },
+        "polo": {
+          "Polo ativo": 5,
+          "Polo passivo": 13,
+          "Terceiro/Outros": 0
+        },
+        "uf": {
+          "SC": 16,
+          "SP": 1,
+          "N/I": 1
+        },
+        "tribunais": {
+          "TRT12": 10,
+          "TJSC": 4,
+          "TRT02": 1,
+          "N/I": 3
+        },
+        "ranking": [
+          [
+            "LUIS OTAVIO PINHEIRO PERRI",
+            2
+          ],
+          [
+            "EDUARDO MARTINS LEAL",
+            1
+          ],
+          [
+            "SIDNEY DOMINGUES",
+            1
+          ],
+          [
+            "DIEGO DOS SANTOS",
+            1
+          ],
+          [
+            "PEDRO LADIR DE RAMOS",
+            1
+          ]
+        ],
+        "ativos": 16,
+        "valorTotal": 2187040.32,
+        "qtdComValor": 15,
+        "esforco": {
+          "prazano": {
+            "2023": 3,
+            "2024": 7,
+            "2025": 72,
+            "2026": 53
+          },
+          "audano": {
+            "2024": 2,
+            "2025": 6,
+            "2026": 10
+          },
+          "tarefano": {
+            "2020": 10,
+            "2021": 12,
+            "2022": 64,
+            "2023": 45,
+            "2024": 88,
+            "2025": 80,
+            "2026": 42
+          },
+          "comProducao": 18,
+          "tramitacaoDias": 598,
+          "atividades": {
+            "Prazos": 135,
+            "Audiências": 18,
+            "Tarefas": 341
+          },
+          "extrajudano": {
+            "2022": 64,
+            "2023": 44,
+            "2024": 83,
+            "2025": 72,
+            "2026": 22
+          }
+        },
+        "horas": {
+          "total": 206,
+          "media": 11.4,
+          "mediaAtivos": 12.9,
+          "horasano": {
+            "2022": 1.9,
+            "2023": 25.4,
+            "2024": 4.1,
+            "2025": 69,
+            "2026": 105.4
+          },
+          "_estimativa": true
+        },
+        "_dadosReais": true
+      },
+      "_idCliente": "2129549"
+    }
+  },
+  "nEmpresas": 1
+}
