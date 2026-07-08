@@ -891,7 +891,10 @@ function renderDashboard(){
   } else { document.body.classList.remove('is-semdados'); }
   el('ph-titulo').innerHTML = m.nome+' — Junho de 2026';
   el('hero-nome').innerHTML = m.nomeHtml;
-  el('hero-periodo').textContent = m.periodo||'2010 — 2026';
+  // período de análise DINÂMICO: do ano do processo mais antigo ao mais recente (dados reais deste grupo/empresa)
+  var _anosEst = (DATA.dataset && DATA.dataset.estoque) ? Object.keys(DATA.dataset.estoque).filter(function(a){return /^\d{4}$/.test(a);}).sort() : [];
+  var _periodo = _anosEst.length ? (_anosEst[0]+' — '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
+  el('hero-periodo').textContent = _periodo;
   el('hero-atualizado').textContent = 'Junho de 2026';
   el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0'; el('k-proc-sub').textContent=k.procSub;
   // horas em atualização (sem count-up)
