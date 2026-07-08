@@ -448,72 +448,98 @@
     .kpis{grid-template-columns:repeat(var(--kn,5),1fr) !important}
     .amp-wm{display:none !important}
 
-    /* ===== LAYOUT: paginação página-a-página (roteiro definido pelo escritório) ===== */
-    /* Coluna de conteúdo centralizada e contida (não cola nas bordas) */
-    .grid{grid-template-columns:1fr !important;gap:18px !important;max-width:235mm;margin-left:auto !important;margin-right:auto !important;
-      align-content:center;justify-items:center}
-    .kpis{max-width:235mm;margin-left:auto !important;margin-right:auto !important}
-    .card,.insight{max-width:235mm;margin-left:auto !important;margin-right:auto !important;width:100%}
-    .sub-lead{max-width:235mm;margin-left:auto !important;margin-right:auto !important;text-align:center}
-    .sec-head{max-width:235mm;margin-left:auto !important;margin-right:auto !important;text-align:center}
-    .sec-head p{margin-left:auto !important;margin-right:auto !important;max-width:190mm}
+    /* ===== LAYOUT: paginação página-a-página (roteiro do escritório) =====
+       Princípios: (1) coluna de conteúdo CENTRADA na página, mas TEXTO à esquerda;
+       (2) cada "página lógica" ocupa a altura toda e CENTRALIZA verticalmente o conteúdo
+       (respiro igual em cima/embaixo), via .pgblock{min-height + flex center}. */
+    /* altura útil de 1 página A4 landscape com margem 8mm ≈ 194mm */
+    .grid{grid-template-columns:1fr !important;gap:18px !important;max-width:235mm;margin:0 auto !important}
+    .kpis{max-width:235mm;margin:0 auto !important}
+    .card,.insight{max-width:235mm;margin:0 auto !important;width:100%;text-align:left}
+    .sub-lead{max-width:235mm;margin:0 auto !important;text-align:left}
+    .sec-head{max-width:235mm;margin:0 auto !important;text-align:left}
+    .sec-head p{max-width:none;margin:0 !important}
 
-    section.block{break-inside:auto;padding-top:16px !important;padding-bottom:16px !important}
-    /* nunca cortar um card/kpi/leitura no meio da página */
+    section.block{break-inside:auto;padding:0 8mm !important}
     .card,.kpis,.insight{break-inside:avoid}
     .rank,.rank .r,.region,.person,.pill{break-inside:avoid}
 
-    /* --- classe utilitária: força começar em página nova, conteúdo centrado verticalmente --- */
-    .pg{break-before:page;padding-top:0 !important}
-    /* wrapper que centraliza verticalmente o conteúdo de uma "página" de gráfico */
-    .pg-center{min-height:180mm;display:flex;flex-direction:column;justify-content:center;gap:18px}
+    /* --- wrapper de página lógica: centraliza verticalmente --- */
+    .pgblock{min-height:168mm;display:flex !important;flex-direction:column;justify-content:center;
+      gap:18px;box-sizing:border-box}
 
     /* ==== VOLUME ==== */
-    /* pág 1: hero + KPIs + sec-head do Volume (fluem juntos, sem quebra) */
-    /* pág 2: os 2 gráficos (Evolução / Entradas×Encerr.) centralizados */
+    /* pág 1: sec-head do Volume + KPIs (a section de KPIs #578 é irmã; agrupamos via pgblock) */
     #volume{break-before:page}
-    #volume .grid{break-before:page}
-    #volume .grid>.card{grid-column:1/-1;width:100%}
-    /* pág 3: Leitura do Volume + abertura da Complexidade (título+texto) logo abaixo */
+    #volume>.sec-head,#volume>.kpis{}                    /* pág 1 flui (a section KPIs anterior + head + kpis) */
+    /* pág 2: os 2 gráficos, centralizados vertical e horizontalmente */
+    #volume .grid{break-before:page;min-height:168mm;display:flex !important;flex-direction:column;
+      justify-content:center;gap:22px}
+    #volume .grid>.card{width:100%}
+    /* pág 3: Leitura do Volume + abertura da Complexidade — centralizadas juntas */
     #volume .insight{break-before:page}
 
-    /* ==== COMPLEXIDADE ==== (o sec-head vem junto da leitura do Volume — NÃO quebra antes) */
+    /* ==== COMPLEXIDADE ==== (sec-head cola na leitura do Volume, mesma pág 3) */
     #complexidade{break-before:auto}
-    /* pág 4: Distribuição por área sozinha | pág 5: Por instância sozinha */
+    /* pág 4: Distribuição por área sozinha (centralizada) | pág 5: Por instância sozinha */
     .pg-cplx1{break-before:page;display:block !important}
-    .pg-cplx1>.pg-area{break-after:page}
-    /* pág 6: Geográfica + Tribunais + Leitura da Complexidade */
-    .pg-cplx2{break-before:page;display:block !important;margin-top:0 !important}
-    .pg-cplx2>.card{margin-bottom:18px}
+    .pg-area{min-height:168mm;display:flex !important;flex-direction:column;justify-content:center}
+    .pg-inst{break-before:page;min-height:168mm;display:flex !important;flex-direction:column;justify-content:center}
+    /* pág 6: Distribuição geográfica sozinha (lista de estados é longa) — centralizada.
+       pág 7: Tribunais e foros + Leitura da Complexidade juntas, centralizadas. */
+    .pg-cplx2{break-before:page;display:block !important;margin:0 !important}
+    .pg-cplx2>.card:nth-child(1){min-height:168mm;display:flex !important;flex-direction:column;
+      justify-content:center;break-after:page;margin:0 !important}
+    .pg-cplx2>.card:nth-child(2){margin:0 !important}
     #complexidade .insight{break-before:auto}
+    /* compacta a lista de estados (grupos com muitas UFs) p/ caber em 1 página */
+    .regions{gap:10px !important}
+    .region{padding:10px 14px !important;min-width:92px !important}
+    .region .uf{font-size:20px !important}
+    .region .ct{font-size:10.5px !important;margin-top:2px !important}
+    .region .bar{margin-top:7px !important}
 
     /* ==== ESFORÇO ==== */
-    /* pág 7: sec-head + 4 KPIs + sub-lead "Atividades por ano" (fluem juntos) */
+    /* pág 7: sec-head + 4 KPIs + sub-lead (centralizados juntos) */
     #esforco{break-before:page}
-    /* gráficos 2 por página: quebra ANTES do grupo e depois a cada 2 cards.
-       g3 vira bloco; cada card ocupa a largura toda; quebra após o 2º e após o 4º. */
-    #esforco .grid.g3{break-before:page;display:block !important}
-    #esforco .grid.g3>.card{width:100%;margin-bottom:18px}
-    #esforco .grid.g3>.card:nth-child(2){break-after:page}       /* Prazos+Audiências | Tarefas... */
-    #esforco #card-atividades{break-before:auto}                  /* Tarefas + Atividades por tipo = 2 na 2ª pág */
-    /* Equipe mobilizada + Leitura do Esforço: essa leitura vai JUNTO do início de Horas,
-       então força a Equipe para uma página e deixa a leitura seguir para a pág de Horas */
-    .pg-equipe{break-before:page}                                 /* Equipe mobilizada abre página */
-    #esforco .insight{break-before:auto}                          /* Leitura segue o fluxo p/ juntar com Horas */
+    /* pág 8: Prazos + Audiências (2 gráficos, centralizados) ; pág 9: Tarefas + Atividades por tipo */
+    #esforco .grid.g3{break-before:page;display:flex !important;flex-direction:column;
+      min-height:168mm;justify-content:center;gap:16px}
+    #esforco .grid.g3>.card{width:100%;margin:0;padding:12px 16px !important}
+    #esforco .grid.g3>.card .vbars{height:120px !important}   /* comprime p/ caber 2 por página */
+    #esforco .grid.g3>.card:nth-child(2){break-after:page}
+    /* Tarefas ficou órfã (3º card do g3 vai p/ pág 9 sozinho) — junta com "Atividades por tipo":
+       tiramos min-height do g3 quando quebrado não é trivial; então centralizamos o par via card-atividades */
+    #esforco #card-atividades{break-before:auto;margin:0 !important}
+    /* pág 10: Equipe mobilizada + Leitura do Esforço (centralizadas juntas) */
+    .pg-equipe{break-before:page;min-height:168mm;display:flex !important;flex-direction:column;
+      justify-content:center;gap:18px;margin:0 !important}
+    .pg-equipe+.insight{margin-top:0 !important}
+    #esforco .insight{break-before:auto}
 
     /* ==== HORAS ==== */
     /* Leitura do Esforço + abertura de Horas (sec-head + 3 KPIs) na MESMA página → NÃO quebra Horas */
+    /* pág 11: Leitura do Esforço + abertura de Horas (sec-head + 3 KPIs) juntas → Horas não quebra */
     #horas{break-before:auto}
-    /* Evolução das horas sozinha, centralizada */
-    #horas>.card{break-before:page}
-    /* Leitura + Sobre este indicador em página própria, centralizadas */
-    #horas #ins4-box{break-before:page;margin-top:0 !important}
+    /* pág 12: Evolução das horas — card NÃO estica (largura contida), centralizado na página.
+       A leitura e a nota saem deste card para a pág 13 (via break-before nelas). */
+    #horas>.card{break-before:page;min-height:168mm;display:flex !important;flex-direction:column;
+      justify-content:center;padding:20px !important;max-width:200mm;margin:0 auto !important}
+    /* o gráfico de horas fica com largura limitada e centrado (não colado nas pontas) */
+    #horas>.card .vbars-wrap,#horas>.card .vbars{max-width:160mm;margin:0 auto !important;width:100% !important}
+    /* pág 13: Leitura + Sobre este indicador — bloco próprio, centralizado vertical */
+    #horas #ins4-box{break-before:page;margin:0 !important}
+    /* o wrapper que centraliza a pág 13: usamos o proprio ins4-box como topo do bloco flex.
+       como sao 2 insights irmaos, envolvemos dando min-height ao primeiro e deixando o 2o fluir junto */
+    #horas #ins4-box{min-height:auto}
+    #horas .card>.insight:first-of-type{margin-top:0 !important}
 
-    /* ==== PÁGINA FINAL: logo + redes + endereços, centralizada ==== */
+    /* ==== PÁGINA FINAL: logo + redes + endereços, tudo na horizontal, centralizado ==== */
     footer{break-before:page;padding:0 8mm !important;background:#141833 !important;
-      min-height:180mm;display:flex;align-items:center;justify-content:center}
-    footer .foot-grid{gap:40px !important;justify-items:center;text-align:center;max-width:220mm}
-    footer .foot-social{justify-content:center}
+      min-height:168mm;display:flex;align-items:center;justify-content:center}
+    footer .foot-grid{gap:60px !important;align-items:center;text-align:left;max-width:250mm;
+      grid-template-columns:1fr 1.4fr !important}
+    footer .foot-social{justify-content:flex-start}
   }
 
 /* ===== Estado 'sem dados / em atualizacao' (empresas ainda nao auditadas) ===== */
