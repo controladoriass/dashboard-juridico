@@ -913,8 +913,9 @@ function renderDashboard(){
   const totEntradas=Object.values(ds.entradas).reduce((a,b)=>a+b,0);
   const totEncerr=Object.values(ds.encerrados).reduce((a,b)=>a+b,0);
   if(el('v-cresc')){
-    if(crescPct>=1000){ el('v-cresc').innerHTML=Math.round(crescMult)+'<small>×</small>'; }
-    else { el('v-cresc').innerHTML=(crescPct>=0?'+':'')+crescPct+'<small>%</small>'; }
+    // padrao unico p/ todos os grupos: sempre multiplicador "N×"
+    var multTxt = crescMult>=2 ? Math.round(crescMult) : (Math.round(crescMult*10)/10).toString().replace('.',',');
+    el('v-cresc').innerHTML = multTxt+'<small>×</small>';
     el('v-cresc-sub').textContent='de '+primVal+' ('+estKeys[0]+') a '+ultVal+' ('+estKeys[estKeys.length-1]+')';
     el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
