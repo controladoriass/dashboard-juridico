@@ -639,9 +639,6 @@ body.dash.is-semdados #sd-overlay{display:block}
       <h3><span class="bt"></span>Tribunais e foros</h3>
       <div class="desc">Atuação simultânea em justiça estadual, trabalhista e federal.</div>
       <div class="pills" id="tribunais"></div>
-      <h3 style="margin-top:30px">Ranking · processos de maior valor</h3>
-      <div class="desc">Os casos estratégicos sob gestão, por valor de causa.</div>
-      <div class="rank" id="ranking"></div>
     </div>
   </div>
 
@@ -834,6 +831,7 @@ function tribunais(){
 }
 function ranking(){
   const box=document.getElementById('ranking');
+  if(!box) return; // card de ranking removido — funcao mantida inerte
   DATA.ranking.forEach((r,i)=>{
     const [num,meta,val]=r;
     const d=document.createElement('div');d.className='r';
@@ -925,13 +923,13 @@ function renderDashboard(){
   el('ins1').innerHTML=`A carteira acompanha o cliente desde <strong>${primAno}</strong>, com <strong>${k.proc} processos</strong> no total (${ds.ativos} ativos). O estoque sob gestão evoluiu ao longo do período.`;
   el('ins2').innerHTML=`Atuação em <strong>${Object.keys(ds.tribunais).length} tribunais</strong> e <strong>${Object.keys(ds.uf).length} estados</strong>, com carteira multidisciplinar em ${Object.keys(ds.area).length} áreas do Direito.`;
   // limpar containers
-  ['estoque','instancia','polo','donut-leg','regioes','tribunais','ranking','audano','atividades','people','horasano'].forEach(limpa);
+  ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','atividades','people','horasano'].forEach(limpa);
   el('donut').innerHTML=''; const fx=el('fluxo'); fx.innerHTML=''; delete fx.dataset.built;
   // Volume + Complexidade (dados reais)
   vbars('estoque',ds.estoque,ds.estoqueHl);
   hbars('instancia',ds.instancia);
   hbars('polo',ds.polo,true);
-  donut();regions();tribunais();ranking();fluxo();
+  donut();regions();tribunais();fluxo();
 
   // === ESFORCO ===
   const esf=ds.esforco||{};
