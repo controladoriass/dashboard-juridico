@@ -556,9 +556,8 @@ body.dash.is-semdados #sd-overlay{display:block}
 
 <!-- KPIs -->
 <section class="block" style="padding-top:0">
-  <div class="kpis reveal" style="--kn:6">
+  <div class="kpis reveal">
     <div class="kpi"><div class="n" data-count="16" id="k-proc">0</div><div class="k">Processos na carteira</div><div class="sub" id="k-proc-sub">—</div></div>
-    <div class="kpi"><div class="n" data-count="0" id="k-partes">0</div><div class="k">Partes atendidas</div><div class="sub" id="k-partes-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="152" id="k-horas">0</div><div class="k">Horas dedicadas</div><div class="sub" id="k-horas-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="6" id="k-areas">0</div><div class="k">Áreas do Direito</div><div class="sub" id="k-areas-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="0" id="k-ativos">0</div><div class="k">Processos ativos</div><div class="sub" id="k-ativos-sub">em andamento hoje</div></div>
@@ -917,8 +916,6 @@ function renderDashboard(){
   el('hero-periodo').textContent = _periodo;
   el('hero-atualizado').textContent = DATA_CORTE.extenso;
   el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0'; el('k-proc-sub').textContent=k.procSub;
-  if(el('k-partes')){ var _pt=DATA.meta.partes||0; el('k-partes').dataset.count=_pt; el('k-partes').textContent='0';
-    el('k-partes-sub').textContent = _pt>1 ? 'empresas do grupo' : 'cliente atendido'; }
   // horas em atualização (sem count-up)
   el('k-horas').removeAttribute('data-count');
   if(k.horas && k.horas!=='—'){ el('k-horas').innerHTML=k.horas; el('k-horas-sub').textContent=k.horasSub||'horas apontadas'; }
@@ -1075,7 +1072,7 @@ function montarEmpresas(gk){
   GRUPO_ATUAL=gk;
   const g=GRUPOS[gk];
   el('emp-titulo').innerHTML=g.nomeHtml;
-  el('emp-eyebrow').textContent = g.nEmpresas>1 ? `Grupo econômico · ${g.nEmpresas} empresas` : 'Cliente';
+  el('emp-eyebrow').textContent = g.nEmpresas>1 ? 'Grupo econômico' : 'Cliente';
   const box=el('cards-empresas'); box.innerHTML='';
   const GO='<span class="go"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>';
   let i=0;
@@ -1087,16 +1084,19 @@ function montarEmpresas(gk){
     d.className='ccard'+(sem?' is-sem':'')+(pano?' is-panorama':'');
     d.style.setProperty('--i', Math.min(i,8)); i++;
     d.onclick=()=>abrirEmpresa(gk, ek, d);
-    const tipo = pano ? 'Consolidado do grupo' : (emp.dataset._semProcessos ? 'Sem processos' : (sem ? 'Em breve' : 'Empresa'));
+    const tipo = pano ? 'Consolidado do grupo' : (emp.dataset._semProcessos ? 'Sem processos' : (sem ? 'Em breve' : 'Parte do grupo'));
     const vp = sem ? '—' : k.proc;
     const va = sem ? '—' : k.ativos;
     const vr = sem ? '—' : k.areas;
     const selo = pano ? '<span class="pano-selo">★</span>' : GO;
+    // no card Panorama (consolidado), acrescenta "Partes atendidas" = nº de empresas do grupo (soma das partes)
+    const metaPano = pano ? `<div class="mi"><div class="mv">${g.nEmpresas}</div><div class="ml">Partes atendidas</div></div>` : '';
     d.innerHTML=`<div class="card-inner">${selo}<div class="tipo">${tipo}</div><div class="cnome">${emp.nome}</div>`+
       `<div class="cmeta">`+
       `<div class="mi"><div class="mv">${vp}</div><div class="ml">Processos</div></div>`+
       `<div class="mi"><div class="mv">${va}</div><div class="ml">Ativos</div></div>`+
       `<div class="mi"><div class="mv">${vr}</div><div class="ml">Áreas</div></div>`+
+      metaPano+
       `</div></div>`;
     box.appendChild(d);
   });
@@ -1126,9 +1126,7 @@ function montarDashboard(gk, ek){
     var nomeGrupo=(g.nome||'').replace(/^Grupo\s+/i,'');
     nomeHtml='Panorama Geral do Grupo<span class="hero-sub-grupo">'+nomeGrupo+'</span>';
   }
-  // partes atendidas: no Panorama = nº de empresas do grupo; numa empresa individual = 1
-  var partes = emp.dataset._panorama ? (g.nEmpresas||0) : 1;
-  DATA=Object.assign({}, emp.dataset, {meta:{nome:emp.nome, nomeHtml:nomeHtml, periodo:null, partes:partes}, dataset:emp.dataset});
+  DATA=Object.assign({}, emp.dataset, {meta:{nome:emp.nome, nomeHtml:nomeHtml, periodo:null}, dataset:emp.dataset});
   renderDashboard();
 }
 function abrirEmpresa(gk, ek, cardEl){
