@@ -1397,9 +1397,13 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   var MODO_CLIENTE = !!GRUPO_CLIENTE;
   function boot(){
     if(MODO_CLIENTE){
-      // modo cliente: entra direto no grupo (empresas), esconde navegação p/ outros grupos
+      // modo cliente: abre DIRETO no Panorama Geral (a tela dos gráficos), sem a tela de cards.
+      // Grupo de 1 empresa não tem _panorama → abre a única empresa.
       document.body.classList.add('modo-cliente');
-      if(!location.hash) location.hash = GRUPO_CLIENTE;
+      var g = GRUPOS[GRUPO_CLIENTE] || {};
+      var emps = g.empresas || {};
+      var ek = emps._panorama ? '_panorama' : Object.keys(emps)[0];
+      if(!location.hash && ek) location.hash = GRUPO_CLIENTE + '/' + ek;
     }
     if(typeof window.__initApp==='function'){ window.__initApp(); }
   }
