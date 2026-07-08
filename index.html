@@ -397,149 +397,53 @@
   /* cabeçalho de impressão — só no PDF */
   .print-head{display:none}
 
+  /* ===== VISTA DE IMPRESSÃO DEDICADA (#view-print) — layout próprio para papel =====
+     Na tela fica escondida; na impressão, é a ÚNICA coisa visível. Cada .sheet é uma
+     folha A4 landscape de altura fixa, com o conteúdo centralizado verticalmente. */
+  #view-print{display:none}
   @media print{
-    @page{margin:8mm;size:A4 landscape}
-    /* fundo azul escuro do PDF, forçado a imprimir */
-    html{background:#141833 !important}
-    body{background:#141833 !important;-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;color-adjust:exact !important}
+    @page{margin:0;size:A4 landscape}
+    html,body{background:#141833 !important;-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;color-adjust:exact !important}
     *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important}
-    #view-inicio,#view-empresas,.curtain,.zoomtext{display:none !important}
-    #view-dashboard{display:block !important;background:#141833 !important}
-    .topbar,.scrollcue,.btn-pdf,.btn-back{display:none !important}
-    /* wrapper: respiro interno em todas as bordas */
-    #view-dashboard>*{padding-left:8mm !important;padding-right:8mm !important}
-    /* cabeçalho */
-    .print-head{display:block !important;background:#141833 !important;border-bottom:2px solid #CFA36E;
-      padding:2mm 8mm 6px !important;margin:0 0 8px}
-    .print-head .l1{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#CFA36E;font-weight:700}
-    .print-head .l2{font-size:14px;font-weight:700;color:#fff;margin-top:2px}
-    /* hero compacto */
-    .hero{min-height:auto;padding:2px 8mm 6px !important;background:#141833 !important}
-    .hero::after{display:none !important}
-    .hero .eyebrow{margin-bottom:6px;color:#CFA36E !important}
-    .hero h1{font-size:21px !important;margin-bottom:8px;color:#fff !important}
-    .hero h1 em{color:#CFA36E !important}
-    .hero .client{margin-top:10px;padding-top:12px}
-    .hero .client::before{width:150px !important;background:#CFA36E !important}
-    .hero .client .lbl{color:#9aa0b8 !important}.hero .client .val{color:#fff !important}
-    /* seções — respiro vertical maior p/ centralizar melhor cada bloco na página */
-    section.block{padding:22px 8mm 18px !important;background:#141833 !important}
-    .alt{background:#141833 !important}
-    .sec-head{margin-bottom:16px;margin-top:8px}
-    .sec-head h2{font-size:18px !important;color:#fff !important}
-    .sec-head p{font-size:11px !important;color:#aab0c6 !important}
-    .grid{gap:12px !important}
-    .reveal{opacity:1 !important;transform:none !important}
-    /* cards e kpis com cor de fundo distinta e respiro */
-    .card{background:#1c2142 !important;border:1px solid #2d3358 !important;padding:16px !important}
-    .kpis{background:#2d3358 !important;border:1px solid #2d3358 !important}
-    .kpi{background:#1c2142 !important;padding:14px 14px !important}
-    .kpi .n{color:#CFA36E !important}.kpi .k{color:#dfe2ee !important}.kpi .sub{color:#9aa0b8 !important}
-    .card h3{color:#CFA36E !important}.card .desc{color:#9aa0b8 !important}
-    /* ===== GRÁFICOS: série inteira visível (sem scroll no papel), esticada na horizontal ===== */
-    .vbars,.gbars{overflow:visible !important;height:150px !important;padding-top:26px !important;
-      display:flex !important;width:100% !important}
-    .vbars-wrap{overflow:visible !important}
-    .vbars-hint{display:none !important}                 /* seta de scroll não faz sentido no PDF */
-    /* barras dividem a largura toda igualmente; sem min-width, para caber muitos anos */
-    .vbar,.gbar{flex:1 1 0 !important;min-width:0 !important}
-    .vbar .x,.gbar .x{font-size:10px !important}
-    .vbar .col,.gbar .b,.hbar .fill{transition:none !important}
-    .kpis{grid-template-columns:repeat(var(--kn,5),1fr) !important}
-    .amp-wm{display:none !important}
+    /* esconde TUDO da tela; mostra só a vista de impressão */
+    #view-inicio,#view-empresas,#view-dashboard,.curtain,.zoomtext,.topbar,.btn-pdf,.btn-back,.scrollcue{display:none !important}
+    #view-print{display:block !important}
 
-    /* ===== LAYOUT: paginação página-a-página (roteiro do escritório) =====
-       Princípios: (1) coluna de conteúdo CENTRADA na página, mas TEXTO à esquerda;
-       (2) cada "página lógica" ocupa a altura toda e CENTRALIZA verticalmente o conteúdo
-       (respiro igual em cima/embaixo), via .pgblock{min-height + flex center}. */
-    /* altura útil de 1 página A4 landscape com margem 8mm ≈ 194mm */
-    .grid{grid-template-columns:1fr !important;gap:18px !important;max-width:235mm;margin:0 auto !important}
-    .kpis{max-width:235mm;margin:0 auto !important}
-    .card,.insight{max-width:235mm;margin:0 auto !important;width:100%;text-align:left}
-    .sub-lead{max-width:235mm;margin:0 auto !important;text-align:left}
-    .sec-head{max-width:235mm;margin:0 auto !important;text-align:left}
-    .sec-head p{max-width:none;margin:0 !important}
-
-    section.block{break-inside:auto;padding:0 8mm !important}
-    .card,.kpis,.insight{break-inside:avoid}
-    .rank,.rank .r,.region,.person,.pill{break-inside:avoid}
-
-    /* --- wrapper de página lógica: centraliza verticalmente --- */
-    .pgblock{min-height:168mm;display:flex !important;flex-direction:column;justify-content:center;
-      gap:18px;box-sizing:border-box}
-
-    /* ==== VOLUME ==== */
-    /* pág 1: sec-head do Volume + KPIs (a section de KPIs #578 é irmã; agrupamos via pgblock) */
-    #volume{break-before:page}
-    #volume>.sec-head,#volume>.kpis{}                    /* pág 1 flui (a section KPIs anterior + head + kpis) */
-    /* pág 2: os 2 gráficos, centralizados vertical e horizontalmente */
-    #volume .grid{break-before:page;min-height:168mm;display:flex !important;flex-direction:column;
-      justify-content:center;gap:22px}
-    #volume .grid>.card{width:100%}
-    /* pág 3: Leitura do Volume + abertura da Complexidade — centralizadas juntas */
-    #volume .insight{break-before:page}
-
-    /* ==== COMPLEXIDADE ==== (sec-head cola na leitura do Volume, mesma pág 3) */
-    #complexidade{break-before:auto}
-    /* pág 4: Distribuição por área sozinha (centralizada) | pág 5: Por instância sozinha */
-    .pg-cplx1{break-before:page;display:block !important}
-    .pg-area{min-height:168mm;display:flex !important;flex-direction:column;justify-content:center}
-    .pg-inst{break-before:page;min-height:168mm;display:flex !important;flex-direction:column;justify-content:center}
-    /* pág 6: Distribuição geográfica sozinha (lista de estados é longa) — centralizada.
-       pág 7: Tribunais e foros + Leitura da Complexidade juntas, centralizadas. */
-    .pg-cplx2{break-before:page;display:block !important;margin:0 !important}
-    .pg-cplx2>.card:nth-child(1){min-height:168mm;display:flex !important;flex-direction:column;
-      justify-content:center;break-after:page;margin:0 !important}
-    .pg-cplx2>.card:nth-child(2){margin:0 !important}
-    #complexidade .insight{break-before:auto}
-    /* compacta a lista de estados (grupos com muitas UFs) p/ caber em 1 página */
-    .regions{gap:10px !important}
-    .region{padding:10px 14px !important;min-width:92px !important}
-    .region .uf{font-size:20px !important}
-    .region .ct{font-size:10.5px !important;margin-top:2px !important}
-    .region .bar{margin-top:7px !important}
-
-    /* ==== ESFORÇO ==== */
-    /* pág 7: sec-head + 4 KPIs + sub-lead (centralizados juntos) */
-    #esforco{break-before:page}
-    /* pág 8: Prazos + Audiências (2 gráficos, centralizados) ; pág 9: Tarefas + Atividades por tipo */
-    #esforco .grid.g3{break-before:page;display:flex !important;flex-direction:column;
-      min-height:168mm;justify-content:center;gap:16px}
-    #esforco .grid.g3>.card{width:100%;margin:0;padding:12px 16px !important}
-    #esforco .grid.g3>.card .vbars{height:120px !important}   /* comprime p/ caber 2 por página */
-    #esforco .grid.g3>.card:nth-child(2){break-after:page}
-    /* Tarefas ficou órfã (3º card do g3 vai p/ pág 9 sozinho) — junta com "Atividades por tipo":
-       tiramos min-height do g3 quando quebrado não é trivial; então centralizamos o par via card-atividades */
-    #esforco #card-atividades{break-before:auto;margin:0 !important}
-    /* pág 10: Equipe mobilizada + Leitura do Esforço (centralizadas juntas) */
-    .pg-equipe{break-before:page;min-height:168mm;display:flex !important;flex-direction:column;
-      justify-content:center;gap:18px;margin:0 !important}
-    .pg-equipe+.insight{margin-top:0 !important}
-    #esforco .insight{break-before:auto}
-
-    /* ==== HORAS ==== */
-    /* Leitura do Esforço + abertura de Horas (sec-head + 3 KPIs) na MESMA página → NÃO quebra Horas */
-    /* pág 11: Leitura do Esforço + abertura de Horas (sec-head + 3 KPIs) juntas → Horas não quebra */
-    #horas{break-before:auto}
-    /* pág 12: Evolução das horas — card NÃO estica (largura contida), centralizado na página.
-       A leitura e a nota saem deste card para a pág 13 (via break-before nelas). */
-    #horas>.card{break-before:page;min-height:168mm;display:flex !important;flex-direction:column;
-      justify-content:center;padding:20px !important;max-width:200mm;margin:0 auto !important}
-    /* o gráfico de horas fica com largura limitada e centrado (não colado nas pontas) */
-    #horas>.card .vbars-wrap,#horas>.card .vbars{max-width:160mm;margin:0 auto !important;width:100% !important}
-    /* pág 13: Leitura + Sobre este indicador — bloco próprio, centralizado vertical */
-    #horas #ins4-box{break-before:page;margin:0 !important}
-    /* o wrapper que centraliza a pág 13: usamos o proprio ins4-box como topo do bloco flex.
-       como sao 2 insights irmaos, envolvemos dando min-height ao primeiro e deixando o 2o fluir junto */
-    #horas #ins4-box{min-height:auto}
-    #horas .card>.insight:first-of-type{margin-top:0 !important}
-
-    /* ==== PÁGINA FINAL: logo + redes + endereços, tudo na horizontal, centralizado ==== */
-    footer{break-before:page;padding:0 8mm !important;background:#141833 !important;
-      min-height:168mm;display:flex;align-items:center;justify-content:center}
-    footer .foot-grid{gap:60px !important;align-items:center;text-align:left;max-width:250mm;
-      grid-template-columns:1fr 1.4fr !important}
-    footer .foot-social{justify-content:flex-start}
+    /* cada folha = 1 página A4 landscape (297×210mm). Altura FIXA, quebra depois. */
+    .sheet{width:297mm;height:210mm;box-sizing:border-box;padding:16mm 18mm;background:#141833 !important;
+      color:#fff;display:flex;flex-direction:column;justify-content:center;overflow:hidden;
+      break-after:page;page-break-after:always;position:relative}
+    .sheet:last-child{break-after:auto;page-break-after:auto}
+    /* faixa/cabeçalho fino no topo de cada folha */
+    .sheet .sh-top{position:absolute;top:9mm;left:18mm;right:18mm;display:flex;justify-content:space-between;
+      align-items:center;font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;color:#8c92a8;
+      border-bottom:1px solid rgba(207,163,110,.35);padding-bottom:5px}
+    .sheet .sh-top b{color:#CFA36E;font-weight:700}
+    /* rodapé fino: nome do escritório + página */
+    .sheet .sh-foot{position:absolute;bottom:9mm;left:18mm;right:18mm;display:flex;justify-content:space-between;
+      font-size:8px;letter-spacing:.1em;color:#6b7191;text-transform:uppercase}
+    /* área de conteúdo centralizada */
+    .sheet .sh-body{width:100%;max-width:250mm;margin:0 auto;display:flex;flex-direction:column;justify-content:center;gap:16px}
+    /* títulos de seção dentro da folha */
+    .sh-sec{margin-bottom:4px}
+    .sh-sec .n{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#CFA36E;font-weight:700}
+    .sh-sec h2{font-size:19px;color:#fff;font-weight:700;margin:4px 0 6px}
+    .sh-sec p{font-size:10.5px;color:#aab0c6;line-height:1.5;max-width:210mm}
+    /* clones de cards/gráficos herdam o visual do dashboard; garantimos cor e respiro */
+    #view-print .card{background:#1c2142 !important;border:1px solid #2d3358 !important;border-radius:14px;padding:16px 18px !important;width:100%;margin:0}
+    #view-print .card h3{color:#CFA36E !important;font-size:13px}
+    #view-print .card .desc{color:#9aa0b8 !important;font-size:10px}
+    #view-print .kpis{display:grid !important;gap:12px;background:transparent !important;border:none !important;margin:0}
+    #view-print .kpi{background:#1c2142 !important;border:1px solid #2d3358 !important;border-radius:12px;padding:14px !important}
+    #view-print .kpi .n{color:#CFA36E !important}#view-print .kpi .k{color:#dfe2ee !important}#view-print .kpi .sub{color:#9aa0b8 !important}
+    #view-print .insight{background:rgba(207,163,110,.06);border:1px solid rgba(207,163,110,.2);border-radius:14px;padding:16px 18px;text-align:left}
+    #view-print .insight .t{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:6px}
+    #view-print .insight p{color:#dfe2ee;font-size:11px;line-height:1.6;margin:0}
+    /* gráficos: série inteira, sem scroll, esticada na largura */
+    #view-print .vbars,#view-print .gbars{overflow:visible !important;height:150px !important;display:flex !important;width:100% !important;padding-top:26px}
+    #view-print .vbars-hint{display:none !important}
+    #view-print .vbar,#view-print .gbar{flex:1 1 0 !important;min-width:0 !important}
+    #view-print .amp-wm{display:none !important}
   }
 
 /* ===== Estado 'sem dados / em atualizacao' (empresas ainda nao auditadas) ===== */
@@ -843,6 +747,9 @@ body.dash.is-semdados #sd-overlay{display:block}
   </div>
 </footer>
 </div><!-- /view-dashboard -->
+
+<!-- VISTA DE IMPRESSÃO DEDICADA — montada dinamicamente por montarPrint() ao gerar o PDF -->
+<div id="view-print"></div>
 
 <script>
 let GRUPOS = {};
@@ -1455,8 +1362,117 @@ function revealAll(){
   if(document.getElementById('fluxo'))fluxo();
   document.querySelectorAll('#view-dashboard .gbar .b[data-h]').forEach(b=>b.style.height=b.dataset.h+'%');
 }
-function gerarPDF(){ revealAll(); setTimeout(()=>window.print(),350); }
-window.addEventListener('beforeprint',revealAll);
+/* ===== VISTA DE IMPRESSÃO DEDICADA =====
+   Monta folhas A4 (uma por "página lógica") clonando os gráficos JÁ renderizados
+   do #view-dashboard. Layout próprio para papel; cores do dashboard. */
+function montarPrint(){
+  revealAll(); // garante números/barras/gráficos preenchidos no dashboard antes de clonar
+  var vp=document.getElementById('view-print');
+  if(!vp) return;
+  vp.innerHTML='';
+  var m=DATA.meta, ds=DATA.dataset, k=ds.kpi||{};
+  var nomeGrupo=(m.nome||'').replace(/<[^>]+>/g,'');
+  var corte=(typeof DATA_CORTE!=='undefined')?DATA_CORTE:{extenso:'',curta:''};
+  var totalSheets=0, sheetsHtml=[];
+
+  // helper: clona um nó do dashboard pelo id (o gráfico já renderizado)
+  function clone(id){ var e=document.getElementById(id); return e? e.closest('.card')?e.closest('.card').cloneNode(true):e.cloneNode(true) : null; }
+  function cloneCardOf(id){ var e=document.getElementById(id); if(!e)return null; var c=e.closest('.card'); return c?c.cloneNode(true):null; }
+  function has(id){ var e=document.getElementById(id); return e && e.closest('.card') && e.closest('.card').offsetParent!==null!==false; }
+  function visivel(id){ var e=document.getElementById(id); if(!e)return false; var c=e.closest('.card'); return c? getComputedStyle(c).display!=='none' : true; }
+
+  // cria uma folha com título opcional e corpo (array de HTML strings ou nós)
+  function sheet(bodyNodes, secTag, secTitle, secDesc){
+    var d=document.createElement('div'); d.className='sheet';
+    var top='<div class="sh-top"><span><b>'+nomeGrupo+'</b></span><span>Indicadores Jurídicos · '+(corte.extenso||'')+'</span></div>';
+    var foot='<div class="sh-foot"><span>Silva &amp; Silva Advogados Associados</span><span class="pg-num"></span></div>';
+    var body=document.createElement('div'); body.className='sh-body';
+    if(secTitle){ var sh=document.createElement('div'); sh.className='sh-sec';
+      sh.innerHTML=(secTag?'<div class="n">'+secTag+'</div>':'')+'<h2>'+secTitle+'</h2>'+(secDesc?'<p>'+secDesc+'</p>':'');
+      body.appendChild(sh); }
+    bodyNodes.forEach(function(n){ if(!n)return; if(typeof n==='string'){var w=document.createElement('div');w.innerHTML=n;body.appendChild(w.firstElementChild||w);} else body.appendChild(n); });
+    d.innerHTML=top+foot; d.insertBefore(body, d.querySelector('.sh-foot'));
+    vp.appendChild(d); totalSheets++;
+    return d;
+  }
+  // constrói um bloco .kpis clonando a faixa de KPIs de uma seção (pelo id de um KPI dela)
+  function cloneKpis(anyKpiId){ var e=document.getElementById(anyKpiId); if(!e)return null; var kp=e.closest('.kpis'); return kp?kp.cloneNode(true):null; }
+  // bloco de leitura (insight) por id do <p>
+  function cloneInsight(pid){ var e=document.getElementById(pid); if(!e)return null; var ins=e.closest('.insight'); if(!ins)return null; if(getComputedStyle(ins).display==='none')return null; return ins.cloneNode(true); }
+
+  // ---------- PÁGINA 1: capa/Volume — hero + KPIs principais ----------
+  var capa=document.createElement('div');
+  capa.innerHTML='<div style="text-align:left"><div style="font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:14px">Indicadores Jurídicos</div>'+
+    '<h1 style="font-size:30px;color:#fff;font-weight:700;line-height:1.15;margin:0 0 8px">'+(m.nomeHtml||nomeGrupo)+'</h1>'+
+    '<div style="display:flex;gap:50px;margin-top:22px;padding-top:18px;border-top:1px solid rgba(207,163,110,.3)">'+
+      '<div><div style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8c92a8">Histórico processual</div><div style="font-size:15px;color:#fff;font-weight:600;margin-top:3px">'+(document.getElementById('hero-periodo')?document.getElementById('hero-periodo').textContent:'')+'</div></div>'+
+      '<div><div style="font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8c92a8">Atualizado em</div><div style="font-size:15px;color:#fff;font-weight:600;margin-top:3px">'+(corte.extenso||'')+'</div></div>'+
+    '</div></div>';
+  var kpiMain=cloneKpis('k-proc');
+  sheet([capa, kpiMain]);
+
+  // ---------- PÁGINA 2: Volume — KPIs de volume ----------
+  sheet([cloneKpis('v-cresc')], '01 — Volume', 'Evolução do volume processual', 'Ritmo de entrada de novos processos, encerramentos e saldo de casos ativos ano a ano.');
+  // ---------- PÁGINA 3: Volume — os 2 gráficos ----------
+  sheet([cloneCardOf('estoque'), cloneCardOf('fluxo')], '01 — Volume', 'Evolução da carteira e fluxo anual');
+
+  // ---------- PÁGINA 3: Leitura do Volume ----------
+  var lv=cloneInsight('ins1'); if(lv) sheet([lv], '01 — Volume', 'Leitura dos indicadores');
+
+  // ---------- COMPLEXIDADE ----------
+  // pág 4: Distribuição por área
+  sheet([cloneCardOf('donut')], '02 — Complexidade', 'Perfil e complexidade da carteira', 'Composição da carteira por área, instância, posição e abrangência geográfica.');
+  // pág 5: Por instância + posição
+  sheet([cloneCardOf('instancia')], '02 — Complexidade', 'Instância e posição processual');
+  // pág 6: Distribuição geográfica
+  sheet([cloneCardOf('regioes')], '02 — Complexidade', 'Distribuição geográfica');
+  // pág 7: Tribunais + Leitura da Complexidade
+  var lc=cloneInsight('ins2');
+  sheet([cloneCardOf('tribunais'), lc], '02 — Complexidade', 'Tribunais e foros');
+
+  // ---------- ESFORÇO ----------
+  var semEsf = !ds.esforco || Object.keys(ds.esforco).length===0;
+  if(!semEsf){
+    // pág 8: KPIs de esforço
+    sheet([cloneKpis('e-compromissos')], '03 — Esforço operacional', 'Esforço operacional da equipe', 'Compromissos executados, produção por processo e tempo médio de tramitação.');
+    // pág 9: Prazos + Audiências (se existirem)
+    var g1=[]; if(visivel('prazano')) g1.push(cloneCardOf('prazano')); if(visivel('audano')) g1.push(cloneCardOf('audano'));
+    if(g1.length) sheet(g1, '03 — Esforço operacional', 'Atividades por ano · prazos e audiências');
+    // pág 10: Tarefas + Atividades por tipo
+    var g2=[]; if(visivel('tarefano')) g2.push(cloneCardOf('tarefano')); if(visivel('atividades')) g2.push(cloneCardOf('atividades'));
+    if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · tarefas e composição');
+    // pág 11: Equipe mobilizada + Leitura do Esforço
+    var eqp=[]; if(visivel('people')) eqp.push(cloneCardOf('people')); var le=cloneInsight('ins3'); if(le)eqp.push(le);
+    if(eqp.length) sheet(eqp, '03 — Esforço operacional', 'Equipe mobilizada e leitura');
+  }
+
+  // ---------- HORAS ----------
+  var semH = !ds.horas || !ds.horas.total;
+  if(!semH){
+    // pág 12: KPIs de horas + evolução por ano. O card de horas embute os insights (leitura/nota):
+    // removemos do clone — eles vão sozinhos na pág 13.
+    var cardHoras = visivel('horasano') ? cloneCardOf('horasano') : null;
+    if(cardHoras){ cardHoras.querySelectorAll('.insight').forEach(function(x){ x.remove(); }); }
+    sheet([cloneKpis('h-total'), cardHoras], '04 — Horas dedicadas', 'Horas dedicadas à carteira', 'Tempo apontado pela equipe nos processos do cliente (registros de timesheet).');
+    // pág 13: Leitura das horas + Sobre este indicador
+    var lh=cloneInsight('ins4'); var nota=cloneInsight('horas-nota');
+    var hb=[]; if(lh)hb.push(lh); if(nota)hb.push(nota);
+    if(hb.length) sheet(hb, '04 — Horas dedicadas', 'Leitura e observações');
+  }
+
+  // ---------- PÁGINA FINAL: footer (logo + redes + endereços) ----------
+  var foot=document.querySelector('#view-dashboard footer .foot-grid');
+  if(foot){ var fc=foot.cloneNode(true);
+    var fdiv=document.createElement('div'); fdiv.style.cssText='display:flex;align-items:center;justify-content:center;width:100%';
+    fdiv.appendChild(fc); sheet([fdiv]); }
+
+  // numeração de páginas
+  var nums=vp.querySelectorAll('.pg-num');
+  nums.forEach(function(el,i){ el.textContent=(i+1)+' / '+totalSheets; });
+}
+
+function gerarPDF(){ montarPrint(); setTimeout(function(){ window.print(); }, 400); }
+window.addEventListener('beforeprint', function(){ if(!document.getElementById('view-print').children.length) montarPrint(); });
 
 /* ===== LOADER: carrega dados/<grupo>.json (dados externos por grupo) ===== */
 (function(){
