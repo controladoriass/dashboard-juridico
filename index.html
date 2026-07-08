@@ -579,7 +579,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     <div class="kpi"><div class="n" id="v-cresc">—</div><div class="k">Crescimento do estoque</div><div class="sub" id="v-cresc-sub">—</div><span class="trend" id="v-trend">▲ expansão</span></div>
     <div class="kpi"><div class="n" id="v-entradas">0</div><div class="k">Entradas no período</div><div class="sub">total de processos abertos</div></div>
     <div class="kpi"><div class="n" id="v-encerr">0</div><div class="k">Encerramentos</div><div class="sub">casos finalizados (por status)</div></div>
-    <div class="kpi"><div class="n" data-count="0" id="v-ativos">0</div><div class="k">Ativos hoje</div><div class="sub">processos em andamento (30/06/2026)</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="v-ativos">0</div><div class="k">Ativos hoje</div><div class="sub" id="v-ativos-sub">processos em andamento</div></div>
   </div>
 
   <div class="grid g2">
@@ -745,6 +745,8 @@ body.dash.is-semdados #sd-overlay{display:block}
 let GRUPOS = {};
 let DATA = {}; let GRUPO_ATUAL=null;
 const GOLD='#CFA36E', NAVYMID='#3F5276';
+/* ===== DATA DE CORTE — mudar SO AQUI na atualizacao mensal (tudo acompanha) ===== */
+const DATA_CORTE = { curta:'30/06/2026', extenso:'Junho de 2026' };
 
 function countUp(el){
   const target=+el.dataset.count; const dur=1300, t0=performance.now();
@@ -881,7 +883,7 @@ function renderDashboard(){
     var _bt=el('sd-badge-txt'), _tx=el('sd-texto');
     if(DATA.dataset._semProcessos){
       if(_bt)_bt.textContent='Sem processos vinculados';
-      if(_tx)_tx.textContent='Este cadastro não possui processos vinculados no EasyJur até a data de corte (30/06/2026).';
+      if(_tx)_tx.textContent='Este cadastro não possui processos vinculados no EasyJur até a data de corte ('+DATA_CORTE.curta+').';
     } else {
       if(_bt)_bt.textContent='Em atualização';
       var _alvo = DATA.dataset._panorama ? 'deste grupo' : 'desta empresa';
@@ -889,13 +891,13 @@ function renderDashboard(){
     }
     return;
   } else { document.body.classList.remove('is-semdados'); }
-  el('ph-titulo').innerHTML = m.nome+' — Junho de 2026';
+  el('ph-titulo').innerHTML = m.nome+' — '+DATA_CORTE.extenso;
   el('hero-nome').innerHTML = m.nomeHtml;
   // período de análise DINÂMICO: do ano do processo mais antigo ao mais recente (dados reais deste grupo/empresa)
   var _anosEst = (DATA.dataset && DATA.dataset.estoque) ? Object.keys(DATA.dataset.estoque).filter(function(a){return /^\d{4}$/.test(a);}).sort() : [];
   var _periodo = _anosEst.length ? (_anosEst[0]+' — '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
   el('hero-periodo').textContent = _periodo;
-  el('hero-atualizado').textContent = 'Junho de 2026';
+  el('hero-atualizado').textContent = DATA_CORTE.extenso;
   el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0'; el('k-proc-sub').textContent=k.procSub;
   // horas em atualização (sem count-up)
   el('k-horas').removeAttribute('data-count');
@@ -924,6 +926,7 @@ function renderDashboard(){
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
   if(el('v-encerr')){ el('v-encerr').dataset.count=totEncerr; el('v-encerr').textContent=totEncerr.toLocaleString('pt-BR'); }
   if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
+  if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.curta+')';
   el('ins1').innerHTML=`A carteira acompanha o cliente desde <strong>${primAno}</strong>, com <strong>${k.proc} processos</strong> no total (${ds.ativos} ativos). O estoque sob gestão evoluiu ao longo do período.`;
   el('ins2').innerHTML=`Atuação em <strong>${Object.keys(ds.tribunais).length} tribunais</strong> e <strong>${Object.keys(ds.uf).length} estados</strong>, com carteira multidisciplinar em ${Object.keys(ds.area).length} áreas do Direito.`;
   // limpar containers
@@ -966,7 +969,7 @@ function renderDashboard(){
   // nota explicativa (dentro do card de evolucao, estilo .insight)
   var _hn=el('horas-nota'); var _hnbox=el('horas-nota-box');
   if(_hn){
-    if(hs._estimativa){ _hn.innerHTML='<strong class="hn-mark">^</strong> Total parcial de horas apontadas no timesheet até 30/06/2026. Reflete os registros efetivamente lançados no sistema — não cobre 100% dos processos (parte dos apontamentos não é recuperável pela API do EasyJur). Serve como indicador da evolução do esforço, não como fechamento contábil de horas.'; if(_hnbox)_hnbox.style.display=''; }
+    if(hs._estimativa){ _hn.innerHTML='<strong class="hn-mark">^</strong> Total parcial de horas apontadas no timesheet até '+DATA_CORTE.curta+'. Reflete os registros efetivamente lançados no sistema — não cobre 100% dos processos (parte dos apontamentos não é recuperável pela API do EasyJur). Serve como indicador da evolução do esforço, não como fechamento contábil de horas.'; if(_hnbox)_hnbox.style.display=''; }
     else { _hn.innerHTML=''; if(_hnbox)_hnbox.style.display='none'; }
   }
   // se nao ha serie de horas por ano, esconder esse card (a nota vai junto)
@@ -1102,7 +1105,7 @@ function montarDashboard(gk, ek){
     var nomeGrupo=(g.nome||'').replace(/^Grupo\s+/i,'');
     nomeHtml='Panorama Geral do Grupo<span class="hero-sub-grupo">'+nomeGrupo+'</span>';
   }
-  DATA=Object.assign({}, emp.dataset, {meta:{nome:emp.nome, nomeHtml:nomeHtml, periodo:'2010 — 2026'}, dataset:emp.dataset});
+  DATA=Object.assign({}, emp.dataset, {meta:{nome:emp.nome, nomeHtml:nomeHtml, periodo:null}, dataset:emp.dataset});
   renderDashboard();
 }
 function abrirEmpresa(gk, ek, cardEl){

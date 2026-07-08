@@ -102,6 +102,14 @@ Por decisão do escritório, **não** entram no dashboard: Resultado/êxito, Ris
 
 ## 4. Publicação
 
+Na atualização periódica, além de regravar os `dados/<grupo>.json`, **mudar a data de corte em um único lugar** no `index.html`:
+
+```js
+const DATA_CORTE = { curta:'30/06/2026', extenso:'Junho de 2026' };
+```
+
+Título, "atualizado em" e todas as notas de corte usam essa constante — muda-se só ela. O "período de análise" de cada grupo é calculado automaticamente (ano do processo mais antigo → mais recente), não precisa mexer.
+
 ```
 # na pasta do repositório
 git add index.html dados/
