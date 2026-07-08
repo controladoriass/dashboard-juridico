@@ -436,19 +436,30 @@
     .kpi{background:#1c2142 !important;padding:14px 14px !important}
     .kpi .n{color:#CFA36E !important}.kpi .k{color:#dfe2ee !important}.kpi .sub{color:#9aa0b8 !important}
     .card h3{color:#CFA36E !important}.card .desc{color:#9aa0b8 !important}
-    /* gráficos inteiros */
-    .vbars,.gbars{overflow:visible !important;height:135px !important}
-    .vbar,.gbar{flex:1 1 auto !important;min-width:0 !important}
+    /* ===== GRÁFICOS: série inteira visível (sem scroll no papel), esticada na horizontal ===== */
+    .vbars,.gbars{overflow:visible !important;height:150px !important;padding-top:26px !important;
+      display:flex !important;width:100% !important}
+    .vbars-wrap{overflow:visible !important}
+    .vbars-hint{display:none !important}                 /* seta de scroll não faz sentido no PDF */
+    /* barras dividem a largura toda igualmente; sem min-width, para caber muitos anos */
+    .vbar,.gbar{flex:1 1 0 !important;min-width:0 !important}
+    .vbar .x,.gbar .x{font-size:10px !important}
     .vbar .col,.gbar .b,.hbar .fill{transition:none !important}
-    .g2{grid-template-columns:1fr 1fr !important}
     .kpis{grid-template-columns:repeat(var(--kn,5),1fr) !important}
     .amp-wm{display:none !important}
-    /* ===== QUEBRAS DINÂMICAS (fluxo — adapta ao volume de cada empresa) ===== */
-    /* NÃO força seção por página: o conteúdo flui e preenche. */
-    section.block{break-inside:auto}
-    /* só impede cortar elementos no meio: */
-    .grid{break-inside:avoid}          /* par de cards lado a lado fica junto */
-    .card,.kpis,.insight{break-inside:avoid}
+
+    /* ===== LAYOUT: cada seção em página nova, cards empilhados e centralizados ===== */
+    /* 1 card por linha (empilha os pares/trios g2/g3) e centraliza a coluna de conteúdo */
+    .grid{grid-template-columns:1fr !important;gap:14px !important;max-width:250mm;margin-left:auto !important;margin-right:auto !important}
+    .kpis{max-width:250mm;margin-left:auto !important;margin-right:auto !important}
+    .card,.insight{max-width:250mm;margin-left:auto !important;margin-right:auto !important;width:100%}
+    .sub-lead{max-width:250mm;margin-left:auto !important;margin-right:auto !important;text-align:center}
+
+    /* cada seção principal abre em página nova; a intro (1ª) não força quebra antes */
+    #volume,#complexidade,#esforco,#horas{break-before:page}
+    section.block{break-inside:auto;padding-top:14px !important;padding-bottom:14px !important}
+    /* nunca cortar um card/kpi/leitura no meio da página */
+    .card,.kpis,.insight,.grid{break-inside:avoid}
     .sec-head{break-after:avoid}       /* título não fica órfão no fim da página */
     .rank,.rank .r,.region,.person,.pill{break-inside:avoid}
     footer{padding:14px 8mm 0 !important;break-inside:avoid;background:#141833 !important}
