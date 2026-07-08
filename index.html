@@ -648,7 +648,7 @@ body.dash.is-semdados #sd-overlay{display:block}
   </div>
 
   <div class="kpis reveal" style="margin-bottom:24px;--kn:4">
-    <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub">prazos + audiências + tarefas</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub" id="e-compromissos-sub">prazos + audiências + tarefas</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-prod">0</div><div class="k">Processos com produção</div><div class="sub" id="e-prod-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-atosproc">0</div><div class="k">Atos por processo</div><div class="sub" id="e-atosproc-sub">compromissos ÷ processos movimentados</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média — ativos contam até 30/06</div></div>
@@ -927,10 +927,14 @@ function renderDashboard(){
   el('hero-periodo').textContent = _periodo;
   el('hero-atualizado').textContent = DATA_CORTE.extenso;
   el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0'; el('k-proc-sub').textContent=k.procSub;
-  // horas em atualização (sem count-up)
+  // horas dedicadas (topo) — total recortado >= ANO_MIN, coerente com a aba Horas
+  var _hsTopo = (DATA.dataset && DATA.dataset.horas) ? DATA.dataset.horas : {};
+  var _totHorasTopo = Object.values(cortaAnos(_hsTopo.horasano)).reduce(function(a,b){return a+(+b||0);},0);
   el('k-horas').removeAttribute('data-count');
-  if(k.horas && k.horas!=='—'){ el('k-horas').innerHTML=k.horas; el('k-horas-sub').textContent=k.horasSub||'horas apontadas'; }
-  else { el('k-horas').textContent='—'; el('k-horas-sub').textContent='em atualização'; }
+  if(_totHorasTopo>0){
+    el('k-horas').innerHTML = (_hsTopo._estimativa?'^':'')+Math.round(_totHorasTopo);
+    el('k-horas-sub').textContent = (DATA.dataset._panorama?'consolidado do grupo · ':'')+'desde '+ANO_MIN+(_hsTopo._estimativa?' (parcial)':'');
+  } else { el('k-horas').textContent='—'; el('k-horas-sub').textContent='em atualização'; }
   el('k-areas').dataset.count=k.areas; el('k-areas').textContent='0'; el('k-areas-sub').textContent=k.areasSub;
   if(el('k-ativos')){ el('k-ativos').dataset.count=DATA.dataset.ativos||0; el('k-ativos').textContent='0'; el('k-ativos-sub').textContent='em andamento hoje'; }
   el('k-trib').dataset.count=k.trib; el('k-trib').textContent='0'; el('k-trib-sub').textContent=k.tribSub;
@@ -978,6 +982,7 @@ function renderDashboard(){
   else { _atv=esf.atividades||{}; }
   var _totComp=Object.keys(_atv).reduce(function(a,kk){return a+(_atv[kk]||0);},0);
   if(el('e-compromissos')){ if(semEsf||!_totComp){el('e-compromissos').removeAttribute('data-count');el('e-compromissos').textContent='—';} else {el('e-compromissos').dataset.count=_totComp; el('e-compromissos').textContent='0';} }
+  if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + tarefas · desde '+ANO_MIN;
   if(el('e-prod')){ if(semEsf){el('e-prod').removeAttribute('data-count');el('e-prod').textContent='—';if(el('e-prod-sub'))el('e-prod-sub').textContent='em atualização';} else {var _cp=esf.comProducao||0; el('e-prod').dataset.count=_cp; el('e-prod').textContent='0'; var _pct=k.proc?Math.round(_cp/k.proc*100):0; var _pf=(k.proc||0).toLocaleString('pt-BR'); el('e-prod-sub').textContent='de '+_pf+' com atividade lançada ('+_pct+'%)';} }
   if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
@@ -1002,7 +1007,7 @@ function renderDashboard(){
   const _totHoras = Object.values(_horasC).reduce((a,b)=>a+(+b||0),0);
   const _mediaH = k.proc ? Math.round(_totHoras/k.proc*10)/10 : 0;
   const _mediaHAtiv = (ds.ativos) ? Math.round(_totHoras/ds.ativos*10)/10 : 0;
-  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas até 30/06 (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent='horas no período';} }
+  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas desde '+ANO_MIN+' até '+DATA_CORTE.curta+' (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent='horas desde '+ANO_MIN;} }
   if(el('h-media')){ if(semHoras){el('h-media').innerHTML='—';if(el('h-media-sub'))el('h-media-sub').textContent='em atualização';} else {el('h-media').innerHTML=String(_mediaH).replace('.',',')+'<small>h</small>'; el('h-media-sub').textContent=Math.round(_totHoras)+'h / '+k.proc+' processos';} }
   if(el('h-mediaativos')){ if(semHoras){el('h-mediaativos').innerHTML='—';if(el('h-mediaativos-sub'))el('h-mediaativos-sub').textContent='em atualização';} else {el('h-mediaativos').innerHTML=String(_mediaHAtiv).replace('.',',')+'<small>h</small>'; el('h-mediaativos-sub').textContent=Math.round(_totHoras)+'h / '+ds.ativos+' ativos';} }
   if(hs.horasano) vbars('horasano',_horasC,[Object.keys(_horasC).slice(-1)[0]],'h');
