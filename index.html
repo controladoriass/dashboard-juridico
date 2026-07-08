@@ -1079,16 +1079,16 @@ function entrarDashboard(){
   window.scrollTo(0,0);
   ativarObserver();
   document.body.classList.add('entering');
-  requestAnimationFrame(()=>{
-    document.querySelectorAll('#view-dashboard .kpis').forEach(kp=>{
-      kp.querySelectorAll('.kpi').forEach((k,idx)=>k.style.setProperty('--i',idx));
-    });
-    requestAnimationFrame(()=>{
-      document.body.classList.remove('entering');
-      document.body.classList.add('entered');
-      document.querySelectorAll('#view-dashboard .kpis').forEach(x=>x.classList.add('in'));
-    });
+  document.querySelectorAll('#view-dashboard .kpis').forEach(kp=>{
+    kp.querySelectorAll('.kpi').forEach((k,idx)=>k.style.setProperty('--i',idx));
   });
+  // setTimeout (não rAF) — rAF não dispara de forma confiável logo após load / em aba de fundo,
+  // o que deixava a animação travada em "entering" (KPIs invisíveis) no link do cliente.
+  setTimeout(function(){
+    document.body.classList.remove('entering');
+    document.body.classList.add('entered');
+    document.querySelectorAll('#view-dashboard .kpis').forEach(x=>x.classList.add('in'));
+  }, 60);
 }
 
 /* ===== NAVEGAÇÃO 3 NÍVEIS ===== */
@@ -1232,10 +1232,31 @@ function abrirPorHash(){
 window.__initApp = function(){
   const curtain=document.getElementById('curtain');
   const temHash = !!(location.hash && location.hash.length>1);
-  function ready(){ document.body.classList.add('is-ready'); if(temHash) abrirPorHash(); }
+  const modoCliente = document.body.classList.contains('modo-cliente');
+  // modo cliente: entra no painel COM animação de montagem (cortina + gráficos/KPIs animando),
+  // para "encantar" o cliente — em vez do deep-link seco.
+  function entrarCliente(){
+    var hp=(location.hash||'').replace('#','').split('/');
+    var gk=hp[0], ek=hp[1];
+    if(gk && GRUPOS[gk] && ek && GRUPOS[gk].empresas[ek]){
+      montarDashboard(gk,ek);
+      document.body.classList.remove('grupo','emp-in','entered'); document.body.classList.add('dash');
+      entrarDashboard(); // anima KPIs subindo + observer anima gráficos ao entrar
+      // rede de segurança: garante que TUDO fica visível/preenchido (números, barras, KPIs),
+      // mesmo que a animação por rAF/observer não dispare neste contexto de carregamento.
+      setTimeout(function(){
+        document.body.classList.remove('entering'); document.body.classList.add('entered');
+        document.querySelectorAll('#view-dashboard .reveal').forEach(function(e){ e.classList.add('in'); });
+        if(typeof revealAll==='function') revealAll();
+      }, 700);
+    } else { abrirPorHash(); }
+  }
+  var _readyFeito=false;
+  function ready(){ if(_readyFeito) return; _readyFeito=true; document.body.classList.add('is-ready'); if(modoCliente){ entrarCliente(); } else if(temHash){ abrirPorHash(); } }
   function lift(){
     if(!curtain) return ready();
-    if(temHash){ curtain.style.display='none'; return ready(); } // deep-link: pula cortina
+    // deep-link interno (uso próprio) pula a cortina; MODO CLIENTE mostra a cortina p/ encantar.
+    if(temHash && !modoCliente){ curtain.style.display='none'; return ready(); }
     curtain.style.display='flex'; // garante visível
     // timers com setTimeout puro (NÃO usar rAF — não dispara em aba de fundo e travaria a cortina)
     setTimeout(function(){ curtain.classList.add('up'); ready(); }, 1900); // 1.9s: tempo de ver a animação do logo
