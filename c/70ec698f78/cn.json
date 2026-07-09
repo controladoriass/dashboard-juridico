@@ -181,6 +181,14 @@
             "2024": 57,
             "2025": 54,
             "2026": 17
+          },
+          "extrajudtipo": {
+            "Contratos e minutas": 49,
+            "Notificações": 36,
+            "Distratos e acordos": 26,
+            "Pareceres e análises": 13,
+            "Cobranças": 2,
+            "Outros": 198
           }
         },
         "horas": {

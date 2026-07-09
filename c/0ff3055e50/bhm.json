@@ -163,6 +163,12 @@
             "2024": 21,
             "2025": 6,
             "2026": 1
+          },
+          "extrajudtipo": {
+            "Contratos e minutas": 9,
+            "Notificações": 12,
+            "Pareceres e análises": 1,
+            "Outros": 47
           }
         },
         "horas": {

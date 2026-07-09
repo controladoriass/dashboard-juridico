@@ -234,6 +234,12 @@
             "2023": 4,
             "2024": 3,
             "2026": 1
+          },
+          "extrajudtipo": {
+            "Notificações": 8,
+            "Distratos e acordos": 3,
+            "Pareceres e análises": 1,
+            "Outros": 18
           }
         },
         "horas": {
