@@ -143,6 +143,16 @@
   /* 6. donut desenha o arco */
   .donut circle.seg{stroke-dasharray:100;stroke-dashoffset:100;transition:stroke-dashoffset .8s cubic-bezier(.22,1,.36,1)}
 
+  /* 6b. legenda do donut em cascata (uma linha após a outra) */
+  .donut-leg .row-anim{opacity:0;transform:translateX(10px);transition:opacity .5s var(--t),transform .5s var(--t)}
+  .donut-leg .row-anim.in{opacity:1;transform:none;transition-delay:calc(.35s + var(--ri,0)*.11s)}
+  /* 6c. pills de tribunais em cascata */
+  .pill.pill-anim{opacity:0;transform:translateY(8px) scale(.96);transition:opacity .45s var(--t),transform .45s var(--t)}
+  .reveal.in .pill.pill-anim{opacity:1;transform:none;transition-delay:calc(var(--pi,0)*.05s)}
+  /* 6d. "Sobre este indicador": cortina revelando o texto */
+  .insight .cortina-txt{clip-path:inset(0 100% 0 0);transition:clip-path 1s cubic-bezier(.76,0,.24,1) .2s}
+  .reveal.in .insight .cortina-txt,.insight.in .cortina-txt{clip-path:inset(0 0 0 0)}
+
   /* 7. sheen dourado no hover dos cards */
   .ccard::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;
     background:linear-gradient(115deg,transparent 30%,rgba(207,163,110,.28) 50%,transparent 70%);
@@ -742,7 +752,7 @@ body.dash.is-semdados #sd-overlay{display:block}
     <div class="vbars" id="horasano"></div>
     <div class="insight" id="horas-nota-box" style="margin-top:34px;display:none">
       <div class="t">Sobre este indicador</div>
-      <p id="horas-nota"></p>
+      <p id="horas-nota" class="cortina-txt"></p>
     </div>
   </div>
 </section>
@@ -837,6 +847,8 @@ function hbars(id,obj,alt){
     box.appendChild(row);
   }
 }
+// guarda o estado do donut para o observer disparar a animação ao rolar
+var _donutSegs=null, _donutNum=null, _donutTotal=0;
 function donut(){
   const obj=DATA.area, total=Object.values(obj).reduce((a,b)=>a+b,0);
   const cols=['#CFA36E','#3F5276','#5a6e98','#7d8cb0','#9aa6c4','#c2cadb'];
@@ -849,30 +861,49 @@ function donut(){
     circ.setAttribute('cx',90);circ.setAttribute('cy',90);circ.setAttribute('r',R);
     circ.setAttribute('fill','none');circ.setAttribute('stroke',cols[i%cols.length]);
     circ.setAttribute('stroke-width',22);
-    // começa oculto (arco 0) e anima até o comprimento real
+    // começa oculto (arco 0); animaDonut() (via observer) preenche até o comprimento real
     circ.setAttribute('stroke-dasharray',`0 ${C}`);
     circ.setAttribute('stroke-dashoffset',-off);
     circ.setAttribute('transform','rotate(-90 90 90)');
-    circ.style.transition='stroke-dasharray .7s cubic-bezier(.22,1,.36,1)';
+    circ.style.transition='stroke-dasharray .8s cubic-bezier(.22,1,.36,1)';
     svg.appendChild(circ);
-    segs.push([circ,len]); off+=len;
-    const row=document.createElement('div');row.className='row';
+    segs.push([circ,len,C]); off+=len;
+    // legenda: cada linha entra em cascata (classe .row-anim controlada por CSS + .in)
+    const row=document.createElement('div');row.className='row row-anim';
+    row.style.setProperty('--ri',i);
     row.innerHTML=`<b style="background:${cols[i%cols.length]}"></b>${k}<span class="pc">${Math.round(frac*100)}%</span>`;
     leg.appendChild(row);i++;
   }
-  // anima o desenho em cascata (cada fatia após a anterior)
-  requestAnimationFrame(()=>segs.forEach(([circ,len],idx)=>{
-    circ.style.transitionDelay=(idx*0.12)+'s';
-    circ.setAttribute('stroke-dasharray',`${len} ${C-len}`);
-  }));
+  // número central começa em 0 (count-up ao entrar na tela)
   const cap=document.createElementNS('http://www.w3.org/2000/svg','text');
   cap.setAttribute('x',90);cap.setAttribute('y',86);cap.setAttribute('text-anchor','middle');
-  cap.setAttribute('fill','#fff');cap.setAttribute('font-family','Montserrat,sans-serif');cap.setAttribute('font-size','30');cap.setAttribute('font-weight','700');cap.textContent=(DATA.areaTotal||total);
+  cap.setAttribute('fill','#fff');cap.setAttribute('font-family','Montserrat,sans-serif');cap.setAttribute('font-size','30');cap.setAttribute('font-weight','700');cap.textContent='0';
   svg.appendChild(cap);
   const cap2=document.createElementNS('http://www.w3.org/2000/svg','text');
   cap2.setAttribute('x',90);cap2.setAttribute('y',104);cap2.setAttribute('text-anchor','middle');
   cap2.setAttribute('fill','#8c92a8');cap2.setAttribute('font-size','10');cap2.setAttribute('letter-spacing','1');cap2.textContent='PROCESSOS';
   svg.appendChild(cap2);
+  // guarda para animar depois
+  _donutSegs=segs; _donutNum=cap; _donutTotal=(DATA.areaTotal||total);
+}
+// dispara a animação do donut (fatias em cascata + número contando + legenda em cascata)
+function animaDonut(){
+  if(!_donutSegs) return;
+  _donutSegs.forEach(function(s,idx){
+    var circ=s[0],len=s[1],C=s[2];
+    circ.style.transitionDelay=(idx*0.12)+'s';
+    circ.setAttribute('stroke-dasharray', len+' '+(C-len));
+  });
+  // legenda em cascata
+  var leg=document.getElementById('donut-leg');
+  if(leg) leg.querySelectorAll('.row-anim').forEach(function(r){ r.classList.add('in'); });
+  // count-up do número central — baseado em TEMPO real (Date), auto-corrige se o
+  // ambiente atrasar os timers: sempre termina no valor exato em ~900ms reais.
+  if(_donutNum){
+    var alvo=_donutTotal, el=_donutNum, ini=Date.now(), dur=900;
+    (function tick(){ var p=Math.min((Date.now()-ini)/dur,1); var ease=1-Math.pow(1-p,3);
+      el.textContent=(p>=1?alvo:Math.round(alvo*ease)).toLocaleString('pt-BR'); if(p<1) setTimeout(tick,30); })();
+  }
 }
 function regions(){
   const obj=DATA.uf,max=Math.max(...Object.values(obj));const box=document.getElementById('regioes');
@@ -889,8 +920,10 @@ function regions(){
 }
 function tribunais(){
   const box=document.getElementById('tribunais');
+  let i=0;
   for(const[k,v]of Object.entries(DATA.tribunais)){
-    const p=document.createElement('div');p.className='pill';
+    const p=document.createElement('div');p.className='pill pill-anim';
+    p.style.setProperty('--pi',i++);
     p.innerHTML=`${k}<b>${v}</b>`;box.appendChild(p);
   }
 }
@@ -1088,6 +1121,8 @@ function ativarObserver(){
       e.target.querySelectorAll('.col[data-h]').forEach(c=>c.style.height=c.dataset.h+'%');
       e.target.querySelectorAll('.fill[data-w]').forEach(f=>f.style.width=f.dataset.w+'%');
       e.target.querySelectorAll('.region .bar i').forEach(f=>f.style.width=f.dataset.w+'%');
+      // donut: desenha as fatias em cascata + conta o número central ao entrar na tela
+      if(e.target.querySelector('#donut')) animaDonut();
       if(e.target.querySelector('#fluxo'))fluxo();
       io.unobserve(e.target);
     });
@@ -1297,6 +1332,7 @@ function revealAll(){
   document.querySelectorAll('#view-dashboard .region .bar i').forEach(f=>f.style.width=f.dataset.w+'%');
   if(document.getElementById('fluxo'))fluxo();
   document.querySelectorAll('#view-dashboard .gbar .b[data-h]').forEach(b=>b.style.height=b.dataset.h+'%');
+  if(document.getElementById('donut')) animaDonut(); // donut + legenda em cascata + número central
 }
 /* ===== VISTA DE IMPRESSÃO DEDICADA =====
    Monta folhas A4 (uma por "página lógica") clonando os gráficos JÁ renderizados
@@ -1462,7 +1498,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260708c';
+  var _cb = '?v=20260709a';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
