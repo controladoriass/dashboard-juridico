@@ -1374,7 +1374,7 @@ function montarPrint(){
     // pág 10: Tarefas + Atividades por tipo
     var g2=[]; if(visivel('tarefano')) g2.push(cloneCardOf('tarefano')); if(visivel('atividades')) g2.push(cloneCardOf('atividades'));
     if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · tarefas e composição');
-    // pág extrajudicial (se houver dado)
+    // pág extrajudicial (se houver dado): atividades por ano + por tipo
     if(visivel('extrajudano')){
       var _pgExtra=[cloneCardOf('extrajudano')];
       if(visivel('extrajudtipo')) _pgExtra.push(cloneCardOf('extrajudtipo'));
@@ -1463,7 +1463,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260708b';
+  var _cb = '?v=20260708c';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
