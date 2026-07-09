@@ -1124,25 +1124,30 @@ function animarCard(el){
   if(el.querySelector('#fluxo'))fluxo();
 }
 var _scrollFallback=null;
+// anima um card com um leve atraso (respiro) — evita disparar no instante que encosta na tela
+function animarCardDelay(el){
+  if(!el || el._anim || el._pend) return; el._pend=true;
+  setTimeout(function(){ animarCard(el); }, 180);
+}
 function ativarObserver(){
   if(io)io.disconnect();
+  // threshold 0.35: o card precisa estar ~35% visível (não só encostando na borda)
   io=new IntersectionObserver((es)=>{
-    es.forEach(e=>{ if(!e.isIntersecting)return; animarCard(e.target); io.unobserve(e.target); });
-  },{threshold:.16});
-  document.querySelectorAll('#view-dashboard .reveal').forEach(el=>{el.classList.remove('in'); el._anim=false; io.observe(el);});
-  // fallback: se o IntersectionObserver não disparar (certos contextos de carregamento),
-  // um listener de scroll anima os cards que já estão visíveis. Não revela tudo de uma vez.
+    es.forEach(e=>{ if(!e.isIntersecting)return; animarCardDelay(e.target); io.unobserve(e.target); });
+  },{threshold:.35});
+  document.querySelectorAll('#view-dashboard .reveal').forEach(el=>{el.classList.remove('in'); el._anim=false; el._pend=false; io.observe(el);});
+  // fallback (se o observer não disparar): anima cards já BEM visíveis (topo abaixo de 65% da tela)
   if(_scrollFallback) window.removeEventListener('scroll', _scrollFallback);
   _scrollFallback=function(){
     var h=window.innerHeight||document.documentElement.clientHeight;
     document.querySelectorAll('#view-dashboard .reveal').forEach(function(el){
-      if(el._anim) return; var r=el.getBoundingClientRect();
-      if(r.top < h*0.85 && r.bottom > 0) animarCard(el);
+      if(el._anim||el._pend) return; var r=el.getBoundingClientRect();
+      if(r.top < h*0.65 && r.bottom > h*0.1) animarCardDelay(el);
     });
   };
   window.addEventListener('scroll', _scrollFallback, {passive:true});
   // roda uma vez já, para os cards visíveis na abertura (topo)
-  setTimeout(_scrollFallback, 120);
+  setTimeout(_scrollFallback, 200);
 }
 
 function entrarDashboard(){
@@ -1511,7 +1516,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260709b';
+  var _cb = '?v=20260709c';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
