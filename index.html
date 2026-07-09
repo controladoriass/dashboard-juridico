@@ -683,9 +683,8 @@ body.dash.is-semdados #sd-overlay{display:block}
     <p>Volume de trabalho dedicado à carteira: compromissos executados, produção por processo e tempo médio de tramitação.</p>
   </div>
 
-  <div class="kpis reveal" style="margin-bottom:24px;--kn:4">
+  <div class="kpis reveal" style="margin-bottom:24px;--kn:3">
     <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub" id="e-compromissos-sub">prazos + audiências + tarefas</div></div>
-    <div class="kpi"><div class="n" data-count="0" id="e-prod">0</div><div class="k">Processos com produção</div><div class="sub" id="e-prod-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-atosproc">0</div><div class="k">Atos por processo</div><div class="sub" id="e-atosproc-sub">compromissos ÷ processos movimentados</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média — ativos contam até 30/06</div></div>
   </div>
@@ -717,11 +716,6 @@ body.dash.is-semdados #sd-overlay{display:block}
     <h3><span class="bt"></span>Atividades extrajudiciais por ano</h3>
     <div class="desc">Trabalho extrajudicial da equipe (pareceres, contratos, notificações, acordos e diligências), ano a ano.</div>
     <div class="vbars" id="extrajudano"></div>
-  </div>
-  <div class="card reveal" id="card-extrajud-tipo" style="margin-top:22px">
-    <h3><span class="bt"></span>Extrajudicial por tipo de trabalho</h3>
-    <div class="desc">Composição do trabalho extrajudicial por natureza (classificação aproximada, a partir do registro de cada tarefa).</div>
-    <div class="hbars" id="extrajudtipo"></div>
   </div>
 
   <div class="card reveal pg-equipe" style="margin-top:22px">
@@ -1040,7 +1034,7 @@ function renderDashboard(){
   if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
   if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.curta+')';
   // limpar containers
-  ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','prazano','tarefano','atividades','extrajudano','extrajudtipo','people','horasano'].forEach(limpa);
+  ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','prazano','tarefano','atividades','extrajudano','people','horasano'].forEach(limpa);
   el('donut').innerHTML=''; const fx=el('fluxo'); fx.innerHTML=''; delete fx.dataset.built;
   // Volume + Complexidade (dados reais) — estoque cortado ao recorte (>= ANO_MIN)
   vbars('estoque',_estC,ds.estoqueHl);
@@ -1061,7 +1055,6 @@ function renderDashboard(){
   var _totComp=Object.keys(_atv).reduce(function(a,kk){return a+(_atv[kk]||0);},0);
   if(el('e-compromissos')){ if(semEsf||!_totComp){el('e-compromissos').removeAttribute('data-count');el('e-compromissos').textContent='—';} else {el('e-compromissos').dataset.count=_totComp; el('e-compromissos').textContent='0';} }
   if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + tarefas · desde '+ANO_MIN;
-  if(el('e-prod')){ if(semEsf){el('e-prod').removeAttribute('data-count');el('e-prod').textContent='—';if(el('e-prod-sub'))el('e-prod-sub').textContent='em atualização';} else {var _cp=esf.comProducao||0; el('e-prod').dataset.count=_cp; el('e-prod').textContent='0'; var _pct=k.proc?Math.round(_cp/k.proc*100):0; var _pf=(k.proc||0).toLocaleString('pt-BR'); el('e-prod-sub').textContent='de '+_pf+' com atividade lançada ('+_pct+'%)';} }
   if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
   if(_nAud) vbars('audano',_audCe,[Object.keys(_audCe).slice(-1)[0]]);
@@ -1071,12 +1064,6 @@ function renderDashboard(){
   // atividades extrajudiciais por ano (recorte >= ANO_MIN)
   var _extC=cortaAnos(esf.extrajudano); var _nExtra=_somaSerie(_extC);
   if(_nExtra) vbars('extrajudano',_extC,[Object.keys(_extC).slice(-1)[0]]);
-  // extrajudicial por tipo (composição — hbars); só as categorias com valor > 0
-  var _extT = esf.extrajudtipo || {};
-  var _extTf = {}; Object.keys(_extT).forEach(function(k){ if(_extT[k]>0) _extTf[k]=_extT[k]; });
-  var _nExtraT = _somaSerie(_extTf);
-  if(_nExtraT) hbars('extrajudtipo', _extTf);
-  var _ext2=el('extrajudtipo'); if(_ext2){var ce2=_ext2.closest('.card'); if(ce2) ce2.style.display=_nExtraT?'':'none';}
   var _au=el('audano'); if(_au){var c1=_au.closest('.card'); if(c1) c1.style.display=_nAud?'':'none';}
   var _pz=el('prazano'); if(_pz){var cp=_pz.closest('.card'); if(cp) cp.style.display=_nPraz?'':'none';}
   var _tf=el('tarefano'); if(_tf){var ct=_tf.closest('.card'); if(ct) ct.style.display=_nTar?'':'none';}
@@ -1426,12 +1413,8 @@ function montarPrint(){
     // pág 10: Tarefas + Atividades por tipo
     var g2=[]; if(visivel('tarefano')) g2.push(cloneCardOf('tarefano')); if(visivel('atividades')) g2.push(cloneCardOf('atividades'));
     if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · tarefas e composição');
-    // pág extrajudicial (se houver dado): atividades por ano + por tipo
-    if(visivel('extrajudano')){
-      var _pgExtra=[cloneCardOf('extrajudano')];
-      if(visivel('extrajudtipo')) _pgExtra.push(cloneCardOf('extrajudtipo'));
-      sheet(_pgExtra, '03 — Esforço operacional', 'Atividades extrajudiciais');
-    }
+    // pág extrajudicial (se houver dado): atividades por ano
+    if(visivel('extrajudano')) sheet([cloneCardOf('extrajudano')], '03 — Esforço operacional', 'Atividades extrajudiciais por ano');
     // pág 11: Equipe mobilizada
     var eqp=[]; if(visivel('people')) eqp.push(cloneCardOf('people'));
     if(eqp.length) sheet(eqp, '03 — Esforço operacional', 'Equipe mobilizada por este cliente');
@@ -1515,7 +1498,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260709c';
+  var _cb = '?v=20260709d';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
