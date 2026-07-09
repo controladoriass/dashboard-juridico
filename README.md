@@ -2,7 +2,9 @@
 
 Dashboard estático (HTML/CSS/JS puro) que apresenta indicadores jurídicos por grupo econômico/cliente, alimentado por dados extraídos do sistema de gestão jurídica (EasyJur).
 
-Este documento descreve **a estrutura do projeto e o procedimento de manutenção** (adicionar grupo, editar/excluir empresa, atualização periódica dos dados). Não contém dados de processos nem de clientes.
+Este documento descreve **a estrutura do projeto e o procedimento de manutenção** (adicionar grupo, editar/excluir empresa, atualização periódica dos dados, links por cliente). Não contém dados de processos nem de clientes.
+
+> **Como retomar do zero:** este README é auto-suficiente. Se a conversa/assistente se perder, ele contém tudo para atualizar os dados e republicar. Os scripts auxiliares citados ficam fora do repositório público (pasta de trabalho local).
 
 ---
 
@@ -10,114 +12,151 @@ Este documento descreve **a estrutura do projeto e o procedimento de manutençã
 
 ```
 /
-├── index.html          → todo o código (CSS + JS + HTML das seções). NÃO contém dados.
-└── dados/
-    ├── manifest.json    → lista com a ordem de exibição dos grupos: {"ordem": ["russi","wf",...]}
-    ├── russi.json       → dados de UM grupo (kpiGrupo + empresas + panorama)
-    ├── abc.json
-    ├── ...              → um arquivo .json por grupo
-    └── (10 grupos no total)
+├── index.html          → todo o código (CSS + JS + HTML). NÃO contém dados.
+├── dados/
+│   ├── manifest.json   → ordem de exibição dos grupos: {"ordem": ["russi","wf",...]}
+│   ├── russi.json      → dados de UM grupo (kpiGrupo + empresas + panorama)
+│   ├── ...             → um .json por grupo (10 grupos)
+└── c/                  → LINKS ISOLADOS POR CLIENTE (um por grupo)
+    └── <codigo>/       → pasta com código secreto (ex.: c/70ec698f78/)
+        ├── index.html  → cópia do principal + <meta name="cliente-grupo" content="<grupo>">
+        └── <grupo>.json→ SÓ os dados daquele grupo (isolamento)
 ```
 
-- O `index.html` **carrega** os JSONs de `dados/` no boot (via `fetch`), monta o objeto `GRUPOS` em memória e renderiza. Por isso o site **só funciona servido por HTTP** (GitHub Pages, ou um servidor local) — abrir o arquivo direto do disco (`file://`) não carrega os dados.
-- Hospedado no GitHub Pages: cada `git push` na branch `main` republica o site automaticamente (leva 1–2 min). Se o deploy falhar (instável), re-disparar com: `gh api -X POST repos/<owner>/<repo>/pages/builds`.
+- O `index.html` **carrega** os JSONs de `dados/` no boot (via `fetch`), monta o objeto `GRUPOS` em memória e renderiza. O site **só funciona servido por HTTP** (GitHub Pages ou servidor local) — abrir do disco (`file://`) não carrega os dados.
+- Hospedado no GitHub Pages: cada `git push` na `main` republica (1–2 min). Se o deploy travar, re-disparar: `gh api -X POST repos/<owner>/<repo>/pages/builds`.
 
-### Formato de um `dados/<grupo>.json`
+### Formato de `dados/<grupo>.json`
 
 ```
 {
   "nome": "Grupo X",
   "nomeHtml": "Grupo <em>X</em>",
-  "kpiGrupo": { proc, procSub, horas, horasSub, areas, areasSub, valor, trib, tribSub, ativos, encerrados, valorTotal },
+  "kpiGrupo": { proc, procSub, horas, horasSub, areas, areasSub, trib, tribSub, ativos, ... },
   "empresas": {
-    "_panorama": { "nome": "Panorama Geral do Grupo", "_panorama": true, "dataset": {...} },
-    "<chave_empresa>": { "nome": "...", "_idCliente": "<ID>", "dataset": {...} },
-    ...
+    "_panorama": { "nome": "Panorama Geral do Grupo", "dataset": { ..., "_panorama": true } },
+    "<chave_empresa>": { "nome": "...", "_idCliente": "<ID>", "dataset": {...} }
   },
   "nEmpresas": <n>
 }
 ```
 
-O `dataset` de cada empresa contém: `estoque`/`entradas`/`encerrados` (por ano), `area`, `areaTotal`, `instancia`, `polo`, `uf`, `tribunais`, `ativos`, `valorTotal`, `qtdComValor`, `esforco` (prazano/audano/tarefano/atividades/comProducao/tramitacaoDias) e `horas` (total/media/mediaAtivos/horasano/_estimativa). Flags: `_dadosReais`, `_semProcessos` (badge "sem processos"), `_semDados` (badge "em breve"), `_panorama`.
+O `dataset` contém: `estoque`/`entradas`/`encerrados` (por ano), `area`, `areaTotal`, `instancia`, `polo`, `uf`, `tribunais`, `ativos`, `esforco` e `horas`.
+- `esforco`: `prazano`, `audano`, `tarefano` (compromissos por ano), `atividades` (total por tipo), `comProducao`, `tramitacaoDias`, **`extrajudano`** (atividades extrajudiciais por ano), **`extrajudtipo`** (extrajudicial por tipo de trabalho).
+- `horas`: `total`, `media`, `mediaAtivos`, `horasano`, `_estimativa`.
+- Flags: `_dadosReais`, `_semProcessos` ("sem processos"), `_semDados` ("em breve"), `_panorama`.
 
-O `_panorama` de cada grupo é a **soma consolidada** das empresas (média ponderada por nº de processos para `tramitacaoDias`; ranking = top-5 reordenado). Grupo de 1 empresa não tem `_panorama`.
+O `_panorama` é a **soma consolidada** das empresas do grupo. Grupo de 1 empresa não tem `_panorama` (usa a própria empresa como topo). O card **"Partes atendidas"** no Panorama = `nEmpresas` (nº de empresas do grupo).
 
 ---
 
-## 2. Manutenção comum
+## 2. Recorte de exibição 2022→2026 (importante)
 
-### Excluir um grupo inteiro
+O dashboard mostra **apenas 2022 a 2026** nas séries/KPIs por ano (a base pré-2022 é pouco confiável). Isto **NÃO exclui processos** — só corta a série dos gráficos.
+
+- Controlado por `const ANO_MIN = 2022;` no topo do `<script>` + função `cortaAnos(obj)`.
+- Cortados: estoque, entradas×encerramentos, prazos/audiências/tarefas por ano, horas por ano, extrajudicial por ano, "Histórico processual".
+- Recalculados sobre o recorte (para o KPI bater com o gráfico): crescimento do estoque, entradas/encerramentos, compromissos, horas totais/médias.
+- **Preservados reais** (não cortados): totais de processos, ativos, áreas, tribunais.
+- Para mudar o corte no futuro: alterar só o `ANO_MIN`.
+
+---
+
+## 3. Manutenção comum
+
+### Excluir um grupo
 1. Apagar `dados/<grupo>.json`
-2. Remover o nome do grupo da lista em `dados/manifest.json`
-3. `git commit` + `git push`
-
-### Excluir / editar uma empresa de um grupo
-1. Abrir `dados/<grupo>.json`
-2. Localizar o bloco da empresa (em `empresas`) e apagar/editar
-3. (Opcional, para consistência) recalcular o `_panorama` e o `kpiGrupo` somando as empresas restantes
+2. Remover o grupo de `dados/manifest.json`
+3. Apagar a pasta `c/<codigo>/` daquele grupo (link de cliente)
 4. `git push`
 
-### Adicionar um grupo novo
-1. Coletar os dados do grupo (ver seção 3)
-2. Criar `dados/<grupo>.json` no formato acima
-3. Adicionar o nome do grupo em `dados/manifest.json`
-4. `git push`
+### Editar / excluir uma empresa
+1. Abrir `dados/<grupo>.json`, localizar em `empresas` e editar/apagar
+2. Recalcular `_panorama` e `kpiGrupo` (soma das empresas restantes) para consistência
+3. Regerar a pasta `c/` (ver seção 5) e `git push`
 
-**Não é preciso editar o `index.html`** em nenhum desses casos — ele é só o motor de renderização.
+### Adicionar um grupo
+1. Coletar os dados (seção 4)
+2. Criar `dados/<grupo>.json` + adicionar em `manifest.json`
+3. Definir um código secreto e gerar a pasta `c/<codigo>/` (seção 5)
+4. `git push`
 
 ---
 
-## 3. Coleta e atualização de dados (procedimento)
+## 4. Coleta de dados (procedimento por grupo)
 
-A fonte é a API do EasyJur (via MCP). A atualização periódica (ex.: mensal, mudando a **data de corte**) consiste em **re-coletar cada grupo** com o novo corte e regravar os `dados/<grupo>.json`. Não há delta incremental na API — reconsulta-se cada empresa.
+Fonte: API do EasyJur (via MCP). Sem delta incremental — reconsulta-se cada grupo.
 
-### Regra de ouro (tratamento honesto dos dados)
-- **Volume/processos/evolução/áreas/geografia**: sempre 100% reais, nunca estimados.
-- **Horas**: reais do timesheet, mas marcadas com `^` e nota de "parcial" (a API não recupera 100% dos apontamentos).
-- Nunca inventar dado. Quando um campo não existe no sistema, deixar vazio/“—” ou marcar `[VERIFICAR]`.
-- **Valor de causa vazio** = êxito / a arbitrar pelo juízo / peça acessória (não é erro).
+### Regra de ouro (dados honestos)
+- Volume/processos/evolução/áreas/geografia: **100% reais**, nunca estimados.
+- Horas: reais do timesheet, marcadas com `^` e nota de "parcial".
+- Nunca inventar. Campo inexistente → vazio/"—" ou `[VERIFICAR]`.
 
-### Passo a passo por grupo
-1. **Processos** — `list_processos` filtrando por cliente. ATENÇÃO: o parâmetro varia — testar `cliente=<ID>` **e** `id_cliente=<ID>` e usar o que retorna processos cujo `cliente_info.id == <ID>` (o outro às vezes traz empresa errada por busca parcial). Paginar até o fim (`page_size=100`). Agregar: `areaTotal`, `ativos` (status==1), `area`, `instancia`, `polo` (ativo/passivo/terceiro), `uf`, `tribunais`, `ranking`, `valorTotal`/`qtdComValor`, e `estoque`/`entradas`/`encerrados` por ano (entradas por `data_distribuicao`, fallback `data_cadastro`; estoque acumulado nunca negativo, último ano = nº de ativos).
-2. **Esforço** — `list_agenda` com `mostrar_etapas=2` (só compromissos-mãe, exclui subetapas de workflow, senão infla). Contar PRAZO/AUDIENCIA/TAREFA por ano via `data_interna_inicio/fim`.
-3. **Horas** — `list_timesheets` **por número de processo** (`n_processo=<numero>`), para cada processo do cliente. Regras obrigatórias:
-   - Validar `cliente == <ID>` em **cada linha** (o filtro `n_processo` é busca parcial e contamina muito com outros clientes).
-   - Descartar `status == "S"` (cancelado).
-   - **Dedup por `id`** do timesheet (processos compartilham apontamentos de agenda-mãe).
-   - Converter `tempo_timesheet` HH:MM:SS → decimal; somar por ano; ignorar `data_timesheet` após a data de corte.
-   - Total marcado como parcial (`^`).
-4. **Injeção** — gravar tudo no `dataset` da empresa; recalcular `_panorama` (soma) e `kpiGrupo`.
+### 4.1 Processos
+`list_processos` por cliente. ATENÇÃO: testar `cliente=<ID>` **e** `id_cliente=<ID>`, usar o que retorna `cliente_info.id == <ID>` (o outro às vezes traz empresa errada). Paginar (`page_size=100`). Agregar: `areaTotal`, `ativos`, `area`, `instancia`, `polo`, `uf`, `tribunais`, `estoque`/`entradas`/`encerrados` por ano.
 
-### Cuidados aprendidos (importantes)
-- **Empresas grandes (> ~60 processos)**: dividir a coleta de horas em **lotes de ~50 processos por vez** — coletar 100+ de uma vez estoura o limite/trava.
-- **Overload da API**: a API do EasyJur engasga sob carga (erro 500/"Overloaded"). Se falhar, esperar alguns minutos e re-tentar só o lote que falhou. Preferir horários de baixo uso.
-- **Empresas com 0h**: normal quando as horas do grupo estão lançadas sob **outro cadastro** do mesmo grupo. Não é erro — o volume/processos delas continua correto. O card de horas fica oculto (não mostra 0 falso).
-- **Cadastros duplicados / nomes parecidos**: validar sempre pelo `meta.total` real da API e pelo `cliente_info.id`, para não confundir empresas irmãs (ex.: matriz vs. cadastro secundário).
-- **Números de processo corrompidos** no export (notação científica / título no lugar do número): pular e registrar `[VERIFICAR]`.
+### 4.2 Esforço (prazos/audiências/tarefas)
+`list_agenda` com `mostrar_etapas=2` (só compromissos-mãe, senão infla com subetapas). Contar `PRAZO`/`AUDIENCIA`/`TAREFA` por ano via `data_interna_inicio/fim`.
 
-### Escopo definido (não exibir)
-Por decisão do escritório, **não** entram no dashboard: Resultado/êxito, Risco, Financeiro/Honorários (campos com baixa cobertura no sistema). Também foi removido o "Ranking de processos de maior valor".
+### 4.3 Horas (por processo)
+`list_timesheets` por `n_processo=<numero>`, para cada processo. Validar `cliente==<ID>` em cada linha; descartar `status=="S"`; **dedup por `id`**; `tempo_timesheet` HH:MM:SS → decimal; ignorar data > corte.
+
+### 4.4 Extrajudicial (NOVO)
+O time do extrajudicial registra tudo como **tarefa** marcada com o workflow **"Extrajudicial Geral" = `subtipo 18332`**.
+- **Atividades por ano** (`extrajudano`): `list_agenda clientes=[ids do grupo], subtipo=18332, mostrar_etapas=2, data_interna_inicio/fim=<ANO>, page_size=1` → `meta.total` por ano. O filtro `clientes=[lista]` faz 1 chamada por grupo/ano.
+- **Por tipo** (`extrajudtipo`): paginar as descrições (subtipo 18332) e classificar por palavra-chave/sigla no texto: NE=Notificação, CV/Contrato/Minuta/Termo/MOU=Contratos, CE=Cobrança, ADR/Distrato/Rescisão/Acordo=Distratos e acordos, MP/Parecer/Análise=Pareceres, resto=Outros. **Classificação aproximada** (~85-90%) — a nomenclatura do time varia; nota disso fica no card.
+- **Horas do extrajudicial: NÃO é viável.** O `list_timesheets` filtra por tipo de tarefa (subtipo) mas **não por cliente/grupo** — isolar por grupo exigiria processar 100 mil+ apontamentos do escritório à mão. Descartado (não confiável). Card de horas extrajudicial não existe.
+
+### 4.5 Injeção
+Gravar no `dataset` da empresa/panorama; recalcular `_panorama` e `kpiGrupo`.
+
+### Cuidados aprendidos
+- Empresas grandes (>~60 proc): coletar horas em lotes de ~50 (100+ trava).
+- Overload da API (erro 500): esperar minutos e re-tentar só o lote que falhou.
+- Empresa com 0h: normal quando as horas estão sob outro cadastro do grupo (card oculto).
+- Cadastros parecidos: validar por `meta.total` e `cliente_info.id`.
+- Nº de processo corrompido (notação científica): pular e `[VERIFICAR]`.
+
+### Escopo (NÃO exibir)
+Por decisão do escritório: Resultado/êxito, Risco, Financeiro/Honorários (baixa cobertura). Também **não** há: "Ranking de processos de maior valor" (removido), textos de "Leitura" interpretativa (removidos), horas do extrajudicial (inviável).
 
 ---
 
-## 4. Publicação
+## 5. Links isolados por cliente (pasta `c/`)
 
-Na atualização periódica, além de regravar os `dados/<grupo>.json`, **mudar a data de corte em um único lugar** no `index.html`:
+Cada grupo tem um link próprio e secreto para enviar ao cliente, mostrando **só o grupo dele**. Ex.: `.../c/70ec698f78/`.
 
-```js
-const DATA_CORTE = { curta:'30/06/2026', extenso:'Junho de 2026' };
-```
+- **Modo cliente:** o `index.html` da pasta tem `<meta name="cliente-grupo" content="<grupo>">`. O loader detecta a meta, carrega só aquele JSON, entra direto no Panorama (com cortina + animação), e esconde os botões de sair (Voltar/Grupos) e o logo clicável.
+- **Botão "Gerar link"** (no Panorama de cada grupo, uso interno): copia o link secreto daquele grupo. O mapa grupo→código está em `LINKS_CLIENTE` no `index.html`.
+- **Regenerar as pastas `c/`:** sempre que o `index.html` OU qualquer `dados/*.json` mudar, é preciso recriar a pasta `c/` (as pastas de cliente são cópias). Recriar: para cada grupo, copiar o `index.html` injetando a meta + copiar só o `<grupo>.json` para `c/<codigo>/`. (Feito por script auxiliar local que recria a pasta do zero.)
 
-Título, "atualizado em" e todas as notas de corte usam essa constante — muda-se só ela. O "período de análise" de cada grupo é calculado automaticamente (ano do processo mais antigo → mais recente), não precisa mexer.
+### Segurança (estado atual e pendência)
+- Dentro do link do cliente, os JSONs dos outros grupos dão 404 (isolamento local OK).
+- **PENDENTE:** o site-mãe (`/dados/` com todos os grupos) continua público — quem editar a URL subindo de pasta ainda alcança os outros. Para blindar 100%, só publicar as pastas `c/` (tirar o dashboard geral do ar público). Decisão em aberto.
 
-```
-# na pasta do repositório
-git add index.html dados/
-git commit -m "Atualizacao <mês/ano> — corte DD/MM/AAAA"
-git push origin main
-# aguardar o GitHub Pages republicar (1–2 min)
-```
+---
 
-O site fica em: `https://<owner>.github.io/<repo>/`
+## 6. Publicação e cache
 
-> **Nota sobre automação:** hoje a atualização é um processo assistido (reconsulta manual via API a cada período). Uma automação completa (backend puxando do EasyJur em cron) seria um projeto à parte.
+Na atualização periódica:
+1. Regravar os `dados/<grupo>.json`.
+2. Mudar a data de corte (um lugar só) no `index.html`:
+   ```js
+   const DATA_CORTE = { curta:'30/06/2026', extenso:'Junho de 2026' };
+   ```
+3. **Trocar o cache-buster** no loader (força o navegador a pegar os dados novos, senão o usuário vê a versão antiga):
+   ```js
+   var _cb = '?v=20260708c';   // incrementar a cada atualização
+   ```
+4. Regerar as pastas `c/` (seção 5).
+5. Publicar:
+   ```
+   git add index.html dados/ c/
+   git commit -m "Atualizacao <mês/ano> — corte DD/MM/AAAA"
+   git push origin main
+   # aguardar o GitHub Pages (1–2 min); se travar: gh api -X POST repos/<owner>/<repo>/pages/builds
+   ```
+
+O site fica em `https://<owner>.github.io/<repo>/`.
+
+> **Automação:** hoje é um processo assistido (reconsulta manual via API). Uma automação completa (backend puxando do EasyJur em cron) seria um projeto à parte.
