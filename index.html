@@ -1111,28 +1111,41 @@ function renderDashboard(){
 
 /* animações on-scroll */
 let io=null;
+// anima UM card (idempotente: só age na primeira vez, marca com _anim)
+function animarCard(el){
+  if(!el || el._anim) return; el._anim=true;
+  el.classList.add('in');
+  el.querySelectorAll('[data-count]').forEach(countUp);
+  el.querySelectorAll('.col[data-h]').forEach(c=>c.style.height=c.dataset.h+'%');
+  el.querySelectorAll('.fill[data-w]').forEach(f=>f.style.width=f.dataset.w+'%');
+  el.querySelectorAll('.region .bar i').forEach(f=>f.style.width=f.dataset.w+'%');
+  if(el.querySelector('#donut')) animaDonut();
+  if(el.querySelector('#fluxo'))fluxo();
+}
+var _scrollFallback=null;
 function ativarObserver(){
   if(io)io.disconnect();
   io=new IntersectionObserver((es)=>{
-    es.forEach(e=>{
-      if(!e.isIntersecting)return;
-      e.target.classList.add('in');
-      e.target.querySelectorAll('[data-count]').forEach(countUp);
-      e.target.querySelectorAll('.col[data-h]').forEach(c=>c.style.height=c.dataset.h+'%');
-      e.target.querySelectorAll('.fill[data-w]').forEach(f=>f.style.width=f.dataset.w+'%');
-      e.target.querySelectorAll('.region .bar i').forEach(f=>f.style.width=f.dataset.w+'%');
-      // donut: desenha as fatias em cascata + conta o número central ao entrar na tela
-      if(e.target.querySelector('#donut')) animaDonut();
-      if(e.target.querySelector('#fluxo'))fluxo();
-      io.unobserve(e.target);
-    });
+    es.forEach(e=>{ if(!e.isIntersecting)return; animarCard(e.target); io.unobserve(e.target); });
   },{threshold:.16});
-  document.querySelectorAll('#view-dashboard .reveal').forEach(el=>{el.classList.remove('in');io.observe(el);});
+  document.querySelectorAll('#view-dashboard .reveal').forEach(el=>{el.classList.remove('in'); el._anim=false; io.observe(el);});
+  // fallback: se o IntersectionObserver não disparar (certos contextos de carregamento),
+  // um listener de scroll anima os cards que já estão visíveis. Não revela tudo de uma vez.
+  if(_scrollFallback) window.removeEventListener('scroll', _scrollFallback);
+  _scrollFallback=function(){
+    var h=window.innerHeight||document.documentElement.clientHeight;
+    document.querySelectorAll('#view-dashboard .reveal').forEach(function(el){
+      if(el._anim) return; var r=el.getBoundingClientRect();
+      if(r.top < h*0.85 && r.bottom > 0) animarCard(el);
+    });
+  };
+  window.addEventListener('scroll', _scrollFallback, {passive:true});
+  // roda uma vez já, para os cards visíveis na abertura (topo)
+  setTimeout(_scrollFallback, 120);
 }
 
 function entrarDashboard(){
   window.scrollTo(0,0);
-  ativarObserver();
   document.body.classList.add('entering');
   document.querySelectorAll('#view-dashboard .kpis').forEach(kp=>{
     kp.querySelectorAll('.kpi').forEach((k,idx)=>k.style.setProperty('--i',idx));
@@ -1143,7 +1156,10 @@ function entrarDashboard(){
     document.body.classList.remove('entering');
     document.body.classList.add('entered');
     document.querySelectorAll('#view-dashboard .kpis').forEach(x=>x.classList.add('in'));
-  }, 60);
+    // ativa o observer DEPOIS de a página assentar (posições corretas) — assim os cards
+    // (donut/tribunais/barras/cortina) animam conforme rola, tanto no site quanto no link do cliente.
+    ativarObserver();
+  }, 80);
 }
 
 /* ===== NAVEGAÇÃO 3 NÍVEIS ===== */
@@ -1296,14 +1312,10 @@ window.__initApp = function(){
     if(gk && GRUPOS[gk] && ek && GRUPOS[gk].empresas[ek]){
       montarDashboard(gk,ek);
       document.body.classList.remove('grupo','emp-in','entered'); document.body.classList.add('dash');
-      entrarDashboard(); // anima KPIs subindo + observer anima gráficos ao entrar
-      // rede de segurança: garante que TUDO fica visível/preenchido (números, barras, KPIs),
-      // mesmo que a animação por rAF/observer não dispare neste contexto de carregamento.
-      setTimeout(function(){
-        document.body.classList.remove('entering'); document.body.classList.add('entered');
-        document.querySelectorAll('#view-dashboard .reveal').forEach(function(e){ e.classList.add('in'); });
-        if(typeof revealAll==='function') revealAll();
-      }, 700);
+      // mesmo caminho do site-mãe: entrarDashboard ativa o OBSERVER, que anima cada card
+      // conforme o cliente rola (donut/cortina/tribunais/barras). NÃO usar revealAll aqui —
+      // ele revelaria tudo de uma vez, "queimando" as animações fora da tela.
+      entrarDashboard();
     } else { abrirPorHash(); }
   }
   var _readyFeito=false;
@@ -1498,7 +1510,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260709a';
+  var _cb = '?v=20260709b';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
