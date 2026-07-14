@@ -42,7 +42,7 @@ Este documento descreve **a estrutura do projeto e o procedimento de manutençã
 ```
 
 O `dataset` contém: `estoque`/`entradas`/`encerrados` (por ano), `area`, `areaTotal`, `instancia`, `polo`, `uf`, `tribunais`, `ativos`, `esforco` e `horas`.
-- `esforco`: `prazano`, `audano`, `tarefano` (compromissos por ano), `atividades` (total por tipo), `comProducao`, `tramitacaoDias`, **`extrajudano`** (atividades extrajudiciais por ano), **`extrajudtipo`** (extrajudicial por tipo de trabalho).
+- `esforco`: `prazano`, `audano`, `tarefano` (compromissos por ano), `atividades` (total por tipo), `comProducao` (usado só no cálculo de "Atos por processo"), `tramitacaoDias`, **`extrajudano`** (atividades extrajudiciais por ano).
 - `horas`: `total`, `media`, `mediaAtivos`, `horasano`, `_estimativa`.
 - Flags: `_dadosReais`, `_semProcessos` ("sem processos"), `_semDados` ("em breve"), `_panorama`.
 
@@ -59,6 +59,15 @@ O dashboard mostra **apenas 2022 a 2026** nas séries/KPIs por ano (a base pré-
 - Recalculados sobre o recorte (para o KPI bater com o gráfico): crescimento do estoque, entradas/encerramentos, compromissos, horas totais/médias.
 - **Preservados reais** (não cortados): totais de processos, ativos, áreas, tribunais.
 - Para mudar o corte no futuro: alterar só o `ANO_MIN`.
+
+---
+
+## 2b. Animações (visual)
+
+Os gráficos animam **ao rolar** até cada card (uma vez por visita, não repete): barras sobem, o donut (Distribuição por área) se desenha com o número central contando e a legenda em cascata, as pills de Tribunais entram em cascata, e o "Sobre este indicador" tem efeito de cortina. Vale igual no site-mãe e no link do cliente (o link do cliente ainda abre com a cortina "Silva & Silva").
+- Mecânica: `IntersectionObserver` (`ativarObserver`) + `animarCard()` idempotente (flag `_anim`) + fallback de `scroll`. Disparo com leve delay (`animarCardDelay`, ~180ms) e threshold 0.35 (card ~35% visível) — para não animar cedo demais.
+- Count-ups baseados em tempo real (`Date`) — sempre cravam o valor exato.
+- Para ajustar o "quão cedo/tarde" anima: `threshold` do observer + `h*0.65` do fallback + o delay em `animarCardDelay`.
 
 ---
 
@@ -103,8 +112,8 @@ Fonte: API do EasyJur (via MCP). Sem delta incremental — reconsulta-se cada gr
 
 ### 4.4 Extrajudicial (NOVO)
 O time do extrajudicial registra tudo como **tarefa** marcada com o workflow **"Extrajudicial Geral" = `subtipo 18332`**.
-- **Atividades por ano** (`extrajudano`): `list_agenda clientes=[ids do grupo], subtipo=18332, mostrar_etapas=2, data_interna_inicio/fim=<ANO>, page_size=1` → `meta.total` por ano. O filtro `clientes=[lista]` faz 1 chamada por grupo/ano.
-- **Por tipo** (`extrajudtipo`): paginar as descrições (subtipo 18332) e classificar por palavra-chave/sigla no texto: NE=Notificação, CV/Contrato/Minuta/Termo/MOU=Contratos, CE=Cobrança, ADR/Distrato/Rescisão/Acordo=Distratos e acordos, MP/Parecer/Análise=Pareceres, resto=Outros. **Classificação aproximada** (~85-90%) — a nomenclatura do time varia; nota disso fica no card.
+- **Atividades por ano** (`extrajudano`) — ÚNICO card extrajudicial exibido: `list_agenda clientes=[ids do grupo], subtipo=18332, mostrar_etapas=2, data_interna_inicio/fim=<ANO>, page_size=1` → `meta.total` por ano. O filtro `clientes=[lista]` faz 1 chamada por grupo/ano.
+- **Por tipo de trabalho: REMOVIDO** (a pedido). Era um `extrajudtipo` classificado por palavra-chave na descrição (contratos/notificações/etc.), mas a classificação era só aproximada — foi tirado. Se quiser retomar, a lógica era paginar as descrições do subtipo 18332 e classificar por sigla (NE=notificação, CV=contrato, CE=cobrança, ADR=distrato, MP=parecer).
 - **Horas do extrajudicial: NÃO é viável.** O `list_timesheets` filtra por tipo de tarefa (subtipo) mas **não por cliente/grupo** — isolar por grupo exigiria processar 100 mil+ apontamentos do escritório à mão. Descartado (não confiável). Card de horas extrajudicial não existe.
 
 ### 4.5 Injeção
@@ -118,7 +127,7 @@ Gravar no `dataset` da empresa/panorama; recalcular `_panorama` e `kpiGrupo`.
 - Nº de processo corrompido (notação científica): pular e `[VERIFICAR]`.
 
 ### Escopo (NÃO exibir)
-Por decisão do escritório: Resultado/êxito, Risco, Financeiro/Honorários (baixa cobertura). Também **não** há: "Ranking de processos de maior valor" (removido), textos de "Leitura" interpretativa (removidos), horas do extrajudicial (inviável).
+Por decisão do escritório: Resultado/êxito, Risco, Financeiro/Honorários (baixa cobertura). Também **não** há: "Ranking de processos de maior valor", textos de "Leitura" interpretativa, "Extrajudicial por tipo de trabalho", KPI "Processos com produção", e horas do extrajudicial (inviável) — todos removidos a pedido.
 
 ---
 
