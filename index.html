@@ -464,8 +464,8 @@
     .sheet.is-cover .sh-top,.sheet.is-cover .sh-foot{display:none !important}
     .sheet.is-cover .cover-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26mm;text-align:center;width:100%}
     .sheet.is-cover .cover-logo{width:150mm;height:auto;filter:brightness(0) invert(1)}
-    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:56px;letter-spacing:.01em;line-height:1.1;max-width:240mm}
-    .sheet.is-cover .cover-nome em{font-style:normal;color:#CFA36E}
+    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:42px;letter-spacing:.005em;line-height:1.15;max-width:240mm}
+    .sheet.is-cover .cover-nome em{font-style:normal;color:#CFA36E;font-weight:700}
     .sheet.is-cover .cover-eyebrow{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:-14mm}
     /* clones de cards/gráficos herdam o visual do dashboard; garantimos cor e respiro */
     #view-print .card{background:#1c2142 !important;border:1px solid #2d3358 !important;border-radius:14px;padding:16px 18px !important;width:100%;margin:0}
@@ -1430,12 +1430,21 @@ function montarPrint(){
   // ---------- PÁGINA 0: CAPA (logo Silva & Silva + nome do grupo) ----------
   var _logoCortina = document.querySelector('.curtain .clogo');
   var _logoSrc = _logoCortina ? _logoCortina.getAttribute('src') : '';
-  // nome do grupo "limpo" — remove o prefixo "Panorama Geral do Grupo" (nome real vem embaixo, num <span>)
-  var _nomeCapa = (m.nomeHtml||nomeGrupo)
-    .replace(/Panorama Geral do Grupo\s*/i,'')
-    .replace(/<span[^>]*class="hero-sub-grupo"[^>]*>/,'')
-    .replace(/<\/span>/,'')
-    .trim();
+  // nome do grupo para a capa: usa o nomeHtml original do grupo (preserva <em> dourado do dashboard).
+  // No panorama, m.nomeHtml vira "Panorama Geral do Grupo<span class='hero-sub-grupo'>Nome</span>",
+  // entao pegamos o nomeHtml do proprio grupo em GRUPOS[GRUPO_ATUAL].
+  var _nomeCapa = '';
+  try {
+    var _gPara = (typeof GRUPO_ATUAL!=='undefined' && GRUPO_ATUAL && GRUPOS[GRUPO_ATUAL]) ? GRUPOS[GRUPO_ATUAL] : null;
+    if(_gPara && _gPara.nomeHtml) _nomeCapa = _gPara.nomeHtml;
+  } catch(e){}
+  if(!_nomeCapa){
+    _nomeCapa = (m.nomeHtml||nomeGrupo)
+      .replace(/Panorama Geral do Grupo\s*/i,'')
+      .replace(/<span[^>]*class="hero-sub-grupo"[^>]*>/,'')
+      .replace(/<\/span>/,'')
+      .trim();
+  }
   if(!_nomeCapa) _nomeCapa = nomeGrupo;
   var _capaDed = document.createElement('div'); _capaDed.className='sheet is-cover';
   _capaDed.innerHTML = '<div class="cover-inner">'+
@@ -1580,7 +1589,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722f';
+  var _cb = '?v=20260722g';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
