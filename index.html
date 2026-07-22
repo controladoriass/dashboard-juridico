@@ -470,7 +470,7 @@
     .sheet.is-cover .sh-top,.sheet.is-cover .sh-foot{display:none !important}
     .sheet.is-cover .cover-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26mm;text-align:center;width:100%}
     .sheet.is-cover .cover-logo{width:150mm;height:auto;filter:brightness(0) invert(1)}
-    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:42px;letter-spacing:.005em;line-height:1.15;max-width:240mm}
+    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#CFA36E;font-size:42px;letter-spacing:.005em;line-height:1.15;max-width:240mm}
     .sheet.is-cover .cover-nome em{font-style:normal;color:#CFA36E;font-weight:700}
     .sheet.is-cover .cover-eyebrow{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:-14mm}
     /* clones de cards/gráficos herdam o visual do dashboard; garantimos cor e respiro */
@@ -1701,7 +1701,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722j';
+  var _cb = '?v=20260722k';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
