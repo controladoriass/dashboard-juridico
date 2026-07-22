@@ -774,13 +774,8 @@ body.dash.is-semdados #sd-overlay{display:block}
   </div>
 </section>
 
-<!-- CONSIDERAÇÕES (só no Panorama do grupo) -->
+<!-- CONSIDERAÇÕES (Panorama do grupo OU grupo de 1 empresa) -->
 <section class="block alt" id="consideracoes-block" style="display:none">
-  <div class="sec-head reveal">
-    <span class="sec-num">05 — Considerações</span>
-    <h2>Leitura consolidada do grupo</h2>
-    <p>Resumo e interpretação dos indicadores das partes atendidas: perfil da carteira, evolução, esforço operacional e horas dedicadas pela equipe.</p>
-  </div>
   <div class="card reveal">
     <h3><span class="bt"></span>Considerações</h3>
     <div class="cons-body" id="consideracoes-txt"></div>
@@ -1080,16 +1075,22 @@ function renderDashboard(){
     }
   })();
 
-  // === CONSIDERAÇÕES (leitura consolidada — só no Panorama do grupo) ===
+  // === CONSIDERAÇÕES (leitura consolidada — Panorama OU grupo de 1 empresa) ===
   (function(){
     var _bl = el('consideracoes-block'), _tx = el('consideracoes-txt');
     if(!_bl || !_tx) return;
-    if(!DATA.dataset._panorama){ _bl.style.display='none'; _tx.innerHTML=''; return; }
+    var _gAt2 = (typeof GRUPO_ATUAL!=='undefined' && GRUPO_ATUAL) ? GRUPOS[GRUPO_ATUAL] : null;
+    // aparece: (a) no _panorama de grupo com >1 empresa; (b) no dashboard da unica empresa
+    // de um grupo de 1 (que nao tem _panorama). Nao aparece em empresa isolada dentro de
+    // um grupo maior (nao faz sentido "leitura do grupo" a partir de uma unica parte).
+    var _grupo1 = !!(_gAt2 && (_gAt2.nEmpresas===1 || !(_gAt2.empresas && _gAt2.empresas._panorama)));
+    var _mostraCons = !!DATA.dataset._panorama || _grupo1;
+    if(!_mostraCons){ _bl.style.display='none'; _tx.innerHTML=''; return; }
 
     var _ds = DATA.dataset, _esf = _ds.esforco||{}, _h = _ds.horas||{};
-    var _gAt2 = (typeof GRUPO_ATUAL!=='undefined' && GRUPO_ATUAL) ? GRUPOS[GRUPO_ATUAL] : null;
     var _nEmp = _gAt2 ? _gAt2.nEmpresas : (Object.keys(_ds.area||{}).length||0);
     var _nomeG = _gAt2 ? (_gAt2.nome||'do grupo').replace(/^Grupo\s+/i,'') : 'do grupo';
+    var _ehGrupo1 = _grupo1 && _nEmp===1;
 
     // volume
     var _procTotal = _ds.areaTotal||0;
@@ -1128,8 +1129,14 @@ function renderDashboard(){
     function fmt(n){ return (Math.round(n)).toLocaleString('pt-BR'); }
     function fmtDec(n){ return (Math.round(n*10)/10).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}); }
 
-    var _p1 = 'O Grupo <b>'+_nomeG+'</b> reúne <b>'+_nEmp+' empresas</b> atendidas pelo escritório, com uma carteira consolidada de <b>'+fmt(_procTotal)+' processos</b>'+
-      ' — <b>'+fmt(_ativosNum)+'</b> ativos e <b>'+fmt(_encer)+'</b> encerrados —, distribuídos por <b>'+_areasN+' áreas do Direito</b> e <b>'+_tribN+' tribunais</b>.';
+    var _p1;
+    if(_ehGrupo1){
+      _p1 = 'A carteira de <b>'+_nomeG+'</b> reúne <b>'+fmt(_procTotal)+' processos</b>'+
+        ' — <b>'+fmt(_ativosNum)+'</b> ativos e <b>'+fmt(_encer)+'</b> encerrados —, distribuídos por <b>'+_areasN+' áreas do Direito</b> e <b>'+_tribN+' tribunais</b>.';
+    } else {
+      _p1 = 'O Grupo <b>'+_nomeG+'</b> reúne <b>'+_nEmp+' empresas</b> atendidas pelo escritório, com uma carteira consolidada de <b>'+fmt(_procTotal)+' processos</b>'+
+        ' — <b>'+fmt(_ativosNum)+'</b> ativos e <b>'+fmt(_encer)+'</b> encerrados —, distribuídos por <b>'+_areasN+' áreas do Direito</b> e <b>'+_tribN+' tribunais</b>.';
+    }
 
     var _p2 = '';
     if(_baseVal>0 && _estKeys.length>1){
@@ -1150,7 +1157,7 @@ function renderDashboard(){
       _p4 = 'Foram apontadas <b>'+fmt(_totHoras)+' horas</b> de trabalho técnico'+(_h._estimativa?' (parcial)':'')+
         ', com média de <b>'+fmtDec(_mediaProc)+' horas por processo</b>'+
         (_mediaAtivos>0 ? ' e <b>'+fmtDec(_mediaAtivos)+' horas por processo ativo</b>' : '')+
-        ' — indicador direto do volume de tempo sênior efetivamente dedicado à carteira do grupo.';
+        ' — indicador direto do volume de tempo sênior efetivamente dedicado à carteira'+(_ehGrupo1?'.':' do grupo.');
     }
 
     var _html = [_p1,_p2,_p3,_p4].filter(function(t){return !!t;}).map(function(t){return '<p>'+t+'</p>';}).join('');
@@ -1621,10 +1628,10 @@ function montarPrint(){
     if(nota) sheet([nota], '04 — Horas dedicadas', 'Sobre este indicador');
   }
 
-  // ---------- 05 — CONSIDERAÇÕES (só Panorama do grupo) ----------
+  // ---------- CONSIDERAÇÕES (Panorama do grupo OU grupo de 1 empresa) ----------
   if(visivel('consideracoes-txt')){
     var _consCard = cloneCardOf('consideracoes-txt');
-    if(_consCard) sheet([_consCard], '05 — Considerações', 'Leitura consolidada do grupo', 'Resumo e interpretação dos indicadores das partes atendidas: perfil, evolução, esforço operacional e horas dedicadas pela equipe.');
+    if(_consCard) sheet([_consCard], '', 'Considerações');
   }
 
   // ---------- PÁGINA FINAL: footer (logo + redes + endereços) ----------
@@ -1692,7 +1699,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722h';
+  var _cb = '?v=20260722i';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
