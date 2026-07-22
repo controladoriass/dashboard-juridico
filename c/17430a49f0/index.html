@@ -465,7 +465,7 @@
     .sheet.is-cover .sh-top,.sheet.is-cover .sh-foot{display:none !important}
     .sheet.is-cover .cover-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26mm;text-align:center;width:100%}
     .sheet.is-cover .cover-logo{width:150mm;height:auto;filter:brightness(0) invert(1)}
-    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:28px;letter-spacing:.02em;line-height:1.15;max-width:220mm}
+    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:56px;letter-spacing:.01em;line-height:1.1;max-width:240mm}
     .sheet.is-cover .cover-nome em{font-style:normal;color:#CFA36E}
     .sheet.is-cover .cover-eyebrow{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:-14mm}
     /* clones de cards/gráficos herdam o visual do dashboard; garantimos cor e respiro */
@@ -1431,10 +1431,17 @@ function montarPrint(){
   // ---------- PÁGINA 0: CAPA (logo Silva & Silva + nome do grupo) ----------
   var _logoCortina = document.querySelector('.curtain .clogo');
   var _logoSrc = _logoCortina ? _logoCortina.getAttribute('src') : '';
+  // nome do grupo "limpo" — remove o prefixo "Panorama Geral do Grupo" (nome real vem embaixo, num <span>)
+  var _nomeCapa = (m.nomeHtml||nomeGrupo)
+    .replace(/Panorama Geral do Grupo\s*/i,'')
+    .replace(/<span[^>]*class="hero-sub-grupo"[^>]*>/,'')
+    .replace(/<\/span>/,'')
+    .trim();
+  if(!_nomeCapa) _nomeCapa = nomeGrupo;
   var _capaDed = document.createElement('div'); _capaDed.className='sheet is-cover';
   _capaDed.innerHTML = '<div class="cover-inner">'+
     (_logoSrc ? '<img class="cover-logo" src="'+_logoSrc+'" alt="Silva & Silva">' : '')+
-    '<div class="cover-nome">'+(m.nomeHtml||nomeGrupo)+'</div>'+
+    '<div class="cover-nome">'+_nomeCapa+'</div>'+
     '</div>';
   vp.appendChild(_capaDed); totalSheets++;
 
@@ -1574,7 +1581,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722e';
+  var _cb = '?v=20260722f';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
