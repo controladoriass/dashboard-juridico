@@ -316,6 +316,12 @@
 
   /* insight */
   .insight{border-left:3px solid var(--gold);background:linear-gradient(90deg,rgba(207,163,110,.07),transparent);padding:24px 28px;border-radius:0 14px 14px 0;margin-top:30px}
+  /* Considerações — leitura consolidada do grupo */
+  .cons-body{display:flex;flex-direction:column;gap:16px;color:#d7dae5;font-size:15px;font-weight:300;line-height:1.7;margin-top:14px}
+  .cons-body p{margin:0}
+  .cons-body b,.cons-body strong{color:#CFA36E;font-weight:600}
+  #view-print .cons-body{font-size:11px;line-height:1.6;color:#dfe2ee;gap:8px;margin-top:6px}
+  #view-print .cons-body b,#view-print .cons-body strong{color:#CFA36E}
   .insight .t{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:8px}
   .insight p{color:#d7dae5;font-size:15.5px;font-weight:300}
   .insight strong{color:#fff;font-weight:600}
@@ -768,6 +774,19 @@ body.dash.is-semdados #sd-overlay{display:block}
   </div>
 </section>
 
+<!-- CONSIDERAÇÕES (só no Panorama do grupo) -->
+<section class="block alt" id="consideracoes-block" style="display:none">
+  <div class="sec-head reveal">
+    <span class="sec-num">05 — Considerações</span>
+    <h2>Leitura consolidada do grupo</h2>
+    <p>Resumo e interpretação dos indicadores das partes atendidas: perfil da carteira, evolução, esforço operacional e horas dedicadas pela equipe.</p>
+  </div>
+  <div class="card reveal">
+    <h3><span class="bt"></span>Considerações</h3>
+    <div class="cons-body" id="consideracoes-txt"></div>
+  </div>
+</section>
+
 <footer>
   <div class="foot-grid">
     <div>
@@ -1059,6 +1078,84 @@ function renderDashboard(){
       if(_list) _list.innerHTML='';
       if(_kn) _kn.removeAttribute('data-count');
     }
+  })();
+
+  // === CONSIDERAÇÕES (leitura consolidada — só no Panorama do grupo) ===
+  (function(){
+    var _bl = el('consideracoes-block'), _tx = el('consideracoes-txt');
+    if(!_bl || !_tx) return;
+    if(!DATA.dataset._panorama){ _bl.style.display='none'; _tx.innerHTML=''; return; }
+
+    var _ds = DATA.dataset, _esf = _ds.esforco||{}, _h = _ds.horas||{};
+    var _gAt2 = (typeof GRUPO_ATUAL!=='undefined' && GRUPO_ATUAL) ? GRUPOS[GRUPO_ATUAL] : null;
+    var _nEmp = _gAt2 ? _gAt2.nEmpresas : (Object.keys(_ds.area||{}).length||0);
+    var _nomeG = _gAt2 ? (_gAt2.nome||'do grupo').replace(/^Grupo\s+/i,'') : 'do grupo';
+
+    // volume
+    var _procTotal = _ds.areaTotal||0;
+    var _ativosNum = _ds.ativos||0;
+    var _encer = _procTotal - _ativosNum;
+    var _areasN = Object.keys(_ds.area||{}).length;
+    var _tribN = Object.keys(_ds.tribunais||{}).length;
+
+    // evolução — recorte >= ANO_MIN (mesma base dos gráficos)
+    var _estC = cortaAnos(_ds.estoque||{}), _entC = cortaAnos(_ds.entradas||{}), _encC = cortaAnos(_ds.encerrados||{});
+    var _estVals = Object.values(_estC), _estKeys = Object.keys(_estC);
+    var _primVal = _estVals[0]||0, _ultVal = _estVals[_estVals.length-1]||0;
+    var _baseKey = _estKeys[0], _baseVal = _primVal;
+    if(_baseVal<5){ for(var _i=0;_i<_estKeys.length;_i++){ if((_estVals[_i]||0)>=5){ _baseKey=_estKeys[_i]; _baseVal=_estVals[_i]; break; } } }
+    var _mult = _baseVal>0 ? (_ultVal/_baseVal) : 0;
+    var _multTxt = _mult>=2 ? Math.round(_mult) : (Math.round(_mult*10)/10).toString().replace('.',',');
+    var _ultKey = _estKeys[_estKeys.length-1]||'';
+    var _totEnt = Object.values(_entC).reduce(function(a,b){return a+(+b||0);},0);
+    var _totEnc = Object.values(_encC).reduce(function(a,b){return a+(+b||0);},0);
+    var _saldo = _totEnt - _totEnc;
+
+    // esforço
+    var _prazC = cortaAnos(_esf.prazano||{}), _audC = cortaAnos(_esf.audano||{}), _tarC = cortaAnos(_esf.tarefano||{});
+    var _totPraz = Object.values(_prazC).reduce(function(a,b){return a+(+b||0);},0);
+    var _totAud = Object.values(_audC).reduce(function(a,b){return a+(+b||0);},0);
+    var _totTar = Object.values(_tarC).reduce(function(a,b){return a+(+b||0);},0);
+    var _totComp = _totPraz + _totAud + _totTar;
+    var _tramit = _esf.tramitacaoDias||0;
+
+    // horas (recorte >= ANO_MIN)
+    var _horasC = cortaAnos(_h.horasano||{});
+    var _totHoras = Object.values(_horasC).reduce(function(a,b){return a+(+b||0);},0);
+    var _mediaProc = _h.media||0;
+    var _mediaAtivos = _h.mediaAtivos||0;
+
+    function fmt(n){ return (Math.round(n)).toLocaleString('pt-BR'); }
+    function fmtDec(n){ return (Math.round(n*10)/10).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}); }
+
+    var _p1 = 'O Grupo <b>'+_nomeG+'</b> reúne <b>'+_nEmp+' empresas</b> atendidas pelo escritório, com uma carteira consolidada de <b>'+fmt(_procTotal)+' processos</b>'+
+      ' — <b>'+fmt(_ativosNum)+'</b> ativos e <b>'+fmt(_encer)+'</b> encerrados —, distribuídos por <b>'+_areasN+' áreas do Direito</b> e <b>'+_tribN+' tribunais</b>.';
+
+    var _p2 = '';
+    if(_baseVal>0 && _estKeys.length>1){
+      _p2 = 'De <b>'+_baseKey+'</b> a <b>'+_ultKey+'</b>, o estoque de processos '+(_mult>=1?'multiplicou-se':'reduziu-se em fator')+' por <b>'+_multTxt+'×</b> (de '+fmt(_baseVal)+' para '+fmt(_ultVal)+' processos ativos). '+
+        'No mesmo recorte, foram registradas <b>'+fmt(_totEnt)+' entradas</b> e <b>'+fmt(_totEnc)+' encerramentos</b>'+
+        (_saldo!==0 ? ' — saldo líquido de <b>'+(_saldo>0?'+':'')+fmt(_saldo)+'</b> processos incorporados à carteira sob gestão do escritório.' : '.');
+    }
+
+    var _p3 = '';
+    if(_totComp>0){
+      _p3 = 'Do lado operacional, a equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN+
+        ' (<b>'+fmt(_totPraz)+'</b> prazos, <b>'+fmt(_totAud)+'</b> audiências e <b>'+fmt(_totTar)+'</b> tarefas)'+
+        (_tramit>0 ? ', com tempo médio de tramitação de <b>'+fmt(_tramit)+' dias</b> por processo' : '')+'.';
+    }
+
+    var _p4 = '';
+    if(_totHoras>0){
+      _p4 = 'Foram apontadas <b>'+fmt(_totHoras)+' horas</b> de trabalho técnico'+(_h._estimativa?' (parcial)':'')+
+        ', com média de <b>'+fmtDec(_mediaProc)+' horas por processo</b>'+
+        (_mediaAtivos>0 ? ' e <b>'+fmtDec(_mediaAtivos)+' horas por processo ativo</b>' : '')+
+        ' — indicador direto do volume de tempo sênior efetivamente dedicado à carteira do grupo.';
+    }
+
+    var _html = [_p1,_p2,_p3,_p4].filter(function(t){return !!t;}).map(function(t){return '<p>'+t+'</p>';}).join('');
+    _tx.innerHTML = _html;
+    _bl.style.display = _html ? '' : 'none';
   })();
   // insights dinâmicos (gerados dos dados) — séries cortadas ao recorte de exibição (>= ANO_MIN)
   const ds=DATA.dataset;
@@ -1524,6 +1621,12 @@ function montarPrint(){
     if(nota) sheet([nota], '04 — Horas dedicadas', 'Sobre este indicador');
   }
 
+  // ---------- 05 — CONSIDERAÇÕES (só Panorama do grupo) ----------
+  if(visivel('consideracoes-txt')){
+    var _consCard = cloneCardOf('consideracoes-txt');
+    if(_consCard) sheet([_consCard], '05 — Considerações', 'Leitura consolidada do grupo', 'Resumo e interpretação dos indicadores das partes atendidas: perfil, evolução, esforço operacional e horas dedicadas pela equipe.');
+  }
+
   // ---------- PÁGINA FINAL: footer (logo + redes + endereços) ----------
   var foot=document.querySelector('#view-dashboard footer .foot-grid');
   if(foot){ var fc=foot.cloneNode(true);
@@ -1589,7 +1692,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722g';
+  var _cb = '?v=20260722h';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
