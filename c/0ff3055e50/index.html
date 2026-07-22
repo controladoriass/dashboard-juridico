@@ -318,11 +318,13 @@
   /* insight */
   .insight{border-left:3px solid var(--gold);background:linear-gradient(90deg,rgba(207,163,110,.07),transparent);padding:24px 28px;border-radius:0 14px 14px 0;margin-top:30px}
   /* Considerações — leitura consolidada do grupo */
-  .cons-body{display:flex;flex-direction:column;gap:16px;color:#d7dae5;font-size:15px;font-weight:300;line-height:1.7;margin-top:14px}
+  .cons-body{display:flex;flex-direction:column;gap:18px;color:#d7dae5;font-size:15px;font-weight:300;line-height:1.7;margin-top:14px}
   .cons-body p{margin:0}
   .cons-body b,.cons-body strong{color:#CFA36E;font-weight:600}
-  #view-print .cons-body{font-size:11px;line-height:1.6;color:#dfe2ee;gap:8px;margin-top:6px}
+  .cons-body .cons-ico{color:#CFA36E;font-size:16px;margin-right:6px;display:inline-block;vertical-align:baseline}
+  #view-print .cons-body{font-size:11px;line-height:1.6;color:#dfe2ee;gap:10px;margin-top:6px}
   #view-print .cons-body b,#view-print .cons-body strong{color:#CFA36E}
+  #view-print .cons-body .cons-ico{color:#CFA36E;font-size:12px}
   .insight .t{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:8px}
   .insight p{color:#d7dae5;font-size:15.5px;font-weight:300}
   .insight strong{color:#fff;font-weight:600}
@@ -1132,38 +1134,85 @@ function renderDashboard(){
     function fmt(n){ return (Math.round(n)).toLocaleString('pt-BR'); }
     function fmtDec(n){ return (Math.round(n*10)/10).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}); }
 
-    var _p1;
-    if(_ehGrupo1){
-      _p1 = 'A carteira de <b>'+_nomeG+'</b> reúne <b>'+fmt(_procTotal)+' processos</b>'+
-        ' — <b>'+fmt(_ativosNum)+'</b> ativos e <b>'+fmt(_encer)+'</b> encerrados —, distribuídos por <b>'+_areasN+' áreas do Direito</b> e <b>'+_tribN+' tribunais</b>.';
-    } else {
-      _p1 = 'O Grupo <b>'+_nomeG+'</b> reúne <b>'+_nEmp+' empresas</b> atendidas pelo escritório, com uma carteira consolidada de <b>'+fmt(_procTotal)+' processos</b>'+
-        ' — <b>'+fmt(_ativosNum)+'</b> ativos e <b>'+fmt(_encer)+'</b> encerrados —, distribuídos por <b>'+_areasN+' áreas do Direito</b> e <b>'+_tribN+' tribunais</b>.';
-    }
+    // termo p/ a "posse" do grupo/empresa nos textos
+    var _quem = _ehGrupo1 ? 'a carteira' : 'a carteira do grupo';
 
+    // §2 EVOLUÇÃO — micro-titulo + texto + conclusao dinamica (subiu/caiu, ritmo)
     var _p2 = '';
     if(_baseVal>0 && _estKeys.length>1){
-      _p2 = 'De <b>'+_baseKey+'</b> a <b>'+_ultKey+'</b>, o estoque de processos '+(_mult>=1?'multiplicou-se':'reduziu-se em fator')+' por <b>'+_multTxt+'×</b> (de '+fmt(_baseVal)+' para '+fmt(_ultVal)+' processos ativos). '+
-        'No mesmo recorte, foram registradas <b>'+fmt(_totEnt)+' entradas</b> e <b>'+fmt(_totEnc)+' encerramentos</b>'+
-        (_saldo!==0 ? ' — saldo líquido de <b>'+(_saldo>0?'+':'')+fmt(_saldo)+'</b> processos incorporados à carteira sob gestão do escritório.' : '.');
+      var _icoEv, _tituloEv, _conclEv;
+      if(_mult>=1.5){
+        _icoEv='▲'; _tituloEv='Carteira em expansão sustentada.';
+        _conclEv = 'A demanda vem crescendo de forma consistente, com incorporação líquida de <b>'+(_saldo>0?'+':'')+fmt(_saldo)+' processos</b> ao longo do período.';
+      } else if(_mult>=1.05){
+        _icoEv='▲'; _tituloEv='Carteira em crescimento gradual.';
+        _conclEv = 'O ritmo é moderado, mas positivo, com saldo líquido de <b>'+(_saldo>0?'+':'')+fmt(_saldo)+' processos</b> incorporados.';
+      } else if(_mult>=0.95){
+        _icoEv='◆'; _tituloEv='Carteira estável.';
+        _conclEv = 'O volume manteve-se próximo do patamar inicial, com entradas e encerramentos praticamente equilibrados.';
+      } else {
+        _icoEv='▼'; _tituloEv='Carteira em retração.';
+        _conclEv = 'O saldo líquido de <b>'+fmt(_saldo)+' processos</b> indica encerramentos superando entradas no período.';
+      }
+      _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
+        'De <b>'+_baseKey+'</b> a <b>'+_ultKey+'</b>, o estoque de processos '+(_mult>=1?'multiplicou-se':'reduziu-se em fator')+' de <b>'+_multTxt+'×</b> (de '+fmt(_baseVal)+' para '+fmt(_ultVal)+' processos ativos). '+
+        'No mesmo recorte, foram registradas <b>'+fmt(_totEnt)+' entradas</b> contra <b>'+fmt(_totEnc)+' encerramentos</b>. '+
+        _conclEv;
     }
 
+    // §3 ESFORCO — conclusao baseada em volume + tramitacao
     var _p3 = '';
     if(_totComp>0){
-      _p3 = 'Do lado operacional, a equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN+
-        ' (<b>'+fmt(_totPraz)+'</b> prazos, <b>'+fmt(_totAud)+'</b> audiências e <b>'+fmt(_totTar)+'</b> tarefas)'+
-        (_tramit>0 ? ', com tempo médio de tramitação de <b>'+fmt(_tramit)+' dias</b> por processo' : '')+'.';
+      var _mediaCompAno = _totComp / Math.max(_estKeys.length,1);
+      var _tramitAnos = _tramit>0 ? (_tramit/365) : 0;
+      var _icoEs='⚙', _tituloEs, _conclEs;
+      if(_totComp>=3000){
+        _tituloEs = 'Alto volume operacional.';
+      } else if(_totComp>=800){
+        _tituloEs = 'Volume operacional consistente.';
+      } else {
+        _tituloEs = 'Atuação operacional contínua.';
+      }
+      if(_tramitAnos>=3.5){
+        _conclEs = 'A tramitação média longa (cerca de <b>'+fmtDec(_tramitAnos)+' anos</b> por processo) exige acompanhamento sênior sustentado e produção jurídica recorrente.';
+      } else if(_tramitAnos>=1.5){
+        _conclEs = 'Com processos de tramitação média (cerca de <b>'+fmtDec(_tramitAnos)+' anos</b>), a carteira demanda atuação continuada em múltiplos ritos.';
+      } else if(_tramit>0){
+        _conclEs = 'A tramitação média é curta (cerca de <b>'+fmtDec(_tramitAnos)+' anos</b>), o que concentra o esforço em ciclos mais rápidos de definição.';
+      } else {
+        _conclEs = 'O volume de atos indica atuação contínua da equipe em múltiplos ritos e ao longo de todo o período.';
+      }
+      _p3 = '<span class="cons-ico">'+_icoEs+'</span> <b>'+_tituloEs+'</b> '+
+        'A equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN+' ('+fmt(_totPraz)+' prazos, '+fmt(_totAud)+' audiências e '+fmt(_totTar)+' tarefas)'+
+        (_tramit>0 ? ', com tempo médio de tramitação de <b>'+fmt(_tramit)+' dias</b> por processo' : '')+'. '+
+        _conclEs;
     }
 
+    // §4 HORAS — conclusao mais direta (demanda / dedicacao do time)
     var _p4 = '';
     if(_totHoras>0){
-      _p4 = 'Foram apontadas <b>'+fmt(_totHoras)+' horas</b> de trabalho técnico'+(_h._estimativa?' (parcial)':'')+
+      var _icoH='⏱', _tituloH, _conclH;
+      if(_mediaAtivos>=8){
+        _tituloH = 'Time sênior fortemente dedicado.';
+        _conclH = 'A média de horas por processo confirma o alto grau de complexidade e a atenção técnica que '+(_ehGrupo1?'esta carteira':'as empresas do grupo')+' vêm demandando do escritório.';
+      } else if(_mediaAtivos>=4){
+        _tituloH = 'Dedicação técnica consistente.';
+        _conclH = 'O volume de horas apontadas mostra atuação regular da equipe sobre a carteira, com esforço técnico distribuído ao longo do período.';
+      } else if(_mediaProc>0){
+        _tituloH = 'Trabalho técnico apontado no período.';
+        _conclH = 'As horas registradas retratam a atuação da equipe até o corte, e devem crescer conforme os processos avançam.';
+      } else {
+        _tituloH = 'Registro de horas iniciado no período.';
+        _conclH = 'O apontamento reflete o começo da consolidação das horas por processo.';
+      }
+      _p4 = '<span class="cons-ico">'+_icoH+'</span> <b>'+_tituloH+'</b> '+
+        'Foram apontadas <b>'+fmt(_totHoras)+' horas</b> de trabalho técnico'+(_h._estimativa?' (parcial)':'')+
         ', com média de <b>'+fmtDec(_mediaProc)+' horas por processo</b>'+
-        (_mediaAtivos>0 ? ' e <b>'+fmtDec(_mediaAtivos)+' horas por processo ativo</b>' : '')+
-        ' — indicador direto do volume de tempo sênior efetivamente dedicado à carteira'+(_ehGrupo1?'.':' do grupo.');
+        (_mediaAtivos>0 ? ' e <b>'+fmtDec(_mediaAtivos)+' horas por processo ativo</b>' : '')+'. '+
+        _conclH;
     }
 
-    var _html = [_p1,_p2,_p3,_p4].filter(function(t){return !!t;}).map(function(t){return '<p>'+t+'</p>';}).join('');
+    var _html = [_p2,_p3,_p4].filter(function(t){return !!t;}).map(function(t){return '<p>'+t+'</p>';}).join('');
     _tx.innerHTML = _html;
     _bl.style.display = _html ? '' : 'none';
   })();
@@ -1702,7 +1751,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722k';
+  var _cb = '?v=20260722l';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
