@@ -1430,6 +1430,20 @@ function montarPrint(){
   var kpiMain=cloneKpis('k-proc');
   sheet([capa, kpiMain]);
 
+  // ---------- PÁGINA 1b (só Panorama do grupo): Partes atendidas ----------
+  if(visivel('partes-list')){
+    var _partesCard = cloneCardOf('partes-list');
+    if(_partesCard){
+      // no PDF as animações não fazem sentido — força pills visíveis
+      _partesCard.querySelectorAll('.pill.pill-anim').forEach(function(p){
+        p.classList.remove('pill-anim');
+        p.style.opacity='1';
+        p.style.transform='none';
+      });
+      sheet([_partesCard], '00 — Grupo econômico', 'Partes atendidas', 'Empresas do grupo cuja carteira jurídica compõe este panorama consolidado.');
+    }
+  }
+
   // ---------- PÁGINA 2: Volume — KPIs de volume ----------
   sheet([cloneKpis('v-cresc')], '01 — Volume', 'Evolução do volume processual', 'Ritmo de entrada de novos processos, encerramentos e saldo de casos ativos ano a ano.');
   // ---------- PÁGINA 3: Volume — os 2 gráficos ----------
@@ -1541,7 +1555,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722b';
+  var _cb = '?v=20260722c';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
