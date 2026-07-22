@@ -152,6 +152,9 @@
   /* 6d. "Sobre este indicador": cortina revelando o texto */
   .insight .cortina-txt{clip-path:inset(0 100% 0 0);transition:clip-path 1s cubic-bezier(.76,0,.24,1) .2s}
   .reveal.in .insight .cortina-txt,.insight.in .cortina-txt{clip-path:inset(0 0 0 0)}
+  /* no PDF nao ha animacao — força a cortina totalmente aberta */
+  #view-print .cortina-txt{clip-path:none !important}
+  @media print{.cortina-txt{clip-path:none !important}}
 
   /* 7. sheen dourado no hover dos cards */
   .ccard::before{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;
@@ -1814,7 +1817,11 @@ function montarPrint(){
     sheet([cloneKpis('h-total'), cardHoras], '04 — Horas dedicadas', 'Horas dedicadas à carteira', 'Tempo apontado pela equipe nos processos do cliente (registros de timesheet).');
     // pág 13: Sobre este indicador (nota do ^ — a leitura interpretativa foi removida)
     var nota=cloneInsight('horas-nota');
-    if(nota) sheet([nota], '04 — Horas dedicadas', 'Sobre este indicador');
+    if(nota){
+      // remove clip-path das cortinas animadas: no PDF nao ha animacao, o texto ficaria invisivel
+      nota.querySelectorAll('.cortina-txt').forEach(function(el){ el.classList.remove('cortina-txt'); el.style.clipPath='none'; });
+      sheet([nota], '04 — Horas dedicadas', 'Sobre este indicador');
+    }
   }
 
   // ---------- CONSIDERAÇÕES (Panorama do grupo OU grupo de 1 empresa) ----------
@@ -1888,7 +1895,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722q';
+  var _cb = '?v=20260722r';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
