@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta name="cliente-grupo" content="zm">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="cliente-grupo" content="zm">
 <title>Indicadores Jurídicos · Silva & Silva</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -593,12 +593,27 @@ body.dash.is-semdados #sd-overlay{display:block}
 
 <!-- KPIs -->
 <section class="block" style="padding-top:0">
-  <div class="kpis reveal">
+  <div class="kpis reveal" id="kpis-topo">
     <div class="kpi"><div class="n" data-count="16" id="k-proc">0</div><div class="k">Processos na carteira</div><div class="sub" id="k-proc-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="152" id="k-horas">0</div><div class="k">Horas dedicadas</div><div class="sub" id="k-horas-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="6" id="k-areas">0</div><div class="k">Áreas do Direito</div><div class="sub" id="k-areas-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="0" id="k-ativos">0</div><div class="k">Processos ativos</div><div class="sub" id="k-ativos-sub">em andamento hoje</div></div>
     <div class="kpi"><div class="n" data-count="4" id="k-trib">0</div><div class="k">Tribunais</div><div class="sub" id="k-trib-sub">—</div></div>
+    <div class="kpi" id="k-partes-box" style="display:none"><div class="n" data-count="0" id="k-partes">0</div><div class="k">Partes atendidas</div><div class="sub" id="k-partes-sub">empresas do grupo</div></div>
+  </div>
+</section>
+
+<!-- PARTES ATENDIDAS (Panorama do grupo) -->
+<section class="block alt" id="partes-block" style="display:none;padding-top:0">
+  <div class="sec-head reveal">
+    <span class="sec-num">00 — Grupo econômico</span>
+    <h2>Partes atendidas</h2>
+    <p>Empresas do grupo cuja carteira jurídica é conduzida pelo escritório Silva & Silva e cujos indicadores compõem este panorama consolidado.</p>
+  </div>
+  <div class="card reveal">
+    <h3><span class="bt"></span><span id="partes-titulo">Empresas atendidas</span></h3>
+    <div class="desc" id="partes-desc">Composição do grupo econômico atendido.</div>
+    <div class="pills" id="partes-list"></div>
   </div>
 </section>
 
@@ -1011,6 +1026,41 @@ function renderDashboard(){
   el('k-areas').dataset.count=k.areas; el('k-areas').textContent='0'; el('k-areas-sub').textContent=k.areasSub;
   if(el('k-ativos')){ el('k-ativos').dataset.count=DATA.dataset.ativos||0; el('k-ativos').textContent='0'; el('k-ativos-sub').textContent='em andamento hoje'; }
   el('k-trib').dataset.count=k.trib; el('k-trib').textContent='0'; el('k-trib-sub').textContent=k.tribSub;
+  // KPI + card "Partes atendidas": só no Panorama do grupo, e só quando há >1 empresa real (exclui _panorama e _semDados)
+  (function(){
+    var _gAt = (typeof GRUPO_ATUAL!=='undefined' && GRUPO_ATUAL) ? GRUPOS[GRUPO_ATUAL] : null;
+    var _emps = _gAt && _gAt.empresas ? _gAt.empresas : {};
+    var _partes = Object.keys(_emps).filter(function(kk){
+      if(kk==='_panorama') return false;
+      var e = _emps[kk]||{};
+      var ds = e.dataset||{};
+      return !ds._semDados; // inclui _semProcessos (é empresa atendida, sem processo hoje)
+    }).map(function(kk){ return _emps[kk].nome || kk; });
+    var _mostra = !!DATA.dataset._panorama && _partes.length>0;
+    var _box = el('k-partes-box'), _bl = el('partes-block'), _kn=el('k-partes'), _list=el('partes-list');
+    if(_mostra){
+      if(_box) _box.style.display='';
+      if(_bl) _bl.style.display='';
+      if(_kn){ _kn.dataset.count=_partes.length; _kn.textContent='0'; }
+      if(_list){
+        _list.innerHTML='';
+        _partes.forEach(function(nm,ix){
+          var p=document.createElement('div');
+          p.className='pill pill-anim';
+          p.style.setProperty('--pi',ix);
+          p.textContent=nm;
+          _list.appendChild(p);
+        });
+      }
+      var _tit=el('partes-titulo');
+      if(_tit) _tit.textContent = _partes.length+' empresa'+(_partes.length===1?'':'s')+' atendida'+(_partes.length===1?'':'s');
+    } else {
+      if(_box) _box.style.display='none';
+      if(_bl) _bl.style.display='none';
+      if(_list) _list.innerHTML='';
+      if(_kn) _kn.removeAttribute('data-count');
+    }
+  })();
   // insights dinâmicos (gerados dos dados) — séries cortadas ao recorte de exibição (>= ANO_MIN)
   const ds=DATA.dataset;
   const _estC=cortaAnos(ds.estoque), _entC=cortaAnos(ds.entradas), _encC=cortaAnos(ds.encerrados);
@@ -1499,7 +1549,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260709d';
+  var _cb = '?v=20260722a';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})

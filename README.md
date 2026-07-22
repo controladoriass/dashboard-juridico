@@ -46,7 +46,9 @@ O `dataset` contém: `estoque`/`entradas`/`encerrados` (por ano), `area`, `areaT
 - `horas`: `total`, `media`, `mediaAtivos`, `horasano`, `_estimativa`.
 - Flags: `_dadosReais`, `_semProcessos` ("sem processos"), `_semDados` ("em breve"), `_panorama`.
 
-O `_panorama` é a **soma consolidada** das empresas do grupo. Grupo de 1 empresa não tem `_panorama` (usa a própria empresa como topo). O card **"Partes atendidas"** no Panorama = `nEmpresas` (nº de empresas do grupo).
+O `_panorama` é a **soma consolidada** das empresas do grupo. Grupo de 1 empresa não tem `_panorama` (usa a própria empresa como topo).
+
+**"Partes atendidas"** — no Panorama de qualquer grupo com mais de uma empresa, aparecem dois elementos: (1) KPI no topo com `nEmpresas`; (2) bloco `#partes-block` logo abaixo dos KPIs, antes de "01 — Volume", com um card contendo pills douradas — uma por empresa (`_panorama` e `_semDados` excluídas; `_semProcessos` incluído — é empresa atendida sem processo). Título do card é dinâmico: "N empresas atendidas". Aparece também no modo cliente (pasta `c/`). No dashboard de empresa individual (não é `_panorama`) o bloco fica oculto. IDs: `#k-partes-box`, `#k-partes`, `#partes-block`, `#partes-list`.
 
 ---
 
@@ -155,7 +157,7 @@ Na atualização periódica:
    ```
 3. **Trocar o cache-buster** no loader (força o navegador a pegar os dados novos, senão o usuário vê a versão antiga):
    ```js
-   var _cb = '?v=20260708c';   // incrementar a cada atualização
+   var _cb = '?v=20260722a';   // incrementar a cada atualização
    ```
 4. Regerar as pastas `c/` (seção 5).
 5. Publicar:
@@ -169,3 +171,15 @@ Na atualização periódica:
 O site fica em `https://<owner>.github.io/<repo>/`.
 
 > **Automação:** hoje é um processo assistido (reconsulta manual via API). Uma automação completa (backend puxando do EasyJur em cron) seria um projeto à parte.
+
+---
+
+## 7. Changelog
+
+### 2026-07-22
+- **Novo bloco "Partes atendidas" no Panorama do grupo.** Aparece só quando `DATA.dataset._panorama` e há >1 empresa real (exclui `_panorama`; exclui `_semDados`; inclui `_semProcessos`).
+  - KPI `k-partes` no grid do topo (6º card) com o número de empresas.
+  - Seção nova `#partes-block` entre o grid de KPIs e "01 — Volume", com card `.pills` (pill dourada por empresa, animação `pill-anim` em cascata).
+  - Título do card é dinâmico: "N empresas atendidas".
+  - Vale igual no modo cliente (pasta `c/`). No dashboard de empresa individual o bloco fica oculto.
+- Cache-buster: `?v=20260722a`.
