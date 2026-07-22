@@ -593,7 +593,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 
 <!-- KPIs -->
 <section class="block" style="padding-top:0">
-  <div class="kpis reveal" id="kpis-topo">
+  <div class="kpis reveal" id="kpis-topo" style="--kn:6">
     <div class="kpi"><div class="n" data-count="16" id="k-proc">0</div><div class="k">Processos na carteira</div><div class="sub" id="k-proc-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="152" id="k-horas">0</div><div class="k">Horas dedicadas</div><div class="sub" id="k-horas-sub">—</div></div>
     <div class="kpi"><div class="n" data-count="6" id="k-areas">0</div><div class="k">Áreas do Direito</div><div class="sub" id="k-areas-sub">—</div></div>
@@ -605,14 +605,8 @@ body.dash.is-semdados #sd-overlay{display:block}
 
 <!-- PARTES ATENDIDAS (Panorama do grupo) -->
 <section class="block alt" id="partes-block" style="display:none;padding-top:0">
-  <div class="sec-head reveal">
-    <span class="sec-num">00 — Grupo econômico</span>
-    <h2>Partes atendidas</h2>
-    <p>Empresas do grupo cuja carteira jurídica é conduzida pelo escritório Silva & Silva e cujos indicadores compõem este panorama consolidado.</p>
-  </div>
   <div class="card reveal">
-    <h3><span class="bt"></span><span id="partes-titulo">Empresas atendidas</span></h3>
-    <div class="desc" id="partes-desc">Composição do grupo econômico atendido.</div>
+    <h3><span class="bt"></span>Partes atendidas</h3>
     <div class="pills" id="partes-list"></div>
   </div>
 </section>
@@ -1052,8 +1046,6 @@ function renderDashboard(){
           _list.appendChild(p);
         });
       }
-      var _tit=el('partes-titulo');
-      if(_tit) _tit.textContent = _partes.length+' empresa'+(_partes.length===1?'':'s')+' atendida'+(_partes.length===1?'':'s');
     } else {
       if(_box) _box.style.display='none';
       if(_bl) _bl.style.display='none';
@@ -1549,7 +1541,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722a';
+  var _cb = '?v=20260722b';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
