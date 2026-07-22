@@ -1054,6 +1054,8 @@ function renderDashboard(){
     }).map(function(kk){ return _emps[kk].nome || kk; });
     var _mostra = !!DATA.dataset._panorama && _partes.length>0;
     var _box = el('k-partes-box'), _bl = el('partes-block'), _kn=el('k-partes'), _list=el('partes-list');
+    // ajusta o nº de colunas do grid dos KPIs: 6 quando mostra Partes, 5 quando não (evita "buraco" no fim da linha)
+    var _grid = el('kpis-topo'); if(_grid) _grid.style.setProperty('--kn', _mostra ? 6 : 5);
     if(_mostra){
       if(_box) _box.style.display='';
       if(_bl) _bl.style.display='';
@@ -1700,7 +1702,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722i';
+  var _cb = '?v=20260722j';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
