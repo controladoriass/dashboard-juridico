@@ -321,25 +321,25 @@
   .cons-body p{margin:0}
   .cons-body b,.cons-body strong{color:#CFA36E;font-weight:600}
   .cons-body .cons-ico{color:#CFA36E;font-size:16px;margin-right:6px;display:inline-block;vertical-align:baseline}
-  /* Card Informacoes do Contrato — uso INTERNO */
-  .contrato-card{background:linear-gradient(135deg,rgba(207,163,110,.06),rgba(30,34,63,.65));border:1px solid var(--line);position:relative}
-  .contrato-card::before{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;
-    background:repeating-linear-gradient(-45deg,transparent 0 24px,rgba(207,163,110,.03) 24px 25px)}
-  .contrato-card .ct-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:22px;position:relative}
-  .contrato-card .ct-eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:6px}
-  .contrato-card .ct-titulo{margin:0}
-  .contrato-card .ct-status{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#2E7D32;font-weight:700;background:rgba(46,125,50,.12);border:1px solid rgba(46,125,50,.3);border-radius:999px;padding:6px 14px;white-space:nowrap;flex-shrink:0}
-  .contrato-card .ct-status.is-vencido{color:var(--red);background:rgba(198,40,40,.12);border-color:rgba(198,40,40,.3)}
-  .contrato-card .ct-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2px;background:var(--card-bd);border:1px solid var(--card-bd);border-radius:14px;overflow:hidden;position:relative}
-  .contrato-card .ct-item{background:rgba(30,34,63,.5);padding:20px 22px;min-width:0}
-  .contrato-card .ct-item .lbl{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:#8c92a8;font-weight:600;margin-bottom:10px}
-  .contrato-card .ct-item .val{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:20px;line-height:1.2;letter-spacing:-.01em}
-  .contrato-card .ct-item .val small{font-size:.55em;color:var(--gold-soft);font-weight:500;letter-spacing:0;margin-left:4px}
-  .contrato-card .ct-item .val.is-gold{color:var(--gold)}
-  .contrato-card .ct-item .sub{font-size:11px;color:#8c92a8;margin-top:4px;font-weight:400}
-  .contrato-card .ct-obs{margin-top:20px;padding:14px 18px;background:rgba(207,163,110,.05);border-left:3px solid var(--gold);border-radius:0 10px 10px 0;font-size:13px;color:#c3c7d4;line-height:1.6;position:relative}
-  .contrato-card .ct-obs .lbl-obs{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:6px}
-  /* modo cliente e print NUNCA mostram o card de contrato (uso interno) */
+  /* Card quadrado "Informacoes do contrato" — canto sup. direito do hero (uso interno) */
+  .ct-quad{position:absolute;top:100px;right:44px;width:360px;height:360px;
+    background:linear-gradient(135deg,rgba(207,163,110,.08),rgba(30,34,63,.85));
+    border:1px solid rgba(207,163,110,.25);border-radius:16px;padding:26px 26px 22px;
+    z-index:4;box-shadow:0 12px 40px rgba(0,0,0,.35);display:flex;flex-direction:column;gap:14px;
+    backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+  .ct-quad::before{content:'';position:absolute;top:0;left:0;height:3px;width:60px;background:var(--gold);border-radius:16px 0 0 0}
+  .ct-quad-title{font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:700}
+  .ct-quad-body{display:flex;flex-direction:column;gap:16px;flex:1;justify-content:center}
+  .ct-quad-item{border-top:1px solid rgba(207,163,110,.12);padding-top:14px}
+  .ct-quad-item:first-child{border-top:none;padding-top:0}
+  .ct-quad-item .lbl{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:#8c92a8;font-weight:600;margin-bottom:6px}
+  .ct-quad-item .val{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:22px;line-height:1.15;letter-spacing:-.01em}
+  .ct-quad-item .val.is-gold{color:var(--gold)}
+  .ct-quad-item .val small{font-size:.55em;color:var(--gold-soft);font-weight:500;letter-spacing:0;margin-left:4px}
+  .ct-quad-item .sub{font-size:11.5px;color:#a3a9be;margin-top:4px;font-weight:400;line-height:1.4}
+  /* responsivo: em telas menores, some (nao cabe do lado do titulo grande) */
+  @media(max-width:1200px){.ct-quad{position:static;width:100%;max-width:100%;height:auto;margin-top:32px}}
+  /* modo cliente e print NUNCA mostram o card (uso interno) */
   body.modo-cliente #contrato-block{display:none !important}
   @media print{#contrato-block{display:none !important}}
   #view-print .cons-body{font-size:11px;line-height:1.6;color:#dfe2ee;gap:10px;margin-top:6px}
@@ -625,6 +625,11 @@ body.dash.is-semdados #sd-overlay{display:block}
     </div>
   </div>
   <div class="scrollcue">role para baixo<span></span></div>
+  <!-- CARD INFORMAÇÕES DO CONTRATO — canto sup. direito do hero. Uso INTERNO. -->
+  <aside class="ct-quad" id="contrato-block" style="display:none">
+    <div class="ct-quad-title">Informações do contrato</div>
+    <div class="ct-quad-body" id="ct-grid"></div>
+  </aside>
 </header>
 
 <!-- KPIs -->
@@ -802,21 +807,6 @@ body.dash.is-semdados #sd-overlay{display:block}
   <div class="card reveal">
     <h3><span class="bt"></span>Considerações</h3>
     <div class="cons-body" id="consideracoes-txt"></div>
-  </div>
-</section>
-
-<!-- INFORMAÇÕES DO CONTRATO — uso INTERNO (não aparece no PDF nem no link do cliente) -->
-<section class="block" id="contrato-block" style="display:none">
-  <div class="card reveal contrato-card">
-    <div class="ct-head">
-      <div>
-        <div class="ct-eyebrow">Uso interno · Silva &amp; Silva</div>
-        <h3 class="ct-titulo"><span class="bt"></span>Informações do contrato</h3>
-      </div>
-      <span class="ct-status" id="ct-status">—</span>
-    </div>
-    <div class="ct-grid" id="ct-grid"></div>
-    <div class="ct-obs" id="ct-obs" style="display:none"></div>
   </div>
 </section>
 
@@ -1326,13 +1316,7 @@ function renderDashboard(){
     var _c = _CONTRATOS[_gAtC];
     if(!_c){ _bl.style.display='none'; return; }
     _bl.style.display='';
-    // status
-    var _st = el('ct-status');
-    if(_st){
-      _st.textContent = _c.status || '—';
-      _st.classList.toggle('is-vencido', String(_c.status||'').toUpperCase()==='VENCIDO');
-    }
-    // grid de infos
+    // helpers
     function brl(v){ return 'R$ '+(+v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}); }
     function dataBr(d){
       if(!d) return '—';
@@ -1357,24 +1341,15 @@ function renderDashboard(){
       var _items = [];
       _items.push({lbl:'Valor mensal', val:brl(_c.valor_mensal), sub:'honorários fixos', gold:true});
       if(_c.indice){
-        _items.push({lbl:'Reajuste', val:_c.indice, sub:_c.reajuste_periodo||'anual'});
-      }
-      if(_c.hora_excedente!=null){
-        _items.push({lbl:'Hora excedente', val:brl(_c.hora_excedente), sub:'fora do contrato'});
+        _items.push({lbl:'Reajuste', val:_c.indice, sub:_c.reajuste_periodo||''});
       }
       _items.push({lbl:'Início da vigência', val:dataBr(_c.data_inicio), sub: (anosDesde(_c.data_inicio) ? 'há '+anosDesde(_c.data_inicio) : '')});
       _grid.innerHTML='';
       _items.forEach(function(it){
-        var d=document.createElement('div'); d.className='ct-item';
+        var d=document.createElement('div'); d.className='ct-quad-item';
         d.innerHTML='<div class="lbl">'+it.lbl+'</div><div class="val'+(it.gold?' is-gold':'')+'">'+it.val+'</div>'+(it.sub?'<div class="sub">'+it.sub+'</div>':'');
         _grid.appendChild(d);
       });
-    }
-    // observações
-    var _obs = el('ct-obs');
-    if(_obs){
-      if(_c.obs){ _obs.innerHTML = '<div class="lbl-obs">Observações</div>'+_c.obs; _obs.style.display=''; }
-      else _obs.style.display='none';
     }
   })();
 
@@ -1913,7 +1888,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722p';
+  var _cb = '?v=20260722q';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
