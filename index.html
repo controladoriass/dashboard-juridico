@@ -1212,17 +1212,18 @@ function renderDashboard(){
     var _p4 = '';
     if(_totHoras>0){
       var _icoH='⏱', _tituloH, _conclH;
+      var _sujH = _ehGrupo1 ? 'esta carteira' : 'as partes do grupo';
       if(_mediaAtivos>=8){
-        _tituloH = 'Time sênior fortemente dedicado.';
-        _conclH = 'A média de horas por processo confirma o alto grau de complexidade e a atenção técnica que '+(_ehGrupo1?'esta carteira':'as empresas do grupo')+' vêm demandando do escritório.';
+        _tituloH = 'Carteira com alta demanda de horas.';
+        _conclH = 'A média de horas por processo confirma o alto grau de complexidade e a atenção técnica que '+_sujH+' vêm demandando do escritório.';
       } else if(_mediaAtivos>=4){
-        _tituloH = 'Dedicação técnica consistente.';
+        _tituloH = 'Carteira com demanda consistente de horas.';
         _conclH = 'O volume de horas apontadas mostra atuação regular da equipe sobre a carteira, com esforço técnico distribuído ao longo do período.';
       } else if(_mediaProc>0){
-        _tituloH = 'Trabalho técnico apontado no período.';
+        _tituloH = 'Carteira com trabalho técnico em andamento.';
         _conclH = 'As horas registradas retratam a atuação da equipe até o corte, e devem crescer conforme os processos avançam.';
       } else {
-        _tituloH = 'Registro de horas iniciado no período.';
+        _tituloH = 'Registro de horas em consolidação.';
         _conclH = 'O apontamento reflete o começo da consolidação das horas por processo.';
       }
       // evolucao ano-a-ano das horas (usa _horasC, que ja esta cortado ao recorte)
@@ -1790,7 +1791,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722m';
+  var _cb = '?v=20260722n';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
