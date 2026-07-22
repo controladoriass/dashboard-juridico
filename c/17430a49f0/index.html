@@ -1189,6 +1189,35 @@ function renderDashboard(){
         _conclEv;
     }
 
+    // Helpers: projeta ano incompleto (corte no meio do ano) para o ano cheio, mantido o ritmo
+    // Retorna { anoBase, valBase, anoFim, valFim, valFimProj, mesesDecorridos, ehParcial, ratio }
+    function _projAnual(serieRecortada){
+      var yrs = Object.keys(serieRecortada||{}).filter(function(y){return (+serieRecortada[y]||0)>0;}).sort();
+      if(yrs.length<2) return null;
+      var yA=yrs[0], yB=yrs[yrs.length-1];
+      var vA=+serieRecortada[yA]||0, vB=+serieRecortada[yB]||0;
+      // meses decorridos no ano yB até a data de corte
+      var mesesFim = 12, ehParcial=false;
+      try {
+        var corte = (typeof DATA_CORTE!=='undefined' && DATA_CORTE.curta) ? DATA_CORTE.curta : null;
+        if(corte){
+          var pc = corte.split('/'); // dd/mm/yyyy
+          var mesCorte = +pc[1], anoCorte = +pc[2];
+          if(+yB === anoCorte){
+            mesesFim = mesCorte;
+            ehParcial = mesCorte < 12;
+          }
+        }
+      } catch(e){}
+      var vBproj = ehParcial ? (vB * 12 / mesesFim) : vB;
+      var ratio = vA>0 ? vBproj / vA : 0;
+      return {anoBase:yA, valBase:vA, anoFim:yB, valFim:vB, valFimProj:vBproj, mesesDecorridos:mesesFim, ehParcial:ehParcial, ratio:ratio};
+    }
+    function _formatRatio(r){ return r>=2 ? Math.round(r) : (Math.round(r*10)/10).toString().replace('.',','); }
+    // nome do periodo parcial (ex: "jan-jun/2026")
+    var _MES3 = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+    function _rotuloParcial(anoFim, meses){ return _MES3[0]+'–'+_MES3[meses-1]+'/'+anoFim; }
+
     // §3 ESFORCO — volume + tramitacao + evolucao ano-a-ano (compromissos totais)
     var _p3 = '';
     if(_totComp>0){
@@ -1202,25 +1231,27 @@ function renderDashboard(){
         _tituloEs = 'Atuação operacional contínua.';
       }
       // evolucao ano-a-ano dos compromissos (soma prazos+audiencias+tarefas por ano no recorte)
-      var _compYear = {}; var _anosEsf = new Set();
-      [_prazC,_audC,_tarC].forEach(function(o){ Object.keys(o||{}).forEach(function(y){ _anosEsf.add(y); _compYear[y]=(_compYear[y]||0)+(+o[y]||0); }); });
-      var _anosCompArr = Array.from(_anosEsf).filter(function(y){return _compYear[y]>0;}).sort();
+      // c/ projecao para ano incompleto (ex: 2026 pela metade -> anualiza o ritmo)
+      var _compYear = {};
+      [_prazC,_audC,_tarC].forEach(function(o){ Object.keys(o||{}).forEach(function(y){ _compYear[y]=(_compYear[y]||0)+(+o[y]||0); }); });
+      var _pr = _projAnual(_compYear);
       var _compEvoTxt = '';
-      if(_anosCompArr.length>=2){
-        var _yA = _anosCompArr[0], _yB = _anosCompArr[_anosCompArr.length-1];
-        var _cA = _compYear[_yA], _cB = _compYear[_yB];
-        if(_cA>=3){
-          var _rat = _cB / _cA;
-          var _ratTxt = _rat>=2 ? Math.round(_rat) : (Math.round(_rat*10)/10).toString().replace('.',',');
-          if(_rat>=1.5){
-            _compEvoTxt = ' Os compromissos subiram de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_yB+'), multiplicando o ritmo anual por <b>'+_ratTxt+'×</b>.';
-          } else if(_rat>=1.1){
-            _compEvoTxt = ' Os compromissos evoluíram de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_yB+'), com crescimento gradual na demanda anual.';
-          } else if(_rat>=0.9){
-            _compEvoTxt = ' O ritmo anual manteve-se estável entre <b>'+_yA+'</b> ('+fmt(_cA)+') e <b>'+_yB+'</b> ('+fmt(_cB)+').';
-          } else {
-            _compEvoTxt = ' O ritmo anual recuou de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_yB+').';
-          }
+      if(_pr && _pr.valBase>=3){
+        var _yA=_pr.anoBase, _yB=_pr.anoFim, _cA=_pr.valBase, _cB=_pr.valFim, _cBproj=_pr.valFimProj, _rat=_pr.ratio;
+        var _ratTxt = _formatRatio(_rat);
+        // rotulo do ano final (parcial vs cheio)
+        var _rotB = _pr.ehParcial ? _rotuloParcial(_yB, _pr.mesesDecorridos) : _yB;
+        var _projTxt = _pr.ehParcial
+          ? ' — mantido o ritmo, o ano fecha em <b>~'+fmt(_cBproj)+'</b>'
+          : '';
+        if(_rat>=1.5){
+          _compEvoTxt = ' Os compromissos subiram de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_rotB+')'+_projTxt+', multiplicando o ritmo anual por <b>'+(_pr.ehParcial?'~':'')+_ratTxt+'×</b>.';
+        } else if(_rat>=1.1){
+          _compEvoTxt = ' Os compromissos evoluíram de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_rotB+')'+_projTxt+', com crescimento gradual na demanda anual.';
+        } else if(_rat>=0.9){
+          _compEvoTxt = ' O ritmo anual manteve-se estável entre <b>'+_yA+'</b> ('+fmt(_cA)+') e <b>'+_rotB+'</b> ('+fmt(_cB)+(_pr.ehParcial?', projeção ~'+fmt(_cBproj):'')+').';
+        } else {
+          _compEvoTxt = ' O ritmo anual recuou de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_rotB+')'+(_pr.ehParcial?' (projeção anualizada ~'+fmt(_cBproj)+')':'')+'.';
         }
       }
       if(_tramitAnos>=3.5){
@@ -1257,22 +1288,25 @@ function renderDashboard(){
         _conclH = 'O apontamento reflete o começo da consolidação das horas por processo.';
       }
       // evolucao ano-a-ano das horas (usa _horasC, que ja esta cortado ao recorte)
+      // c/ projecao para ano incompleto (ex: 2026 pela metade -> anualiza o ritmo)
       var _horasEvoTxt = '';
-      var _yrsH = Object.keys(_horasC||{}).filter(function(y){return (+_horasC[y]||0)>0;}).sort();
-      if(_yrsH.length>=2){
-        var _hA = +_horasC[_yrsH[0]]||0, _hB = +_horasC[_yrsH[_yrsH.length-1]]||0;
-        if(_hA>=5){
-          var _rH = _hB/_hA;
-          var _rHtxt = _rH>=2 ? Math.round(_rH) : (Math.round(_rH*10)/10).toString().replace('.',',');
-          if(_rH>=1.5){
-            _horasEvoTxt = ' As horas apontadas subiram de <b>'+fmt(_hA)+'h</b> ('+_yrsH[0]+') para <b>'+fmt(_hB)+'h</b> ('+_yrsH[_yrsH.length-1]+'), multiplicando a carga anual por <b>'+_rHtxt+'×</b>.';
-          } else if(_rH>=1.1){
-            _horasEvoTxt = ' As horas apontadas evoluíram de <b>'+fmt(_hA)+'h</b> ('+_yrsH[0]+') para <b>'+fmt(_hB)+'h</b> ('+_yrsH[_yrsH.length-1]+'), com crescimento gradual da carga anual.';
-          } else if(_rH>=0.9){
-            _horasEvoTxt = ' A carga anual manteve-se estável entre <b>'+_yrsH[0]+'</b> ('+fmt(_hA)+'h) e <b>'+_yrsH[_yrsH.length-1]+'</b> ('+fmt(_hB)+'h).';
-          } else {
-            _horasEvoTxt = ' A carga anual recuou de <b>'+fmt(_hA)+'h</b> ('+_yrsH[0]+') para <b>'+fmt(_hB)+'h</b> ('+_yrsH[_yrsH.length-1]+').';
-          }
+      var _prH = _projAnual(_horasC);
+      if(_prH && _prH.valBase>=5){
+        var _hA=_prH.valBase, _hB=_prH.valFim, _hBproj=_prH.valFimProj, _rH=_prH.ratio;
+        var _rHtxt = _formatRatio(_rH);
+        var _yrsA = _prH.anoBase, _yrsB = _prH.anoFim;
+        var _rotHB = _prH.ehParcial ? _rotuloParcial(_yrsB, _prH.mesesDecorridos) : _yrsB;
+        var _projHTxt = _prH.ehParcial
+          ? ' — mantido o ritmo, o ano fecha em <b>~'+fmt(_hBproj)+'h</b>'
+          : '';
+        if(_rH>=1.5){
+          _horasEvoTxt = ' As horas apontadas subiram de <b>'+fmt(_hA)+'h</b> ('+_yrsA+') para <b>'+fmt(_hB)+'h</b> ('+_rotHB+')'+_projHTxt+', multiplicando a carga anual por <b>'+(_prH.ehParcial?'~':'')+_rHtxt+'×</b>.';
+        } else if(_rH>=1.1){
+          _horasEvoTxt = ' As horas apontadas evoluíram de <b>'+fmt(_hA)+'h</b> ('+_yrsA+') para <b>'+fmt(_hB)+'h</b> ('+_rotHB+')'+_projHTxt+', com crescimento gradual da carga anual.';
+        } else if(_rH>=0.9){
+          _horasEvoTxt = ' A carga anual manteve-se estável entre <b>'+_yrsA+'</b> ('+fmt(_hA)+'h) e <b>'+_rotHB+'</b> ('+fmt(_hB)+'h'+(_prH.ehParcial?', projeção ~'+fmt(_hBproj)+'h':'')+').';
+        } else {
+          _horasEvoTxt = ' A carga anual recuou de <b>'+fmt(_hA)+'h</b> ('+_yrsA+') para <b>'+fmt(_hB)+'h</b> ('+_rotHB+')'+(_prH.ehParcial?' (projeção anualizada ~'+fmt(_hBproj)+'h)':'')+'.';
         }
       }
       _p4 = '<span class="cons-ico">'+_icoH+'</span> <b>'+_tituloH+'</b> '+
@@ -1896,7 +1930,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722r';
+  var _cb = '?v=20260722s';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
