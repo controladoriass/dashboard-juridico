@@ -1159,10 +1159,9 @@ function renderDashboard(){
         _conclEv;
     }
 
-    // §3 ESFORCO — conclusao baseada em volume + tramitacao
+    // §3 ESFORCO — volume + tramitacao + evolucao ano-a-ano (compromissos totais)
     var _p3 = '';
     if(_totComp>0){
-      var _mediaCompAno = _totComp / Math.max(_estKeys.length,1);
       var _tramitAnos = _tramit>0 ? (_tramit/365) : 0;
       var _icoEs='⚙', _tituloEs, _conclEs;
       if(_totComp>=3000){
@@ -1171,6 +1170,28 @@ function renderDashboard(){
         _tituloEs = 'Volume operacional consistente.';
       } else {
         _tituloEs = 'Atuação operacional contínua.';
+      }
+      // evolucao ano-a-ano dos compromissos (soma prazos+audiencias+tarefas por ano no recorte)
+      var _compYear = {}; var _anosEsf = new Set();
+      [_prazC,_audC,_tarC].forEach(function(o){ Object.keys(o||{}).forEach(function(y){ _anosEsf.add(y); _compYear[y]=(_compYear[y]||0)+(+o[y]||0); }); });
+      var _anosCompArr = Array.from(_anosEsf).filter(function(y){return _compYear[y]>0;}).sort();
+      var _compEvoTxt = '';
+      if(_anosCompArr.length>=2){
+        var _yA = _anosCompArr[0], _yB = _anosCompArr[_anosCompArr.length-1];
+        var _cA = _compYear[_yA], _cB = _compYear[_yB];
+        if(_cA>=3){
+          var _rat = _cB / _cA;
+          var _ratTxt = _rat>=2 ? Math.round(_rat) : (Math.round(_rat*10)/10).toString().replace('.',',');
+          if(_rat>=1.5){
+            _compEvoTxt = ' Os compromissos subiram de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_yB+'), multiplicando o ritmo anual por <b>'+_ratTxt+'×</b>.';
+          } else if(_rat>=1.1){
+            _compEvoTxt = ' Os compromissos evoluíram de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_yB+'), com crescimento gradual na demanda anual.';
+          } else if(_rat>=0.9){
+            _compEvoTxt = ' O ritmo anual manteve-se estável entre <b>'+_yA+'</b> ('+fmt(_cA)+') e <b>'+_yB+'</b> ('+fmt(_cB)+').';
+          } else {
+            _compEvoTxt = ' O ritmo anual recuou de <b>'+fmt(_cA)+'</b> ('+_yA+') para <b>'+fmt(_cB)+'</b> ('+_yB+').';
+          }
+        }
       }
       if(_tramitAnos>=3.5){
         _conclEs = 'A tramitação média longa (cerca de <b>'+fmtDec(_tramitAnos)+' anos</b> por processo) exige acompanhamento sênior sustentado e produção jurídica recorrente.';
@@ -1183,11 +1204,11 @@ function renderDashboard(){
       }
       _p3 = '<span class="cons-ico">'+_icoEs+'</span> <b>'+_tituloEs+'</b> '+
         'A equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN+' ('+fmt(_totPraz)+' prazos, '+fmt(_totAud)+' audiências e '+fmt(_totTar)+' tarefas)'+
-        (_tramit>0 ? ', com tempo médio de tramitação de <b>'+fmt(_tramit)+' dias</b> por processo' : '')+'. '+
-        _conclEs;
+        (_tramit>0 ? ', com tempo médio de tramitação de <b>'+fmt(_tramit)+' dias</b> por processo' : '')+'.'+
+        _compEvoTxt+' '+_conclEs;
     }
 
-    // §4 HORAS — conclusao mais direta (demanda / dedicacao do time)
+    // §4 HORAS — total + medias + evolucao ano-a-ano das horas apontadas
     var _p4 = '';
     if(_totHoras>0){
       var _icoH='⏱', _tituloH, _conclH;
@@ -1204,11 +1225,30 @@ function renderDashboard(){
         _tituloH = 'Registro de horas iniciado no período.';
         _conclH = 'O apontamento reflete o começo da consolidação das horas por processo.';
       }
+      // evolucao ano-a-ano das horas (usa _horasC, que ja esta cortado ao recorte)
+      var _horasEvoTxt = '';
+      var _yrsH = Object.keys(_horasC||{}).filter(function(y){return (+_horasC[y]||0)>0;}).sort();
+      if(_yrsH.length>=2){
+        var _hA = +_horasC[_yrsH[0]]||0, _hB = +_horasC[_yrsH[_yrsH.length-1]]||0;
+        if(_hA>=5){
+          var _rH = _hB/_hA;
+          var _rHtxt = _rH>=2 ? Math.round(_rH) : (Math.round(_rH*10)/10).toString().replace('.',',');
+          if(_rH>=1.5){
+            _horasEvoTxt = ' As horas apontadas subiram de <b>'+fmt(_hA)+'h</b> ('+_yrsH[0]+') para <b>'+fmt(_hB)+'h</b> ('+_yrsH[_yrsH.length-1]+'), multiplicando a carga anual por <b>'+_rHtxt+'×</b>.';
+          } else if(_rH>=1.1){
+            _horasEvoTxt = ' As horas apontadas evoluíram de <b>'+fmt(_hA)+'h</b> ('+_yrsH[0]+') para <b>'+fmt(_hB)+'h</b> ('+_yrsH[_yrsH.length-1]+'), com crescimento gradual da carga anual.';
+          } else if(_rH>=0.9){
+            _horasEvoTxt = ' A carga anual manteve-se estável entre <b>'+_yrsH[0]+'</b> ('+fmt(_hA)+'h) e <b>'+_yrsH[_yrsH.length-1]+'</b> ('+fmt(_hB)+'h).';
+          } else {
+            _horasEvoTxt = ' A carga anual recuou de <b>'+fmt(_hA)+'h</b> ('+_yrsH[0]+') para <b>'+fmt(_hB)+'h</b> ('+_yrsH[_yrsH.length-1]+').';
+          }
+        }
+      }
       _p4 = '<span class="cons-ico">'+_icoH+'</span> <b>'+_tituloH+'</b> '+
         'Foram apontadas <b>'+fmt(_totHoras)+' horas</b> de trabalho técnico'+(_h._estimativa?' (parcial)':'')+
         ', com média de <b>'+fmtDec(_mediaProc)+' horas por processo</b>'+
-        (_mediaAtivos>0 ? ' e <b>'+fmtDec(_mediaAtivos)+' horas por processo ativo</b>' : '')+'. '+
-        _conclH;
+        (_mediaAtivos>0 ? ' e <b>'+fmtDec(_mediaAtivos)+' horas por processo ativo</b>' : '')+'.'+
+        _horasEvoTxt+' '+_conclH;
     }
 
     var _html = [_p2,_p3,_p4].filter(function(t){return !!t;}).map(function(t){return '<p>'+t+'</p>';}).join('');
@@ -1750,7 +1790,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722l';
+  var _cb = '?v=20260722m';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
