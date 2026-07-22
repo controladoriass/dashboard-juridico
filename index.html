@@ -1190,8 +1190,10 @@ function renderDashboard(){
 
     // Helpers: projeta ano incompleto (corte no meio do ano) para o ano cheio, mantido o ritmo
     // Retorna { anoBase, valBase, anoFim, valFim, valFimProj, mesesDecorridos, ehParcial, ratio }
-    function _projAnual(serieRecortada){
+    // Opcional: minAno para descartar anos base pouco confiaveis (ex: horas em 2022 sub-registradas)
+    function _projAnual(serieRecortada, minAno){
       var yrs = Object.keys(serieRecortada||{}).filter(function(y){return (+serieRecortada[y]||0)>0;}).sort();
+      if(minAno){ yrs = yrs.filter(function(y){ return +y >= +minAno; }); }
       if(yrs.length<2) return null;
       var yA=yrs[0], yB=yrs[yrs.length-1];
       var vA=+serieRecortada[yA]||0, vB=+serieRecortada[yB]||0;
@@ -1289,7 +1291,8 @@ function renderDashboard(){
       // evolucao ano-a-ano das horas (usa _horasC, que ja esta cortado ao recorte)
       // c/ projecao para ano incompleto (ex: 2026 pela metade -> anualiza o ritmo)
       var _horasEvoTxt = '';
-      var _prH = _projAnual(_horasC);
+      // §Horas usa ano base >= 2023 (timesheet de 2022 sub-registrado)
+      var _prH = _projAnual(_horasC, 2023);
       if(_prH && _prH.valBase>=5){
         var _hA=_prH.valBase, _hB=_prH.valFim, _hBproj=_prH.valFimProj, _rH=_prH.ratio;
         var _rHtxt = _formatRatio(_rH);
@@ -1929,7 +1932,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722s';
+  var _cb = '?v=20260722t';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
