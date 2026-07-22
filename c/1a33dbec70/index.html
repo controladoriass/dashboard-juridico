@@ -460,6 +460,14 @@
     .sh-sec .n{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#CFA36E;font-weight:700}
     .sh-sec h2{font-size:19px;color:#fff;font-weight:700;margin:4px 0 6px}
     .sh-sec p{font-size:10.5px;color:#aab0c6;line-height:1.5;max-width:210mm}
+    /* capa dedicada (pagina 1 do PDF): so logo + nome do grupo, sem cabecalho/rodape */
+    .sheet.is-cover{background:#09001E !important;justify-content:center;align-items:center;padding:0}
+    .sheet.is-cover .sh-top,.sheet.is-cover .sh-foot{display:none !important}
+    .sheet.is-cover .cover-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26mm;text-align:center;width:100%}
+    .sheet.is-cover .cover-logo{width:150mm;height:auto;filter:brightness(0) invert(1)}
+    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#fff;font-size:28px;letter-spacing:.02em;line-height:1.15;max-width:220mm}
+    .sheet.is-cover .cover-nome em{font-style:normal;color:#CFA36E}
+    .sheet.is-cover .cover-eyebrow{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:-14mm}
     /* clones de cards/gráficos herdam o visual do dashboard; garantimos cor e respiro */
     #view-print .card{background:#1c2142 !important;border:1px solid #2d3358 !important;border-radius:14px;padding:16px 18px !important;width:100%;margin:0}
     #view-print .card h3{color:#CFA36E !important;font-size:13px}
@@ -1420,6 +1428,16 @@ function montarPrint(){
   // bloco de leitura (insight) por id do <p>
   function cloneInsight(pid){ var e=document.getElementById(pid); if(!e)return null; var ins=e.closest('.insight'); if(!ins)return null; if(getComputedStyle(ins).display==='none')return null; return ins.cloneNode(true); }
 
+  // ---------- PÁGINA 0: CAPA (logo Silva & Silva + nome do grupo) ----------
+  var _logoCortina = document.querySelector('.curtain .clogo');
+  var _logoSrc = _logoCortina ? _logoCortina.getAttribute('src') : '';
+  var _capaDed = document.createElement('div'); _capaDed.className='sheet is-cover';
+  _capaDed.innerHTML = '<div class="cover-inner">'+
+    (_logoSrc ? '<img class="cover-logo" src="'+_logoSrc+'" alt="Silva & Silva">' : '')+
+    '<div class="cover-nome">'+(m.nomeHtml||nomeGrupo)+'</div>'+
+    '</div>';
+  vp.appendChild(_capaDed); totalSheets++;
+
   // ---------- PÁGINA 1: capa/Volume — hero + KPIs principais ----------
   var capa=document.createElement('div');
   capa.innerHTML='<div style="text-align:left"><div style="font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:14px">Indicadores Jurídicos</div>'+
@@ -1556,7 +1574,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722d';
+  var _cb = '?v=20260722e';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
