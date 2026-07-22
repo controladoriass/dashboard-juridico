@@ -1345,16 +1345,16 @@ function renderDashboard(){
     // Campos: valor_mensal, indice, reajuste_periodo, hora_excedente (null = não cadastrado),
     // data_inicio (AAAA-MM-DD), status, obs. Outros grupos: adicionar aqui quando conferidos.
     var _CONTRATOS = {
-      russi: {
-        _fonte: 'EasyJur contrato #1417 (id 167140)',
-        valor_mensal: 1991.12,
-        indice: 'CUB',
-        reajuste_periodo: 'julho de cada ano',
-        hora_excedente: null,
-        data_inicio: '2022-07-01',
-        status: 'VIGENTE',
-        obs: 'REAJUSTE JULHO DE CADA ANO PELO CUB.'
-      }
+      russi:    { valor_mensal: 12292.66 },
+      bhm:      { valor_mensal:  2296.20 },
+      cn:       { valor_mensal:  7294.50 },
+      concept:  { valor_mensal:  7294.50 },
+      zm:       { valor_mensal: 19452.00 },
+      integra:  { valor_mensal:  3241.68 },
+      porto:    { valor_mensal:  6484.00 },
+      profor:   { valor_mensal:  5829.12 },
+      wf:       { valor_mensal:  8169.44 }
+      // abc: pendente (Rangel vai puxar depois)
     };
     var _c = _CONTRATOS[_gAtC];
     if(!_c){ _bl.style.display='none'; return; }
@@ -1935,7 +1935,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722u';
+  var _cb = '?v=20260722v';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
