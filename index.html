@@ -1307,15 +1307,20 @@ function renderDashboard(){
     if(!_mostraCt){ _bl.style.display='none'; return; }
     // base de contratos por grupo — placeholder (dados reais depois)
     // Cada entrada: {valor_mensal, moeda_ref, reajuste, indice, hora_excedente, data_inicio, status, obs}
+    // Base de contratos-mestre por grupo. Só entra aqui o que foi conferido no EasyJur.
+    // Fonte atual: EasyJur (get_contrato via MCP) + revisão manual.
+    // Campos: valor_mensal, indice, reajuste_periodo, hora_excedente (null = não cadastrado),
+    // data_inicio (AAAA-MM-DD), status, obs. Outros grupos: adicionar aqui quando conferidos.
     var _CONTRATOS = {
       russi: {
+        _fonte: 'EasyJur contrato #1417 (id 167140)',
         valor_mensal: 1991.12,
         indice: 'CUB',
         reajuste_periodo: 'julho de cada ano',
-        hora_excedente: 450.00,
+        hora_excedente: null,
         data_inicio: '2022-07-01',
         status: 'VIGENTE',
-        obs: 'Reajuste anual pelo CUB em julho de cada ano.'
+        obs: 'REAJUSTE JULHO DE CADA ANO PELO CUB.'
       }
     };
     var _c = _CONTRATOS[_gAtC];
@@ -1908,7 +1913,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260722o';
+  var _cb = '?v=20260722p';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
