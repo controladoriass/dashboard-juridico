@@ -1351,7 +1351,7 @@ function renderDashboard(){
       zm:       { valor_mensal: 19452.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-03-10' },
       integra:  { valor_mensal:  3241.68, indice: 'IGP-M',            reajuste_periodo: 'anual' },
       porto:    { valor_mensal:  6484.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2020-03-30' },
-      profor:   { valor_mensal:  5829.12, indice: 'Salário Mínimo',   reajuste_periodo: 'anual' },
+      profor:   { valor_mensal:  5829.12, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-07-15' },
       wf:       { valor_mensal:  8169.44, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2018-09-01' }
       // abc: pendente (Rangel vai puxar depois)
     };
@@ -1934,7 +1934,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723a';
+  var _cb = '?v=20260723b';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
