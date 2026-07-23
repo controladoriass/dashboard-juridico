@@ -254,6 +254,21 @@ if(visivel('extrajudano') && GRUPO_ATUAL !== 'abc') sheet([cloneCardOf('extrajud
 
 A função arredondava para inteiro quando o valor era ≥ 2 (2,3 virava "~2×"). Agora sempre mostra 1 casa: 2,3 fica "2,3", 6,3 fica "6,3".
 
+### 7.11 ⚠️ Consolidar.py preserva `nome`, `nomeHtml`, `nEmpresas` e empresas com 0 procs
+
+Bug detectado 23/07/2026 (pós-refactor): 4 grupos (ABC, WF, ZM, Concept) apareceram como "undefined" no card do site-mãe. Causas:
+
+- **`consolidar.py` não estava preservando `nome` e `nomeHtml`** do topo do JSON (só preservava o `nome` dentro das empresas). Cards do site-mãe usam `data.nome` como título → aparecia "undefined".
+- **Também não preservava `nEmpresas`** — o KPI "N partes atendidas" mostrava "0".
+- **Descartava empresas com 0 processos** — 3 empresas do ABC (Gralha Azul, AG&F, Triunfante) sumiram do JSON. Deveriam permanecer com flag `_semProcessos: true`.
+
+**Fix aplicado no `consolidar.py`:**
+- Preserva `nome`, `nomeHtml` do JSON antigo (topo)
+- Grava `nEmpresas` = número de empresas reais (exclui `_panorama`)
+- Mantém empresas sem processos com `dataset._semProcessos = true` (para o card exibir "em atualização" e ela continuar contando em "Partes atendidas")
+
+**Se o bug voltar:** verificar em `dados/<grupo>.json` que `nome`, `nomeHtml` e `nEmpresas` existem no topo do arquivo.
+
 ---
 
 ## 8. Fluxo de atualização mensal (checklist)

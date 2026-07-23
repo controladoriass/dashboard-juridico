@@ -668,5 +668,8 @@
         }
       }
     }
-  }
+  },
+  "nome": "Concept",
+  "nomeHtml": "<em>Concept</em>",
+  "nEmpresas": 3
 }
