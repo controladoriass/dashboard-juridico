@@ -701,7 +701,7 @@ body.dash.is-semdados #sd-overlay{display:block}
   </div>
 
   <div class="kpis reveal" style="margin-bottom:24px;--kn:4">
-    <div class="kpi"><div class="n" id="v-cresc">—</div><div class="k">Crescimento do estoque</div><div class="sub" id="v-cresc-sub">—</div><span class="trend" id="v-trend">▲ expansão</span></div>
+    <div class="kpi"><div class="n" id="v-cresc">—</div><div class="k">Ritmo de novos processos</div><div class="sub" id="v-cresc-sub">—</div><span class="trend" id="v-trend">▲ expansão</span></div>
     <div class="kpi"><div class="n" id="v-entradas">0</div><div class="k">Entradas no período</div><div class="sub">total de processos abertos</div></div>
     <div class="kpi"><div class="n" id="v-encerr">0</div><div class="k">Encerramentos</div><div class="sub">casos finalizados (por status)</div></div>
     <div class="kpi"><div class="n" data-count="0" id="v-ativos">0</div><div class="k">Ativos hoje</div><div class="sub" id="v-ativos-sub">processos em andamento</div></div>
@@ -1170,17 +1170,31 @@ function renderDashboard(){
     var _tribN = Object.keys(_ds.tribunais||{}).length;
 
     // evolução — recorte >= ANO_MIN (mesma base dos gráficos)
+    // Crescimento medido pelo VOLUME DE ENTRADAS (ritmo de novos processos), não pelo estoque acumulado.
+    // Compara entradas do 1º ano do recorte vs último ano CHEIO (descarta o ano corrente se parcial).
     var _estC = cortaAnos(_ds.estoque||{}), _entC = cortaAnos(_ds.entradas||{}), _encC = cortaAnos(_ds.encerrados||{});
-    var _estVals = Object.values(_estC), _estKeys = Object.keys(_estC);
-    var _primVal = _estVals[0]||0, _ultVal = _estVals[_estVals.length-1]||0;
-    var _baseKey = _estKeys[0], _baseVal = _primVal;
-    if(_baseVal<5){ for(var _i=0;_i<_estKeys.length;_i++){ if((_estVals[_i]||0)>=5){ _baseKey=_estKeys[_i]; _baseVal=_estVals[_i]; break; } } }
+    var _estKeys = Object.keys(_estC), _estVals = Object.values(_estC);
+    var _entKeys = Object.keys(_entC), _entVals = Object.values(_entC);
+    // Base: 1º ano com >=5 entradas (evita ×inflado por base baixa)
+    var _baseKey = _entKeys[0]||'', _baseVal = _entVals[0]||0;
+    if(_baseVal<5){ for(var _i=0;_i<_entKeys.length;_i++){ if((_entVals[_i]||0)>=5){ _baseKey=_entKeys[_i]; _baseVal=_entVals[_i]; break; } } }
+    // Fim: último ano cheio (se o mais recente = ano da data de corte, olha o anterior)
+    var _ultKey = _entKeys[_entKeys.length-1]||'', _ultVal = _entVals[_entVals.length-1]||0;
+    try {
+      var _anoCorteI = (typeof DATA_CORTE!=='undefined' && DATA_CORTE.curta) ? String(DATA_CORTE.curta).slice(-4) : '';
+      if(_anoCorteI && _ultKey===_anoCorteI && _entKeys.length>=2){
+        _ultKey = _entKeys[_entKeys.length-2]; _ultVal = _entVals[_entVals.length-2]||0;
+      }
+    } catch(e){}
     var _mult = _baseVal>0 ? (_ultVal/_baseVal) : 0;
     var _multTxt = _mult>=2 ? Math.round(_mult) : (Math.round(_mult*10)/10).toString().replace('.',',');
-    var _ultKey = _estKeys[_estKeys.length-1]||'';
     var _totEnt = Object.values(_entC).reduce(function(a,b){return a+(+b||0);},0);
     var _totEnc = Object.values(_encC).reduce(function(a,b){return a+(+b||0);},0);
     var _saldo = _totEnt - _totEnc;
+    // Valor final do estoque (usado só na narrativa de saldo/carteira)
+    var _estIni = _estVals[0]||0;
+    var _estFim = _estVals[_estVals.length-1]||0;
+    var _estIniKey = _estKeys[0]||'', _estFimKey = _estKeys[_estKeys.length-1]||'';
 
     // esforço
     var _prazC = cortaAnos(_esf.prazano||{}), _audC = cortaAnos(_esf.audano||{}), _tarC = cortaAnos(_esf.tarefano||{});
@@ -1220,8 +1234,8 @@ function renderDashboard(){
         _conclEv = 'O saldo líquido de <b>'+fmt(_saldo)+' processos</b> indica encerramentos superando entradas no período.';
       }
       _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
-        'De <b>'+_baseKey+'</b> a <b>'+_ultKey+'</b>, o estoque de processos '+(_mult>=1?'multiplicou-se':'reduziu-se em fator')+' de <b>'+_multTxt+'×</b> (de '+fmt(_baseVal)+' para '+fmt(_ultVal)+' processos ativos). '+
-        'No mesmo recorte, foram registradas <b>'+fmt(_totEnt)+' entradas</b> contra <b>'+fmt(_totEnc)+' encerramentos</b>. '+
+        'De <b>'+_baseKey+'</b> a <b>'+_ultKey+'</b>, o volume anual de novos processos '+(_mult>=1?'multiplicou-se':'reduziu-se em fator')+' de <b>'+_multTxt+'×</b> (de '+fmt(_baseVal)+' para '+fmt(_ultVal)+' entradas/ano). '+
+        'No mesmo recorte, foram registradas <b>'+fmt(_totEnt)+' entradas</b> contra <b>'+fmt(_totEnc)+' encerramentos</b>, elevando a carteira ativa de <b>'+fmt(_estIni)+'</b> ('+_estIniKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'). '+
         _conclEv;
     }
 
@@ -1435,21 +1449,33 @@ function renderDashboard(){
   // insights dinâmicos (gerados dos dados) — séries cortadas ao recorte de exibição (>= ANO_MIN)
   const ds=DATA.dataset;
   const _estC=cortaAnos(ds.estoque), _entC=cortaAnos(ds.entradas), _encC=cortaAnos(ds.encerrados);
-  // KPIs da seção Volume (crescimento, entradas totais, encerramentos) — base 2022→2026
-  const estVals=Object.values(_estC), estKeys=Object.keys(_estC);
-  const primVal=estVals[0]||1, ultVal=estVals[estVals.length-1]||0;
-  // base representativa: 1º ano (do recorte) com estoque >=5 (evita multiplicador inflado por base baixa)
-  var _baseKey=estKeys[0], _baseVal=primVal;
-  if(_baseVal<5){ for(var _bi=0;_bi<estKeys.length;_bi++){ if((estVals[_bi]||0)>=5){ _baseKey=estKeys[_bi]; _baseVal=estVals[_bi]; break; } } }
-  const crescPct = _baseVal>0 ? Math.round((ultVal-_baseVal)/_baseVal*100) : 0;
-  const crescMult = _baseVal>0 ? (ultVal/_baseVal) : 0;
+  // KPIs da seção Volume — crescimento medido pelo VOLUME DE ENTRADAS (não pelo estoque acumulado).
+  // Compara nº de processos abertos no 1º ano do recorte vs o último ano cheio (evita 2026 parcial
+  // subestimar). Assim "3×" quer dizer: em 2025 entraram 3× mais processos que em 2022 (ritmo).
+  const estKeys=Object.keys(_estC);
+  const entVals=Object.values(_entC), entKeys=Object.keys(_entC);
+  // Base: primeiro ano com >=5 entradas (evita multiplicador inflado)
+  var _baseKey=entKeys[0]||'', _baseVal=entVals[0]||0;
+  if(_baseVal<5){ for(var _bi=0;_bi<entKeys.length;_bi++){ if((entVals[_bi]||0)>=5){ _baseKey=entKeys[_bi]; _baseVal=entVals[_bi]; break; } } }
+  // Fim: último ano cheio (se o mais recente for o ano corrente e ainda parcial, pega o anterior).
+  // Heurística: se o último ano do recorte for igual ao ano de DATA_CORTE.curta, olhar o penúltimo.
+  var _fimKey=entKeys[entKeys.length-1], _fimVal=entVals[entVals.length-1]||0;
+  try {
+    var _anoCorte = (DATA_CORTE && DATA_CORTE.curta) ? String(DATA_CORTE.curta).slice(-4) : '';
+    if(_anoCorte && _fimKey===_anoCorte && entKeys.length>=2){
+      _fimKey = entKeys[entKeys.length-2]; _fimVal = entVals[entVals.length-2]||0;
+    }
+  } catch(e){}
+  const crescPct = _baseVal>0 ? Math.round((_fimVal-_baseVal)/_baseVal*100) : 0;
+  const crescMult = _baseVal>0 ? (_fimVal/_baseVal) : 0;
   const totEntradas=Object.values(_entC).reduce((a,b)=>a+b,0);
   const totEncerr=Object.values(_encC).reduce((a,b)=>a+b,0);
+  // valor final do estoque (usado só na sub-legenda)
+  const _ultEst = Object.values(_estC)[Object.values(_estC).length-1]||0;
   if(el('v-cresc')){
-    // padrao unico p/ todos os grupos: sempre multiplicador "N×"
     var multTxt = crescMult>=2 ? Math.round(crescMult) : (Math.round(crescMult*10)/10).toString().replace('.',',');
     el('v-cresc').innerHTML = multTxt+'<small>×</small>';
-    el('v-cresc-sub').textContent='de '+_baseVal+' ('+_baseKey+') a '+ultVal+' ('+estKeys[estKeys.length-1]+')';
+    el('v-cresc-sub').textContent='entradas subiram de '+_baseVal+' ('+_baseKey+') para '+_fimVal+' ('+_fimKey+')';
     el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
   if(el('v-encerr')){ el('v-encerr').dataset.count=totEncerr; el('v-encerr').textContent=totEncerr.toLocaleString('pt-BR'); }
@@ -1979,7 +2005,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723m';
+  var _cb = '?v=20260723n';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
