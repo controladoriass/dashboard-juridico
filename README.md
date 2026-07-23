@@ -174,7 +174,139 @@ O site fica em `https://<owner>.github.io/<repo>/`.
 
 ---
 
-## 7. Changelog
+## 7. Lições aprendidas (LEIA ANTES DE ATUALIZAR)
+
+Erros que já cometi e que **NÃO devem se repetir na próxima atualização**. Estão listados por ordem de gravidade.
+
+### 7.1 ⚠️ Coleta: use `id_cliente=<INT>`, NUNCA `cliente=<id>`
+
+O parâmetro `cliente` do MCP `list_processos` faz **busca parcial** (LIKE) por id/nome, então retorna processos de OUTROS clientes cujo id/nome parcialmente casa. O parâmetro correto para filtro **exato** é `id_cliente=<INT>`.
+
+**Sintomas do bug:** panorama do grupo (feito por busca larga) não bate com a soma das empresas individuais (feita por `cliente=<id>` que traz ruído). Ex.: ABC tinha 610 vs 581, WF/ZM/etc. também divergiam.
+
+**Como validar sempre:**
+```
+Panorama total  ==  soma dos datasets das empresas
+Panorama ativos ==  soma dos ativos das empresas
+```
+Se não bater, coleta está errada.
+
+### 7.2 ⚠️ Atualize a DATA_CORTE quando os dados forem regenerados
+
+A `const DATA_CORTE` no `index.html` marca a data até quando os dados foram coletados. Se você reconsulta o EasyJur em julho e esquece de atualizar, aparece "Junho de 2026" nos PDFs e no topo — cliente vê data velha.
+
+Um só lugar pra atualizar:
+```js
+const DATA_CORTE = { curta:'23/07/2026', extenso:'Julho de 2026' };
+```
+Também troque o cache-buster (senão o navegador do cliente serve HTML/JSON velho da cache).
+
+### 7.3 ⚠️ Panorama = União dedup dos processos das empresas
+
+Nunca pegue apenas os totais do EasyJur para o panorama. **O panorama é a união deduplicada dos processos das empresas** (`id_processo` como chave). Se um processo aparece em duas empresas do grupo (ex.: Autor+Reu do mesmo grupo), conta 1× no panorama, 2× na soma naive.
+
+O `consolidar.py` (em `scratchpad/`) faz isso automaticamente. Nunca ache que "o EasyJur me deu X ativos e Y encerrados, coloco no panorama".
+
+### 7.4 ⚠️ Bugs de render que já apareceram
+
+Estes bugs foram corrigidos, mas se voltarem a aparecer:
+
+**KPIs travados em "0":** o `renderDashboard` seta `textContent='0'` como placeholder do count-up. Se `entrarDashboard` adiciona `.in` no card ANTES de `renderDashboard` popular `data-count`, o observer nunca dispara — KPI fica em "0". Fix atual: função `countUp` tem fallback quando `document.hidden` (aba background) e rede de segurança de 2,5s.
+
+**PDF donut "0 processos":** `montarPrint` clona ANTES do count-up SVG terminar. Fix: forçar valor final no `_donutNum` imediatamente após `revealAll()` e reescrever `fill` dos `<text>` do SVG (senão fica branco no papel).
+
+**PDF card "Partes atendidas" estourado:** 34 pills não cabiam em pill flex livre. Fix: `grid-template-columns: repeat(2, minmax(0, 1fr))`, `word-break: break-word`, `overflow-wrap`.
+
+**Meta `cliente-grupo` apagada:** ao copiar `index.html` para as pastas `c/`, esquecemos de reinjetar a `<meta>`. Todas as 10 pastas perderam a meta e caíram no modo padrão (404 no manifest). Fix: script `bump_cb_p.py` (em `_recoleta_abc/`) sempre injeta a meta corretamente. USE SEMPRE ESSE SCRIPT ao propagar mudanças do index.html.
+
+### 7.5 ⚠️ Métrica "Ritmo de novos processos" — decisão do Dr. Kim
+
+O KPI `v-cresc` do bloco Volume mede: `(estoque_no_ano_base + total_entradas_no_periodo) ÷ estoque_no_ano_base`.
+
+Ex. ABC: (188 + 475) ÷ 188 = 3,5×.
+
+**Observação matemática:** essa fórmula conta os processos abertos no ano-base duas vezes (estão no estoque de 2022 E nas entradas de 2022). Decisão explícita do Dr. Kim priorizar a leitura de negócio ("atuamos em N processos") sobre pureza matemática. Ver conversa 23/07/2026.
+
+Se algum sócio questionar, o histórico das 3 fórmulas testadas está no repo (git log) — estoque[fim]/estoque[base] = 1,7× → entradas[período]/entradas[base] = 6,3× → **(estoque+entradas)/estoque = 3,5× (atual)**.
+
+### 7.6 ⚠️ Recorte 2023 nos blocos Esforço e Horas
+
+O timesheet só foi implantado a partir de 2023. Dados de 2022 ficam sub-registrados e distorcem comparação ano-a-ano nos blocos "03 — Esforço" e "04 — Horas". Solução: `const ANO_MIN_ESFORCO = 2023` + `cortaAnosEsforco()` — usado só nesses dois blocos. Volume e Complexidade seguem `ANO_MIN=2022`.
+
+### 7.7 ⚠️ Complexidade só com ativos
+
+As distribuições do bloco 02 (área, UF, instância, polo, tribunais, ranking) refletem **só os processos ATIVOS** (status 1), não o histórico total. Sinalizado pelo flag `dataset._complexidadeSoAtivos = true`.
+
+Faz sentido de negócio: cliente quer saber onde está o esforço ATUAL, não o histórico completo. Regra vale para os 10 grupos.
+
+### 7.8 ⚠️ Nomenclatura "Reuniões e Diligências"
+
+Onde antes se lia "Tarefas" no bloco Esforço, agora se lê **"Reuniões e Diligências"** (título do card, sub-texto do KPI de compromissos, texto das Considerações §3). Mudança pedida pelo escritório para refletir melhor o que essas atividades são na prática.
+
+### 7.9 ⚠️ Página "Atividades extrajudiciais por ano" NÃO sai no PDF do ABC
+
+Só no PDF do ABC. Nos outros 9 grupos, continua saindo. Controle no `montarPrint`:
+```js
+if(visivel('extrajudano') && GRUPO_ATUAL !== 'abc') sheet([cloneCardOf('extrajudano')], ...);
+```
+
+### 7.10 ⚠️ `_formatRatio` sempre com 1 casa decimal
+
+A função arredondava para inteiro quando o valor era ≥ 2 (2,3 virava "~2×"). Agora sempre mostra 1 casa: 2,3 fica "2,3", 6,3 fica "6,3".
+
+---
+
+## 8. Fluxo de atualização mensal (checklist)
+
+Sempre nesta ordem:
+
+1. **Coletar** processos via MCP com `id_cliente=<INT>` por empresa (nunca `cliente`).
+   Para todos os 10 grupos: `abc`, `russi`, `wf`, `zm`, `cn`, `concept`, `profor`, `bhm`, `integra`, `porto`.
+
+2. **Consolidar** com `scratchpad/consolidar.py <grupo> <codigo>`:
+   - Recalcula panorama como união dedup
+   - Recalcula cada empresa individual
+   - Aplica Complexidade só-ativos automaticamente
+   - Preserva `esforco` e `horas` do JSON anterior (se houver — recoleta desses é passo separado)
+
+3. **Verificar** que bate: script imprime `Bate? True/True/True` para cada grupo.
+
+4. **Atualizar** `DATA_CORTE` no `index.html`:
+   ```js
+   const DATA_CORTE = { curta:'DD/MM/YYYY', extenso:'Mês de YYYY' };
+   ```
+
+5. **Bump cache-buster:**
+   ```js
+   var _cb = '?v=YYYYMMDDa';
+   ```
+
+6. **Propagar** para as 10 pastas `c/` (script `_recoleta_abc/bump_cb_p.py`).
+
+7. **Publicar:**
+   ```bash
+   cd _para_github
+   git add -A
+   git commit -m "Atualização mensal — corte DD/MM/YYYY"
+   git push
+   ```
+
+---
+
+## 9. Changelog
+
+### 2026-07-23 (grande refactor + auditoria)
+- **Panorama = soma das empresas** — 10/10 grupos com `id_cliente=<INT>` (filtro exato). Antes, filtro parcial trazia processos de terceiros.
+- **DATA_CORTE:** 30/06/2026 → 23/07/2026.
+- **KPI Ritmo** com fórmula do Dr. Kim: `(estoque_base + entradas) / estoque_base`. ABC = 3,5×.
+- **Blocos Esforço e Horas** com recorte 2023 (`ANO_MIN_ESFORCO`).
+- **Complexidade só-ativos** aplicada nos 10 grupos.
+- **Nomenclatura** "Tarefas" → "Reuniões e Diligências".
+- **PDF fixes:** donut Complexidade (número navy, não some no papel); "Partes atendidas" em grid 2 colunas com pills compactas; página "Atividades extrajudiciais" removida só do PDF do ABC.
+- **`_formatRatio`** com 1 casa decimal (2,3 não vira ~2×).
+- **34 empresas individuais do ABC populadas** com dataset completo (Volume + Complexidade só-ativos).
+- **Bug KPIs em "0"** corrigido no `countUp` (fallback aba oculta + rede de segurança 2,5s).
+- **CSVs de auditoria** gerados: `auditoria_ABC_ativos_COMPLETO_*.csv`, `auditoria_ABC_TAREFAS_*.csv`, `ABC_empresas_contagem.csv`, `ABC_processos_DIFERENCA.csv`.
 
 ### 2026-07-22
 - **Novo bloco "Partes atendidas" no Panorama do grupo.** Aparece só quando `DATA.dataset._panorama` e há >1 empresa real (exclui `_panorama`; exclui `_semDados`; inclui `_semProcessos`).
