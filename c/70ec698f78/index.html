@@ -884,11 +884,22 @@ const DATA_CORTE = { curta:'30/06/2026', extenso:'Junho de 2026' };
 // confiável para leitura). NÃO exclui processos — só corta a SÉRIE dos gráficos e os
 // cálculos derivados dela. Os KPIs de total (processos, ativos, áreas, horas) seguem reais.
 const ANO_MIN = 2022;
+// Recorte específico do bloco 03 - Esforço operacional. Em 2022 a controladoria ainda estava
+// implantando o timesheet, então audiências/prazos/tarefas de 2022 saem sub-registradas
+// (Kim, 22/07/2026). Excluímos 2022 do bloco Esforço para não comparar contra base falsa.
+const ANO_MIN_ESFORCO = 2023;
 // filtra um objeto {ano:valor} mantendo só os anos >= ANO_MIN (chaves não-numéricas caem)
 function cortaAnos(obj){
   if(!obj) return obj;
   var out={};
   Object.keys(obj).forEach(function(a){ if(/^\d{4}$/.test(a) && +a>=ANO_MIN) out[a]=obj[a]; });
+  return out;
+}
+// versão específica para Esforço (>= 2023)
+function cortaAnosEsforco(obj){
+  if(!obj) return obj;
+  var out={};
+  Object.keys(obj).forEach(function(a){ if(/^\d{4}$/.test(a) && +a>=ANO_MIN_ESFORCO) out[a]=obj[a]; });
   return out;
 }
 
@@ -1189,8 +1200,8 @@ function renderDashboard(){
     var _estFim = _estVals[_estVals.length-1]||0;
     var _estIniKey = _estKeys[0]||'', _estFimKey = _estKeys[_estKeys.length-1]||'';
 
-    // esforço
-    var _prazC = cortaAnos(_esf.prazano||{}), _audC = cortaAnos(_esf.audano||{}), _tarC = cortaAnos(_esf.tarefano||{});
+    // esforço — recorte 2023+ (2022 tinha timesheet sub-registrado, ver [[dashboard-esforco-corte-2023]])
+    var _prazC = cortaAnosEsforco(_esf.prazano||{}), _audC = cortaAnosEsforco(_esf.audano||{}), _tarC = cortaAnosEsforco(_esf.tarefano||{});
     var _totPraz = Object.values(_prazC).reduce(function(a,b){return a+(+b||0);},0);
     var _totAud = Object.values(_audC).reduce(function(a,b){return a+(+b||0);},0);
     var _totTar = Object.values(_tarC).reduce(function(a,b){return a+(+b||0);},0);
@@ -1309,7 +1320,7 @@ function renderDashboard(){
         _conclEs = 'O volume de atos indica atuação contínua da equipe em múltiplos ritos e ao longo de todo o período.';
       }
       _p3 = '<span class="cons-ico">'+_icoEs+'</span> <b>'+_tituloEs+'</b> '+
-        'A equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN+' ('+fmt(_totPraz)+' prazos, '+fmt(_totAud)+' audiências e '+fmt(_totTar)+' tarefas)'+
+        'A equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN_ESFORCO+' ('+fmt(_totPraz)+' prazos, '+fmt(_totAud)+' audiências e '+fmt(_totTar)+' tarefas)'+
         (_tramit>0 ? ', com tempo médio de tramitação de <b>'+fmt(_tramit)+' dias</b> por processo' : '')+'.'+
         _compEvoTxt+' '+_conclEs;
     }
@@ -1476,10 +1487,11 @@ function renderDashboard(){
   hbars('polo',ds.polo,true);
   donut();regions();tribunais();fluxo();
 
-  // === ESFORCO === (recorte >= ANO_MIN: recalcula totais a partir das séries por ano cortadas)
+  // === ESFORCO === (recorte >= ANO_MIN_ESFORCO=2023: 2022 tinha timesheet sub-registrado
+  // durante a implantação da controladoria — não entra nos indicadores desta aba)
   const esf=ds.esforco||{};
   const semEsf = !esf || Object.keys(esf).length===0;
-  var _audCe=cortaAnos(esf.audano), _prazCe=cortaAnos(esf.prazano), _tarCe=cortaAnos(esf.tarefano);
+  var _audCe=cortaAnosEsforco(esf.audano), _prazCe=cortaAnosEsforco(esf.prazano), _tarCe=cortaAnosEsforco(esf.tarefano);
   var _somaSerie=function(o){return Object.values(o||{}).reduce(function(a,b){return a+(+b||0);},0);};
   var _nPraz=_somaSerie(_prazCe), _nAud=_somaSerie(_audCe), _nTar=_somaSerie(_tarCe);
   // "Atividades por tipo" reconstruído do recorte; se não há série por ano, cai no total original
@@ -1488,15 +1500,15 @@ function renderDashboard(){
   else { _atv=esf.atividades||{}; }
   var _totComp=Object.keys(_atv).reduce(function(a,kk){return a+(_atv[kk]||0);},0);
   if(el('e-compromissos')){ if(semEsf||!_totComp){el('e-compromissos').removeAttribute('data-count');el('e-compromissos').textContent='—';} else {el('e-compromissos').dataset.count=_totComp; el('e-compromissos').textContent='0';} }
-  if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + tarefas · desde '+ANO_MIN;
+  if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + tarefas · desde '+ANO_MIN_ESFORCO;
   if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
   if(_nAud) vbars('audano',_audCe,[Object.keys(_audCe).slice(-1)[0]]);
   if(_nPraz) vbars('prazano',_prazCe,[Object.keys(_prazCe).slice(-1)[0]]);
   if(_nTar) vbars('tarefano',_tarCe,[Object.keys(_tarCe).slice(-1)[0]]);
   if(_totComp) hbars('atividades',_atv);
-  // atividades extrajudiciais por ano (recorte >= ANO_MIN)
-  var _extC=cortaAnos(esf.extrajudano); var _nExtra=_somaSerie(_extC);
+  // atividades extrajudiciais por ano (bloco Esforço — recorte >= ANO_MIN_ESFORCO=2023)
+  var _extC=cortaAnosEsforco(esf.extrajudano); var _nExtra=_somaSerie(_extC);
   if(_nExtra) vbars('extrajudano',_extC,[Object.keys(_extC).slice(-1)[0]]);
   var _au=el('audano'); if(_au){var c1=_au.closest('.card'); if(c1) c1.style.display=_nAud?'':'none';}
   var _pz=el('prazano'); if(_pz){var cp=_pz.closest('.card'); if(cp) cp.style.display=_nPraz?'':'none';}
@@ -1991,7 +2003,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723o';
+  var _cb = '?v=20260723p';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
