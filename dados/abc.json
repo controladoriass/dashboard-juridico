@@ -252,21 +252,143 @@
       "nome": "Abelardo Benigno & Costa Empreendimentos Ltda - ABC",
       "_idCliente": 2125292,
       "dataset": {
-        "total": 209,
-        "ativos": 109,
+        "total": 202,
+        "ativos": 102,
         "encerrados": 100,
         "kpi": {
-          "proc": 209,
-          "procSub": "109 ativos · 100 encerrados",
-          "ativos": 109,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "proc": 202,
+          "ativos": 102,
+          "areas": 6,
+          "trib": 9,
+          "procSub": "102 ativos · 100 encerrados",
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "tribSub": "TJSC, N/I, TRT12"
+        },
+        "estoque": {
+          "2022": 47,
+          "2023": 46,
+          "2024": 54,
+          "2025": 85,
+          "2026": 105
+        },
+        "entradas": {
+          "2022": 20,
+          "2023": 19,
+          "2024": 22,
+          "2025": 58,
+          "2026": 44
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 20,
+          "2024": 14,
+          "2025": 28,
+          "2026": 23
+        },
+        "areaTotal": 102,
+        "area": {
+          "Cível": 64,
+          "Trabalhista": 20,
+          "Tributário": 9,
+          "Penal-Criminal": 3,
+          "Ambiental": 3,
+          "Administrativo": 3
+        },
+        "uf": {
+          "SC": 80,
+          "N/I": 11,
+          "PR": 4,
+          "SP": 4,
+          "DF": 2,
+          "PI": 1
+        },
+        "instancia": {
+          "1º Grau": 85,
+          "2º Grau": 15,
+          "Superiores": 2
+        },
+        "polo": {
+          "Polo ativo": 33,
+          "Polo passivo": 58,
+          "Terceiro/Outros": 11
+        },
+        "tribunais": {
+          "TJSC": 52,
+          "N/I": 21,
+          "TRT12": 16,
+          "TJPR": 4,
+          "TJSP": 4,
+          "STJ": 2,
+          "MPSC": 1,
+          "TRT22": 1,
+          "MINTRAB": 1
+        },
+        "ranking": [
+          [
+            "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
+            4
+          ],
+          [
+            "CONDOMÍNIO TORRES DO CARIBE RESIDENCE",
+            3
+          ],
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            3
+          ],
+          [
+            "MILKY WAY PARTICIPAÇÕES S.A.",
+            3
+          ],
+          [
+            "MINISTÉRIO DO TRABALHO E EMPREGO",
+            3
+          ],
+          [
+            "ANILDO BARBOSA DELFES JUNIOR",
+            3
+          ],
+          [
+            "FUNDAÇÃO AMBIENTAL ÁREA COSTEIRA DE ITAPEMA FAACI",
+            3
+          ],
+          [
+            "MUNICÍPIO DE CAMBORIÚ",
+            2
+          ],
+          [
+            "LPJ PARTICIPACOES LTDA",
+            2
+          ],
+          [
+            "SILVIA SIMOES BUENO BATTISTELLA",
+            2
+          ],
+          [
+            "HENRIQUE SANTOS SILVEIRA",
+            2
+          ],
+          [
+            "ATHOS PERUZZOLO",
+            2
+          ],
+          [
+            "GUILHERME DONDONI",
+            2
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            2
+          ],
+          [
+            "OTÁVIO MENDES DE ASSIS",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       },
       "_isMainClient": true
     },
@@ -279,16 +401,132 @@
         "encerrados": 46,
         "kpi": {
           "proc": 92,
-          "procSub": "46 ativos · 46 encerrados",
           "ativos": 46,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 4,
+          "trib": 6,
+          "procSub": "46 ativos · 46 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TJSP, N/I"
+        },
+        "estoque": {
+          "2022": 17,
+          "2023": 16,
+          "2024": 17,
+          "2025": 39,
+          "2026": 46
+        },
+        "entradas": {
+          "2022": 14,
+          "2023": 9,
+          "2024": 14,
+          "2025": 38,
+          "2026": 14
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 10,
+          "2024": 13,
+          "2025": 16,
+          "2026": 7
+        },
+        "areaTotal": 46,
+        "area": {
+          "Cível": 41,
+          "Tributário": 2,
+          "Trabalhista": 2,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 40,
+          "SP": 3,
+          "N/I": 1,
+          "DF": 1,
+          "RJ": 1
+        },
+        "instancia": {
+          "1º Grau": 33,
+          "2º Grau": 12,
+          "Superiores": 1
+        },
+        "polo": {
+          "Polo ativo": 14,
+          "Polo passivo": 28,
+          "Terceiro/Outros": 4
+        },
+        "tribunais": {
+          "TJSC": 37,
+          "TJSP": 3,
+          "N/I": 3,
+          "STJ": 1,
+          "TRT12": 1,
+          "TRT01": 1
+        },
+        "ranking": [
+          [
+            "CHUN YIN HO",
+            3
+          ],
+          [
+            "NEUZA IZABEL VIVIAN",
+            3
+          ],
+          [
+            "MUNICÍPIO DE CAMBORIÚ",
+            2
+          ],
+          [
+            "S&Y ADMINISTRADORA DE BENS LTDA",
+            2
+          ],
+          [
+            "SEVERINO BALBINO DA SILVA",
+            2
+          ],
+          [
+            "ALEXSSANDRO AMADOR LEAL",
+            1
+          ],
+          [
+            "G. A. INVESTIMENTOS LTDA - EM RECUPERACAO JUDICIAL EM RECUPERACAO JUDICIAL",
+            1
+          ],
+          [
+            "JOSE ALEXANDRE ROSSETTO BORTOLOTTO",
+            1
+          ],
+          [
+            "RAFAEL BATISTA DOS SANTOS",
+            1
+          ],
+          [
+            "ROBERSON MADEU BUZZI",
+            1
+          ],
+          [
+            "CELSO ALEXANDRE KESSLER",
+            1
+          ],
+          [
+            "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
+            1
+          ],
+          [
+            "ALEXANDRA MILIOLI SONDA",
+            1
+          ],
+          [
+            "CRISLEY ALICE GONCALVES MOBRICE LEWIS",
+            1
+          ],
+          [
+            "ALESSANDRO RODRIGUES SANT ANNA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "loteamento_sonho_real_ltda": {
@@ -300,16 +538,132 @@
         "encerrados": 38,
         "kpi": {
           "proc": 76,
-          "procSub": "38 ativos · 38 encerrados",
           "ativos": 38,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 4,
+          "trib": 5,
+          "procSub": "38 ativos · 38 encerrados",
+          "areasSub": "Cível, Tributário, Administrativo",
+          "tribSub": "TJSC, N/I, TJPR"
+        },
+        "estoque": {
+          "2022": 25,
+          "2023": 31,
+          "2024": 34,
+          "2025": 35,
+          "2026": 38
+        },
+        "entradas": {
+          "2022": 11,
+          "2023": 16,
+          "2024": 15,
+          "2025": 11,
+          "2026": 9
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 10,
+          "2024": 12,
+          "2025": 10,
+          "2026": 6
+        },
+        "areaTotal": 38,
+        "area": {
+          "Cível": 31,
+          "Tributário": 4,
+          "Administrativo": 2,
+          "Pública": 1
+        },
+        "uf": {
+          "SC": 29,
+          "PR": 3,
+          "RS": 3,
+          "DF": 2,
+          "N/I": 1
+        },
+        "instancia": {
+          "1º Grau": 28,
+          "2º Grau": 7,
+          "Superiores": 2,
+          "Não informado": 1
+        },
+        "polo": {
+          "Polo ativo": 14,
+          "Polo passivo": 24,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TJSC": 28,
+          "N/I": 3,
+          "TJPR": 3,
+          "TJRS": 3,
+          "STJ": 1
+        },
+        "ranking": [
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            3
+          ],
+          [
+            "RODRIGO RAMOS THIBES",
+            3
+          ],
+          [
+            "LORILEI APARECIDA TAVARES",
+            2
+          ],
+          [
+            "GILSON ROBERTO DA SILVA KEPPLER",
+            2
+          ],
+          [
+            "AGL CONSULTORIA E PROJETOS LTDA",
+            2
+          ],
+          [
+            "TIAGO MARTINS BARBOSA",
+            2
+          ],
+          [
+            "CONASA ITAPEMA",
+            1
+          ],
+          [
+            "RAFAEL MOREIRA ROHRIG",
+            1
+          ],
+          [
+            "ANDRE LUIZ FARIAS DE ANDRADE",
+            1
+          ],
+          [
+            "ANA CRISTINA GODINHO",
+            1
+          ],
+          [
+            "MINISTÉRIO DA FAZENDA",
+            1
+          ],
+          [
+            "DAIANE DO PRADO",
+            1
+          ],
+          [
+            "MAUNI PEREZ LOBATO",
+            1
+          ],
+          [
+            "MUNICIPIO DE ITAPEMA",
+            1
+          ],
+          [
+            "TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO GRANDE DO SUL / TJRS",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "embralot_empresa_brasileira_de_loteament": {
@@ -321,37 +675,258 @@
         "encerrados": 25,
         "kpi": {
           "proc": 73,
-          "procSub": "48 ativos · 25 encerrados",
           "ativos": 48,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 5,
+          "trib": 9,
+          "procSub": "48 ativos · 25 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TRF4, N/I"
+        },
+        "estoque": {
+          "2022": 34,
+          "2023": 31,
+          "2024": 42,
+          "2025": 41,
+          "2026": 49
+        },
+        "entradas": {
+          "2022": 8,
+          "2023": 5,
+          "2024": 15,
+          "2025": 7,
+          "2026": 8
+        },
+        "encerrados_por_ano": {
+          "2022": 1,
+          "2023": 8,
+          "2024": 4,
+          "2025": 8,
+          "2026": 0
+        },
+        "areaTotal": 48,
+        "area": {
+          "Cível": 24,
+          "Tributário": 20,
+          "Trabalhista": 2,
+          "Administrativo": 1,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 33,
+          "PR": 11,
+          "RS": 2,
+          "N/I": 1,
+          "DF": 1
+        },
+        "instancia": {
+          "1º Grau": 40,
+          "2º Grau": 7,
+          "Superiores": 1
+        },
+        "polo": {
+          "Polo ativo": 10,
+          "Polo passivo": 29,
+          "Terceiro/Outros": 9
+        },
+        "tribunais": {
+          "TJSC": 28,
+          "TRF4": 7,
+          "N/I": 3,
+          "Justiça Federal do Parana": 3,
+          "TJRS": 2,
+          "TRT12": 2,
+          "STJ": 1,
+          "SEFAZ": 1,
+          "TJPR": 1
+        },
+        "ranking": [
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            9
+          ],
+          [
+            "MUNICÍPIO DE PORTO BELO",
+            7
+          ],
+          [
+            "OSVALDO DE SOUZA",
+            3
+          ],
+          [
+            "MATHEUS PINHEIRO PEREZ",
+            2
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE PORTO BELO",
+            2
+          ],
+          [
+            "LL VITTA PARTICIPACOES LTDA",
+            2
+          ],
+          [
+            "LUIZ PEREIRA DA SILVA",
+            1
+          ],
+          [
+            "RAPHAEL SARGILO SARAMENTO VOLTOLINI",
+            1
+          ],
+          [
+            "VIDAL E LEHMAN NEGOCIOS IMOBILIARIOS LTDA",
+            1
+          ],
+          [
+            "FELIZARDO JOSE DA CONCEICAO",
+            1
+          ],
+          [
+            "A L P EMPREITEIRA DE MAO DE OBRA LTDA",
+            1
+          ],
+          [
+            "FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP",
+            1
+          ],
+          [
+            "JAQUELINE CLARO",
+            1
+          ],
+          [
+            "POSSUIDOR DO LOTE 30, QUADRA D, DO LOTEAMENTO JARDIM PARQUE ALESSANDRO",
+            1
+          ],
+          [
+            "NILSON CARDOZO DE OLIVEIRA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "jardim_europa_incorpora_es_imobili_rias_": {
       "nome": "Jardim Europa Incorporações Imobiliárias Ltda - ABC",
       "_idCliente": 2121899,
       "dataset": {
-        "total": 24,
+        "total": 17,
         "ativos": 17,
-        "encerrados": 7,
+        "encerrados": 0,
         "kpi": {
-          "proc": 24,
-          "procSub": "17 ativos · 7 encerrados",
+          "proc": 17,
           "ativos": 17,
           "areas": 1,
+          "trib": 2,
+          "procSub": "17 ativos · 0 encerrados",
           "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "tribSub": "TJSC, TJRS"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 8,
+          "2024": 8,
+          "2025": 15,
+          "2026": 17
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 8,
+          "2024": 0,
+          "2025": 7,
+          "2026": 2
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 17,
+        "area": {
+          "Cível": 17
+        },
+        "uf": {
+          "SC": 16,
+          "RS": 1
+        },
+        "instancia": {
+          "1º Grau": 15,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 14,
+          "Polo passivo": 3,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TJSC": 16,
+          "TJRS": 1
+        },
+        "ranking": [
+          [
+            "FELIPE DE FREITAS DOS REZES",
+            3
+          ],
+          [
+            "JADILSON SANTOS",
+            2
+          ],
+          [
+            "BARTOLOMEU LOURENÇO DA SILVA",
+            1
+          ],
+          [
+            "STRONG HOUSE INCORPORADORA LTDA",
+            1
+          ],
+          [
+            "GABRIEL GIRARDI",
+            1
+          ],
+          [
+            "ANDRE LUCIANO",
+            1
+          ],
+          [
+            "ALVARO LAURENTINO",
+            1
+          ],
+          [
+            "SP TEXTIL LTDA - SERGIO RODRIGO PETRIS",
+            1
+          ],
+          [
+            "TIAGO VALDECIR BALLOK PEREIRA",
+            1
+          ],
+          [
+            "JAIRO BONATTO",
+            1
+          ],
+          [
+            "IZA CARLA MELO GOMES",
+            1
+          ],
+          [
+            "FERNANDA SANTIAGO RODRIGUES 01774965097",
+            1
+          ],
+          [
+            "DOUGLAS GABRIEL PEDRO",
+            1
+          ],
+          [
+            "BARBARA JULIANA MAAS CATAFESTA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "abelardo_rafael_benigno": {
@@ -363,16 +938,100 @@
         "encerrados": 12,
         "kpi": {
           "proc": 22,
-          "procSub": "10 ativos · 12 encerrados",
           "ativos": 10,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 3,
+          "trib": 2,
+          "procSub": "10 ativos · 12 encerrados",
+          "areasSub": "Penal-Criminal, Cível, Administrativo",
+          "tribSub": "TJSC, N/I"
+        },
+        "estoque": {
+          "2022": 15,
+          "2023": 12,
+          "2024": 11,
+          "2025": 10,
+          "2026": 10
+        },
+        "entradas": {
+          "2022": 6,
+          "2023": 2,
+          "2024": 1,
+          "2025": 3,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 5,
+          "2024": 2,
+          "2025": 4,
+          "2026": 1
+        },
+        "areaTotal": 10,
+        "area": {
+          "Penal-Criminal": 6,
+          "Cível": 3,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 9,
+          "N/I": 1
+        },
+        "instancia": {
+          "1º Grau": 7,
+          "Não informado": 2,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Polo passivo": 7,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 6,
+          "N/I": 4
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            2
+          ],
+          [
+            "HENRIQUE SANTOS SILVEIRA",
+            1
+          ],
+          [
+            "DELEGADO DE POLÍCIA DE ITAPEMA/SC",
+            1
+          ],
+          [
+            "DELEGACIA DE POLÍCIA CIVIL DE ITAPEMA/SC",
+            1
+          ],
+          [
+            "FAACI",
+            1
+          ],
+          [
+            "LEONARDO HENSCHEL",
+            1
+          ],
+          [
+            "SIMONE LOBACK DE OLIVEIRA",
+            1
+          ],
+          [
+            "AUTORIDADE POLICIAL",
+            1
+          ],
+          [
+            "HEBER PAULO PASSOS",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "abc_empreendimentos_e_participa_es_ltda": {
@@ -384,37 +1043,151 @@
         "encerrados": 14,
         "kpi": {
           "proc": 20,
-          "procSub": "6 ativos · 14 encerrados",
           "ativos": 6,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 4,
+          "trib": 3,
+          "procSub": "6 ativos · 14 encerrados",
+          "areasSub": "Penal-Criminal, Trabalhista, Cível",
+          "tribSub": "N/I, TJSC, TRT12"
+        },
+        "estoque": {
+          "2022": 10,
+          "2023": 9,
+          "2024": 8,
+          "2025": 4,
+          "2026": 5
+        },
+        "entradas": {
+          "2022": 8,
+          "2023": 2,
+          "2024": 5,
+          "2025": 1,
+          "2026": 2
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 3,
+          "2024": 6,
+          "2025": 5,
+          "2026": 1
+        },
+        "areaTotal": 6,
+        "area": {
+          "Penal-Criminal": 3,
+          "Trabalhista": 1,
+          "Cível": 1,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 5,
+          "PR": 1
+        },
+        "instancia": {
+          "1º Grau": 6
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 2,
+          "Terceiro/Outros": 3
+        },
+        "tribunais": {
+          "N/I": 3,
+          "TJSC": 2,
+          "TRT12": 1
+        },
+        "ranking": [
+          [
+            "POLÍCIA CIVIL DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "CLEISON GOMES DOS SANTOS",
+            1
+          ],
+          [
+            "ANA LUCIA DIAS",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO FEDERAL",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "condom_nio_empresarial_navegantes_spe_lt": {
       "nome": "Condomínio Empresarial Navegantes SPE Ltda - ABC",
       "_idCliente": 4340268,
       "dataset": {
-        "total": 13,
-        "ativos": 6,
-        "encerrados": 7,
+        "total": 1,
+        "ativos": 1,
+        "encerrados": 0,
         "kpi": {
-          "proc": 13,
-          "procSub": "6 ativos · 7 encerrados",
-          "ativos": 6,
+          "proc": 1,
+          "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Tributário",
+          "tribSub": "TRF4"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "abc_brava_empreendimentos": {
@@ -426,16 +1199,73 @@
         "encerrados": 8,
         "kpi": {
           "proc": 11,
-          "procSub": "3 ativos · 8 encerrados",
           "ativos": 3,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 2,
+          "trib": 3,
+          "procSub": "3 ativos · 8 encerrados",
+          "areasSub": "Trabalhista, Administrativo",
+          "tribSub": "TRT12, N/I, MPT"
+        },
+        "estoque": {
+          "2022": 1,
+          "2023": 1,
+          "2024": 2,
+          "2025": 3,
+          "2026": 4
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 8,
+          "2025": 1,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 7,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 3,
+        "area": {
+          "Trabalhista": 2,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "1º Grau": 3
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 3,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TRT12": 1,
+          "N/I": 1,
+          "MPT": 1
+        },
+        "ranking": [
+          [
+            "MARIE ANGE LAMOURE",
+            1
+          ],
+          [
+            "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DE SC",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "empreendimento_143_may_fair_spe_ltda_emb": {
@@ -447,16 +1277,85 @@
         "encerrados": 3,
         "kpi": {
           "proc": 10,
-          "procSub": "7 ativos · 3 encerrados",
           "ativos": 7,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 3,
+          "trib": 6,
+          "procSub": "7 ativos · 3 encerrados",
+          "areasSub": "Administrativo, Trabalhista, Cível",
+          "tribSub": "TRT12, STJ, TJSC"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 4,
+          "2024": 7,
+          "2025": 6,
+          "2026": 7
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 4,
+          "2024": 3,
+          "2025": 1,
+          "2026": 2
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 2,
+          "2026": 1
+        },
+        "areaTotal": 7,
+        "area": {
+          "Administrativo": 4,
+          "Trabalhista": 2,
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 5,
+          "DF": 1,
+          "N/I": 1
+        },
+        "instancia": {
+          "1º Grau": 4,
+          "2º Grau": 2,
+          "Superiores": 1
+        },
+        "polo": {
+          "Polo ativo": 3,
+          "Polo passivo": 4,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TRT12": 2,
+          "STJ": 1,
+          "TJSC": 1,
+          "TRF4": 1,
+          "CREASC": 1,
+          "N/I": 1
+        },
+        "ranking": [
+          [
+            "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DE SC",
+            4
+          ],
+          [
+            "JADIR VOLTOLINE JUNIOR",
+            1
+          ],
+          [
+            "JESUINO DA VERA CRUZ COSTA",
+            1
+          ],
+          [
+            "LUIS CARLOS DA SILVA LIMA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "lago_de_garda_incorpora_es_ltda": {
@@ -468,16 +1367,78 @@
         "encerrados": 4,
         "kpi": {
           "proc": 8,
-          "procSub": "4 ativos · 4 encerrados",
           "ativos": 4,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 3,
+          "trib": 2,
+          "procSub": "4 ativos · 4 encerrados",
+          "areasSub": "Cível, Tributário, Administrativo",
+          "tribSub": "TJSC, N/I"
+        },
+        "estoque": {
+          "2022": 1,
+          "2023": 2,
+          "2024": 2,
+          "2025": 5,
+          "2026": 4
+        },
+        "entradas": {
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2025": 4,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 1,
+          "2023": 0,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "areaTotal": 4,
+        "area": {
+          "Cível": 2,
+          "Tributário": 1,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 4
+        },
+        "instancia": {
+          "1º Grau": 3,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 3,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TJSC": 3,
+          "N/I": 1
+        },
+        "ranking": [
+          [
+            "MUNICÍPIO DE CAMBORIÚ",
+            1
+          ],
+          [
+            "MARCELO CAPISTRANO G. DE OLIVEIRA MARTINS",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "RONALDO BORGES",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "thiago_cabral_costa": {
@@ -489,16 +1450,72 @@
         "encerrados": 3,
         "kpi": {
           "proc": 6,
-          "procSub": "3 ativos · 3 encerrados",
           "ativos": 3,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 2,
+          "trib": 2,
+          "procSub": "3 ativos · 3 encerrados",
+          "areasSub": "Administrativo, Tributário",
+          "tribSub": "N/I, TRF4"
+        },
+        "estoque": {
+          "2022": 3,
+          "2023": 3,
+          "2024": 4,
+          "2025": 3,
+          "2026": 3
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 2,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 2,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
+        },
+        "areaTotal": 3,
+        "area": {
+          "Administrativo": 2,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "1º Grau": 3
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 3,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "N/I": 2,
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "AGÊNCIA NACIONAL DE AVIAÇÃO CIVIL - ANAC",
+            1
+          ],
+          [
+            "MUNICÍPIO DE FLORIANÓPOLIS/SC",
+            1
+          ],
+          [
+            "DETRAN",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "nova_tijucas_empreendimentos_spe_ltda": {
@@ -510,16 +1527,75 @@
         "encerrados": 0,
         "kpi": {
           "proc": 5,
-          "procSub": "5 ativos · 0 encerrados",
           "ativos": 5,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 3,
+          "trib": 3,
+          "procSub": "5 ativos · 0 encerrados",
+          "areasSub": "Penal-Criminal, Cível, Ambiental",
+          "tribSub": "TJSC, Justiça Federal de Santa Catarina, TJSP"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 1,
+          "2024": 2,
+          "2025": 4,
+          "2026": 5
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 1,
+          "2024": 1,
+          "2025": 2,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 5,
+        "area": {
+          "Penal-Criminal": 2,
+          "Cível": 2,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 4,
+          "SP": 1
+        },
+        "instancia": {
+          "1º Grau": 5
+        },
+        "polo": {
+          "Polo ativo": 4,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 3,
+          "Justiça Federal de Santa Catarina": 1,
+          "TJSP": 1
+        },
+        "ranking": [
+          [
+            "NÃO HÁ",
+            2
+          ],
+          [
+            "REMAGGI GESTAO E PARTICIPACOES S/S LTDA",
+            2
+          ],
+          [
+            "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "capit_lio_participa_es_ltda": {
@@ -531,37 +1607,133 @@
         "encerrados": 1,
         "kpi": {
           "proc": 4,
-          "procSub": "3 ativos · 1 encerrados",
           "ativos": 3,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "3 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 3,
+          "2026": 3
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 3,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "areaTotal": 3,
+        "area": {
+          "Cível": 3
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "1º Grau": 3
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TJSC": 3
+        },
+        "ranking": [
+          [
+            "EMERSON GOMES MACHADO",
+            2
+          ],
+          [
+            "MARNI ANTÔNIA SANDRI KRUGER",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "condom_nio_empresarial_navepark_ii_spe_l": {
       "nome": "Condomínio Empresarial Navepark II SPE Ltda - ABC",
       "_idCliente": 682495541,
       "dataset": {
-        "total": 4,
-        "ativos": 2,
-        "encerrados": 2,
+        "total": 1,
+        "ativos": 1,
+        "encerrados": 0,
         "kpi": {
-          "proc": 4,
-          "procSub": "2 ativos · 2 encerrados",
-          "ativos": 2,
+          "proc": 1,
+          "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Trabalhista",
+          "tribSub": "TRT12"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TRT12": 1
+        },
+        "ranking": [
+          [
+            "DAMIAO ALVES CRUZ",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "msc_construtora_e_incorporadora_ltda": {
@@ -573,16 +1745,70 @@
         "encerrados": 1,
         "kpi": {
           "proc": 3,
-          "procSub": "2 ativos · 1 encerrados",
           "ativos": 2,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 2,
+          "trib": 2,
+          "procSub": "2 ativos · 1 encerrados",
+          "areasSub": "Cível, Trabalhista",
+          "tribSub": "N/I, TRT24"
+        },
+        "estoque": {
+          "2022": 2,
+          "2023": 2,
+          "2024": 1,
+          "2025": 1,
+          "2026": 2
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 2,
+        "area": {
+          "Cível": 1,
+          "Trabalhista": 1
+        },
+        "uf": {
+          "N/I": 1,
+          "MS": 1
+        },
+        "instancia": {
+          "1º Grau": 1,
+          "Não informado": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "N/I": 1,
+          "TRT24": 1
+        },
+        "ranking": [
+          [
+            "EMPREENDIMENTO AERONAUTICO COSTA ESMERALDA LTDA",
+            1
+          ],
+          [
+            "EDSON NUNES DA SILVA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "roberto_lippmann": {
@@ -594,16 +1820,62 @@
         "encerrados": 2,
         "kpi": {
           "proc": 3,
-          "procSub": "1 ativos · 2 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 2 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "estoque": {
+          "2022": 3,
+          "2023": 3,
+          "2024": 3,
+          "2025": 3,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 1,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 2
+        },
+        "areaTotal": 1,
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "JOÃO ADELINO DA SILVA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "condom_nio_empresarial_navepark_scp_1_lt": {
@@ -615,16 +1887,69 @@
         "encerrados": 1,
         "kpi": {
           "proc": 3,
-          "procSub": "2 ativos · 1 encerrados",
           "ativos": 2,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 2,
+          "trib": 2,
+          "procSub": "2 ativos · 1 encerrados",
+          "areasSub": "Tributário, Trabalhista",
+          "tribSub": "TRF4, TRT12"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 1,
+          "2024": 1,
+          "2025": 2,
+          "2026": 2
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 2,
+        "area": {
+          "Tributário": 1,
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "1º Grau": 1,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TRF4": 1,
+          "TRT12": 1
+        },
+        "ranking": [
+          [
+            "DELEGADO DA RECEITA FEDERAL DO BRASIL EM FLORIANÓPOLIS",
+            1
+          ],
+          [
+            "GENILSON DE LIMA ATAIDE",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "vitreo_271_empreendimento_imobili_rio_sp": {
@@ -636,16 +1961,73 @@
         "encerrados": 0,
         "kpi": {
           "proc": 3,
-          "procSub": "3 ativos · 0 encerrados",
           "ativos": 3,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 3,
+          "trib": 2,
+          "procSub": "3 ativos · 0 encerrados",
+          "areasSub": "Trabalhista, Administrativo, Cível",
+          "tribSub": "N/I, TJSC"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 3
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 2
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 3,
+        "area": {
+          "Trabalhista": 1,
+          "Administrativo": 1,
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "1º Grau": 3
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 2,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "N/I": 2,
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            1
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE ITAPEMA",
+            1
+          ],
+          [
+            "WALDECIR GLAUCO GILI",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "triunfante_construtora_e_incorporadora_l": {
@@ -657,16 +2039,62 @@
         "encerrados": 1,
         "kpi": {
           "proc": 2,
-          "procSub": "1 ativos · 1 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Ambiental",
+          "tribSub": "N/I"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 1,
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 1,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "N/I": 1
+        },
+        "ranking": [
+          [
+            "FUNDAÇÃO AMBIENTAL ÁREA COSTEIRA DE ITAPEMA FAACI",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "ag_f_holding_ltda": {
@@ -678,16 +2106,62 @@
         "encerrados": 1,
         "kpi": {
           "proc": 2,
-          "procSub": "1 ativos · 1 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "estoque": {
+          "2022": 1,
+          "2023": 1,
+          "2024": 2,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 1,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "OKCA 246 incordporadora SPE LTDA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "incorporadora_moinho_das_guas_spe_ltda": {
@@ -699,16 +2173,62 @@
         "encerrados": 1,
         "kpi": {
           "proc": 2,
-          "procSub": "1 ativos · 1 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TRF4"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 1,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO FEDERAL",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "walje_empreendimentos_imobili_rios_socie": {
@@ -720,16 +2240,62 @@
         "encerrados": 1,
         "kpi": {
           "proc": 2,
-          "procSub": "1 ativos · 1 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "rio_tavares_empreendimentos_imobili_rios": {
@@ -741,16 +2307,68 @@
         "encerrados": 0,
         "kpi": {
           "proc": 2,
-          "procSub": "2 ativos · 0 encerrados",
           "ativos": 2,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 2,
+          "trib": 2,
+          "procSub": "2 ativos · 0 encerrados",
+          "areasSub": "Ambiental, Tributário",
+          "tribSub": "N/I, TJSC"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 2
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 2
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 2,
+        "area": {
+          "Ambiental": 1,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 2,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "N/I": 1,
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "MUNICÍPIO DE FLORIANÓPOLIS/SC",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "empreendimento_gt_abc_pioneira_spe_ltda": {
@@ -762,16 +2380,49 @@
         "encerrados": 2,
         "kpi": {
           "proc": 2,
-          "procSub": "0 ativos · 2 encerrados",
           "ativos": 0,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 2 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 2
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 2
+        },
+        "areaTotal": 0,
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       },
       "_semProcessos": true
     },
@@ -784,16 +2435,62 @@
         "encerrados": 1,
         "kpi": {
           "proc": 2,
-          "procSub": "1 ativos · 1 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "estoque": {
+          "2022": 2,
+          "2023": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 2,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 1,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "gustavo_reni_vendruscolo": {
@@ -805,16 +2502,62 @@
         "encerrados": 0,
         "kpi": {
           "proc": 1,
-          "procSub": "1 ativos · 0 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Administrativo",
+          "tribSub": "N/I"
+        },
+        "estoque": {
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 1,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Administrativo": 1
+        },
+        "uf": {
+          "N/I": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "N/I": 1
+        },
+        "ranking": [
+          [
+            "DETRAN",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "nova_comandante_participa_es_societ_rias": {
@@ -826,16 +2569,62 @@
         "encerrados": 0,
         "kpi": {
           "proc": 1,
-          "procSub": "1 ativos · 0 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Tributário",
+          "tribSub": "N/I"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "N/I": 1
+        },
+        "ranking": [
+          [
+            "MUNICÍPIO DE CAMBORIÚ",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "jm_monet_holding_ltda": {
@@ -847,16 +2636,57 @@
         "encerrados": 0,
         "kpi": {
           "proc": 1,
-          "procSub": "1 ativos · 0 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Administrativo",
+          "tribSub": "N/I"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Administrativo": 1
+        },
+        "uf": {
+          "N/I": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "N/I": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "beach_view_condom_nio_de_lotes_spe_ltda": {
@@ -868,16 +2698,49 @@
         "encerrados": 1,
         "kpi": {
           "proc": 1,
-          "procSub": "0 ativos · 1 encerrados",
           "ativos": 0,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 1 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "estoque": {
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2022": 1,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
+        },
+        "areaTotal": 0,
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       },
       "_semProcessos": true
     },
@@ -890,16 +2753,49 @@
         "encerrados": 1,
         "kpi": {
           "proc": 1,
-          "procSub": "0 ativos · 1 encerrados",
           "ativos": 0,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 1 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 0,
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       },
       "_semProcessos": true
     },
@@ -912,16 +2808,62 @@
         "encerrados": 0,
         "kpi": {
           "proc": 1,
-          "procSub": "1 ativos · 0 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Trabalhista",
+          "tribSub": "TRT12"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TRT12": 1
+        },
+        "ranking": [
+          [
+            "KATIVANILDO SILVA LIMA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "central_park_loteamento_blumenau_spe_ltd": {
@@ -933,16 +2875,62 @@
         "encerrados": 0,
         "kpi": {
           "proc": 1,
-          "procSub": "1 ativos · 0 encerrados",
           "ativos": 1,
           "areas": 1,
-          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Ambiental",
+          "tribSub": "TRF4"
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "area": {
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     },
     "gralha_azul_construtora_e_incorporadora_": {
@@ -955,16 +2943,49 @@
         "encerrados": 0,
         "kpi": {
           "proc": 0,
-          "procSub": "0 ativos · 0 encerrados",
           "ativos": 0,
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC",
-          "valor": "—",
-          "horas": "—",
-          "horasSub": "dado do panorama"
-        }
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 0,
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "esforco": {},
+        "horas": {},
+        "estoqueHl": []
       }
     }
   },
