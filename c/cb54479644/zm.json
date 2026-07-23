@@ -6,10 +6,10 @@
     "procSub": "114 ativos · 79 encerrados",
     "horas": "^2257",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 10,
+    "areas": 8,
     "areasSub": "Cível, Trabalhista, Tributário",
     "valor": "~R$ 254<small>mi</small>",
-    "trib": 23,
+    "trib": 20,
     "tribSub": "TJSC, TRT12, TRF4, TJSP",
     "ativos": 114,
     "encerrados": 79,
@@ -57,102 +57,136 @@
           "2026": 5
         },
         "area": {
-          "Cível": 84,
-          "Trabalhista": 46,
-          "Tributário": 44,
-          "Administrativo": 8,
+          "Cível": 38,
+          "Trabalhista": 29,
+          "Tributário": 17,
+          "Administrativo": 7,
           "Recuperação Judicial": 5,
-          "Penal-Criminal": 2,
           "Falência": 1,
-          "Previdenciário": 1,
-          "Bancário": 1,
-          "Pública": 1
+          "Penal-Criminal": 1,
+          "Previdenciário": 1
         },
-        "areaTotal": 193,
+        "areaTotal": 99,
         "instancia": {
-          "1º Grau": 166,
-          "2º Grau": 20,
-          "Superiores": 7
+          "1º Grau": 82,
+          "2º Grau": 14,
+          "Superiores": 3
         },
         "polo": {
-          "Polo ativo": 89,
-          "Terceiro/Outros": 63,
-          "Polo passivo": 41
+          "Polo ativo": 47,
+          "Polo passivo": 36,
+          "Terceiro/Outros": 16
         },
         "uf": {
-          "SC": 123,
-          "N/I": 19,
-          "SP": 10,
-          "PR": 7,
-          "GO": 6,
-          "RS": 6,
+          "SC": 52,
+          "N/I": 11,
+          "SP": 8,
+          "PR": 5,
+          "RS": 4,
           "MG": 4,
-          "DF": 4,
+          "GO": 2,
           "PA": 2,
           "BA": 2,
           "RN": 2,
-          "MT": 2,
           "MA": 1,
           "AL": 1,
           "SE": 1,
+          "DF": 1,
           "MS": 1,
-          "RJ": 1,
-          "ES": 1
+          "MT": 1,
+          "RJ": 1
         },
         "tribunais": {
-          "TJSC": 50,
-          "TRT12": 33,
-          "TRF4": 18,
-          "TJSP": 10,
-          "TJGO": 6,
-          "TJRS": 6,
-          "TJPR": 4,
+          "TRT12": 21,
+          "N/I": 19,
+          "TJSC": 18,
+          "TJSP": 8,
+          "TRF4": 7,
+          "TJRS": 4,
           "TJMG": 4,
+          "TJPR": 2,
+          "TJGO": 2,
           "TJPA": 2,
           "TJBA": 2,
-          "STF": 2,
           "TJRN": 2,
-          "TJMT": 2,
           "MPTSC": 1,
           "MPT": 1,
-          "STJ": 1,
           "TJMA": 1,
           "TJAL": 1,
           "TJSE": 1,
           "INMETRO": 1,
-          "Justiça Federal do Rio de Janeiro": 1,
-          "TJES": 1,
-          "N/I": 1
+          "TJMT": 1,
+          "Justiça Federal do Rio de Janeiro": 1
         },
         "ranking": [
           [
             "DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC",
-            12
-          ],
-          [
-            "RECEITA FEDERAL DO BRASIL",
-            7
-          ],
-          [
-            "MUNICÍPIO DE BRUSQUE",
-            6
-          ],
-          [
-            "UNIÃO FAZENDA NACIONAL",
             5
           ],
           [
-            "FERRO VELHO SILVA COMERCIO DE SUCATA LTDA",
-            4
+            "UNIÃO FAZENDA NACIONAL",
+            3
+          ],
+          [
+            "MINISTÉRIO DO TRABALHO E EMPREGO",
+            3
+          ],
+          [
+            "NAIROB DISTRIBUIDORA DE PECAS E ACESSORIOS LTDA",
+            3
+          ],
+          [
+            "RAFAEL OLIVEIRA VILELA",
+            3
+          ],
+          [
+            "MUNICÍPIO DE BRUSQUE",
+            3
+          ],
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            3
+          ],
+          [
+            "L. J. GUIMARAES IANELO",
+            2
+          ],
+          [
+            "LARISSA  ANDRIETTI",
+            2
+          ],
+          [
+            "ADONIAS LAGO DO NASCIMENTO",
+            2
+          ],
+          [
+            "ADALBERTO CONCEICAO DE MELO",
+            2
+          ],
+          [
+            "NORTE DISTRIBUIDORA ELETROPECAS LTDA",
+            2
+          ],
+          [
+            "STU INDUSTRIA DE COMPONENTES E PECAS LTDA",
+            2
+          ],
+          [
+            "METALURGICA CANDEIA LTDA EM RECUPERACAO JUDICIAL",
+            2
+          ],
+          [
+            "R.B. & R.A. COMERCIO DE FERRAMENTAS LTDA",
+            2
           ]
         ],
         "kpi": {
           "proc": 193,
           "procSub": "114 ativos · 79 encerrados",
           "ativos": 114,
-          "areas": 10,
+          "areas": 8,
           "areasSub": "Cível, Trabalhista, Tributário",
-          "trib": 23,
+          "trib": 20,
           "tribSub": "TJSC, TRT12, TRF4, TJSP",
           "valor": "~R$ 254<small>mi</small>",
           "horas": "^2257",
@@ -222,7 +256,8 @@
           "_estimativa": true
         },
         "_dadosReais": true,
-        "_panorama": true
+        "_panorama": true,
+        "_complexidadeSoAtivos": true
       }
     },
     "zm": {

@@ -6,10 +6,10 @@
     "procSub": "636 ativos · 411 encerrados",
     "horas": "^7848",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 11,
+    "areas": 10,
     "areasSub": "Cível, Tributário, Trabalhista",
     "valor": "~R$ 723<small>mi</small>",
-    "trib": 26,
+    "trib": 19,
     "tribSub": "TJSC, TRT12, TRF4, TJPR",
     "ativos": 636,
     "encerrados": 411,
@@ -79,111 +79,132 @@
           "2026": 4
         },
         "area": {
-          "Cível": 583,
-          "Tributário": 247,
-          "Trabalhista": 159,
-          "Administrativo": 26,
-          "Penal-Criminal": 19,
+          "Cível": 347,
+          "Tributário": 149,
+          "Trabalhista": 96,
+          "Administrativo": 17,
+          "Penal-Criminal": 11,
           "Pública": 9,
-          "Imobiliário": 8,
-          "Ambiental": 5,
+          "Ambiental": 3,
+          "Imobiliário": 2,
           "Bancário": 2,
-          "Comercial": 1,
           "Recuperação Judicial": 1
         },
-        "areaTotal": 1060,
+        "areaTotal": 637,
         "instancia": {
-          "1º Grau": 765,
-          "2º Grau": 124,
-          "Superiores": 33,
-          "Não informado": 138
+          "1º Grau": 458,
+          "2º Grau": 94,
+          "Não informado": 64,
+          "Superiores": 21
         },
         "polo": {
-          "Polo ativo": 470,
-          "Polo passivo": 508,
-          "Terceiro/Outros": 82
+          "Polo passivo": 279,
+          "Polo ativo": 266,
+          "Terceiro/Outros": 92
         },
         "uf": {
-          "SC": 861,
-          "Não informado": 66,
-          "PR": 38,
-          "RJ": 18,
-          "RS": 17,
+          "SC": 535,
+          "N/I": 30,
+          "PR": 19,
           "DF": 16,
-          "RN": 13,
-          "SP": 9,
-          "MS": 8,
-          "AP": 5,
+          "RS": 9,
+          "RN": 6,
+          "MS": 6,
+          "RJ": 6,
+          "AP": 4,
           "PA": 3,
-          "BA": 2,
-          "PI": 1,
-          "PE": 1,
-          "SE": 1,
-          "AC": 1
+          "SP": 3
         },
         "tribunais": {
-          "TJSC": 580,
-          "Não informado": 185,
-          "TRT12": 119,
-          "TRF4": 40,
-          "TJPR": 30,
-          "STJ": 20,
-          "TJRS": 16,
-          "TJRJ": 16,
-          "TRT21": 13,
-          "TRT08": 8,
-          "TJMS": 6,
-          "TJSP": 6,
-          "Justiça Federal de Santa Catarina": 3,
+          "TJSC": 390,
+          "N/I": 73,
+          "TRT12": 72,
+          "TRF4": 24,
+          "STJ": 18,
+          "TJPR": 18,
+          "TJRS": 9,
+          "TRT08": 7,
+          "TRT21": 6,
+          "TJRJ": 5,
+          "TJMS": 4,
           "TRT02": 2,
+          "Justiça Federal de Santa Catarina": 2,
           "DRF": 2,
-          "TRT09": 2,
-          "TJBA": 2,
-          "TRT15": 1,
-          "ALAC": 1,
-          "TRT22": 1,
           "TRF3": 1,
           "TRT24": 1,
           "TRT01": 1,
-          "TRF2": 1,
-          "TJPE": 1,
-          "TRT04": 1,
-          "TJSE": 1
+          "TJSP": 1,
+          "ALAC": 1
         },
         "ranking": [
           [
-            "196030028613",
-            "Tributário · Não informado · Itajaí",
-            436627443
+            "MUNICÍPIO DE ITAPEMA",
+            60
           ],
           [
-            "0900411-38.2015.8.24.0005",
-            "Tributário · TJSC · Balneário Camboriú",
-            122559431.8
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            14
           ],
           [
-            "5048022-87.2025.8.24.0000",
-            "Cível · TJSC · Florianópolis",
-            10000000.0
+            "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+            14
           ],
           [
-            "5000913-89.2024.8.24.0072",
-            "Cível · TJSC · Tijucas",
-            10000000.0
+            "MUNICÍPIO DE BRUSQUE",
+            13
           ],
           [
-            "5004894-40.2019.8.24.0125",
-            "Cível · TJSC · Itapema",
-            8675998.31
+            "LEILA CRISTINA CROCETA HESSMAN",
+            12
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            11
+          ],
+          [
+            "HONORATA POFFO",
+            11
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            7
+          ],
+          [
+            "MUNICÍPIO DE ITAJAÍ",
+            6
+          ],
+          [
+            "FUNDAGEO FUNDAÇÕES LTDA",
+            6
+          ],
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            6
+          ],
+          [
+            "ANTÍDIO PEDRO REIS JÚNIOR",
+            6
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE ITAPEMA",
+            5
+          ],
+          [
+            "RAFAEL GASPERIN BACCIN",
+            5
+          ],
+          [
+            "ANDREY DIOGO ASSIS ANCAY",
+            5
           ]
         ],
         "kpi": {
           "proc": 1060,
           "procSub": "636 ativos · 411 encerrados",
           "ativos": 636,
-          "areas": 11,
+          "areas": 10,
           "areasSub": "Cível, Tributário, Trabalhista",
-          "trib": 26,
+          "trib": 19,
           "tribSub": "TJSC, TRT12, TRF4, TJPR",
           "valor": "~R$ 723<small>mi</small>",
           "valorSub": "soma de 497 processos com valor fixado (consolidado das 13 empresas)",
@@ -258,7 +279,8 @@
         },
         "_dadosReais": true,
         "_panorama": true,
-        "_nEmpresas": 13
+        "_nEmpresas": 13,
+        "_complexidadeSoAtivos": true
       }
     },
     "construtora_russi": {

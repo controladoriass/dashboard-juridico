@@ -25,7 +25,7 @@
           "ativos": 16,
           "areas": 3,
           "areasSub": "Trabalhista 11 · Cível 5",
-          "trib": 3,
+          "trib": 4,
           "tribSub": "TRT12 10 · TJSC 4",
           "valor": "~R$ 2,2 mi",
           "horas": "^206",
@@ -54,34 +54,32 @@
         },
         "area": {
           "Trabalhista": 11,
-          "Cível": 5,
+          "Cível": 3,
           "Tributário": 2
         },
-        "areaTotal": 18,
+        "areaTotal": 16,
         "instancia": {
-          "1º Grau": 14,
+          "1º Grau": 12,
           "2º Grau": 2,
           "Não informado": 2
         },
         "polo": {
-          "Polo ativo": 5,
-          "Polo passivo": 13,
-          "Terceiro/Outros": 0
+          "Polo passivo": 12,
+          "Polo ativo": 4
         },
         "uf": {
-          "SC": 16,
-          "SP": 1,
-          "N/I": 1
+          "SC": 15,
+          "SP": 1
         },
         "tribunais": {
           "TRT12": 10,
-          "TJSC": 4,
-          "TRT02": 1,
-          "N/I": 3
+          "TJSC": 3,
+          "N/I": 2,
+          "TRT02": 1
         },
         "ranking": [
           [
-            "LUIS OTAVIO PINHEIRO PERRI",
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
             2
           ],
           [
@@ -98,6 +96,46 @@
           ],
           [
             "PEDRO LADIR DE RAMOS",
+            1
+          ],
+          [
+            "JESSY JOSE PEREZ RONDON",
+            1
+          ],
+          [
+            "CLAUDIO AGOSTINHO DA SILVA",
+            1
+          ],
+          [
+            "LUIS OTAVIO PINHEIRO PERRI",
+            1
+          ],
+          [
+            "JHONATAN KRAUS",
+            1
+          ],
+          [
+            "ENIO RAFAEL LOZANO SANCHEZ",
+            1
+          ],
+          [
+            "ALCEU BRANCO DO AMARAL",
+            1
+          ],
+          [
+            "JONATA KRAUS",
+            1
+          ],
+          [
+            "HENRIQUE ANTUNES DE SOUZA",
+            1
+          ],
+          [
+            "ESTRUTURAS SERRA LITORAL LTDA",
+            1
+          ],
+          [
+            "DEBORA SABRINA PEREIRA DA SILVA",
             1
           ]
         ],
@@ -160,7 +198,8 @@
           },
           "_estimativa": true
         },
-        "_dadosReais": true
+        "_dadosReais": true,
+        "_complexidadeSoAtivos": true
       },
       "_idCliente": "2129549"
     }

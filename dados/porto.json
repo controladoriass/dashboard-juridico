@@ -6,10 +6,10 @@
     "procSub": "13 ativos · 44 encerrados",
     "horas": "^737",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 7,
+    "areas": 3,
     "areasSub": "Trabalhista, Cível, Imobiliário",
     "valor": "~R$ 7<small>mi</small>",
-    "trib": 7,
+    "trib": 5,
     "tribSub": "TRT12, TJSC, Não informado, INPI",
     "ativos": 13,
     "encerrados": 44,
@@ -52,69 +52,83 @@
           "2026": 19
         },
         "area": {
-          "Trabalhista": 29,
-          "Cível": 20,
-          "Imobiliário": 3,
-          "Propriedade intelectual": 2,
-          "Penal-Criminal": 1,
-          "Tributário": 1,
-          "Administrativo": 1
+          "Cível": 10,
+          "Trabalhista": 2,
+          "Propriedade intelectual": 1
         },
-        "areaTotal": 57,
+        "areaTotal": 13,
         "instancia": {
-          "1º Grau": 51,
-          "2º Grau": 5,
-          "Superiores": 1
+          "1º Grau": 13
         },
         "polo": {
-          "Polo passivo": 23,
-          "Polo ativo": 17,
-          "Terceiro/Outros": 17
+          "Polo passivo": 5,
+          "Polo ativo": 8
         },
         "uf": {
-          "SC": 46,
-          "N/I": 8,
-          "RS": 2,
-          "PR": 1
+          "SC": 10,
+          "N/I": 2,
+          "RS": 1
         },
         "tribunais": {
-          "TRT12": 16,
-          "TJSC": 16,
-          "Não informado": 16,
-          "INPI": 2,
-          "TJRS": 2,
-          "TJPR": 1,
-          "STJ": 1
+          "TJSC": 8,
+          "TRT12": 2,
+          "N/I": 1,
+          "INPI": 1,
+          "TJRS": 1
         },
         "ranking": [
           [
-            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
-            9
-          ],
-          [
-            "PEDRO HENRIQUE CLAUMAN",
-            3
-          ],
-          [
             "SANTOS GUERRA ADMINISTRADORA DE BENS LTDA",
-            3
+            2
+          ],
+          [
+            "CITTA DI MARANELLO",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO",
+            1
+          ],
+          [
+            "JOSE FERNANDES DE SOUZA",
+            1
+          ],
+          [
+            "SERAL OTIS INDUSTRIA METALURGICA LTDA",
+            1
+          ],
+          [
+            "MANUEL DA MAIA CORDEIRO",
+            1
+          ],
+          [
+            "AGLAES BEATRIZ CAMPOS 04189455946",
+            1
+          ],
+          [
+            "ALCIMARA PICCOLI FORNEROLI BELLOTTO",
+            1
           ],
           [
             "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
-            2
+            1
           ],
           [
-            "L F PRADO IMPORTACAO E EXPORTACAO DE PRODUTOS TEXTEIS LTDA",
-            2
+            "RESIDENCIAL PORTO DE MONACO",
+            1
+          ],
+          [
+            "HASAM INCORPORACOES LTDA",
+            1
           ]
         ],
         "kpi": {
           "proc": 57,
           "procSub": "13 ativos · 44 encerrados",
           "ativos": 13,
-          "areas": 7,
+          "areas": 3,
           "areasSub": "Trabalhista, Cível, Imobiliário",
-          "trib": 7,
+          "trib": 5,
           "tribSub": "TRT12, TJSC, Não informado, INPI",
           "valor": "~R$ 7<small>mi</small>",
           "horas": "^737",
@@ -186,7 +200,8 @@
           "_estimativa": true
         },
         "_dadosReais": true,
-        "_panorama": true
+        "_panorama": true,
+        "_complexidadeSoAtivos": true
       }
     },
     "porto_florencio": {

@@ -6,10 +6,10 @@
     "procSub": "73 ativos · 15 encerrados",
     "horas": "^947",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 7,
+    "areas": 6,
     "areasSub": "Cível, Tributário, Trabalhista",
     "valor": "~R$ 4<small>mi</small>",
-    "trib": 9,
+    "trib": 10,
     "tribSub": "TJSC, TRT12, TJMG, TRF4",
     "ativos": 73,
     "encerrados": 15,
@@ -56,30 +56,29 @@
           "2026": 1
         },
         "area": {
-          "Cível": 45,
-          "Tributário": 23,
+          "Cível": 36,
+          "Tributário": 18,
           "Trabalhista": 12,
           "Administrativo": 5,
           "Previdenciário": 1,
-          "Imobiliário": 1,
-          "Penal-Criminal": 1
+          "Imobiliário": 1
         },
-        "areaTotal": 88,
+        "areaTotal": 73,
         "instancia": {
-          "1º Grau": 68,
-          "Não informado": 12,
-          "2º Grau": 5,
-          "Superiores": 3
+          "1º Grau": 60,
+          "Superiores": 3,
+          "2º Grau": 4,
+          "Não informado": 6
         },
         "polo": {
-          "Polo ativo": 46,
-          "Polo passivo": 21,
-          "Terceiro/Outros": 21
+          "Polo ativo": 33,
+          "Polo passivo": 30,
+          "Terceiro/Outros": 10
         },
         "uf": {
-          "SC": 63,
-          "N/I": 9,
-          "MG": 7,
+          "SC": 52,
+          "N/I": 6,
+          "MG": 6,
           "PR": 3,
           "DF": 2,
           "GO": 2,
@@ -87,45 +86,86 @@
           "CE": 1
         },
         "tribunais": {
-          "TJSC": 29,
+          "TJSC": 25,
+          "N/I": 14,
           "TRT12": 12,
-          "TJMG": 7,
-          "TRF4": 7,
+          "TJMG": 6,
+          "TRF4": 6,
           "DRF": 5,
           "TJGO": 2,
+          "SEFAZ": 1,
           "TJPR": 1,
-          "TJCE": 1,
-          "SEFAZ": 1
+          "TJCE": 1
         },
         "ranking": [
-          [
-            "VANESSA STAROSKI METZGER",
-            6
-          ],
-          [
-            "GR INDUSTRIA E COMERCIO DE CONFECÇÕES EIRELI",
-            5
-          ],
           [
             "DELEGACIA DA RECEITA FEDERAL",
             5
           ],
           [
-            "RECEITA FEDERAL DO BRASIL",
+            "GR INDUSTRIA E COMERCIO DE CONFECÇÕES EIRELI",
+            4
+          ],
+          [
+            "VANESSA STAROSKI METZGER",
             3
           ],
           [
-            "LCF LINGERIE LTDA",
+            "Elcio Rusch",
             3
+          ],
+          [
+            "CALEONE LITORAL CONSTRUTORA E INCORPORADORA LTDA",
+            2
+          ],
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            2
+          ],
+          [
+            "SECRETARIA DE ESTADO DA FAZENDA DE SANTA CATARINA",
+            2
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            2
+          ],
+          [
+            "LCF LINGERIE LTDA",
+            2
+          ],
+          [
+            "SANDRO DA SILVA",
+            2
+          ],
+          [
+            "JAQUELINE APARECIDA PACKER",
+            2
+          ],
+          [
+            "DELEGADO DA DELEGACIA DE ADMINISTRAÇÃO TRIBUTÁRIA DA RECEITA FEDERAL EM CURITIBA",
+            2
+          ],
+          [
+            "CELSO HONORATO",
+            2
+          ],
+          [
+            "JAIME DA VEIGA E LAUDELINO NETTO ADVOGADOS ASSOCIADOS",
+            2
+          ],
+          [
+            "ALESSANDRA OLIVEIRA DOS SANTOS",
+            2
           ]
         ],
         "kpi": {
           "proc": 88,
           "procSub": "73 ativos · 15 encerrados",
           "ativos": 73,
-          "areas": 7,
+          "areas": 6,
           "areasSub": "Cível, Tributário, Trabalhista",
-          "trib": 9,
+          "trib": 10,
           "tribSub": "TJSC, TRT12, TJMG, TRF4",
           "valor": "~R$ 4<small>mi</small>",
           "horas": "^947",
@@ -186,7 +226,8 @@
           "_estimativa": true
         },
         "_dadosReais": true,
-        "_panorama": true
+        "_panorama": true,
+        "_complexidadeSoAtivos": true
       }
     },
     "bhm_textil": {

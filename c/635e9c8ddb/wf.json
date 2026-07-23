@@ -6,10 +6,10 @@
     "procSub": "64 ativos · 135 encerrados",
     "horas": "^1648",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 8,
+    "areas": 7,
     "areasSub": "Trabalhista, Cível, Tributário",
     "valor": "~R$ 357<small>mi</small>",
-    "trib": 8,
+    "trib": 6,
     "tribSub": "TJSC, TRT12, N/I, TRF4",
     "ativos": 64,
     "encerrados": 135,
@@ -67,71 +67,106 @@
           "2026": 7
         },
         "area": {
-          "Trabalhista": 87,
-          "Cível": 69,
-          "Tributário": 20,
-          "Administrativo": 12,
-          "Penal-Criminal": 6,
+          "Cível": 30,
+          "Trabalhista": 12,
+          "Administrativo": 6,
+          "Tributário": 5,
           "Falência": 2,
-          "Recuperação Judicial": 2,
-          "Extrajudicial - Mediação - Arbitragem": 1
+          "Família e Sucessões": 1,
+          "Recuperação Judicial": 1
         },
-        "areaTotal": 199,
+        "areaTotal": 57,
         "instancia": {
-          "1º Grau": 176,
-          "2º Grau": 22,
-          "Não informado": 1
+          "1º Grau": 47,
+          "2º Grau": 10
         },
         "polo": {
-          "Polo passivo": 90,
-          "Polo ativo": 64,
-          "Terceiro/Outros": 45
+          "Terceiro/Outros": 6,
+          "Polo passivo": 31,
+          "Polo ativo": 20
         },
         "uf": {
-          "SC": 169,
-          "N/I": 27,
-          "RS": 2,
-          "AL": 1
+          "SC": 52,
+          "N/I": 3,
+          "RS": 2
         },
         "tribunais": {
-          "TJSC": 76,
-          "TRT12": 47,
-          "N/I": 46,
-          "TRF4": 4,
-          "MINTRAB": 3,
+          "TJSC": 33,
+          "N/I": 11,
+          "TRT12": 7,
+          "TRF4": 3,
           "TJRS": 2,
-          "MPT": 1,
-          "TRT19": 1
+          "MINTRAB": 1
         },
         "ranking": [
           [
             "MINISTÉRIO DO TRABALHO E EMPREGO",
-            30
+            4
           ],
           [
-            "SUPERINTENDENTE DO MINISTÉRIO DO TRABALHO E EMPREGO EM FLORIANÓPOLIS - SC",
-            14
-          ],
-          [
-            "MINISTRO DE ESTADO DO TRABALHO E EMPREGO",
-            14
+            "TARCIZIO INACIO GESSELE",
+            3
           ],
           [
             "MUNICÍPIO DE ITAPEMA",
-            8
+            3
+          ],
+          [
+            "MARIANGELA MEDEIROS TEIXEIRA FUGANTI",
+            2
+          ],
+          [
+            "TB NORDESTE INDUSTRIA E COMERCIO DE REVESTIMENTOS S/A EM RECUPERACAO JUDICIAL EM RECUPERACAO JUDICIAL - ITAGRES",
+            2
+          ],
+          [
+            "DAVID MAGAIVER DA SILVA MENDES",
+            2
+          ],
+          [
+            "INSTALATO SOLUCOES ELETRICAS E HIDRAULICAS LTDA",
+            2
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE PORTO BELO",
+            2
           ],
           [
             "COOPERATIVA DA CONSTRUCAO CIVIL DO ESTADO DE SANTA CATARINA",
-            6
+            2
+          ],
+          [
+            "ASSISTEL COMERCIO DE CONSTRUCAO LTDA",
+            2
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            2
+          ],
+          [
+            "PEREIRA E ROMANZINI PARTICIPACOES LTDA EM RECUPERACAO JUDICIAL",
+            2
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            2
+          ],
+          [
+            "PABLO CARO CHAVEZ",
+            1
+          ],
+          [
+            "JOSELICE MARIA VALIATI",
+            1
           ]
         ],
         "kpi": {
           "proc": 199,
           "procSub": "64 ativos · 135 encerrados",
           "ativos": 64,
-          "areas": 8,
+          "areas": 7,
           "areasSub": "Trabalhista, Cível, Tributário",
-          "trib": 8,
+          "trib": 6,
           "tribSub": "TJSC, TRT12, N/I, TRF4",
           "valor": "~R$ 357<small>mi</small>",
           "horas": "^1648",
@@ -213,7 +248,8 @@
           "_estimativa": true
         },
         "_dadosReais": true,
-        "_panorama": true
+        "_panorama": true,
+        "_complexidadeSoAtivos": true
       }
     },
     "wff": {

@@ -9,7 +9,7 @@
     "areas": 6,
     "areasSub": "Cível, Trabalhista, Penal-Criminal",
     "valor": "~R$ 32<small>mi</small>",
-    "trib": 9,
+    "trib": 8,
     "tribSub": "TJSC, TRT12, TJPR, N/I",
     "ativos": 80,
     "encerrados": 64,
@@ -56,64 +56,101 @@
           "2026": 5
         },
         "area": {
-          "Cível": 77,
-          "Trabalhista": 41,
-          "Penal-Criminal": 12,
+          "Cível": 36,
+          "Trabalhista": 25,
           "Administrativo": 9,
+          "Penal-Criminal": 7,
           "Ambiental": 3,
-          "Tributário": 2
+          "Tributário": 1
         },
-        "areaTotal": 144,
+        "areaTotal": 81,
         "instancia": {
-          "1º Grau": 115,
-          "2º Grau": 24,
-          "Superiores": 4,
-          "Não informado": 1
+          "1º Grau": 67,
+          "2º Grau": 10,
+          "Superiores": 4
         },
         "polo": {
-          "Polo passivo": 73,
-          "Terceiro/Outros": 42,
-          "Polo ativo": 29
+          "Polo passivo": 51,
+          "Terceiro/Outros": 16,
+          "Polo ativo": 14
         },
         "uf": {
-          "SC": 133,
-          "N/I": 5,
+          "SC": 74,
           "PR": 3,
+          "N/I": 2,
           "DF": 1,
-          "RS": 1,
           "MG": 1
         },
         "tribunais": {
-          "TJSC": 72,
-          "TRT12": 39,
+          "TJSC": 32,
+          "TRT12": 24,
+          "N/I": 18,
           "TJPR": 3,
-          "N/I": 3,
           "STJ": 1,
-          "TJRS": 1,
-          "MPT": 1,
           "MPESC": 1,
-          "TRF4": 1
+          "TRF4": 1,
+          "Procon Municipal": 1
         },
         "ranking": [
-          [
-            "PAULO DE OLIVEIRA",
-            7
-          ],
-          [
-            "ADRIANA REGINA PEREIRA",
-            6
-          ],
           [
             "FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP",
             5
           ],
           [
+            "ADRIANA REGINA PEREIRA",
+            5
+          ],
+          [
             "MONDO CHILE COMERCIO, IMPORTACAO E EXPORTACAO DE PESCADOS E FRUTOS DO MAR LTDA",
-            4
+            3
+          ],
+          [
+            "PAULO DE OLIVEIRA",
+            3
           ],
           [
             "FRANCISCO DE ASSIS DA SILVA",
-            3
+            2
+          ],
+          [
+            "JOSUE SILVA REIS",
+            2
+          ],
+          [
+            "OSAMIR DE JESUS CEVEI",
+            2
+          ],
+          [
+            "THAYSE AGUIAR NUNES",
+            2
+          ],
+          [
+            "CIRETRAN BALNEÁRIO CAMBORIÚ",
+            2
+          ],
+          [
+            "JESSICA NUNES TRENTIN",
+            2
+          ],
+          [
+            "DELEGACIA DE POLÍCIA CIVIL DE ITAPEMA/SC",
+            2
+          ],
+          [
+            "ROBERT VOLLWEITER",
+            1
+          ],
+          [
+            "CLEVERSON FERREIRA MARTINS",
+            1
+          ],
+          [
+            "ANDERSON DIAS",
+            1
+          ],
+          [
+            "BRUNA TOMAIZ",
+            1
           ]
         ],
         "kpi": {
@@ -122,7 +159,7 @@
           "ativos": 80,
           "areas": 6,
           "areasSub": "Cível, Trabalhista, Penal-Criminal",
-          "trib": 9,
+          "trib": 8,
           "tribSub": "TJSC, TRT12, TJPR, N/I",
           "valor": "~R$ 32<small>mi</small>",
           "horas": "^1886",
@@ -191,7 +228,8 @@
           "_estimativa": true
         },
         "_dadosReais": true,
-        "_panorama": true
+        "_panorama": true,
+        "_complexidadeSoAtivos": true
       }
     },
     "profor": {

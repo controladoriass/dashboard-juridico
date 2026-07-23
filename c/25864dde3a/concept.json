@@ -6,10 +6,10 @@
     "procSub": "46 ativos · 107 encerrados",
     "horas": "^923",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 8,
+    "areas": 6,
     "areasSub": "Cível, Bancário, Trabalhista",
     "valor": "~R$ 76<small>mi</small>",
-    "trib": 9,
+    "trib": 7,
     "tribSub": "TJSC, TRF4, N/I, TRT12",
     "ativos": 46,
     "encerrados": 107,
@@ -59,73 +59,109 @@
           "2026": 4
         },
         "area": {
-          "Cível": 107,
-          "Bancário": 16,
-          "Trabalhista": 8,
-          "Penal-Criminal": 7,
+          "Bancário": 17,
+          "Cível": 17,
           "Tributário": 5,
-          "Imobiliário": 4,
-          "Administrativo": 3,
-          "Ambiental": 2
+          "Ambiental": 1,
+          "Trabalhista": 1,
+          "Penal-Criminal": 1
         },
-        "areaTotal": 153,
+        "areaTotal": 42,
         "instancia": {
-          "1º Grau": 131,
-          "2º Grau": 20,
+          "1º Grau": 31,
+          "2º Grau": 9,
           "Superiores": 2
         },
         "polo": {
-          "Polo passivo": 79,
-          "Polo ativo": 45,
-          "Terceiro/Outros": 29
+          "Polo passivo": 33,
+          "Polo ativo": 5,
+          "Terceiro/Outros": 4
         },
         "uf": {
-          "SC": 139,
-          "N/I": 6,
+          "SC": 34,
           "PR": 4,
-          "RS": 3,
-          "DF": 1
+          "N/I": 2,
+          "DF": 1,
+          "RS": 1
         },
         "tribunais": {
-          "TJSC": 93,
-          "TRF4": 25,
-          "N/I": 18,
-          "TRT12": 4,
-          "MPT": 3,
+          "TRF4": 22,
+          "TJSC": 11,
+          "N/I": 3,
+          "Justiça Federal de Santa Catarina": 2,
           "STJ": 2,
-          "TJRS": 2,
-          "JFRS": 1,
-          "JFSC": 1
+          "Justiça Federal do Rio Grande do Sul": 1,
+          "TRT12": 1
         },
         "ranking": [
-          [
-            "ÉRICO MELLO JUNIOR",
-            26
-          ],
           [
             "CAIXA ECONÔMICA FEDERAL",
             7
           ],
           [
-            "ARANSA CONSTRUTORA LTDA",
-            6
-          ],
-          [
-            "SONAIRA INCORPORAÇÕES E EMPREENDIMENTOS IMOBILIARIOS LTDA",
-            6
+            "UNIÃO FAZENDA NACIONAL",
+            4
           ],
           [
             "THIAGO OSNILDO SERPA",
-            4
+            3
+          ],
+          [
+            "BANCO DO BRASIL S/A",
+            2
+          ],
+          [
+            "VLADIMIR DAMHA HIPOLITO",
+            2
+          ],
+          [
+            "HUGO SALVADOR DE OLIVEIRA FILHO",
+            2
+          ],
+          [
+            "DELMIR SILVESTRINI",
+            1
+          ],
+          [
+            "ÉRICO MELLO JUNIOR",
+            1
+          ],
+          [
+            "ELEANDRO VETTORELLO SILVEIRA",
+            1
+          ],
+          [
+            "FAACI",
+            1
+          ],
+          [
+            "GLAUBER ARRUDA SANT ANA",
+            1
+          ],
+          [
+            "SONIA BALDISSERA",
+            1
+          ],
+          [
+            "MARIANA CAROLINA SILVEIRA",
+            1
+          ],
+          [
+            "FÁBIO ANDREI DE NOVAIS",
+            1
+          ],
+          [
+            "VICASA CONSTRUTORA LTDA",
+            1
           ]
         ],
         "kpi": {
           "proc": 153,
           "procSub": "46 ativos · 107 encerrados",
           "ativos": 46,
-          "areas": 8,
+          "areas": 6,
           "areasSub": "Cível, Bancário, Trabalhista",
-          "trib": 9,
+          "trib": 7,
           "tribSub": "TJSC, TRF4, N/I, TRT12",
           "valor": "~R$ 76<small>mi</small>",
           "horas": "^923",
@@ -197,7 +233,8 @@
           "_estimativa": true
         },
         "_dadosReais": true,
-        "_panorama": true
+        "_panorama": true,
+        "_complexidadeSoAtivos": true
       }
     },
     "concept": {

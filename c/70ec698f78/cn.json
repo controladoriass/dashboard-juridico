@@ -9,7 +9,7 @@
     "areas": 6,
     "areasSub": "Trabalhista, Cível, Tributário",
     "valor": "~R$ 45<small>mi</small>",
-    "trib": 14,
+    "trib": 11,
     "tribSub": "TJSC, TRT12, TJAP, TJAL",
     "ativos": 107,
     "encerrados": 125,
@@ -58,72 +58,107 @@
           "2026": 8
         },
         "area": {
-          "Trabalhista": 119,
-          "Cível": 85,
-          "Tributário": 18,
-          "Penal-Criminal": 5,
-          "Administrativo": 4,
-          "Família e Sucessões": 1
+          "Trabalhista": 47,
+          "Cível": 45,
+          "Tributário": 13,
+          "Administrativo": 3,
+          "Família e Sucessões": 1,
+          "Penal-Criminal": 1
         },
-        "areaTotal": 232,
+        "areaTotal": 110,
         "instancia": {
-          "1º Grau": 162,
-          "Não informado": 48,
-          "2º Grau": 20,
-          "Superiores": 2
+          "1º Grau": 93,
+          "2º Grau": 14,
+          "Superiores": 2,
+          "Não informado": 1
         },
         "polo": {
-          "Polo passivo": 144,
-          "Terceiro/Outros": 61,
-          "Polo ativo": 27
+          "Polo passivo": 77,
+          "Terceiro/Outros": 19,
+          "Polo ativo": 14
         },
         "uf": {
-          "SC": 195,
-          "N/I": 12,
-          "AP": 9,
-          "AL": 6,
-          "PR": 4,
+          "SC": 95,
+          "N/I": 8,
           "PE": 2,
           "RS": 2,
-          "PB": 1,
-          "DF": 1
+          "GO": 1,
+          "PR": 1,
+          "PB": 1
         },
         "tribunais": {
-          "TJSC": 68,
-          "TRT12": 62,
-          "TJAP": 9,
-          "TJAL": 6,
-          "TJPR": 4,
+          "TJSC": 40,
+          "TRT12": 38,
+          "N/I": 20,
           "SEFAZ": 3,
-          "N/I": 3,
           "TRT06": 2,
           "TJRS": 2,
+          "TRT18": 1,
           "PROCON-SC": 1,
+          "TJPR": 1,
           "TRT13": 1,
-          "Procon": 1,
-          "TJDFT": 1,
-          "TRF4": 1
+          "Procon Municipal": 1
         },
         "ranking": [
-          [
-            "MINISTRO DE ESTADO DO TRABALHO E EMPREGO",
-            42
-          ],
           [
             "SECRETÁRIA MUNICIPAL DA FAZENDA DE ITAJAÍ",
             11
           ],
           [
             "JACQUELINE OLIVEIRA LAURINDO",
-            5
+            3
+          ],
+          [
+            "FLAVIO LUIS SECCO",
+            3
           ],
           [
             "MUNICÍPIO DE ITAJAÍ",
-            5
+            3
+          ],
+          [
+            "JAILTON DA CONCEICAO",
+            2
           ],
           [
             "CONDOMINIO RESIDENCIAL VILA ACORIANA",
-            3
+            2
+          ],
+          [
+            "VALDECIO BARBOSA DA SILVA",
+            2
+          ],
+          [
+            "PEQUENOS VENCEDORES LTDA.",
+            2
+          ],
+          [
+            "MARCELO PEREIRA DE BRITO",
+            2
+          ],
+          [
+            "SANTA FE PARTICIPACOES LTDA.",
+            2
+          ],
+          [
+            "SERAL OTIS INDUSTRIA METALURGICA LTDA",
+            2
+          ],
+          [
+            "EVANDRO OLIVEIRA DA SILVA",
+            2
+          ],
+          [
+            "BEE CONSTRUCOES LTDA",
+            1
+          ],
+          [
+            "ALEXANDRE ROGER MOTTA",
+            1
+          ],
+          [
+            "EGNER MERUCIA ADADA",
+            1
           ]
         ],
         "kpi": {
@@ -132,7 +167,7 @@
           "ativos": 107,
           "areas": 6,
           "areasSub": "Trabalhista, Cível, Tributário",
-          "trib": 14,
+          "trib": 11,
           "tribSub": "TJSC, TRT12, TJAP, TJAL",
           "valor": "~R$ 45<small>mi</small>",
           "horas": "^2006",
@@ -206,7 +241,8 @@
           "_estimativa": true
         },
         "_dadosReais": true,
-        "_panorama": true
+        "_panorama": true,
+        "_complexidadeSoAtivos": true
       }
     },
     "cn_construtora": {
