@@ -487,11 +487,11 @@
       font-size:8px;letter-spacing:.1em;color:#7a809b;text-transform:uppercase}
     /* área de conteúdo centralizada */
     .sheet .sh-body{width:100%;max-width:250mm;margin:0 auto;display:flex;flex-direction:column;justify-content:center;gap:16px}
-    /* títulos de seção dentro da folha */
-    .sh-sec{margin-bottom:4px}
-    .sh-sec .n{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#B58642;font-weight:700}
-    .sh-sec h2{font-size:19px;color:#1E223F;font-weight:700;margin:4px 0 6px}
-    .sh-sec p{font-size:10.5px;color:#4a5273;line-height:1.5;max-width:210mm}
+    /* títulos de seção dentro da folha — !important pra vencer regras genéricas de #view-print */
+    #view-print .sh-sec{margin-bottom:4px}
+    #view-print .sh-sec .n{font-size:9px !important;letter-spacing:.2em !important;text-transform:uppercase !important;color:#B58642 !important;font-weight:700 !important;line-height:1.3 !important;margin:0 !important}
+    #view-print .sh-sec h2{font-size:19px !important;color:#1E223F !important;font-weight:700 !important;margin:4px 0 6px !important;line-height:1.25 !important;letter-spacing:normal !important}
+    #view-print .sh-sec p{font-size:10.5px !important;color:#4a5273 !important;line-height:1.5 !important;max-width:210mm !important;margin:0 !important}
     /* capa dedicada (pagina 1 do PDF): fundo branco, logo em navy, nome do grupo em dourado */
     .sheet.is-cover{background:#ffffff !important;justify-content:center;align-items:center;padding:0}
     .sheet.is-cover .sh-top,.sheet.is-cover .sh-foot{display:none !important}
@@ -530,8 +530,11 @@
     /* Partes atendidas no PDF: 34+ pills e nomes longos estouravam o card.
        Reduz pill (fonte/padding), aperta o gap, quebra em grid de 2 colunas
        e permite quebra de linha em nomes longos. */
-    #view-print #partes-list.pills{display:grid !important;grid-template-columns:repeat(2, minmax(0, 1fr)) !important;gap:6px 10px !important}
-    #view-print #partes-list .pill{padding:6px 12px !important;font-size:10.5px !important;line-height:1.3 !important;border-radius:14px !important;white-space:normal !important;word-break:break-word !important;min-width:0 !important}
+    #view-print #partes-list.pills{display:grid !important;grid-template-columns:repeat(2, minmax(0, 1fr)) !important;gap:6px 10px !important;max-width:100% !important;box-sizing:border-box !important;overflow:hidden !important}
+    #view-print #partes-list .pill{padding:6px 12px !important;font-size:10.5px !important;line-height:1.3 !important;border-radius:14px !important;white-space:normal !important;word-break:break-word !important;overflow-wrap:break-word !important;min-width:0 !important;max-width:100% !important;box-sizing:border-box !important}
+    /* card do partes na folha do PDF: constrange dentro do sh-body p/ não vazar da folha */
+    #view-print .sh-body > .card{width:100% !important;max-width:100% !important;box-sizing:border-box !important;padding:14px 16px !important;margin:0 !important;overflow:hidden !important}
+    #view-print .sh-body > .card > h3{font-size:14px !important;margin:0 0 10px !important;line-height:1.25 !important}
     /* Considerações: texto navy, números/negrito em dourado */
     #view-print .cons-body{font-size:11px;line-height:1.6;color:#1E223F !important;gap:10px;margin-top:6px}
     #view-print .cons-body b,#view-print .cons-body strong{color:#B58642 !important}
@@ -2014,7 +2017,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723u';
+  var _cb = '?v=20260723v';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
