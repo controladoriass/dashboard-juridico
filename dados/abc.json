@@ -2,18 +2,18 @@
   "nome": "Grupo ABC",
   "nomeHtml": "Grupo <em>ABC</em>",
   "kpiGrupo": {
-    "proc": 586,
-    "procSub": "311 ativos · 275 encerrados",
+    "proc": 610,
+    "procSub": "327 ativos · 283 encerrados",
     "horas": "^4547",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 7,
+    "areas": 8,
     "areasSub": "Cível, Tributário, Trabalhista",
-    "valor": "~R$ 110<small>mi</small>",
-    "trib": 17,
+    "valor": "~R$ 155<small>mi</small>",
+    "trib": 20,
     "tribSub": "TJSC, TRT12, TJPR, TRF4",
-    "ativos": 311,
-    "encerrados": 275,
-    "valorTotal": 110122976.02
+    "ativos": 327,
+    "encerrados": 283,
+    "valorTotal": 155768028.97
   },
   "empresas": {
     "_panorama": {
@@ -21,165 +21,170 @@
       "_idCliente": null,
       "dataset": {
         "estoque": {
-          "2020": 51,
-          "2021": 94,
-          "2022": 161,
-          "2023": 173,
-          "2024": 201,
-          "2025": 236,
-          "2026": 264
+          "2020": 67,
+          "2021": 115,
+          "2022": 188,
+          "2023": 211,
+          "2024": 247,
+          "2025": 292,
+          "2026": 327
         },
         "estoqueHl": [
           "2025",
           "2026"
         ],
         "entradas": {
-          "2020": 42,
-          "2021": 56,
-          "2022": 68,
-          "2023": 68,
-          "2024": 78,
-          "2025": 106,
-          "2026": 66
+          "2026": 84,
+          "2025": 129,
+          "2022": 75,
+          "2023": 84,
+          "2024": 103,
+          "2021": 61,
+          "2020": 55
         },
         "encerrados": {
-          "2020": 2,
+          "2026": 49,
+          "2025": 84,
+          "2024": 67,
+          "2023": 61,
           "2021": 13,
-          "2022": 1,
-          "2023": 56,
-          "2024": 50,
-          "2025": 71,
-          "2026": 38
+          "2020": 2,
+          "2022": 2
         },
         "area": {
-          "Cível": 337,
-          "Tributário": 57,
-          "Trabalhista": 56,
-          "Administrativo": 23,
-          "Penal-Criminal": 19,
-          "Ambiental": 5,
-          "Pública": 3
+          "Cível": 387,
+          "Trabalhista": 79,
+          "Tributário": 67,
+          "Administrativo": 38,
+          "Penal-Criminal": 22,
+          "Ambiental": 12,
+          "Pública": 4,
+          "Previdenciário": 1
         },
-        "areaTotal": 586,
+        "areaTotal": 610,
         "instancia": {
-          "1º Grau": 415,
-          "2º Grau": 67,
-          "Superiores": 8,
-          "Não informado": 10
+          "1º Grau": 508,
+          "2º Grau": 82,
+          "Superiores": 9,
+          "Não informado": 11
         },
         "polo": {
-          "Polo ativo": 164,
-          "Polo passivo": 273,
-          "Terceiro/Outros": 63
+          "Polo ativo": 214,
+          "Polo passivo": 329,
+          "Terceiro/Outros": 67
         },
         "uf": {
-          "SC": 400,
-          "N/I": 39,
+          "SC": 495,
+          "N/I": 47,
           "PR": 28,
-          "RS": 14,
-          "DF": 8,
-          "SP": 8,
+          "RS": 17,
+          "DF": 9,
+          "SP": 9,
+          "MT": 2,
           "PI": 1,
-          "MT": 1,
-          "RJ": 1
+          "RJ": 1,
+          "MS": 1
         },
         "tribunais": {
-          "TJSC": 307,
-          "N/I": 83,
-          "TRT12": 45,
+          "TJSC": 357,
+          "N/I": 107,
+          "TRT12": 58,
+          "TRF4": 19,
           "TJPR": 13,
-          "TRF4": 12,
-          "TJRS": 10,
-          "TJSP": 8,
-          "STJ": 7,
-          "TRT04": 4,
+          "TJRS": 11,
+          "TJSP": 9,
+          "STJ": 8,
+          "MPT": 7,
+          "TRT04": 5,
           "Justiça Federal do Parana": 3,
+          "Justiça Federal de Santa Catarina": 3,
           "MINTRAB": 2,
+          "TJMT": 2,
           "MPSC": 1,
           "TRT22": 1,
-          "TJMT": 1,
           "SEFAZ": 1,
           "TRT01": 1,
-          "Justiça Federal de Santa Catarina": 1
+          "TRT24": 1,
+          "CREASC": 1
         },
         "ranking": [
           [
             "MUNICÍPIO DE ITAPEMA",
-            17
+            19
           ],
           [
             "MUNICÍPIO DE PORTO BELO",
             13
           ],
           [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            12
+          ],
+          [
             "UNIÃO FAZENDA NACIONAL",
             12
           ],
           [
-            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-            9
+            "MINISTÉRIO DO TRABALHO E EMPREGO",
+            10
           ],
           [
             "CONDOMÍNIO TORRES DO CARIBE RESIDENCE",
             8
           ],
           [
+            "MUNICÍPIO DE CAMBORIÚ",
+            7
+          ],
+          [
+            "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
+            6
+          ],
+          [
+            "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
+            6
+          ],
+          [
             "INSTITUTO DO MEIO AMBIENTE DO ESTADO DE SANTA CATARINA - IMA",
             6
           ],
           [
-            "MUNICÍPIO DE CAMBORIÚ",
-            5
+            "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DE SC",
+            6
           ],
           [
             "MILKY WAY PARTICIPAÇÕES S.A.",
             5
           ],
           [
+            "NÃO HÁ",
+            5
+          ],
+          [
+            "FUNDAÇÃO AMBIENTAL ÁREA COSTEIRA DE ITAPEMA FAACI",
+            5
+          ],
+          [
             "ANA LUCIA DIAS",
             5
-          ],
-          [
-            "DOUGLAS HENRIQUE DE OLIVEIRA",
-            5
-          ],
-          [
-            "DANIELE CARNEIRO",
-            4
-          ],
-          [
-            "MINISTÉRIO DO TRABALHO E EMPREGO",
-            4
-          ],
-          [
-            "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
-            4
-          ],
-          [
-            "OSVALDO DE SOUZA",
-            4
-          ],
-          [
-            "André Luiz Farias de Andrade",
-            4
           ]
         ],
         "kpi": {
-          "proc": 586,
-          "procSub": "311 ativos · 275 encerrados",
-          "ativos": 311,
-          "areas": 7,
+          "proc": 610,
+          "procSub": "327 ativos · 283 encerrados",
+          "ativos": 327,
+          "areas": 8,
           "areasSub": "Cível, Tributário, Trabalhista",
-          "trib": 17,
+          "trib": 20,
           "tribSub": "TJSC, TRT12, TJPR, TRF4",
-          "valor": "~R$ 110<small>mi</small>",
+          "valor": "~R$ 155<small>mi</small>",
           "horas": "^4547",
           "horasSub": "horas apontadas até 30/06 (parcial)"
         },
-        "valorTotal": 110122976.02,
+        "valorTotal": 155768028.97,
         "qtdComValor": 400,
-        "ativos": 311,
-        "encerradosTotal": 275,
+        "ativos": 327,
+        "encerradosTotal": 283,
         "esforco": {
           "comProducao": 312,
           "tramitacaoDias": 676,
@@ -244,26 +249,17 @@
         "_panorama": true
       }
     },
-    "abelardo_benigno_costa": {
+    "abelardo_benigno_costa_empreendimentos_l": {
       "nome": "Abelardo Benigno & Costa Empreendimentos Ltda - ABC",
       "_idCliente": 2125292,
-      "_isMainClient": true,
       "dataset": {
-        "total": 200,
-        "ativos": 100,
+        "total": 209,
+        "ativos": 109,
         "encerrados": 100
-      }
+      },
+      "_isMainClient": true
     },
-    "embralot": {
-      "nome": "Embralot - Empresa Brasileira de Loteamentos Ltda - ABC",
-      "_idCliente": 2121890,
-      "dataset": {
-        "total": 73,
-        "ativos": 48,
-        "encerrados": 25
-      }
-    },
-    "colinas_camboriu": {
+    "incorporadora_colinas_de_cambori_ltda": {
       "nome": "Incorporadora Colinas de Camboriú Ltda - ABC",
       "_idCliente": 2122899,
       "dataset": {
@@ -272,7 +268,7 @@
         "encerrados": 46
       }
     },
-    "sonho_real": {
+    "loteamento_sonho_real_ltda": {
       "nome": "Loteamento Sonho Real Ltda - ABC",
       "_idCliente": 2119987,
       "dataset": {
@@ -281,22 +277,22 @@
         "encerrados": 38
       }
     },
-    "abc_empreendimentos": {
-      "nome": "ABC Empreendimentos e Participações Ltda - ABC",
-      "_idCliente": 2169788,
+    "embralot_empresa_brasileira_de_loteament": {
+      "nome": "Embralot - Empresa Brasileira de Loteamentos Ltda - ABC",
+      "_idCliente": 2121890,
       "dataset": {
-        "total": 20,
-        "ativos": 6,
-        "encerrados": 14
+        "total": 73,
+        "ativos": 48,
+        "encerrados": 25
       }
     },
-    "jardim_europa": {
+    "jardim_europa_incorpora_es_imobili_rias_": {
       "nome": "Jardim Europa Incorporações Imobiliárias Ltda - ABC",
       "_idCliente": 2121899,
       "dataset": {
-        "total": 17,
+        "total": 24,
         "ativos": 17,
-        "encerrados": 0
+        "encerrados": 7
       }
     },
     "abelardo_rafael_benigno": {
@@ -308,7 +304,16 @@
         "encerrados": 12
       }
     },
-    "cond_navegantes_spe": {
+    "abc_empreendimentos_e_participa_es_ltda": {
+      "nome": "ABC Empreendimentos e Participações Ltda - ABC",
+      "_idCliente": 2169788,
+      "dataset": {
+        "total": 20,
+        "ativos": 6,
+        "encerrados": 14
+      }
+    },
+    "condom_nio_empresarial_navegantes_spe_lt": {
       "nome": "Condomínio Empresarial Navegantes SPE Ltda - ABC",
       "_idCliente": 4340268,
       "dataset": {
@@ -317,7 +322,7 @@
         "encerrados": 7
       }
     },
-    "abc_brava": {
+    "abc_brava_empreendimentos": {
       "nome": "ABC Brava Empreendimentos - ABC",
       "_idCliente": 2130494,
       "dataset": {
@@ -326,7 +331,7 @@
         "encerrados": 8
       }
     },
-    "may_fair_embralot": {
+    "empreendimento_143_may_fair_spe_ltda_emb": {
       "nome": "Empreendimento 143 May Fair SPE Ltda - ABC (Embralot)",
       "_idCliente": 675884718,
       "dataset": {
@@ -335,7 +340,7 @@
         "encerrados": 3
       }
     },
-    "lago_de_garda": {
+    "lago_de_garda_incorpora_es_ltda": {
       "nome": "Lago de Garda Incorporações Ltda - ABC",
       "_idCliente": 2125230,
       "dataset": {
@@ -344,25 +349,7 @@
         "encerrados": 4
       }
     },
-    "capitolio": {
-      "nome": "Capitólio Participações Ltda - ABC",
-      "_idCliente": 2121975,
-      "dataset": {
-        "total": 4,
-        "ativos": 3,
-        "encerrados": 1
-      }
-    },
-    "navepark_ii": {
-      "nome": "Condomínio Empresarial Navepark II SPE Ltda - ABC",
-      "_idCliente": 682495541,
-      "dataset": {
-        "total": 4,
-        "ativos": 2,
-        "encerrados": 2
-      }
-    },
-    "thiago_cabral": {
+    "thiago_cabral_costa": {
       "nome": "Thiago Cabral Costa - ABC",
       "_idCliente": 2121892,
       "dataset": {
@@ -371,7 +358,34 @@
         "encerrados": 3
       }
     },
-    "msc": {
+    "nova_tijucas_empreendimentos_spe_ltda": {
+      "nome": "Nova Tijucas Empreendimentos SPE Ltda - ABC",
+      "_idCliente": 675448195,
+      "dataset": {
+        "total": 5,
+        "ativos": 5,
+        "encerrados": 0
+      }
+    },
+    "capit_lio_participa_es_ltda": {
+      "nome": "Capitólio Participações Ltda - ABC",
+      "_idCliente": 2121975,
+      "dataset": {
+        "total": 4,
+        "ativos": 3,
+        "encerrados": 1
+      }
+    },
+    "condom_nio_empresarial_navepark_ii_spe_l": {
+      "nome": "Condomínio Empresarial Navepark II SPE Ltda - ABC",
+      "_idCliente": 682495541,
+      "dataset": {
+        "total": 4,
+        "ativos": 2,
+        "encerrados": 2
+      }
+    },
+    "msc_construtora_e_incorporadora_ltda": {
       "nome": "MSC Construtora e Incorporadora Ltda - ABC",
       "_idCliente": 2123116,
       "dataset": {
@@ -389,16 +403,7 @@
         "encerrados": 2
       }
     },
-    "vitreo_271": {
-      "nome": "Vitreo 271 Empreendimento Imobiliário SPE Ltda - ABC",
-      "_idCliente": 683946485,
-      "dataset": {
-        "total": 3,
-        "ativos": 3,
-        "encerrados": 0
-      }
-    },
-    "navepark_scp_1": {
+    "condom_nio_empresarial_navepark_scp_1_lt": {
       "nome": "Condomínio Empresarial Navepark SCP 1 Ltda - ABC",
       "_idCliente": 675984932,
       "dataset": {
@@ -407,25 +412,16 @@
         "encerrados": 1
       }
     },
-    "ag_f_holding": {
-      "nome": "AG & F Holding Ltda - ABC",
-      "_idCliente": 2713461,
+    "vitreo_271_empreendimento_imobili_rio_sp": {
+      "nome": "Vitreo 271 Empreendimento Imobiliário SPE Ltda - ABC",
+      "_idCliente": 683946485,
       "dataset": {
-        "total": 2,
-        "ativos": 1,
-        "encerrados": 1
-      }
-    },
-    "rio_tavares": {
-      "nome": "Rio Tavares Empreendimentos Imobiliários SPE Ltda - ABC",
-      "_idCliente": 684812807,
-      "dataset": {
-        "total": 2,
-        "ativos": 2,
+        "total": 3,
+        "ativos": 3,
         "encerrados": 0
       }
     },
-    "triunfante": {
+    "triunfante_construtora_e_incorporadora_l": {
       "nome": "Triunfante Construtora e Incorporadora Ltda - ABC",
       "_idCliente": 2121981,
       "dataset": {
@@ -434,16 +430,16 @@
         "encerrados": 1
       }
     },
-    "walje": {
-      "nome": "Walje Empreendimentos Imobiliários Sociedade Coml Ltda - ABC",
-      "_idCliente": 683000701,
+    "ag_f_holding_ltda": {
+      "nome": "AG & F Holding Ltda - ABC",
+      "_idCliente": 2713461,
       "dataset": {
         "total": 2,
         "ativos": 1,
         "encerrados": 1
       }
     },
-    "moinho_aguas": {
+    "incorporadora_moinho_das_guas_spe_ltda": {
       "nome": "Incorporadora Moinho das Águas SPE Ltda - ABC",
       "_idCliente": 680482186,
       "dataset": {
@@ -452,7 +448,35 @@
         "encerrados": 1
       }
     },
-    "artheo": {
+    "walje_empreendimentos_imobili_rios_socie": {
+      "nome": "Walje Empreendimentos Imobiliários Sociedade Coml Ltda - ABC",
+      "_idCliente": 683000701,
+      "dataset": {
+        "total": 2,
+        "ativos": 1,
+        "encerrados": 1
+      }
+    },
+    "rio_tavares_empreendimentos_imobili_rios": {
+      "nome": "Rio Tavares Empreendimentos Imobiliários SPE Ltda - ABC",
+      "_idCliente": 684812807,
+      "dataset": {
+        "total": 2,
+        "ativos": 2,
+        "encerrados": 0
+      }
+    },
+    "empreendimento_gt_abc_pioneira_spe_ltda": {
+      "nome": "Empreendimento GT & ABC Pioneira SPE Ltda - ABC",
+      "_idCliente": 684809488,
+      "dataset": {
+        "total": 2,
+        "ativos": 0,
+        "encerrados": 2
+      },
+      "_semProcessos": true
+    },
+    "arth_o_empreendimentos_ltda": {
       "nome": "Arthéo Empreendimentos Ltda - ABC",
       "_idCliente": 3784965,
       "dataset": {
@@ -461,35 +485,25 @@
         "encerrados": 1
       }
     },
-    "gt_abc_pioneira": {
-      "nome": "Empreendimento GT & ABC Pioneira SPE Ltda - ABC",
-      "_idCliente": 684809488,
-      "_semProcessos": true,
-      "dataset": {
-        "total": 2,
-        "ativos": 0,
-        "encerrados": 2
-      }
-    },
-    "beach_view": {
-      "nome": "Beach View Condomínio de Lotes SPE Ltda - ABC",
-      "_idCliente": 3780277,
-      "dataset": {
-        "total": 1,
-        "ativos": 0,
-        "encerrados": 1
-      }
-    },
-    "abc_estaleiro": {
-      "nome": "Empreendimento Imobiliário ABC Estaleiro SPE Ltda - SCP - ABC",
-      "_idCliente": 685580702,
+    "gustavo_reni_vendruscolo": {
+      "nome": "Gustavo Reni Vendruscolo - ABC",
+      "_idCliente": 2119879,
       "dataset": {
         "total": 1,
         "ativos": 1,
         "encerrados": 0
       }
     },
-    "jm_monet": {
+    "nova_comandante_participa_es_societ_rias": {
+      "nome": "Nova Comandante Participações Societárias Ltda - ABC",
+      "_idCliente": 677022604,
+      "dataset": {
+        "total": 1,
+        "ativos": 1,
+        "encerrados": 0
+      }
+    },
+    "jm_monet_holding_ltda": {
       "nome": "JM Monet Holding Ltda - ABC",
       "_idCliente": 685264743,
       "dataset": {
@@ -498,7 +512,36 @@
         "encerrados": 0
       }
     },
-    "central_park": {
+    "beach_view_condom_nio_de_lotes_spe_ltda": {
+      "nome": "Beach View Condomínio de Lotes SPE Ltda - ABC",
+      "_idCliente": 3780277,
+      "dataset": {
+        "total": 1,
+        "ativos": 0,
+        "encerrados": 1
+      },
+      "_semProcessos": true
+    },
+    "lagoa_do_perequ_empreendimentos_spe_ltda": {
+      "nome": "Lagoa do Perequê Empreendimentos SPE Ltda - ABC",
+      "_idCliente": 677095956,
+      "dataset": {
+        "total": 1,
+        "ativos": 0,
+        "encerrados": 1
+      },
+      "_semProcessos": true
+    },
+    "empreendimento_imobili_rio_abc_estaleiro": {
+      "nome": "Empreendimento Imobiliário ABC Estaleiro SPE Ltda - SCP - ABC",
+      "_idCliente": 685580702,
+      "dataset": {
+        "total": 1,
+        "ativos": 1,
+        "encerrados": 0
+      }
+    },
+    "central_park_loteamento_blumenau_spe_ltd": {
       "nome": "Central Park Loteamento Blumenau SPE Ltda - ABC",
       "_idCliente": 685090273,
       "dataset": {
@@ -507,7 +550,7 @@
         "encerrados": 0
       }
     },
-    "gralha_azul": {
+    "gralha_azul_construtora_e_incorporadora_": {
       "nome": "Gralha Azul Construtora e Incorporadora Ltda - ABC",
       "_idCliente": 2568161,
       "_semProcessos": true,
@@ -516,17 +559,7 @@
         "ativos": 0,
         "encerrados": 0
       }
-    },
-    "lagoa_pereque": {
-      "nome": "Lagoa do Perequê Empreendimentos SPE Ltda - ABC",
-      "_idCliente": 677095956,
-      "_semProcessos": true,
-      "dataset": {
-        "total": 1,
-        "ativos": 0,
-        "encerrados": 1
-      }
     }
   },
-  "nEmpresas": 31
+  "nEmpresas": 34
 }
