@@ -465,55 +465,81 @@
   #view-print{display:none}
   @media print{
     @page{margin:0;size:A4 landscape}
-    html,body{background:#141833 !important;-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;color-adjust:exact !important}
+    html,body{background:#ffffff !important;-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;color-adjust:exact !important}
     *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important}
     /* esconde TUDO da tela; mostra só a vista de impressão */
     #view-inicio,#view-empresas,#view-dashboard,.curtain,.zoomtext,.topbar,.btn-pdf,.btn-back,.scrollcue{display:none !important}
     #view-print{display:block !important}
 
-    /* cada folha = 1 página A4 landscape (297×210mm). Altura FIXA, quebra depois. */
-    .sheet{width:297mm;height:210mm;box-sizing:border-box;padding:16mm 18mm;background:#141833 !important;
-      color:#fff;display:flex;flex-direction:column;justify-content:center;overflow:hidden;
+    /* PDF em papel branco: fundo claro, texto navy escuro, mantendo o dourado como destaque */
+    .sheet{width:297mm;height:210mm;box-sizing:border-box;padding:16mm 18mm;background:#ffffff !important;
+      color:#1E223F;display:flex;flex-direction:column;justify-content:center;overflow:hidden;
       break-after:page;page-break-after:always;position:relative}
     .sheet:last-child{break-after:auto;page-break-after:auto}
     /* faixa/cabeçalho fino no topo de cada folha */
     .sheet .sh-top{position:absolute;top:9mm;left:18mm;right:18mm;display:flex;justify-content:space-between;
-      align-items:center;font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;color:#8c92a8;
-      border-bottom:1px solid rgba(207,163,110,.35);padding-bottom:5px}
-    .sheet .sh-top b{color:#CFA36E;font-weight:700}
+      align-items:center;font-size:8.5px;letter-spacing:.18em;text-transform:uppercase;color:#3F5276;
+      border-bottom:1px solid rgba(207,163,110,.55);padding-bottom:5px}
+    .sheet .sh-top b{color:#B58642;font-weight:700}
     /* rodapé fino: nome do escritório + página */
     .sheet .sh-foot{position:absolute;bottom:9mm;left:18mm;right:18mm;display:flex;justify-content:space-between;
-      font-size:8px;letter-spacing:.1em;color:#6b7191;text-transform:uppercase}
+      font-size:8px;letter-spacing:.1em;color:#7a809b;text-transform:uppercase}
     /* área de conteúdo centralizada */
     .sheet .sh-body{width:100%;max-width:250mm;margin:0 auto;display:flex;flex-direction:column;justify-content:center;gap:16px}
     /* títulos de seção dentro da folha */
     .sh-sec{margin-bottom:4px}
-    .sh-sec .n{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#CFA36E;font-weight:700}
-    .sh-sec h2{font-size:19px;color:#fff;font-weight:700;margin:4px 0 6px}
-    .sh-sec p{font-size:10.5px;color:#aab0c6;line-height:1.5;max-width:210mm}
-    /* capa dedicada (pagina 1 do PDF): so logo + nome do grupo, sem cabecalho/rodape */
-    .sheet.is-cover{background:#09001E !important;justify-content:center;align-items:center;padding:0}
+    .sh-sec .n{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#B58642;font-weight:700}
+    .sh-sec h2{font-size:19px;color:#1E223F;font-weight:700;margin:4px 0 6px}
+    .sh-sec p{font-size:10.5px;color:#4a5273;line-height:1.5;max-width:210mm}
+    /* capa dedicada (pagina 1 do PDF): fundo branco, logo em navy, nome do grupo em dourado */
+    .sheet.is-cover{background:#ffffff !important;justify-content:center;align-items:center;padding:0}
     .sheet.is-cover .sh-top,.sheet.is-cover .sh-foot{display:none !important}
     .sheet.is-cover .cover-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26mm;text-align:center;width:100%}
-    .sheet.is-cover .cover-logo{width:150mm;height:auto;filter:brightness(0) invert(1)}
-    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#CFA36E;font-size:42px;letter-spacing:.005em;line-height:1.15;max-width:240mm}
-    .sheet.is-cover .cover-nome em{font-style:normal;color:#CFA36E;font-weight:700}
-    .sheet.is-cover .cover-eyebrow{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:-14mm}
-    /* clones de cards/gráficos herdam o visual do dashboard; garantimos cor e respiro */
-    #view-print .card{background:#1c2142 !important;border:1px solid #2d3358 !important;border-radius:14px;padding:16px 18px !important;width:100%;margin:0}
-    #view-print .card h3{color:#CFA36E !important;font-size:13px}
-    #view-print .card .desc{color:#9aa0b8 !important;font-size:10px}
+    .sheet.is-cover .cover-logo{width:150mm;height:auto;filter:none}
+    .sheet.is-cover .cover-nome{font-family:'Montserrat',sans-serif;font-weight:700;color:#B58642;font-size:42px;letter-spacing:.005em;line-height:1.15;max-width:240mm}
+    .sheet.is-cover .cover-nome em{font-style:normal;color:#B58642;font-weight:700}
+    .sheet.is-cover .cover-eyebrow{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:#B58642;font-weight:700;margin-bottom:-14mm}
+    /* clones de cards/gráficos: fundo branco/cinza claro, texto navy */
+    #view-print .card{background:#f7f5f1 !important;border:1px solid #d9d3c3 !important;border-radius:14px;padding:16px 18px !important;width:100%;margin:0;color:#1E223F}
+    #view-print .card h3{color:#B58642 !important;font-size:13px}
+    #view-print .card h3 .bt{background:#B58642 !important}
+    #view-print .card .desc{color:#4a5273 !important;font-size:10px}
     #view-print .kpis{display:grid !important;gap:12px;background:transparent !important;border:none !important;margin:0}
-    #view-print .kpi{background:#1c2142 !important;border:1px solid #2d3358 !important;border-radius:12px;padding:14px !important}
-    #view-print .kpi .n{color:#CFA36E !important}#view-print .kpi .k{color:#dfe2ee !important}#view-print .kpi .sub{color:#9aa0b8 !important}
-    #view-print .insight{background:rgba(207,163,110,.06);border:1px solid rgba(207,163,110,.2);border-radius:14px;padding:16px 18px;text-align:left}
-    #view-print .insight .t{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#CFA36E;font-weight:700;margin-bottom:6px}
-    #view-print .insight p{color:#dfe2ee;font-size:11px;line-height:1.6;margin:0}
-    /* gráficos: série inteira, sem scroll, esticada na largura */
+    #view-print .kpi{background:#f7f5f1 !important;border:1px solid #d9d3c3 !important;border-radius:12px;padding:14px !important;color:#1E223F}
+    #view-print .kpi .n{color:#B58642 !important}
+    #view-print .kpi .n small{color:#B58642 !important}
+    #view-print .kpi .k{color:#1E223F !important}
+    #view-print .kpi .sub{color:#4a5273 !important}
+    #view-print .kpi .trend{color:#B58642 !important;background:rgba(181,134,66,.12) !important;border-color:rgba(181,134,66,.35) !important}
+    #view-print .insight{background:rgba(207,163,110,.10);border:1px solid rgba(181,134,66,.35);border-radius:14px;padding:16px 18px;text-align:left}
+    #view-print .insight .t{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#B58642;font-weight:700;margin-bottom:6px}
+    #view-print .insight p{color:#1E223F;font-size:11px;line-height:1.6;margin:0}
+    /* barras/gráficos: navy escuro para as barras "navy-mid", dourado para as douradas */
     #view-print .vbars,#view-print .gbars{overflow:visible !important;height:150px !important;display:flex !important;width:100% !important;padding-top:26px}
     #view-print .vbars-hint{display:none !important}
     #view-print .vbar,#view-print .gbar{flex:1 1 0 !important;min-width:0 !important}
+    #view-print .vbar .lb,#view-print .gbar .lb{color:#4a5273 !important}
+    #view-print .vbar .v,#view-print .gbar .v{color:#1E223F !important}
     #view-print .amp-wm{display:none !important}
+    /* legenda das barras (usa .legend b como amostra de cor) */
+    #view-print .legend{color:#4a5273 !important}
+    /* pills (Tribunais e Partes atendidas) */
+    #view-print .pill{color:#1E223F !important;border-color:#d9d3c3 !important;background:rgba(207,163,110,.10) !important}
+    #view-print .pill b{color:#B58642 !important}
+    /* Considerações: texto navy, números/negrito em dourado */
+    #view-print .cons-body{font-size:11px;line-height:1.6;color:#1E223F !important;gap:10px;margin-top:6px}
+    #view-print .cons-body b,#view-print .cons-body strong{color:#B58642 !important}
+    #view-print .cons-body .cons-ico{color:#B58642 !important;font-size:12px}
+    /* Donut (área) + regiões (mapa) — cores mantidas, mas labels ficam navy */
+    #view-print .donut-leg,#view-print .donut-leg *{color:#1E223F !important}
+    #view-print .regions,#view-print .region,#view-print .region *{color:#1E223F !important}
+    #view-print .hbars,#view-print .hbars *{color:#1E223F !important}
+    #view-print .hbars .lbl{color:#4a5273 !important}
+    /* garante que qualquer texto branco herdado do tema escuro NAO fique invisivel no papel branco */
+    #view-print h1,#view-print h2,#view-print h3,#view-print h4,#view-print p,#view-print span,#view-print div{color:#1E223F}
+    #view-print [style*="color:#fff"]{color:#1E223F !important}
+    #view-print [style*="color: #fff"]{color:#1E223F !important}
+    #view-print [style*="color:#FFF"]{color:#1E223F !important}
   }
 
 /* ===== Estado 'sem dados / em atualizacao' (empresas ainda nao auditadas) ===== */
@@ -1934,7 +1960,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723d';
+  var _cb = '?v=20260723e';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
