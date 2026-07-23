@@ -793,7 +793,7 @@ body.dash.is-semdados #sd-overlay{display:block}
   <div class="kpis reveal" style="margin-bottom:24px;--kn:3">
     <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub" id="e-compromissos-sub">prazos + audiências + reuniões e diligências</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-atosproc">0</div><div class="k">Atos por processo</div><div class="sub" id="e-atosproc-sub">compromissos ÷ processos movimentados</div></div>
-    <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média — ativos contam até 30/06</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média — ativos contam até 23/07</div></div>
   </div>
 
   <div class="sub-lead reveal">Atividades executadas por ano</div>
@@ -1627,7 +1627,12 @@ function entrarDashboard(){
   setTimeout(function(){
     document.body.classList.remove('entering');
     document.body.classList.add('entered');
-    document.querySelectorAll('#view-dashboard .kpis').forEach(x=>x.classList.add('in'));
+    // KPIs de topo: adiciona .in E dispara animarCard direto (não depende de IntersectionObserver
+    // pois eles já estão visíveis. Fix do bug de KPIs travados em "0" em aba background/hidden).
+    document.querySelectorAll('#view-dashboard .kpis').forEach(x=>{
+      x.classList.add('in');
+      if(typeof animarCard === 'function') animarCard(x);
+    });
     // ativa o observer DEPOIS de a página assentar (posições corretas) — assim os cards
     // (donut/tribunais/barras/cortina) animam conforme rola, tanto no site quanto no link do cliente.
     ativarObserver();
@@ -2050,7 +2055,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723ak';
+  var _cb = '?v=20260723al';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
