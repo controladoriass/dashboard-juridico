@@ -5,8 +5,8 @@
     "areas": 8,
     "trib": 6,
     "procSub": "65 ativos · 135 encerrados",
-    "areasSub": "Cível, Trabalhista, Administrativo",
-    "tribSub": "TJSC, N/I, TRT12"
+    "areasSub": "",
+    "tribSub": ""
   },
   "empresas": {
     "_panorama": {
@@ -206,10 +206,13 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 200,
+          "ativos": 65,
           "areas": 8,
           "trib": 6,
-          "proc": 200,
-          "ativos": 65
+          "procSub": "65 ativos · 135 encerrados",
+          "areasSub": "",
+          "tribSub": ""
         },
         "esforco": {
           "comProducao": 199,

@@ -5,8 +5,8 @@
     "areas": 7,
     "trib": 8,
     "procSub": "49 ativos · 107 encerrados",
-    "areasSub": "Cível, Bancário, Tributário",
-    "tribSub": "TRF4, TJSC, N/I"
+    "areasSub": "",
+    "tribSub": ""
   },
   "empresas": {
     "_panorama": {
@@ -222,10 +222,13 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 156,
+          "ativos": 49,
           "areas": 7,
           "trib": 8,
-          "proc": 156,
-          "ativos": 49
+          "procSub": "49 ativos · 107 encerrados",
+          "areasSub": "",
+          "tribSub": ""
         },
         "esforco": {
           "comProducao": 153,

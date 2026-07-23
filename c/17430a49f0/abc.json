@@ -3,10 +3,10 @@
     "proc": 639,
     "ativos": 327,
     "areas": 7,
-    "trib": 13,
-    "procSub": "processos no total",
-    "areasSub": "áreas jurídicas atuadas",
-    "tribSub": "tribunais / órgãos"
+    "trib": 14,
+    "procSub": "327 ativos · 312 encerrados",
+    "areasSub": "Cível, Tributário, Trabalhista",
+    "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina, N/D, TRT12 - Tribunal Regional do Trabalho da 12ª Região"
   },
   "empresas": {
     "_panorama": {
@@ -47,214 +47,111 @@
           "2025": 87,
           "2026": 54
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 206
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 41
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 35
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 19
-          },
-          {
-            "nome": "Penal-Criminal",
-            "qtd": 15
-          },
-          {
-            "nome": "Ambiental",
-            "qtd": 10
-          },
-          {
-            "nome": "Pública",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 264
-          },
-          {
-            "nome": "N/D",
-            "qtd": 19
-          },
-          {
-            "nome": "PR",
-            "qtd": 19
-          },
-          {
-            "nome": "SP",
-            "qtd": 8
-          },
-          {
-            "nome": "DF",
-            "qtd": 7
-          },
-          {
-            "nome": "RS",
-            "qtd": 6
-          },
-          {
-            "nome": "RJ",
-            "qtd": 1
-          },
-          {
-            "nome": "MS",
-            "qtd": 1
-          },
-          {
-            "nome": "PI",
-            "qtd": 1
-          },
-          {
-            "nome": "MT",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 314
-          },
-          {
-            "nome": "1º Grau",
-            "qtd": 13
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 183
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 114
-          },
-          {
-            "nome": "Terceiro/Outros",
-            "qtd": 30
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 182
-          },
-          {
-            "nome": "N/D",
-            "qtd": 81
-          },
-          {
-            "nome": "TRT12 - Tribunal Regional do Trabalho da 12ª Região",
-            "qtd": 21
-          },
-          {
-            "nome": "TRF4 - Tribunal Regional Federal da 4ª Região",
-            "qtd": 9
-          },
-          {
-            "nome": "TJPR - Tribunal de Justiça do Estado do Paraná",
-            "qtd": 8
-          },
-          {
-            "nome": "TJSP - Tribunal de Justiça do Estado de São Paulo",
-            "qtd": 7
-          },
-          {
-            "nome": "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul",
-            "qtd": 6
-          },
-          {
-            "nome": "STJ - Superior Tribunal de Justiça",
-            "qtd": 5
-          },
-          {
-            "nome": "Justiça Federal do Parana",
-            "qtd": 3
-          },
-          {
-            "nome": "SEFAZ - Secretaria Municipal da Fazenda",
-            "qtd": 1
-          },
-          {
-            "nome": "TRT01 - Tribunal Regional do Trabalho da 1ª Região",
-            "qtd": 1
-          },
-          {
-            "nome": "MPSC - Ministério Público do Estado de Santa Catarina",
-            "qtd": 1
-          },
-          {
-            "nome": "TRT22 - Tribunal Regional do Trabalho da 22ª Região",
-            "qtd": 1
-          },
-          {
-            "nome": "MINTRAB - Ministério do Trabalho e Emprego",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 206,
+          "Tributário": 41,
+          "Trabalhista": 35,
+          "Administrativo": 19,
+          "Penal-Criminal": 15,
+          "Ambiental": 10,
+          "Pública": 1
+        },
+        "uf": {
+          "SC": 264,
+          "N/D": 19,
+          "PR": 19,
+          "SP": 8,
+          "DF": 7,
+          "RS": 6,
+          "RJ": 1,
+          "MS": 1,
+          "PI": 1,
+          "MT": 1
+        },
+        "instancia": {
+          "N/D": 314,
+          "1º Grau": 13
+        },
+        "polo": {
+          "Polo passivo": 183,
+          "Polo ativo": 114,
+          "Terceiro/Outros": 30
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 182,
+          "N/D": 81,
+          "TRT12 - Tribunal Regional do Trabalho da 12ª Região": 21,
+          "TRF4 - Tribunal Regional Federal da 4ª Região": 9,
+          "TJPR - Tribunal de Justiça do Estado do Paraná": 8,
+          "TJSP - Tribunal de Justiça do Estado de São Paulo": 7,
+          "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul": 6,
+          "STJ - Superior Tribunal de Justiça": 5,
+          "Justiça Federal do Parana": 3,
+          "SEFAZ - Secretaria Municipal da Fazenda": 1,
+          "TRT01 - Tribunal Regional do Trabalho da 1ª Região": 1,
+          "MPSC - Ministério Público do Estado de Santa Catarina": 1,
+          "TRT22 - Tribunal Regional do Trabalho da 22ª Região": 1,
+          "MINTRAB - Ministério do Trabalho e Emprego": 1
+        },
         "ranking": [
-          {
-            "nome": "DETRAN",
-            "qtd": 1
-          },
-          {
-            "nome": "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
-            "qtd": 1
-          },
-          {
-            "nome": "MUNICÍPIO DE CAMBORIÚ",
-            "qtd": 1
-          },
-          {
-            "nome": "MINISTÉRIO PÚBLICO FEDERAL",
-            "qtd": 1
-          },
-          {
-            "nome": "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
-            "qtd": 1
-          },
-          {
-            "nome": "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
-            "qtd": 1
-          },
-          {
-            "nome": "PREFEITURA MUNICIPAL DE ITAPEMA",
-            "qtd": 1
-          },
-          {
-            "nome": "WALDECIR GLAUCO GILI",
-            "qtd": 1
-          },
-          {
-            "nome": "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-            "qtd": 1
-          },
-          {
-            "nome": "MUNICÍPIO DE FLORIANÓPOLIS/SC",
-            "qtd": 1
-          },
-          {
-            "nome": "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
-            "qtd": 1
-          },
-          {
-            "nome": "KATIVANILDO SILVA LIMA",
-            "qtd": 1
-          }
+          [
+            "DETRAN",
+            1
+          ],
+          [
+            "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
+            1
+          ],
+          [
+            "MUNICÍPIO DE CAMBORIÚ",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO FEDERAL",
+            1
+          ],
+          [
+            "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            1
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE ITAPEMA",
+            1
+          ],
+          [
+            "WALDECIR GLAUCO GILI",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "MUNICÍPIO DE FLORIANÓPOLIS/SC",
+            1
+          ],
+          [
+            "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
+            1
+          ],
+          [
+            "KATIVANILDO SILVA LIMA",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 639,
+          "ativos": 327,
           "areas": 7,
-          "trib": 13
+          "trib": 14,
+          "procSub": "327 ativos · 312 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina, N/D, TRT12 - Tribunal Regional do Trabalho da 12ª Região"
         },
         "esforco": {
           "comProducao": 312,
@@ -335,46 +232,36 @@
         "encerrados_por_ano": {
           "2022": 0
         },
-        "area": [
-          {
-            "nome": "Administrativo",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Administrativo": 1
+        },
+        "uf": {
+          "N/D": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "N/D": 1
+        },
         "ranking": [
-          {
-            "nome": "DETRAN",
-            "qtd": 1
-          }
+          [
+            "DETRAN",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 1,
+          "ativos": 1,
           "areas": 1,
-          "trib": 0
+          "trib": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Administrativo",
+          "tribSub": "N/D"
         }
       }
     },
@@ -413,89 +300,43 @@
           "2025": 10,
           "2026": 6
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 31
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 4
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 2
-          },
-          {
-            "nome": "Pública",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 29
-          },
-          {
-            "nome": "PR",
-            "qtd": 3
-          },
-          {
-            "nome": "RS",
-            "qtd": 3
-          },
-          {
-            "nome": "DF",
-            "qtd": 2
-          },
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 38
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 24
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 14
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 28
-          },
-          {
-            "nome": "N/D",
-            "qtd": 3
-          },
-          {
-            "nome": "TJPR - Tribunal de Justiça do Estado do Paraná",
-            "qtd": 3
-          },
-          {
-            "nome": "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul",
-            "qtd": 3
-          },
-          {
-            "nome": "STJ - Superior Tribunal de Justiça",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 31,
+          "Tributário": 4,
+          "Administrativo": 2,
+          "Pública": 1
+        },
+        "uf": {
+          "SC": 29,
+          "PR": 3,
+          "RS": 3,
+          "DF": 2,
+          "N/D": 1
+        },
+        "instancia": {
+          "N/D": 38
+        },
+        "polo": {
+          "Polo passivo": 24,
+          "Polo ativo": 14
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 28,
+          "N/D": 3,
+          "TJPR - Tribunal de Justiça do Estado do Paraná": 3,
+          "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul": 3,
+          "STJ - Superior Tribunal de Justiça": 1
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 76,
+          "ativos": 38,
           "areas": 4,
-          "trib": 4
+          "trib": 5,
+          "procSub": "38 ativos · 38 encerrados",
+          "areasSub": "Cível, Tributário, Administrativo",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina, N/D, TJPR - Tribunal de Justiça do Estado do Paraná"
         }
       }
     },
@@ -534,113 +375,49 @@
           "2025": 8,
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 24
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 20
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 2
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 1
-          },
-          {
-            "nome": "Ambiental",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 33
-          },
-          {
-            "nome": "PR",
-            "qtd": 11
-          },
-          {
-            "nome": "RS",
-            "qtd": 2
-          },
-          {
-            "nome": "N/D",
-            "qtd": 1
-          },
-          {
-            "nome": "DF",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 48
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 29
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 10
-          },
-          {
-            "nome": "Terceiro/Outros",
-            "qtd": 9
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 28
-          },
-          {
-            "nome": "TRF4 - Tribunal Regional Federal da 4ª Região",
-            "qtd": 7
-          },
-          {
-            "nome": "N/D",
-            "qtd": 3
-          },
-          {
-            "nome": "Justiça Federal do Parana",
-            "qtd": 3
-          },
-          {
-            "nome": "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul",
-            "qtd": 2
-          },
-          {
-            "nome": "TRT12 - Tribunal Regional do Trabalho da 12ª Região",
-            "qtd": 2
-          },
-          {
-            "nome": "STJ - Superior Tribunal de Justiça",
-            "qtd": 1
-          },
-          {
-            "nome": "SEFAZ - Secretaria Municipal da Fazenda",
-            "qtd": 1
-          },
-          {
-            "nome": "TJPR - Tribunal de Justiça do Estado do Paraná",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 24,
+          "Tributário": 20,
+          "Trabalhista": 2,
+          "Administrativo": 1,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 33,
+          "PR": 11,
+          "RS": 2,
+          "N/D": 1,
+          "DF": 1
+        },
+        "instancia": {
+          "N/D": 48
+        },
+        "polo": {
+          "Polo passivo": 29,
+          "Polo ativo": 10,
+          "Terceiro/Outros": 9
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 28,
+          "TRF4 - Tribunal Regional Federal da 4ª Região": 7,
+          "N/D": 3,
+          "Justiça Federal do Parana": 3,
+          "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul": 2,
+          "TRT12 - Tribunal Regional do Trabalho da 12ª Região": 2,
+          "STJ - Superior Tribunal de Justiça": 1,
+          "SEFAZ - Secretaria Municipal da Fazenda": 1,
+          "TJPR - Tribunal de Justiça do Estado do Paraná": 1
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 73,
+          "ativos": 48,
           "areas": 5,
-          "trib": 8
+          "trib": 9,
+          "procSub": "48 ativos · 25 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina, TRF4 - Tribunal Regional Federal da 4ª Região, N/D"
         }
       }
     },
@@ -679,65 +456,37 @@
           "2025": 4,
           "2026": 1
         },
-        "area": [
-          {
-            "nome": "Penal-Criminal",
-            "qtd": 6
-          },
-          {
-            "nome": "Cível",
-            "qtd": 3
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 9
-          },
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 10
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 7
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 2
-          },
-          {
-            "nome": "Terceiro/Outros",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 6
-          },
-          {
-            "nome": "N/D",
-            "qtd": 4
-          }
-        ],
+        "area": {
+          "Penal-Criminal": 6,
+          "Cível": 3,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 9,
+          "N/D": 1
+        },
+        "instancia": {
+          "N/D": 10
+        },
+        "polo": {
+          "Polo passivo": 7,
+          "Polo ativo": 2,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 6,
+          "N/D": 4
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 22,
+          "ativos": 10,
           "areas": 3,
-          "trib": 1
+          "trib": 2,
+          "procSub": "10 ativos · 12 encerrados",
+          "areasSub": "Penal-Criminal, Cível, Administrativo",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina, N/D"
         }
       }
     },
@@ -773,45 +522,32 @@
           "2024": 0,
           "2025": 1
         },
-        "area": [
-          {
-            "nome": "Administrativo",
-            "qtd": 2
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 3
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 3
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 3
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 3
-          }
-        ],
+        "area": {
+          "Administrativo": 2,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "N/D": 3
+        },
+        "polo": {
+          "Polo passivo": 3
+        },
+        "tribunais": {
+          "N/D": 3
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 6,
+          "ativos": 3,
           "areas": 2,
-          "trib": 0
+          "trib": 1,
+          "procSub": "3 ativos · 3 encerrados",
+          "areasSub": "Administrativo, Tributário",
+          "tribSub": "N/D"
         }
       }
     },
@@ -850,53 +586,34 @@
           "2025": 4,
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 17
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 16
-          },
-          {
-            "nome": "RS",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 17
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 14
-          },
-          {
-            "nome": "Polo passivo",
-            "qtd": 3
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 16
-          },
-          {
-            "nome": "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 17
+        },
+        "uf": {
+          "SC": 16,
+          "RS": 1
+        },
+        "instancia": {
+          "N/D": 17
+        },
+        "polo": {
+          "Polo ativo": 14,
+          "Polo passivo": 3
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 16,
+          "TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul": 1
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 24,
+          "ativos": 17,
           "areas": 1,
-          "trib": 2
+          "trib": 2,
+          "procSub": "17 ativos · 7 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina, TJRS - Tribunal de Justiça do Estado do Rio Grande do Sul"
         }
       }
     },
@@ -920,45 +637,32 @@
           "2025": 0,
           "2026": 1
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 3
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 3
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 3
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 2
-          },
-          {
-            "nome": "Polo passivo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 3
-          }
-        ],
+        "area": {
+          "Cível": 3
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "N/D": 3
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "N/D": 3
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 4,
+          "ativos": 3,
           "areas": 1,
-          "trib": 0
+          "trib": 1,
+          "procSub": "3 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "N/D"
         }
       }
     },
@@ -997,97 +701,45 @@
           "2025": 16,
           "2026": 7
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 41
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 2
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 2
-          },
-          {
-            "nome": "Ambiental",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 40
-          },
-          {
-            "nome": "SP",
-            "qtd": 3
-          },
-          {
-            "nome": "N/D",
-            "qtd": 1
-          },
-          {
-            "nome": "DF",
-            "qtd": 1
-          },
-          {
-            "nome": "RJ",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 46
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 28
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 14
-          },
-          {
-            "nome": "Terceiro/Outros",
-            "qtd": 4
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 37
-          },
-          {
-            "nome": "TJSP - Tribunal de Justiça do Estado de São Paulo",
-            "qtd": 3
-          },
-          {
-            "nome": "N/D",
-            "qtd": 3
-          },
-          {
-            "nome": "STJ - Superior Tribunal de Justiça",
-            "qtd": 1
-          },
-          {
-            "nome": "TRT12 - Tribunal Regional do Trabalho da 12ª Região",
-            "qtd": 1
-          },
-          {
-            "nome": "TRT01 - Tribunal Regional do Trabalho da 1ª Região",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 41,
+          "Tributário": 2,
+          "Trabalhista": 2,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 40,
+          "SP": 3,
+          "N/D": 1,
+          "DF": 1,
+          "RJ": 1
+        },
+        "instancia": {
+          "N/D": 46
+        },
+        "polo": {
+          "Polo passivo": 28,
+          "Polo ativo": 14,
+          "Terceiro/Outros": 4
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 37,
+          "TJSP - Tribunal de Justiça do Estado de São Paulo": 3,
+          "N/D": 3,
+          "STJ - Superior Tribunal de Justiça": 1,
+          "TRT12 - Tribunal Regional do Trabalho da 12ª Região": 1,
+          "TRT01 - Tribunal Regional do Trabalho da 1ª Região": 1
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 92,
+          "ativos": 46,
           "areas": 4,
-          "trib": 5
+          "trib": 6,
+          "procSub": "46 ativos · 46 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina, TJSP - Tribunal de Justiça do Estado de São Paulo, N/D"
         }
       }
     },
@@ -1126,53 +778,34 @@
           "2025": 0,
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 1
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          },
-          {
-            "nome": "MS",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 2
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          },
-          {
-            "nome": "Polo passivo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 2
-          }
-        ],
+        "area": {
+          "Cível": 1,
+          "Trabalhista": 1
+        },
+        "uf": {
+          "N/D": 1,
+          "MS": 1
+        },
+        "instancia": {
+          "N/D": 2
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "N/D": 2
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 3,
+          "ativos": 2,
           "areas": 2,
-          "trib": 0
+          "trib": 1,
+          "procSub": "2 ativos · 1 encerrados",
+          "areasSub": "Cível, Trabalhista",
+          "tribSub": "N/D"
         }
       }
     },
@@ -1211,41 +844,31 @@
           "2025": 0,
           "2026": 2
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "N/D": 1
+        },
+        "polo": {
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "N/D": 1
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 3,
+          "ativos": 1,
           "areas": 1,
-          "trib": 0
+          "trib": 1,
+          "procSub": "1 ativos · 2 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "N/D"
         }
       }
     },
@@ -1281,53 +904,34 @@
           "2025": 1,
           "2026": 1
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 2
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 1
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 4
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 4
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 3
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 4
-          }
-        ],
+        "area": {
+          "Cível": 2,
+          "Tributário": 1,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 4
+        },
+        "instancia": {
+          "N/D": 4
+        },
+        "polo": {
+          "Polo passivo": 3,
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "N/D": 4
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 8,
+          "ativos": 4,
           "areas": 3,
-          "trib": 0
+          "trib": 1,
+          "procSub": "4 ativos · 4 encerrados",
+          "areasSub": "Cível, Tributário, Administrativo",
+          "tribSub": "N/D"
         }
       }
     },
@@ -1369,121 +973,51 @@
           "2025": 32,
           "2026": 28
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 72
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 20
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 9
-          },
-          {
-            "nome": "Penal-Criminal",
-            "qtd": 4
-          },
-          {
-            "nome": "Ambiental",
-            "qtd": 3
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 3
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 89
-          },
-          {
-            "nome": "N/D",
-            "qtd": 11
-          },
-          {
-            "nome": "PR",
-            "qtd": 4
-          },
-          {
-            "nome": "SP",
-            "qtd": 4
-          },
-          {
-            "nome": "DF",
-            "qtd": 2
-          },
-          {
-            "nome": "PI",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 111
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 62
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 37
-          },
-          {
-            "nome": "Terceiro/Outros",
-            "qtd": 12
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 61
-          },
-          {
-            "nome": "N/D",
-            "qtd": 21
-          },
-          {
-            "nome": "TRT12 - Tribunal Regional do Trabalho da 12ª Região",
-            "qtd": 16
-          },
-          {
-            "nome": "TJPR - Tribunal de Justiça do Estado do Paraná",
-            "qtd": 4
-          },
-          {
-            "nome": "TJSP - Tribunal de Justiça do Estado de São Paulo",
-            "qtd": 4
-          },
-          {
-            "nome": "STJ - Superior Tribunal de Justiça",
-            "qtd": 2
-          },
-          {
-            "nome": "MPSC - Ministério Público do Estado de Santa Catarina",
-            "qtd": 1
-          },
-          {
-            "nome": "TRT22 - Tribunal Regional do Trabalho da 22ª Região",
-            "qtd": 1
-          },
-          {
-            "nome": "MINTRAB - Ministério do Trabalho e Emprego",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 72,
+          "Trabalhista": 20,
+          "Tributário": 9,
+          "Penal-Criminal": 4,
+          "Ambiental": 3,
+          "Administrativo": 3
+        },
+        "uf": {
+          "SC": 89,
+          "N/D": 11,
+          "PR": 4,
+          "SP": 4,
+          "DF": 2,
+          "PI": 1
+        },
+        "instancia": {
+          "N/D": 111
+        },
+        "polo": {
+          "Polo passivo": 62,
+          "Polo ativo": 37,
+          "Terceiro/Outros": 12
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 61,
+          "N/D": 21,
+          "TRT12 - Tribunal Regional do Trabalho da 12ª Região": 16,
+          "TJPR - Tribunal de Justiça do Estado do Paraná": 4,
+          "TJSP - Tribunal de Justiça do Estado de São Paulo": 4,
+          "STJ - Superior Tribunal de Justiça": 2,
+          "MPSC - Ministério Público do Estado de Santa Catarina": 1,
+          "TRT22 - Tribunal Regional do Trabalho da 22ª Região": 1,
+          "MINTRAB - Ministério do Trabalho e Emprego": 1
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 242,
+          "ativos": 111,
           "areas": 6,
-          "trib": 8
+          "trib": 9,
+          "procSub": "111 ativos · 131 encerrados",
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina, N/D, TRT12 - Tribunal Regional do Trabalho da 12ª Região"
         }
       },
       "_isMainClient": true
@@ -1520,45 +1054,32 @@
           "2025": 0,
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Trabalhista",
-            "qtd": 2
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 3
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 3
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 3
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 3
-          }
-        ],
+        "area": {
+          "Trabalhista": 2,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "N/D": 3
+        },
+        "polo": {
+          "Polo passivo": 3
+        },
+        "tribunais": {
+          "N/D": 3
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 11,
+          "ativos": 3,
           "areas": 2,
-          "trib": 0
+          "trib": 1,
+          "procSub": "3 ativos · 8 encerrados",
+          "areasSub": "Trabalhista, Administrativo",
+          "tribSub": "N/D"
         }
       }
     },
@@ -1594,73 +1115,39 @@
           "2025": 5,
           "2026": 1
         },
-        "area": [
-          {
-            "nome": "Penal-Criminal",
-            "qtd": 3
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 1
-          },
-          {
-            "nome": "Cível",
-            "qtd": 1
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 5
-          },
-          {
-            "nome": "PR",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 6
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Terceiro/Outros",
-            "qtd": 3
-          },
-          {
-            "nome": "Polo passivo",
-            "qtd": 2
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 3
-          },
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 2
-          },
-          {
-            "nome": "TRT12 - Tribunal Regional do Trabalho da 12ª Região",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Penal-Criminal": 3,
+          "Trabalhista": 1,
+          "Cível": 1,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 5,
+          "PR": 1
+        },
+        "instancia": {
+          "N/D": 6
+        },
+        "polo": {
+          "Terceiro/Outros": 3,
+          "Polo passivo": 2,
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "N/D": 3,
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 2,
+          "TRT12 - Tribunal Regional do Trabalho da 12ª Região": 1
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 20,
+          "ativos": 6,
           "areas": 4,
-          "trib": 2
+          "trib": 3,
+          "procSub": "6 ativos · 14 encerrados",
+          "areasSub": "Penal-Criminal, Trabalhista, Cível",
+          "tribSub": "N/D, TJSC - Tribunal de Justiça do Estado de Santa Catarina, TRT12 - Tribunal Regional do Trabalho da 12ª Região"
         }
       }
     },
@@ -1723,46 +1210,36 @@
           "2022": 0,
           "2023": 1
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 1
+        },
         "ranking": [
-          {
-            "nome": "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
-            "qtd": 1
-          }
+          [
+            "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 2,
+          "ativos": 1,
           "areas": 1,
-          "trib": 1
+          "trib": 1,
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina"
         }
       }
     },
@@ -1792,61 +1269,36 @@
           "2025": 1,
           "2026": 2
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 3
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 1
-          },
-          {
-            "nome": "Ambiental",
-            "qtd": 1
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 5
-          },
-          {
-            "nome": "MT",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 6
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 4
-          },
-          {
-            "nome": "Polo passivo",
-            "qtd": 2
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 6
-          }
-        ],
+        "area": {
+          "Cível": 3,
+          "Tributário": 1,
+          "Ambiental": 1,
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 5,
+          "MT": 1
+        },
+        "instancia": {
+          "N/D": 6
+        },
+        "polo": {
+          "Polo ativo": 4,
+          "Polo passivo": 2
+        },
+        "tribunais": {
+          "N/D": 6
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 13,
+          "ativos": 6,
           "areas": 4,
-          "trib": 0
+          "trib": 1,
+          "procSub": "6 ativos · 7 encerrados",
+          "areasSub": "Cível, Tributário, Ambiental",
+          "tribSub": "N/D"
         }
       }
     },
@@ -1876,57 +1328,35 @@
           "2025": 0,
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Penal-Criminal",
-            "qtd": 2
-          },
-          {
-            "nome": "Cível",
-            "qtd": 2
-          },
-          {
-            "nome": "Ambiental",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 4
-          },
-          {
-            "nome": "SP",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 5
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 4
-          },
-          {
-            "nome": "Terceiro/Outros",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 5
-          }
-        ],
+        "area": {
+          "Penal-Criminal": 2,
+          "Cível": 2,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 4,
+          "SP": 1
+        },
+        "instancia": {
+          "N/D": 5
+        },
+        "polo": {
+          "Polo ativo": 4,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "N/D": 5
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 5,
+          "ativos": 5,
           "areas": 3,
-          "trib": 0
+          "trib": 1,
+          "procSub": "5 ativos · 0 encerrados",
+          "areasSub": "Penal-Criminal, Cível, Ambiental",
+          "tribSub": "N/D"
         }
       }
     },
@@ -1956,61 +1386,36 @@
           "2025": 2,
           "2026": 1
         },
-        "area": [
-          {
-            "nome": "Administrativo",
-            "qtd": 4
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 2
-          },
-          {
-            "nome": "Cível",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 5
-          },
-          {
-            "nome": "DF",
-            "qtd": 1
-          },
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 7
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 4
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 3
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 7
-          }
-        ],
+        "area": {
+          "Administrativo": 4,
+          "Trabalhista": 2,
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 5,
+          "DF": 1,
+          "N/D": 1
+        },
+        "instancia": {
+          "N/D": 7
+        },
+        "polo": {
+          "Polo passivo": 4,
+          "Polo ativo": 3
+        },
+        "tribunais": {
+          "N/D": 7
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 10,
+          "ativos": 7,
           "areas": 3,
-          "trib": 0
+          "trib": 1,
+          "procSub": "7 ativos · 3 encerrados",
+          "areasSub": "Administrativo, Trabalhista, Cível",
+          "tribSub": "N/D"
         }
       }
     },
@@ -2037,49 +1442,33 @@
           "2024": 1,
           "2025": 0
         },
-        "area": [
-          {
-            "nome": "Tributário",
-            "qtd": 1
-          },
-          {
-            "nome": "Trabalhista",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 2
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 2
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          },
-          {
-            "nome": "Polo passivo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 2
-          }
-        ],
+        "area": {
+          "Tributário": 1,
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "N/D": 2
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "N/D": 2
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 3,
+          "ativos": 2,
           "areas": 2,
-          "trib": 0
+          "trib": 1,
+          "procSub": "2 ativos · 1 encerrados",
+          "areasSub": "Tributário, Trabalhista",
+          "tribSub": "N/D"
         }
       }
     },
@@ -2100,46 +1489,36 @@
         "encerrados_por_ano": {
           "2024": 0
         },
-        "area": [
-          {
-            "nome": "Tributário",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "N/D": 1
+        },
         "ranking": [
-          {
-            "nome": "MUNICÍPIO DE CAMBORIÚ",
-            "qtd": 1
-          }
+          [
+            "MUNICÍPIO DE CAMBORIÚ",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 1,
+          "ativos": 1,
           "areas": 1,
-          "trib": 0
+          "trib": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Tributário",
+          "tribSub": "N/D"
         }
       }
     },
@@ -2193,46 +1572,36 @@
           "2024": 0,
           "2025": 1
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TRF4 - Tribunal Regional Federal da 4ª Região",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "TRF4 - Tribunal Regional Federal da 4ª Região": 1
+        },
         "ranking": [
-          {
-            "nome": "MINISTÉRIO PÚBLICO FEDERAL",
-            "qtd": 1
-          }
+          [
+            "MINISTÉRIO PÚBLICO FEDERAL",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 2,
+          "ativos": 1,
           "areas": 1,
-          "trib": 1
+          "trib": 1,
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TRF4 - Tribunal Regional Federal da 4ª Região"
         }
       }
     },
@@ -2256,45 +1625,32 @@
           "2025": 0,
           "2026": 2
         },
-        "area": [
-          {
-            "nome": "Trabalhista",
-            "qtd": 1
-          },
-          {
-            "nome": "Ambiental",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 2
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "N/D",
-            "qtd": 2
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 2
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 2
-          }
-        ],
+        "area": {
+          "Trabalhista": 1,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "N/D": 2
+        },
+        "polo": {
+          "Polo passivo": 2
+        },
+        "tribunais": {
+          "N/D": 2
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 4,
+          "ativos": 2,
           "areas": 2,
-          "trib": 0
+          "trib": 1,
+          "procSub": "2 ativos · 2 encerrados",
+          "areasSub": "Trabalhista, Ambiental",
+          "tribSub": "N/D"
         }
       }
     },
@@ -2318,46 +1674,36 @@
           "2025": 1,
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Cível",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 1
+        },
         "ranking": [
-          {
-            "nome": "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
-            "qtd": 1
-          }
+          [
+            "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 2,
+          "ativos": 1,
           "areas": 1,
-          "trib": 1
+          "trib": 1,
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC - Tribunal de Justiça do Estado de Santa Catarina"
         }
       }
     },
@@ -2381,70 +1727,48 @@
           "2025": 0,
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Trabalhista",
-            "qtd": 1
-          },
-          {
-            "nome": "Administrativo",
-            "qtd": 1
-          },
-          {
-            "nome": "Cível",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 3
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 3
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 2
-          },
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 2
-          },
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Trabalhista": 1,
+          "Administrativo": 1,
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "1º Grau": 3
+        },
+        "polo": {
+          "Polo passivo": 2,
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "N/D": 2,
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 1
+        },
         "ranking": [
-          {
-            "nome": "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
-            "qtd": 1
-          },
-          {
-            "nome": "PREFEITURA MUNICIPAL DE ITAPEMA",
-            "qtd": 1
-          },
-          {
-            "nome": "WALDECIR GLAUCO GILI",
-            "qtd": 1
-          }
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            1
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE ITAPEMA",
+            1
+          ],
+          [
+            "WALDECIR GLAUCO GILI",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 3,
+          "ativos": 3,
           "areas": 3,
-          "trib": 1
+          "trib": 2,
+          "procSub": "3 ativos · 0 encerrados",
+          "areasSub": "Trabalhista, Administrativo, Cível",
+          "tribSub": "N/D, TJSC - Tribunal de Justiça do Estado de Santa Catarina"
         }
       }
     },
@@ -2495,58 +1819,42 @@
         "encerrados_por_ano": {
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Ambiental",
-            "qtd": 1
-          },
-          {
-            "nome": "Tributário",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 2
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 2
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 2
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          },
-          {
-            "nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Ambiental": 1,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Polo passivo": 2
+        },
+        "tribunais": {
+          "N/D": 1,
+          "TJSC - Tribunal de Justiça do Estado de Santa Catarina": 1
+        },
         "ranking": [
-          {
-            "nome": "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-            "qtd": 1
-          },
-          {
-            "nome": "MUNICÍPIO DE FLORIANÓPOLIS/SC",
-            "qtd": 1
-          }
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "MUNICÍPIO DE FLORIANÓPOLIS/SC",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 2,
+          "ativos": 2,
           "areas": 2,
-          "trib": 1
+          "trib": 2,
+          "procSub": "2 ativos · 0 encerrados",
+          "areasSub": "Ambiental, Tributário",
+          "tribSub": "N/D, TJSC - Tribunal de Justiça do Estado de Santa Catarina"
         }
       }
     },
@@ -2567,46 +1875,36 @@
         "encerrados_por_ano": {
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Ambiental",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TRF4 - Tribunal Regional Federal da 4ª Região",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "TRF4 - Tribunal Regional Federal da 4ª Região": 1
+        },
         "ranking": [
-          {
-            "nome": "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
-            "qtd": 1
-          }
+          [
+            "INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 1,
+          "ativos": 1,
           "areas": 1,
-          "trib": 1
+          "trib": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Ambiental",
+          "tribSub": "TRF4 - Tribunal Regional Federal da 4ª Região"
         }
       }
     },
@@ -2627,41 +1925,31 @@
         "encerrados_por_ano": {
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Administrativo",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo ativo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "N/D",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Administrativo": 1
+        },
+        "uf": {
+          "N/D": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "N/D": 1
+        },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 1,
+          "ativos": 1,
           "areas": 1,
-          "trib": 0
+          "trib": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Administrativo",
+          "tribSub": "N/D"
         }
       }
     },
@@ -2682,46 +1970,36 @@
         "encerrados_por_ano": {
           "2026": 0
         },
-        "area": [
-          {
-            "nome": "Trabalhista",
-            "qtd": 1
-          }
-        ],
-        "uf": [
-          {
-            "nome": "SC",
-            "qtd": 1
-          }
-        ],
-        "instancia": [
-          {
-            "nome": "1º Grau",
-            "qtd": 1
-          }
-        ],
-        "polo": [
-          {
-            "nome": "Polo passivo",
-            "qtd": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "nome": "TRT12 - Tribunal Regional do Trabalho da 12ª Região",
-            "qtd": 1
-          }
-        ],
+        "area": {
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "TRT12 - Tribunal Regional do Trabalho da 12ª Região": 1
+        },
         "ranking": [
-          {
-            "nome": "KATIVANILDO SILVA LIMA",
-            "qtd": 1
-          }
+          [
+            "KATIVANILDO SILVA LIMA",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
+          "proc": 1,
+          "ativos": 1,
           "areas": 1,
-          "trib": 1
+          "trib": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "areasSub": "Trabalhista",
+          "tribSub": "TRT12 - Tribunal Regional do Trabalho da 12ª Região"
         }
       }
     },
@@ -2751,9 +2029,9 @@
           "ativos": 0,
           "areas": 0,
           "trib": 0,
-          "procSub": "sem processos",
-          "areasSub": "—",
-          "tribSub": "—"
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
         }
       }
     },
@@ -2783,9 +2061,9 @@
           "ativos": 0,
           "areas": 0,
           "trib": 0,
-          "procSub": "sem processos",
-          "areasSub": "—",
-          "tribSub": "—"
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
         }
       }
     },
@@ -2815,9 +2093,9 @@
           "ativos": 0,
           "areas": 0,
           "trib": 0,
-          "procSub": "sem processos",
-          "areasSub": "—",
-          "tribSub": "—"
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
         }
       }
     }
