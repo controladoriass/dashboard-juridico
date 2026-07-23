@@ -1926,7 +1926,9 @@ function montarPrint(){
     var g2=[]; if(visivel('tarefano')) g2.push(cloneCardOf('tarefano')); if(visivel('atividades')) g2.push(cloneCardOf('atividades'));
     if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · reuniões, diligências e composição');
     // pág extrajudicial (se houver dado): atividades por ano
-    if(visivel('extrajudano')) sheet([cloneCardOf('extrajudano')], '03 — Esforço operacional', 'Atividades extrajudiciais por ano');
+    // "Atividades extrajudiciais por ano" removida do PDF a pedido do Rangel (23/07/2026).
+    // Card continua na tela; só não vira página do PDF.
+    // if(visivel('extrajudano')) sheet([cloneCardOf('extrajudano')], '03 — Esforço operacional', 'Atividades extrajudiciais por ano');
     // pág 11: Equipe mobilizada
     var eqp=[]; if(visivel('people')) eqp.push(cloneCardOf('people'));
     if(eqp.length) sheet(eqp, '03 — Esforço operacional', 'Equipe mobilizada por este cliente');
@@ -2020,7 +2022,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723z';
+  var _cb = '?v=20260723aa';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
