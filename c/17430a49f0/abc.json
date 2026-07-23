@@ -255,7 +255,19 @@
       "dataset": {
         "total": 209,
         "ativos": 109,
-        "encerrados": 100
+        "encerrados": 100,
+        "kpi": {
+          "proc": 209,
+          "procSub": "109 ativos · 100 encerrados",
+          "ativos": 109,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       },
       "_isMainClient": true
     },
@@ -265,7 +277,19 @@
       "dataset": {
         "total": 92,
         "ativos": 46,
-        "encerrados": 46
+        "encerrados": 46,
+        "kpi": {
+          "proc": 92,
+          "procSub": "46 ativos · 46 encerrados",
+          "ativos": 46,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "loteamento_sonho_real_ltda": {
@@ -274,7 +298,19 @@
       "dataset": {
         "total": 76,
         "ativos": 38,
-        "encerrados": 38
+        "encerrados": 38,
+        "kpi": {
+          "proc": 76,
+          "procSub": "38 ativos · 38 encerrados",
+          "ativos": 38,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "embralot_empresa_brasileira_de_loteament": {
@@ -283,7 +319,19 @@
       "dataset": {
         "total": 73,
         "ativos": 48,
-        "encerrados": 25
+        "encerrados": 25,
+        "kpi": {
+          "proc": 73,
+          "procSub": "48 ativos · 25 encerrados",
+          "ativos": 48,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "jardim_europa_incorpora_es_imobili_rias_": {
@@ -292,7 +340,19 @@
       "dataset": {
         "total": 24,
         "ativos": 17,
-        "encerrados": 7
+        "encerrados": 7,
+        "kpi": {
+          "proc": 24,
+          "procSub": "17 ativos · 7 encerrados",
+          "ativos": 17,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "abelardo_rafael_benigno": {
@@ -301,7 +361,19 @@
       "dataset": {
         "total": 22,
         "ativos": 10,
-        "encerrados": 12
+        "encerrados": 12,
+        "kpi": {
+          "proc": 22,
+          "procSub": "10 ativos · 12 encerrados",
+          "ativos": 10,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "abc_empreendimentos_e_participa_es_ltda": {
@@ -310,7 +382,19 @@
       "dataset": {
         "total": 20,
         "ativos": 6,
-        "encerrados": 14
+        "encerrados": 14,
+        "kpi": {
+          "proc": 20,
+          "procSub": "6 ativos · 14 encerrados",
+          "ativos": 6,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "condom_nio_empresarial_navegantes_spe_lt": {
@@ -319,7 +403,19 @@
       "dataset": {
         "total": 13,
         "ativos": 6,
-        "encerrados": 7
+        "encerrados": 7,
+        "kpi": {
+          "proc": 13,
+          "procSub": "6 ativos · 7 encerrados",
+          "ativos": 6,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "abc_brava_empreendimentos": {
@@ -328,7 +424,19 @@
       "dataset": {
         "total": 11,
         "ativos": 3,
-        "encerrados": 8
+        "encerrados": 8,
+        "kpi": {
+          "proc": 11,
+          "procSub": "3 ativos · 8 encerrados",
+          "ativos": 3,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "empreendimento_143_may_fair_spe_ltda_emb": {
@@ -337,7 +445,19 @@
       "dataset": {
         "total": 10,
         "ativos": 7,
-        "encerrados": 3
+        "encerrados": 3,
+        "kpi": {
+          "proc": 10,
+          "procSub": "7 ativos · 3 encerrados",
+          "ativos": 7,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "lago_de_garda_incorpora_es_ltda": {
@@ -346,7 +466,19 @@
       "dataset": {
         "total": 8,
         "ativos": 4,
-        "encerrados": 4
+        "encerrados": 4,
+        "kpi": {
+          "proc": 8,
+          "procSub": "4 ativos · 4 encerrados",
+          "ativos": 4,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "thiago_cabral_costa": {
@@ -355,7 +487,19 @@
       "dataset": {
         "total": 6,
         "ativos": 3,
-        "encerrados": 3
+        "encerrados": 3,
+        "kpi": {
+          "proc": 6,
+          "procSub": "3 ativos · 3 encerrados",
+          "ativos": 3,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "nova_tijucas_empreendimentos_spe_ltda": {
@@ -364,7 +508,19 @@
       "dataset": {
         "total": 5,
         "ativos": 5,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 5,
+          "procSub": "5 ativos · 0 encerrados",
+          "ativos": 5,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "capit_lio_participa_es_ltda": {
@@ -373,7 +529,19 @@
       "dataset": {
         "total": 4,
         "ativos": 3,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 4,
+          "procSub": "3 ativos · 1 encerrados",
+          "ativos": 3,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "condom_nio_empresarial_navepark_ii_spe_l": {
@@ -382,7 +550,19 @@
       "dataset": {
         "total": 4,
         "ativos": 2,
-        "encerrados": 2
+        "encerrados": 2,
+        "kpi": {
+          "proc": 4,
+          "procSub": "2 ativos · 2 encerrados",
+          "ativos": 2,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "msc_construtora_e_incorporadora_ltda": {
@@ -391,7 +571,19 @@
       "dataset": {
         "total": 3,
         "ativos": 2,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 3,
+          "procSub": "2 ativos · 1 encerrados",
+          "ativos": 2,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "roberto_lippmann": {
@@ -400,7 +592,19 @@
       "dataset": {
         "total": 3,
         "ativos": 1,
-        "encerrados": 2
+        "encerrados": 2,
+        "kpi": {
+          "proc": 3,
+          "procSub": "1 ativos · 2 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "condom_nio_empresarial_navepark_scp_1_lt": {
@@ -409,7 +613,19 @@
       "dataset": {
         "total": 3,
         "ativos": 2,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 3,
+          "procSub": "2 ativos · 1 encerrados",
+          "ativos": 2,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "vitreo_271_empreendimento_imobili_rio_sp": {
@@ -418,7 +634,19 @@
       "dataset": {
         "total": 3,
         "ativos": 3,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 3,
+          "procSub": "3 ativos · 0 encerrados",
+          "ativos": 3,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "triunfante_construtora_e_incorporadora_l": {
@@ -427,7 +655,19 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 2,
+          "procSub": "1 ativos · 1 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "ag_f_holding_ltda": {
@@ -436,7 +676,19 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 2,
+          "procSub": "1 ativos · 1 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "incorporadora_moinho_das_guas_spe_ltda": {
@@ -445,7 +697,19 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 2,
+          "procSub": "1 ativos · 1 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "walje_empreendimentos_imobili_rios_socie": {
@@ -454,7 +718,19 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 2,
+          "procSub": "1 ativos · 1 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "rio_tavares_empreendimentos_imobili_rios": {
@@ -463,7 +739,19 @@
       "dataset": {
         "total": 2,
         "ativos": 2,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 2,
+          "procSub": "2 ativos · 0 encerrados",
+          "ativos": 2,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "empreendimento_gt_abc_pioneira_spe_ltda": {
@@ -472,7 +760,19 @@
       "dataset": {
         "total": 2,
         "ativos": 0,
-        "encerrados": 2
+        "encerrados": 2,
+        "kpi": {
+          "proc": 2,
+          "procSub": "0 ativos · 2 encerrados",
+          "ativos": 0,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       },
       "_semProcessos": true
     },
@@ -482,7 +782,19 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 2,
+          "procSub": "1 ativos · 1 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "gustavo_reni_vendruscolo": {
@@ -491,7 +803,19 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "nova_comandante_participa_es_societ_rias": {
@@ -500,7 +824,19 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "jm_monet_holding_ltda": {
@@ -509,7 +845,19 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "beach_view_condom_nio_de_lotes_spe_ltda": {
@@ -518,7 +866,19 @@
       "dataset": {
         "total": 1,
         "ativos": 0,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 1,
+          "procSub": "0 ativos · 1 encerrados",
+          "ativos": 0,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       },
       "_semProcessos": true
     },
@@ -528,7 +888,19 @@
       "dataset": {
         "total": 1,
         "ativos": 0,
-        "encerrados": 1
+        "encerrados": 1,
+        "kpi": {
+          "proc": 1,
+          "procSub": "0 ativos · 1 encerrados",
+          "ativos": 0,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       },
       "_semProcessos": true
     },
@@ -538,7 +910,19 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "central_park_loteamento_blumenau_spe_ltd": {
@@ -547,7 +931,19 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "ativos": 1,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     },
     "gralha_azul_construtora_e_incorporadora_": {
@@ -557,7 +953,19 @@
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": 0
+        "encerrados": 0,
+        "kpi": {
+          "proc": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "ativos": 0,
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC",
+          "valor": "—",
+          "horas": "—",
+          "horasSub": "dado do panorama"
+        }
       }
     }
   },
