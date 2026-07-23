@@ -476,13 +476,6 @@
     .sheet{width:297mm;height:210mm;box-sizing:border-box;padding:16mm 18mm;background:#ffffff !important;
       color:#1E223F;display:flex;flex-direction:column;justify-content:center;overflow:hidden;
       break-after:page;page-break-after:always;position:relative}
-    /* Fallback: se o usuário forçar RETRATO no diálogo (ignora o @page landscape),
-       a folha se adapta ao papel A4 retrato p/ não vazar 87mm pra fora. */
-    @media print and (orientation: portrait){
-      .sheet{width:210mm;height:297mm;padding:14mm 14mm}
-      .sheet .sh-top,.sheet .sh-foot{left:14mm;right:14mm}
-      .sheet .sh-body{max-width:180mm}
-    }
     .sheet:last-child{break-after:auto;page-break-after:auto}
     /* faixa/cabeçalho fino no topo de cada folha */
     .sheet .sh-top{position:absolute;top:9mm;left:18mm;right:18mm;display:flex;justify-content:space-between;
@@ -535,17 +528,13 @@
     #view-print .pill{color:#1E223F !important;border-color:#d9d3c3 !important;background:rgba(207,163,110,.10) !important}
     #view-print .pill b{color:#B58642 !important}
     /* Partes atendidas no PDF: 34+ pills e nomes longos estouravam o card.
-       Grid de 3 colunas (cabe bem em landscape e retrato via minmax) e nomes quebram linha. */
-    #view-print #partes-list.pills{display:grid !important;grid-template-columns:repeat(3, minmax(0, 1fr)) !important;gap:6px 10px !important;width:100% !important;max-width:100% !important;box-sizing:border-box !important;overflow:hidden !important}
-    #view-print #partes-list .pill{padding:5px 10px !important;font-size:9.5px !important;line-height:1.25 !important;border-radius:12px !important;white-space:normal !important;word-break:break-word !important;overflow-wrap:break-word !important;min-width:0 !important;max-width:100% !important;box-sizing:border-box !important}
+       Reduz pill (fonte/padding), aperta o gap, quebra em grid de 2 colunas
+       e permite quebra de linha em nomes longos. */
+    #view-print #partes-list.pills{display:grid !important;grid-template-columns:repeat(2, minmax(0, 1fr)) !important;gap:6px 10px !important;max-width:100% !important;box-sizing:border-box !important;overflow:hidden !important}
+    #view-print #partes-list .pill{padding:6px 12px !important;font-size:10.5px !important;line-height:1.3 !important;border-radius:14px !important;white-space:normal !important;word-break:break-word !important;overflow-wrap:break-word !important;min-width:0 !important;max-width:100% !important;box-sizing:border-box !important}
     /* card do partes na folha do PDF: constrange dentro do sh-body p/ não vazar da folha */
-    #view-print .sh-body > .card{width:100% !important;max-width:100% !important;box-sizing:border-box !important;padding:12px 14px !important;margin:0 !important;overflow:hidden !important}
-    /* Se o usuário forçar impressão em RETRATO (mesmo com @page landscape),
-       aperta ainda mais para não estourar a margem direita. */
-    @media print and (orientation: portrait){
-      #view-print #partes-list.pills{grid-template-columns:repeat(2, minmax(0, 1fr)) !important}
-      #view-print #partes-list .pill{font-size:8.5px !important;padding:4px 8px !important}
-    }
+    #view-print .sh-body > .card{width:100% !important;max-width:100% !important;box-sizing:border-box !important;padding:14px 16px !important;margin:0 !important;overflow:hidden !important}
+    #view-print .sh-body > .card > h3{font-size:14px !important;margin:0 0 10px !important;line-height:1.25 !important}
     /* Considerações: texto navy, números/negrito em dourado */
     #view-print .cons-body{font-size:11px;line-height:1.6;color:#1E223F !important;gap:10px;margin-top:6px}
     #view-print .cons-body b,#view-print .cons-body strong{color:#B58642 !important}
@@ -1903,9 +1892,6 @@ function montarPrint(){
         p.style.opacity='1';
         p.style.transform='none';
       });
-      // remove o <h3>Partes atendidas</h3> interno do card — já renderizado pelo sh-sec
-      var _h3Dup = _partesCard.querySelector('h3');
-      if(_h3Dup) _h3Dup.remove();
       sheet([_partesCard], '00 — Grupo econômico', 'Partes atendidas', 'Empresas do grupo cuja carteira jurídica compõe este panorama consolidado.');
     }
   }
@@ -2031,7 +2017,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723w';
+  var _cb = '?v=20260723v';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
