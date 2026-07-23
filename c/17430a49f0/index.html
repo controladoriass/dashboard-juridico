@@ -541,6 +541,16 @@
     #view-print [style*="color:#fff"]{color:#1E223F !important}
     #view-print [style*="color: #fff"]{color:#1E223F !important}
     #view-print [style*="color:#FFF"]{color:#1E223F !important}
+    /* Rodape (pagina final): logo Silva & Silva no papel branco.
+       No dashboard aplica filter:brightness(0) invert(1) pra clarear no fundo escuro,
+       mas no PDF fica branco em branco. Remove o filtro. */
+    #view-print .foot-logo{filter:none !important;opacity:1 !important}
+    #view-print footer,#view-print .foot-grid,#view-print .foot-grid *{color:#1E223F}
+    #view-print footer .fbrand{color:#1E223F !important}
+    #view-print footer a{color:#1E223F !important}
+    /* icones/redes sociais no rodape (Instagram/LinkedIn) tambem podem usar invert */
+    #view-print footer svg{filter:none !important}
+    #view-print footer .foot-social a,#view-print footer .foot-social svg{color:#1E223F !important;fill:#1E223F !important;stroke:#1E223F !important}
   }
 
 /* ===== Estado 'sem dados / em atualizacao' (empresas ainda nao auditadas) ===== */
@@ -1961,7 +1971,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723e';
+  var _cb = '?v=20260723f';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
