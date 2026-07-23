@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
+<meta name="cliente-grupo" content="zm">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Indicadores Jurídicos · Silva & Silva</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1970,7 +1971,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723h';
+  var _cb = '?v=20260723i';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
