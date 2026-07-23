@@ -779,7 +779,7 @@ body.dash.is-semdados #sd-overlay{display:block}
   </div>
 
   <div class="kpis reveal" style="margin-bottom:24px;--kn:3">
-    <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub" id="e-compromissos-sub">prazos + audiências + tarefas</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub" id="e-compromissos-sub">prazos + audiências + reuniões e diligências</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-atosproc">0</div><div class="k">Atos por processo</div><div class="sub" id="e-atosproc-sub">compromissos ÷ processos movimentados</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média — ativos contam até 30/06</div></div>
   </div>
@@ -797,8 +797,8 @@ body.dash.is-semdados #sd-overlay{display:block}
       <div class="vbars" id="audano"></div>
     </div>
     <div class="card reveal">
-      <h3><span class="bt"></span>Tarefas executadas por ano</h3>
-      <div class="desc">Tarefas e diligências registradas pela equipe, ano a ano (compromissos principais).</div>
+      <h3><span class="bt"></span>Reuniões e Diligências por ano</h3>
+      <div class="desc">Reuniões e diligências registradas pela equipe, ano a ano (compromissos principais).</div>
       <div class="vbars" id="tarefano"></div>
     </div>
   </div>
@@ -1326,7 +1326,7 @@ function renderDashboard(){
         _conclEs = 'O volume de atos indica atuação contínua da equipe em múltiplos ritos e ao longo de todo o período.';
       }
       _p3 = '<span class="cons-ico">'+_icoEs+'</span> <b>'+_tituloEs+'</b> '+
-        'A equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN_ESFORCO+' ('+fmt(_totPraz)+' prazos, '+fmt(_totAud)+' audiências e '+fmt(_totTar)+' tarefas)'+
+        'A equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN_ESFORCO+' ('+fmt(_totPraz)+' prazos, '+fmt(_totAud)+' audiências e '+fmt(_totTar)+' reuniões e diligências)'+
         (_tramit>0 ? ', com tempo médio de tramitação de <b>'+fmt(_tramit)+' dias</b> por processo' : '')+'.'+
         _compEvoTxt+' '+_conclEs;
     }
@@ -1506,11 +1506,11 @@ function renderDashboard(){
   var _nPraz=_somaSerie(_prazCe), _nAud=_somaSerie(_audCe), _nTar=_somaSerie(_tarCe);
   // "Atividades por tipo" reconstruído do recorte; se não há série por ano, cai no total original
   var _atv;
-  if(_nPraz||_nAud||_nTar){ _atv={}; if(_nPraz)_atv['Prazos']=_nPraz; if(_nAud)_atv['Audiências']=_nAud; if(_nTar)_atv['Tarefas']=_nTar; }
+  if(_nPraz||_nAud||_nTar){ _atv={}; if(_nPraz)_atv['Prazos']=_nPraz; if(_nAud)_atv['Audiências']=_nAud; if(_nTar)_atv['Reuniões e Diligências']=_nTar; }
   else { _atv=esf.atividades||{}; }
   var _totComp=Object.keys(_atv).reduce(function(a,kk){return a+(_atv[kk]||0);},0);
   if(el('e-compromissos')){ if(semEsf||!_totComp){el('e-compromissos').removeAttribute('data-count');el('e-compromissos').textContent='—';} else {el('e-compromissos').dataset.count=_totComp; el('e-compromissos').textContent='0';} }
-  if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + tarefas · desde '+ANO_MIN_ESFORCO;
+  if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + reuniões e diligências · desde '+ANO_MIN_ESFORCO;
   if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
   if(_nAud) vbars('audano',_audCe,[Object.keys(_audCe).slice(-1)[0]]);
@@ -1917,7 +1917,7 @@ function montarPrint(){
     if(g1.length) sheet(g1, '03 — Esforço operacional', 'Atividades por ano · prazos e audiências');
     // pág 10: Tarefas + Atividades por tipo
     var g2=[]; if(visivel('tarefano')) g2.push(cloneCardOf('tarefano')); if(visivel('atividades')) g2.push(cloneCardOf('atividades'));
-    if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · tarefas e composição');
+    if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · reuniões, diligências e composição');
     // pág extrajudicial (se houver dado): atividades por ano
     if(visivel('extrajudano')) sheet([cloneCardOf('extrajudano')], '03 — Esforço operacional', 'Atividades extrajudiciais por ano');
     // pág 11: Equipe mobilizada
@@ -2013,7 +2013,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723t';
+  var _cb = '?v=20260723u';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
