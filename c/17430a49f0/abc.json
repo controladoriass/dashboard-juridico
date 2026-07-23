@@ -6,10 +6,10 @@
     "procSub": "327 ativos · 283 encerrados",
     "horas": "^4547",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 8,
+    "areas": 7,
     "areasSub": "Cível, Tributário, Trabalhista",
     "valor": "~R$ 155<small>mi</small>",
-    "trib": 20,
+    "trib": 19,
     "tribSub": "TJSC, TRT12, TJPR, TRF4",
     "ativos": 327,
     "encerrados": 283,
@@ -52,92 +52,78 @@
           "2022": 2
         },
         "area": {
-          "Cível": 387,
-          "Trabalhista": 79,
-          "Tributário": 67,
-          "Administrativo": 38,
-          "Penal-Criminal": 22,
-          "Ambiental": 12,
-          "Pública": 4,
-          "Previdenciário": 1
+          "Cível": 206,
+          "Tributário": 41,
+          "Trabalhista": 34,
+          "Administrativo": 19,
+          "Penal-Criminal": 15,
+          "Ambiental": 11,
+          "Pública": 1
         },
-        "areaTotal": 610,
+        "areaTotal": 327,
         "instancia": {
-          "1º Grau": 508,
-          "2º Grau": 82,
-          "Superiores": 9,
-          "Não informado": 11
+          "1º Grau": 265,
+          "2º Grau": 51,
+          "Superiores": 7,
+          "Não informado": 4
         },
         "polo": {
-          "Polo ativo": 214,
-          "Polo passivo": 329,
-          "Terceiro/Outros": 67
+          "Polo ativo": 115,
+          "Polo passivo": 182,
+          "Terceiro/Outros": 30
         },
         "uf": {
-          "SC": 495,
-          "N/I": 47,
-          "PR": 28,
-          "RS": 17,
-          "DF": 9,
-          "SP": 9,
-          "MT": 2,
+          "SC": 264,
+          "N/I": 19,
+          "PR": 19,
+          "SP": 8,
+          "DF": 7,
+          "RS": 6,
           "PI": 1,
           "RJ": 1,
-          "MS": 1
+          "MS": 1,
+          "MT": 1
         },
         "tribunais": {
-          "TJSC": 357,
-          "N/I": 107,
-          "TRT12": 58,
-          "TRF4": 19,
-          "TJPR": 13,
-          "TJRS": 11,
-          "TJSP": 9,
-          "STJ": 8,
-          "MPT": 7,
-          "TRT04": 5,
+          "TJSC": 195,
+          "N/I": 52,
+          "TRT12": 26,
+          "TRF4": 13,
+          "TJPR": 8,
+          "TJSP": 8,
+          "STJ": 6,
+          "TJRS": 6,
           "Justiça Federal do Parana": 3,
-          "Justiça Federal de Santa Catarina": 3,
-          "MINTRAB": 2,
-          "TJMT": 2,
           "MPSC": 1,
           "TRT22": 1,
+          "MINTRAB": 1,
           "SEFAZ": 1,
           "TRT01": 1,
           "TRT24": 1,
+          "MPT": 1,
+          "TJMT": 1,
+          "Justiça Federal de Santa Catarina": 1,
           "CREASC": 1
         },
         "ranking": [
           [
-            "MUNICÍPIO DE ITAPEMA",
-            19
-          ],
-          [
-            "MUNICÍPIO DE PORTO BELO",
-            13
-          ],
-          [
             "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-            12
+            9
           ],
           [
             "UNIÃO FAZENDA NACIONAL",
-            12
+            9
           ],
           [
-            "MINISTÉRIO DO TRABALHO E EMPREGO",
-            10
-          ],
-          [
-            "CONDOMÍNIO TORRES DO CARIBE RESIDENCE",
+            "MUNICÍPIO DE PORTO BELO",
             8
           ],
           [
             "MUNICÍPIO DE CAMBORIÚ",
-            7
+            6
           ],
           [
-            "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
+            "MUNICÍPIO DE ITAPEMA",
             6
           ],
           [
@@ -145,37 +131,49 @@
             6
           ],
           [
-            "INSTITUTO DO MEIO AMBIENTE DO ESTADO DE SANTA CATARINA - IMA",
-            6
-          ],
-          [
-            "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DE SC",
-            6
-          ],
-          [
-            "MILKY WAY PARTICIPAÇÕES S.A.",
+            "CONDOMINIO EMPRESARIAL ABC BUSINESS PARK",
             5
           ],
           [
-            "NÃO HÁ",
+            "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DE SC",
             5
           ],
           [
             "FUNDAÇÃO AMBIENTAL ÁREA COSTEIRA DE ITAPEMA FAACI",
-            5
+            4
           ],
           [
-            "ANA LUCIA DIAS",
-            5
+            "HENRIQUE SANTOS SILVEIRA",
+            3
+          ],
+          [
+            "CONDOMÍNIO TORRES DO CARIBE RESIDENCE",
+            3
+          ],
+          [
+            "MILKY WAY PARTICIPAÇÕES S.A.",
+            3
+          ],
+          [
+            "MINISTÉRIO DO TRABALHO E EMPREGO",
+            3
+          ],
+          [
+            "ANILDO BARBOSA DELFES JUNIOR",
+            3
+          ],
+          [
+            "NÃO HÁ",
+            3
           ]
         ],
         "kpi": {
           "proc": 610,
           "procSub": "327 ativos · 283 encerrados",
           "ativos": 327,
-          "areas": 8,
+          "areas": 7,
           "areasSub": "Cível, Tributário, Trabalhista",
-          "trib": 20,
+          "trib": 19,
           "tribSub": "TJSC, TRT12, TJPR, TRF4",
           "valor": "~R$ 155<small>mi</small>",
           "horas": "^4547",
@@ -246,7 +244,8 @@
           "_estimativa": true
         },
         "_dadosReais": true,
-        "_panorama": true
+        "_panorama": true,
+        "_complexidadeSoAtivos": true
       }
     },
     "abelardo_benigno_costa_empreendimentos_l": {
