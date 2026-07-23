@@ -1109,13 +1109,13 @@ function renderDashboard(){
   el('hero-periodo').textContent = _periodo;
   el('hero-atualizado').textContent = DATA_CORTE.extenso;
   el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0'; el('k-proc-sub').textContent=k.procSub;
-  // horas dedicadas (topo) — total recortado >= ANO_MIN, coerente com a aba Horas
+  // horas dedicadas (topo) — recorte >= ANO_MIN_ESFORCO (2023): 2022 tinha timesheet sub-registrado
   var _hsTopo = (DATA.dataset && DATA.dataset.horas) ? DATA.dataset.horas : {};
-  var _totHorasTopo = Object.values(cortaAnos(_hsTopo.horasano)).reduce(function(a,b){return a+(+b||0);},0);
+  var _totHorasTopo = Object.values(cortaAnosEsforco(_hsTopo.horasano)).reduce(function(a,b){return a+(+b||0);},0);
   el('k-horas').removeAttribute('data-count');
   if(_totHorasTopo>0){
     el('k-horas').innerHTML = (_hsTopo._estimativa?'^':'')+Math.round(_totHorasTopo);
-    el('k-horas-sub').textContent = (DATA.dataset._panorama?'consolidado do grupo · ':'')+'desde '+ANO_MIN+(_hsTopo._estimativa?' (parcial)':'');
+    el('k-horas-sub').textContent = (DATA.dataset._panorama?'consolidado do grupo · ':'')+'desde '+ANO_MIN_ESFORCO+(_hsTopo._estimativa?' (parcial)':'');
   } else { el('k-horas').textContent='—'; el('k-horas-sub').textContent='em atualização'; }
   el('k-areas').dataset.count=k.areas; el('k-areas').textContent='0'; el('k-areas-sub').textContent=k.areasSub;
   if(el('k-ativos')){ el('k-ativos').dataset.count=DATA.dataset.ativos||0; el('k-ativos').textContent='0'; el('k-ativos-sub').textContent='em andamento hoje'; }
@@ -1208,8 +1208,8 @@ function renderDashboard(){
     var _totComp = _totPraz + _totAud + _totTar;
     var _tramit = _esf.tramitacaoDias||0;
 
-    // horas (recorte >= ANO_MIN)
-    var _horasC = cortaAnos(_h.horasano||{});
+    // horas (recorte >= ANO_MIN_ESFORCO=2023: 2022 sub-registrado, ver [[dashboard-esforco-corte-2023]])
+    var _horasC = cortaAnosEsforco(_h.horasano||{});
     var _totHoras = Object.values(_horasC).reduce(function(a,b){return a+(+b||0);},0);
     var _mediaProc = _h.media||0;
     var _mediaAtivos = _h.mediaAtivos||0;
@@ -1520,15 +1520,15 @@ function renderDashboard(){
     esf.people.forEach(function(pp){ var n=pp[0],c=pp[1]; var d=document.createElement('div');d.className='person';
       d.innerHTML='<span class="av">'+ICON+'</span><div class="pinfo"><div class="pnome">'+n+'</div><div class="preg"><b>'+c+'</b> apontamentos</div></div>'; pbox.appendChild(d); }); } }
 
-  // === HORAS === (recorte >= ANO_MIN: total/médias recalculados a partir da série cortada,
-  // para o KPI bater com o gráfico exibido)
+  // === HORAS === (recorte >= ANO_MIN_ESFORCO=2023: 2022 sub-registrado durante implantação
+  // do timesheet; total/médias recalculados a partir da série cortada p/ bater com o gráfico)
   const hs=ds.horas||{};
   const semHoras = !hs || Object.keys(hs).length===0;
-  const _horasC = cortaAnos(hs.horasano);
+  const _horasC = cortaAnosEsforco(hs.horasano);
   const _totHoras = Object.values(_horasC).reduce((a,b)=>a+(+b||0),0);
   const _mediaH = k.proc ? Math.round(_totHoras/k.proc*10)/10 : 0;
   const _mediaHAtiv = (ds.ativos) ? Math.round(_totHoras/ds.ativos*10)/10 : 0;
-  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas desde '+ANO_MIN+' até '+DATA_CORTE.curta+' (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent='horas desde '+ANO_MIN;} }
+  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas desde '+ANO_MIN_ESFORCO+' até '+DATA_CORTE.curta+' (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent='horas desde '+ANO_MIN_ESFORCO;} }
   if(el('h-media')){ if(semHoras){el('h-media').innerHTML='—';if(el('h-media-sub'))el('h-media-sub').textContent='em atualização';} else {el('h-media').innerHTML=String(_mediaH).replace('.',',')+'<small>h</small>'; el('h-media-sub').textContent=Math.round(_totHoras)+'h / '+k.proc+' processos';} }
   if(el('h-mediaativos')){ if(semHoras){el('h-mediaativos').innerHTML='—';if(el('h-mediaativos-sub'))el('h-mediaativos-sub').textContent='em atualização';} else {el('h-mediaativos').innerHTML=String(_mediaHAtiv).replace('.',',')+'<small>h</small>'; el('h-mediaativos-sub').textContent=Math.round(_totHoras)+'h / '+ds.ativos+' ativos';} }
   if(hs.horasano) vbars('horasano',_horasC,[Object.keys(_horasC).slice(-1)[0]],'h');
@@ -2003,7 +2003,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723p';
+  var _cb = '?v=20260723q';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
