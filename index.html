@@ -541,10 +541,13 @@
     /* Donut (área) + regiões (mapa) — cores mantidas, mas labels ficam navy */
     #view-print .donut-leg,#view-print .donut-leg *{color:#1E223F !important}
     /* Donut de Complexidade no PDF: o número central e o rótulo "PROCESSOS" ficavam
-       brancos/cinza-claros e sumiam no papel. Reforça a cor via fill (SVG). */
-    #view-print #donut svg text{fill:#1E223F !important}
-    #view-print #donut svg text[font-size="30"]{fill:#1E223F !important;font-weight:800 !important}
-    #view-print #donut svg text[font-size="10"]{fill:#4a5273 !important;font-weight:700 !important}
+       brancos/cinza-claros e sumiam no papel branco. Força cor via fill em TODOS
+       os text do SVG dentro do donut (o clone do PDF pode não preservar o atributo
+       font-size numerico, então usamos regras genéricas). */
+    #view-print .donut svg text,
+    #view-print #donut svg text,
+    #view-print .donut text,
+    #view-print #donut text{fill:#1E223F !important;color:#1E223F !important}
     #view-print .regions,#view-print .region,#view-print .region *{color:#1E223F !important}
     #view-print .hbars,#view-print .hbars *{color:#1E223F !important}
     #view-print .hbars .lbl{color:#4a5273 !important}
@@ -1815,6 +1818,14 @@ function montarPrint(){
     document.querySelectorAll('#view-dashboard [data-count]').forEach(el=>{
       el.textContent = (+el.dataset.count).toLocaleString('pt-BR');
     });
+    // Donut de Complexidade: o texto central e "PROCESSOS" nascem com fill="#fff"/#8c92a8
+    // (bons no dashboard escuro, invisíveis no papel branco do PDF). Reescreve o attr fill
+    // ANTES do clone p/ garantir cor navy visível.
+    document.querySelectorAll('#donut svg text').forEach(function(t){
+      var fs = +(t.getAttribute('font-size')||0);
+      if(fs>=20) t.setAttribute('fill','#1E223F');       // número (30)
+      else t.setAttribute('fill','#4a5273');              // rótulo (10)
+    });
   } catch(e){}
   var vp=document.getElementById('view-print');
   if(!vp) return;
@@ -2026,7 +2037,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723ac';
+  var _cb = '?v=20260723ad';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
