@@ -920,10 +920,22 @@ function cortaAnosEsforco(obj){
 
 function countUp(el){
   const target=+el.dataset.count; const dur=1300, t0=performance.now();
+  // FALLBACK: se a aba está oculta (rAF pausado) ou animações desativadas,
+  // seta o valor final imediatamente. Evita KPIs travados em "0" em background.
+  if(document.hidden || document.visibilityState==='hidden'){
+    el.textContent = target.toLocaleString('pt-BR');
+    return;
+  }
   function step(t){const p=Math.min((t-t0)/dur,1);const e=1-Math.pow(1-p,3);
     el.textContent=Math.round(target*e).toLocaleString('pt-BR');
     if(p<1)requestAnimationFrame(step);}
   requestAnimationFrame(step);
+  // Rede de segurança: se rAF não disparar em 500ms (bug/idle), força valor final.
+  setTimeout(function(){
+    // se ainda está em "0" ou muito abaixo, força
+    var atual = parseInt((el.textContent||'0').replace(/\D/g,''), 10) || 0;
+    if(atual < target * 0.5){ el.textContent = target.toLocaleString('pt-BR'); }
+  }, 2500);
 }
 function vbars(id,obj,hlYears,unit){
   const max=Math.max(...Object.values(obj));const box=document.getElementById(id);
@@ -2037,7 +2049,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723ad';
+  var _cb = '?v=20260723ae';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
