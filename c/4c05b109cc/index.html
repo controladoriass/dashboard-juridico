@@ -1892,7 +1892,10 @@ function montarPrint(){
         p.style.opacity='1';
         p.style.transform='none';
       });
-      sheet([_partesCard], '00 — Grupo econômico', 'Partes atendidas', 'Empresas do grupo cuja carteira jurídica compõe este panorama consolidado.');
+      // remove o <h3> interno do card (já vem "Partes atendidas" no sh-sec — evita sobreposição)
+      var _h3Dup = _partesCard.querySelector('h3');
+      if(_h3Dup) _h3Dup.remove();
+      sheet([_partesCard], '', 'Partes atendidas', 'Empresas do grupo cuja carteira jurídica compõe este panorama consolidado.');
     }
   }
 
@@ -2017,7 +2020,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723x';
+  var _cb = '?v=20260723y';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
