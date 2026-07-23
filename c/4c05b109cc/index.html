@@ -1766,6 +1766,14 @@ function revealAll(){
    do #view-dashboard. Layout próprio para papel; cores do dashboard. */
 function montarPrint(){
   revealAll(); // garante números/barras/gráficos preenchidos no dashboard antes de clonar
+  // FORÇA valores finais em elementos que animam de forma assíncrona (setTimeout/rAF),
+  // senão o clone pega o SVG/texto no meio da animação e o PDF sai com 0.
+  try {
+    if (_donutNum && _donutTotal) _donutNum.textContent = _donutTotal.toLocaleString('pt-BR');
+    document.querySelectorAll('#view-dashboard [data-count]').forEach(el=>{
+      el.textContent = (+el.dataset.count).toLocaleString('pt-BR');
+    });
+  } catch(e){}
   var vp=document.getElementById('view-print');
   if(!vp) return;
   vp.innerHTML='';
@@ -1971,7 +1979,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260723k';
+  var _cb = '?v=20260723l';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
