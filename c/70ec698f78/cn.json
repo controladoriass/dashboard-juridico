@@ -2,16 +2,16 @@
   "nome": "CN Construtora",
   "nomeHtml": "CN <em>Construtora</em>",
   "kpiGrupo": {
-    "proc": 232,
-    "procSub": "107 ativos · 125 encerrados",
+    "proc": 235,
+    "ativos": 110,
+    "areas": 6,
+    "trib": 11,
+    "procSub": "110 ativos · 125 encerrados",
+    "areasSub": "Trabalhista, Cível, Tributário",
+    "tribSub": "TJSC, TRT12, N/I",
     "horas": "^2006",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 6,
-    "areasSub": "Trabalhista, Cível, Tributário",
     "valor": "~R$ 45<small>mi</small>",
-    "trib": 11,
-    "tribSub": "TJSC, TRT12, TJAP, TJAL",
-    "ativos": 107,
     "encerrados": 125,
     "valorTotal": 45358896.78
   },
@@ -20,35 +20,29 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": null,
       "dataset": {
+        "total": 235,
+        "ativos": 110,
+        "encerrados": 125,
+        "areaTotal": 110,
         "estoque": {
-          "2012": 1,
-          "2018": 2,
-          "2019": 53,
-          "2020": 64,
-          "2021": 34,
-          "2022": 47,
-          "2023": 46,
-          "2024": 64,
-          "2025": 93,
-          "2026": 107
+          "2020": 58,
+          "2021": 25,
+          "2022": 37,
+          "2023": 38,
+          "2024": 55,
+          "2025": 81,
+          "2026": 110
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2012": 1,
-          "2018": 1,
-          "2019": 51,
           "2020": 12,
-          "2021": 18,
-          "2022": 20,
-          "2023": 13,
-          "2024": 36,
-          "2025": 58,
-          "2026": 22
+          "2021": 15,
+          "2022": 19,
+          "2023": 15,
+          "2024": 35,
+          "2025": 55,
+          "2026": 37
         },
-        "encerrados": {
+        "encerrados_por_ano": {
           "2020": 1,
           "2021": 48,
           "2022": 7,
@@ -57,6 +51,7 @@
           "2025": 29,
           "2026": 8
         },
+        "estoqueHl": [],
         "area": {
           "Trabalhista": 47,
           "Cível": 45,
@@ -64,18 +59,6 @@
           "Administrativo": 3,
           "Família e Sucessões": 1,
           "Penal-Criminal": 1
-        },
-        "areaTotal": 110,
-        "instancia": {
-          "1º Grau": 93,
-          "2º Grau": 14,
-          "Superiores": 2,
-          "Não informado": 1
-        },
-        "polo": {
-          "Polo passivo": 77,
-          "Terceiro/Outros": 19,
-          "Polo ativo": 14
         },
         "uf": {
           "SC": 95,
@@ -85,6 +68,17 @@
           "GO": 1,
           "PR": 1,
           "PB": 1
+        },
+        "instancia": {
+          "1º Grau": 93,
+          "2º Grau": 14,
+          "Superiores": 2,
+          "Não informado": 1
+        },
+        "polo": {
+          "Polo passivo": 77,
+          "Polo ativo": 14,
+          "Terceiro/Outros": 19
         },
         "tribunais": {
           "TJSC": 40,
@@ -145,10 +139,6 @@
             2
           ],
           [
-            "EVANDRO OLIVEIRA DA SILVA",
-            2
-          ],
-          [
             "BEE CONSTRUCOES LTDA",
             1
           ],
@@ -159,24 +149,22 @@
           [
             "EGNER MERUCIA ADADA",
             1
+          ],
+          [
+            "JACKSON DANIEL CHINI",
+            1
           ]
         ],
+        "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 232,
-          "procSub": "107 ativos · 125 encerrados",
-          "ativos": 107,
+          "proc": 235,
+          "ativos": 110,
           "areas": 6,
-          "areasSub": "Trabalhista, Cível, Tributário",
           "trib": 11,
-          "tribSub": "TJSC, TRT12, TJAP, TJAL",
-          "valor": "~R$ 45<small>mi</small>",
-          "horas": "^2006",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
+          "procSub": "110 ativos · 125 encerrados",
+          "areasSub": "Trabalhista, Cível, Tributário",
+          "tribSub": "TJSC, TRT12, N/I"
         },
-        "valorTotal": 45358896.78,
-        "qtdComValor": 123,
-        "ativos": 107,
-        "encerradosTotal": 125,
         "esforco": {
           "comProducao": 232,
           "tramitacaoDias": 650,
@@ -240,53 +228,36 @@
           },
           "_estimativa": true
         },
-        "_dadosReais": true,
-        "_panorama": true,
-        "_complexidadeSoAtivos": true
+        "_panorama": true
       }
     },
     "cn_construtora": {
       "nome": "CN Construtora e Incorporadora Ltda",
+      "_idCliente": "2129814",
       "dataset": {
-        "kpi": {
-          "proc": 212,
-          "procSub": "93 ativos · 119 encerrados",
-          "ativos": 93,
-          "areas": 6,
-          "areasSub": "3 áreas top",
-          "trib": 13,
-          "tribSub": "até 4",
-          "valor": "~R$ 39.1mi",
-          "horas": "^1720",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 216,
+        "ativos": 97,
+        "encerrados": 119,
+        "areaTotal": 97,
         "estoque": {
-          "2018": 1,
-          "2019": 52,
-          "2020": 61,
-          "2021": 26,
-          "2022": 37,
-          "2023": 35,
-          "2024": 50,
-          "2025": 78,
-          "2026": 93
+          "2020": 56,
+          "2021": 20,
+          "2022": 31,
+          "2023": 30,
+          "2024": 44,
+          "2025": 69,
+          "2026": 97
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2018": 1,
-          "2019": 51,
           "2020": 10,
-          "2021": 13,
+          "2021": 12,
           "2022": 18,
-          "2023": 12,
-          "2024": 32,
-          "2025": 55,
-          "2026": 20
+          "2023": 13,
+          "2024": 31,
+          "2025": 52,
+          "2026": 33
         },
-        "encerrados": {
+        "encerrados_por_ano": {
           "2020": 1,
           "2021": 48,
           "2022": 7,
@@ -295,493 +266,400 @@
           "2025": 27,
           "2026": 5
         },
+        "estoqueHl": [],
         "area": {
-          "Trabalhista": 109,
-          "Cível": 76,
-          "Tributário": 18,
-          "Administrativo": 4,
-          "Penal-Criminal": 4,
-          "Família e Sucessões": 1
-        },
-        "areaTotal": 212,
-        "instancia": {
-          "1º Grau": 146,
-          "2º Grau": 17,
-          "Superiores": 1,
-          "Não informado": 48
-        },
-        "polo": {
-          "Polo ativo": 23,
-          "Polo passivo": 134,
-          "Terceiro/Outros": 55
+          "Cível": 40,
+          "Trabalhista": 39,
+          "Tributário": 13,
+          "Administrativo": 3,
+          "Família e Sucessões": 1,
+          "Penal-Criminal": 1
         },
         "uf": {
-          "SC": 177,
-          "AP": 9,
-          "AL": 6,
-          "PR": 4,
+          "SC": 83,
+          "N/I": 7,
           "PE": 2,
           "RS": 2,
-          "PB": 1,
-          "DF": 1,
-          "N/I": 10
+          "GO": 1,
+          "PR": 1,
+          "PB": 1
+        },
+        "instancia": {
+          "1º Grau": 83,
+          "2º Grau": 12,
+          "Superiores": 1,
+          "Não informado": 1
+        },
+        "polo": {
+          "Polo passivo": 69,
+          "Polo ativo": 12,
+          "Terceiro/Outros": 16
         },
         "tribunais": {
-          "TJSC": 63,
-          "TRT12": 54,
-          "TJAP": 9,
-          "TJAL": 6,
-          "TJPR": 4,
+          "TJSC": 36,
+          "TRT12": 31,
+          "N/I": 18,
           "SEFAZ": 3,
           "TRT06": 2,
           "TJRS": 2,
+          "TRT18": 1,
           "PROCON-SC": 1,
+          "TJPR": 1,
           "TRT13": 1,
-          "Procon": 1,
-          "TJDFT": 1,
-          "TRF4": 1
+          "Procon Municipal": 1
         },
         "ranking": [
-          [
-            "MINISTRO DE ESTADO DO TRABALHO E EMPREGO",
-            42
-          ],
           [
             "SECRETÁRIA MUNICIPAL DA FAZENDA DE ITAJAÍ",
             11
           ],
           [
             "JACQUELINE OLIVEIRA LAURINDO",
-            5
+            3
+          ],
+          [
+            "FLAVIO LUIS SECCO",
+            3
           ],
           [
             "MUNICÍPIO DE ITAJAÍ",
-            5
+            3
+          ],
+          [
+            "JAILTON DA CONCEICAO",
+            2
           ],
           [
             "CONDOMINIO RESIDENCIAL VILA ACORIANA",
-            3
+            2
+          ],
+          [
+            "VALDECIO BARBOSA DA SILVA",
+            2
+          ],
+          [
+            "PEQUENOS VENCEDORES LTDA.",
+            2
+          ],
+          [
+            "MARCELO PEREIRA DE BRITO",
+            2
+          ],
+          [
+            "SANTA FE PARTICIPACOES LTDA.",
+            2
+          ],
+          [
+            "SERAL OTIS INDUSTRIA METALURGICA LTDA",
+            2
+          ],
+          [
+            "BEE CONSTRUCOES LTDA",
+            1
+          ],
+          [
+            "ALEXANDRE ROGER MOTTA",
+            1
+          ],
+          [
+            "EGNER MERUCIA ADADA",
+            1
+          ],
+          [
+            "JACKSON DANIEL CHINI",
+            1
           ]
         ],
-        "ativos": 93,
-        "valorTotal": 39080535.36,
-        "qtdComValor": 111,
-        "esforco": {
-          "prazano": {
-            "2021": 4,
-            "2022": 56,
-            "2023": 80,
-            "2024": 163,
-            "2025": 285,
-            "2026": 248
-          },
-          "audano": {
-            "2022": 8,
-            "2023": 8,
-            "2024": 24,
-            "2025": 44,
-            "2026": 31
-          },
-          "tarefano": {
-            "2019": 115,
-            "2020": 277,
-            "2021": 320,
-            "2022": 120,
-            "2023": 180,
-            "2024": 113,
-            "2025": 112,
-            "2026": 62
-          },
-          "comProducao": 212,
-          "tramitacaoDias": 596,
-          "atividades": {
-            "Prazos": 836,
-            "Audiências": 115,
-            "Tarefas": 1299
-          }
-        },
-        "horas": {
-          "total": 1720,
-          "media": 8.1,
-          "mediaAtivos": 18.5,
-          "horasano": {
-            "2021": 4.2,
-            "2022": 78.6,
-            "2023": 130.0,
-            "2024": 349.6,
-            "2025": 587.9,
-            "2026": 569.8
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
-      },
-      "_idCliente": "2129814"
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 216,
+          "ativos": 97,
+          "areas": 6,
+          "trib": 11,
+          "procSub": "97 ativos · 119 encerrados",
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "tribSub": "TJSC, TRT12, N/I"
+        }
+      }
     },
     "pedro_nozor": {
       "nome": "Pedro Nozor Ferreira Neto",
       "_idCliente": "2125055",
       "dataset": {
-        "kpi": {
-          "proc": 4,
-          "procSub": "0 ativos · 4 encerrados",
-          "ativos": 0,
-          "areas": 3,
-          "areasSub": "3 áreas top",
-          "trib": 1,
-          "tribSub": "até 4",
-          "valor": "~R$ 50mil"
-        },
+        "total": 4,
+        "ativos": 0,
+        "encerrados": 4,
+        "areaTotal": 0,
         "estoque": {
           "2020": 2,
-          "2021": 4,
+          "2021": 3,
+          "2022": 3,
+          "2023": 4,
           "2024": 3,
+          "2025": 3,
           "2026": 0
         },
-        "estoqueHl": [
-          "2026",
-          "2024"
-        ],
         "entradas": {
           "2020": 2,
-          "2021": 2
+          "2021": 1,
+          "2022": 0,
+          "2023": 1,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
         },
-        "encerrados": {
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
           "2024": 1,
+          "2025": 0,
           "2026": 3
         },
-        "area": {
-          "Cível": 2,
-          "Trabalhista": 1,
-          "Penal-Criminal": 1
-        },
-        "areaTotal": 4,
-        "instancia": {
-          "1º Grau": 4
-        },
-        "polo": {
-          "Polo ativo": 1,
-          "Polo passivo": 1,
-          "Terceiro/Outros": 2
-        },
-        "uf": {
-          "SC": 4
-        },
-        "tribunais": {
-          "TJSC": 1,
-          "N/I": 3
-        },
-        "ranking": [
-          [
-            "MERCEDES MULLER",
-            1
-          ],
-          [
-            "POLICIA FEDERAL DE SANTA CATARINA",
-            1
-          ],
-          [
-            "AUTORIDADE POLICIAL",
-            1
-          ],
-          [
-            "ASSOCIAÇÃO DO EDIFÍCIO GRAN VINTAGE RESIDENCE",
-            1
-          ]
-        ],
-        "ativos": 0,
-        "valorTotal": 50000,
-        "qtdComValor": 1,
-        "esforco": {
-          "prazano": {
-            "2023": 1
-          },
-          "audano": {
-            "2023": 2
-          },
-          "tarefano": {
-            "2020": 2,
-            "2021": 5,
-            "2023": 1
-          },
-          "comProducao": 4,
-          "tramitacaoDias": 1701,
-          "atividades": {
-            "Prazos": 1,
-            "Audiências": 2,
-            "Tarefas": 8
-          }
-        },
-        "horas": {},
-        "_dadosReais": true
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 4,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 4 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        }
       }
     },
     "brava_garden": {
       "nome": "Brava Garden Home Club",
       "_idCliente": "2160797",
       "dataset": {
-        "kpi": {
-          "proc": 2,
-          "procSub": "2 ativos · 0 encerrados",
-          "ativos": 2,
-          "areas": 1,
-          "areasSub": "1 área",
-          "trib": 0,
-          "tribSub": "até 4",
-          "valor": "—"
-        },
+        "total": 2,
+        "ativos": 2,
+        "encerrados": 0,
+        "areaTotal": 2,
         "estoque": {
           "2021": 1,
           "2022": 2
         },
-        "estoqueHl": [
-          "2022",
-          "2021"
-        ],
         "entradas": {
           "2021": 1,
           "2022": 1
         },
-        "encerrados": {},
+        "encerrados_por_ano": {
+          "2021": 0,
+          "2022": 0
+        },
+        "estoqueHl": [],
         "area": {
           "Cível": 2
         },
-        "areaTotal": 2,
+        "uf": {
+          "N/I": 1,
+          "SC": 1
+        },
         "instancia": {
           "1º Grau": 2
         },
         "polo": {
-          "Polo ativo": 1,
-          "Terceiro/Outros": 1
+          "Terceiro/Outros": 1,
+          "Polo ativo": 1
         },
-        "uf": {
-          "SC": 1,
-          "N/I": 1
+        "tribunais": {
+          "N/I": 2
         },
-        "tribunais": {},
         "ranking": [
           [
             "NILZE MACIEL",
             1
           ],
           [
-            "RAFAEL FILIPE BORNHAUSEN",
+            "RAFAEL BORNHAUSEN",
             1
           ]
         ],
-        "ativos": 2,
-        "valorTotal": 0,
-        "qtdComValor": 0,
-        "esforco": {
-          "prazano": {
-            "2021": 1,
-            "2022": 1
-          },
-          "comProducao": 2,
-          "tramitacaoDias": 1580,
-          "atividades": {
-            "Prazos": 2,
-            "Audiências": 0,
-            "Tarefas": 0
-          }
-        },
-        "horas": {},
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 2,
+          "ativos": 2,
+          "areas": 1,
+          "trib": 1,
+          "procSub": "2 ativos · 0 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "N/I"
+        }
       }
     },
     "brava_horizon": {
       "nome": "CN Construtora e Incorporadora Brava Horizon SPE Ltda",
       "_idCliente": "676683263",
       "dataset": {
-        "kpi": {
-          "proc": 2,
-          "procSub": "2 ativos · 0 encerrados",
-          "ativos": 2,
-          "areas": 1,
-          "areasSub": "1 área top",
-          "trib": 0,
-          "tribSub": "até 4",
-          "valor": "—",
-          "horas": "^2",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 0,
+        "ativos": 0,
+        "encerrados": 0,
+        "areaTotal": 0,
         "estoque": {
-          "2021": 1,
-          "2022": 2
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
         },
-        "estoqueHl": [
-          "2022",
-          "2021"
-        ],
         "entradas": {
-          "2021": 1,
-          "2022": 1
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
         },
-        "encerrados": {},
-        "area": {
-          "Cível": 2
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
         },
-        "areaTotal": 2,
-        "instancia": {
-          "1º Grau": 2
-        },
-        "polo": {
-          "Polo ativo": 1,
-          "Terceiro/Outros": 1
-        },
-        "uf": {
-          "SC": 1,
-          "N/I": 1
-        },
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
         "tribunais": {},
-        "ranking": [
-          [
-            "NILZE MACIEL",
-            1
-          ],
-          [
-            "RAFAEL FILIPE BORNHAUSEN",
-            1
-          ]
-        ],
-        "ativos": 2,
-        "valorTotal": 0,
-        "qtdComValor": 0,
-        "esforco": {
-          "prazano": {
-            "2021": 1,
-            "2022": 1
-          },
-          "comProducao": 2,
-          "tramitacaoDias": 1580,
-          "atividades": {
-            "Prazos": 2,
-            "Audiências": 0,
-            "Tarefas": 0
-          }
-        },
-        "horas": {
-          "total": 2,
-          "media": 0.5,
-          "mediaAtivos": 0,
-          "horasano": {
-            "2023": 1.3,
-            "2026": 0.7
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        }
       }
     },
     "brava_ocean": {
       "nome": "CN Construtora e Incorporadora Brava Ocean SPE Ltda",
       "_idCliente": "676704714",
       "dataset": {
-        "kpi": {
-          "proc": 12,
-          "procSub": "10 ativos · 2 encerrados",
-          "ativos": 10,
-          "areas": 2,
-          "areasSub": "Trabalhista, Cível",
-          "trib": 2,
-          "tribSub": "TRT12, TJSC",
-          "valor": "~R$ 6.2mi",
-          "horas": "^284",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 13,
+        "ativos": 11,
+        "encerrados": 2,
+        "areaTotal": 11,
         "estoque": {
-          "2012": 1,
-          "2021": 2,
-          "2023": 3,
-          "2024": 7,
-          "2025": 8,
-          "2026": 10
-        },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
-        "entradas": {
-          "2012": 1,
           "2021": 1,
+          "2022": 1,
+          "2023": 2,
+          "2024": 6,
+          "2025": 7,
+          "2026": 11
+        },
+        "entradas": {
+          "2021": 1,
+          "2022": 0,
           "2023": 1,
           "2024": 4,
           "2025": 3,
-          "2026": 2
+          "2026": 4
         },
-        "encerrados": {
-          "2025": 2
+        "encerrados_por_ano": {
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 2,
+          "2026": 0
         },
+        "estoqueHl": [],
         "area": {
-          "Trabalhista": 9,
+          "Trabalhista": 8,
           "Cível": 3
         },
-        "areaTotal": 12,
+        "uf": {
+          "SC": 11
+        },
         "instancia": {
           "1º Grau": 8,
-          "2º Grau": 3,
+          "2º Grau": 2,
           "Superiores": 1
         },
         "polo": {
-          "Polo ativo": 1,
-          "Polo passivo": 9,
-          "Terceiro/Outros": 2
-        },
-        "uf": {
-          "SC": 12
+          "Polo passivo": 8,
+          "Terceiro/Outros": 2,
+          "Polo ativo": 1
         },
         "tribunais": {
-          "TRT12": 8,
+          "TRT12": 7,
           "TJSC": 4
         },
         "ranking": [
           [
-            "EVANDRO OLIVEIRA DA SILVA",
-            2
-          ],
-          [
-            "NELTON ADAIR ALVES DOS SANTOS",
+            "MOISES DIAS PAES LANDIM",
             1
           ],
           [
-            "IRENE WILHELM FLORIANO",
+            "NELTON",
             1
           ],
           [
-            "JN ROBERT CHARLES",
+            "IRENE WILHELM",
             1
           ],
           [
-            "EDICLECIO BERNARDINO RAMOS COSTA",
+            "JN ROBERT",
+            1
+          ],
+          [
+            "EVANDRO OLIVEIRA",
+            1
+          ],
+          [
+            "EDICLECIO",
+            1
+          ],
+          [
+            "MAKIAEL",
+            1
+          ],
+          [
+            "UBIRACI",
+            1
+          ],
+          [
+            "EVANDRO",
+            1
+          ],
+          [
+            "PINOTTI IMOVEIS",
+            1
+          ],
+          [
+            "ANDRE LUIZ",
             1
           ]
         ],
-        "ativos": 10,
-        "valorTotal": 6228361.42,
-        "qtdComValor": 11,
-        "esforco": {
-          "comProducao": 12,
-          "tramitacaoDias": 949,
-          "atividades": {
-            "Prazos": 135,
-            "Audiências": 26,
-            "Tarefas": 10
-          }
-        },
-        "horas": {
-          "total": 284,
-          "media": 23.7,
-          "mediaAtivos": 31.6,
-          "horasano": {
-            "2022": 3,
-            "2023": 3.9,
-            "2024": 74.3,
-            "2025": 109.7,
-            "2026": 93.5
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 13,
+          "ativos": 11,
+          "areas": 2,
+          "trib": 2,
+          "procSub": "11 ativos · 2 encerrados",
+          "areasSub": "Trabalhista, Cível",
+          "tribSub": "TRT12, TJSC"
+        }
       }
     }
   },

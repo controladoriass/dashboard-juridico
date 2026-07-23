@@ -1,201 +1,336 @@
 {
-  "nome": "ZM S.A.",
-  "nomeHtml": "<em>ZM S.A.</em>",
   "kpiGrupo": {
     "proc": 193,
-    "procSub": "114 ativos · 79 encerrados",
-    "horas": "^2257",
-    "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 8,
-    "areasSub": "Cível, Trabalhista, Tributário",
-    "valor": "~R$ 254<small>mi</small>",
-    "trib": 20,
-    "tribSub": "TJSC, TRT12, TRF4, TJSP",
     "ativos": 114,
-    "encerrados": 79,
-    "valorTotal": 253975879.12
+    "areas": 9,
+    "trib": 20,
+    "procSub": "114 ativos · 79 encerrados",
+    "areasSub": "Cível, Trabalhista, Tributário",
+    "tribSub": "TJSC, N/I, TRT12"
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": null,
       "dataset": {
+        "total": 193,
+        "ativos": 114,
+        "encerrados": 79,
+        "areaTotal": 114,
         "estoque": {
-          "2011": 1,
-          "2014": 2,
-          "2015": 2,
-          "2020": 6,
-          "2021": 44,
-          "2022": 43,
-          "2023": 56,
-          "2024": 74,
-          "2025": 96,
-          "2026": 114
+          "2020": 0,
+          "2021": 41,
+          "2022": 41,
+          "2023": 52,
+          "2024": 71,
+          "2025": 91,
+          "2026": 115
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2011": 1,
-          "2014": 1,
-          "2015": 1,
-          "2020": 4,
-          "2021": 38,
-          "2022": 15,
-          "2023": 24,
-          "2024": 31,
-          "2025": 54,
-          "2026": 24
+          "2020": 0,
+          "2021": 41,
+          "2022": 16,
+          "2023": 22,
+          "2024": 33,
+          "2025": 52,
+          "2026": 29
         },
-        "encerrados": {
-          "2015": 1,
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
           "2022": 16,
           "2023": 11,
           "2024": 13,
           "2025": 32,
           "2026": 5
         },
-        "area": {
-          "Cível": 38,
-          "Trabalhista": 29,
-          "Tributário": 17,
-          "Administrativo": 7,
-          "Recuperação Judicial": 5,
-          "Falência": 1,
-          "Penal-Criminal": 1,
-          "Previdenciário": 1
-        },
-        "areaTotal": 99,
-        "instancia": {
-          "1º Grau": 82,
-          "2º Grau": 14,
-          "Superiores": 3
-        },
-        "polo": {
-          "Polo ativo": 47,
-          "Polo passivo": 36,
-          "Terceiro/Outros": 16
-        },
-        "uf": {
-          "SC": 52,
-          "N/I": 11,
-          "SP": 8,
-          "PR": 5,
-          "RS": 4,
-          "MG": 4,
-          "GO": 2,
-          "PA": 2,
-          "BA": 2,
-          "RN": 2,
-          "MA": 1,
-          "AL": 1,
-          "SE": 1,
-          "DF": 1,
-          "MS": 1,
-          "MT": 1,
-          "RJ": 1
-        },
-        "tribunais": {
-          "TRT12": 21,
-          "N/I": 19,
-          "TJSC": 18,
-          "TJSP": 8,
-          "TRF4": 7,
-          "TJRS": 4,
-          "TJMG": 4,
-          "TJPR": 2,
-          "TJGO": 2,
-          "TJPA": 2,
-          "TJBA": 2,
-          "TJRN": 2,
-          "MPTSC": 1,
-          "MPT": 1,
-          "TJMA": 1,
-          "TJAL": 1,
-          "TJSE": 1,
-          "INMETRO": 1,
-          "TJMT": 1,
-          "Justiça Federal do Rio de Janeiro": 1
-        },
-        "ranking": [
-          [
-            "DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC",
-            5
-          ],
-          [
-            "UNIÃO FAZENDA NACIONAL",
-            3
-          ],
-          [
-            "MINISTÉRIO DO TRABALHO E EMPREGO",
-            3
-          ],
-          [
-            "NAIROB DISTRIBUIDORA DE PECAS E ACESSORIOS LTDA",
-            3
-          ],
-          [
-            "RAFAEL OLIVEIRA VILELA",
-            3
-          ],
-          [
-            "MUNICÍPIO DE BRUSQUE",
-            3
-          ],
-          [
-            "RECEITA FEDERAL DO BRASIL",
-            3
-          ],
-          [
-            "L. J. GUIMARAES IANELO",
-            2
-          ],
-          [
-            "LARISSA  ANDRIETTI",
-            2
-          ],
-          [
-            "ADONIAS LAGO DO NASCIMENTO",
-            2
-          ],
-          [
-            "ADALBERTO CONCEICAO DE MELO",
-            2
-          ],
-          [
-            "NORTE DISTRIBUIDORA ELETROPECAS LTDA",
-            2
-          ],
-          [
-            "STU INDUSTRIA DE COMPONENTES E PECAS LTDA",
-            2
-          ],
-          [
-            "METALURGICA CANDEIA LTDA EM RECUPERACAO JUDICIAL",
-            2
-          ],
-          [
-            "R.B. & R.A. COMERCIO DE FERRAMENTAS LTDA",
-            2
-          ]
+        "area": [
+          {
+            "label": "Cível",
+            "valor": 45
+          },
+          {
+            "label": "Trabalhista",
+            "valor": 30
+          },
+          {
+            "label": "Tributário",
+            "valor": 23
+          },
+          {
+            "label": "Administrativo",
+            "valor": 7
+          },
+          {
+            "label": "Recuperação Judicial",
+            "valor": 5
+          },
+          {
+            "label": "Falência",
+            "valor": 1
+          },
+          {
+            "label": "Penal-Criminal",
+            "valor": 1
+          },
+          {
+            "label": "Previdenciário",
+            "valor": 1
+          },
+          {
+            "label": "Pública",
+            "valor": 1
+          }
         ],
+        "uf": [
+          {
+            "label": "SC",
+            "valor": 62
+          },
+          {
+            "label": "N/I",
+            "valor": 13
+          },
+          {
+            "label": "SP",
+            "valor": 8
+          },
+          {
+            "label": "PR",
+            "valor": 5
+          },
+          {
+            "label": "RS",
+            "valor": 5
+          },
+          {
+            "label": "MG",
+            "valor": 4
+          },
+          {
+            "label": "GO",
+            "valor": 3
+          },
+          {
+            "label": "BA",
+            "valor": 2
+          },
+          {
+            "label": "MT",
+            "valor": 2
+          },
+          {
+            "label": "PA",
+            "valor": 2
+          },
+          {
+            "label": "RN",
+            "valor": 2
+          },
+          {
+            "label": "AL",
+            "valor": 1
+          },
+          {
+            "label": "DF",
+            "valor": 1
+          },
+          {
+            "label": "MA",
+            "valor": 1
+          },
+          {
+            "label": "MS",
+            "valor": 1
+          },
+          {
+            "label": "RJ",
+            "valor": 1
+          },
+          {
+            "label": "SE",
+            "valor": 1
+          }
+        ],
+        "instancia": [
+          {
+            "label": "1º Grau",
+            "valor": 94
+          },
+          {
+            "label": "2º Grau",
+            "valor": 17
+          },
+          {
+            "label": "Superiores",
+            "valor": 3
+          }
+        ],
+        "polo": [
+          {
+            "label": "Polo ativo",
+            "valor": 57
+          },
+          {
+            "label": "Polo passivo",
+            "valor": 40
+          },
+          {
+            "label": "Terceiro/Outros",
+            "valor": 17
+          }
+        ],
+        "tribunais": [
+          {
+            "label": "TJSC",
+            "valor": 25
+          },
+          {
+            "label": "N/I",
+            "valor": 22
+          },
+          {
+            "label": "TRT12",
+            "valor": 22
+          },
+          {
+            "label": "TJSP",
+            "valor": 8
+          },
+          {
+            "label": "TRF4",
+            "valor": 8
+          },
+          {
+            "label": "TJRS",
+            "valor": 5
+          },
+          {
+            "label": "TJMG",
+            "valor": 4
+          },
+          {
+            "label": "TJGO",
+            "valor": 3
+          },
+          {
+            "label": "TJBA",
+            "valor": 2
+          },
+          {
+            "label": "TJMT",
+            "valor": 2
+          },
+          {
+            "label": "TJPA",
+            "valor": 2
+          },
+          {
+            "label": "TJPR",
+            "valor": 2
+          },
+          {
+            "label": "TJRN",
+            "valor": 2
+          },
+          {
+            "label": "INMETRO",
+            "valor": 1
+          },
+          {
+            "label": "Justiça Federal do Rio de Janeiro",
+            "valor": 1
+          },
+          {
+            "label": "MPT",
+            "valor": 1
+          },
+          {
+            "label": "MPTSC",
+            "valor": 1
+          },
+          {
+            "label": "TJAL",
+            "valor": 1
+          },
+          {
+            "label": "TJMA",
+            "valor": 1
+          },
+          {
+            "label": "TJSE",
+            "valor": 1
+          }
+        ],
+        "ranking": [
+          {
+            "label": "DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC",
+            "valor": 5
+          },
+          {
+            "label": "MUNICÍPIO DE BRUSQUE",
+            "valor": 5
+          },
+          {
+            "label": "RECEITA FEDERAL DO BRASIL",
+            "valor": 4
+          },
+          {
+            "label": "DELEGACIA DA RECEITA FEDERAL",
+            "valor": 3
+          },
+          {
+            "label": "MINISTÉRIO DO TRABALHO E EMPREGO",
+            "valor": 3
+          },
+          {
+            "label": "NAIROB DISTRIBUIDORA DE PECAS E ACESSORIOS LTDA",
+            "valor": 3
+          },
+          {
+            "label": "RAFAEL OLIVEIRA VILELA",
+            "valor": 3
+          },
+          {
+            "label": "UNIÃO FAZENDA NACIONAL",
+            "valor": 3
+          },
+          {
+            "label": "ADALBERTO CONCEICAO DE MELO",
+            "valor": 2
+          },
+          {
+            "label": "ADONIAS LAGO DO NASCIMENTO",
+            "valor": 2
+          },
+          {
+            "label": "ANTONIO MARCOS DIAS ALVES",
+            "valor": 2
+          },
+          {
+            "label": "INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS",
+            "valor": 2
+          },
+          {
+            "label": "L. J. GUIMARAES IANELO",
+            "valor": 2
+          },
+          {
+            "label": "LARISSA  ANDRIETTI",
+            "valor": 2
+          },
+          {
+            "label": "ME MAIS TRUCKS LTDA",
+            "valor": 2
+          }
+        ],
+        "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 193,
-          "procSub": "114 ativos · 79 encerrados",
-          "ativos": 114,
-          "areas": 8,
-          "areasSub": "Cível, Trabalhista, Tributário",
+          "areas": 9,
           "trib": 20,
-          "tribSub": "TJSC, TRT12, TRF4, TJSP",
-          "valor": "~R$ 254<small>mi</small>",
-          "horas": "^2257",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
+          "proc": 193,
+          "ativos": 114
         },
-        "valorTotal": 253975879.12,
-        "qtdComValor": 146,
-        "ativos": 114,
-        "encerradosTotal": 79,
         "esforco": {
           "comProducao": 193,
           "tramitacaoDias": 647,
@@ -254,630 +389,748 @@
             "2026": 736.2
           },
           "_estimativa": true
-        },
-        "_dadosReais": true,
-        "_panorama": true,
-        "_complexidadeSoAtivos": true
+        }
       }
     },
     "zm": {
       "nome": "ZM S.A.",
+      "_idCliente": "2123130",
       "dataset": {
-        "kpi": {
-          "proc": 182,
-          "procSub": "110 ativos · 71 encerrados",
-          "ativos": 110,
-          "areas": 9,
-          "areasSub": "Cível, Trabalhista, Tributário",
-          "trib": 22,
-          "tribSub": "TJSC, TRT12, TRF4, TJSP",
-          "valor": "~R$ 253mi",
-          "horas": "^2167",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 182,
+        "ativos": 110,
+        "encerrados": 72,
+        "areaTotal": 110,
         "estoque": {
-          "2011": 1,
-          "2014": 2,
-          "2015": 2,
-          "2020": 6,
-          "2021": 41,
-          "2022": 38,
-          "2023": 50,
-          "2024": 67,
-          "2025": 92,
-          "2026": 110
+          "2020": 0,
+          "2021": 38,
+          "2022": 34,
+          "2023": 45,
+          "2024": 64,
+          "2025": 87,
+          "2026": 111
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2011": 1,
-          "2014": 1,
-          "2015": 1,
-          "2020": 4,
-          "2021": 35,
-          "2022": 12,
-          "2023": 22,
-          "2024": 29,
-          "2025": 53,
-          "2026": 24
+          "2020": 0,
+          "2021": 38,
+          "2022": 11,
+          "2023": 21,
+          "2024": 32,
+          "2025": 51,
+          "2026": 29
         },
-        "encerrados": {
-          "2015": 1,
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
           "2022": 15,
           "2023": 10,
           "2024": 12,
           "2025": 28,
           "2026": 5
         },
-        "area": {
-          "Cível": 81,
-          "Trabalhista": 45,
-          "Tributário": 39,
-          "Administrativo": 8,
-          "Recuperação Judicial": 5,
-          "Falência": 1,
-          "Penal-Criminal": 1,
-          "Previdenciário": 1,
-          "Bancário": 1
-        },
-        "areaTotal": 182,
-        "instancia": {
-          "1º Grau": 157,
-          "2º Grau": 18,
-          "Superiores": 7
-        },
-        "polo": {
-          "Polo ativo": 82,
-          "Terceiro/Outros": 61,
-          "Polo passivo": 39
-        },
-        "uf": {
-          "SC": 113,
-          "N/I": 18,
-          "SP": 10,
-          "PR": 7,
-          "GO": 6,
-          "RS": 6,
-          "MG": 4,
-          "DF": 4,
-          "PA": 2,
-          "BA": 2,
-          "RN": 2,
-          "MT": 2,
-          "MA": 1,
-          "AL": 1,
-          "SE": 1,
-          "MS": 1,
-          "RJ": 1,
-          "ES": 1
-        },
-        "tribunais": {
-          "TJSC": 44,
-          "TRT12": 32,
-          "TRF4": 16,
-          "TJSP": 10,
-          "TJGO": 6,
-          "TJRS": 6,
-          "TJPR": 4,
-          "TJMG": 4,
-          "TJPA": 2,
-          "TJBA": 2,
-          "STF": 2,
-          "TJRN": 2,
-          "TJMT": 2,
-          "MPTSC": 1,
-          "MPT": 1,
-          "STJ": 1,
-          "TJMA": 1,
-          "TJAL": 1,
-          "TJSE": 1,
-          "INMETRO": 1,
-          "Justiça Federal do Rio de Janeiro": 1,
-          "TJES": 1
-        },
-        "ranking": [
-          [
-            "DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC",
-            10
-          ],
-          [
-            "RECEITA FEDERAL DO BRASIL",
-            7
-          ],
-          [
-            "UNIÃO FAZENDA NACIONAL",
-            5
-          ],
-          [
-            "MUNICÍPIO DE BRUSQUE",
-            4
-          ],
-          [
-            "FERRO VELHO SILVA COMERCIO DE SUCATA LTDA",
-            4
-          ]
-        ],
-        "ativos": 110,
-        "valorTotal": 252805285.73,
-        "qtdComValor": 136,
-        "esforco": {
-          "prazano": {
-            "2021": 10,
-            "2022": 88,
-            "2023": 124,
-            "2024": 223,
-            "2025": 382,
-            "2026": 343
+        "area": [
+          {
+            "label": "Cível",
+            "valor": 45
           },
-          "audano": {
-            "2022": 2,
-            "2023": 9,
-            "2024": 18,
-            "2025": 27,
-            "2026": 40
+          {
+            "label": "Trabalhista",
+            "valor": 29
           },
-          "tarefano": {
-            "2021": 312,
-            "2022": 50,
-            "2023": 5,
-            "2024": 58,
-            "2025": 171,
-            "2026": 109
+          {
+            "label": "Tributário",
+            "valor": 21
           },
-          "comProducao": 182,
-          "tramitacaoDias": 639,
-          "atividades": {
-            "Prazos": 1170,
-            "Audiências": 96,
-            "Tarefas": 705
+          {
+            "label": "Administrativo",
+            "valor": 7
+          },
+          {
+            "label": "Recuperação Judicial",
+            "valor": 5
+          },
+          {
+            "label": "Falência",
+            "valor": 1
+          },
+          {
+            "label": "Penal-Criminal",
+            "valor": 1
+          },
+          {
+            "label": "Previdenciário",
+            "valor": 1
           }
-        },
-        "horas": {
-          "total": 2167,
-          "media": 11.9,
-          "mediaAtivos": 19.7,
-          "horasano": {
-            "2021": 5.1,
-            "2022": 95.1,
-            "2023": 287.5,
-            "2024": 386.9,
-            "2025": 659.9,
-            "2026": 733.0
+        ],
+        "uf": [
+          {
+            "label": "SC",
+            "valor": 59
           },
-          "_estimativa": true
-        },
-        "_dadosReais": true
-      },
-      "_idCliente": "2123130"
+          {
+            "label": "N/I",
+            "valor": 12
+          },
+          {
+            "label": "SP",
+            "valor": 8
+          },
+          {
+            "label": "PR",
+            "valor": 5
+          },
+          {
+            "label": "RS",
+            "valor": 5
+          },
+          {
+            "label": "MG",
+            "valor": 4
+          },
+          {
+            "label": "GO",
+            "valor": 3
+          },
+          {
+            "label": "BA",
+            "valor": 2
+          },
+          {
+            "label": "MT",
+            "valor": 2
+          },
+          {
+            "label": "PA",
+            "valor": 2
+          },
+          {
+            "label": "RN",
+            "valor": 2
+          },
+          {
+            "label": "AL",
+            "valor": 1
+          },
+          {
+            "label": "DF",
+            "valor": 1
+          },
+          {
+            "label": "MA",
+            "valor": 1
+          },
+          {
+            "label": "MS",
+            "valor": 1
+          },
+          {
+            "label": "RJ",
+            "valor": 1
+          },
+          {
+            "label": "SE",
+            "valor": 1
+          }
+        ],
+        "instancia": [
+          {
+            "label": "1º Grau",
+            "valor": 91
+          },
+          {
+            "label": "2º Grau",
+            "valor": 16
+          },
+          {
+            "label": "Superiores",
+            "valor": 3
+          }
+        ],
+        "polo": [
+          {
+            "label": "Polo ativo",
+            "valor": 56
+          },
+          {
+            "label": "Polo passivo",
+            "valor": 37
+          },
+          {
+            "label": "Terceiro/Outros",
+            "valor": 17
+          }
+        ],
+        "tribunais": [
+          {
+            "label": "TJSC",
+            "valor": 24
+          },
+          {
+            "label": "TRT12",
+            "valor": 21
+          },
+          {
+            "label": "N/I",
+            "valor": 20
+          },
+          {
+            "label": "TJSP",
+            "valor": 8
+          },
+          {
+            "label": "TRF4",
+            "valor": 8
+          },
+          {
+            "label": "TJRS",
+            "valor": 5
+          },
+          {
+            "label": "TJMG",
+            "valor": 4
+          },
+          {
+            "label": "TJGO",
+            "valor": 3
+          },
+          {
+            "label": "TJBA",
+            "valor": 2
+          },
+          {
+            "label": "TJMT",
+            "valor": 2
+          },
+          {
+            "label": "TJPA",
+            "valor": 2
+          },
+          {
+            "label": "TJPR",
+            "valor": 2
+          },
+          {
+            "label": "TJRN",
+            "valor": 2
+          },
+          {
+            "label": "INMETRO",
+            "valor": 1
+          },
+          {
+            "label": "Justiça Federal do Rio de Janeiro",
+            "valor": 1
+          },
+          {
+            "label": "MPT",
+            "valor": 1
+          },
+          {
+            "label": "MPTSC",
+            "valor": 1
+          },
+          {
+            "label": "TJAL",
+            "valor": 1
+          },
+          {
+            "label": "TJMA",
+            "valor": 1
+          },
+          {
+            "label": "TJSE",
+            "valor": 1
+          }
+        ],
+        "ranking": [
+          {
+            "label": "DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC",
+            "valor": 5
+          },
+          {
+            "label": "MUNICÍPIO DE BRUSQUE",
+            "valor": 4
+          },
+          {
+            "label": "RECEITA FEDERAL DO BRASIL",
+            "valor": 4
+          },
+          {
+            "label": "MINISTÉRIO DO TRABALHO E EMPREGO",
+            "valor": 3
+          },
+          {
+            "label": "NAIROB DISTRIBUIDORA DE PECAS E ACESSORIOS LTDA",
+            "valor": 3
+          },
+          {
+            "label": "RAFAEL OLIVEIRA VILELA",
+            "valor": 3
+          },
+          {
+            "label": "UNIÃO FAZENDA NACIONAL",
+            "valor": 3
+          },
+          {
+            "label": "ADALBERTO CONCEICAO DE MELO",
+            "valor": 2
+          },
+          {
+            "label": "ADONIAS LAGO DO NASCIMENTO",
+            "valor": 2
+          },
+          {
+            "label": "ANTONIO MARCOS DIAS ALVES",
+            "valor": 2
+          },
+          {
+            "label": "INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS",
+            "valor": 2
+          },
+          {
+            "label": "L. J. GUIMARAES IANELO",
+            "valor": 2
+          },
+          {
+            "label": "LARISSA  ANDRIETTI",
+            "valor": 2
+          },
+          {
+            "label": "ME MAIS TRUCKS LTDA",
+            "valor": 2
+          },
+          {
+            "label": "METALURGICA CANDEIA LTDA EM RECUPERACAO JUDICIAL",
+            "valor": 2
+          }
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "areas": 8,
+          "trib": 20,
+          "proc": 182,
+          "ativos": 110
+        }
+      }
     },
     "cazen_adm": {
       "nome": "Cazen Administradora",
       "_idCliente": "2123743",
       "dataset": {
-        "kpi": {
-          "proc": 7,
-          "procSub": "1 ativos · 6 encerrados",
-          "ativos": 1,
-          "areas": 2,
-          "areasSub": "3 áreas top",
-          "trib": 3,
-          "tribSub": "até 4",
-          "valor": "~R$ 1.1mi",
-          "horas": "^38",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 7,
+        "ativos": 1,
+        "encerrados": 6,
+        "areaTotal": 1,
         "estoque": {
+          "2020": 0,
           "2021": 3,
-          "2022": 4,
+          "2022": 5,
           "2023": 5,
           "2024": 5,
-          "2025": 1
+          "2025": 1,
+          "2026": 1
         },
-        "estoqueHl": [
-          "2025",
-          "2024"
-        ],
         "entradas": {
+          "2020": 0,
           "2021": 3,
-          "2022": 2,
-          "2023": 1,
-          "2024": 1
-        },
-        "encerrados": {
-          "2022": 1,
+          "2022": 3,
+          "2023": 0,
           "2024": 1,
-          "2025": 4
+          "2025": 0,
+          "2026": 0
         },
-        "area": {
-          "Tributário": 4,
-          "Cível": 3
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 1,
+          "2023": 0,
+          "2024": 1,
+          "2025": 4,
+          "2026": 0
         },
-        "areaTotal": 7,
-        "instancia": {
-          "1º Grau": 6,
-          "2º Grau": 1
-        },
-        "polo": {
-          "Polo ativo": 5,
-          "Polo passivo": 1,
-          "Terceiro/Outros": 1
-        },
-        "uf": {
-          "SC": 6,
-          "N/I": 1
-        },
-        "tribunais": {
-          "TJSC": 4,
-          "TRF4": 2,
-          "N/I": 1
-        },
-        "ranking": [
-          [
-            "TELEFONICA BRASIL S.A (VIVO)",
-            2
-          ],
-          [
-            "DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC",
-            2
-          ],
-          [
-            "DELEGACIA DA RECEITA FEDERAL",
-            1
-          ],
-          [
-            "MUNICÍPIO DE BRUSQUE",
-            1
-          ],
-          [
-            "GRAZIELA REICHERT",
-            1
-          ]
-        ],
-        "ativos": 1,
-        "valorTotal": 1053700.41,
-        "qtdComValor": 7,
-        "esforco": {
-          "prazano": {
-            "2021": 1,
-            "2022": 3,
-            "2023": 11,
-            "2024": 13
-          },
-          "audano": {
-            "2024": 1
-          },
-          "tarefano": {
-            "2021": 14
-          },
-          "comProducao": 7,
-          "tramitacaoDias": 893,
-          "atividades": {
-            "Prazos": 28,
-            "Audiências": 1,
-            "Tarefas": 14
+        "area": [
+          {
+            "label": "Tributário",
+            "valor": 1
           }
-        },
-        "horas": {
-          "total": 38,
-          "media": 5.36,
-          "mediaAtivos": 37.51,
-          "horasano": {
-            "2021": 0.6,
-            "2022": 12.8,
-            "2023": 14.7,
-            "2024": 9.3
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        ],
+        "uf": [
+          {
+            "label": "N/I",
+            "valor": 1
+          }
+        ],
+        "instancia": [
+          {
+            "label": "1º Grau",
+            "valor": 1
+          }
+        ],
+        "polo": [
+          {
+            "label": "Polo passivo",
+            "valor": 1
+          }
+        ],
+        "tribunais": [
+          {
+            "label": "N/I",
+            "valor": 1
+          }
+        ],
+        "ranking": [
+          {
+            "label": "DELEGACIA DA RECEITA FEDERAL",
+            "valor": 1
+          }
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "areas": 1,
+          "trib": 1,
+          "proc": 7,
+          "ativos": 1
+        }
       }
     },
     "alexandre_zen": {
       "nome": "Alexandre Zen",
       "_idCliente": "2125325",
       "dataset": {
-        "kpi": {
-          "proc": 2,
-          "procSub": "1 ativos · 1 encerrados",
-          "ativos": 1,
-          "areas": 2,
-          "areasSub": "2 áreas top",
-          "trib": 2,
-          "tribSub": "até 4",
-          "valor": "~R$ 27mil",
-          "horas": "^32",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 2,
+        "ativos": 1,
+        "encerrados": 1,
+        "areaTotal": 1,
         "estoque": {
+          "2020": 0,
+          "2021": 0,
           "2022": 1,
           "2023": 0,
-          "2025": 1
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
         },
-        "estoqueHl": [
-          "2025",
-          "2023"
-        ],
         "entradas": {
+          "2020": 0,
+          "2021": 0,
           "2022": 1,
-          "2025": 1
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
         },
-        "encerrados": {
-          "2023": 1
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 1,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
         },
-        "area": {
-          "Trabalhista": 1,
-          "Penal-Criminal": 1
-        },
-        "areaTotal": 2,
-        "instancia": {
-          "2º Grau": 1,
-          "1º Grau": 1
-        },
-        "polo": {
-          "Polo ativo": 1,
-          "Polo passivo": 1,
-          "Terceiro/Outros": 0
-        },
-        "uf": {
-          "SC": 2
-        },
-        "tribunais": {
-          "TRT12": 1,
-          "TJSC": 1
-        },
-        "ranking": [
-          [
-            "MARIA LUCIVANDA MESCOUTO PRAXEDES LOPO",
-            1
-          ],
-          [
-            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-            1
-          ]
-        ],
-        "ativos": 1,
-        "valorTotal": 26550,
-        "qtdComValor": 1,
-        "esforco": {
-          "prazano": {
-            "2022": 1,
-            "2025": 12,
-            "2026": 6
-          },
-          "audano": {
-            "2022": 1,
-            "2025": 3
-          },
-          "tarefano": {
-            "2025": 1,
-            "2026": 1
-          },
-          "comProducao": 2,
-          "tramitacaoDias": 338,
-          "atividades": {
-            "Prazos": 19,
-            "Audiências": 4,
-            "Tarefas": 2
+        "area": [
+          {
+            "label": "Trabalhista",
+            "valor": 1
           }
-        },
-        "horas": {
-          "total": 32,
-          "media": 16.1,
-          "mediaAtivos": 32.21,
-          "horasano": {
-            "2022": 0.4,
-            "2025": 28.6,
-            "2026": 3.2
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        ],
+        "uf": [
+          {
+            "label": "SC",
+            "valor": 1
+          }
+        ],
+        "instancia": [
+          {
+            "label": "2º Grau",
+            "valor": 1
+          }
+        ],
+        "polo": [
+          {
+            "label": "Polo passivo",
+            "valor": 1
+          }
+        ],
+        "tribunais": [
+          {
+            "label": "TRT12",
+            "valor": 1
+          }
+        ],
+        "ranking": [
+          {
+            "label": "MARIA LUCIVANDA MESCOUTO PRAXEDES LOPO",
+            "valor": 1
+          }
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "areas": 1,
+          "trib": 1,
+          "proc": 2,
+          "ativos": 1
+        }
       }
     },
     "emanuele_zen": {
       "nome": "Emanuele de Souza Zen",
       "_idCliente": "2337246",
       "dataset": {
-        "kpi": {
-          "proc": 1,
-          "procSub": "1 ativos · 0 encerrados",
-          "ativos": 1,
-          "areas": 1,
-          "areasSub": "3 áreas top",
-          "trib": 1,
-          "tribSub": "até 4",
-          "valor": "~R$ 68mil"
-        },
-        "estoque": {
-          "2024": 1
-        },
-        "estoqueHl": [
-          "2024"
-        ],
-        "entradas": {
-          "2024": 1
-        },
-        "encerrados": {},
-        "area": {
-          "Pública": 1
-        },
-        "areaTotal": 1,
-        "instancia": {
-          "1º Grau": 1
-        },
-        "polo": {
-          "Polo ativo": 1
-        },
-        "uf": {
-          "SC": 1
-        },
-        "tribunais": {
-          "TJSC": 1
-        },
-        "ranking": [
-          [
-            "MUNICÍPIO DE BRUSQUE",
-            1
-          ]
-        ],
+        "total": 1,
         "ativos": 1,
-        "valorTotal": 67863.17,
-        "qtdComValor": 1,
-        "esforco": {
-          "prazano": {
-            "2024": 2,
-            "2025": 4,
-            "2026": 2
-          },
-          "comProducao": 1,
-          "tramitacaoDias": 603,
-          "atividades": {
-            "Prazos": 8,
-            "Audiências": 0,
-            "Tarefas": 0
-          }
+        "encerrados": 0,
+        "areaTotal": 1,
+        "estoque": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
         },
-        "horas": {},
-        "_dadosReais": true
+        "entradas": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 1,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "area": [
+          {
+            "label": "Pública",
+            "valor": 1
+          }
+        ],
+        "uf": [
+          {
+            "label": "SC",
+            "valor": 1
+          }
+        ],
+        "instancia": [
+          {
+            "label": "1º Grau",
+            "valor": 1
+          }
+        ],
+        "polo": [
+          {
+            "label": "Polo ativo",
+            "valor": 1
+          }
+        ],
+        "tribunais": [
+          {
+            "label": "TJSC",
+            "valor": 1
+          }
+        ],
+        "ranking": [
+          {
+            "label": "MUNICÍPIO DE BRUSQUE",
+            "valor": 1
+          }
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "areas": 1,
+          "trib": 1,
+          "proc": 1,
+          "ativos": 1
+        }
       }
     },
     "cazen_part": {
       "nome": "Cazen Participações Societárias Ltda",
       "_idCliente": "675598097",
       "dataset": {
-        "kpi": {
-          "proc": 1,
-          "procSub": "1 ativos · 0 encerrados",
-          "ativos": 1,
-          "areas": 1,
-          "areasSub": "3 áreas top",
-          "trib": 0,
-          "tribSub": "até 4",
-          "valor": "~R$ 22mil",
-          "horas": "^20",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
-        "estoque": {
-          "2023": 1
-        },
-        "estoqueHl": [
-          "2023"
-        ],
-        "entradas": {
-          "2023": 1
-        },
-        "encerrados": {},
-        "area": {
-          "Tributário": 1
-        },
-        "areaTotal": 1,
-        "instancia": {
-          "1º Grau": 1
-        },
-        "polo": {
-          "Terceiro/Outros": 1
-        },
-        "uf": {
-          "SC": 1
-        },
-        "tribunais": {},
-        "ranking": [
-          [
-            "DELEGACIA DA RECEITA FEDERAL",
-            1
-          ]
-        ],
+        "total": 1,
         "ativos": 1,
-        "valorTotal": 22479.81,
-        "qtdComValor": 1,
-        "esforco": {
-          "prazano": {
-            "2023": 1
-          },
-          "comProducao": 1,
-          "tramitacaoDias": 1077,
-          "atividades": {
-            "Prazos": 1,
-            "Audiências": 0,
-            "Tarefas": 0
+        "encerrados": 0,
+        "areaTotal": 1,
+        "estoque": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 1,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "area": [
+          {
+            "label": "Tributário",
+            "valor": 1
           }
-        },
-        "horas": {
-          "total": 20,
-          "media": 20.4333,
-          "mediaAtivos": 20.4333,
-          "horasano": {
-            "2023": 20.4
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        ],
+        "uf": [
+          {
+            "label": "SC",
+            "valor": 1
+          }
+        ],
+        "instancia": [
+          {
+            "label": "1º Grau",
+            "valor": 1
+          }
+        ],
+        "polo": [
+          {
+            "label": "Polo passivo",
+            "valor": 1
+          }
+        ],
+        "tribunais": [
+          {
+            "label": "N/I",
+            "valor": 1
+          }
+        ],
+        "ranking": [
+          {
+            "label": "DELEGACIA DA RECEITA FEDERAL",
+            "valor": 1
+          }
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "areas": 1,
+          "trib": 1,
+          "proc": 1,
+          "ativos": 1
+        }
       }
     },
     "zm_fomento": {
       "nome": "ZM Fomento",
       "_idCliente": "677012506",
       "dataset": {
-        "kpi": {
-          "proc": 0,
-          "procSub": "—",
-          "ativos": 0,
-          "areas": 0,
-          "areasSub": "—",
-          "trib": 0,
-          "tribSub": "—",
-          "valor": "—"
-        },
-        "estoque": {},
-        "estoqueHl": [],
-        "entradas": {},
-        "encerrados": {},
-        "area": {},
-        "areaTotal": 0,
-        "instancia": {},
-        "polo": {},
-        "uf": {},
-        "tribunais": {},
-        "ranking": [],
+        "total": 0,
         "ativos": 0,
-        "esforco": {},
-        "horas": {},
-        "_semProcessos": true
+        "encerrados": 0,
+        "areaTotal": 0,
+        "estoque": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "area": [],
+        "uf": [],
+        "instancia": [],
+        "polo": [],
+        "tribunais": [],
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "areas": 0,
+          "trib": 0,
+          "proc": 0,
+          "ativos": 0
+        }
       }
     },
     "emilio_souza": {
       "nome": "Emilio Cesar de Souza",
       "_idCliente": "679243905",
       "dataset": {
-        "kpi": {
-          "proc": 0,
-          "procSub": "—",
-          "ativos": 0,
-          "areas": 0,
-          "areasSub": "—",
-          "trib": 0,
-          "tribSub": "—",
-          "valor": "—"
-        },
-        "estoque": {},
-        "estoqueHl": [],
-        "entradas": {},
-        "encerrados": {},
-        "area": {},
-        "areaTotal": 0,
-        "instancia": {},
-        "polo": {},
-        "uf": {},
-        "tribunais": {},
-        "ranking": [],
+        "total": 0,
         "ativos": 0,
-        "esforco": {},
-        "horas": {},
-        "_semProcessos": true
+        "encerrados": 0,
+        "areaTotal": 0,
+        "estoque": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "area": [],
+        "uf": [],
+        "instancia": [],
+        "polo": [],
+        "tribunais": [],
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "areas": 0,
+          "trib": 0,
+          "proc": 0,
+          "ativos": 0
+        }
       }
     }
-  },
-  "nEmpresas": 7
+  }
 }

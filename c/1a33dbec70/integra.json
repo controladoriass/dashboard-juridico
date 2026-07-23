@@ -3,61 +3,64 @@
   "nomeHtml": "Íntegra <em>Construtora</em>",
   "kpiGrupo": {
     "proc": 18,
+    "ativos": 16,
+    "areas": 3,
+    "trib": 4,
     "procSub": "16 ativos · 2 encerrados",
+    "areasSub": "Trabalhista, Cível, Tributário",
+    "tribSub": "TRT12, TJSC, N/I",
     "horas": "^206",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 3,
-    "areasSub": "Trabalhista, Cível, Tributário",
     "valor": "~R$ 2,2 mi",
-    "trib": 4,
-    "tribSub": "TRT12, TJSC, TRT02, N/I",
-    "ativos": 16,
     "encerrados": 2,
     "valorTotal": 2187040.32
   },
   "empresas": {
-    "integra": {
-      "nome": "Íntegra Construtora e Incorporadora Ltda",
+    "_panorama": {
+      "nome": "Panorama",
+      "_idCliente": null,
       "dataset": {
-        "kpi": {
-          "proc": 18,
-          "procSub": "16 ativos · 2 encerrados",
-          "ativos": 16,
-          "areas": 3,
-          "areasSub": "Trabalhista 11 · Cível 5",
-          "trib": 4,
-          "tribSub": "TRT12 10 · TJSC 4",
-          "valor": "~R$ 2,2 mi",
-          "horas": "^206",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 18,
+        "ativos": 16,
+        "encerrados": 2,
+        "areaTotal": 16,
         "estoque": {
           "2020": 2,
+          "2021": 2,
           "2022": 3,
+          "2023": 3,
           "2024": 4,
-          "2025": 14,
+          "2025": 13,
           "2026": 16
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
           "2020": 2,
+          "2021": 0,
           "2022": 1,
+          "2023": 0,
           "2024": 1,
-          "2025": 12,
-          "2026": 2
+          "2025": 11,
+          "2026": 3
         },
-        "encerrados": {
-          "2025": 2
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 2,
+          "2026": 0
         },
+        "estoqueHl": [],
         "area": {
           "Trabalhista": 11,
           "Cível": 3,
           "Tributário": 2
         },
-        "areaTotal": 16,
+        "uf": {
+          "SC": 15,
+          "SP": 1
+        },
         "instancia": {
           "1º Grau": 12,
           "2º Grau": 2,
@@ -66,10 +69,6 @@
         "polo": {
           "Polo passivo": 12,
           "Polo ativo": 4
-        },
-        "uf": {
-          "SC": 15,
-          "SP": 1
         },
         "tribunais": {
           "TRT12": 10,
@@ -139,69 +138,154 @@
             1
           ]
         ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 18,
+          "ativos": 16,
+          "areas": 3,
+          "trib": 4,
+          "procSub": "16 ativos · 2 encerrados",
+          "areasSub": "Trabalhista, Cível, Tributário",
+          "tribSub": "TRT12, TJSC, N/I"
+        },
+        "esforco": {},
+        "horas": {},
+        "_panorama": true
+      }
+    },
+    "integra": {
+      "nome": "Íntegra Construtora e Incorporadora Ltda",
+      "_idCliente": "2129549",
+      "dataset": {
+        "total": 18,
         "ativos": 16,
-        "valorTotal": 2187040.32,
-        "qtdComValor": 15,
-        "esforco": {
-          "prazano": {
-            "2023": 3,
-            "2024": 7,
-            "2025": 72,
-            "2026": 53
-          },
-          "audano": {
-            "2024": 2,
-            "2025": 6,
-            "2026": 10
-          },
-          "tarefano": {
-            "2020": 10,
-            "2021": 12,
-            "2022": 64,
-            "2023": 45,
-            "2024": 88,
-            "2025": 80,
-            "2026": 42
-          },
-          "comProducao": 18,
-          "tramitacaoDias": 598,
-          "atividades": {
-            "Prazos": 135,
-            "Audiências": 18,
-            "Tarefas": 341
-          },
-          "extrajudano": {
-            "2022": 64,
-            "2023": 44,
-            "2024": 83,
-            "2025": 72,
-            "2026": 22
-          },
-          "extrajudtipo": {
-            "Contratos e minutas": 87,
-            "Notificações": 18,
-            "Distratos e acordos": 21,
-            "Pareceres e análises": 8,
-            "Outros": 151
-          }
+        "encerrados": 2,
+        "areaTotal": 16,
+        "estoque": {
+          "2020": 2,
+          "2021": 2,
+          "2022": 3,
+          "2023": 3,
+          "2024": 4,
+          "2025": 13,
+          "2026": 16
         },
-        "horas": {
-          "total": 206,
-          "media": 11.4,
-          "mediaAtivos": 12.9,
-          "horasano": {
-            "2022": 1.9,
-            "2023": 25.4,
-            "2024": 4.1,
-            "2025": 69,
-            "2026": 105.4
-          },
-          "_estimativa": true
+        "entradas": {
+          "2020": 2,
+          "2021": 0,
+          "2022": 1,
+          "2023": 0,
+          "2024": 1,
+          "2025": 11,
+          "2026": 3
         },
-        "_dadosReais": true,
-        "_complexidadeSoAtivos": true
-      },
-      "_idCliente": "2129549"
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 2,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {
+          "Trabalhista": 11,
+          "Cível": 3,
+          "Tributário": 2
+        },
+        "uf": {
+          "SC": 15,
+          "SP": 1
+        },
+        "instancia": {
+          "1º Grau": 12,
+          "2º Grau": 2,
+          "Não informado": 2
+        },
+        "polo": {
+          "Polo passivo": 12,
+          "Polo ativo": 4
+        },
+        "tribunais": {
+          "TRT12": 10,
+          "TJSC": 3,
+          "N/I": 2,
+          "TRT02": 1
+        },
+        "ranking": [
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            2
+          ],
+          [
+            "EDUARDO MARTINS LEAL",
+            1
+          ],
+          [
+            "SIDNEY DOMINGUES",
+            1
+          ],
+          [
+            "DIEGO DOS SANTOS",
+            1
+          ],
+          [
+            "PEDRO LADIR DE RAMOS",
+            1
+          ],
+          [
+            "JESSY JOSE PEREZ RONDON",
+            1
+          ],
+          [
+            "CLAUDIO AGOSTINHO DA SILVA",
+            1
+          ],
+          [
+            "LUIS OTAVIO PINHEIRO PERRI",
+            1
+          ],
+          [
+            "JHONATAN KRAUS",
+            1
+          ],
+          [
+            "ENIO RAFAEL LOZANO SANCHEZ",
+            1
+          ],
+          [
+            "ALCEU BRANCO DO AMARAL",
+            1
+          ],
+          [
+            "JONATA KRAUS",
+            1
+          ],
+          [
+            "HENRIQUE ANTUNES DE SOUZA",
+            1
+          ],
+          [
+            "ESTRUTURAS SERRA LITORAL LTDA",
+            1
+          ],
+          [
+            "DEBORA SABRINA PEREIRA DA SILVA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 18,
+          "ativos": 16,
+          "areas": 3,
+          "trib": 4,
+          "procSub": "16 ativos · 2 encerrados",
+          "areasSub": "Trabalhista, Cível, Tributário",
+          "tribSub": "TRT12, TJSC, N/I"
+        }
+      }
     }
   },
   "nEmpresas": 1

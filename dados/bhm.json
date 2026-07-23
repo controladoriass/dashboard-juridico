@@ -3,15 +3,15 @@
   "nomeHtml": "BHM <em>Têxtil</em>",
   "kpiGrupo": {
     "proc": 88,
+    "ativos": 73,
+    "areas": 6,
+    "trib": 10,
     "procSub": "73 ativos · 15 encerrados",
+    "areasSub": "Cível, Tributário, Trabalhista",
+    "tribSub": "TJSC, N/I, TRT12",
     "horas": "^947",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 6,
-    "areasSub": "Cível, Tributário, Trabalhista",
     "valor": "~R$ 4<small>mi</small>",
-    "trib": 10,
-    "tribSub": "TJSC, TRT12, TJMG, TRF4",
-    "ativos": 73,
     "encerrados": 15,
     "valorTotal": 4438209.66
   },
@@ -20,41 +20,38 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": null,
       "dataset": {
+        "total": 88,
+        "ativos": 73,
+        "encerrados": 15,
+        "areaTotal": 73,
         "estoque": {
-          "2016": 1,
-          "2017": 4,
-          "2019": 19,
           "2020": 20,
-          "2021": 28,
+          "2021": 27,
           "2022": 39,
-          "2023": 52,
+          "2023": 51,
           "2024": 61,
           "2025": 65,
-          "2026": 73
+          "2026": 76
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2016": 1,
-          "2017": 3,
-          "2019": 15,
-          "2020": 6,
-          "2021": 8,
-          "2022": 11,
-          "2023": 16,
-          "2024": 11,
+          "2020": 8,
+          "2021": 7,
+          "2022": 12,
+          "2023": 15,
+          "2024": 12,
           "2025": 5,
           "2026": 12
         },
-        "encerrados": {
+        "encerrados_por_ano": {
           "2020": 5,
+          "2021": 0,
+          "2022": 0,
           "2023": 3,
           "2024": 2,
           "2025": 1,
           "2026": 1
         },
+        "estoqueHl": [],
         "area": {
           "Cível": 36,
           "Tributário": 18,
@@ -62,18 +59,6 @@
           "Administrativo": 5,
           "Previdenciário": 1,
           "Imobiliário": 1
-        },
-        "areaTotal": 73,
-        "instancia": {
-          "1º Grau": 60,
-          "Superiores": 3,
-          "2º Grau": 4,
-          "Não informado": 6
-        },
-        "polo": {
-          "Polo ativo": 33,
-          "Polo passivo": 30,
-          "Terceiro/Outros": 10
         },
         "uf": {
           "SC": 52,
@@ -84,6 +69,17 @@
           "GO": 2,
           "ST": 1,
           "CE": 1
+        },
+        "instancia": {
+          "1º Grau": 60,
+          "Não informado": 6,
+          "2º Grau": 4,
+          "Superiores": 3
+        },
+        "polo": {
+          "Polo ativo": 33,
+          "Polo passivo": 30,
+          "Terceiro/Outros": 10
         },
         "tribunais": {
           "TJSC": 25,
@@ -115,7 +111,7 @@
             3
           ],
           [
-            "CALEONE LITORAL CONSTRUTORA E INCORPORADORA LTDA",
+            "GILMAR",
             2
           ],
           [
@@ -152,29 +148,23 @@
           ],
           [
             "JAIME DA VEIGA E LAUDELINO NETTO ADVOGADOS ASSOCIADOS",
-            2
+            1
           ],
           [
-            "ALESSANDRA OLIVEIRA DOS SANTOS",
-            2
+            "CALEONE LITORAL",
+            1
           ]
         ],
+        "_complexidadeSoAtivos": true,
         "kpi": {
           "proc": 88,
-          "procSub": "73 ativos · 15 encerrados",
           "ativos": 73,
           "areas": 6,
-          "areasSub": "Cível, Tributário, Trabalhista",
           "trib": 10,
-          "tribSub": "TJSC, TRT12, TJMG, TRF4",
-          "valor": "~R$ 4<small>mi</small>",
-          "horas": "^947",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
+          "procSub": "73 ativos · 15 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, N/I, TRT12"
         },
-        "valorTotal": 4438209.66,
-        "qtdComValor": 58,
-        "ativos": 73,
-        "encerradosTotal": 15,
         "esforco": {
           "comProducao": 88,
           "tramitacaoDias": 1229,
@@ -225,220 +215,133 @@
           },
           "_estimativa": true
         },
-        "_dadosReais": true,
-        "_panorama": true,
-        "_complexidadeSoAtivos": true
+        "_panorama": true
       }
     },
     "bhm_textil": {
       "nome": "BHM Têxtil Ind. e Com. de Malhas Ltda",
+      "_idCliente": "2129932",
       "dataset": {
-        "kpi": {
-          "proc": 69,
-          "procSub": "56 ativos · 10 encerrados",
-          "ativos": 56,
-          "areas": 6,
-          "areasSub": "Cível · Tributário · Trabalhista",
-          "trib": 9,
-          "tribSub": "TJSC · TRT12 · TJMG · TRF4",
-          "valor": "~R$ 3,8mi",
-          "horas": "^762",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 69,
+        "ativos": 56,
+        "encerrados": 13,
+        "areaTotal": 56,
         "estoque": {
-          "2016": 1,
-          "2017": 4,
-          "2019": 18,
           "2020": 19,
-          "2021": 25,
+          "2021": 24,
           "2022": 33,
-          "2023": 46,
+          "2023": 45,
           "2024": 53,
           "2025": 57,
-          "2026": 56
+          "2026": 59
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2016": 1,
-          "2017": 3,
-          "2019": 14,
-          "2020": 6,
-          "2021": 6,
-          "2022": 8,
-          "2023": 16,
-          "2024": 9,
+          "2020": 8,
+          "2021": 5,
+          "2022": 9,
+          "2023": 15,
+          "2024": 10,
           "2025": 4,
           "2026": 2
         },
-        "encerrados": {
+        "encerrados_por_ano": {
           "2020": 5,
+          "2021": 0,
+          "2022": 0,
           "2023": 3,
-          "2024": 2
+          "2024": 2,
+          "2025": 0,
+          "2026": 0
         },
+        "estoqueHl": [],
         "area": {
-          "Cível": 30,
-          "Tributário": 22,
+          "Cível": 22,
+          "Tributário": 17,
           "Trabalhista": 12,
           "Administrativo": 3,
           "Previdenciário": 1,
           "Imobiliário": 1
         },
-        "areaTotal": 69,
-        "instancia": {
-          "1º Grau": 53,
-          "Não informado": 10,
-          "Superiores": 3,
-          "2º Grau": 3
-        },
-        "polo": {
-          "Polo ativo": 35,
-          "Polo passivo": 17,
-          "Terceiro/Outros": 17
-        },
         "uf": {
-          "SC": 47,
-          "MG": 7,
-          "N/I": 6,
+          "SC": 37,
+          "MG": 6,
+          "N/I": 4,
           "PR": 3,
           "DF": 2,
           "GO": 2,
           "ST": 1,
           "CE": 1
         },
+        "instancia": {
+          "1º Grau": 47,
+          "Não informado": 4,
+          "Superiores": 3,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 23,
+          "Polo passivo": 24,
+          "Terceiro/Outros": 9
+        },
         "tribunais": {
-          "TJSC": 16,
           "TRT12": 12,
-          "TJMG": 7,
-          "TRF4": 7,
+          "TJSC": 12,
+          "N/I": 10,
+          "TJMG": 6,
+          "TRF4": 6,
           "DRF": 5,
           "TJGO": 2,
+          "SEFAZ": 1,
           "TJPR": 1,
-          "TJCE": 1,
-          "SEFAZ": 1
+          "TJCE": 1
         },
         "ranking": [
-          [
-            "VANESSA STAROSKI METZGER",
-            6
-          ],
-          [
-            "GR INDUSTRIA E COMERCIO DE CONFECÇÕES EIRELI",
-            5
-          ],
           [
             "DELEGACIA DA RECEITA FEDERAL",
             5
           ],
           [
-            "RECEITA FEDERAL DO BRASIL",
+            "GR INDUSTRIA E COMERCIO DE CONFECÇÕES EIRELI",
+            4
+          ],
+          [
+            "VANESSA STAROSKI METZGER",
             3
+          ],
+          [
+            "Elcio Rusch",
+            3
+          ],
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            2
+          ],
+          [
+            "SECRETARIA DE ESTADO DA FAZENDA DE SANTA CATARINA",
+            2
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            2
           ],
           [
             "LCF LINGERIE LTDA",
-            3
-          ]
-        ],
-        "ativos": 56,
-        "valorTotal": 3799247.83,
-        "qtdComValor": 48,
-        "esforco": {
-          "comProducao": 69,
-          "tramitacaoDias": 1390,
-          "atividades": {
-            "Prazos": 395,
-            "Audiências": 32,
-            "Tarefas": 891
-          }
-        },
-        "horas": {
-          "total": 762,
-          "media": 11,
-          "mediaAtivos": 13.6,
-          "horasano": {
-            "2021": 2.1,
-            "2022": 87,
-            "2023": 353.6,
-            "2024": 198.2,
-            "2025": 76.1,
-            "2026": 44.7
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
-      },
-      "_idCliente": "2129932"
-    },
-    "buschirolli_bens": {
-      "nome": "Buschirolli Administradora de Bens EIRELI",
-      "_idCliente": "2119996",
-      "dataset": {
-        "kpi": {
-          "proc": 11,
-          "procSub": "10 ativos · 1 encerrados",
-          "ativos": 10,
-          "areas": 3,
-          "areasSub": "3 áreas top",
-          "trib": 1,
-          "tribSub": "até 4",
-          "valor": "~R$ 47mil",
-          "horas": "^85",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
-        "estoque": {
-          "2021": 2,
-          "2024": 3,
-          "2025": 2,
-          "2026": 10
-        },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
-        "entradas": {
-          "2021": 2,
-          "2024": 1,
-          "2026": 8
-        },
-        "encerrados": {
-          "2025": 1
-        },
-        "area": {
-          "Cível": 8,
-          "Administrativo": 2,
-          "Tributário": 1
-        },
-        "areaTotal": 11,
-        "instancia": {
-          "1º Grau": 7,
-          "2º Grau": 2,
-          "Não informado": 2
-        },
-        "polo": {
-          "Polo ativo": 8,
-          "Polo passivo": 1,
-          "Terceiro/Outros": 2
-        },
-        "uf": {
-          "SC": 8,
-          "N/I": 3
-        },
-        "tribunais": {
-          "TJSC": 6
-        },
-        "ranking": [
-          [
-            "SECRETARIA DE INFRAESTRUTURA E MOBILIDADE",
             2
           ],
           [
-            "JAIME DA VEIGA E LAUDELINO NETTO ADVOGADOS ASSOCIADOS",
+            "SANDRO DA SILVA",
             2
           ],
           [
-            "ALESSANDRA OLIVEIRA DOS SANTOS",
+            "JAQUELINE APARECIDA PACKER",
+            2
+          ],
+          [
+            "DELEGADO DA DELEGACIA DE ADMINISTRAÇÃO TRIBUTÁRIA DA RECEITA FEDERAL EM CURITIBA",
+            2
+          ],
+          [
+            "CELSO HONORATO",
             2
           ],
           [
@@ -446,189 +349,259 @@
             1
           ],
           [
-            "BIANCA SCREPEC",
+            "MESSIAS PEREIRA DO AMARANTE DA ROSA",
+            1
+          ],
+          [
+            "ENGELBERT RIEHS",
             1
           ]
         ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 69,
+          "ativos": 56,
+          "areas": 6,
+          "trib": 10,
+          "procSub": "56 ativos · 13 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TRT12, TJSC, N/I"
+        }
+      }
+    },
+    "buschirolli_bens": {
+      "nome": "Buschirolli Administradora de Bens EIRELI",
+      "_idCliente": "2119996",
+      "dataset": {
+        "total": 11,
         "ativos": 10,
-        "valorTotal": 47174.6,
-        "qtdComValor": 4,
-        "esforco": {
-          "prazano": {
-            "2024": 1,
-            "2026": 24
-          },
-          "audano": {
-            "2026": 1
-          },
-          "tarefano": {
-            "2021": 8,
-            "2022": 1,
-            "2026": 5
-          },
-          "comProducao": 11,
-          "tramitacaoDias": 384,
-          "atividades": {
-            "Prazos": 25,
-            "Audiências": 1,
-            "Tarefas": 14
-          }
+        "encerrados": 1,
+        "areaTotal": 10,
+        "estoque": {
+          "2021": 2,
+          "2022": 2,
+          "2023": 2,
+          "2024": 3,
+          "2025": 2,
+          "2026": 10
         },
-        "horas": {
-          "total": 85,
-          "media": 7.7,
-          "mediaAtivos": 8.5,
-          "horasano": {
-            "2024": 7.8,
-            "2026": 77
-          },
-          "_estimativa": true
+        "entradas": {
+          "2021": 2,
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 8
         },
-        "_dadosReais": true
+        "encerrados_por_ano": {
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 7,
+          "Administrativo": 2,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 8,
+          "N/I": 2
+        },
+        "instancia": {
+          "1º Grau": 6,
+          "2º Grau": 2,
+          "Não informado": 2
+        },
+        "polo": {
+          "Polo ativo": 7,
+          "Polo passivo": 3
+        },
+        "tribunais": {
+          "TJSC": 6,
+          "N/I": 4
+        },
+        "ranking": [
+          [
+            "JAIME DA VEIGA E LAUDELINO NETTO ADVOGADOS ASSOCIADOS",
+            1
+          ],
+          [
+            "CALEONE LITORAL",
+            1
+          ],
+          [
+            "JAIME DA VEIGA",
+            1
+          ],
+          [
+            "ALESSANDRA OLIVEIRA DOS SANTOS",
+            1
+          ],
+          [
+            "BIANCA SCREPEC",
+            1
+          ],
+          [
+            "SECRETÁRIO DA FAZENDA DE BRUSQUE",
+            1
+          ],
+          [
+            "LOFT HOUSE",
+            1
+          ],
+          [
+            "ALESSANDRA OLIVEIRA",
+            1
+          ],
+          [
+            "SECRETARIA DE INFRAESTRUTURA",
+            1
+          ],
+          [
+            "SECRETARIA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 11,
+          "ativos": 10,
+          "areas": 3,
+          "trib": 2,
+          "procSub": "10 ativos · 1 encerrados",
+          "areasSub": "Cível, Administrativo, Tributário",
+          "tribSub": "TJSC, N/I"
+        }
       }
     },
     "vicente_buschirolli": {
       "nome": "Vicente Buschirolli",
       "_idCliente": "2123653",
       "dataset": {
-        "kpi": {
-          "proc": 4,
-          "procSub": "4 ativos · 0 encerrados",
-          "ativos": 4,
-          "areas": 1,
-          "areasSub": "1 área top",
-          "trib": 1,
-          "tribSub": "até 4",
-          "valor": "~R$ 242mil",
-          "horas": "^62",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 4,
+        "ativos": 4,
+        "encerrados": 0,
+        "areaTotal": 4,
         "estoque": {
-          "2019": 1,
+          "2020": 1,
+          "2021": 1,
           "2022": 3,
+          "2023": 3,
+          "2024": 3,
           "2025": 4
         },
-        "estoqueHl": [
-          "2025",
-          "2022"
-        ],
         "entradas": {
-          "2019": 1,
+          "2020": 0,
+          "2021": 0,
           "2022": 2,
+          "2023": 0,
+          "2024": 0,
           "2025": 1
         },
-        "encerrados": {},
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
+        "estoqueHl": [],
         "area": {
           "Cível": 4
         },
-        "areaTotal": 4,
+        "uf": {
+          "SC": 4
+        },
         "instancia": {
           "1º Grau": 4
         },
         "polo": {
           "Polo ativo": 1,
-          "Polo passivo": 3,
-          "Terceiro/Outros": 0
-        },
-        "uf": {
-          "SC": 4
+          "Polo passivo": 3
         },
         "tribunais": {
           "TJSC": 4
         },
         "ranking": [
           [
-            "GILMAR JOSÉ LYRA",
-            3
+            "GILMAR",
+            2
+          ],
+          [
+            "GILMAR JOSE LYRA",
+            1
           ],
           [
             "JORGE LUIZ MARTINS",
             1
           ]
         ],
-        "ativos": 4,
-        "valorTotal": 242099.03,
-        "qtdComValor": 3,
-        "esforco": {
-          "comProducao": 4,
-          "tramitacaoDias": 1429,
-          "atividades": {
-            "Prazos": 46,
-            "Audiências": 0,
-            "Tarefas": 1
-          }
-        },
-        "horas": {
-          "total": 62,
-          "media": 15.6,
-          "mediaAtivos": 15.6,
-          "horasano": {
-            "2022": 5.8,
-            "2023": 12.2,
-            "2024": 5.6,
-            "2025": 36.2,
-            "2026": 2.5
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 4,
+          "ativos": 4,
+          "areas": 1,
+          "trib": 1,
+          "procSub": "4 ativos · 0 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        }
       }
     },
     "alex_buschirolli": {
       "nome": "Alex Alexandre Buschirolli",
       "_idCliente": "2956196",
       "dataset": {
-        "kpi": {
-          "proc": 4,
-          "procSub": "3 ativos · 1 encerrados",
-          "ativos": 3,
-          "areas": 2,
-          "areasSub": "3 áreas top",
-          "trib": 1,
-          "tribSub": "até 4",
-          "valor": "~R$ 350mil",
-          "horas": "^38",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 4,
+        "ativos": 3,
+        "encerrados": 1,
+        "areaTotal": 3,
         "estoque": {
           "2022": 1,
+          "2023": 1,
           "2024": 2,
+          "2025": 2,
           "2026": 3
         },
-        "estoqueHl": [
-          "2026",
-          "2024"
-        ],
         "entradas": {
           "2022": 1,
+          "2023": 0,
           "2024": 1,
+          "2025": 0,
           "2026": 2
         },
-        "encerrados": {
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
           "2026": 1
         },
+        "estoqueHl": [],
         "area": {
-          "Cível": 3,
-          "Penal-Criminal": 1
+          "Cível": 3
         },
-        "areaTotal": 4,
+        "uf": {
+          "SC": 3
+        },
         "instancia": {
-          "1º Grau": 4
+          "1º Grau": 3
         },
         "polo": {
           "Polo ativo": 2,
-          "Polo passivo": 0,
-          "Terceiro/Outros": 2
-        },
-        "uf": {
-          "SC": 4
+          "Terceiro/Outros": 1
         },
         "tribunais": {
           "TJSC": 3
         },
         "ranking": [
           [
-            "JN IMPORTACAO, EXPORTACAO E COMERCIO LTDA",
+            "JN IMPORTACAO",
             1
           ],
           [
@@ -636,50 +609,20 @@
             1
           ],
           [
-            "CONDOMÍNIO RESIDENCIAL PIERRÔ",
-            1
-          ],
-          [
-            "DELEGACIA DE POLÍCIA CIVIL DE BRUSQUE",
+            "CONDOMÍNIO PIERRÔ",
             1
           ]
         ],
-        "ativos": 3,
-        "valorTotal": 349688.2,
-        "qtdComValor": 3,
-        "esforco": {
-          "prazano": {
-            "2022": 2,
-            "2024": 6,
-            "2026": 7
-          },
-          "audano": {
-            "2026": 1
-          },
-          "tarefano": {
-            "2025": 1,
-            "2026": 3
-          },
-          "comProducao": 4,
-          "tramitacaoDias": 578,
-          "atividades": {
-            "Prazos": 15,
-            "Audiências": 1,
-            "Tarefas": 4
-          }
-        },
-        "horas": {
-          "total": 38,
-          "media": 9.5,
-          "mediaAtivos": 12.6,
-          "horasano": {
-            "2022": 0.1,
-            "2024": 5.9,
-            "2026": 32
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 4,
+          "ativos": 3,
+          "areas": 1,
+          "trib": 1,
+          "procSub": "3 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        }
       }
     }
   },

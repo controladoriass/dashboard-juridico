@@ -2,16 +2,16 @@
   "nome": "Profor Construtora",
   "nomeHtml": "Profor <em>Construtora</em>",
   "kpiGrupo": {
-    "proc": 144,
-    "procSub": "80 ativos · 64 encerrados",
+    "proc": 146,
+    "ativos": 82,
+    "areas": 6,
+    "trib": 8,
+    "procSub": "82 ativos · 64 encerrados",
+    "areasSub": "Cível, Trabalhista, Administrativo",
+    "tribSub": "TJSC, TRT12, N/I",
     "horas": "^1886",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
-    "areas": 6,
-    "areasSub": "Cível, Trabalhista, Penal-Criminal",
     "valor": "~R$ 32<small>mi</small>",
-    "trib": 8,
-    "tribSub": "TJSC, TRT12, TJPR, N/I",
-    "ativos": 80,
     "encerrados": 64,
     "valorTotal": 31890362.16
   },
@@ -20,34 +20,30 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": null,
       "dataset": {
+        "total": 146,
+        "ativos": 82,
+        "encerrados": 64,
+        "areaTotal": 82,
         "estoque": {
-          "2017": 1,
-          "2018": 3,
-          "2019": 3,
-          "2021": 17,
-          "2022": 35,
-          "2023": 56,
-          "2024": 76,
-          "2025": 73,
-          "2026": 80
+          "2020": 0,
+          "2021": 13,
+          "2022": 32,
+          "2023": 54,
+          "2024": 73,
+          "2025": 71,
+          "2026": 82
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2017": 1,
-          "2018": 2,
-          "2019": 1,
-          "2021": 16,
+          "2020": 0,
+          "2021": 14,
           "2022": 23,
-          "2023": 27,
-          "2024": 29,
-          "2025": 33,
-          "2026": 12
+          "2023": 30,
+          "2024": 28,
+          "2025": 34,
+          "2026": 16
         },
-        "encerrados": {
-          "2019": 1,
+        "encerrados_por_ano": {
+          "2020": 0,
           "2021": 2,
           "2022": 5,
           "2023": 6,
@@ -55,36 +51,37 @@
           "2025": 36,
           "2026": 5
         },
+        "estoqueHl": [],
         "area": {
           "Cível": 36,
           "Trabalhista": 25,
           "Administrativo": 9,
           "Penal-Criminal": 7,
           "Ambiental": 3,
-          "Tributário": 1
-        },
-        "areaTotal": 81,
-        "instancia": {
-          "1º Grau": 67,
-          "2º Grau": 10,
-          "Superiores": 4
-        },
-        "polo": {
-          "Polo passivo": 51,
-          "Terceiro/Outros": 16,
-          "Polo ativo": 14
+          "Tributário": 2
         },
         "uf": {
-          "SC": 74,
+          "SC": 75,
           "PR": 3,
           "N/I": 2,
           "DF": 1,
           "MG": 1
         },
+        "instancia": {
+          "1º Grau": 67,
+          "2º Grau": 10,
+          "Superiores": 4,
+          "Não informado": 1
+        },
+        "polo": {
+          "Polo passivo": 51,
+          "Terceiro/Outros": 16,
+          "Polo ativo": 15
+        },
         "tribunais": {
           "TJSC": 32,
           "TRT12": 24,
-          "N/I": 18,
+          "N/I": 19,
           "TJPR": 3,
           "STJ": 1,
           "MPESC": 1,
@@ -97,8 +94,8 @@
             5
           ],
           [
-            "ADRIANA REGINA PEREIRA",
-            5
+            "ADRIANA",
+            4
           ],
           [
             "MONDO CHILE COMERCIO, IMPORTACAO E EXPORTACAO DE PESCADOS E FRUTOS DO MAR LTDA",
@@ -125,15 +122,19 @@
             2
           ],
           [
-            "CIRETRAN BALNEÁRIO CAMBORIÚ",
+            "CIRETRAN BC",
             2
           ],
           [
-            "JESSICA NUNES TRENTIN",
+            "DETRAN",
             2
           ],
           [
-            "DELEGACIA DE POLÍCIA CIVIL DE ITAPEMA/SC",
+            "JESSICA TRENTIN",
+            2
+          ],
+          [
+            "DP ITAPEMA",
             2
           ],
           [
@@ -147,28 +148,18 @@
           [
             "ANDERSON DIAS",
             1
-          ],
-          [
-            "BRUNA TOMAIZ",
-            1
           ]
         ],
+        "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 144,
-          "procSub": "80 ativos · 64 encerrados",
-          "ativos": 80,
+          "proc": 146,
+          "ativos": 82,
           "areas": 6,
-          "areasSub": "Cível, Trabalhista, Penal-Criminal",
           "trib": 8,
-          "tribSub": "TJSC, TRT12, TJPR, N/I",
-          "valor": "~R$ 32<small>mi</small>",
-          "horas": "^1886",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
+          "procSub": "82 ativos · 64 encerrados",
+          "areasSub": "Cível, Trabalhista, Administrativo",
+          "tribSub": "TJSC, TRT12, N/I"
         },
-        "valorTotal": 31890362.16,
-        "qtdComValor": 93,
-        "ativos": 80,
-        "encerradosTotal": 64,
         "esforco": {
           "comProducao": 144,
           "tramitacaoDias": 682,
@@ -227,53 +218,37 @@
           },
           "_estimativa": true
         },
-        "_dadosReais": true,
-        "_panorama": true,
-        "_complexidadeSoAtivos": true
+        "_panorama": true
       }
     },
     "profor": {
       "nome": "Profor Construtora e Incorporadora Ltda",
+      "_idCliente": "2120501",
       "dataset": {
-        "kpi": {
-          "proc": 103,
-          "procSub": "55 ativos · 48 encerrados",
-          "ativos": 55,
-          "areas": 6,
-          "areasSub": "Cível lidera (57)",
-          "trib": 7,
-          "tribSub": "TJSC lidera (49)",
-          "valor": "~R$ 30.4mi",
-          "horas": "^1306",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 105,
+        "ativos": 57,
+        "encerrados": 48,
+        "areaTotal": 57,
         "estoque": {
-          "2017": 1,
-          "2018": 3,
-          "2019": 2,
-          "2021": 12,
+          "2020": 0,
+          "2021": 11,
           "2022": 24,
-          "2023": 31,
-          "2024": 45,
-          "2025": 49,
-          "2026": 55
+          "2023": 30,
+          "2024": 42,
+          "2025": 48,
+          "2026": 57
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2017": 1,
-          "2018": 2,
+          "2020": 0,
           "2021": 11,
           "2022": 16,
-          "2023": 12,
-          "2024": 21,
-          "2025": 30,
-          "2026": 10
+          "2023": 13,
+          "2024": 19,
+          "2025": 32,
+          "2026": 13
         },
-        "encerrados": {
-          "2019": 1,
+        "encerrados_por_ano": {
+          "2020": 0,
           "2021": 1,
           "2022": 4,
           "2023": 5,
@@ -281,691 +256,552 @@
           "2025": 26,
           "2026": 4
         },
+        "estoqueHl": [],
         "area": {
-          "Cível": 57,
-          "Trabalhista": 36,
+          "Trabalhista": 24,
+          "Cível": 23,
           "Administrativo": 4,
           "Ambiental": 3,
           "Tributário": 2,
           "Penal-Criminal": 1
         },
-        "areaTotal": 103,
+        "uf": {
+          "SC": 53,
+          "PR": 2,
+          "DF": 1,
+          "N/I": 1
+        },
         "instancia": {
-          "1º Grau": 82,
-          "2º Grau": 16,
+          "1º Grau": 46,
+          "2º Grau": 6,
           "Superiores": 4,
           "Não informado": 1
         },
         "polo": {
-          "Polo ativo": 21,
-          "Polo passivo": 55,
-          "Terceiro/Outros": 27
-        },
-        "uf": {
-          "SC": 95,
-          "PR": 2,
-          "DF": 1,
-          "RS": 1,
-          "N/I": 4
+          "Polo passivo": 38,
+          "Terceiro/Outros": 8,
+          "Polo ativo": 11
         },
         "tribunais": {
-          "TJSC": 49,
-          "TRT12": 34,
+          "TRT12": 23,
+          "TJSC": 21,
+          "N/I": 9,
           "TJPR": 2,
           "STJ": 1,
-          "TJRS": 1,
-          "MPT": 1,
           "MPESC": 1
         },
         "ranking": [
-          [
-            "PAULO DE OLIVEIRA",
-            7
-          ],
           [
             "FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP",
             5
           ],
           [
             "MONDO CHILE COMERCIO, IMPORTACAO E EXPORTACAO DE PESCADOS E FRUTOS DO MAR LTDA",
-            4
+            3
+          ],
+          [
+            "PAULO DE OLIVEIRA",
+            3
           ],
           [
             "FRANCISCO DE ASSIS DA SILVA",
-            3
+            2
+          ],
+          [
+            "JOSUE SILVA REIS",
+            2
           ],
           [
             "OSAMIR DE JESUS CEVEI",
-            3
+            2
+          ],
+          [
+            "THAYSE AGUIAR NUNES",
+            2
+          ],
+          [
+            "ROBERT VOLLWEITER",
+            1
+          ],
+          [
+            "CLEVERSON FERREIRA MARTINS",
+            1
+          ],
+          [
+            "ANDERSON DIAS",
+            1
+          ],
+          [
+            "BRUNA TOMAIZ",
+            1
+          ],
+          [
+            "WEYDSON RYAN DA SILVA",
+            1
+          ],
+          [
+            "JACIRA EURICO DE OLIVEIRA",
+            1
+          ],
+          [
+            "RAFAEL RODRIGUES OTHARAO",
+            1
+          ],
+          [
+            "ARLINDO CICERO DA HORA FILHO",
+            1
           ]
         ],
-        "ativos": 55,
-        "valorTotal": 30356465.61,
-        "qtdComValor": 75,
-        "esforco": {
-          "prazano": {
-            "2021": 7,
-            "2022": 70,
-            "2023": 74,
-            "2024": 125,
-            "2025": 279,
-            "2026": 113
-          },
-          "audano": {
-            "2022": 5,
-            "2023": 6,
-            "2024": 19,
-            "2025": 35,
-            "2026": 8
-          },
-          "tarefano": {
-            "2019": 11,
-            "2021": 94,
-            "2022": 33,
-            "2023": 29,
-            "2024": 26,
-            "2025": 27,
-            "2026": 16
-          },
-          "comProducao": 103,
-          "tramitacaoDias": 625,
-          "atividades": {
-            "Prazos": 668,
-            "Audiências": 73,
-            "Tarefas": 236
-          }
-        },
-        "horas": {
-          "total": 1306,
-          "media": 12.7,
-          "mediaAtivos": 23.8,
-          "horasano": {
-            "2021": 11.1,
-            "2022": 98.4,
-            "2023": 142.4,
-            "2024": 340.9,
-            "2025": 525.7,
-            "2026": 187.9
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
-      },
-      "_idCliente": "2120501"
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 105,
+          "ativos": 57,
+          "areas": 6,
+          "trib": 6,
+          "procSub": "57 ativos · 48 encerrados",
+          "areasSub": "Trabalhista, Cível, Administrativo",
+          "tribSub": "TRT12, TJSC, N/I"
+        }
+      }
     },
     "eduardo_formento": {
       "nome": "Eduardo Machado Formento",
       "_idCliente": "2123381",
       "dataset": {
-        "kpi": {
-          "proc": 6,
-          "procSub": "5 ativos · 1 encerrados",
-          "ativos": 5,
-          "areas": 3,
-          "areasSub": "3 áreas top",
-          "trib": 1,
-          "tribSub": "até 4",
-          "valor": "—",
-          "horas": "^18",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 6,
+        "ativos": 5,
+        "encerrados": 1,
+        "areaTotal": 5,
         "estoque": {
           "2021": 0,
+          "2022": 0,
           "2023": 3,
           "2024": 4,
-          "2025": 5
+          "2025": 4,
+          "2026": 5
         },
-        "estoqueHl": [
-          "2025",
-          "2024"
-        ],
         "entradas": {
           "2021": 1,
+          "2022": 0,
           "2023": 3,
           "2024": 1,
-          "2025": 1
+          "2025": 0,
+          "2026": 1
         },
-        "encerrados": {
-          "2021": 1
+        "encerrados_por_ano": {
+          "2021": 1,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
         },
+        "estoqueHl": [],
         "area": {
           "Administrativo": 3,
-          "Penal-Criminal": 2,
-          "Cível": 1
-        },
-        "areaTotal": 6,
-        "instancia": {
-          "1º Grau": 6
-        },
-        "polo": {
-          "Polo passivo": 1,
-          "Terceiro/Outros": 5
+          "Penal-Criminal": 2
         },
         "uf": {
-          "SC": 5,
+          "SC": 4,
           "MG": 1
         },
+        "instancia": {
+          "1º Grau": 5
+        },
+        "polo": {
+          "Terceiro/Outros": 3,
+          "Polo passivo": 2
+        },
         "tribunais": {
-          "TJSC": 1
+          "N/I": 5
         },
         "ranking": [
           [
-            "CIRETRAN BALNEÁRIO CAMBORIÚ",
+            "CIRETRAN BC",
             2
           ],
           [
-            "GERALDO OLIVEIRA SILVA NETTO",
+            "GERALDO",
             1
           ],
           [
-            "NÃO HÁ",
+            "N/H",
             1
           ],
           [
-            "DEPARTAMENTO ESTADUAL DE TRANSITO",
-            1
-          ],
-          [
-            "ALEXANDRE ZINN JUNQUEIRA",
+            "DETRAN",
             1
           ]
         ],
-        "ativos": 5,
-        "valorTotal": 0,
-        "qtdComValor": 0,
-        "esforco": {
-          "prazano": {
-            "2023": 4,
-            "2024": 1,
-            "2026": 1
-          },
-          "audano": {
-            "2024": 1,
-            "2026": 2
-          },
-          "tarefano": {
-            "2021": 9,
-            "2025": 1
-          },
-          "comProducao": 6,
-          "tramitacaoDias": 718
-        },
-        "horas": {
-          "total": 18,
-          "media": 3.01,
-          "mediaAtivos": 3.61,
-          "horasano": {
-            "2023": 8.4,
-            "2024": 2.8,
-            "2026": 6.8
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 6,
+          "ativos": 5,
+          "areas": 2,
+          "trib": 1,
+          "procSub": "5 ativos · 1 encerrados",
+          "areasSub": "Administrativo, Penal-Criminal",
+          "tribSub": "N/I"
+        }
       }
     },
     "procaed": {
       "nome": "Procaed Empreendimentos Imobiliários Ltda",
       "_idCliente": "2125286",
       "dataset": {
-        "kpi": {
-          "proc": 14,
-          "procSub": "8 ativos · 6 encerrados",
-          "ativos": 8,
-          "areas": 3,
-          "areasSub": "Cível · Trabalhista · Administrativo",
-          "trib": 4,
-          "tribSub": "TJSC · TRT12 · TJPR · TRF4",
-          "valor": "~R$ 898mil",
-          "horas": "^179",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 14,
+        "ativos": 8,
+        "encerrados": 6,
+        "areaTotal": 8,
         "estoque": {
-          "2019": 1,
-          "2021": 5,
-          "2022": 4,
-          "2023": 3,
+          "2021": 2,
+          "2022": 3,
+          "2023": 2,
           "2024": 9,
           "2025": 8,
           "2026": 8
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2019": 1,
-          "2021": 4,
-          "2024": 6,
+          "2021": 2,
+          "2022": 2,
+          "2023": 0,
+          "2024": 7,
           "2025": 2,
           "2026": 1
         },
-        "encerrados": {
+        "encerrados_por_ano": {
+          "2021": 0,
           "2022": 1,
           "2023": 1,
+          "2024": 0,
           "2025": 3,
           "2026": 1
         },
+        "estoqueHl": [],
         "area": {
-          "Cível": 9,
-          "Trabalhista": 4,
-          "Administrativo": 1
-        },
-        "areaTotal": 14,
-        "instancia": {
-          "1º Grau": 9,
-          "2º Grau": 5
-        },
-        "polo": {
-          "Polo ativo": 2,
-          "Polo passivo": 7,
-          "Terceiro/Outros": 5
+          "Cível": 6,
+          "Administrativo": 1,
+          "Trabalhista": 1
         },
         "uf": {
-          "SC": 12,
-          "PR": 1,
-          "N/I": 1
+          "SC": 6,
+          "N/I": 1,
+          "PR": 1
+        },
+        "instancia": {
+          "1º Grau": 6,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Terceiro/Outros": 2,
+          "Polo passivo": 5
         },
         "tribunais": {
-          "TJSC": 6,
-          "TRT12": 4,
+          "TJSC": 3,
+          "N/I": 1,
           "TJPR": 1,
-          "TRF4": 1
+          "TRF4": 1,
+          "Procon Municipal": 1,
+          "TRT12": 1
         },
         "ranking": [
           [
-            "ARISTON DE OLIVEIRA CARDOSO",
+            "ARISTON",
             1
           ],
           [
-            "IMPACTO CONSULTORIA",
+            "IMPACTO",
             1
           ],
           [
-            "MARCELO LIMA IODICE",
+            "MARCELO LIMA",
             1
           ],
           [
-            "EMBRAED EMPRESA BRASILEIRA DE EDIFICAÇÕES LTDA",
+            "EMBRAED",
             1
           ],
           [
-            "AGROPECUARIA VILA NOVA LTDA",
+            "AGROPECUARIA VILA NOVA",
+            1
+          ],
+          [
+            "ADILSON CORREA",
+            1
+          ],
+          [
+            "JOSE CARLOS",
+            1
+          ],
+          [
+            "ADRIANO",
             1
           ]
         ],
-        "ativos": 8,
-        "valorTotal": 897751.64,
-        "qtdComValor": 10,
-        "esforco": {
-          "prazano": {
-            "2021": 6,
-            "2022": 6,
-            "2023": 2,
-            "2024": 29,
-            "2025": 39,
-            "2026": 21
-          },
-          "audano": {
-            "2024": 3,
-            "2025": 4,
-            "2026": 1
-          },
-          "tarefano": {
-            "2021": 28,
-            "2026": 3
-          },
-          "comProducao": 14,
-          "tramitacaoDias": 654,
-          "atividades": {
-            "Prazos": 103,
-            "Audiências": 8,
-            "Tarefas": 31
-          }
-        },
-        "horas": {
-          "total": 179,
-          "media": 12.78,
-          "mediaAtivos": 22.37,
-          "horasano": {
-            "2022": 3.2,
-            "2023": 0.4,
-            "2024": 53.8,
-            "2025": 95.4,
-            "2026": 26.1
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 14,
+          "ativos": 8,
+          "areas": 3,
+          "trib": 6,
+          "procSub": "8 ativos · 6 encerrados",
+          "areasSub": "Cível, Administrativo, Trabalhista",
+          "tribSub": "TJSC, N/I, TJPR"
+        }
       }
     },
     "universal_part": {
       "nome": "Universal Participações Ltda",
       "_idCliente": "2309306",
       "dataset": {
-        "kpi": {
-          "proc": 2,
-          "procSub": "2 ativos · 0 encerrados",
-          "ativos": 2,
-          "areas": 1,
-          "areasSub": "1 área top",
-          "trib": 1,
-          "tribSub": "até 4",
-          "valor": "~R$ 5mil",
-          "horas": "^3",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 2,
+        "ativos": 2,
+        "encerrados": 0,
+        "areaTotal": 2,
         "estoque": {
           "2022": 2
         },
-        "estoqueHl": [
-          "2022"
-        ],
         "entradas": {
           "2022": 2
         },
-        "encerrados": {},
+        "encerrados_por_ano": {
+          "2022": 0
+        },
+        "estoqueHl": [],
         "area": {
           "Cível": 2
-        },
-        "areaTotal": 2,
-        "instancia": {
-          "1º Grau": 2
-        },
-        "polo": {
-          "Polo ativo": 1,
-          "Terceiro/Outros": 1
         },
         "uf": {
           "SC": 2
         },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Terceiro/Outros": 1,
+          "Polo ativo": 1
+        },
         "tribunais": {
-          "TJSC": 1
+          "TJSC": 1,
+          "N/I": 1
         },
         "ranking": [
           [
-            "JESSICA NUNES TRENTIN",
+            "JESSICA TRENTIN",
             2
           ]
         ],
-        "ativos": 2,
-        "valorTotal": 4903.62,
-        "qtdComValor": 1,
-        "esforco": {
-          "prazano": {
-            "2022": 3
-          },
-          "comProducao": 2,
-          "tramitacaoDias": 1583
-        },
-        "horas": {
-          "total": 3,
-          "media": 1.6742,
-          "mediaAtivos": 1.6742,
-          "horasano": {
-            "2022": 3.3
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 2,
+          "ativos": 2,
+          "areas": 1,
+          "trib": 2,
+          "procSub": "2 ativos · 0 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC, N/I"
+        }
       }
     },
     "joao_formento": {
       "nome": "João Formento",
       "_idCliente": "3857652",
       "dataset": {
-        "kpi": {
-          "proc": 15,
-          "procSub": "8 ativos · 7 encerrados",
-          "ativos": 8,
-          "areas": 4,
-          "areasSub": "3 áreas top",
-          "trib": 2,
-          "tribSub": "até 4",
-          "valor": "~R$ 628mil",
-          "horas": "^223",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 15,
+        "ativos": 8,
+        "encerrados": 7,
+        "areaTotal": 8,
         "estoque": {
-          "2022": 5,
+          "2022": 3,
           "2023": 14,
           "2024": 13,
           "2025": 7,
           "2026": 8
         },
-        "estoqueHl": [
-          "2026",
-          "2025"
-        ],
         "entradas": {
-          "2022": 5,
-          "2023": 9,
+          "2022": 3,
+          "2023": 11,
+          "2024": 0,
+          "2025": 0,
           "2026": 1
         },
-        "encerrados": {
+        "encerrados_por_ano": {
+          "2022": 0,
+          "2023": 0,
           "2024": 1,
-          "2025": 6
+          "2025": 6,
+          "2026": 0
         },
+        "estoqueHl": [],
         "area": {
-          "Penal-Criminal": 9,
-          "Cível": 4,
-          "Administrativo": 1,
-          "Trabalhista": 1
-        },
-        "areaTotal": 15,
-        "instancia": {
-          "1º Grau": 15
-        },
-        "polo": {
-          "Polo ativo": 2,
-          "Polo passivo": 9,
-          "Terceiro/Outros": 4
+          "Penal-Criminal": 4,
+          "Cível": 3,
+          "Administrativo": 1
         },
         "uf": {
-          "SC": 15
+          "SC": 8
+        },
+        "instancia": {
+          "1º Grau": 8
+        },
+        "polo": {
+          "Terceiro/Outros": 2,
+          "Polo passivo": 5,
+          "Polo ativo": 1
         },
         "tribunais": {
-          "TJSC": 11,
-          "N/I": 3,
-          "TRT12": 1
+          "TJSC": 5,
+          "N/I": 3
         },
         "ranking": [
           [
-            "ADRIANA REGINA PEREIRA",
-            5
-          ],
-          [
-            "DELEGACIA DE POLÍCIA CIVIL DE ITAPEMA/SC",
+            "ADRIANA",
             3
           ],
           [
-            "MAYCKON VIEIRA",
+            "DP ITAPEMA",
+            2
+          ],
+          [
+            "MAYCKON",
             1
           ],
           [
-            "POLÍCIA CIVIL DO ESTADO DE SANTA CATARINA",
+            "DETRAN",
             1
           ],
           [
-            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            "MARIA ISADORA",
             1
           ]
         ],
-        "ativos": 8,
-        "valorTotal": 628480.09,
-        "qtdComValor": 5,
-        "esforco": {
-          "prazano": {
-            "2022": 5,
-            "2023": 79,
-            "2024": 22,
-            "2025": 24,
-            "2026": 8
-          },
-          "audano": {
-            "2022": 1,
-            "2023": 10,
-            "2024": 2,
-            "2026": 1
-          },
-          "tarefano": {
-            "2022": 1,
-            "2023": 4,
-            "2024": 1,
-            "2025": 1,
-            "2026": 1
-          },
-          "comProducao": 15,
-          "tramitacaoDias": 953,
-          "atividades": {
-            "Prazos": 138,
-            "Audiências": 14,
-            "Tarefas": 8
-          }
-        },
-        "horas": {
-          "total": 223,
-          "media": 14.85,
-          "mediaAtivos": 27.84,
-          "horasano": {
-            "2022": 3.7,
-            "2023": 136.9,
-            "2024": 37.1,
-            "2025": 25.4,
-            "2026": 19.7
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 15,
+          "ativos": 8,
+          "areas": 3,
+          "trib": 2,
+          "procSub": "8 ativos · 7 encerrados",
+          "areasSub": "Penal-Criminal, Cível, Administrativo",
+          "tribSub": "TJSC, N/I"
+        }
       }
     },
     "costa_esmeralda": {
       "nome": "Costa Esmeralda Holding Ltda",
       "_idCliente": "5455900",
       "dataset": {
-        "kpi": {
-          "proc": 4,
-          "procSub": "2 ativos · 2 encerrados",
-          "ativos": 2,
-          "areas": 1,
-          "areasSub": "1 área top",
-          "trib": 1,
-          "tribSub": "até 4",
-          "valor": "~R$ 3mil",
-          "horas": "^157",
-          "horasSub": "horas apontadas até 30/06 (parcial)"
-        },
+        "total": 4,
+        "ativos": 2,
+        "encerrados": 2,
+        "areaTotal": 2,
         "estoque": {
           "2023": 3,
           "2024": 3,
           "2025": 2
         },
-        "estoqueHl": [
-          "2025",
-          "2024"
-        ],
         "entradas": {
           "2023": 3,
-          "2024": 1
+          "2024": 1,
+          "2025": 0
         },
-        "encerrados": {
+        "encerrados_por_ano": {
+          "2023": 0,
           "2024": 1,
           "2025": 1
         },
+        "estoqueHl": [],
         "area": {
-          "Cível": 4
-        },
-        "areaTotal": 4,
-        "instancia": {
-          "2º Grau": 3,
-          "1º Grau": 1
-        },
-        "polo": {
-          "Polo ativo": 3,
-          "Polo passivo": 1
+          "Cível": 2
         },
         "uf": {
-          "SC": 4
+          "SC": 2
+        },
+        "instancia": {
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo passivo": 1,
+          "Polo ativo": 1
         },
         "tribunais": {
-          "TJSC": 4
+          "TJSC": 2
         },
         "ranking": [
           [
-            "LINDOLFO EVILASIO PEREIRA",
-            3
+            "ADRIANA",
+            1
           ],
           [
-            "ADRIANA REGINA PEREIRA",
+            "LINDOLFO",
             1
           ]
         ],
-        "ativos": 2,
-        "valorTotal": 2761.2,
-        "qtdComValor": 2,
-        "esforco": {
-          "prazano": {
-            "2023": 27,
-            "2024": 8,
-            "2025": 13,
-            "2026": 6
-          },
-          "audano": {
-            "2024": 2,
-            "2025": 1,
-            "2026": 3
-          },
-          "tarefano": {
-            "2023": 1,
-            "2026": 2
-          },
-          "comProducao": 4,
-          "tramitacaoDias": 713
-        },
-        "horas": {
-          "total": 157,
-          "media": 39.1,
-          "mediaAtivos": 78.3,
-          "horasano": {
-            "2023": 59.2,
-            "2024": 26,
-            "2025": 49.4,
-            "2026": 22
-          },
-          "_estimativa": true
-        },
-        "_dadosReais": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 4,
+          "ativos": 2,
+          "areas": 1,
+          "trib": 1,
+          "procSub": "2 ativos · 2 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        }
       }
     },
     "josimar_barbosa": {
       "nome": "Josimar Figueiroa Caetano Barbosa",
       "_idCliente": "684762207",
       "dataset": {
-        "kpi": {
-          "proc": 0,
-          "procSub": "—",
-          "ativos": 0,
-          "areas": 0,
-          "areasSub": "—",
-          "trib": 0,
-          "tribSub": "—",
-          "valor": "—"
-        },
-        "estoque": {},
-        "estoqueHl": [],
-        "entradas": {},
-        "encerrados": {},
-        "area": {},
+        "total": 0,
+        "ativos": 0,
+        "encerrados": 0,
         "areaTotal": 0,
+        "estoque": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "encerrados_por_ano": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
         "instancia": {},
         "polo": {},
-        "uf": {},
         "tribunais": {},
         "ranking": [],
-        "ativos": 0,
-        "esforco": {},
-        "horas": {},
-        "_semProcessos": true
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        }
       }
     }
   },
