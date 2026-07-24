@@ -981,7 +981,7 @@ function hbars(id,obj,alt){
 // guarda o estado do donut para o observer disparar a animação ao rolar
 var _donutSegs=null, _donutNum=null, _donutTotal=0;
 function donut(){
-  const obj=DATA.area, total=Object.values(obj).reduce((a,b)=>a+b,0);
+  const obj=DATA.area||{}, total=Object.values(obj).reduce((a,b)=>a+b,0);
   const cols=['#CFA36E','#3F5276','#5a6e98','#7d8cb0','#9aa6c4','#c2cadb'];
   const svg=document.getElementById('donut');const leg=document.getElementById('donut-leg');
   let off=0,i=0;const R=70,C=2*Math.PI*R;
@@ -1052,7 +1052,7 @@ function regions(){
 function tribunais(){
   const box=document.getElementById('tribunais');
   let i=0;
-  for(const[k,v]of Object.entries(DATA.tribunais)){
+  for(const[k,v]of Object.entries(DATA.tribunais||{})){
     const p=document.createElement('div');p.className='pill pill-anim';
     p.style.setProperty('--pi',i++);
     p.innerHTML=`${k}<b>${v}</b>`;box.appendChild(p);
@@ -1060,7 +1060,7 @@ function tribunais(){
 }
 function ranking(){
   const box=document.getElementById('ranking');
-  if(!box) return; // card de ranking removido — funcao mantida inerte
+  if(!box || !Array.isArray(DATA.ranking)) return; // card de ranking removido — funcao mantida inerte
   DATA.ranking.forEach((r,i)=>{
     const [num,meta,val]=r;
     const d=document.createElement('div');d.className='r';
@@ -1071,6 +1071,7 @@ function ranking(){
 }
 function people(){
   const box=document.getElementById('people');
+  if(!box || !Array.isArray(DATA.people)) return;
   const ICON='<svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0"/></svg>';
   DATA.people.forEach(([n,c])=>{
     const d=document.createElement('div');d.className='person';
@@ -2054,7 +2055,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260724f';
+  var _cb = '?v=20260724g';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
