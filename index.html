@@ -1142,7 +1142,7 @@ function renderDashboard(){
   el('k-horas').removeAttribute('data-count');
   if(_totHorasTopo>0){
     el('k-horas').innerHTML = (_hsTopo._estimativa?'^':'')+Math.round(_totHorasTopo);
-    el('k-horas-sub').textContent = (DATA.dataset._panorama?'consolidado do grupo · ':'')+'desde '+ANO_MIN_ESFORCO+(_hsTopo._estimativa?' (parcial)':'');
+    el('k-horas-sub').textContent = (DATA.dataset._panorama?'consolidado do grupo':'horas apontadas')+(_hsTopo._estimativa?' · parcial':'');
   } else { el('k-horas').textContent='—'; el('k-horas-sub').textContent='em atualização'; }
   el('k-areas').dataset.count=k.areas; el('k-areas').textContent='0'; el('k-areas-sub').textContent=k.areasSub;
   if(el('k-ativos')){ el('k-ativos').dataset.count=DATA.dataset.ativos||0; el('k-ativos').textContent='0'; el('k-ativos-sub').textContent='em andamento hoje'; }
@@ -1561,14 +1561,14 @@ function renderDashboard(){
   const _totHoras = Object.values(_horasC).reduce((a,b)=>a+(+b||0),0);
   const _mediaH = k.proc ? Math.round(_totHoras/k.proc*10)/10 : 0;
   const _mediaHAtiv = (ds.ativos) ? Math.round(_totHoras/ds.ativos*10)/10 : 0;
-  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas desde '+ANO_MIN_ESFORCO+' até '+DATA_CORTE.curta+' (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent='horas desde '+ANO_MIN_ESFORCO;} }
+  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent='horas desde '+ANO_MIN_ESFORCO;} }
   if(el('h-media')){ if(semHoras){el('h-media').innerHTML='—';if(el('h-media-sub'))el('h-media-sub').textContent='em atualização';} else {el('h-media').innerHTML=String(_mediaH).replace('.',',')+'<small>h</small>'; el('h-media-sub').textContent=Math.round(_totHoras)+'h / '+k.proc+' processos';} }
   if(el('h-mediaativos')){ if(semHoras){el('h-mediaativos').innerHTML='—';if(el('h-mediaativos-sub'))el('h-mediaativos-sub').textContent='em atualização';} else {el('h-mediaativos').innerHTML=String(_mediaHAtiv).replace('.',',')+'<small>h</small>'; el('h-mediaativos-sub').textContent=Math.round(_totHoras)+'h / '+ds.ativos+' ativos';} }
   if(hs.horasano) vbars('horasano',_horasC,[Object.keys(_horasC).slice(-1)[0]],'h');
   // nota explicativa (dentro do card de evolucao, estilo .insight)
   var _hn=el('horas-nota'); var _hnbox=el('horas-nota-box');
   if(_hn){
-    if(hs._estimativa){ _hn.innerHTML='<strong class="hn-mark">^</strong> Total parcial de horas apontadas no timesheet até '+DATA_CORTE.curta+'. Reflete os registros efetivamente lançados no sistema — não cobre 100% dos processos (parte dos apontamentos não é recuperável pela API do EasyJur). Serve como indicador da evolução do esforço, não como fechamento contábil de horas.'; if(_hnbox)_hnbox.style.display=''; }
+    if(hs._estimativa){ _hn.innerHTML='<strong class="hn-mark">^</strong> Total parcial de horas apontadas no timesheet. Reflete o registro efetivamente lançado no sistema. Serve como indicador de evolução do esforço, não como fechamento contábil de horas.'; if(_hnbox)_hnbox.style.display=''; }
     else { _hn.innerHTML=''; if(_hnbox)_hnbox.style.display='none'; }
   }
   // se nao ha serie de horas por ano NO RECORTE, esconder esse card (a nota vai junto)
@@ -2054,7 +2054,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260724a';
+  var _cb = '?v=20260724b';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
