@@ -1138,7 +1138,7 @@ function renderDashboard(){
   el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0'; el('k-proc-sub').textContent=k.procSub;
   // horas dedicadas (topo) — recorte >= ANO_MIN_ESFORCO (2023): 2022 tinha timesheet sub-registrado
   var _hsTopo = (DATA.dataset && DATA.dataset.horas) ? DATA.dataset.horas : {};
-  var _totHorasTopo = Object.values(cortaAnosEsforco(_hsTopo.horasano)).reduce(function(a,b){return a+(+b||0);},0);
+  var _totHorasTopo = Object.values(cortaAnosEsforco(_hsTopo.horasano)||{}).reduce(function(a,b){return a+(+b||0);},0);
   el('k-horas').removeAttribute('data-count');
   if(_totHorasTopo>0){
     el('k-horas').innerHTML = (_hsTopo._estimativa?'^':'')+Math.round(_totHorasTopo);
@@ -1557,7 +1557,7 @@ function renderDashboard(){
   // do timesheet; total/médias recalculados a partir da série cortada p/ bater com o gráfico)
   const hs=ds.horas||{};
   const semHoras = !hs || Object.keys(hs).length===0;
-  const _horasC = cortaAnosEsforco(hs.horasano);
+  const _horasC = cortaAnosEsforco(hs.horasano) || {};
   const _totHoras = Object.values(_horasC).reduce((a,b)=>a+(+b||0),0);
   const _mediaH = k.proc ? Math.round(_totHoras/k.proc*10)/10 : 0;
   const _mediaHAtiv = (ds.ativos) ? Math.round(_totHoras/ds.ativos*10)/10 : 0;
@@ -2054,7 +2054,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260724d';
+  var _cb = '?v=20260724e';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
