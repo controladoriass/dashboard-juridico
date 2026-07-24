@@ -5,8 +5,8 @@
     "areas": 7,
     "trib": 19,
     "procSub": "328 ativos, 313 encerrados",
-    "areasSub": "Cível, Tributário, Trabalhista, Penal-Criminal, Ambiental, Administrativo, Pública",
-    "tribSub": "Nao informado, TJSC, TRT12, STJ, TJPR, TJSP, MPSC, TRT22, MINTRAB, TJRS, SEFAZ, TRF4, Justiça Federal do Parana, TRT01, Justiça Federal de Santa Catarina, TJMT, MPT, CREASC, TRT24"
+    "areasSub": "Cível, Tributário, Trabalhista",
+    "tribSub": "TJSC, TRT12, TRF4"
   },
   "empresas": {
     "_panorama": {
@@ -15,7 +15,15 @@
       "dataset": {
         "total": 641,
         "ativos": 328,
-        "encerrados": 313,
+        "encerrados": {
+          "2020": 6,
+          "2021": 25,
+          "2022": 3,
+          "2023": 63,
+          "2024": 70,
+          "2025": 88,
+          "2026": 54
+        },
         "areaTotal": 328,
         "estoque": {
           "2020": 78,
@@ -34,15 +42,6 @@
           "2024": 97,
           "2025": 145,
           "2026": 102
-        },
-        "encerrados_por_ano": {
-          "2020": 6,
-          "2021": 25,
-          "2022": 3,
-          "2023": 63,
-          "2024": 70,
-          "2025": 88,
-          "2026": 54
         },
         "estoqueHl": [],
         "area": {
@@ -167,8 +166,8 @@
           "areas": 7,
           "trib": 19,
           "procSub": "328 ativos, 313 encerrados",
-          "areasSub": "Cível, Tributário, Trabalhista, Penal-Criminal, Ambiental, Administrativo, Pública",
-          "tribSub": "Nao informado, TJSC, TRT12, STJ, TJPR, TJSP, MPSC, TRT22, MINTRAB, TJRS, SEFAZ, TRF4, Justiça Federal do Parana, TRT01, Justiça Federal de Santa Catarina, TJMT, MPT, CREASC, TRT24"
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TRT12, TRF4"
         },
         "_panorama": true,
         "esforco": {
@@ -230,7 +229,8 @@
             "2026": 875.1
           },
           "_estimativa": true
-        }
+        },
+        "encerradosTotal": 313
       }
     },
     "gustavo_reni_vendruscolo": {
@@ -239,16 +239,15 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0,
+        "encerrados": {
+          "2022": 0
+        },
         "areaTotal": 1,
         "estoque": {
           "2022": 1
         },
         "entradas": {
           "2022": 1
-        },
-        "encerrados_por_ano": {
-          "2022": 0
         },
         "estoqueHl": [],
         "area": {
@@ -280,8 +279,9 @@
           "trib": 1,
           "procSub": "1 ativos, 0 encerrados",
           "areasSub": "Administrativo",
-          "tribSub": "Nao informado"
-        }
+          "tribSub": ""
+        },
+        "encerradosTotal": 0
       }
     },
     "loteamento_sonho_real_ltda": {
@@ -290,7 +290,15 @@
       "dataset": {
         "total": 76,
         "ativos": 38,
-        "encerrados": 38,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 10,
+          "2024": 12,
+          "2025": 10,
+          "2026": 6
+        },
         "areaTotal": 38,
         "estoque": {
           "2020": 2,
@@ -309,15 +317,6 @@
           "2024": 15,
           "2025": 11,
           "2026": 9
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 10,
-          "2024": 12,
-          "2025": 10,
-          "2026": 6
         },
         "estoqueHl": [],
         "area": {
@@ -419,9 +418,10 @@
           "areas": 4,
           "trib": 5,
           "procSub": "38 ativos, 38 encerrados",
-          "areasSub": "Administrativo, Tributário, Cível, Pública",
-          "tribSub": "Nao informado, STJ, TJSC, TJPR, TJRS"
-        }
+          "areasSub": "Cível, Tributário, Administrativo",
+          "tribSub": "TJSC, TJPR, TJRS"
+        },
+        "encerradosTotal": 38
       }
     },
     "embralot_empresa_brasileira_de_loteament": {
@@ -430,7 +430,15 @@
       "dataset": {
         "total": 73,
         "ativos": 48,
-        "encerrados": 25,
+        "encerrados": {
+          "2020": 0,
+          "2021": 3,
+          "2022": 1,
+          "2023": 8,
+          "2024": 4,
+          "2025": 8,
+          "2026": 0
+        },
         "areaTotal": 48,
         "estoque": {
           "2020": 19,
@@ -449,15 +457,6 @@
           "2024": 15,
           "2025": 7,
           "2026": 8
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 3,
-          "2022": 1,
-          "2023": 8,
-          "2024": 4,
-          "2025": 8,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -564,9 +563,10 @@
           "areas": 5,
           "trib": 9,
           "procSub": "48 ativos, 25 encerrados",
-          "areasSub": "Cível, Trabalhista, Tributário, Administrativo, Ambiental",
-          "tribSub": "TJRS, TRT12, TJSC, Nao informado, STJ, SEFAZ, TRF4, TJPR, Justiça Federal do Parana"
-        }
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TRF4, Justiça Federal do Parana"
+        },
+        "encerradosTotal": 25
       }
     },
     "abelardo_rafael_benigno": {
@@ -575,7 +575,15 @@
       "dataset": {
         "total": 22,
         "ativos": 10,
-        "encerrados": 12,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 5,
+          "2024": 2,
+          "2025": 4,
+          "2026": 1
+        },
         "areaTotal": 10,
         "estoque": {
           "2020": 7,
@@ -593,15 +601,6 @@
           "2023": 2,
           "2024": 1,
           "2025": 3,
-          "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 5,
-          "2024": 2,
-          "2025": 4,
           "2026": 1
         },
         "estoqueHl": [],
@@ -673,9 +672,10 @@
           "areas": 3,
           "trib": 2,
           "procSub": "10 ativos, 12 encerrados",
-          "areasSub": "Penal-Criminal, Administrativo, Cível",
-          "tribSub": "Nao informado, TJSC"
-        }
+          "areasSub": "Penal-Criminal, Cível, Administrativo",
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 12
       }
     },
     "thiago_cabral_costa": {
@@ -684,7 +684,14 @@
       "dataset": {
         "total": 6,
         "ativos": 3,
-        "encerrados": 3,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 2,
+          "2024": 0,
+          "2025": 1
+        },
         "areaTotal": 3,
         "estoque": {
           "2020": 3,
@@ -701,14 +708,6 @@
           "2023": 2,
           "2024": 1,
           "2025": 0
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 2,
-          "2024": 0,
-          "2025": 1
         },
         "estoqueHl": [],
         "area": {
@@ -749,9 +748,10 @@
           "areas": 2,
           "trib": 2,
           "procSub": "3 ativos, 3 encerrados",
-          "areasSub": "Tributário, Administrativo",
-          "tribSub": "TRF4, Nao informado"
-        }
+          "areasSub": "Administrativo, Tributário",
+          "tribSub": "TRF4"
+        },
+        "encerradosTotal": 3
       }
     },
     "jardim_europa_incorpora_es_imobili_rias_": {
@@ -760,7 +760,15 @@
       "dataset": {
         "total": 24,
         "ativos": 17,
-        "encerrados": 7,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 1,
+          "2024": 2,
+          "2025": 4,
+          "2026": 0
+        },
         "areaTotal": 17,
         "estoque": {
           "2020": 1,
@@ -779,15 +787,6 @@
           "2024": 2,
           "2025": 8,
           "2026": 2
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 1,
-          "2024": 2,
-          "2025": 4,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -876,7 +875,8 @@
           "procSub": "17 ativos, 7 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC, TJRS"
-        }
+        },
+        "encerradosTotal": 7
       }
     },
     "capit_lio_participa_es_ltda": {
@@ -885,7 +885,10 @@
       "dataset": {
         "total": 4,
         "ativos": 3,
-        "encerrados": 1,
+        "encerrados": {
+          "2025": 0,
+          "2026": 1
+        },
         "areaTotal": 3,
         "estoque": {
           "2025": 3,
@@ -893,10 +896,6 @@
         },
         "entradas": {
           "2025": 3,
-          "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2025": 0,
           "2026": 1
         },
         "estoqueHl": [],
@@ -935,7 +934,8 @@
           "procSub": "3 ativos, 1 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC"
-        }
+        },
+        "encerradosTotal": 1
       }
     },
     "incorporadora_colinas_de_cambori_ltda": {
@@ -944,7 +944,15 @@
       "dataset": {
         "total": 92,
         "ativos": 46,
-        "encerrados": 46,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 10,
+          "2024": 13,
+          "2025": 16,
+          "2026": 7
+        },
         "areaTotal": 46,
         "estoque": {
           "2020": 1,
@@ -963,15 +971,6 @@
           "2024": 14,
           "2025": 38,
           "2026": 14
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 10,
-          "2024": 13,
-          "2025": 16,
-          "2026": 7
         },
         "estoqueHl": [],
         "area": {
@@ -1074,9 +1073,10 @@
           "areas": 4,
           "trib": 6,
           "procSub": "46 ativos, 46 encerrados",
-          "areasSub": "Cível, Ambiental, Tributário, Trabalhista",
-          "tribSub": "TJSP, TJSC, Nao informado, STJ, TRT12, TRT01"
-        }
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TJSP, STJ"
+        },
+        "encerradosTotal": 46
       }
     },
     "msc_construtora_e_incorporadora_ltda": {
@@ -1085,7 +1085,15 @@
       "dataset": {
         "total": 3,
         "ativos": 2,
-        "encerrados": 1,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 2,
         "estoque": {
           "2020": 2,
@@ -1104,15 +1112,6 @@
           "2024": 0,
           "2025": 0,
           "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 1,
-          "2025": 0,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -1153,8 +1152,9 @@
           "trib": 2,
           "procSub": "2 ativos, 1 encerrados",
           "areasSub": "Cível, Trabalhista",
-          "tribSub": "Nao informado, TRT24"
-        }
+          "tribSub": "TRT24"
+        },
+        "encerradosTotal": 1
       }
     },
     "roberto_lippmann": {
@@ -1163,7 +1163,15 @@
       "dataset": {
         "total": 3,
         "ativos": 1,
-        "encerrados": 2,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 2
+        },
         "areaTotal": 1,
         "estoque": {
           "2020": 2,
@@ -1182,15 +1190,6 @@
           "2024": 0,
           "2025": 0,
           "2026": 0
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 2
         },
         "estoqueHl": [],
         "area": {
@@ -1223,7 +1222,8 @@
           "procSub": "1 ativos, 2 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC"
-        }
+        },
+        "encerradosTotal": 2
       }
     },
     "lago_de_garda_incorpora_es_ltda": {
@@ -1232,7 +1232,14 @@
       "dataset": {
         "total": 8,
         "ativos": 4,
-        "encerrados": 4,
+        "encerrados": {
+          "2021": 0,
+          "2022": 1,
+          "2023": 0,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
         "areaTotal": 4,
         "estoque": {
           "2021": 1,
@@ -1249,14 +1256,6 @@
           "2024": 1,
           "2025": 4,
           "2026": 0
-        },
-        "encerrados_por_ano": {
-          "2021": 0,
-          "2022": 1,
-          "2023": 0,
-          "2024": 1,
-          "2025": 1,
-          "2026": 1
         },
         "estoqueHl": [],
         "area": {
@@ -1305,8 +1304,9 @@
           "trib": 2,
           "procSub": "4 ativos, 4 encerrados",
           "areasSub": "Cível, Administrativo, Tributário",
-          "tribSub": "TJSC, Nao informado"
-        }
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 4
       }
     },
     "abelardo_benigno_costa_empreendimentos_l": {
@@ -1315,7 +1315,15 @@
       "dataset": {
         "total": 242,
         "ativos": 111,
-        "encerrados": 131,
+        "encerrados": {
+          "2020": 6,
+          "2021": 22,
+          "2022": 1,
+          "2023": 23,
+          "2024": 16,
+          "2025": 32,
+          "2026": 28
+        },
         "areaTotal": 111,
         "estoque": {
           "2020": 41,
@@ -1334,15 +1342,6 @@
           "2024": 22,
           "2025": 58,
           "2026": 44
-        },
-        "encerrados_por_ano": {
-          "2020": 6,
-          "2021": 22,
-          "2022": 1,
-          "2023": 23,
-          "2024": 16,
-          "2025": 32,
-          "2026": 28
         },
         "estoqueHl": [],
         "area": {
@@ -1451,9 +1450,10 @@
           "areas": 6,
           "trib": 9,
           "procSub": "111 ativos, 131 encerrados",
-          "areasSub": "Cível, Tributário, Trabalhista, Penal-Criminal, Ambiental, Administrativo",
-          "tribSub": "Nao informado, TJSC, TRT12, STJ, TJPR, TJSP, MPSC, TRT22, MINTRAB"
-        }
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "tribSub": "TJSC, TRT12, TJPR"
+        },
+        "encerradosTotal": 131
       },
       "_isMainClient": true
     },
@@ -1463,7 +1463,14 @@
       "dataset": {
         "total": 11,
         "ativos": 3,
-        "encerrados": 8,
+        "encerrados": {
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 7,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 3,
         "estoque": {
           "2021": 1,
@@ -1480,14 +1487,6 @@
           "2024": 8,
           "2025": 1,
           "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 7,
-          "2025": 0,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -1530,8 +1529,9 @@
           "trib": 3,
           "procSub": "3 ativos, 8 encerrados",
           "areasSub": "Trabalhista, Administrativo",
-          "tribSub": "TRT12, MPT, Nao informado"
-        }
+          "tribSub": "TRT12, MPT"
+        },
+        "encerradosTotal": 8
       }
     },
     "abc_empreendimentos_e_participa_es_ltda": {
@@ -1540,7 +1540,14 @@
       "dataset": {
         "total": 20,
         "ativos": 6,
-        "encerrados": 14,
+        "encerrados": {
+          "2021": 0,
+          "2022": 0,
+          "2023": 3,
+          "2024": 6,
+          "2025": 5,
+          "2026": 1
+        },
         "areaTotal": 6,
         "estoque": {
           "2021": 2,
@@ -1557,14 +1564,6 @@
           "2024": 5,
           "2025": 1,
           "2026": 2
-        },
-        "encerrados_por_ano": {
-          "2021": 0,
-          "2022": 0,
-          "2023": 3,
-          "2024": 6,
-          "2025": 5,
-          "2026": 1
         },
         "estoqueHl": [],
         "area": {
@@ -1619,9 +1618,10 @@
           "areas": 4,
           "trib": 3,
           "procSub": "6 ativos, 14 encerrados",
-          "areasSub": "Penal-Criminal, Trabalhista, Cível, Administrativo",
-          "tribSub": "TJSC, TRT12, Nao informado"
-        }
+          "areasSub": "Penal-Criminal, Trabalhista, Cível",
+          "tribSub": "TJSC, TRT12"
+        },
+        "encerradosTotal": 14
       }
     },
     "beach_view_condom_nio_de_lotes_spe_ltda": {
@@ -1630,7 +1630,12 @@
       "dataset": {
         "total": 1,
         "ativos": 0,
-        "encerrados": 1,
+        "encerrados": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1
+        },
         "areaTotal": 0,
         "estoque": {
           "2022": 1,
@@ -1643,12 +1648,6 @@
           "2023": 0,
           "2024": 0,
           "2025": 0
-        },
-        "encerrados_por_ano": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 1
         },
         "estoqueHl": [],
         "area": {},
@@ -1666,7 +1665,8 @@
           "procSub": "0 ativos, 1 encerrados",
           "areasSub": "",
           "tribSub": ""
-        }
+        },
+        "encerradosTotal": 1
       }
     },
     "arth_o_empreendimentos_ltda": {
@@ -1675,7 +1675,15 @@
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 0,
         "estoque": {
           "2020": 0,
@@ -1687,15 +1695,6 @@
           "2026": 0
         },
         "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "encerrados_por_ano": {
           "2020": 0,
           "2021": 0,
           "2022": 0,
@@ -1721,7 +1720,8 @@
           "areasSub": "",
           "tribSub": ""
         },
-        "_semProcessos": true
+        "_semProcessos": true,
+        "encerradosTotal": 0
       }
     },
     "condom_nio_empresarial_navegantes_spe_lt": {
@@ -1730,7 +1730,12 @@
       "dataset": {
         "total": 13,
         "ativos": 6,
-        "encerrados": 7,
+        "encerrados": {
+          "2023": 1,
+          "2024": 3,
+          "2025": 1,
+          "2026": 2
+        },
         "areaTotal": 6,
         "estoque": {
           "2023": 3,
@@ -1743,12 +1748,6 @@
           "2024": 4,
           "2025": 2,
           "2026": 3
-        },
-        "encerrados_por_ano": {
-          "2023": 1,
-          "2024": 3,
-          "2025": 1,
-          "2026": 2
         },
         "estoqueHl": [],
         "area": {
@@ -1801,9 +1800,10 @@
           "areas": 4,
           "trib": 5,
           "procSub": "6 ativos, 7 encerrados",
-          "areasSub": "Tributário, Ambiental, Cível, Trabalhista",
-          "tribSub": "TRF4, Nao informado, TJMT, TRT12, TJSC"
-        }
+          "areasSub": "Cível, Tributário, Ambiental",
+          "tribSub": "TJSC, TRF4, TJMT"
+        },
+        "encerradosTotal": 7
       }
     },
     "nova_tijucas_empreendimentos_spe_ltda": {
@@ -1812,7 +1812,12 @@
       "dataset": {
         "total": 5,
         "ativos": 5,
-        "encerrados": 0,
+        "encerrados": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 5,
         "estoque": {
           "2023": 1,
@@ -1825,12 +1830,6 @@
           "2024": 1,
           "2025": 2,
           "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -1875,9 +1874,10 @@
           "areas": 3,
           "trib": 3,
           "procSub": "5 ativos, 0 encerrados",
-          "areasSub": "Ambiental, Cível, Penal-Criminal",
-          "tribSub": "Justiça Federal de Santa Catarina, TJSP, TJSC"
-        }
+          "areasSub": "Cível, Penal-Criminal, Ambiental",
+          "tribSub": "TJSC, Justiça Federal de Santa Catarina, TJSP"
+        },
+        "encerradosTotal": 0
       }
     },
     "empreendimento_143_may_fair_spe_ltda_emb": {
@@ -1886,7 +1886,12 @@
       "dataset": {
         "total": 10,
         "ativos": 7,
-        "encerrados": 3,
+        "encerrados": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 2,
+          "2026": 1
+        },
         "areaTotal": 7,
         "estoque": {
           "2023": 4,
@@ -1899,12 +1904,6 @@
           "2024": 3,
           "2025": 1,
           "2026": 2
-        },
-        "encerrados_por_ano": {
-          "2023": 0,
-          "2024": 0,
-          "2025": 2,
-          "2026": 1
         },
         "estoqueHl": [],
         "area": {
@@ -1959,9 +1958,10 @@
           "areas": 3,
           "trib": 6,
           "procSub": "7 ativos, 3 encerrados",
-          "areasSub": "Administrativo, Cível, Trabalhista",
-          "tribSub": "STJ, TJSC, TRT12, TRF4, CREASC, Nao informado"
-        }
+          "areasSub": "Administrativo, Trabalhista, Cível",
+          "tribSub": "TRT12, STJ, TJSC"
+        },
+        "encerradosTotal": 3
       }
     },
     "condom_nio_empresarial_navepark_scp_1_lt": {
@@ -1970,7 +1970,11 @@
       "dataset": {
         "total": 3,
         "ativos": 2,
-        "encerrados": 1,
+        "encerrados": {
+          "2023": 0,
+          "2024": 1,
+          "2025": 0
+        },
         "areaTotal": 2,
         "estoque": {
           "2023": 1,
@@ -1981,11 +1985,6 @@
           "2023": 1,
           "2024": 1,
           "2025": 1
-        },
-        "encerrados_por_ano": {
-          "2023": 0,
-          "2024": 1,
-          "2025": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2026,7 +2025,8 @@
           "procSub": "2 ativos, 1 encerrados",
           "areasSub": "Trabalhista, Tributário",
           "tribSub": "TRT12, TRF4"
-        }
+        },
+        "encerradosTotal": 1
       }
     },
     "nova_comandante_participa_es_societ_rias": {
@@ -2035,16 +2035,15 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0,
+        "encerrados": {
+          "2024": 0
+        },
         "areaTotal": 1,
         "estoque": {
           "2024": 1
         },
         "entradas": {
           "2024": 1
-        },
-        "encerrados_por_ano": {
-          "2024": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2076,8 +2075,9 @@
           "trib": 1,
           "procSub": "1 ativos, 0 encerrados",
           "areasSub": "Tributário",
-          "tribSub": "Nao informado"
-        }
+          "tribSub": ""
+        },
+        "encerradosTotal": 0
       }
     },
     "lagoa_do_perequ_empreendimentos_spe_ltda": {
@@ -2086,15 +2086,14 @@
       "dataset": {
         "total": 1,
         "ativos": 0,
-        "encerrados": 1,
+        "encerrados": {
+          "2024": 1
+        },
         "areaTotal": 0,
         "estoque": {
           "2024": 0
         },
         "entradas": {
-          "2024": 1
-        },
-        "encerrados_por_ano": {
           "2024": 1
         },
         "estoqueHl": [],
@@ -2113,7 +2112,8 @@
           "procSub": "0 ativos, 1 encerrados",
           "areasSub": "",
           "tribSub": ""
-        }
+        },
+        "encerradosTotal": 1
       }
     },
     "incorporadora_moinho_das_guas_spe_ltda": {
@@ -2122,7 +2122,10 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1,
+        "encerrados": {
+          "2024": 0,
+          "2025": 1
+        },
         "areaTotal": 1,
         "estoque": {
           "2024": 1,
@@ -2130,10 +2133,6 @@
         },
         "entradas": {
           "2024": 1,
-          "2025": 1
-        },
-        "encerrados_por_ano": {
-          "2024": 0,
           "2025": 1
         },
         "estoqueHl": [],
@@ -2167,7 +2166,8 @@
           "procSub": "1 ativos, 1 encerrados",
           "areasSub": "Cível",
           "tribSub": "TRF4"
-        }
+        },
+        "encerradosTotal": 1
       }
     },
     "condom_nio_empresarial_navepark_ii_spe_l": {
@@ -2176,7 +2176,10 @@
       "dataset": {
         "total": 4,
         "ativos": 2,
-        "encerrados": 2,
+        "encerrados": {
+          "2025": 0,
+          "2026": 2
+        },
         "areaTotal": 2,
         "estoque": {
           "2025": 1,
@@ -2185,10 +2188,6 @@
         "entradas": {
           "2025": 1,
           "2026": 3
-        },
-        "encerrados_por_ano": {
-          "2025": 0,
-          "2026": 2
         },
         "estoqueHl": [],
         "area": {
@@ -2226,8 +2225,9 @@
           "trib": 2,
           "procSub": "2 ativos, 2 encerrados",
           "areasSub": "Trabalhista, Ambiental",
-          "tribSub": "TRT12, Nao informado"
-        }
+          "tribSub": "TRT12"
+        },
+        "encerradosTotal": 2
       }
     },
     "walje_empreendimentos_imobili_rios_socie": {
@@ -2236,7 +2236,10 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1,
+        "encerrados": {
+          "2025": 1,
+          "2026": 0
+        },
         "areaTotal": 1,
         "estoque": {
           "2025": 0,
@@ -2245,10 +2248,6 @@
         "entradas": {
           "2025": 1,
           "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2025": 1,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2281,7 +2280,8 @@
           "procSub": "1 ativos, 1 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC"
-        }
+        },
+        "encerradosTotal": 1
       }
     },
     "vitreo_271_empreendimento_imobili_rio_sp": {
@@ -2290,7 +2290,10 @@
       "dataset": {
         "total": 3,
         "ativos": 3,
-        "encerrados": 0,
+        "encerrados": {
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 3,
         "estoque": {
           "2025": 1,
@@ -2299,10 +2302,6 @@
         "entradas": {
           "2025": 1,
           "2026": 2
-        },
-        "encerrados_por_ano": {
-          "2025": 0,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2346,8 +2345,9 @@
           "trib": 2,
           "procSub": "3 ativos, 0 encerrados",
           "areasSub": "Trabalhista, Administrativo, Cível",
-          "tribSub": "Nao informado, TJSC"
-        }
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 0
       }
     },
     "empreendimento_gt_abc_pioneira_spe_ltda": {
@@ -2356,15 +2356,14 @@
       "dataset": {
         "total": 2,
         "ativos": 0,
-        "encerrados": 2,
+        "encerrados": {
+          "2026": 2
+        },
         "areaTotal": 0,
         "estoque": {
           "2026": 0
         },
         "entradas": {
-          "2026": 2
-        },
-        "encerrados_por_ano": {
           "2026": 2
         },
         "estoqueHl": [],
@@ -2383,7 +2382,8 @@
           "procSub": "0 ativos, 2 encerrados",
           "areasSub": "",
           "tribSub": ""
-        }
+        },
+        "encerradosTotal": 2
       }
     },
     "rio_tavares_empreendimentos_imobili_rios": {
@@ -2392,16 +2392,15 @@
       "dataset": {
         "total": 2,
         "ativos": 2,
-        "encerrados": 0,
+        "encerrados": {
+          "2026": 0
+        },
         "areaTotal": 2,
         "estoque": {
           "2026": 2
         },
         "entradas": {
           "2026": 2
-        },
-        "encerrados_por_ano": {
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2439,8 +2438,9 @@
           "trib": 2,
           "procSub": "2 ativos, 0 encerrados",
           "areasSub": "Ambiental, Tributário",
-          "tribSub": "Nao informado, TJSC"
-        }
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 0
       }
     },
     "central_park_loteamento_blumenau_spe_ltd": {
@@ -2449,16 +2449,15 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0,
+        "encerrados": {
+          "2026": 0
+        },
         "areaTotal": 1,
         "estoque": {
           "2026": 1
         },
         "entradas": {
           "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2491,7 +2490,8 @@
           "procSub": "1 ativos, 0 encerrados",
           "areasSub": "Ambiental",
           "tribSub": "TRF4"
-        }
+        },
+        "encerradosTotal": 0
       }
     },
     "jm_monet_holding_ltda": {
@@ -2500,16 +2500,15 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0,
+        "encerrados": {
+          "2026": 0
+        },
         "areaTotal": 1,
         "estoque": {
           "2026": 1
         },
         "entradas": {
           "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2536,8 +2535,9 @@
           "trib": 1,
           "procSub": "1 ativos, 0 encerrados",
           "areasSub": "Administrativo",
-          "tribSub": "Nao informado"
-        }
+          "tribSub": ""
+        },
+        "encerradosTotal": 0
       }
     },
     "empreendimento_imobili_rio_abc_estaleiro": {
@@ -2546,16 +2546,15 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0,
+        "encerrados": {
+          "2026": 0
+        },
         "areaTotal": 1,
         "estoque": {
           "2026": 1
         },
         "entradas": {
           "2026": 1
-        },
-        "encerrados_por_ano": {
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2588,7 +2587,8 @@
           "procSub": "1 ativos, 0 encerrados",
           "areasSub": "Trabalhista",
           "tribSub": "TRT12"
-        }
+        },
+        "encerradosTotal": 0
       }
     },
     "gralha_azul_construtora_e_incorporadora_": {
@@ -2598,7 +2598,15 @@
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 0,
         "estoque": {
           "2020": 0,
@@ -2610,15 +2618,6 @@
           "2026": 0
         },
         "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "encerrados_por_ano": {
           "2020": 0,
           "2021": 0,
           "2022": 0,
@@ -2644,7 +2643,8 @@
           "areasSub": "",
           "tribSub": ""
         },
-        "_semProcessos": true
+        "_semProcessos": true,
+        "encerradosTotal": 0
       }
     },
     "ag_f_holding_ltda": {
@@ -2654,7 +2654,12 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1,
+        "encerrados": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1
+        },
         "areaTotal": 1,
         "estoque": {
           "2022": 1,
@@ -2667,12 +2672,6 @@
           "2023": 0,
           "2024": 1,
           "2025": 0
-        },
-        "encerrados_por_ano": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 1
         },
         "estoqueHl": [],
         "area": {
@@ -2705,7 +2704,8 @@
           "procSub": "1 ativos, 1 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC"
-        }
+        },
+        "encerradosTotal": 1
       }
     },
     "triunfante_construtora_e_incorporadora_l": {
@@ -2715,7 +2715,11 @@
       "dataset": {
         "total": 2,
         "ativos": 1,
-        "encerrados": 1,
+        "encerrados": {
+          "2023": 0,
+          "2024": 1,
+          "2025": 0
+        },
         "areaTotal": 1,
         "estoque": {
           "2023": 1,
@@ -2726,11 +2730,6 @@
           "2023": 1,
           "2024": 0,
           "2025": 1
-        },
-        "encerrados_por_ano": {
-          "2023": 0,
-          "2024": 1,
-          "2025": 0
         },
         "estoqueHl": [],
         "area": {
@@ -2762,8 +2761,9 @@
           "trib": 1,
           "procSub": "1 ativos, 1 encerrados",
           "areasSub": "Ambiental",
-          "tribSub": "Nao informado"
-        }
+          "tribSub": ""
+        },
+        "encerradosTotal": 1
       }
     }
   },

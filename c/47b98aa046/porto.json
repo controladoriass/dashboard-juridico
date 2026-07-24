@@ -22,7 +22,15 @@
       "dataset": {
         "total": 57,
         "ativos": 13,
-        "encerrados": 44,
+        "encerrados": {
+          "2020": 0,
+          "2021": 1,
+          "2022": 0,
+          "2023": 7,
+          "2024": 4,
+          "2025": 13,
+          "2026": 19
+        },
         "areaTotal": 13,
         "estoque": {
           "2020": 2,
@@ -41,15 +49,6 @@
           "2024": 18,
           "2025": 9,
           "2026": 3
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 1,
-          "2022": 0,
-          "2023": 7,
-          "2024": 4,
-          "2025": 13,
-          "2026": 19
         },
         "estoqueHl": [],
         "area": {
@@ -197,7 +196,8 @@
           },
           "_estimativa": true
         },
-        "_panorama": true
+        "_panorama": true,
+        "encerradosTotal": 44
       }
     },
     "porto_florencio": {
@@ -206,7 +206,12 @@
       "dataset": {
         "total": 13,
         "ativos": 5,
-        "encerrados": 8,
+        "encerrados": {
+          "2023": 0,
+          "2024": 0,
+          "2025": 5,
+          "2026": 3
+        },
         "areaTotal": 5,
         "estoque": {
           "2023": 1,
@@ -218,12 +223,6 @@
           "2023": 1,
           "2024": 8,
           "2025": 1,
-          "2026": 3
-        },
-        "encerrados_por_ano": {
-          "2023": 0,
-          "2024": 0,
-          "2025": 5,
           "2026": 3
         },
         "estoqueHl": [],
@@ -273,8 +272,9 @@
           "trib": 3,
           "procSub": "5 ativos · 8 encerrados",
           "areasSub": "Cível, Trabalhista",
-          "tribSub": "TJSC, TRT12, N/I"
-        }
+          "tribSub": "TJSC, TRT12"
+        },
+        "encerradosTotal": 8
       }
     },
     "maria_ap_florencio": {
@@ -283,7 +283,15 @@
       "dataset": {
         "total": 3,
         "ativos": 1,
-        "encerrados": 2,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
+        },
         "areaTotal": 1,
         "estoque": {
           "2020": 1,
@@ -302,15 +310,6 @@
           "2024": 2,
           "2025": 0,
           "2026": 0
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 1,
-          "2026": 1
         },
         "estoqueHl": [],
         "area": {
@@ -343,7 +342,8 @@
           "procSub": "1 ativos · 2 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC"
-        }
+        },
+        "encerradosTotal": 2
       }
     },
     "porto_florencio_pfv": {
@@ -352,7 +352,15 @@
       "dataset": {
         "total": 35,
         "ativos": 4,
-        "encerrados": 31,
+        "encerrados": {
+          "2020": 0,
+          "2021": 1,
+          "2022": 0,
+          "2023": 7,
+          "2024": 4,
+          "2025": 5,
+          "2026": 14
+        },
         "areaTotal": 4,
         "estoque": {
           "2020": 1,
@@ -371,15 +379,6 @@
           "2024": 5,
           "2025": 5,
           "2026": 0
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 1,
-          "2022": 0,
-          "2023": 7,
-          "2024": 4,
-          "2025": 5,
-          "2026": 14
         },
         "estoqueHl": [],
         "area": {
@@ -428,7 +427,8 @@
           "procSub": "4 ativos · 31 encerrados",
           "areasSub": "Cível, Propriedade intelectual",
           "tribSub": "TJSC, INPI"
-        }
+        },
+        "encerradosTotal": 31
       }
     },
     "adalberto_florencio": {
@@ -437,7 +437,11 @@
       "dataset": {
         "total": 3,
         "ativos": 1,
-        "encerrados": 2,
+        "encerrados": {
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
+        },
         "areaTotal": 1,
         "estoque": {
           "2024": 1,
@@ -448,11 +452,6 @@
           "2024": 1,
           "2025": 2,
           "2026": 0
-        },
-        "encerrados_por_ano": {
-          "2024": 0,
-          "2025": 1,
-          "2026": 1
         },
         "estoqueHl": [],
         "area": {
@@ -485,7 +484,8 @@
           "procSub": "1 ativos · 2 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJRS"
-        }
+        },
+        "encerradosTotal": 2
       }
     },
     "daniel_florencio": {
@@ -494,7 +494,10 @@
       "dataset": {
         "total": 3,
         "ativos": 2,
-        "encerrados": 1,
+        "encerrados": {
+          "2024": 0,
+          "2025": 1
+        },
         "areaTotal": 2,
         "estoque": {
           "2024": 2,
@@ -502,10 +505,6 @@
         },
         "entradas": {
           "2024": 2,
-          "2025": 1
-        },
-        "encerrados_por_ano": {
-          "2024": 0,
           "2025": 1
         },
         "estoqueHl": [],
@@ -544,7 +543,8 @@
           "procSub": "2 ativos · 1 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC"
-        }
+        },
+        "encerradosTotal": 1
       }
     }
   },

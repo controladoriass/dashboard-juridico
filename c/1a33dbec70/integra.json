@@ -8,7 +8,7 @@
     "trib": 4,
     "procSub": "16 ativos · 2 encerrados",
     "areasSub": "Trabalhista, Cível, Tributário",
-    "tribSub": "TRT12, TJSC, N/I",
+    "tribSub": "TRT12, TJSC, TRT02",
     "horas": "^206",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
     "valor": "~R$ 2,2 mi",
@@ -22,7 +22,15 @@
       "dataset": {
         "total": 18,
         "ativos": 16,
-        "encerrados": 2,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 2,
+          "2026": 0
+        },
         "areaTotal": 16,
         "estoque": {
           "2020": 2,
@@ -41,15 +49,6 @@
           "2024": 1,
           "2025": 11,
           "2026": 3
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 2,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -146,11 +145,12 @@
           "trib": 4,
           "procSub": "16 ativos · 2 encerrados",
           "areasSub": "Trabalhista, Cível, Tributário",
-          "tribSub": "TRT12, TJSC, N/I"
+          "tribSub": "TRT12, TJSC, TRT02"
         },
         "esforco": {},
         "horas": {},
-        "_panorama": true
+        "_panorama": true,
+        "encerradosTotal": 2
       }
     },
     "integra": {
@@ -159,7 +159,15 @@
       "dataset": {
         "total": 18,
         "ativos": 16,
-        "encerrados": 2,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 2,
+          "2026": 0
+        },
         "areaTotal": 16,
         "estoque": {
           "2020": 2,
@@ -178,15 +186,6 @@
           "2024": 1,
           "2025": 11,
           "2026": 3
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 2,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -283,8 +282,9 @@
           "trib": 4,
           "procSub": "16 ativos · 2 encerrados",
           "areasSub": "Trabalhista, Cível, Tributário",
-          "tribSub": "TRT12, TJSC, N/I"
-        }
+          "tribSub": "TRT12, TJSC, TRT02"
+        },
+        "encerradosTotal": 2
       }
     }
   },

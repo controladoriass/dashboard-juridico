@@ -8,7 +8,7 @@
     "trib": 10,
     "procSub": "73 ativos · 15 encerrados",
     "areasSub": "Cível, Tributário, Trabalhista",
-    "tribSub": "TJSC, N/I, TRT12",
+    "tribSub": "TJSC, TRT12, TJMG",
     "horas": "^947",
     "horasSub": "horas apontadas (parcial — ver notas por empresa)",
     "valor": "~R$ 4<small>mi</small>",
@@ -22,7 +22,15 @@
       "dataset": {
         "total": 88,
         "ativos": 73,
-        "encerrados": 15,
+        "encerrados": {
+          "2020": 5,
+          "2021": 0,
+          "2022": 0,
+          "2023": 3,
+          "2024": 2,
+          "2025": 1,
+          "2026": 1
+        },
         "areaTotal": 73,
         "estoque": {
           "2020": 20,
@@ -41,15 +49,6 @@
           "2024": 12,
           "2025": 5,
           "2026": 12
-        },
-        "encerrados_por_ano": {
-          "2020": 5,
-          "2021": 0,
-          "2022": 0,
-          "2023": 3,
-          "2024": 2,
-          "2025": 1,
-          "2026": 1
         },
         "estoqueHl": [],
         "area": {
@@ -163,7 +162,7 @@
           "trib": 10,
           "procSub": "73 ativos · 15 encerrados",
           "areasSub": "Cível, Tributário, Trabalhista",
-          "tribSub": "TJSC, N/I, TRT12"
+          "tribSub": "TJSC, TRT12, TJMG"
         },
         "esforco": {
           "comProducao": 88,
@@ -215,7 +214,8 @@
           },
           "_estimativa": true
         },
-        "_panorama": true
+        "_panorama": true,
+        "encerradosTotal": 15
       }
     },
     "bhm_textil": {
@@ -224,7 +224,15 @@
       "dataset": {
         "total": 69,
         "ativos": 56,
-        "encerrados": 13,
+        "encerrados": {
+          "2020": 5,
+          "2021": 0,
+          "2022": 0,
+          "2023": 3,
+          "2024": 2,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 56,
         "estoque": {
           "2020": 19,
@@ -243,15 +251,6 @@
           "2024": 10,
           "2025": 4,
           "2026": 2
-        },
-        "encerrados_por_ano": {
-          "2020": 5,
-          "2021": 0,
-          "2022": 0,
-          "2023": 3,
-          "2024": 2,
-          "2025": 0,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -365,8 +364,9 @@
           "trib": 10,
           "procSub": "56 ativos · 13 encerrados",
           "areasSub": "Cível, Tributário, Trabalhista",
-          "tribSub": "TRT12, TJSC, N/I"
-        }
+          "tribSub": "TRT12, TJSC, TJMG"
+        },
+        "encerradosTotal": 13
       }
     },
     "buschirolli_bens": {
@@ -375,7 +375,14 @@
       "dataset": {
         "total": 11,
         "ativos": 10,
-        "encerrados": 1,
+        "encerrados": {
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 0
+        },
         "areaTotal": 10,
         "estoque": {
           "2021": 2,
@@ -392,14 +399,6 @@
           "2024": 1,
           "2025": 0,
           "2026": 8
-        },
-        "encerrados_por_ano": {
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 1,
-          "2026": 0
         },
         "estoqueHl": [],
         "area": {
@@ -474,8 +473,9 @@
           "trib": 2,
           "procSub": "10 ativos · 1 encerrados",
           "areasSub": "Cível, Administrativo, Tributário",
-          "tribSub": "TJSC, N/I"
-        }
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 1
       }
     },
     "vicente_buschirolli": {
@@ -484,7 +484,14 @@
       "dataset": {
         "total": 4,
         "ativos": 4,
-        "encerrados": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0
+        },
         "areaTotal": 4,
         "estoque": {
           "2020": 1,
@@ -501,14 +508,6 @@
           "2023": 0,
           "2024": 0,
           "2025": 1
-        },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0
         },
         "estoqueHl": [],
         "area": {
@@ -550,7 +549,8 @@
           "procSub": "4 ativos · 0 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC"
-        }
+        },
+        "encerradosTotal": 0
       }
     },
     "alex_buschirolli": {
@@ -559,7 +559,13 @@
       "dataset": {
         "total": 4,
         "ativos": 3,
-        "encerrados": 1,
+        "encerrados": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
         "areaTotal": 3,
         "estoque": {
           "2022": 1,
@@ -574,13 +580,6 @@
           "2024": 1,
           "2025": 0,
           "2026": 2
-        },
-        "encerrados_por_ano": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 1
         },
         "estoqueHl": [],
         "area": {
@@ -622,7 +621,8 @@
           "procSub": "3 ativos · 1 encerrados",
           "areasSub": "Cível",
           "tribSub": "TJSC"
-        }
+        },
+        "encerradosTotal": 1
       }
     }
   },

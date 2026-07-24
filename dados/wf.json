@@ -5,8 +5,8 @@
     "areas": 8,
     "trib": 6,
     "procSub": "65 ativos · 135 encerrados",
-    "areasSub": "",
-    "tribSub": ""
+    "areasSub": "Cível, Trabalhista, Administrativo",
+    "tribSub": "TJSC, TRT12, TRF4"
   },
   "empresas": {
     "_panorama": {
@@ -15,7 +15,15 @@
       "dataset": {
         "total": 200,
         "ativos": 65,
-        "encerrados": 135,
+        "encerrados": {
+          "2020": 0,
+          "2021": 4,
+          "2022": 38,
+          "2023": 34,
+          "2024": 12,
+          "2025": 34,
+          "2026": 7
+        },
         "areaTotal": 65,
         "estoque": {
           "2020": 33,
@@ -35,174 +43,99 @@
           "2025": 37,
           "2026": 14
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 4,
-          "2022": 38,
-          "2023": 34,
-          "2024": 12,
-          "2025": 34,
-          "2026": 7
+        "area": {
+          "Cível": 35,
+          "Trabalhista": 12,
+          "Administrativo": 7,
+          "Tributário": 5,
+          "Falência": 2,
+          "Penal-Criminal": 2,
+          "Família e Sucessões": 1,
+          "Recuperação Judicial": 1
         },
-        "area": [
-          {
-            "label": "Cível",
-            "valor": 35
-          },
-          {
-            "label": "Trabalhista",
-            "valor": 12
-          },
-          {
-            "label": "Administrativo",
-            "valor": 7
-          },
-          {
-            "label": "Tributário",
-            "valor": 5
-          },
-          {
-            "label": "Falência",
-            "valor": 2
-          },
-          {
-            "label": "Penal-Criminal",
-            "valor": 2
-          },
-          {
-            "label": "Família e Sucessões",
-            "valor": 1
-          },
-          {
-            "label": "Recuperação Judicial",
-            "valor": 1
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 60
-          },
-          {
-            "label": "N/I",
-            "valor": 3
-          },
-          {
-            "label": "RS",
-            "valor": 2
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 54
-          },
-          {
-            "label": "2º Grau",
-            "valor": 11
-          }
-        ],
-        "polo": [
-          {
-            "label": "Polo passivo",
-            "valor": 34
-          },
-          {
-            "label": "Polo ativo",
-            "valor": 23
-          },
-          {
-            "label": "Terceiro/Outros",
-            "valor": 8
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TJSC",
-            "valor": 39
-          },
-          {
-            "label": "N/I",
-            "valor": 13
-          },
-          {
-            "label": "TRT12",
-            "valor": 7
-          },
-          {
-            "label": "TRF4",
-            "valor": 3
-          },
-          {
-            "label": "TJRS",
-            "valor": 2
-          },
-          {
-            "label": "MINTRAB",
-            "valor": 1
-          }
-        ],
+        "uf": {
+          "SC": 60,
+          "N/I": 3,
+          "RS": 2
+        },
+        "instancia": {
+          "1º Grau": 54,
+          "2º Grau": 11
+        },
+        "polo": {
+          "Polo passivo": 34,
+          "Polo ativo": 23,
+          "Terceiro/Outros": 8
+        },
+        "tribunais": {
+          "TJSC": 39,
+          "N/I": 13,
+          "TRT12": 7,
+          "TRF4": 3,
+          "TJRS": 2,
+          "MINTRAB": 1
+        },
         "ranking": [
-          {
-            "label": "MINISTÉRIO DO TRABALHO E EMPREGO",
-            "valor": 4
-          },
-          {
-            "label": "MUNICÍPIO DE ITAPEMA",
-            "valor": 3
-          },
-          {
-            "label": "TARCIZIO INACIO GESSELE",
-            "valor": 3
-          },
-          {
-            "label": "ASSISTEL COMERCIO DE CONSTRUCAO LTDA",
-            "valor": 2
-          },
-          {
-            "label": "COOPERATIVA DA CONSTRUCAO CIVIL DO ESTADO DE SANTA CATARINA",
-            "valor": 2
-          },
-          {
-            "label": "DAVID MAGAIVER DA SILVA MENDES",
-            "valor": 2
-          },
-          {
-            "label": "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
-            "valor": 2
-          },
-          {
-            "label": "INSTALATO SOLUCOES ELETRICAS E HIDRAULICAS LTDA",
-            "valor": 2
-          },
-          {
-            "label": "JOANA DARC SOUSA ARAUJO",
-            "valor": 2
-          },
-          {
-            "label": "MARIANGELA MEDEIROS TEIXEIRA FUGANTI",
-            "valor": 2
-          },
-          {
-            "label": "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
-            "valor": 2
-          },
-          {
-            "label": "NÃO HÁ",
-            "valor": 2
-          },
-          {
-            "label": "PEREIRA E ROMANZINI PARTICIPACOES LTDA EM RECUPERACAO JUDICIAL",
-            "valor": 2
-          },
-          {
-            "label": "PREFEITURA MUNICIPAL DE PORTO BELO",
-            "valor": 2
-          },
-          {
-            "label": "SP MOVEIS PLANEJADOS LTDA",
-            "valor": 2
-          }
+          [
+            "MINISTÉRIO DO TRABALHO E EMPREGO",
+            4
+          ],
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            3
+          ],
+          [
+            "TARCIZIO INACIO GESSELE",
+            3
+          ],
+          [
+            "ASSISTEL COMERCIO DE CONSTRUCAO LTDA",
+            2
+          ],
+          [
+            "COOPERATIVA DA CONSTRUCAO CIVIL DO ESTADO DE SANTA CATARINA",
+            2
+          ],
+          [
+            "DAVID MAGAIVER DA SILVA MENDES",
+            2
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            2
+          ],
+          [
+            "INSTALATO SOLUCOES ELETRICAS E HIDRAULICAS LTDA",
+            2
+          ],
+          [
+            "JOANA DARC SOUSA ARAUJO",
+            2
+          ],
+          [
+            "MARIANGELA MEDEIROS TEIXEIRA FUGANTI",
+            2
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            2
+          ],
+          [
+            "NÃO HÁ",
+            2
+          ],
+          [
+            "PEREIRA E ROMANZINI PARTICIPACOES LTDA EM RECUPERACAO JUDICIAL",
+            2
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE PORTO BELO",
+            2
+          ],
+          [
+            "SP MOVEIS PLANEJADOS LTDA",
+            2
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
@@ -211,8 +144,8 @@
           "areas": 8,
           "trib": 6,
           "procSub": "65 ativos · 135 encerrados",
-          "areasSub": "",
-          "tribSub": ""
+          "areasSub": "Cível, Trabalhista, Administrativo",
+          "tribSub": "TJSC, TRT12, TRF4"
         },
         "esforco": {
           "comProducao": 199,
@@ -285,7 +218,8 @@
           },
           "_estimativa": true
         },
-        "_panorama": true
+        "_panorama": true,
+        "encerradosTotal": 135
       }
     },
     "wff": {
@@ -294,7 +228,15 @@
       "dataset": {
         "total": 119,
         "ativos": 40,
-        "encerrados": 79,
+        "encerrados": {
+          "2020": 0,
+          "2021": 1,
+          "2022": 27,
+          "2023": 21,
+          "2024": 3,
+          "2025": 20,
+          "2026": 5
+        },
         "areaTotal": 40,
         "estoque": {
           "2020": 10,
@@ -314,166 +256,106 @@
           "2025": 25,
           "2026": 11
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 1,
-          "2022": 27,
-          "2023": 21,
-          "2024": 3,
-          "2025": 20,
-          "2026": 5
+        "area": {
+          "Cível": 22,
+          "Trabalhista": 10,
+          "Administrativo": 5,
+          "Falência": 1,
+          "Família e Sucessões": 1,
+          "Tributário": 1
         },
-        "area": [
-          {
-            "label": "Cível",
-            "valor": 22
-          },
-          {
-            "label": "Trabalhista",
-            "valor": 10
-          },
-          {
-            "label": "Administrativo",
-            "valor": 5
-          },
-          {
-            "label": "Falência",
-            "valor": 1
-          },
-          {
-            "label": "Família e Sucessões",
-            "valor": 1
-          },
-          {
-            "label": "Tributário",
-            "valor": 1
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 37
-          },
-          {
-            "label": "N/I",
-            "valor": 3
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 32
-          },
-          {
-            "label": "2º Grau",
-            "valor": 8
-          }
-        ],
-        "polo": [
-          {
-            "label": "Polo passivo",
-            "valor": 25
-          },
-          {
-            "label": "Polo ativo",
-            "valor": 12
-          },
-          {
-            "label": "Terceiro/Outros",
-            "valor": 3
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TJSC",
-            "valor": 22
-          },
-          {
-            "label": "N/I",
-            "valor": 8
-          },
-          {
-            "label": "TRT12",
-            "valor": 7
-          },
-          {
-            "label": "TRF4",
-            "valor": 2
-          },
-          {
-            "label": "MINTRAB",
-            "valor": 1
-          }
-        ],
+        "uf": {
+          "SC": 37,
+          "N/I": 3
+        },
+        "instancia": {
+          "1º Grau": 32,
+          "2º Grau": 8
+        },
+        "polo": {
+          "Polo passivo": 25,
+          "Polo ativo": 12,
+          "Terceiro/Outros": 3
+        },
+        "tribunais": {
+          "TJSC": 22,
+          "N/I": 8,
+          "TRT12": 7,
+          "TRF4": 2,
+          "MINTRAB": 1
+        },
         "ranking": [
-          {
-            "label": "MINISTÉRIO DO TRABALHO E EMPREGO",
-            "valor": 3
-          },
-          {
-            "label": "TARCIZIO INACIO GESSELE",
-            "valor": 3
-          },
-          {
-            "label": "ASSISTEL COMERCIO DE CONSTRUCAO LTDA",
-            "valor": 2
-          },
-          {
-            "label": "COOPERATIVA DA CONSTRUCAO CIVIL DO ESTADO DE SANTA CATARINA",
-            "valor": 2
-          },
-          {
-            "label": "DAVID MAGAIVER DA SILVA MENDES",
-            "valor": 2
-          },
-          {
-            "label": "INSTALATO SOLUCOES ELETRICAS E HIDRAULICAS LTDA",
-            "valor": 2
-          },
-          {
-            "label": "MARIANGELA MEDEIROS TEIXEIRA FUGANTI",
-            "valor": 2
-          },
-          {
-            "label": "ANA PAULA MACHADO",
-            "valor": 1
-          },
-          {
-            "label": "ANDERSON RUY ANTONIO",
-            "valor": 1
-          },
-          {
-            "label": "COMPASSO EMPREENDIMENTOS IMOBILIARIOS LTDA",
-            "valor": 1
-          },
-          {
-            "label": "CONASA ITAPEMA",
-            "valor": 1
-          },
-          {
-            "label": "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DE SC",
-            "valor": 1
-          },
-          {
-            "label": "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
-            "valor": 1
-          },
-          {
-            "label": "FUNDAÇÃO AMBIENTAL ÁREA COSTEIRA DE ITAPEMA FAACI",
-            "valor": 1
-          },
-          {
-            "label": "INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS",
-            "valor": 1
-          }
+          [
+            "MINISTÉRIO DO TRABALHO E EMPREGO",
+            3
+          ],
+          [
+            "TARCIZIO INACIO GESSELE",
+            3
+          ],
+          [
+            "ASSISTEL COMERCIO DE CONSTRUCAO LTDA",
+            2
+          ],
+          [
+            "COOPERATIVA DA CONSTRUCAO CIVIL DO ESTADO DE SANTA CATARINA",
+            2
+          ],
+          [
+            "DAVID MAGAIVER DA SILVA MENDES",
+            2
+          ],
+          [
+            "INSTALATO SOLUCOES ELETRICAS E HIDRAULICAS LTDA",
+            2
+          ],
+          [
+            "MARIANGELA MEDEIROS TEIXEIRA FUGANTI",
+            2
+          ],
+          [
+            "ANA PAULA MACHADO",
+            1
+          ],
+          [
+            "ANDERSON RUY ANTONIO",
+            1
+          ],
+          [
+            "COMPASSO EMPREENDIMENTOS IMOBILIARIOS LTDA",
+            1
+          ],
+          [
+            "CONASA ITAPEMA",
+            1
+          ],
+          [
+            "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DE SC",
+            1
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            1
+          ],
+          [
+            "FUNDAÇÃO AMBIENTAL ÁREA COSTEIRA DE ITAPEMA FAACI",
+            1
+          ],
+          [
+            "INSTITUTO NACIONAL DO SEGURO SOCIAL - INSS",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "areas": 6,
           "trib": 5,
           "proc": 119,
-          "ativos": 40
-        }
+          "ativos": 40,
+          "areasSub": "Cível, Trabalhista, Administrativo",
+          "tribSub": "TJSC, TRT12, TRF4"
+        },
+        "encerradosTotal": 79
       }
     },
     "wf": {
@@ -482,7 +364,15 @@
       "dataset": {
         "total": 62,
         "ativos": 17,
-        "encerrados": 45,
+        "encerrados": {
+          "2020": 0,
+          "2021": 2,
+          "2022": 10,
+          "2023": 11,
+          "2024": 4,
+          "2025": 13,
+          "2026": 2
+        },
         "areaTotal": 17,
         "estoque": {
           "2020": 17,
@@ -502,158 +392,101 @@
           "2025": 12,
           "2026": 3
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 2,
-          "2022": 10,
-          "2023": 11,
-          "2024": 4,
-          "2025": 13,
-          "2026": 2
+        "area": {
+          "Cível": 8,
+          "Tributário": 4,
+          "Trabalhista": 2,
+          "Administrativo": 1,
+          "Falência": 1,
+          "Recuperação Judicial": 1
         },
-        "area": [
-          {
-            "label": "Cível",
-            "valor": 8
-          },
-          {
-            "label": "Tributário",
-            "valor": 4
-          },
-          {
-            "label": "Trabalhista",
-            "valor": 2
-          },
-          {
-            "label": "Administrativo",
-            "valor": 1
-          },
-          {
-            "label": "Falência",
-            "valor": 1
-          },
-          {
-            "label": "Recuperação Judicial",
-            "valor": 1
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 15
-          },
-          {
-            "label": "RS",
-            "valor": 2
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 15
-          },
-          {
-            "label": "2º Grau",
-            "valor": 2
-          }
-        ],
-        "polo": [
-          {
-            "label": "Polo ativo",
-            "valor": 8
-          },
-          {
-            "label": "Polo passivo",
-            "valor": 6
-          },
-          {
-            "label": "Terceiro/Outros",
-            "valor": 3
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TJSC",
-            "valor": 11
-          },
-          {
-            "label": "N/I",
-            "valor": 3
-          },
-          {
-            "label": "TJRS",
-            "valor": 2
-          },
-          {
-            "label": "TRF4",
-            "valor": 1
-          }
-        ],
+        "uf": {
+          "SC": 15,
+          "RS": 2
+        },
+        "instancia": {
+          "1º Grau": 15,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 8,
+          "Polo passivo": 6,
+          "Terceiro/Outros": 3
+        },
+        "tribunais": {
+          "TJSC": 11,
+          "N/I": 3,
+          "TJRS": 2,
+          "TRF4": 1
+        },
         "ranking": [
-          {
-            "label": "MUNICÍPIO DE ITAPEMA",
-            "valor": 3
-          },
-          {
-            "label": "PEREIRA E ROMANZINI PARTICIPACOES LTDA EM RECUPERACAO JUDICIAL",
-            "valor": 2
-          },
-          {
-            "label": "ANTONIO DO NASCIMENTO ANTUNES",
-            "valor": 1
-          },
-          {
-            "label": "ATIVA AGRO LTDA",
-            "valor": 1
-          },
-          {
-            "label": "CONCEPT HOME COMÉRCIO DE MÓVEIS E DECORAÇÃO",
-            "valor": 1
-          },
-          {
-            "label": "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
-            "valor": 1
-          },
-          {
-            "label": "GESSICA DA CRUZ ANTUNES",
-            "valor": 1
-          },
-          {
-            "label": "MARCELO REDONDO SILVEIRA ME",
-            "valor": 1
-          },
-          {
-            "label": "MINISTÉRIO DO TRABALHO E EMPREGO",
-            "valor": 1
-          },
-          {
-            "label": "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
-            "valor": 1
-          },
-          {
-            "label": "NÃO HÁ",
-            "valor": 1
-          },
-          {
-            "label": "PREFEITURA MUNICIPAL DE PORTO BELO",
-            "valor": 1
-          },
-          {
-            "label": "TB NORDESTE INDUSTRIA E COMERCIO DE REVESTIMENTOS S/A EM RECUPERACAO JUDICIAL EM RECUPERACAO JUDICIAL - ITAGRES",
-            "valor": 1
-          },
-          {
-            "label": "TRIBUNAL DE JUSTIÇA DO ESTADO DE SANTA CATARINA",
-            "valor": 1
-          }
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            3
+          ],
+          [
+            "PEREIRA E ROMANZINI PARTICIPACOES LTDA EM RECUPERACAO JUDICIAL",
+            2
+          ],
+          [
+            "ANTONIO DO NASCIMENTO ANTUNES",
+            1
+          ],
+          [
+            "ATIVA AGRO LTDA",
+            1
+          ],
+          [
+            "CONCEPT HOME COMÉRCIO DE MÓVEIS E DECORAÇÃO",
+            1
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            1
+          ],
+          [
+            "GESSICA DA CRUZ ANTUNES",
+            1
+          ],
+          [
+            "MARCELO REDONDO SILVEIRA ME",
+            1
+          ],
+          [
+            "MINISTÉRIO DO TRABALHO E EMPREGO",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            1
+          ],
+          [
+            "NÃO HÁ",
+            1
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE PORTO BELO",
+            1
+          ],
+          [
+            "TB NORDESTE INDUSTRIA E COMERCIO DE REVESTIMENTOS S/A EM RECUPERACAO JUDICIAL EM RECUPERACAO JUDICIAL - ITAGRES",
+            1
+          ],
+          [
+            "TRIBUNAL DE JUSTIÇA DO ESTADO DE SANTA CATARINA",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "areas": 6,
           "trib": 4,
           "proc": 62,
-          "ativos": 17
-        }
+          "ativos": 17,
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TJRS, TRF4"
+        },
+        "encerradosTotal": 45
       }
     },
     "perola_do_mar": {
@@ -662,7 +495,15 @@
       "dataset": {
         "total": 1,
         "ativos": 0,
-        "encerrados": 1,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 0,
         "estoque": {
           "2020": 1,
@@ -682,15 +523,6 @@
           "2025": 0,
           "2026": 0
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 1,
-          "2025": 0,
-          "2026": 0
-        },
         "area": [],
         "uf": [],
         "instancia": [],
@@ -703,7 +535,8 @@
           "trib": 0,
           "proc": 1,
           "ativos": 0
-        }
+        },
+        "encerradosTotal": 1
       }
     },
     "hasckel_bens": {
@@ -712,7 +545,15 @@
       "dataset": {
         "total": 2,
         "ativos": 0,
-        "encerrados": 2,
+        "encerrados": {
+          "2020": 0,
+          "2021": 1,
+          "2022": 1,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 0,
         "estoque": {
           "2020": 1,
@@ -732,15 +573,6 @@
           "2025": 0,
           "2026": 0
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 1,
-          "2022": 1,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
         "area": [],
         "uf": [],
         "instancia": [],
@@ -753,7 +585,8 @@
           "trib": 0,
           "proc": 2,
           "ativos": 0
-        }
+        },
+        "encerradosTotal": 2
       }
     },
     "hasckel_hasckel": {
@@ -762,7 +595,15 @@
       "dataset": {
         "total": 5,
         "ativos": 2,
-        "encerrados": 3,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 1,
+          "2024": 1,
+          "2025": 1,
+          "2026": 0
+        },
         "areaTotal": 2,
         "estoque": {
           "2020": 0,
@@ -782,62 +623,38 @@
           "2025": 0,
           "2026": 0
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 1,
-          "2024": 1,
-          "2025": 1,
-          "2026": 0
+        "area": {
+          "Cível": 2
         },
-        "area": [
-          {
-            "label": "Cível",
-            "valor": 2
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 2
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 1
-          },
-          {
-            "label": "2º Grau",
-            "valor": 1
-          }
-        ],
-        "polo": [
-          {
-            "label": "Polo ativo",
-            "valor": 2
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TJSC",
-            "valor": 2
-          }
-        ],
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "1º Grau": 1,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 2
+        },
+        "tribunais": {
+          "TJSC": 2
+        },
         "ranking": [
-          {
-            "label": "SP MOVEIS PLANEJADOS LTDA",
-            "valor": 2
-          }
+          [
+            "SP MOVEIS PLANEJADOS LTDA",
+            2
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "areas": 1,
           "trib": 1,
           "proc": 5,
-          "ativos": 2
-        }
+          "ativos": 2,
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 3
       }
     },
     "francisco_hasckel": {
@@ -846,7 +663,15 @@
       "dataset": {
         "total": 10,
         "ativos": 5,
-        "encerrados": 5,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 1,
+          "2024": 3,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 5,
         "estoque": {
           "2020": 4,
@@ -866,90 +691,54 @@
           "2025": 0,
           "2026": 0
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 1,
-          "2024": 3,
-          "2025": 0,
-          "2026": 0
+        "area": {
+          "Cível": 2,
+          "Penal-Criminal": 2,
+          "Administrativo": 1
         },
-        "area": [
-          {
-            "label": "Cível",
-            "valor": 2
-          },
-          {
-            "label": "Penal-Criminal",
-            "valor": 2
-          },
-          {
-            "label": "Administrativo",
-            "valor": 1
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 5
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 5
-          }
-        ],
-        "polo": [
-          {
-            "label": "Polo passivo",
-            "valor": 3
-          },
-          {
-            "label": "Polo ativo",
-            "valor": 1
-          },
-          {
-            "label": "Terceiro/Outros",
-            "valor": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TJSC",
-            "valor": 3
-          },
-          {
-            "label": "N/I",
-            "valor": 2
-          }
-        ],
+        "uf": {
+          "SC": 5
+        },
+        "instancia": {
+          "1º Grau": 5
+        },
+        "polo": {
+          "Polo passivo": 3,
+          "Polo ativo": 1,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 3,
+          "N/I": 2
+        },
         "ranking": [
-          {
-            "label": "JOANA DARC SOUSA ARAUJO",
-            "valor": 2
-          },
-          {
-            "label": "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-            "valor": 1
-          },
-          {
-            "label": "MUNICIPIO DE MAJOR GERCINO",
-            "valor": 1
-          },
-          {
-            "label": "POLÍCIA CIVIL DO ESTADO DE SANTA CATARINA",
-            "valor": 1
-          }
+          [
+            "JOANA DARC SOUSA ARAUJO",
+            2
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "MUNICIPIO DE MAJOR GERCINO",
+            1
+          ],
+          [
+            "POLÍCIA CIVIL DO ESTADO DE SANTA CATARINA",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "areas": 3,
           "trib": 2,
           "proc": 10,
-          "ativos": 5
-        }
+          "ativos": 5,
+          "areasSub": "Cível, Penal-Criminal, Administrativo",
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 5
       }
     },
     "elisete_hasckel": {
@@ -958,7 +747,15 @@
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 0,
         "estoque": {
           "2020": 0,
@@ -970,15 +767,6 @@
           "2026": 0
         },
         "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "encerrados_por_ano": {
           "2020": 0,
           "2021": 0,
           "2022": 0,
@@ -999,7 +787,8 @@
           "trib": 0,
           "proc": 0,
           "ativos": 0
-        }
+        },
+        "encerradosTotal": 0
       }
     },
     "francisco_jr": {
@@ -1008,7 +797,15 @@
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 0,
         "estoque": {
           "2020": 0,
@@ -1020,15 +817,6 @@
           "2026": 0
         },
         "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "encerrados_por_ano": {
           "2020": 0,
           "2021": 0,
           "2022": 0,
@@ -1049,7 +837,8 @@
           "trib": 0,
           "proc": 0,
           "ativos": 0
-        }
+        },
+        "encerradosTotal": 0
       }
     },
     "willian_hasckel": {
@@ -1058,7 +847,15 @@
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 1,
         "estoque": {
           "2020": 0,
@@ -1078,58 +875,37 @@
           "2025": 0,
           "2026": 0
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
+        "area": {
+          "Cível": 1
         },
-        "area": [
-          {
-            "label": "Cível",
-            "valor": 1
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 1
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 1
-          }
-        ],
-        "polo": [
-          {
-            "label": "Terceiro/Outros",
-            "valor": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TJSC",
-            "valor": 1
-          }
-        ],
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
         "ranking": [
-          {
-            "label": "NÃO HÁ",
-            "valor": 1
-          }
+          [
+            "NÃO HÁ",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "areas": 1,
           "trib": 1,
           "proc": 1,
-          "ativos": 1
-        }
+          "ativos": 1,
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 0
       }
     }
   },

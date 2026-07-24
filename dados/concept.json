@@ -5,8 +5,8 @@
     "areas": 7,
     "trib": 8,
     "procSub": "49 ativos · 107 encerrados",
-    "areasSub": "",
-    "tribSub": ""
+    "areasSub": "Cível, Bancário, Tributário",
+    "tribSub": "TRF4, TJSC, Justiça Federal de Santa Catarina"
   },
   "empresas": {
     "_panorama": {
@@ -15,7 +15,15 @@
       "dataset": {
         "total": 156,
         "ativos": 49,
-        "encerrados": 107,
+        "encerrados": {
+          "2020": 3,
+          "2021": 3,
+          "2022": 25,
+          "2023": 12,
+          "2024": 51,
+          "2025": 7,
+          "2026": 4
+        },
         "areaTotal": 49,
         "estoque": {
           "2020": 84,
@@ -35,190 +43,103 @@
           "2025": 33,
           "2026": 9
         },
-        "encerrados_por_ano": {
-          "2020": 3,
-          "2021": 3,
-          "2022": 25,
-          "2023": 12,
-          "2024": 51,
-          "2025": 7,
-          "2026": 4
+        "area": {
+          "Cível": 21,
+          "Bancário": 17,
+          "Tributário": 6,
+          "Ambiental": 2,
+          "Imobiliário": 1,
+          "Penal-Criminal": 1,
+          "Trabalhista": 1
         },
-        "area": [
-          {
-            "label": "Cível",
-            "valor": 21
-          },
-          {
-            "label": "Bancário",
-            "valor": 17
-          },
-          {
-            "label": "Tributário",
-            "valor": 6
-          },
-          {
-            "label": "Ambiental",
-            "valor": 2
-          },
-          {
-            "label": "Imobiliário",
-            "valor": 1
-          },
-          {
-            "label": "Penal-Criminal",
-            "valor": 1
-          },
-          {
-            "label": "Trabalhista",
-            "valor": 1
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 40
-          },
-          {
-            "label": "PR",
-            "valor": 4
-          },
-          {
-            "label": "N/I",
-            "valor": 2
-          },
-          {
-            "label": "RS",
-            "valor": 2
-          },
-          {
-            "label": "DF",
-            "valor": 1
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 35
-          },
-          {
-            "label": "2º Grau",
-            "valor": 12
-          },
-          {
-            "label": "Superiores",
-            "valor": 2
-          }
-        ],
-        "polo": [
-          {
-            "label": "Polo passivo",
-            "valor": 38
-          },
-          {
-            "label": "Polo ativo",
-            "valor": 6
-          },
-          {
-            "label": "Terceiro/Outros",
-            "valor": 5
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TRF4",
-            "valor": 22
-          },
-          {
-            "label": "TJSC",
-            "valor": 16
-          },
-          {
-            "label": "N/I",
-            "valor": 4
-          },
-          {
-            "label": "Justiça Federal de Santa Catarina",
-            "valor": 2
-          },
-          {
-            "label": "STJ",
-            "valor": 2
-          },
-          {
-            "label": "Justiça Federal do Rio Grande do Sul",
-            "valor": 1
-          },
-          {
-            "label": "TJRS",
-            "valor": 1
-          },
-          {
-            "label": "TRT12",
-            "valor": 1
-          }
-        ],
+        "uf": {
+          "SC": 40,
+          "PR": 4,
+          "N/I": 2,
+          "RS": 2,
+          "DF": 1
+        },
+        "instancia": {
+          "1º Grau": 35,
+          "2º Grau": 12,
+          "Superiores": 2
+        },
+        "polo": {
+          "Polo passivo": 38,
+          "Polo ativo": 6,
+          "Terceiro/Outros": 5
+        },
+        "tribunais": {
+          "TRF4": 22,
+          "TJSC": 16,
+          "N/I": 4,
+          "Justiça Federal de Santa Catarina": 2,
+          "STJ": 2,
+          "Justiça Federal do Rio Grande do Sul": 1,
+          "TJRS": 1,
+          "TRT12": 1
+        },
         "ranking": [
-          {
-            "label": "CAIXA ECONÔMICA FEDERAL",
-            "valor": 7
-          },
-          {
-            "label": "UNIÃO FAZENDA NACIONAL",
-            "valor": 4
-          },
-          {
-            "label": "THIAGO OSNILDO SERPA",
-            "valor": 3
-          },
-          {
-            "label": "BANCO DO BRASIL S/A",
-            "valor": 2
-          },
-          {
-            "label": "FAACI",
-            "valor": 2
-          },
-          {
-            "label": "HUGO SALVADOR DE OLIVEIRA FILHO",
-            "valor": 2
-          },
-          {
-            "label": "LEILA APARECIDA MARTINS",
-            "valor": 2
-          },
-          {
-            "label": "VLADIMIR DAMHA HIPOLITO",
-            "valor": 2
-          },
-          {
-            "label": "ALEX DE JESUS SALDANHA",
-            "valor": 1
-          },
-          {
-            "label": "ALLAN MARCANTE FRANCIOSI",
-            "valor": 1
-          },
-          {
-            "label": "CLEVERSON JOSE WOISA",
-            "valor": 1
-          },
-          {
-            "label": "DELMIR SILVESTRINI",
-            "valor": 1
-          },
-          {
-            "label": "ELEANDRO VETTORELLO SILVEIRA",
-            "valor": 1
-          },
-          {
-            "label": "FLAVIO SPEROTTO",
-            "valor": 1
-          },
-          {
-            "label": "FÁBIO ANDREI DE NOVAIS",
-            "valor": 1
-          }
+          [
+            "CAIXA ECONÔMICA FEDERAL",
+            7
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            4
+          ],
+          [
+            "THIAGO OSNILDO SERPA",
+            3
+          ],
+          [
+            "BANCO DO BRASIL S/A",
+            2
+          ],
+          [
+            "FAACI",
+            2
+          ],
+          [
+            "HUGO SALVADOR DE OLIVEIRA FILHO",
+            2
+          ],
+          [
+            "LEILA APARECIDA MARTINS",
+            2
+          ],
+          [
+            "VLADIMIR DAMHA HIPOLITO",
+            2
+          ],
+          [
+            "ALEX DE JESUS SALDANHA",
+            1
+          ],
+          [
+            "ALLAN MARCANTE FRANCIOSI",
+            1
+          ],
+          [
+            "CLEVERSON JOSE WOISA",
+            1
+          ],
+          [
+            "DELMIR SILVESTRINI",
+            1
+          ],
+          [
+            "ELEANDRO VETTORELLO SILVEIRA",
+            1
+          ],
+          [
+            "FLAVIO SPEROTTO",
+            1
+          ],
+          [
+            "FÁBIO ANDREI DE NOVAIS",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
@@ -227,8 +148,8 @@
           "areas": 7,
           "trib": 8,
           "procSub": "49 ativos · 107 encerrados",
-          "areasSub": "",
-          "tribSub": ""
+          "areasSub": "Cível, Bancário, Tributário",
+          "tribSub": "TRF4, TJSC, Justiça Federal de Santa Catarina"
         },
         "esforco": {
           "comProducao": 153,
@@ -291,7 +212,8 @@
           },
           "_estimativa": true
         },
-        "_panorama": true
+        "_panorama": true,
+        "encerradosTotal": 107
       }
     },
     "concept": {
@@ -300,7 +222,15 @@
       "dataset": {
         "total": 142,
         "ativos": 46,
-        "encerrados": 96,
+        "encerrados": {
+          "2020": 3,
+          "2021": 1,
+          "2022": 22,
+          "2023": 12,
+          "2024": 50,
+          "2025": 6,
+          "2026": 0
+        },
         "areaTotal": 46,
         "estoque": {
           "2020": 76,
@@ -320,198 +250,114 @@
           "2025": 30,
           "2026": 9
         },
-        "encerrados_por_ano": {
-          "2020": 3,
-          "2021": 1,
-          "2022": 22,
-          "2023": 12,
-          "2024": 50,
-          "2025": 6,
-          "2026": 0
+        "area": {
+          "Cível": 20,
+          "Bancário": 15,
+          "Tributário": 6,
+          "Ambiental": 2,
+          "Imobiliário": 1,
+          "Penal-Criminal": 1,
+          "Trabalhista": 1
         },
-        "area": [
-          {
-            "label": "Cível",
-            "valor": 20
-          },
-          {
-            "label": "Bancário",
-            "valor": 15
-          },
-          {
-            "label": "Tributário",
-            "valor": 6
-          },
-          {
-            "label": "Ambiental",
-            "valor": 2
-          },
-          {
-            "label": "Imobiliário",
-            "valor": 1
-          },
-          {
-            "label": "Penal-Criminal",
-            "valor": 1
-          },
-          {
-            "label": "Trabalhista",
-            "valor": 1
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 38
-          },
-          {
-            "label": "PR",
-            "valor": 3
-          },
-          {
-            "label": "N/I",
-            "valor": 2
-          },
-          {
-            "label": "RS",
-            "valor": 2
-          },
-          {
-            "label": "DF",
-            "valor": 1
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 33
-          },
-          {
-            "label": "2º Grau",
-            "valor": 11
-          },
-          {
-            "label": "Superiores",
-            "valor": 2
-          }
-        ],
-        "polo": [
-          {
-            "label": "Polo passivo",
-            "valor": 37
-          },
-          {
-            "label": "Polo ativo",
-            "valor": 5
-          },
-          {
-            "label": "Terceiro/Outros",
-            "valor": 4
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TRF4",
-            "valor": 20
-          },
-          {
-            "label": "TJSC",
-            "valor": 15
-          },
-          {
-            "label": "N/I",
-            "valor": 4
-          },
-          {
-            "label": "Justiça Federal de Santa Catarina",
-            "valor": 2
-          },
-          {
-            "label": "STJ",
-            "valor": 2
-          },
-          {
-            "label": "Justiça Federal do Rio Grande do Sul",
-            "valor": 1
-          },
-          {
-            "label": "TJRS",
-            "valor": 1
-          },
-          {
-            "label": "TRT12",
-            "valor": 1
-          }
-        ],
+        "uf": {
+          "SC": 38,
+          "PR": 3,
+          "N/I": 2,
+          "RS": 2,
+          "DF": 1
+        },
+        "instancia": {
+          "1º Grau": 33,
+          "2º Grau": 11,
+          "Superiores": 2
+        },
+        "polo": {
+          "Polo passivo": 37,
+          "Polo ativo": 5,
+          "Terceiro/Outros": 4
+        },
+        "tribunais": {
+          "TRF4": 20,
+          "TJSC": 15,
+          "N/I": 4,
+          "Justiça Federal de Santa Catarina": 2,
+          "STJ": 2,
+          "Justiça Federal do Rio Grande do Sul": 1,
+          "TJRS": 1,
+          "TRT12": 1
+        },
         "ranking": [
-          {
-            "label": "CAIXA ECONÔMICA FEDERAL",
-            "valor": 5
-          },
-          {
-            "label": "UNIÃO FAZENDA NACIONAL",
-            "valor": 4
-          },
-          {
-            "label": "THIAGO OSNILDO SERPA",
-            "valor": 3
-          },
-          {
-            "label": "BANCO DO BRASIL S/A",
-            "valor": 2
-          },
-          {
-            "label": "FAACI",
-            "valor": 2
-          },
-          {
-            "label": "HUGO SALVADOR DE OLIVEIRA FILHO",
-            "valor": 2
-          },
-          {
-            "label": "LEILA APARECIDA MARTINS",
-            "valor": 2
-          },
-          {
-            "label": "VLADIMIR DAMHA HIPOLITO",
-            "valor": 2
-          },
-          {
-            "label": "ALEX DE JESUS SALDANHA",
-            "valor": 1
-          },
-          {
-            "label": "ALLAN MARCANTE FRANCIOSI",
-            "valor": 1
-          },
-          {
-            "label": "CLEVERSON JOSE WOISA",
-            "valor": 1
-          },
-          {
-            "label": "DELMIR SILVESTRINI",
-            "valor": 1
-          },
-          {
-            "label": "ELEANDRO VETTORELLO SILVEIRA",
-            "valor": 1
-          },
-          {
-            "label": "FLAVIO SPEROTTO",
-            "valor": 1
-          },
-          {
-            "label": "FÁBIO ANDREI DE NOVAIS",
-            "valor": 1
-          }
+          [
+            "CAIXA ECONÔMICA FEDERAL",
+            5
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            4
+          ],
+          [
+            "THIAGO OSNILDO SERPA",
+            3
+          ],
+          [
+            "BANCO DO BRASIL S/A",
+            2
+          ],
+          [
+            "FAACI",
+            2
+          ],
+          [
+            "HUGO SALVADOR DE OLIVEIRA FILHO",
+            2
+          ],
+          [
+            "LEILA APARECIDA MARTINS",
+            2
+          ],
+          [
+            "VLADIMIR DAMHA HIPOLITO",
+            2
+          ],
+          [
+            "ALEX DE JESUS SALDANHA",
+            1
+          ],
+          [
+            "ALLAN MARCANTE FRANCIOSI",
+            1
+          ],
+          [
+            "CLEVERSON JOSE WOISA",
+            1
+          ],
+          [
+            "DELMIR SILVESTRINI",
+            1
+          ],
+          [
+            "ELEANDRO VETTORELLO SILVEIRA",
+            1
+          ],
+          [
+            "FLAVIO SPEROTTO",
+            1
+          ],
+          [
+            "FÁBIO ANDREI DE NOVAIS",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "areas": 7,
           "trib": 8,
           "proc": 142,
-          "ativos": 46
-        }
+          "ativos": 46,
+          "areasSub": "Cível, Bancário, Tributário",
+          "tribSub": "TRF4, TJSC, Justiça Federal de Santa Catarina"
+        },
+        "encerradosTotal": 96
       }
     },
     "luciano_lima": {
@@ -520,7 +366,15 @@
       "dataset": {
         "total": 14,
         "ativos": 3,
-        "encerrados": 11,
+        "encerrados": {
+          "2020": 0,
+          "2021": 2,
+          "2022": 3,
+          "2023": 0,
+          "2024": 1,
+          "2025": 1,
+          "2026": 4
+        },
         "areaTotal": 3,
         "estoque": {
           "2020": 8,
@@ -540,86 +394,47 @@
           "2025": 3,
           "2026": 0
         },
-        "encerrados_por_ano": {
-          "2020": 0,
-          "2021": 2,
-          "2022": 3,
-          "2023": 0,
-          "2024": 1,
-          "2025": 1,
-          "2026": 4
+        "area": {
+          "Bancário": 2,
+          "Cível": 1
         },
-        "area": [
-          {
-            "label": "Bancário",
-            "valor": 2
-          },
-          {
-            "label": "Cível",
-            "valor": 1
-          }
-        ],
-        "uf": [
-          {
-            "label": "SC",
-            "valor": 2
-          },
-          {
-            "label": "PR",
-            "valor": 1
-          }
-        ],
-        "instancia": [
-          {
-            "label": "1º Grau",
-            "valor": 2
-          },
-          {
-            "label": "2º Grau",
-            "valor": 1
-          }
-        ],
-        "polo": [
-          {
-            "label": "Polo ativo",
-            "valor": 1
-          },
-          {
-            "label": "Polo passivo",
-            "valor": 1
-          },
-          {
-            "label": "Terceiro/Outros",
-            "valor": 1
-          }
-        ],
-        "tribunais": [
-          {
-            "label": "TRF4",
-            "valor": 2
-          },
-          {
-            "label": "TJSC",
-            "valor": 1
-          }
-        ],
+        "uf": {
+          "SC": 2,
+          "PR": 1
+        },
+        "instancia": {
+          "1º Grau": 2,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Polo passivo": 1,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TRF4": 2,
+          "TJSC": 1
+        },
         "ranking": [
-          {
-            "label": "CAIXA ECONÔMICA FEDERAL",
-            "valor": 2
-          },
-          {
-            "label": "ÉRICO MELLO JUNIOR",
-            "valor": 1
-          }
+          [
+            "CAIXA ECONÔMICA FEDERAL",
+            2
+          ],
+          [
+            "ÉRICO MELLO JUNIOR",
+            1
+          ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "areas": 2,
           "trib": 2,
           "proc": 14,
-          "ativos": 3
-        }
+          "ativos": 3,
+          "areasSub": "Bancário, Cível",
+          "tribSub": "TRF4, TJSC"
+        },
+        "encerradosTotal": 11
       }
     },
     "vista_atlantico": {
@@ -628,7 +443,15 @@
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "areaTotal": 0,
         "estoque": {
           "2020": 0,
@@ -640,15 +463,6 @@
           "2026": 0
         },
         "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "encerrados_por_ano": {
           "2020": 0,
           "2021": 0,
           "2022": 0,
@@ -669,7 +483,8 @@
           "trib": 0,
           "proc": 0,
           "ativos": 0
-        }
+        },
+        "encerradosTotal": 0
       }
     }
   },
