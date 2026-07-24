@@ -79,8 +79,7 @@
   @keyframes clogoIn{
     0%{opacity:0;transform:scale(1.14)}
     28%{opacity:1}
-    72%{opacity:1;transform:scale(1.0)}
-    100%{opacity:0;transform:scale(.97)}
+    100%{opacity:1;transform:scale(1.0)}
   }
 
   /* 2. fio dourado sob o título (hero e landing) */
@@ -1804,6 +1803,10 @@ window.__initApp = function(){
     // deep-link interno (uso próprio) pula a cortina; MODO CLIENTE mostra a cortina p/ encantar.
     if(temHash && !modoCliente){ curtain.style.display='none'; return ready(); }
     curtain.style.display='flex'; // garante visível
+    // REINICIA a animação do logo AGORA (a cortina só aparece após o fetch do JSON, que pode
+    // demorar; sem isso a animação CSS já teria terminado no load e o logo apareceria invisível).
+    var _clogo=curtain.querySelector('.clogo');
+    if(_clogo){ _clogo.style.animation='none'; void _clogo.offsetWidth; _clogo.style.animation=''; }
     // timers com setTimeout puro (NÃO usar rAF — não dispara em aba de fundo e travaria a cortina)
     setTimeout(function(){ curtain.classList.add('up'); ready(); }, 1900); // 1.9s: tempo de ver a animação do logo
     curtain.addEventListener('transitionend', function(){ curtain.style.display='none'; }, {once:true});
@@ -2056,7 +2059,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260724g';
+  var _cb = '?v=20260724h';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
