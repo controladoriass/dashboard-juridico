@@ -1113,7 +1113,7 @@ function renderDashboard(){
     var _bt=el('sd-badge-txt'), _tx=el('sd-texto');
     if(DATA.dataset._semProcessos){
       if(_bt)_bt.textContent='Sem processos vinculados';
-      if(_tx)_tx.textContent='Este cadastro não possui processos vinculados no EasyJur até a data de corte ('+DATA_CORTE.curta+').';
+      if(_tx)_tx.textContent='Este cadastro não possui processos vinculados no EasyJur até a data de corte ('+DATA_CORTE.extenso+').';
     } else {
       if(_bt)_bt.textContent='Em atualização';
       var _alvo = DATA.dataset._panorama ? 'deste grupo' : 'desta empresa';
@@ -1513,7 +1513,7 @@ function renderDashboard(){
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
   if(el('v-encerr')){ el('v-encerr').dataset.count=totEncerr; el('v-encerr').textContent=totEncerr.toLocaleString('pt-BR'); }
   if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
-  if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.curta+')';
+  if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.extenso+')';
   // limpar containers
   ['estoque','instancia','polo','donut-leg','regioes','tribunais','audano','prazano','tarefano','atividades','extrajudano','people','horasano'].forEach(limpa);
   el('donut').innerHTML=''; const fx=el('fluxo'); fx.innerHTML=''; delete fx.dataset.built;
@@ -2063,7 +2063,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260729serpa';
+  var _cb = '?v=20260729serpaB';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})

@@ -1,10 +1,10 @@
 {
  "kpiGrupo": {
-  "proc": 38,
-  "ativos": 37,
+  "proc": 39,
+  "ativos": 38,
   "areas": 1,
   "trib": 4,
-  "procSub": "37 ativos · 1 encerrado",
+  "procSub": "38 ativos · 1 encerrado",
   "areasSub": "Trabalhista",
   "tribSub": "TRT12, MINTRAB, MPT"
  },
@@ -13,43 +13,43 @@
    "nome": "Panorama",
    "_idCliente": 2147299,
    "dataset": {
-    "total": 38,
-    "ativos": 37,
+    "total": 39,
+    "ativos": 38,
     "encerrados": {
      "2025": 1
     },
-    "areaTotal": 37,
+    "areaTotal": 38,
     "estoque": {
      "2022": 7,
      "2023": 14,
      "2024": 18,
      "2025": 28,
-     "2026": 37
+     "2026": 38
     },
     "entradas": {
      "2022": 7,
      "2023": 7,
      "2024": 4,
      "2025": 11,
-     "2026": 9
+     "2026": 10
     },
     "area": {
-     "Trabalhista": 37
+     "Trabalhista": 38
     },
     "uf": {
-     "SC": 36
+     "SC": 37
     },
     "instancia": {
-     "1º Grau": 27,
+     "1º Grau": 28,
      "2º Grau": 9,
      "Superiores": 1
     },
     "polo": {
-     "Polo passivo": 35,
+     "Polo passivo": 36,
      "Terceiro/Outros": 2
     },
     "tribunais": {
-     "TRT12": 32,
+     "TRT12": 33,
      "N/D": 3,
      "MINTRAB": 1,
      "MPT": 1
@@ -70,6 +70,10 @@
      [
       "PATRIQUE HERNANDES DOS SANTOS",
       2
+     ],
+     [
+      "FABIANA LIMA VIANA",
+      1
      ],
      [
       "JONATHAN COSTA DA SILVA",
@@ -110,25 +114,21 @@
      [
       "MARIVALDO SOUZA DOS SANTOS",
       1
-     ],
-     [
-      "JOSE CLEUTO DE QUADROS DA CRUZ",
-      1
      ]
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 38,
-     "ativos": 37,
+     "proc": 39,
+     "ativos": 38,
      "areas": 1,
      "trib": 4,
-     "procSub": "37 ativos · 1 encerrado",
+     "procSub": "38 ativos · 1 encerrado",
      "areasSub": "Trabalhista",
      "tribSub": "TRT12, MINTRAB, MPT"
     },
     "esforco": {
-     "comProducao": 38,
-     "tramitacaoDias": 710,
+     "comProducao": 39,
+     "tramitacaoDias": 692,
      "prazano": {
       "2021": 1,
       "2022": 35,
@@ -169,8 +169,8 @@
     },
     "horas": {
      "total": 940.2,
-     "media": 24.7,
-     "mediaAtivos": 25.4,
+     "media": 24.1,
+     "mediaAtivos": 24.7,
      "horasano": {
       "2021": 5.1,
       "2022": 106.6,
@@ -189,43 +189,43 @@
    "nome": "SERPA Pré Fabricados Ltda",
    "_idCliente": 2147299,
    "dataset": {
-    "total": 38,
-    "ativos": 37,
+    "total": 39,
+    "ativos": 38,
     "encerrados": {
      "2025": 1
     },
-    "areaTotal": 37,
+    "areaTotal": 38,
     "estoque": {
      "2022": 7,
      "2023": 14,
      "2024": 18,
      "2025": 28,
-     "2026": 37
+     "2026": 38
     },
     "entradas": {
      "2022": 7,
      "2023": 7,
      "2024": 4,
      "2025": 11,
-     "2026": 9
+     "2026": 10
     },
     "area": {
-     "Trabalhista": 37
+     "Trabalhista": 38
     },
     "uf": {
-     "SC": 36
+     "SC": 37
     },
     "instancia": {
-     "1º Grau": 27,
+     "1º Grau": 28,
      "2º Grau": 9,
      "Superiores": 1
     },
     "polo": {
-     "Polo passivo": 35,
+     "Polo passivo": 36,
      "Terceiro/Outros": 2
     },
     "tribunais": {
-     "TRT12": 32,
+     "TRT12": 33,
      "N/D": 3,
      "MINTRAB": 1,
      "MPT": 1
@@ -246,6 +246,10 @@
      [
       "PATRIQUE HERNANDES DOS SANTOS",
       2
+     ],
+     [
+      "FABIANA LIMA VIANA",
+      1
      ],
      [
       "JONATHAN COSTA DA SILVA",
@@ -286,25 +290,21 @@
      [
       "MARIVALDO SOUZA DOS SANTOS",
       1
-     ],
-     [
-      "JOSE CLEUTO DE QUADROS DA CRUZ",
-      1
      ]
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 38,
-     "ativos": 37,
+     "proc": 39,
+     "ativos": 38,
      "areas": 1,
      "trib": 4,
-     "procSub": "37 ativos · 1 encerrado",
+     "procSub": "38 ativos · 1 encerrado",
      "areasSub": "Trabalhista",
      "tribSub": "TRT12, MINTRAB, MPT"
     },
     "esforco": {
-     "comProducao": 38,
-     "tramitacaoDias": 710,
+     "comProducao": 39,
+     "tramitacaoDias": 692,
      "prazano": {
       "2021": 1,
       "2022": 35,
@@ -345,8 +345,8 @@
     },
     "horas": {
      "total": 940.2,
-     "media": 24.7,
-     "mediaAtivos": 25.4,
+     "media": 24.1,
+     "mediaAtivos": 24.7,
      "horasano": {
       "2021": 5.1,
       "2022": 106.6,
