@@ -403,6 +403,8 @@
   .land-sub{display:flex;align-items:center;gap:12px;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:10px 0 24px}
   .land-sub::before{content:"";width:3px;height:14px;background:var(--gold);transform:skewX(-16deg);border-radius:1px}
   .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;padding-bottom:80px}
+  /* grupos com poucas empresas: nao esticar os cards na largura toda — manter tamanho natural alinhado a esquerda */
+  .cards.few{grid-template-columns:repeat(auto-fill,minmax(300px,380px));justify-content:start}
   .ccard{background:var(--card);border:1px solid var(--card-bd);border-radius:18px;padding:26px;cursor:pointer;
     transition:transform .3s var(--t),border-color .3s,background .3s;position:relative;overflow:hidden}
   .ccard::after{content:"";position:absolute;right:-30px;bottom:-40px;font-family:'Montserrat';font-size:150px;
@@ -1438,7 +1440,8 @@ function renderDashboard(){
       porto:    { valor_mensal:  6484.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2020-03-30' },
       profor:   { valor_mensal:  5829.12, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-07-15' },
       wf:       { valor_mensal:  8169.44, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2018-09-01' },
-      abc:      { valor_mensal: 12968.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2019-11-15' }
+      abc:      { valor_mensal: 12968.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2019-11-15' },
+      serpa:    { valor_mensal:  4052.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2022-05-06' }
     };
     var _c = _CONTRATOS[_gAtC];
     if(!_c){ _bl.style.display='none'; return; }
@@ -1684,6 +1687,8 @@ function montarEmpresas(gk){
   el('emp-titulo').innerHTML=g.nomeHtml;
   el('emp-eyebrow').textContent = g.nEmpresas>1 ? 'Grupo econômico' : 'Cliente';
   const box=el('cards-empresas'); box.innerHTML='';
+  // grupos com poucos cards (ate 2, ex.: cliente unico Panorama+empresa) nao devem esticar na largura toda
+  box.classList.toggle('few', Object.keys(g.empresas).length <= 2);
   const GO='<span class="go"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>';
   let i=0;
   Object.entries(g.empresas).forEach(([ek,emp])=>{
