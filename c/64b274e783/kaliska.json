@@ -1,0 +1,521 @@
+{
+ "kpiGrupo": {
+  "proc": 63,
+  "ativos": 58,
+  "areas": 7,
+  "trib": 8,
+  "procSub": "58 ativos · 5 encerrados",
+  "areasSub": "Cível, Bancário, Recuperação Judicial",
+  "tribSub": "TJSC, TJSP, TRF4"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 685413942,
+   "dataset": {
+    "total": 63,
+    "ativos": 58,
+    "encerrados": {
+     "2024": 1,
+     "2025": 2,
+     "2026": 2
+    },
+    "areaTotal": 58,
+    "estoque": {
+     "2021": 4,
+     "2022": 4,
+     "2023": 4,
+     "2024": 3,
+     "2025": 35,
+     "2026": 58
+    },
+    "entradas": {
+     "2021": 4,
+     "2025": 34,
+     "2026": 25
+    },
+    "area": {
+     "Cível": 23,
+     "Bancário": 19,
+     "Recuperação Judicial": 9,
+     "Tributário": 3,
+     "Pública": 2,
+     "Penal-Criminal": 1,
+     "Trabalhista": 1
+    },
+    "uf": {
+     "SC": 44,
+     "SP": 5,
+     "RJ": 2,
+     "DF": 1,
+     "RS": 1
+    },
+    "instancia": {
+     "1º Grau": 51,
+     "2º Grau": 6,
+     "Superiores": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 44,
+     "Polo ativo": 12,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TJSC": 40,
+     "TJSP": 5,
+     "N/D": 5,
+     "TRF4": 3,
+     "TJRJ": 2,
+     "STJ": 1,
+     "TRT12": 1,
+     "TJRS": 1
+    },
+    "ranking": [
+     [
+      "COOPERATIVA DE CREDITO VALE DO ITAJAI VIACREDI",
+      7
+     ],
+     [
+      "SANTINVEST S/A CREDITO FINANCIAMENTO E INVESTIMENTOS",
+      3
+     ],
+     [
+      "BANCO DO BRASIL S/A",
+      3
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC",
+      3
+     ],
+     [
+      "SASKIA THAIS CADORE DIRSCHNABEL FOPPA",
+      2
+     ],
+     [
+      "OPERA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISETORIAL",
+      2
+     ],
+     [
+      "CLAUDIO CARVALHO DE SOUZA",
+      2
+     ],
+     [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS GOAL ONE",
+      2
+     ],
+     [
+      "ZINZANE COMERCIO E CONFECCAO DE VESTUARIO LTDA",
+      2
+     ],
+     [
+      "BORDO COMERCIO DE AVIAMENTOS LTDA",
+      2
+     ],
+     [
+      "RDF FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DE RESPONSABILIDADE LIMITADA",
+      2
+     ],
+     [
+      "N. QUADROS CONFECCOES LTDA -- ROSINEIA QUADROS LAUREANO",
+      2
+     ],
+     [
+      "GILMAR STELO",
+      2
+     ],
+     [
+      "CELESC DISTRIBUIÇÃO S.A.",
+      2
+     ],
+     [
+      "MARCOS AURELIO GROH",
+      2
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 63,
+     "ativos": 58,
+     "areas": 7,
+     "trib": 8,
+     "procSub": "58 ativos · 5 encerrados",
+     "areasSub": "Cível, Bancário, Recuperação Judicial",
+     "tribSub": "TJSC, TJSP, TRF4"
+    },
+    "esforco": {
+     "comProducao": 63,
+     "tramitacaoDias": 323,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 945.6,
+     "media": 15.0,
+     "mediaAtivos": 16.3,
+     "horasano": {
+      "2026": 584.4,
+      "2025": 346.6,
+      "2021": 0.5,
+      "2022": 4.6,
+      "2023": 1.8,
+      "2024": 7.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 5,
+    "_panorama": true
+   }
+  },
+  "caidiservicosadminis_": {
+   "nome": "CAIDI SERVICOS ADMINISTRATIVOS LTDA - KALISKA",
+   "_idCliente": 685413942,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 1
+    },
+    "entradas": {
+     "2026": 1
+    },
+    "area": {
+     "Bancário": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJSC": 1
+    },
+    "ranking": [
+     [
+      "SANTINVEST S/A CREDITO FINANCIAMENTO E INVESTIMENTOS",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Bancário",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 31,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 6.7,
+     "media": 6.7,
+     "mediaAtivos": 6.7,
+     "horasano": {
+      "2026": 6.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "carloshenriquedirsch_": {
+   "nome": "CARLOS HENRIQUE DIRSCHNABEL - KALISKA",
+   "_idCliente": 681573747,
+   "dataset": {
+    "total": 10,
+    "ativos": 9,
+    "encerrados": {
+     "2026": 1
+    },
+    "areaTotal": 9,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 3,
+     "2026": 9
+    },
+    "entradas": {
+     "2025": 3,
+     "2026": 7
+    },
+    "area": {
+     "Bancário": 5,
+     "Cível": 3,
+     "Penal-Criminal": 1
+    },
+    "uf": {
+     "SC": 9
+    },
+    "instancia": {
+     "1º Grau": 7,
+     "2º Grau": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 9
+    },
+    "tribunais": {
+     "TJSC": 9
+    },
+    "ranking": [
+     [
+      "BANCO DO BRASIL S/A",
+      2
+     ],
+     [
+      "SASKIA THAIS CADORE DIRSCHNABEL FOPPA",
+      2
+     ],
+     [
+      "COOPERATIVA DE CREDITO VALE DO ITAJAI VIACREDI",
+      1
+     ],
+     [
+      "ITAU UNIBANCO S.A.",
+      1
+     ],
+     [
+      "OPERA FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS MULTISETORIAL",
+      1
+     ],
+     [
+      "POLÍCIA CIVIL DO ESTADO DE SANTA CATARINA",
+      1
+     ],
+     [
+      "PAULO ROBERTO RIBEIRO",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 10,
+     "ativos": 9,
+     "areas": 3,
+     "trib": 1,
+     "procSub": "9 ativos · 1 encerrado",
+     "areasSub": "Bancário, Cível, Penal-Criminal",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 10,
+     "tramitacaoDias": 195,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 103.4,
+     "media": 10.3,
+     "mediaAtivos": 11.5,
+     "horasano": {
+      "2025": 46.4,
+      "2026": 56.9
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1
+   }
+  },
+  "kaliskatextilltdakal_": {
+   "nome": "KALISKA TÊXTIL LTDA - KALISKA",
+   "_idCliente": 2118745,
+   "dataset": {
+    "total": 52,
+    "ativos": 48,
+    "encerrados": {
+     "2024": 1,
+     "2025": 2,
+     "2026": 1
+    },
+    "areaTotal": 48,
+    "estoque": {
+     "2021": 4,
+     "2022": 4,
+     "2023": 4,
+     "2024": 3,
+     "2025": 32,
+     "2026": 48
+    },
+    "entradas": {
+     "2021": 4,
+     "2025": 31,
+     "2026": 17
+    },
+    "area": {
+     "Cível": 20,
+     "Bancário": 13,
+     "Recuperação Judicial": 9,
+     "Tributário": 3,
+     "Pública": 2,
+     "Trabalhista": 1
+    },
+    "uf": {
+     "SC": 34,
+     "SP": 5,
+     "RJ": 2,
+     "DF": 1,
+     "RS": 1
+    },
+    "instancia": {
+     "1º Grau": 43,
+     "2º Grau": 4,
+     "Superiores": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 34,
+     "Polo ativo": 12,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TJSC": 30,
+     "TJSP": 5,
+     "N/D": 5,
+     "TRF4": 3,
+     "TJRJ": 2,
+     "STJ": 1,
+     "TRT12": 1,
+     "TJRS": 1
+    },
+    "ranking": [
+     [
+      "COOPERATIVA DE CREDITO VALE DO ITAJAI VIACREDI",
+      6
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC",
+      3
+     ],
+     [
+      "CLAUDIO CARVALHO DE SOUZA",
+      2
+     ],
+     [
+      "FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS GOAL ONE",
+      2
+     ],
+     [
+      "ZINZANE COMERCIO E CONFECCAO DE VESTUARIO LTDA",
+      2
+     ],
+     [
+      "BORDO COMERCIO DE AVIAMENTOS LTDA",
+      2
+     ],
+     [
+      "SANTINVEST S/A CREDITO FINANCIAMENTO E INVESTIMENTOS",
+      2
+     ],
+     [
+      "RDF FUNDO DE INVESTIMENTO EM DIREITOS CREDITORIOS DE RESPONSABILIDADE LIMITADA",
+      2
+     ],
+     [
+      "N. QUADROS CONFECCOES LTDA -- ROSINEIA QUADROS LAUREANO",
+      2
+     ],
+     [
+      "GILMAR STELO",
+      2
+     ],
+     [
+      "CELESC DISTRIBUIÇÃO S.A.",
+      2
+     ],
+     [
+      "MARCOS AURELIO GROH",
+      2
+     ],
+     [
+      "BANCO DO BRASIL S/A",
+      1
+     ],
+     [
+      "ITAU UNIBANCO S.A",
+      1
+     ],
+     [
+      "GUILHERME LANZ WEISSHEIMER",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 52,
+     "ativos": 48,
+     "areas": 6,
+     "trib": 8,
+     "procSub": "48 ativos · 4 encerrados",
+     "areasSub": "Cível, Bancário, Recuperação Judicial",
+     "tribSub": "TJSC, TJSP, TRF4"
+    },
+    "esforco": {
+     "comProducao": 52,
+     "tramitacaoDias": 353,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 835.5,
+     "media": 16.1,
+     "mediaAtivos": 17.4,
+     "horasano": {
+      "2021": 0.5,
+      "2022": 4.6,
+      "2023": 1.8,
+      "2024": 7.7,
+      "2025": 300.1,
+      "2026": 520.8
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 4
+   }
+  }
+ },
+ "nome": "Grupo KALISKA",
+ "nomeHtml": "Grupo <em>KALISKA</em>",
+ "nEmpresas": 3
+}

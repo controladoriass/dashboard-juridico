@@ -1,0 +1,332 @@
+{
+ "kpiGrupo": {
+  "proc": 6,
+  "ativos": 6,
+  "areas": 4,
+  "trib": 3,
+  "procSub": "6 ativos · 0 encerrados",
+  "areasSub": "Tributário, Penal-Criminal, Cível",
+  "tribSub": "TRF4, TJSC"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 683905875,
+   "dataset": {
+    "total": 6,
+    "ativos": 6,
+    "encerrados": {},
+    "areaTotal": 6,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 5,
+     "2026": 6
+    },
+    "entradas": {
+     "2025": 5,
+     "2026": 1
+    },
+    "area": {
+     "Tributário": 2,
+     "Penal-Criminal": 2,
+     "Cível": 1,
+     "Trabalhista": 1
+    },
+    "uf": {
+     "SC": 2,
+     "PR": 1
+    },
+    "instancia": {
+     "1º Grau": 5,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 3,
+     "Polo ativo": 3
+    },
+    "tribunais": {
+     "N/D": 3,
+     "TRF4": 2,
+     "TJSC": 1
+    },
+    "ranking": [
+     [
+      "ANDERSON LUIZ ENDLER",
+      3
+     ],
+     [
+      "DELEGADO DA ALFÂNDEGA DA RECEITA FEDERAL DO BRASIL EM ITAJAÍ/SC",
+      2
+     ],
+     [
+      "CONSTRUTORA ART EM OBRAS",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 6,
+     "ativos": 6,
+     "areas": 4,
+     "trib": 3,
+     "procSub": "6 ativos · 0 encerrados",
+     "areasSub": "Tributário, Penal-Criminal, Cível",
+     "tribSub": "TRF4, TJSC"
+    },
+    "esforco": {
+     "comProducao": 6,
+     "tramitacaoDias": 246,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 344.9,
+     "media": 57.5,
+     "mediaAtivos": 57.5,
+     "horasano": {
+      "2026": 147.2,
+      "2025": 197.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0,
+    "_panorama": true
+   }
+  },
+  "adsdronesdistribuica_683905875": {
+   "nome": "ADS DRONES DISTRIBUICAO LTDA  - MATRIZ - ADS",
+   "_idCliente": 683905875,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 16.3,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2026": 16.3
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "ncatechcomerciodemaq_682740903": {
+   "nome": "NCA TECH COMERCIO DE MAQUINAS LTDA - ADS",
+   "_idCliente": 682740903,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 1
+    },
+    "entradas": {
+     "2025": 1
+    },
+    "area": {
+     "Tributário": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TRF4": 1
+    },
+    "ranking": [
+     [
+      "DELEGADO DA ALFÂNDEGA DA RECEITA FEDERAL DO BRASIL EM ITAJAÍ/SC",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Tributário",
+     "tribSub": "TRF4"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 291,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 34.4,
+     "media": 34.4,
+     "mediaAtivos": 34.4,
+     "horasano": {
+      "2025": 14.8,
+      "2026": 19.6
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "adsdronesdistribuica_682529991": {
+   "nome": "ADS DRONES DISTRIBUICAO LTDA - ADS",
+   "_idCliente": 682529991,
+   "dataset": {
+    "total": 5,
+    "ativos": 5,
+    "encerrados": {},
+    "areaTotal": 5,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 4,
+     "2026": 5
+    },
+    "entradas": {
+     "2025": 4,
+     "2026": 1
+    },
+    "area": {
+     "Penal-Criminal": 2,
+     "Cível": 1,
+     "Trabalhista": 1,
+     "Tributário": 1
+    },
+    "uf": {
+     "SC": 1,
+     "PR": 1
+    },
+    "instancia": {
+     "1º Grau": 5
+    },
+    "polo": {
+     "Polo ativo": 3,
+     "Terceiro/Outros": 2
+    },
+    "tribunais": {
+     "N/D": 3,
+     "TJSC": 1,
+     "TRF4": 1
+    },
+    "ranking": [
+     [
+      "ANDERSON LUIZ ENDLER",
+      3
+     ],
+     [
+      "CONSTRUTORA ART EM OBRAS",
+      1
+     ],
+     [
+      "DELEGADO DA ALFÂNDEGA DA RECEITA FEDERAL DO BRASIL EM ITAJAÍ/SC",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 5,
+     "ativos": 5,
+     "areas": 4,
+     "trib": 3,
+     "procSub": "5 ativos · 0 encerrados",
+     "areasSub": "Penal-Criminal, Cível, Trabalhista",
+     "tribSub": "TJSC, TRF4"
+    },
+    "esforco": {
+     "comProducao": 5,
+     "tramitacaoDias": 237,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 294.2,
+     "media": 58.8,
+     "mediaAtivos": 58.8,
+     "horasano": {
+      "2025": 182.9,
+      "2026": 111.3
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo ADS",
+ "nomeHtml": "Grupo <em>ADS</em>",
+ "nEmpresas": 3
+}

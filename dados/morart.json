@@ -1,0 +1,542 @@
+{
+ "kpiGrupo": {
+  "proc": 47,
+  "ativos": 41,
+  "areas": 6,
+  "trib": 4,
+  "procSub": "41 ativos · 6 encerrados",
+  "areasSub": "Cível, Penal-Criminal, Tributário",
+  "tribSub": "TJSC, TJRS, STJ"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 2123532,
+   "dataset": {
+    "total": 47,
+    "ativos": 41,
+    "encerrados": {
+     "2019": 1,
+     "2020": 3,
+     "2021": 2
+    },
+    "areaTotal": 41,
+    "estoque": {
+     "2017": 23,
+     "2018": 23,
+     "2019": 28,
+     "2020": 26,
+     "2021": 27,
+     "2022": 29,
+     "2023": 31,
+     "2024": 35,
+     "2025": 38,
+     "2026": 41
+    },
+    "entradas": {
+     "2017": 23,
+     "2019": 6,
+     "2020": 1,
+     "2021": 3,
+     "2022": 2,
+     "2023": 2,
+     "2024": 4,
+     "2025": 3,
+     "2026": 3
+    },
+    "area": {
+     "Cível": 23,
+     "Penal-Criminal": 7,
+     "Tributário": 5,
+     "Administrativo": 3,
+     "Imobiliário": 2,
+     "Pública": 1
+    },
+    "uf": {
+     "SC": 37,
+     "RS": 1,
+     "DF": 1
+    },
+    "instancia": {
+     "1º Grau": 28,
+     "2º Grau": 4,
+     "Superiores": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 20,
+     "Polo ativo": 18,
+     "Polo passivo": 3
+    },
+    "tribunais": {
+     "TJSC": 31,
+     "N/D": 8,
+     "TJRS": 1,
+     "STJ": 1
+    },
+    "ranking": [
+     [
+      "MUNICÍPIO DE ITAPEMA",
+      9
+     ],
+     [
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+      6
+     ],
+     [
+      "MARIA LUCIA PEREIRA",
+      4
+     ],
+     [
+      "PROSILK IMPRESSÃO DE MATRIAIS PUBLICITÁRIOS EIRELI",
+      3
+     ],
+     [
+      "CONSELHO REGIONAL DE CORRETORES DE IMOVEIS 11 REGIÃO CRECI/SC",
+      3
+     ],
+     [
+      "MINISTÉRIO PÚBLICO FEDERAL",
+      3
+     ],
+     [
+      "GHENO & CIA LTDA ME",
+      2
+     ],
+     [
+      "JESSICA BONFIM",
+      1
+     ],
+     [
+      "ALEXANDRE CORTES DICATI",
+      1
+     ],
+     [
+      "AMBIENTAL LIMPEZA URBANA E SANEAMENTO LTDA",
+      1
+     ],
+     [
+      "JOSIANE HINTERHOLTZ",
+      1
+     ],
+     [
+      "SECRETÁRIO DE FINANÇAS DO MUNICÍPIO DE ITAPEMA SANTA CATARINA",
+      1
+     ],
+     [
+      "ARLENE BERGER STEDILE",
+      1
+     ],
+     [
+      "PEDRO CASCAES NETO",
+      1
+     ],
+     [
+      "ORAL UNIC FRANQUIA LTDA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 47,
+     "ativos": 41,
+     "areas": 6,
+     "trib": 4,
+     "procSub": "41 ativos · 6 encerrados",
+     "areasSub": "Cível, Penal-Criminal, Tributário",
+     "tribSub": "TJSC, TJRS, STJ"
+    },
+    "esforco": {
+     "comProducao": 47,
+     "tramitacaoDias": 2171,
+     "prazano": {
+      "2021": 0,
+      "2022": 12,
+      "2023": 38,
+      "2024": 33,
+      "2025": 25,
+      "2026": 25
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 2,
+      "2023": 0,
+      "2024": 1,
+      "2025": 2,
+      "2026": 3
+     },
+     "tarefano": {
+      "2021": 186,
+      "2022": 54,
+      "2023": 102,
+      "2024": 205,
+      "2025": 71,
+      "2026": 43
+     },
+     "atividades": {
+      "Prazos": 133,
+      "Audiências": 8,
+      "Reuniões e Diligências": 661
+     },
+     "extrajudano": {
+      "2021": 40,
+      "2022": 190,
+      "2023": 49,
+      "2024": 6,
+      "2025": 0,
+      "2026": 65
+     }
+    },
+    "horas": {
+     "total": 721.0,
+     "media": 15.3,
+     "mediaAtivos": 17.6,
+     "horasano": {
+      "2021": 14.3,
+      "2022": 87.4,
+      "2023": 140.0,
+      "2024": 193.9,
+      "2025": 162.9,
+      "2026": 122.5
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 6,
+    "_panorama": true
+   }
+  },
+  "morartcorretoraeimob_": {
+   "nome": "MORART CORRETORA E IMOBILIÁRIA LTDA - MORART",
+   "_idCliente": 2123532,
+   "dataset": {
+    "total": 30,
+    "ativos": 28,
+    "encerrados": {
+     "2020": 2
+    },
+    "areaTotal": 28,
+    "estoque": {
+     "2017": 13,
+     "2018": 13,
+     "2019": 17,
+     "2020": 16,
+     "2021": 19,
+     "2022": 20,
+     "2023": 21,
+     "2024": 25,
+     "2025": 26,
+     "2026": 28
+    },
+    "entradas": {
+     "2017": 13,
+     "2019": 4,
+     "2020": 1,
+     "2021": 3,
+     "2022": 1,
+     "2023": 1,
+     "2024": 4,
+     "2025": 1,
+     "2026": 2
+    },
+    "area": {
+     "Cível": 18,
+     "Tributário": 4,
+     "Administrativo": 2,
+     "Imobiliário": 2,
+     "Penal-Criminal": 2
+    },
+    "uf": {
+     "SC": 26,
+     "RS": 1
+    },
+    "instancia": {
+     "1º Grau": 21,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Polo ativo": 16,
+     "Terceiro/Outros": 10,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TJSC": 21,
+     "N/D": 6,
+     "TJRS": 1
+    },
+    "ranking": [
+     [
+      "MUNICÍPIO DE ITAPEMA",
+      7
+     ],
+     [
+      "MARIA LUCIA PEREIRA",
+      4
+     ],
+     [
+      "PROSILK IMPRESSÃO DE MATRIAIS PUBLICITÁRIOS EIRELI",
+      3
+     ],
+     [
+      "CONSELHO REGIONAL DE CORRETORES DE IMOVEIS 11 REGIÃO CRECI/SC",
+      3
+     ],
+     [
+      "GHENO & CIA LTDA ME",
+      2
+     ],
+     [
+      "MINISTÉRIO PÚBLICO FEDERAL",
+      2
+     ],
+     [
+      "JESSICA BONFIM",
+      1
+     ],
+     [
+      "ALEXANDRE CORTES DICATI",
+      1
+     ],
+     [
+      "AMBIENTAL LIMPEZA URBANA E SANEAMENTO LTDA",
+      1
+     ],
+     [
+      "JOSIANE HINTERHOLTZ",
+      1
+     ],
+     [
+      "SECRETÁRIO DE FINANÇAS DO MUNICÍPIO DE ITAPEMA SANTA CATARINA",
+      1
+     ],
+     [
+      "ARLENE BERGER STEDILE",
+      1
+     ],
+     [
+      "PEDRO CASCAES NETO",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 30,
+     "ativos": 28,
+     "areas": 5,
+     "trib": 3,
+     "procSub": "28 ativos · 2 encerrados",
+     "areasSub": "Cível, Tributário, Administrativo",
+     "tribSub": "TJSC, TJRS"
+    },
+    "esforco": {
+     "comProducao": 30,
+     "tramitacaoDias": 2143,
+     "prazano": {
+      "2021": 0,
+      "2022": 12,
+      "2023": 25,
+      "2024": 25,
+      "2025": 25,
+      "2026": 16
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 97,
+      "2022": 53,
+      "2023": 100,
+      "2024": 202,
+      "2025": 69,
+      "2026": 31
+     },
+     "atividades": {
+      "Prazos": 103,
+      "Audiências": 1,
+      "Reuniões e Diligências": 552
+     },
+     "extrajudano": {
+      "2021": 40,
+      "2022": 188,
+      "2023": 45,
+      "2024": 0,
+      "2025": 0,
+      "2026": 57
+     }
+    },
+    "horas": {
+     "total": 552.4,
+     "media": 18.4,
+     "mediaAtivos": 19.7,
+     "horasano": {
+      "2021": 14.3,
+      "2022": 64.0,
+      "2023": 106.4,
+      "2024": 157.1,
+      "2025": 126.9,
+      "2026": 83.8
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 2
+   }
+  },
+  "luizcarlosfeitosamor_": {
+   "nome": "LUIZ CARLOS FEITOSA - MORART",
+   "_idCliente": 2120364,
+   "dataset": {
+    "total": 17,
+    "ativos": 13,
+    "encerrados": {
+     "2019": 1,
+     "2020": 1,
+     "2021": 2
+    },
+    "areaTotal": 13,
+    "estoque": {
+     "2017": 10,
+     "2018": 10,
+     "2019": 11,
+     "2020": 10,
+     "2021": 8,
+     "2022": 9,
+     "2023": 10,
+     "2024": 10,
+     "2025": 12,
+     "2026": 13
+    },
+    "entradas": {
+     "2017": 10,
+     "2019": 2,
+     "2022": 1,
+     "2023": 1,
+     "2025": 2,
+     "2026": 1
+    },
+    "area": {
+     "Cível": 5,
+     "Penal-Criminal": 5,
+     "Administrativo": 1,
+     "Tributário": 1,
+     "Pública": 1
+    },
+    "uf": {
+     "SC": 11,
+     "DF": 1
+    },
+    "instancia": {
+     "1º Grau": 7,
+     "2º Grau": 3,
+     "Superiores": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 10,
+     "Polo ativo": 2,
+     "Polo passivo": 1
+    },
+    "tribunais": {
+     "TJSC": 10,
+     "N/D": 2,
+     "STJ": 1
+    },
+    "ranking": [
+     [
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+      6
+     ],
+     [
+      "MUNICÍPIO DE ITAPEMA",
+      2
+     ],
+     [
+      "ORAL UNIC FRANQUIA LTDA",
+      1
+     ],
+     [
+      "YACHTHOUSE INCORPORADORA LTDA",
+      1
+     ],
+     [
+      "FABIO DE SIENO",
+      1
+     ],
+     [
+      "MINISTÉRIO PÚBLICO FEDERAL",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 17,
+     "ativos": 13,
+     "areas": 5,
+     "trib": 3,
+     "procSub": "13 ativos · 4 encerrados",
+     "areasSub": "Cível, Penal-Criminal, Administrativo",
+     "tribSub": "TJSC, STJ"
+    },
+    "esforco": {
+     "comProducao": 17,
+     "tramitacaoDias": 2233,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 13,
+      "2024": 8,
+      "2025": 0,
+      "2026": 9
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 2,
+      "2023": 0,
+      "2024": 0,
+      "2025": 2,
+      "2026": 3
+     },
+     "tarefano": {
+      "2021": 89,
+      "2022": 1,
+      "2023": 2,
+      "2024": 3,
+      "2025": 2,
+      "2026": 12
+     },
+     "atividades": {
+      "Prazos": 30,
+      "Audiências": 7,
+      "Reuniões e Diligências": 109
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 2,
+      "2023": 4,
+      "2024": 6,
+      "2025": 0,
+      "2026": 8
+     }
+    },
+    "horas": {
+     "total": 168.6,
+     "media": 9.9,
+     "mediaAtivos": 13.0,
+     "horasano": {
+      "2022": 23.5,
+      "2023": 33.6,
+      "2024": 36.8,
+      "2025": 36.0,
+      "2026": 38.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 4
+   }
+  }
+ },
+ "nome": "Grupo MORART",
+ "nomeHtml": "Grupo <em>MORART</em>",
+ "nEmpresas": 2
+}

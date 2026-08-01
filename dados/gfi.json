@@ -1,0 +1,234 @@
+{
+ "kpiGrupo": {
+  "proc": 1,
+  "ativos": 1,
+  "areas": 1,
+  "trib": 1,
+  "procSub": "1 ativos · 0 encerrados",
+  "areasSub": "Cível",
+  "tribSub": "TJSC"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 685246624,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 1
+    },
+    "entradas": {
+     "2026": 1
+    },
+    "area": {
+     "Cível": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJSC": 1
+    },
+    "ranking": [
+     [
+      "TT EMPREENDIMENTOS IMOBILIARIOS LTDA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 43,
+     "prazano": {
+      "2026": 7
+     },
+     "audano": {},
+     "tarefano": {
+      "2026": 6
+     },
+     "atividades": {
+      "Prazos": 7,
+      "Audiências": 0,
+      "Reuniões e Diligências": 6
+     },
+     "extrajudano": {
+      "2026": 11
+     }
+    },
+    "horas": {
+     "total": 41.1,
+     "media": 41.1,
+     "mediaAtivos": 41.1,
+     "horasano": {
+      "2026": 41.1
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0,
+    "_panorama": true
+   }
+  },
+  "odirleischustergfi_": {
+   "nome": "ODIRLEI SCHUSTER - GFI",
+   "_idCliente": 685246624,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 1
+    },
+    "entradas": {
+     "2026": 1
+    },
+    "area": {
+     "Cível": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJSC": 1
+    },
+    "ranking": [
+     [
+      "TT EMPREENDIMENTOS IMOBILIARIOS LTDA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 43,
+     "prazano": {
+      "2026": 7
+     },
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 7,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 23.3,
+     "media": 23.3,
+     "mediaAtivos": 23.3,
+     "horasano": {
+      "2026": 23.3
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "gfifirstinternationa_": {
+   "nome": "GFI FIRST INTERNATIONAL LTDA - GFI",
+   "_idCliente": 685237653,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {
+      "2026": 6
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 6
+     },
+     "extrajudano": {
+      "2026": 11
+     }
+    },
+    "horas": {
+     "total": 17.8,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2026": 17.8
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo GFI",
+ "nomeHtml": "Grupo <em>GFI</em>",
+ "nEmpresas": 2
+}
