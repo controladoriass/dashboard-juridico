@@ -194,18 +194,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 1484.3,
+     "media": 9.4,
+     "mediaAtivos": 9.8,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 576.9,
+      "2025": 453.0,
+      "2026": 454.4
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 7,
     "_panorama": true
@@ -295,18 +295,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 15.3,
+     "media": 15.3,
+     "mediaAtivos": 15.3,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 5.6,
+      "2025": 8.3,
+      "2026": 1.4
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -385,18 +385,18 @@
      }
     },
     "horas": {
-     "total": 0,
+     "total": 212.7,
      "media": 0,
      "mediaAtivos": 0,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 212.7,
+      "2025": 0.0,
+      "2026": 0.0
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -570,18 +570,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 337.8,
+     "media": 8.0,
+     "mediaAtivos": 8.4,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 70.9,
+      "2025": 95.9,
+      "2026": 171.0
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 2
    }
@@ -681,18 +681,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 7.0,
+     "media": 3.5,
+     "mediaAtivos": 3.5,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 4.2,
+      "2026": 2.8
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -827,18 +827,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 100.0,
+     "media": 8.3,
+     "mediaAtivos": 9.1,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 91.7,
+      "2026": 8.3
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 1
    }
@@ -972,18 +972,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 100.1,
+     "media": 10.0,
+     "mediaAtivos": 12.5,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 100.1,
+      "2025": 0.0,
+      "2026": 0.0
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 2
    }
@@ -1141,18 +1141,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 218.2,
+     "media": 10.4,
+     "mediaAtivos": 11.5,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 94.5,
+      "2025": 83.4,
+      "2026": 40.3
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 2
    }
@@ -1285,18 +1285,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 59.7,
+     "media": 5.4,
+     "mediaAtivos": 5.4,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 12.5,
+      "2025": 11.1,
+      "2026": 36.1
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -1393,18 +1393,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 27.8,
+     "media": 13.9,
+     "mediaAtivos": 13.9,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 27.8,
+      "2025": 0.0,
+      "2026": 0.0
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -1561,18 +1561,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 129.2,
+     "media": 5.0,
+     "mediaAtivos": 5.0,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 29.2,
+      "2025": 23.6,
+      "2026": 76.4
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -1698,18 +1698,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 88.9,
+     "media": 8.9,
+     "mediaAtivos": 8.9,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 9.7,
+      "2026": 79.2
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -1842,18 +1842,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 155.7,
+     "media": 9.7,
+     "mediaAtivos": 9.7,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 116.8,
+      "2026": 38.9
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -1972,18 +1972,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 30.5,
+     "media": 7.6,
+     "mediaAtivos": 7.6,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 23.6,
+      "2025": 6.9,
+      "2026": 0.0
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
@@ -2079,18 +2079,18 @@
      }
     },
     "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
+     "total": 1.4,
+     "media": 1.4,
+     "mediaAtivos": 1.4,
      "horasano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 1.4,
+      "2026": 0.0
      },
-     "_estimativa": false
+     "_estimativa": true
     },
     "encerradosTotal": 0
    }
