@@ -2135,7 +2135,7 @@ var LINKS_CLIENTE = {
   morart:'6d1c4f07ba', mtop:'11ecbae7cd', ads:'9354606f67', easychef:'6b894e79db', kaliska:'64b274e783',
   latex:'45c4e9b7e5', lsc:'059e567ac3', sabores:'8c3f60520a', dynamis:'26e879e130', jorcelina:'095e4888e9',
   primor:'1d6b667531', asael:'9a59e6d276', chady:'4e26ecb5c2', rech:'ae78acdcfe', embra:'e92bc0827a',
-  golden:'2fbfd5c61c', feltz:'69f46d8453', mallo:'309fc6537d', 3rs:'a69f8bd880', brasil:'5b2a499674',
+  golden:'2fbfd5c61c', feltz:'69f46d8453', mallo:'309fc6537d', '3rs':'a69f8bd880', brasil:'5b2a499674',
   kreibich:'8412b3bf59', poti:'1821d8293a', pz:'1583395839', comex:'4f3dd0d777'
 };
 // toast discreto (some sozinho) — usado ao copiar o link do cliente
@@ -2184,7 +2184,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260803linksfix';
+  var _cb = '?v=20260803fix3rs';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
