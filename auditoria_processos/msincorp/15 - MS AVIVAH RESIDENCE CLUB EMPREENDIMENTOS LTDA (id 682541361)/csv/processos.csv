@@ -1,0 +1,15 @@
+id_processo;numero;pasta;status_label;area;instancia_label;uf;comarca;tribunal_sigla;tribunal_nome;vinculo;nome_contrario;titulo_acao;valor_causa;data_cadastro;data_distribuicao;data_encerramento;fase_atual;advogado;entrou_no_dashboard
+16323826;5066584-13.2026.8.24.0000;;Ativo;Cível;2º Grau;SC;;;;;GABRIEL KLEINSCHMIDT;;0;2026-07-17;;;;;sim
+16308106;5024791-70.2026.8.24.0008;;Ativo;Cível;1º Grau;SC;;;;;JONATHAN GUILHERME SALVARO;;60553.34;2026-07-14;;;;;sim
+16284065;5040968-36.2026.8.24.0000;;Ativo;Cível;2º Grau;SC;;;;;JANAINA BATISTA;;144039.84;2026-07-08;;;;;sim
+16247944;5015323-82.2026.8.24.0008;;Ativo;Cível;1º Grau;SC;;;;;IVAN GIRARDI;;107464.8;2026-06-29;;;;;sim
+16164725;5021833-14.2026.8.24.0008;;Ativo;Cível;1º Grau;SC;;;;;GABRIEL KLEINSCHMIDT;;50780;2026-06-16;;;;;sim
+16069983;5048706-75.2026.8.24.0000;;Ativo;Cível;2º Grau;SC;;;;;JANAINA BATISTA;;0;2026-06-01;;;;;sim
+15937683;5012899-67.2026.8.24.0008;;Ativo;Cível;1º Grau;SC;;;;;SHIRLEI ROBERTA DE SOUZA;;41206.87;2026-05-07;;;;;sim
+15900364;5013664-38.2026.8.24.0008;;Ativo;Cível;1º Grau;SC;;;;;JANAINA BATISTA;;144039.84;2026-05-04;;;;;sim
+15724897;5012917-81.2025.8.24.0054;;Ativo;Cível;1º Grau;SC;;;;;MJ CONSTRUCAO E ENGENHARIA LTDA;;178127.45;2026-04-08;;;;;sim
+15270806;5031636-55.2025.8.24.0008;;Ativo;Cível;1º Grau;SC;;;;;AMANDA HELENA CIRICO;;32600;2026-01-14;;;;;sim
+15213246;02026.004752/2025-43;;Ativo;Ambiental;1º Grau;SC;;;;;IBAMA;;22721.19;2026-01-08;;;;;sim
+14904171;5004606-45.2025.8.24.0008;;Baixado;Tributário;1º Grau;SC;;;;;MUNICÍPIO DE BLUMENAU;;1518;2025-11-05;;;;;sim
+14816051;5012788-51.2025.4.04.7205;;Ativo;Ambiental;2º Grau;SC;;;;;IBAMA;;22022.23;2025-10-05;;;;;sim
+14807890;5014697-34.2024.8.24.0008;;Ativo;Cível;2º Grau;SC;;;;;ARLETE ESEMANN;;85672.64;2025-10-01;;;;;sim

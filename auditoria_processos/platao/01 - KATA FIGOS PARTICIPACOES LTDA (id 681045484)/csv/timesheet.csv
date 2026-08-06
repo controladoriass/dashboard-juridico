@@ -1,0 +1,6 @@
+id;data_timesheet;responsavel;tempo_hh;tempo_decimal;tipo_agenda;status;descricao;id_processo
+8623355;2026-01-19;RUTH MENDES DA SILVA;00:03:00;0.05;PRAZO;C;;
+7725030;2025-08-18;Marco Antonio Sala;00:20:00;0.333;TAREFA;C;;
+6263544;2025-03-31;Controladoria;00:05:00;0.083;PRAZO;A;;
+6395973;2025-03-14;Ana Paula Bardini;00:05:00;0.083;PRAZO;C;;
+6265203;2025-03-05;Ana Paula Bardini;00:05:00;0.083;PRAZO;C;;

@@ -1,0 +1,24 @@
+[
+ {
+  "id_processo": 15639146,
+  "numero": "5001395-23.2026.8.24.0054",
+  "pasta": null,
+  "status_label": "Ativo",
+  "area": "Cível",
+  "instancia_label": "1º Grau",
+  "uf": "SC",
+  "comarca": null,
+  "tribunal_sigla": "",
+  "tribunal_nome": "",
+  "vinculo": null,
+  "nome_contrario": "FUEL COMPUTACAO GRAFICA LTDA",
+  "titulo_acao": null,
+  "valor_causa": 26503.2,
+  "data_cadastro": "2026-03-19",
+  "data_distribuicao": null,
+  "data_encerramento": null,
+  "fase_atual": null,
+  "advogado": null,
+  "entrou_no_dashboard": "sim"
+ }
+]

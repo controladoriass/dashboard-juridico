@@ -1,0 +1,6 @@
+id_processo;numero;pasta;status_label;area;instancia_label;uf;comarca;tribunal_sigla;tribunal_nome;vinculo;nome_contrario;titulo_acao;valor_causa;data_cadastro;data_distribuicao;data_encerramento;fase_atual;advogado;entrou_no_dashboard
+15915286;5015375-93.2026.4.04.0000;23676;Ativo;Tributario;2o Grau;RS;Porto Alegre;TRF4;TRF4;Agravado;Delegado da Alfandega RFB Curitiba/JFPR;Agravo de Instrumento;124202.33;2026-05-05;2026-05-05;;;KIM AUGUSTO ZANONI;sim
+14999698;5071809-88.2025.4.04.7000;22402;Ativo;Tributario;1o Grau;PR;Curitiba;TRF4;TRF4;Impetrante;Delegado da Alfandega RFB Curitiba/JFPR;;124202.33;2025-12-12;2025-12-12;;;KIM AUGUSTO ZANONI;sim
+14959798;15165.722459/2025-19;22291;Ativo;Aduaneiro;1o Grau;PR;Curitiba;;;Autuado;ALFANDEGA RFB CURITIBA;Auto de Infracao Cancelamento Habilitacao;0;2025-12-02;2025-11-27;;;KIM AUGUSTO ZANONI;sim
+14959704;15165.722451/2025-52;22286;Ativo;Aduaneiro;1o Grau;PR;Curitiba;;;Autuado;ALFANDEGA RFB CURITIBA;;0;2025-12-02;2025-11-27;;;KIM AUGUSTO ZANONI;sim
+14952822;10906.418827/2025-92;22245;Ativo;Aduaneiro;1o Grau;PR;Curitiba;;;Notificado;ALFANDEGA RFB CURITIBA;Termo Diligencia RCS-800/2025;0;2025-11-27;2025-11-17;;;MAIKO ROBERTO MAIER;sim

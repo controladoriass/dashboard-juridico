@@ -1,0 +1,450 @@
+{
+ "kpiGrupo": {
+  "proc": 7,
+  "ativos": 7,
+  "areas": 3,
+  "trib": 3,
+  "procSub": "7 ativos · 0 encerrados",
+  "areasSub": "Família e Sucessões, Trabalhista, Tributário",
+  "tribSub": "TJSC, TRT12"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 681045484,
+   "dataset": {
+    "total": 7,
+    "ativos": 7,
+    "encerrados": {},
+    "areaTotal": 7,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 6,
+     "2026": 7
+    },
+    "entradas": {
+     "2025": 6,
+     "2026": 1
+    },
+    "area": {
+     "Família e Sucessões": 4,
+     "Trabalhista": 2,
+     "Tributário": 1
+    },
+    "uf": {
+     "SC": 7
+    },
+    "instancia": {
+     "1º Grau": 7
+    },
+    "polo": {
+     "Terceiro/Outros": 3,
+     "Polo ativo": 2,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TJSC": 4,
+     "TRT12": 2,
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "MARALINA PINTO DE FIGUEIREDO",
+      4
+     ],
+     [
+      "ABNER AUGUSTO STEFFEN",
+      1
+     ],
+     [
+      "OLIVIA ASHLING KEYS VIEIRA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 7,
+     "ativos": 7,
+     "areas": 3,
+     "trib": 3,
+     "procSub": "7 ativos · 0 encerrados",
+     "areasSub": "Família e Sucessões, Trabalhista, Tributário",
+     "tribSub": "TJSC, TRT12"
+    },
+    "esforco": {
+     "comProducao": 7,
+     "tramitacaoDias": 408,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 264.3,
+     "media": 37.8,
+     "mediaAtivos": 37.8,
+     "horasano": {
+      "2025": 169.3,
+      "2026": 92.3,
+      "2023": 2.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0,
+    "_panorama": true
+   }
+  },
+  "katafigosparticipaco_681045484": {
+   "nome": "KATA FIGOS PARTICIPACOES LTDA",
+   "_idCliente": 681045484,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 1
+    },
+    "entradas": {
+     "2025": 1
+    },
+    "area": {
+     "Tributário": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "N/D": 1
+    },
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Tributário",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 509,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 0.6,
+     "media": 0.6,
+     "mediaAtivos": 0.6,
+     "horasano": {
+      "2025": 0.6,
+      "2026": 0.1
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "horacioplataogoesdef_675981467": {
+   "nome": "HORACIO PLATAO GOES DE FIGUEIREDO",
+   "_idCliente": 675981467,
+   "dataset": {
+    "total": 4,
+    "ativos": 4,
+    "encerrados": {},
+    "areaTotal": 4,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 4,
+     "2026": 4
+    },
+    "entradas": {
+     "2025": 4
+    },
+    "area": {
+     "Família e Sucessões": 4
+    },
+    "uf": {
+     "SC": 4
+    },
+    "instancia": {
+     "1º Grau": 4
+    },
+    "polo": {
+     "Terceiro/Outros": 3,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJSC": 4
+    },
+    "ranking": [
+     [
+      "MARALINA PINTO DE FIGUEIREDO",
+      4
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 4,
+     "ativos": 4,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "4 ativos · 0 encerrados",
+     "areasSub": "Família e Sucessões",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 4,
+     "tramitacaoDias": 489,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 193.8,
+     "media": 48.5,
+     "mediaAtivos": 48.5,
+     "horasano": {
+      "2023": 2.7,
+      "2025": 128.8,
+      "2026": 62.4
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "vendecasaempreendime_675848897": {
+   "nome": "VENDECASA EMPREENDIMENTOS IMOBILIARIOS LTDA",
+   "_idCliente": 675848897,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 3.8,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2025": 3.8
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "pfkparticipacoesltda_682374886": {
+   "nome": "PFK PARTICIPACOES LTDA",
+   "_idCliente": 682374886,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 38.3,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2025": 29.7,
+      "2026": 8.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "saintclaireacademylt_682374980": {
+   "nome": "SAINT CLAIRE ACADEMY LTDA",
+   "_idCliente": 682374980,
+   "dataset": {
+    "total": 2,
+    "ativos": 2,
+    "encerrados": {},
+    "areaTotal": 2,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 2
+    },
+    "entradas": {
+     "2025": 1,
+     "2026": 1
+    },
+    "area": {
+     "Trabalhista": 2
+    },
+    "uf": {
+     "SC": 2
+    },
+    "instancia": {
+     "1º Grau": 2
+    },
+    "polo": {
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TRT12": 2
+    },
+    "ranking": [
+     [
+      "ABNER AUGUSTO STEFFEN",
+      1
+     ],
+     [
+      "OLIVIA ASHLING KEYS VIEIRA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 2,
+     "ativos": 2,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "2 ativos · 0 encerrados",
+     "areasSub": "Trabalhista",
+     "tribSub": "TRT12"
+    },
+    "esforco": {
+     "comProducao": 2,
+     "tramitacaoDias": 194,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 27.8,
+     "media": 13.9,
+     "mediaAtivos": 13.9,
+     "horasano": {
+      "2025": 6.5,
+      "2026": 21.2
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo PLATAO",
+ "nomeHtml": "Grupo <em>PLATAO</em>",
+ "nEmpresas": 5
+}

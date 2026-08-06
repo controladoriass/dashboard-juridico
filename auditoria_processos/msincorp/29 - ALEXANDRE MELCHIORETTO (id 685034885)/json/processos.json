@@ -1,0 +1,24 @@
+[
+ {
+  "id_processo": 15682369,
+  "numero": "5031337-91.2026.8.24.0930",
+  "pasta": null,
+  "status_label": "Ativo",
+  "area": "Bancário",
+  "instancia_label": "1º Grau",
+  "uf": "SC",
+  "comarca": null,
+  "tribunal_sigla": "",
+  "tribunal_nome": "",
+  "vinculo": null,
+  "nome_contrario": "COOPERATIVA DE CREDITO COOPERACAO",
+  "titulo_acao": null,
+  "valor_causa": 289770.37,
+  "data_cadastro": "2026-04-01",
+  "data_distribuicao": null,
+  "data_encerramento": null,
+  "fase_atual": null,
+  "advogado": null,
+  "entrou_no_dashboard": "sim"
+ }
+]

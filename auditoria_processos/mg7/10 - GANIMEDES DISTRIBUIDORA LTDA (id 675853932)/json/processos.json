@@ -1,0 +1,24 @@
+[
+ {
+  "id_processo": 14888979,
+  "numero": "10906.337098/2025-74",
+  "pasta": 21977,
+  "status_label": "Ativo",
+  "area": "Aduaneiro",
+  "instancia_label": "1o Grau",
+  "uf": "PR",
+  "comarca": "Curitiba",
+  "tribunal_sigla": "",
+  "tribunal_nome": "",
+  "vinculo": "Notificado",
+  "nome_contrario": "ALFANDEGA DA RECEITA FEDERAL DO BRASIL EM CURITIBA",
+  "titulo_acao": "Termo de Distribuicao de Procedimento Fiscal (TDPF) no 0917900.2025.00185",
+  "valor_causa": 0,
+  "data_cadastro": "2025-10-29",
+  "data_distribuicao": "2025-09-01",
+  "data_encerramento": null,
+  "fase_atual": "",
+  "advogado": "KIM AUGUSTO ZANONI",
+  "entrou_no_dashboard": "sim"
+ }
+]

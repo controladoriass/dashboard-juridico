@@ -1,0 +1,24 @@
+id;data_timesheet;responsavel;tempo_hh;tempo_decimal;tipo_agenda;status;descricao;id_processo
+10150185;2026-06-22;Controladoria;00:47:00;0.783;PRAZO;C;;
+10150182;2026-06-22;Giuliana Bernardes;00:05:00;0.083;PRAZO;C;;
+10142919;2026-06-22;Matheus Solano Lopes;00:10:00;0.167;PRAZO;C;;
+10141778;2026-06-22;Bruna Gabrielli Vidal;00:02:00;0.033;PRAZO;C;;
+10141775;2026-06-22;Bruna Gabrielli Vidal;00:10:00;0.167;PRAZO;C;;
+10141702;2026-06-22;Bruna Gabrielli Vidal;00:07:00;0.117;PRAZO;C;;
+10124422;2026-06-18;Bruna Gabrielli Vidal;00:08:00;0.133;PRAZO;C;;
+10124053;2026-06-18;Controladoria;00:05:00;0.083;PRAZO;C;;
+10124051;2026-06-18;Barbara Pereira de Barros;00:02:00;0.033;PRAZO;C;;
+10123554;2026-06-18;Bruna Gabrielli Vidal;00:05:00;0.083;PRAZO;C;;
+10121721;2026-06-17;Bruna Gabrielli Vidal;00:10:00;0.167;PRAZO;C;;
+10111519;2026-06-16;Bruna Gabrielli Vidal;00:18:00;0.3;PRAZO;C;;
+10108291;2026-06-16;Julia Stefani de Melo Silva;00:03:00;0.05;PRAZO;C;;
+10036142;2026-06-12;Bruna Gabrielli Vidal;00:09:00;0.15;PRAZO;C;;
+10034405;2026-06-12;Bruna Gabrielli Vidal;00:05:00;0.083;PRAZO;C;;
+10034394;2026-06-11;Bruna Gabrielli Vidal;00:05:00;0.083;PRAZO;C;;
+9141885;2026-03-23;Beatriz Vitória da Silva;00:43:41;0.728;TAREFA;C;;
+6330416;2025-02-10;Fernando de Liz França;00:02:05;0.035;TAREFA;C;;
+6330409;2025-02-10;Fernando de Liz França;00:02:05;0.035;TAREFA;C;;
+1701668;2022-06-02;Danielle Vicente;00:09:00;0.15;AUDIENCIA;C;;
+1347305;2022-02-08;Matheus Henrique Mendonça;02:00:00;2.0;AUDIENCIA;C;;
+1342813;2022-02-07;Cláudia Azevedo dos Santos de Moraes.;00:15:00;0.25;AUDIENCIA;C;;
+1341589;2022-02-07;Cláudia Azevedo dos Santos de Moraes.;00:15:00;0.25;AUDIENCIA;C;;

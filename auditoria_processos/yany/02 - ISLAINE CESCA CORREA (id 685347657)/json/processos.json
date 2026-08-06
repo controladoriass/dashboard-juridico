@@ -1,0 +1,24 @@
+[
+ {
+  "id_processo": 16137122,
+  "numero": "5015063-14.2026.8.24.0005",
+  "pasta": 24021,
+  "status_label": "Ativo",
+  "area": "Cível",
+  "instancia_label": "1º Grau",
+  "uf": "SC",
+  "comarca": "Balneário Camboriú",
+  "tribunal_sigla": "TJSC",
+  "tribunal_nome": "TJSC - Tribunal de Justiça do Estado de Santa Catarina",
+  "vinculo": "Autor",
+  "nome_contrario": "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
+  "titulo_acao": "",
+  "valor_causa": 10555.26,
+  "data_cadastro": "2026-06-14",
+  "data_distribuicao": "2026-08-03",
+  "data_encerramento": null,
+  "fase_atual": "",
+  "advogado": "MAIKO ROBERTO MAIER",
+  "entrou_no_dashboard": "sim"
+ }
+]

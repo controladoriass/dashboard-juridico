@@ -1,0 +1,24 @@
+[
+ {
+  "id_processo": 14069420,
+  "numero": "094/2025",
+  "pasta": 18750,
+  "status_label": "Ativo",
+  "area": "Tributário",
+  "instancia_label": "1º Grau",
+  "uf": "SC",
+  "comarca": null,
+  "tribunal_sigla": "",
+  "tribunal_nome": "",
+  "vinculo": "Autor",
+  "nome_contrario": "",
+  "titulo_acao": "não incidência do ITBI na cisão parcial",
+  "valor_causa": 0,
+  "data_cadastro": "2025-03-05",
+  "data_distribuicao": null,
+  "data_encerramento": null,
+  "fase_atual": "",
+  "advogado": "KIM AUGUSTO ZANONI",
+  "entrou_no_dashboard": "sim"
+ }
+]
