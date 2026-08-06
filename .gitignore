@@ -14,3 +14,6 @@ launch.json
 # sistema
 .DS_Store
 Thumbs.db
+
+# Auditoria interna — não publicar no Pages (peso demais)
+auditoria_processos/
