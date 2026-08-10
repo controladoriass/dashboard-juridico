@@ -330,3 +330,53 @@ Sempre nesta ordem:
   - Título do card é dinâmico: "N empresas atendidas".
   - Vale igual no modo cliente (pasta `c/`). No dashboard de empresa individual o bloco fica oculto.
 - Cache-buster: `?v=20260722a`.
+
+### 2026-08-10 (mega expansão + padronizações)
+
+**Grupos publicados:** 39 → 103 grupos (+64 novos ao longo de 4 dias)
+
+**Padronizações aplicadas em todos os 103 grupos:**
+
+- **Nome do grupo** — prefixo obrigatório "Grupo " + Title Case (Grupo Serpa, Grupo Brusvi, Grupo Sabores...) mantendo siglas em CAPS (Grupo ABC, Grupo WF, Grupo MG7, Grupo 300F, Grupo ZM S.A.)
+- **Card panorama** — todos com "Panorama Geral do Grupo" (era "Panorama do grupo" em alguns)
+- **Nomes de empresas** — Title Case ("Maquina de Vendas Franchising LTDA" em vez de "MAQUINA DE VENDAS FRANCHISING LTDA") preservando LTDA/S.A./S/A/EIRELI/SPE/SCP/ME/EPP
+- **Card "Informações do contrato"** — presente em TODOS os 103 grupos. Onde não tem info, mostra "sem info" nos campos.
+
+**Ajustes de contratos (`_CONTRATOS` no index.html):**
+- 107 slugs cadastrados (era 22)
+- 53 contratos com valor/vigência/índice puxados do EasyJur via `get_contrato` MCP
+- 24 renomeações personalizadas (planilha REVISAO_NOMES_grupos_2026-08-10.xlsx)
+
+**Regras críticas anotadas para futuras publicações:**
+
+1. **`_CONTRATOS` e `LINKS_CLIENTE` — slugs começando com dígito precisam de aspas.** Ex: `'300f':{...}` e `'3rs':'hex'`, senão `SyntaxError` quebra parser JS e cortina trava.
+
+2. **`LINKS_CLIENTE` deve ter TODOS os slugs do `manifest.ordem`** (mesmo tamanho, sempre). Se faltar entrada, botão do card gera URL com slug em vez de hex → 404.
+
+3. **Ao alterar o `index.html` master, PROPAGAR para as 103 pastas `c/<hex>/`.** Cada cliente tem sua cópia isolada — sem propagação, cliente vê versão velha.
+
+4. **Meta `cliente-grupo` deve estar no `<head>` REAL.** Ao propagar o master, INSERIR a meta logo após `<meta charset="UTF-8">`. NÃO substituir texto de `<meta name="cliente-grupo"...>` global — o padrão aparece dentro de um comentário JS e o regex pega o comentário em vez do head. Padrão correto:
+
+   ```python
+   # Remove qualquer meta cliente-grupo errada
+   html = re.sub(r'<meta\s+name="cliente-grupo"\s+content="[^"]*"\s*/?>', '', html)
+   # Insere logo após charset
+   html = re.sub(r'(<meta\s+charset="[^"]*">)',
+                 r'\1\n<meta name="cliente-grupo" content="SLUG">',
+                 html, count=1)
+   ```
+
+5. **Auditoria (`auditar_grupos.py`) deve passar com 0 erros antes de dar push.** Auditor comum: tribunal com nome longo (não sigla) — usar mapa `MAPA_TRIBUNAIS` para converter "Justiça Federal de Santa Catarina" → "TRF4/SC" antes de gerar `dados/<grupo>.json`.
+
+**GitHub Pages — troubleshooting histórico:**
+- 06/08/2026: outage "Partial System Outage" com bug OIDC no deploy — solução: aguardar reset (1-3h)
+- Deploys de 300+MB estouram timeout de 10min → mantida a auditoria interna fora do repo público (`.gitignore` inclui `auditoria_processos/`)
+
+### 2026-08-07 (correções contratos e despublicação)
+- **RHONALDO MOTORSPORTS** despublicado (distrato)
+- 7 divergências de valor Rangel × EasyJur reconciliadas: MASTERPLAST R$ 5.673,50, VITALLE R$ 3.803,28, BKR R$ 3.042,62, ZIMMERMANN R$ 9.726, ETR ZION R$ 3.242, ALIANÇA/RUSSI R$ 3.883,83
+- Backup completo em `_recoleta_abc/BACKUP_2026-08-07_MEGA_LOTE/` (dados/, scratch/, auditoria/, grupos_config.json, ESTADO_ANALISE.json)
+
+### 2026-08-03 (LINKS_CLIENTE hardcoded)
+- **REGRA CRAVADA:** ao criar grupo novo, ATUALIZAR o mapa `LINKS_CLIENTE = {slug:hex}` no index.html (~linha 2130), senão botão "Gerar link" quebra.
+- 29 grupos ficaram sem link — corrigido em commit `a133839`.
