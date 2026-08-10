@@ -1,0 +1,537 @@
+{
+ "kpiGrupo": {
+  "proc": 108,
+  "ativos": 88,
+  "areas": 3,
+  "trib": 16,
+  "procSub": "88 ativos · 20 encerrados",
+  "areasSub": "Cível, Consumidor, Pública",
+  "tribSub": "TJBA, TJRS, TJSC"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 680953495,
+   "dataset": {
+    "total": 108,
+    "ativos": 88,
+    "encerrados": {
+     "2014": 1,
+     "2016": 1,
+     "2018": 1,
+     "2024": 1,
+     "2025": 9,
+     "2026": 7
+    },
+    "areaTotal": 88,
+    "estoque": {
+     "2014": -1,
+     "2015": -1,
+     "2016": -2,
+     "2017": -2,
+     "2018": -3,
+     "2019": -3,
+     "2020": -3,
+     "2021": -3,
+     "2022": -3,
+     "2023": -3,
+     "2024": -4,
+     "2025": 92,
+     "2026": 88
+    },
+    "entradas": {
+     "2025": 105,
+     "2026": 3
+    },
+    "area": {
+     "Cível": 85,
+     "Consumidor": 2,
+     "Pública": 1
+    },
+    "uf": {
+     "BA": 19,
+     "RS": 12,
+     "SC": 11,
+     "MS": 8,
+     "SP": 8,
+     "MG": 7,
+     "MT": 4,
+     "CE": 4,
+     "PR": 4,
+     "PE": 3,
+     "PB": 2,
+     "ES": 2,
+     "DF": 1,
+     "RN": 1,
+     "TO": 1,
+     "RJ": 1
+    },
+    "instancia": {
+     "1º Grau": 84,
+     "2º Grau": 3,
+     "Superiores": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 87,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJBA": 19,
+     "TJRS": 12,
+     "TJSC": 11,
+     "TJMS": 8,
+     "TJSP": 8,
+     "TJMG": 7,
+     "TJMT": 4,
+     "TJCE": 4,
+     "TJPR": 4,
+     "TJPE": 3,
+     "TJPB": 2,
+     "TJES": 2,
+     "STJ": 1,
+     "TJRN": 1,
+     "TJTO": 1,
+     "TJRJ": 1
+    },
+    "ranking": [
+     [
+      "ALMAR BUSNELLO",
+      2
+     ],
+     [
+      "ERIAN COELHO SANTOS",
+      2
+     ],
+     [
+      "ELAINE SALETE GONCALVES DELLA FLORA",
+      2
+     ],
+     [
+      "AUSTRELIO DAVIDSON ANTONY BATISTA DE OLIVEIRA",
+      1
+     ],
+     [
+      "EDMILSON RODRIGUES RAMOS",
+      1
+     ],
+     [
+      "LISANKA ALVES DE SOUSA",
+      1
+     ],
+     [
+      "VITOR GOMES MOTA",
+      1
+     ],
+     [
+      "ROMUALDO ANDRADE SANTOS",
+      1
+     ],
+     [
+      "ANNA TALLYTA BIONE DE SÁ CARVALHO",
+      1
+     ],
+     [
+      "ROBERTA DINIZ DA COSTA",
+      1
+     ],
+     [
+      "MARILENE BARETA DA COSTA",
+      1
+     ],
+     [
+      "IVAN TRENNEPOHL",
+      1
+     ],
+     [
+      "LAYANI DE AQUINO DE ALBRES",
+      1
+     ],
+     [
+      "SAMUEL ARAUJO LIMA",
+      1
+     ],
+     [
+      "CELIA XAVIER LOPES",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 108,
+     "ativos": 88,
+     "areas": 3,
+     "trib": 16,
+     "procSub": "88 ativos · 20 encerrados",
+     "areasSub": "Cível, Consumidor, Pública",
+     "tribSub": "TJBA, TJRS, TJSC"
+    },
+    "esforco": {
+     "comProducao": 108,
+     "tramitacaoDias": 371,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 415.5,
+     "media": 3.8,
+     "mediaAtivos": 4.7,
+     "horasano": {
+      "2025": 283.8,
+      "2026": 131.6
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 20,
+    "_panorama": true
+   }
+  },
+  "multiclickbrasilpubl_680953495": {
+   "nome": "MULTICLICK BRASIL PUBLICIDADE LTDA",
+   "_idCliente": 680953495,
+   "dataset": {
+    "total": 104,
+    "ativos": 85,
+    "encerrados": {
+     "2014": 1,
+     "2016": 1,
+     "2018": 1,
+     "2024": 1,
+     "2025": 8,
+     "2026": 7
+    },
+    "areaTotal": 85,
+    "estoque": {
+     "2014": -1,
+     "2015": -1,
+     "2016": -2,
+     "2017": -2,
+     "2018": -3,
+     "2019": -3,
+     "2020": -3,
+     "2021": -3,
+     "2022": -3,
+     "2023": -3,
+     "2024": -4,
+     "2025": 90,
+     "2026": 85
+    },
+    "entradas": {
+     "2025": 102,
+     "2026": 2
+    },
+    "area": {
+     "Cível": 82,
+     "Consumidor": 2,
+     "Pública": 1
+    },
+    "uf": {
+     "BA": 19,
+     "RS": 11,
+     "SC": 10,
+     "MS": 8,
+     "SP": 8,
+     "MG": 7,
+     "MT": 4,
+     "CE": 4,
+     "PR": 4,
+     "PE": 3,
+     "PB": 2,
+     "ES": 2,
+     "DF": 1,
+     "RN": 1,
+     "TO": 1
+    },
+    "instancia": {
+     "1º Grau": 81,
+     "2º Grau": 3,
+     "Superiores": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 84,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJBA": 19,
+     "TJRS": 11,
+     "TJSC": 10,
+     "TJMS": 8,
+     "TJSP": 8,
+     "TJMG": 7,
+     "TJMT": 4,
+     "TJCE": 4,
+     "TJPR": 4,
+     "TJPE": 3,
+     "TJPB": 2,
+     "TJES": 2,
+     "STJ": 1,
+     "TJRN": 1,
+     "TJTO": 1
+    },
+    "ranking": [
+     [
+      "ALMAR BUSNELLO",
+      2
+     ],
+     [
+      "ERIAN COELHO SANTOS",
+      2
+     ],
+     [
+      "AUSTRELIO DAVIDSON ANTONY BATISTA DE OLIVEIRA",
+      1
+     ],
+     [
+      "EDMILSON RODRIGUES RAMOS",
+      1
+     ],
+     [
+      "LISANKA ALVES DE SOUSA",
+      1
+     ],
+     [
+      "VITOR GOMES MOTA",
+      1
+     ],
+     [
+      "ROMUALDO ANDRADE SANTOS",
+      1
+     ],
+     [
+      "ANNA TALLYTA BIONE DE SÁ CARVALHO",
+      1
+     ],
+     [
+      "ROBERTA DINIZ DA COSTA",
+      1
+     ],
+     [
+      "MARILENE BARETA DA COSTA",
+      1
+     ],
+     [
+      "IVAN TRENNEPOHL",
+      1
+     ],
+     [
+      "LAYANI DE AQUINO DE ALBRES",
+      1
+     ],
+     [
+      "SAMUEL ARAUJO LIMA",
+      1
+     ],
+     [
+      "CELIA XAVIER LOPES",
+      1
+     ],
+     [
+      "SERGIO ROBERTO DE CARVALHO",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 104,
+     "ativos": 85,
+     "areas": 3,
+     "trib": 15,
+     "procSub": "85 ativos · 19 encerrados",
+     "areasSub": "Cível, Consumidor, Pública",
+     "tribSub": "TJBA, TJRS, TJSC"
+    },
+    "esforco": {
+     "comProducao": 104,
+     "tramitacaoDias": 373,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 366.1,
+     "media": 3.5,
+     "mediaAtivos": 4.3,
+     "horasano": {
+      "2025": 243.3,
+      "2026": 122.8
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 19
+   }
+  },
+  "miqueiasadrianodasil_681325277": {
+   "nome": "MIQUEIAS ADRIANO DA SILVA LOPES",
+   "_idCliente": 681325277,
+   "dataset": {
+    "total": 3,
+    "ativos": 2,
+    "encerrados": {
+     "2025": 1
+    },
+    "areaTotal": 2,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 2
+    },
+    "entradas": {
+     "2025": 2,
+     "2026": 1
+    },
+    "area": {
+     "Cível": 2
+    },
+    "uf": {
+     "RJ": 1,
+     "RS": 1
+    },
+    "instancia": {
+     "1º Grau": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 2
+    },
+    "tribunais": {
+     "TJRJ": 1,
+     "TJRS": 1
+    },
+    "ranking": [
+     [
+      "CARLOS THIAGO DE PAULA",
+      1
+     ],
+     [
+      "ELAINE SALETE GONCALVES DELLA FLORA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 3,
+     "ativos": 2,
+     "areas": 1,
+     "trib": 2,
+     "procSub": "2 ativos · 1 encerrado",
+     "areasSub": "Cível",
+     "tribSub": "TJRJ, TJRS"
+    },
+    "esforco": {
+     "comProducao": 3,
+     "tramitacaoDias": 260,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 21.3,
+     "media": 7.1,
+     "mediaAtivos": 10.6,
+     "horasano": {
+      "2025": 12.4,
+      "2026": 8.8
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1
+   }
+  },
+  "wagnercharlesdeassis_681325284": {
+   "nome": "WAGNER CHARLES DE ASSIS ALVES",
+   "_idCliente": 681325284,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 1
+    },
+    "entradas": {
+     "2025": 1
+    },
+    "area": {
+     "Cível": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJSC": 1
+    },
+    "ranking": [
+     [
+      "CONDOMINIO LAUBERGE",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 481,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 28.1,
+     "media": 28.1,
+     "mediaAtivos": 28.1,
+     "horasano": {
+      "2025": 28.1
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo MULTICLICK",
+ "nomeHtml": "Grupo <em>MULTICLICK</em>",
+ "nEmpresas": 3
+}

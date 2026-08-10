@@ -1,0 +1,289 @@
+{
+ "kpiGrupo": {
+  "proc": 20,
+  "ativos": 11,
+  "areas": 4,
+  "trib": 4,
+  "procSub": "11 ativos · 9 encerrados",
+  "areasSub": "Cível, Trabalhista, Imobiliário",
+  "tribSub": "TJSC, TRT12, TJPR"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 2123617,
+   "dataset": {
+    "total": 20,
+    "ativos": 11,
+    "encerrados": {
+     "2020": 1,
+     "2021": 1,
+     "2023": 4,
+     "2024": 1,
+     "2025": 1,
+     "2026": 1
+    },
+    "areaTotal": 11,
+    "estoque": {
+     "2019": 3,
+     "2020": 2,
+     "2021": 2,
+     "2022": 5,
+     "2023": 6,
+     "2024": 6,
+     "2025": 8,
+     "2026": 11
+    },
+    "entradas": {
+     "2019": 3,
+     "2021": 1,
+     "2022": 3,
+     "2023": 5,
+     "2024": 1,
+     "2025": 3,
+     "2026": 4
+    },
+    "area": {
+     "Cível": 7,
+     "Trabalhista": 2,
+     "Imobiliário": 1,
+     "Propriedade intelectual": 1
+    },
+    "uf": {
+     "SC": 10,
+     "PR": 1
+    },
+    "instancia": {
+     "1º Grau": 8,
+     "2º Grau": 3
+    },
+    "polo": {
+     "Terceiro/Outros": 6,
+     "Polo ativo": 3,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TJSC": 7,
+     "TRT12": 2,
+     "N/D": 1,
+     "TJPR": 1
+    },
+    "ranking": [
+     [
+      "DOUGLAS BATISTA SANTOS",
+      2
+     ],
+     [
+      "ESPÓLIO DE SÉRGIO REZENDE",
+      2
+     ],
+     [
+      "FABIANO FREITAS PANTOJA",
+      1
+     ],
+     [
+      "JOSE ROBERTO COELHO DE AQUINO FILHO",
+      1
+     ],
+     [
+      "ELETRO MECANICA FETTER LTDA ME",
+      1
+     ],
+     [
+      "VETERANOS PISOS INDUSTRIAIS LTDA",
+      1
+     ],
+     [
+      "ANGELO MARCIO TISATTO",
+      1
+     ],
+     [
+      "Luiz Marcelo Szczepanski",
+      1
+     ],
+     [
+      "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 20,
+     "ativos": 11,
+     "areas": 4,
+     "trib": 4,
+     "procSub": "11 ativos · 9 encerrados",
+     "areasSub": "Cível, Trabalhista, Imobiliário",
+     "tribSub": "TJSC, TRT12, TJPR"
+    },
+    "esforco": {
+     "comProducao": 20,
+     "tramitacaoDias": 679,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 454.5,
+     "media": 22.7,
+     "mediaAtivos": 41.3,
+     "horasano": {
+      "2022": 60.6,
+      "2023": 147.4,
+      "2024": 64.4,
+      "2025": 92.8,
+      "2026": 89.4
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 9,
+    "_panorama": true
+   }
+  },
+  "c2construtoraeincorp_2123617": {
+   "nome": "C2 CONSTRUTORA E INCORPORADORA LTDA",
+   "_idCliente": 2123617,
+   "dataset": {
+    "total": 20,
+    "ativos": 11,
+    "encerrados": {
+     "2020": 1,
+     "2021": 1,
+     "2023": 4,
+     "2024": 1,
+     "2025": 1,
+     "2026": 1
+    },
+    "areaTotal": 11,
+    "estoque": {
+     "2019": 3,
+     "2020": 2,
+     "2021": 2,
+     "2022": 5,
+     "2023": 6,
+     "2024": 6,
+     "2025": 8,
+     "2026": 11
+    },
+    "entradas": {
+     "2019": 3,
+     "2021": 1,
+     "2022": 3,
+     "2023": 5,
+     "2024": 1,
+     "2025": 3,
+     "2026": 4
+    },
+    "area": {
+     "Cível": 7,
+     "Trabalhista": 2,
+     "Imobiliário": 1,
+     "Propriedade intelectual": 1
+    },
+    "uf": {
+     "SC": 10,
+     "PR": 1
+    },
+    "instancia": {
+     "1º Grau": 8,
+     "2º Grau": 3
+    },
+    "polo": {
+     "Terceiro/Outros": 6,
+     "Polo ativo": 3,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TJSC": 7,
+     "TRT12": 2,
+     "N/D": 1,
+     "TJPR": 1
+    },
+    "ranking": [
+     [
+      "DOUGLAS BATISTA SANTOS",
+      2
+     ],
+     [
+      "ESPÓLIO DE SÉRGIO REZENDE",
+      2
+     ],
+     [
+      "FABIANO FREITAS PANTOJA",
+      1
+     ],
+     [
+      "JOSE ROBERTO COELHO DE AQUINO FILHO",
+      1
+     ],
+     [
+      "ELETRO MECANICA FETTER LTDA ME",
+      1
+     ],
+     [
+      "VETERANOS PISOS INDUSTRIAIS LTDA",
+      1
+     ],
+     [
+      "ANGELO MARCIO TISATTO",
+      1
+     ],
+     [
+      "Luiz Marcelo Szczepanski",
+      1
+     ],
+     [
+      "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 20,
+     "ativos": 11,
+     "areas": 4,
+     "trib": 4,
+     "procSub": "11 ativos · 9 encerrados",
+     "areasSub": "Cível, Trabalhista, Imobiliário",
+     "tribSub": "TJSC, TRT12, TJPR"
+    },
+    "esforco": {
+     "comProducao": 20,
+     "tramitacaoDias": 679,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 454.5,
+     "media": 22.7,
+     "mediaAtivos": 41.3,
+     "horasano": {
+      "2022": 60.6,
+      "2023": 147.4,
+      "2024": 64.4,
+      "2025": 92.8,
+      "2026": 89.4
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 9
+   }
+  }
+ },
+ "nome": "Grupo C2",
+ "nomeHtml": "Grupo <em>C2</em>",
+ "nEmpresas": 1
+}

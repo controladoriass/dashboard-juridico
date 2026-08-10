@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
+<meta name="cliente-grupo" content="yorburger">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Indicadores Jurídicos · Silva & Silva</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1467,17 +1468,7 @@ function renderDashboard(){
       wf:       { valor_mensal:  8169.44, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2018-09-01' },
       abc:      { valor_mensal: 12968.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2019-11-15' },
       serpa:    { valor_mensal:  4052.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2022-05-06' },
-      comex:    { valor_mensal:  4863.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-02-15' },
-      msincorp: { valor_mensal: 32000.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2022-01-27' },
-      ar:       { valor_mensal:  7294.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2018-10-01' },
-      yany:     { valor_mensal:  3242.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-10-01' },
-      mg7:      { valor_mensal: 18480.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-01-01' },
-      platao:   { valor_mensal:  2431.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-01-01' },
-      praiholl: { valor_mensal:  7590.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2025-02-03' },
-      erbs:        { valor_mensal: 17020.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-07-23' },
-      binotto:     { valor_mensal: 18480.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2017-01-01' },
-      riviera:     { valor_mensal: 17020.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2026-02-24' },
-      msluzitania: { valor_mensal: 10626.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2025-04-02' }
+      comex:    { valor_mensal:  4863.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-02-15' }
     };
     var _c = _CONTRATOS[_gAtC];
     if(!_c){ _bl.style.display='none'; return; }
@@ -2145,10 +2136,7 @@ var LINKS_CLIENTE = {
   latex:'45c4e9b7e5', lsc:'059e567ac3', sabores:'8c3f60520a', dynamis:'26e879e130', jorcelina:'095e4888e9',
   primor:'1d6b667531', asael:'9a59e6d276', chady:'4e26ecb5c2', rech:'ae78acdcfe', embra:'e92bc0827a',
   golden:'2fbfd5c61c', feltz:'69f46d8453', mallo:'309fc6537d', '3rs':'a69f8bd880', brasil:'5b2a499674',
-  kreibich:'8412b3bf59', poti:'1821d8293a', pz:'1583395839', comex:'4f3dd0d777',
-  'msincorp':'5e50b83e37', 'ar':'2edf219b66', 'yany':'1a6e305e4d', 'mg7':'60fc637718',
-  'platao':'a3b2384cfa',
-  'praiholl':'95f249611c'
+  kreibich:'8412b3bf59', poti:'1821d8293a', pz:'1583395839', comex:'4f3dd0d777'
 };
 // toast discreto (some sozinho) — usado ao copiar o link do cliente
 function toast(msg){
@@ -2174,7 +2162,7 @@ function gerarPDF(){ montarPrint(); setTimeout(function(){ window.print(); }, 40
 window.addEventListener('beforeprint', function(){ if(!document.getElementById('view-print').children.length) montarPrint(); });
 
 /* ===== LOADER: carrega dados/<grupo>.json (dados externos por grupo) =====
-   MODO CLIENTE: se existir um <meta name="cliente-grupo" content="<gk>"> na página
+   MODO CLIENTE: se existir um <meta name="cliente-grupo" content="yorburger"> na página
    (usado nas pastas c/<código>/ enviadas ao cliente), carrega SÓ aquele grupo e entra
    direto no painel dele, sem tela de seleção nem botão "voltar aos grupos". O uso
    interno (sem essa meta) segue normal, carregando todos os grupos do manifest. */
@@ -2196,7 +2184,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=2026080702fix3rs';
+  var _cb = '?v=20260803fix3rs';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})

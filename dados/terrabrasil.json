@@ -1,0 +1,1404 @@
+{
+ "kpiGrupo": {
+  "proc": 99,
+  "ativos": 72,
+  "areas": 7,
+  "trib": 9,
+  "procSub": "72 ativos · 27 encerrados",
+  "areasSub": "Cível, Administrativo, Penal-Criminal",
+  "tribSub": "TJSC, TRT12, TRF4"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 3777210,
+   "dataset": {
+    "total": 99,
+    "ativos": 72,
+    "encerrados": {
+     "2023": 2,
+     "2024": 2,
+     "2025": 21,
+     "2026": 2
+    },
+    "areaTotal": 72,
+    "estoque": {
+     "2022": 25,
+     "2023": 32,
+     "2024": 48,
+     "2025": 45,
+     "2026": 72
+    },
+    "entradas": {
+     "2022": 25,
+     "2023": 9,
+     "2024": 18,
+     "2025": 18,
+     "2026": 29
+    },
+    "area": {
+     "Cível": 14,
+     "Administrativo": 14,
+     "Penal-Criminal": 14,
+     "Ambiental": 11,
+     "Trabalhista": 10,
+     "Tributário": 7,
+     "Pública": 2
+    },
+    "uf": {
+     "SC": 62,
+     "DF": 4,
+     "MT": 3,
+     "RS": 1
+    },
+    "instancia": {
+     "1º Grau": 63,
+     "2º Grau": 7,
+     "Superiores": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 31,
+     "Polo passivo": 29,
+     "Polo ativo": 12
+    },
+    "tribunais": {
+     "TJSC": 28,
+     "N/D": 24,
+     "TRT12": 9,
+     "TRF4": 3,
+     "STJ": 3,
+     "TJMT": 2,
+     "TJRS": 1,
+     "STF": 1,
+     "IBAMA": 1
+    },
+    "ranking": [
+     [
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+      8
+     ],
+     [
+      "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+      4
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+      3
+     ],
+     [
+      "TRIBUNAL DE JUSTIÇA DO ESTADO DE SANTA CATARINA",
+      3
+     ],
+     [
+      "COMANDO DE POLICIAMENTO MILITAR AMBIENTAL",
+      3
+     ],
+     [
+      "IRANI ROQUE SERAFINI",
+      2
+     ],
+     [
+      "FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP",
+      2
+     ],
+     [
+      "NEOENERGIA VALE DO ITAJAI TRANSMISSAO DE ENERGIA S.A.",
+      2
+     ],
+     [
+      "ASSOCIACAO PROCONSTRUCAO DO CONDOMINIO FECHADO EDIFICIO FLORENCE GARDEN RESIDENCE",
+      2
+     ],
+     [
+      "PREFEITURA MUNICIPAL DE PORTO BELO",
+      2
+     ],
+     [
+      "ESTADO DO MATO GROSSO",
+      2
+     ],
+     [
+      "CPMA - Comando de Policiamento Militar Ambiental",
+      2
+     ],
+     [
+      "INSTITUTO ITAJAÍ SUSTENTÁVEL - INIS",
+      1
+     ],
+     [
+      "RENANTO VIANA DE MORAES",
+      1
+     ],
+     [
+      "LEANDRO JOSE RODRIGUES MEIRA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 99,
+     "ativos": 72,
+     "areas": 7,
+     "trib": 9,
+     "procSub": "72 ativos · 27 encerrados",
+     "areasSub": "Cível, Administrativo, Penal-Criminal",
+     "tribSub": "TJSC, TRT12, TRF4"
+    },
+    "esforco": {
+     "comProducao": 99,
+     "tramitacaoDias": 560,
+     "prazano": {
+      "2021": 0,
+      "2022": 140,
+      "2023": 281,
+      "2024": 344,
+      "2025": 436,
+      "2026": 475
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 16,
+      "2023": 20,
+      "2024": 42,
+      "2025": 62,
+      "2026": 64
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 105,
+      "2023": 397,
+      "2024": 171,
+      "2025": 158,
+      "2026": 136
+     },
+     "atividades": {
+      "Prazos": 1676,
+      "Audiências": 204,
+      "Reuniões e Diligências": 967
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 3957.3,
+     "media": 40.0,
+     "mediaAtivos": 55.0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 362.8,
+      "2023": 970.2,
+      "2024": 774.3,
+      "2025": 911.8,
+      "2026": 938.2
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 27,
+    "_panorama": true
+   }
+  },
+  "terrabrasilcomercioe_3777210": {
+   "nome": "TERRA BRASIL COMERCIO E TRANSPORTES DE MATERIAIS DE CONSTRUCAO LTDA",
+   "_idCliente": 3777210,
+   "dataset": {
+    "total": 28,
+    "ativos": 21,
+    "encerrados": {
+     "2025": 7
+    },
+    "areaTotal": 21,
+    "estoque": {
+     "2022": 10,
+     "2023": 16,
+     "2024": 17,
+     "2025": 14,
+     "2026": 21
+    },
+    "entradas": {
+     "2022": 10,
+     "2023": 6,
+     "2024": 1,
+     "2025": 4,
+     "2026": 7
+    },
+    "area": {
+     "Administrativo": 7,
+     "Cível": 6,
+     "Ambiental": 3,
+     "Tributário": 3,
+     "Trabalhista": 2
+    },
+    "uf": {
+     "SC": 20,
+     "MT": 1
+    },
+    "instancia": {
+     "1º Grau": 20,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Polo passivo": 10,
+     "Terceiro/Outros": 7,
+     "Polo ativo": 4
+    },
+    "tribunais": {
+     "N/D": 10,
+     "TJSC": 8,
+     "TRT12": 2,
+     "TRF4": 1
+    },
+    "ranking": [
+     [
+      "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+      3
+     ],
+     [
+      "IRANI ROQUE SERAFINI",
+      2
+     ],
+     [
+      "FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP",
+      2
+     ],
+     [
+      "INSTITUTO ITAJAÍ SUSTENTÁVEL - INIS",
+      1
+     ],
+     [
+      "RENANTO VIANA DE MORAES",
+      1
+     ],
+     [
+      "LEANDRO JOSE RODRIGUES MEIRA",
+      1
+     ],
+     [
+      "PREFEITURA MUNICIPAL DE ITAJAÍ",
+      1
+     ],
+     [
+      "MUNICÍPIO DE TIJUCAS/SC",
+      1
+     ],
+     [
+      "ESTADO DE MATO GROSSO - SECRETARIA DE FAZENDA",
+      1
+     ],
+     [
+      "PREFEITURA MUNICIPAL DE ITAPEMA",
+      1
+     ],
+     [
+      "Gerente Regional - CENTRAIS ELÉTRICAS DE SANTA CATARINA S/A - CELESC - Blumenau",
+      1
+     ],
+     [
+      "INSTITUTO NACIONAL DE METROLOGIA DE SANTA CATARINA - IMETRO/SC",
+      1
+     ],
+     [
+      "AUTOPISTA LITORAL SUL S.A.",
+      1
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+      1
+     ],
+     [
+      "JOSÉ LUIS LEMOS",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 28,
+     "ativos": 21,
+     "areas": 5,
+     "trib": 4,
+     "procSub": "21 ativos · 7 encerrados",
+     "areasSub": "Administrativo, Cível, Ambiental",
+     "tribSub": "TJSC, TRT12, TRF4"
+    },
+    "esforco": {
+     "comProducao": 28,
+     "tramitacaoDias": 689,
+     "prazano": {
+      "2021": 0,
+      "2022": 47,
+      "2023": 140,
+      "2024": 51,
+      "2025": 69,
+      "2026": 113
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 6,
+      "2023": 8,
+      "2024": 4,
+      "2025": 3,
+      "2026": 4
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 17,
+      "2023": 50,
+      "2024": 18,
+      "2025": 25,
+      "2026": 41
+     },
+     "atividades": {
+      "Prazos": 420,
+      "Audiências": 25,
+      "Reuniões e Diligências": 151
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 828.4,
+     "media": 29.6,
+     "mediaAtivos": 39.4,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 97.3,
+      "2023": 275.2,
+      "2024": 101.5,
+      "2025": 134.8,
+      "2026": 219.6
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 7
+   }
+  },
+  "terrabrasilcomercioe_677059525": {
+   "nome": "TERRA BRASIL COMERCIO E TRANSPORTES DE MATERIAIS DE CONSTRUCAO LTDA FILIAL",
+   "_idCliente": 677059525,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 1,
+     "2025": 1,
+     "2026": 1
+    },
+    "entradas": {
+     "2024": 1
+    },
+    "area": {
+     "Administrativo": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Polo passivo": 1
+    },
+    "tribunais": {
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "SECRETARIA DE ESTADO DA SEGURANCA PUBLICA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Administrativo",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 853,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 5,
+      "2025": 2,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 3,
+      "2025": 1,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 7,
+      "Audiências": 0,
+      "Reuniões e Diligências": 4
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 15.3,
+     "media": 15.3,
+     "mediaAtivos": 15.3,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 11.1,
+      "2025": 4.2,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "rhariecomercioetrans_4034124": {
+   "nome": "RHARIE COMERCIO E TRANSPORTE DE MATERIAIS DE CONSTRUCAO LTDA",
+   "_idCliente": 4034124,
+   "dataset": {
+    "total": 8,
+    "ativos": 6,
+    "encerrados": {
+     "2025": 2
+    },
+    "areaTotal": 6,
+    "estoque": {
+     "2022": 1,
+     "2023": 1,
+     "2024": 4,
+     "2025": 4,
+     "2026": 6
+    },
+    "entradas": {
+     "2022": 1,
+     "2024": 3,
+     "2025": 2,
+     "2026": 2
+    },
+    "area": {
+     "Trabalhista": 4,
+     "Administrativo": 2
+    },
+    "uf": {
+     "SC": 5
+    },
+    "instancia": {
+     "1º Grau": 5,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Polo passivo": 4,
+     "Terceiro/Outros": 1,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TRT12": 4,
+     "N/D": 2
+    },
+    "ranking": [
+     [
+      "LEANDRO DE MELO MENDES",
+      1
+     ],
+     [
+      "RODRIGO MOTA ELEUTHERIO",
+      1
+     ],
+     [
+      "EVERTON LUIZ AMORIM BATISTA",
+      1
+     ],
+     [
+      "DEPARTAMENTO ESTADUAL DE TRANSITO",
+      1
+     ],
+     [
+      "OCIMAR LIMA CORREA",
+      1
+     ],
+     [
+      "SECRETARIA DE DESENVOLVIMENTO INDUSTRIAL, COMÉRCIO E INOVAÇÃO (SDIC)",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 8,
+     "ativos": 6,
+     "areas": 2,
+     "trib": 2,
+     "procSub": "6 ativos · 2 encerrados",
+     "areasSub": "Trabalhista, Administrativo",
+     "tribSub": "TRT12"
+    },
+    "esforco": {
+     "comProducao": 8,
+     "tramitacaoDias": 391,
+     "prazano": {
+      "2021": 0,
+      "2022": 8,
+      "2023": 9,
+      "2024": 72,
+      "2025": 63,
+      "2026": 65
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 1,
+      "2023": 1,
+      "2024": 12,
+      "2025": 10,
+      "2026": 11
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 1,
+      "2023": 1,
+      "2024": 5,
+      "2025": 4,
+      "2026": 4
+     },
+     "atividades": {
+      "Prazos": 217,
+      "Audiências": 35,
+      "Reuniões e Diligências": 15
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 371.1,
+     "media": 46.4,
+     "mediaAtivos": 61.9,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 13.9,
+      "2023": 15.3,
+      "2024": 123.7,
+      "2025": 107.0,
+      "2026": 111.2
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 2
+   }
+  },
+  "rwsempreendimentosim_4223474": {
+   "nome": "RWS EMPREENDIMENTOS IMOBILIARIOS SPE LTDA",
+   "_idCliente": 4223474,
+   "dataset": {
+    "total": 3,
+    "ativos": 2,
+    "encerrados": {
+     "2025": 1
+    },
+    "areaTotal": 2,
+    "estoque": {
+     "2022": 0,
+     "2023": 1,
+     "2024": 3,
+     "2025": 2,
+     "2026": 2
+    },
+    "entradas": {
+     "2023": 1,
+     "2024": 2
+    },
+    "area": {
+     "Pública": 1,
+     "Administrativo": 1
+    },
+    "uf": {
+     "SC": 2
+    },
+    "instancia": {
+     "1º Grau": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 2
+    },
+    "tribunais": {
+     "TJSC": 1,
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "NEOENERGIA VALE DO ITAJAI TRANSMISSAO DE ENERGIA S.A.",
+      2
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 3,
+     "ativos": 2,
+     "areas": 2,
+     "trib": 2,
+     "procSub": "2 ativos · 1 encerrado",
+     "areasSub": "Pública, Administrativo",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 3,
+     "tramitacaoDias": 816,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 24,
+      "2024": 24,
+      "2025": 15,
+      "2026": 8
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 3,
+      "2025": 5,
+      "2026": 2
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 1,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 71,
+      "Audiências": 10,
+      "Reuniões e Diligências": 2
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 115.4,
+     "media": 38.5,
+     "mediaAtivos": 57.7,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 33.4,
+      "2024": 38.9,
+      "2025": 29.2,
+      "2026": 13.9
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 1
+   }
+  },
+  "rbsadministradoradeb_3805664": {
+   "nome": "RBS ADMINISTRADORA DE BENS S/S LTDA",
+   "_idCliente": 3805664,
+   "dataset": {
+    "total": 8,
+    "ativos": 5,
+    "encerrados": {
+     "2024": 1,
+     "2025": 2
+    },
+    "areaTotal": 5,
+    "estoque": {
+     "2022": 5,
+     "2023": 5,
+     "2024": 4,
+     "2025": 3,
+     "2026": 5
+    },
+    "entradas": {
+     "2022": 5,
+     "2025": 1,
+     "2026": 2
+    },
+    "area": {
+     "Cível": 4,
+     "Tributário": 1
+    },
+    "uf": {
+     "SC": 5
+    },
+    "instancia": {
+     "1º Grau": 4,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 4,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJSC": 5
+    },
+    "ranking": [
+     [
+      "ASSOCIACAO PROCONSTRUCAO DO CONDOMINIO FECHADO EDIFICIO FLORENCE GARDEN RESIDENCE",
+      2
+     ],
+     [
+      "CONDOMINIO VIVENDAS DO ATLANTICO",
+      1
+     ],
+     [
+      "MARIA EVANY SERPA",
+      1
+     ],
+     [
+      "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 8,
+     "ativos": 5,
+     "areas": 2,
+     "trib": 1,
+     "procSub": "5 ativos · 3 encerrados",
+     "areasSub": "Cível, Tributário",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 8,
+     "tramitacaoDias": 679,
+     "prazano": {
+      "2021": 0,
+      "2022": 18,
+      "2023": 26,
+      "2024": 43,
+      "2025": 47,
+      "2026": 34
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 1,
+      "2023": 2,
+      "2024": 4,
+      "2025": 4,
+      "2026": 3
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 19,
+      "2023": 28,
+      "2024": 46,
+      "2025": 50,
+      "2026": 36
+     },
+     "atividades": {
+      "Prazos": 168,
+      "Audiências": 14,
+      "Reuniões e Diligências": 179
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 501.8,
+     "media": 62.7,
+     "mediaAtivos": 100.4,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 52.8,
+      "2023": 77.8,
+      "2024": 129.3,
+      "2025": 140.4,
+      "2026": 101.5
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 3
+   }
+  },
+  "uniaofundacoes_2149784": {
+   "nome": "UNIÃO FUNDAÇÕES",
+   "_idCliente": 2149784,
+   "dataset": {
+    "total": 19,
+    "ativos": 12,
+    "encerrados": {
+     "2025": 6,
+     "2026": 1
+    },
+    "areaTotal": 12,
+    "estoque": {
+     "2022": 6,
+     "2023": 7,
+     "2024": 11,
+     "2025": 11,
+     "2026": 12
+    },
+    "entradas": {
+     "2022": 6,
+     "2023": 1,
+     "2024": 4,
+     "2025": 6,
+     "2026": 2
+    },
+    "area": {
+     "Trabalhista": 4,
+     "Administrativo": 3,
+     "Tributário": 3,
+     "Pública": 1,
+     "Cível": 1
+    },
+    "uf": {
+     "SC": 9,
+     "MT": 2
+    },
+    "instancia": {
+     "1º Grau": 10,
+     "2º Grau": 2
+    },
+    "polo": {
+     "Polo passivo": 6,
+     "Polo ativo": 3,
+     "Terceiro/Outros": 3
+    },
+    "tribunais": {
+     "TRT12": 3,
+     "N/D": 3,
+     "TJMT": 2,
+     "TJSC": 2,
+     "TRF4": 2
+    },
+    "ranking": [
+     [
+      "PREFEITURA MUNICIPAL DE PORTO BELO",
+      2
+     ],
+     [
+      "ESTADO DO MATO GROSSO",
+      2
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+      2
+     ],
+     [
+      "IVANAEL DA SILVA RIBEIRO",
+      1
+     ],
+     [
+      "EDSON GOMES REIS",
+      1
+     ],
+     [
+      "RAYMOND ALONSO QUINTANA FONSECA",
+      1
+     ],
+     [
+      "LAVITTA ENGENHARIA CIVIL LTDA",
+      1
+     ],
+     [
+      "EDILSON DA CRUZ RIBEIRO",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 19,
+     "ativos": 12,
+     "areas": 5,
+     "trib": 5,
+     "procSub": "12 ativos · 7 encerrados",
+     "areasSub": "Trabalhista, Administrativo, Tributário",
+     "tribSub": "TRT12, TJMT, TJSC"
+    },
+    "esforco": {
+     "comProducao": 19,
+     "tramitacaoDias": 757,
+     "prazano": {
+      "2021": 0,
+      "2022": 64,
+      "2023": 73,
+      "2024": 128,
+      "2025": 138,
+      "2026": 78
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 8,
+      "2023": 9,
+      "2024": 15,
+      "2025": 17,
+      "2026": 9
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 68,
+      "2023": 318,
+      "2024": 95,
+      "2025": 62,
+      "2026": 27
+     },
+     "atividades": {
+      "Prazos": 481,
+      "Audiências": 58,
+      "Reuniões e Diligências": 570
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 1541.5,
+     "media": 81.1,
+     "mediaAtivos": 128.5,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 194.6,
+      "2023": 556.0,
+      "2024": 330.8,
+      "2025": 301.6,
+      "2026": 158.5
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 7
+   }
+  },
+  "robsonaureliodossant_3811925": {
+   "nome": "ROBSON AURÉLIO DOS SANTOS",
+   "_idCliente": 3811925,
+   "dataset": {
+    "total": 6,
+    "ativos": 2,
+    "encerrados": {
+     "2023": 2,
+     "2025": 2
+    },
+    "areaTotal": 2,
+    "estoque": {
+     "2022": 3,
+     "2023": 1,
+     "2024": 2,
+     "2025": 2,
+     "2026": 2
+    },
+    "entradas": {
+     "2022": 3,
+     "2024": 1,
+     "2025": 2
+    },
+    "area": {
+     "Cível": 2
+    },
+    "uf": {
+     "RS": 1,
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 1,
+     "Polo passivo": 1
+    },
+    "tribunais": {
+     "TJRS": 1,
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "ADILSON BARONI",
+      1
+     ],
+     [
+      "JCX ADMINISTRADORA DE BENS LTDA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 6,
+     "ativos": 2,
+     "areas": 1,
+     "trib": 2,
+     "procSub": "2 ativos · 4 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJRS"
+    },
+    "esforco": {
+     "comProducao": 6,
+     "tramitacaoDias": 676,
+     "prazano": {
+      "2021": 0,
+      "2022": 3,
+      "2023": 8,
+      "2024": 3,
+      "2025": 7,
+      "2026": 5
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 4,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 26,
+      "Audiências": 4,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 41.7,
+     "media": 7.0,
+     "mediaAtivos": 20.9,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 4.2,
+      "2023": 11.1,
+      "2024": 4.2,
+      "2025": 15.3,
+      "2026": 6.9
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 4
+   }
+  },
+  "rharierobsondesouzas_679005191": {
+   "nome": "RHARIE ROBSON DE SOUZA SANTOS",
+   "_idCliente": 679005191,
+   "dataset": {
+    "total": 25,
+    "ativos": 22,
+    "encerrados": {
+     "2024": 1,
+     "2025": 1,
+     "2026": 1
+    },
+    "areaTotal": 22,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 5,
+     "2025": 7,
+     "2026": 22
+    },
+    "entradas": {
+     "2024": 6,
+     "2025": 3,
+     "2026": 16
+    },
+    "area": {
+     "Penal-Criminal": 14,
+     "Ambiental": 8
+    },
+    "uf": {
+     "SC": 18,
+     "DF": 4
+    },
+    "instancia": {
+     "1º Grau": 18,
+     "Superiores": 2,
+     "2º Grau": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 12,
+     "Polo passivo": 7,
+     "Polo ativo": 3
+    },
+    "tribunais": {
+     "TJSC": 11,
+     "N/D": 6,
+     "STJ": 3,
+     "STF": 1,
+     "IBAMA": 1
+    },
+    "ranking": [
+     [
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+      8
+     ],
+     [
+      "TRIBUNAL DE JUSTIÇA DO ESTADO DE SANTA CATARINA",
+      3
+     ],
+     [
+      "COMANDO DE POLICIAMENTO MILITAR AMBIENTAL",
+      3
+     ],
+     [
+      "CPMA - Comando de Policiamento Militar Ambiental",
+      2
+     ],
+     [
+      "1º COLEGIADO DA VARA ESTADUAL DE ORGANIZAÇÕES CRIMINOSAS",
+      1
+     ],
+     [
+      "INSTITUTO DO MEIO AMBIENTE DO ESTADO DE SANTA CATARINA - IMA",
+      1
+     ],
+     [
+      "JUIZ DE DIREITO DA VARA CRIMINAL - ESTADO DE SANTA CATARINA - FLORIANÓPOLIS",
+      1
+     ],
+     [
+      "INSTITUTO DO MEIO AMBIENTE DE SANTA CATARINA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 25,
+     "ativos": 22,
+     "areas": 2,
+     "trib": 5,
+     "procSub": "22 ativos · 3 encerrados",
+     "areasSub": "Penal-Criminal, Ambiental",
+     "tribSub": "TJSC, STJ, STF"
+    },
+    "esforco": {
+     "comProducao": 25,
+     "tramitacaoDias": 277,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 18,
+      "2025": 95,
+      "2026": 172
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 4,
+      "2025": 19,
+      "2026": 35
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 3,
+      "2025": 15,
+      "2026": 28
+     },
+     "atividades": {
+      "Prazos": 285,
+      "Audiências": 58,
+      "Reuniões e Diligências": 46
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 540.7,
+     "media": 21.6,
+     "mediaAtivos": 24.6,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 34.8,
+      "2025": 179.3,
+      "2026": 326.6
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 3
+   }
+  },
+  "tihanyleticiadesouza_675672309": {
+   "nome": "TIHANY LETICIA DE SOUZA",
+   "_idCliente": 675672309,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 1,
+     "2024": 1,
+     "2025": 1,
+     "2026": 1
+    },
+    "entradas": {
+     "2023": 1
+    },
+    "area": {
+     "Cível": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJSC": 1
+    },
+    "ranking": [
+     [
+      "NAIARA CRISTINA ROCHA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 1105,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 1,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 1,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 1.4,
+     "media": 1.4,
+     "mediaAtivos": 1.4,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 1.4,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo TERRA BRASIL",
+ "nomeHtml": "Grupo <em>TERRA BRASIL</em>",
+ "nEmpresas": 9
+}

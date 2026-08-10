@@ -1,0 +1,351 @@
+{
+ "kpiGrupo": {
+  "proc": 6,
+  "ativos": 5,
+  "areas": 2,
+  "trib": 3,
+  "procSub": "5 ativos · 1 encerrado",
+  "areasSub": "Cível, Penal-Criminal",
+  "tribSub": "TJSC, TJRJ"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 2120240,
+   "dataset": {
+    "total": 6,
+    "ativos": 5,
+    "encerrados": {
+     "2025": 1
+    },
+    "areaTotal": 5,
+    "estoque": {
+     "2021": 2,
+     "2022": 2,
+     "2023": 2,
+     "2024": 2,
+     "2025": 4,
+     "2026": 5
+    },
+    "entradas": {
+     "2021": 2,
+     "2025": 3,
+     "2026": 1
+    },
+    "area": {
+     "Cível": 3,
+     "Penal-Criminal": 2
+    },
+    "uf": {
+     "SC": 3,
+     "RJ": 1
+    },
+    "instancia": {
+     "1º Grau": 2,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 4,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJSC": 2,
+     "N/D": 2,
+     "TJRJ": 1
+    },
+    "ranking": [
+     [
+      "DANIEL ESTEBAN ARDIZZI",
+      1
+     ],
+     [
+      "POLICIA FEDERAL DE SANTA CATARINA",
+      1
+     ],
+     [
+      "AUTORIDADE POLICIAL",
+      1
+     ],
+     [
+      "SUELI DUTRA DOS SANTOS",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 6,
+     "ativos": 5,
+     "areas": 2,
+     "trib": 3,
+     "procSub": "5 ativos · 1 encerrado",
+     "areasSub": "Cível, Penal-Criminal",
+     "tribSub": "TJSC, TJRJ"
+    },
+    "esforco": {
+     "comProducao": 6,
+     "tramitacaoDias": 931,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 397.1,
+     "media": 66.2,
+     "mediaAtivos": 79.4,
+     "horasano": {
+      "2026": 162.1,
+      "2025": 172.4,
+      "2024": 62.6
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1,
+    "_panorama": true
+   }
+  },
+  "yesicavegacorretagem_2120240": {
+   "nome": "YESICA VEGA CORRETAGEM DE IMOVEIS LTDA",
+   "_idCliente": 2120240,
+   "dataset": {
+    "total": 4,
+    "ativos": 3,
+    "encerrados": {
+     "2025": 1
+    },
+    "areaTotal": 3,
+    "estoque": {
+     "2021": 2,
+     "2022": 2,
+     "2023": 2,
+     "2024": 2,
+     "2025": 2,
+     "2026": 3
+    },
+    "entradas": {
+     "2021": 2,
+     "2025": 1,
+     "2026": 1
+    },
+    "area": {
+     "Penal-Criminal": 2,
+     "Cível": 1
+    },
+    "uf": {
+     "SC": 3
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 3
+    },
+    "tribunais": {
+     "TJSC": 2,
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "DANIEL ESTEBAN ARDIZZI",
+      1
+     ],
+     [
+      "POLICIA FEDERAL DE SANTA CATARINA",
+      1
+     ],
+     [
+      "AUTORIDADE POLICIAL",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 4,
+     "ativos": 3,
+     "areas": 2,
+     "trib": 2,
+     "procSub": "3 ativos · 1 encerrado",
+     "areasSub": "Penal-Criminal, Cível",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 4,
+     "tramitacaoDias": 1281,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 259.1,
+     "media": 64.8,
+     "mediaAtivos": 86.4,
+     "horasano": {
+      "2026": 88.9,
+      "2025": 118.9,
+      "2024": 51.2
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1
+   }
+  },
+  "yesicaelizabethvega_675860597": {
+   "nome": "YESICA ELIZABETH VEGA",
+   "_idCliente": 675860597,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 1
+    },
+    "entradas": {
+     "2025": 1
+    },
+    "area": {
+     "Cível": 1
+    },
+    "uf": {},
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "N/D": 1
+    },
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 544,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 35.4,
+     "media": 35.4,
+     "mediaAtivos": 35.4,
+     "horasano": {
+      "2026": 2.6,
+      "2025": 21.4,
+      "2024": 11.4
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "holdingpilargroupltd_679070784": {
+   "nome": "HOLDING PILAR GROUP LTDA",
+   "_idCliente": 679070784,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 1
+    },
+    "entradas": {
+     "2025": 1
+    },
+    "area": {
+     "Cível": 1
+    },
+    "uf": {
+     "RJ": 1
+    },
+    "instancia": {
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJRJ": 1
+    },
+    "ranking": [
+     [
+      "SUELI DUTRA DOS SANTOS",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJRJ"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 269,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 102.6,
+     "media": 102.6,
+     "mediaAtivos": 102.6,
+     "horasano": {
+      "2026": 70.5,
+      "2025": 32.1
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo YESICA",
+ "nomeHtml": "Grupo <em>YESICA</em>",
+ "nEmpresas": 3
+}

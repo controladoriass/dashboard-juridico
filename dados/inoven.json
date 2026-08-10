@@ -1,0 +1,364 @@
+{
+ "kpiGrupo": {
+  "proc": 40,
+  "ativos": 13,
+  "areas": 5,
+  "trib": 6,
+  "procSub": "13 ativos · 27 encerrados",
+  "areasSub": "Tributário, Penal-Criminal, Cível",
+  "tribSub": "TRF4, INMETRO, TJSP"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 2129803,
+   "dataset": {
+    "total": 40,
+    "ativos": 13,
+    "encerrados": {
+     "2020": 1,
+     "2023": 8,
+     "2024": 6,
+     "2025": 7,
+     "2026": 1
+    },
+    "areaTotal": 13,
+    "estoque": {
+     "2019": 2,
+     "2020": 7,
+     "2021": 11,
+     "2022": 14,
+     "2023": 11,
+     "2024": 11,
+     "2025": 14,
+     "2026": 17
+    },
+    "entradas": {
+     "2019": 2,
+     "2020": 6,
+     "2021": 4,
+     "2022": 3,
+     "2023": 5,
+     "2024": 6,
+     "2025": 10,
+     "2026": 4
+    },
+    "area": {
+     "Tributário": 8,
+     "Penal-Criminal": 2,
+     "Cível": 1,
+     "Eleitoral": 1,
+     "Aduaneiro": 1
+    },
+    "uf": {
+     "SC": 9,
+     "SP": 2
+    },
+    "instancia": {
+     "1º Grau": 12,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 8,
+     "Polo ativo": 3,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TRF4": 5,
+     "N/D": 4,
+     "INMETRO": 1,
+     "TJSP": 1,
+     "TJSC": 1,
+     "TRESP": 1
+    },
+    "ranking": [
+     [
+      "CHEFE DO SERVIÇO DE FISCALIZAÇÃO DO MINISTÉRIO DA AGRICULTURA, PECUÁRIA E ABASTECIMENTO - MAPA - IMBITUBA/SC",
+      3
+     ],
+     [
+      "POLÍCIA CIVIL DO ESTADO DE SÃO PAULO",
+      2
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+      2
+     ],
+     [
+      "INSTITUTO NACIONAL DE METROLOGIA, QUALIDADE E TECNOLOGIA - INMETRO.",
+      1
+     ],
+     [
+      "ESTADO DO CEARÁ",
+      1
+     ],
+     [
+      "DUBAI ADMINISTRADORA DE BENS S/S LTDA",
+      1
+     ],
+     [
+      "UNIÃO FEDERAL",
+      1
+     ],
+     [
+      "RECEITA FEDERAL DO BRASIL",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 40,
+     "ativos": 13,
+     "areas": 5,
+     "trib": 6,
+     "procSub": "13 ativos · 27 encerrados",
+     "areasSub": "Tributário, Penal-Criminal, Cível",
+     "tribSub": "TRF4, INMETRO, TJSP"
+    },
+    "esforco": {
+     "comProducao": 40,
+     "tramitacaoDias": 460,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 934.1,
+     "media": 23.4,
+     "mediaAtivos": 71.9,
+     "horasano": {
+      "2021": 10.5,
+      "2022": 125.9,
+      "2023": 179.3,
+      "2024": 160.7,
+      "2025": 209.1,
+      "2026": 248.4
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 27,
+    "_panorama": true
+   }
+  },
+  "inovencomerciointern_2129803": {
+   "nome": "INOVEN COMÉRCIO INTERNACIONAL LTDA",
+   "_idCliente": 2129803,
+   "dataset": {
+    "total": 34,
+    "ativos": 9,
+    "encerrados": {
+     "2020": 1,
+     "2023": 8,
+     "2024": 6,
+     "2025": 6
+    },
+    "areaTotal": 9,
+    "estoque": {
+     "2019": 2,
+     "2020": 7,
+     "2021": 11,
+     "2022": 14,
+     "2023": 11,
+     "2024": 11,
+     "2025": 10,
+     "2026": 13
+    },
+    "entradas": {
+     "2019": 2,
+     "2020": 6,
+     "2021": 4,
+     "2022": 3,
+     "2023": 5,
+     "2024": 6,
+     "2025": 5,
+     "2026": 3
+    },
+    "area": {
+     "Tributário": 7,
+     "Penal-Criminal": 2
+    },
+    "uf": {
+     "SC": 7,
+     "SP": 1
+    },
+    "instancia": {
+     "1º Grau": 8,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 7,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TRF4": 5,
+     "N/D": 2,
+     "INMETRO": 1,
+     "TJSP": 1
+    },
+    "ranking": [
+     [
+      "CHEFE DO SERVIÇO DE FISCALIZAÇÃO DO MINISTÉRIO DA AGRICULTURA, PECUÁRIA E ABASTECIMENTO - MAPA - IMBITUBA/SC",
+      3
+     ],
+     [
+      "POLÍCIA CIVIL DO ESTADO DE SÃO PAULO",
+      2
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+      2
+     ],
+     [
+      "INSTITUTO NACIONAL DE METROLOGIA, QUALIDADE E TECNOLOGIA - INMETRO.",
+      1
+     ],
+     [
+      "ESTADO DO CEARÁ",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 34,
+     "ativos": 9,
+     "areas": 2,
+     "trib": 4,
+     "procSub": "9 ativos · 25 encerrados",
+     "areasSub": "Tributário, Penal-Criminal",
+     "tribSub": "TRF4, INMETRO, TJSP"
+    },
+    "esforco": {
+     "comProducao": 34,
+     "tramitacaoDias": 522,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 894.1,
+     "media": 26.3,
+     "mediaAtivos": 99.3,
+     "horasano": {
+      "2021": 10.5,
+      "2022": 125.9,
+      "2023": 179.3,
+      "2024": 160.7,
+      "2025": 191.7,
+      "2026": 225.9
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 25
+   }
+  },
+  "inovenindustriacomer_681546826": {
+   "nome": "INOVEN INDUSTRIA, COMERCIO E IMPORTACAO LTDA",
+   "_idCliente": 681546826,
+   "dataset": {
+    "total": 6,
+    "ativos": 4,
+    "encerrados": {
+     "2025": 1,
+     "2026": 1
+    },
+    "areaTotal": 4,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 4,
+     "2026": 4
+    },
+    "entradas": {
+     "2025": 5,
+     "2026": 1
+    },
+    "area": {
+     "Cível": 1,
+     "Tributário": 1,
+     "Eleitoral": 1,
+     "Aduaneiro": 1
+    },
+    "uf": {
+     "SC": 2,
+     "SP": 1
+    },
+    "instancia": {
+     "1º Grau": 4
+    },
+    "polo": {
+     "Polo ativo": 3,
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "N/D": 2,
+     "TJSC": 1,
+     "TRESP": 1
+    },
+    "ranking": [
+     [
+      "DUBAI ADMINISTRADORA DE BENS S/S LTDA",
+      1
+     ],
+     [
+      "UNIÃO FEDERAL",
+      1
+     ],
+     [
+      "RECEITA FEDERAL DO BRASIL",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 6,
+     "ativos": 4,
+     "areas": 4,
+     "trib": 3,
+     "procSub": "4 ativos · 2 encerrados",
+     "areasSub": "Cível, Tributário, Eleitoral",
+     "tribSub": "TJSC, TRESP"
+    },
+    "esforco": {
+     "comProducao": 6,
+     "tramitacaoDias": 322,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 40.0,
+     "media": 6.7,
+     "mediaAtivos": 10.0,
+     "horasano": {
+      "2025": 17.4,
+      "2026": 22.6
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 2
+   }
+  }
+ },
+ "nome": "Grupo INOVEN",
+ "nomeHtml": "Grupo <em>INOVEN</em>",
+ "nEmpresas": 2
+}

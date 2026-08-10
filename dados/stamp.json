@@ -1,0 +1,308 @@
+{
+ "kpiGrupo": {
+  "proc": 8,
+  "ativos": 2,
+  "areas": 2,
+  "trib": 2,
+  "procSub": "2 ativos · 6 encerrados",
+  "areasSub": "Administrativo, Trabalhista",
+  "tribSub": "TRT12"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 2129955,
+   "dataset": {
+    "total": 8,
+    "ativos": 2,
+    "encerrados": {},
+    "areaTotal": 2,
+    "estoque": {
+     "2021": 2,
+     "2022": 2,
+     "2023": 5,
+     "2024": 7,
+     "2025": 8,
+     "2026": 8
+    },
+    "entradas": {
+     "2021": 2,
+     "2023": 3,
+     "2024": 2,
+     "2025": 1
+    },
+    "area": {
+     "Administrativo": 1,
+     "Trabalhista": 1
+    },
+    "uf": {
+     "SC": 2
+    },
+    "instancia": {
+     "1º Grau": 1,
+     "Superiores": 1
+    },
+    "polo": {
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "N/D": 1,
+     "TRT12": 1
+    },
+    "ranking": [
+     [
+      "SECRETARIA DE ESTADO DA FAZENDA DE SANTA CATARINA",
+      1
+     ],
+     [
+      "MARILEUSA MACHADO PEDRO",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 8,
+     "ativos": 2,
+     "areas": 2,
+     "trib": 2,
+     "procSub": "2 ativos · 6 encerrados",
+     "areasSub": "Administrativo, Trabalhista",
+     "tribSub": "TRT12"
+    },
+    "esforco": {
+     "comProducao": 8,
+     "tramitacaoDias": 602,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 243.2,
+     "media": 30.4,
+     "mediaAtivos": 121.6,
+     "horasano": {
+      "2023": 34.6,
+      "2024": 108.1,
+      "2025": 91.9,
+      "2026": 8.6
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 6,
+    "_panorama": true
+   }
+  },
+  "stampbrasilltda_2129955": {
+   "nome": "STAMP BRASIL LTDA",
+   "_idCliente": 2129955,
+   "dataset": {
+    "total": 7,
+    "ativos": 2,
+    "encerrados": {},
+    "areaTotal": 2,
+    "estoque": {
+     "2021": 2,
+     "2022": 2,
+     "2023": 4,
+     "2024": 6,
+     "2025": 7,
+     "2026": 7
+    },
+    "entradas": {
+     "2021": 2,
+     "2023": 2,
+     "2024": 2,
+     "2025": 1
+    },
+    "area": {
+     "Administrativo": 1,
+     "Trabalhista": 1
+    },
+    "uf": {
+     "SC": 2
+    },
+    "instancia": {
+     "1º Grau": 1,
+     "Superiores": 1
+    },
+    "polo": {
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "N/D": 1,
+     "TRT12": 1
+    },
+    "ranking": [
+     [
+      "SECRETARIA DE ESTADO DA FAZENDA DE SANTA CATARINA",
+      1
+     ],
+     [
+      "MARILEUSA MACHADO PEDRO",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 7,
+     "ativos": 2,
+     "areas": 2,
+     "trib": 2,
+     "procSub": "2 ativos · 5 encerrados",
+     "areasSub": "Administrativo, Trabalhista",
+     "tribSub": "TRT12"
+    },
+    "esforco": {
+     "comProducao": 7,
+     "tramitacaoDias": 602,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 238.4,
+     "media": 34.1,
+     "mediaAtivos": 119.2,
+     "horasano": {
+      "2023": 31.6,
+      "2024": 106.4,
+      "2025": 91.9,
+      "2026": 8.6
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 5
+   }
+  },
+  "stampbrasilltda_2129886": {
+   "nome": "STAMP/BRASIL LTDA",
+   "_idCliente": 2129886,
+   "dataset": {
+    "total": 1,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 1,
+     "2024": 1,
+     "2025": 1,
+     "2026": 1
+    },
+    "entradas": {
+     "2023": 1
+    },
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 1 encerrado",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 0,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 4.8,
+     "media": 4.8,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2023": 3.0,
+      "2024": 1.8
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1
+   }
+  },
+  "girletexestampariaec_2129956": {
+   "nome": "GIRLETEX ESTAMPARIA E CONFECÇÕES LTDA",
+   "_idCliente": 2129956,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {},
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo STAMP",
+ "nomeHtml": "Grupo <em>STAMP</em>",
+ "nEmpresas": 3
+}
