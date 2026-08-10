@@ -1,0 +1,243 @@
+{
+ "kpiGrupo": {
+  "proc": 3,
+  "ativos": 3,
+  "areas": 1,
+  "trib": 1,
+  "procSub": "3 ativos · 0 encerrados",
+  "areasSub": "Cível",
+  "tribSub": "TJMT"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 676676256,
+   "dataset": {
+    "total": 3,
+    "ativos": 3,
+    "encerrados": {},
+    "areaTotal": 3,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 1,
+     "2025": 3,
+     "2026": 3
+    },
+    "entradas": {
+     "2024": 1,
+     "2025": 2
+    },
+    "area": {
+     "Cível": 3
+    },
+    "uf": {
+     "MT": 3
+    },
+    "instancia": {
+     "1º Grau": 3
+    },
+    "polo": {
+     "Polo ativo": 2,
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJMT": 3
+    },
+    "ranking": [
+     [
+      "ISADORA DA SILVA WELTER",
+      2
+     ],
+     [
+      "ROBSON FERNANDO LUIZ DE LIMA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 3,
+     "ativos": 3,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "3 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJMT"
+    },
+    "esforco": {
+     "comProducao": 3,
+     "tramitacaoDias": 530,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 10,
+      "2026": 5
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 1,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 16,
+      "Audiências": 0,
+      "Reuniões e Diligências": 1
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 2,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 15.4,
+     "media": 5.1,
+     "mediaAtivos": 5.1,
+     "horasano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 5.7,
+      "2024": 0.4,
+      "2025": 6.1,
+      "2026": 3.3
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0,
+    "_panorama": true
+   }
+  },
+  "saolucasadministrado_": {
+   "nome": "SAO LUCAS ADMINISTRADORA DE BENS PROPRIOS LTDA",
+   "_idCliente": 676676256,
+   "dataset": {
+    "total": 3,
+    "ativos": 3,
+    "encerrados": {},
+    "areaTotal": 3,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 1,
+     "2025": 3,
+     "2026": 3
+    },
+    "entradas": {
+     "2024": 1,
+     "2025": 2
+    },
+    "area": {
+     "Cível": 3
+    },
+    "uf": {
+     "MT": 3
+    },
+    "instancia": {
+     "1º Grau": 3
+    },
+    "polo": {
+     "Polo ativo": 2,
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJMT": 3
+    },
+    "ranking": [
+     [
+      "ISADORA DA SILVA WELTER",
+      2
+     ],
+     [
+      "ROBSON FERNANDO LUIZ DE LIMA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 3,
+     "ativos": 3,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "3 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJMT"
+    },
+    "esforco": {
+     "comProducao": 3,
+     "tramitacaoDias": 530,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 10,
+      "2026": 5
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 1,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 16,
+      "Audiências": 0,
+      "Reuniões e Diligências": 1
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 2,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 15.4,
+     "media": 5.1,
+     "mediaAtivos": 5.1,
+     "horasano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 5.7,
+      "2024": 0.4,
+      "2025": 6.1,
+      "2026": 3.3
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo SAO LUCAS ADMINISTRADORA DE BENS PROPRIOS LTDA",
+ "nomeHtml": "Grupo <em>SAO LUCAS ADMINISTRADORA DE BENS PROPRIOS LTDA</em>",
+ "nEmpresas": 1
+}

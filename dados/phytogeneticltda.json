@@ -1,0 +1,223 @@
+{
+ "kpiGrupo": {
+  "proc": 2,
+  "ativos": 1,
+  "areas": 0,
+  "trib": 1,
+  "procSub": "1 ativos · 1 encerrado",
+  "areasSub": "",
+  "tribSub": ""
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 681876458,
+   "dataset": {
+    "total": 2,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 2,
+     "2026": 2
+    },
+    "entradas": {
+     "2025": 2
+    },
+    "area": {},
+    "uf": {},
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "DIRETOR-PRESIDENTE DA AGENCIA NACIONAL DE VIGILANCIA SANITARIA - ANVISA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 2,
+     "ativos": 1,
+     "areas": 0,
+     "trib": 1,
+     "procSub": "1 ativos · 1 encerrado",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 2,
+     "tramitacaoDias": 389,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 10,
+      "2026": 1
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 15,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 11,
+      "Audiências": 0,
+      "Reuniões e Diligências": 15
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 55.3,
+     "media": 27.6,
+     "mediaAtivos": 55.3,
+     "horasano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 54.6,
+      "2026": 0.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1,
+    "_panorama": true
+   }
+  },
+  "phytogeneticltda_": {
+   "nome": "PHYTOGENETIC LTDA",
+   "_idCliente": 681876458,
+   "dataset": {
+    "total": 2,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 2,
+     "2026": 2
+    },
+    "entradas": {
+     "2025": 2
+    },
+    "area": {},
+    "uf": {},
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "DIRETOR-PRESIDENTE DA AGENCIA NACIONAL DE VIGILANCIA SANITARIA - ANVISA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 2,
+     "ativos": 1,
+     "areas": 0,
+     "trib": 1,
+     "procSub": "1 ativos · 1 encerrado",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 2,
+     "tramitacaoDias": 389,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 10,
+      "2026": 1
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 15,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 11,
+      "Audiências": 0,
+      "Reuniões e Diligências": 15
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 55.3,
+     "media": 27.6,
+     "mediaAtivos": 55.3,
+     "horasano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 54.6,
+      "2026": 0.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1
+   }
+  }
+ },
+ "nome": "Grupo PHYTOGENETIC LTDA",
+ "nomeHtml": "Grupo <em>PHYTOGENETIC LTDA</em>",
+ "nEmpresas": 1
+}

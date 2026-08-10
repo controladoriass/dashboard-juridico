@@ -1,0 +1,2152 @@
+{
+ "kpiGrupo": {
+  "proc": 111,
+  "ativos": 53,
+  "areas": 6,
+  "trib": 11,
+  "procSub": "53 ativos · 58 encerrados",
+  "areasSub": "Cível, Tributário, Bancário",
+  "tribSub": "TJSC, TJSP, TJRS"
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama",
+   "_idCliente": 2164466,
+   "dataset": {
+    "total": 111,
+    "ativos": 53,
+    "encerrados": {
+     "2021": 1,
+     "2022": 4,
+     "2023": 18,
+     "2024": 10,
+     "2025": 11,
+     "2026": 10
+    },
+    "areaTotal": 53,
+    "estoque": {
+     "2020": 15,
+     "2021": 24,
+     "2022": 54,
+     "2023": 54,
+     "2024": 47,
+     "2025": 62,
+     "2026": 57
+    },
+    "entradas": {
+     "2020": 15,
+     "2021": 10,
+     "2022": 34,
+     "2023": 18,
+     "2024": 3,
+     "2025": 26,
+     "2026": 5
+    },
+    "area": {
+     "Cível": 29,
+     "Tributário": 18,
+     "Bancário": 3,
+     "Ambiental": 1,
+     "Administrativo": 1,
+     "Penal-Criminal": 1
+    },
+    "uf": {
+     "SC": 28,
+     "SP": 13,
+     "RS": 3,
+     "BA": 2,
+     "ES": 2,
+     "GO": 1,
+     "PA": 1,
+     "RJ": 1
+    },
+    "instancia": {
+     "1º Grau": 49,
+     "2º Grau": 3,
+     "Superiores": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 41,
+     "Polo ativo": 9,
+     "Polo passivo": 3
+    },
+    "tribunais": {
+     "TJSC": 27,
+     "TJSP": 12,
+     "TJRS": 3,
+     "N/D": 3,
+     "TJBA": 2,
+     "STJ": 1,
+     "TJGO": 1,
+     "TJPA": 1,
+     "TJRJ": 1,
+     "TRF3": 1,
+     "TJES": 1
+    },
+    "ranking": [
+     [
+      "ESTADO DE SANTA CATARINA",
+      9
+     ],
+     [
+      "MUNICÍPIO DE JOINVILLE",
+      3
+     ],
+     [
+      "ELIADE CARVALHO NOGUEIRA",
+      2
+     ],
+     [
+      "FREDERICO AUGUSTO MENDES DOS SANTOS",
+      2
+     ],
+     [
+      "MUNICÍPIO DE ARAQUARI/SC",
+      2
+     ],
+     [
+      "BANCO BRADESCO S/A",
+      2
+     ],
+     [
+      "OMAR CONSULTORIA E ASSESSORIA EM RECURSOS HUMANOS LTDA",
+      1
+     ],
+     [
+      "ALEXCHEIEVINA SANTOS FERNANDES",
+      1
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+      1
+     ],
+     [
+      "MICHELLE PEREZ PINHEIRO COSTA",
+      1
+     ],
+     [
+      "LEONARDO PAULINO PITA SANTORIO",
+      1
+     ],
+     [
+      "NOBRE CLINICS LTDA",
+      1
+     ],
+     [
+      "Marcelo Ferreira de Lima",
+      1
+     ],
+     [
+      "ANDRÉ LUIZ SILVA DE MATOS SOBRINHO",
+      1
+     ],
+     [
+      "RECEITA FEDERAL DO BRASIL",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 111,
+     "ativos": 53,
+     "areas": 6,
+     "trib": 11,
+     "procSub": "53 ativos · 58 encerrados",
+     "areasSub": "Cível, Tributário, Bancário",
+     "tribSub": "TJSC, TJSP, TJRS"
+    },
+    "esforco": {
+     "comProducao": 111,
+     "tramitacaoDias": 1065,
+     "prazano": {
+      "2021": 38,
+      "2022": 485,
+      "2023": 621,
+      "2024": 470,
+      "2025": 1455,
+      "2026": 1043
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 40,
+      "2023": 55,
+      "2024": 75,
+      "2025": 39,
+      "2026": 30
+     },
+     "tarefano": {
+      "2021": 153,
+      "2022": 297,
+      "2023": 120,
+      "2024": 58,
+      "2025": 49,
+      "2026": 36
+     },
+     "atividades": {
+      "Prazos": 4112,
+      "Audiências": 239,
+      "Reuniões e Diligências": 713
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 84,
+      "2023": 66,
+      "2024": 23,
+      "2025": 26,
+      "2026": 10
+     }
+    },
+    "horas": {
+     "total": 7329.7,
+     "media": 66.0,
+     "mediaAtivos": 138.3,
+     "horasano": {
+      "2021": 265.6,
+      "2022": 1259.4,
+      "2023": 1198.1,
+      "2024": 870.2,
+      "2025": 2181.0,
+      "2026": 1555.4
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 58,
+    "_panorama": true
+   }
+  },
+  "maquinadevendasfranc_2164466": {
+   "nome": "MAQUINA DE VENDAS FRANCHISING LTDA",
+   "_idCliente": 2164466,
+   "dataset": {
+    "total": 21,
+    "ativos": 11,
+    "encerrados": {
+     "2022": 1,
+     "2023": 1,
+     "2025": 4,
+     "2026": 4
+    },
+    "areaTotal": 11,
+    "estoque": {
+     "2021": 2,
+     "2022": 6,
+     "2023": 6,
+     "2024": 6,
+     "2025": 13,
+     "2026": 11
+    },
+    "entradas": {
+     "2021": 2,
+     "2022": 5,
+     "2023": 1,
+     "2025": 11,
+     "2026": 2
+    },
+    "area": {
+     "Cível": 9,
+     "Tributário": 2
+    },
+    "uf": {
+     "SP": 3,
+     "RS": 2,
+     "BA": 2,
+     "GO": 1,
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 9,
+     "2º Grau": 1,
+     "Superiores": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 8,
+     "Polo ativo": 2,
+     "Polo passivo": 1
+    },
+    "tribunais": {
+     "TJSP": 3,
+     "TJRS": 2,
+     "TJBA": 2,
+     "STJ": 1,
+     "TJGO": 1,
+     "TJSC": 1,
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "ELIADE CARVALHO NOGUEIRA",
+      2
+     ],
+     [
+      "OMAR CONSULTORIA E ASSESSORIA EM RECURSOS HUMANOS LTDA",
+      1
+     ],
+     [
+      "ALEXCHEIEVINA SANTOS FERNANDES",
+      1
+     ],
+     [
+      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+      1
+     ],
+     [
+      "MICHELLE PEREZ PINHEIRO COSTA",
+      1
+     ],
+     [
+      "LEONARDO PAULINO PITA SANTORIO",
+      1
+     ],
+     [
+      "NOBRE CLINICS LTDA",
+      1
+     ],
+     [
+      "Marcelo Ferreira de Lima",
+      1
+     ],
+     [
+      "ANDRÉ LUIZ SILVA DE MATOS SOBRINHO",
+      1
+     ],
+     [
+      "RECEITA FEDERAL DO BRASIL",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 21,
+     "ativos": 11,
+     "areas": 2,
+     "trib": 7,
+     "procSub": "11 ativos · 10 encerrados",
+     "areasSub": "Cível, Tributário",
+     "tribSub": "TJSP, TJRS, TJBA"
+    },
+    "esforco": {
+     "comProducao": 21,
+     "tramitacaoDias": 679,
+     "prazano": {
+      "2021": 22,
+      "2022": 60,
+      "2023": 63,
+      "2024": 78,
+      "2025": 354,
+      "2026": 265
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 13,
+      "2024": 10,
+      "2025": 5,
+      "2026": 5
+     },
+     "tarefano": {
+      "2021": 3,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 1,
+      "2026": 9
+     },
+     "atividades": {
+      "Prazos": 842,
+      "Audiências": 33,
+      "Reuniões e Diligências": 14
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 1235.7,
+     "media": 58.8,
+     "mediaAtivos": 112.3,
+     "horasano": {
+      "2021": 34.8,
+      "2022": 83.4,
+      "2023": 105.6,
+      "2024": 123.7,
+      "2025": 500.4,
+      "2026": 387.8
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 10
+   }
+  },
+  "300f_2120677": {
+   "nome": "300F",
+   "_idCliente": 2120677,
+   "dataset": {
+    "total": 26,
+    "ativos": 12,
+    "encerrados": {
+     "2022": 1,
+     "2023": 10,
+     "2025": 1,
+     "2026": 2
+    },
+    "areaTotal": 12,
+    "estoque": {
+     "2022": 16,
+     "2023": 10,
+     "2024": 10,
+     "2025": 13,
+     "2026": 12
+    },
+    "entradas": {
+     "2022": 17,
+     "2023": 4,
+     "2025": 4,
+     "2026": 1
+    },
+    "area": {
+     "Cível": 12
+    },
+    "uf": {
+     "SP": 9,
+     "PA": 1,
+     "RJ": 1,
+     "RS": 1
+    },
+    "instancia": {
+     "1º Grau": 11,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 10,
+     "Polo ativo": 2
+    },
+    "tribunais": {
+     "TJSP": 9,
+     "TJPA": 1,
+     "TJRJ": 1,
+     "TJRS": 1
+    },
+    "ranking": [
+     [
+      "FREDERICO AUGUSTO MENDES DOS SANTOS",
+      2
+     ],
+     [
+      "INFOJOBS BRASIL ATIVIDADES DE INTERNET LTDA.",
+      1
+     ],
+     [
+      "GLASSDOOR EMPREGOS E INFORMACOES LTDA",
+      1
+     ],
+     [
+      "FERNANDA QUADROS RODRIGUES",
+      1
+     ],
+     [
+      "BRUNO DE LIMA MATA",
+      1
+     ],
+     [
+      "B & V ENTRETENIMENTO COMÉRCIO DE BEBIDAS",
+      1
+     ],
+     [
+      "CINTIA XAVIER PEREIRA GUERRA",
+      1
+     ],
+     [
+      "DAVID RUI",
+      1
+     ],
+     [
+      "IRINEU GERSON FREITAG",
+      1
+     ],
+     [
+      "MATHEUS AUGUSTO DE ASSIS",
+      1
+     ],
+     [
+      "Victor José dos Santos",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 26,
+     "ativos": 12,
+     "areas": 1,
+     "trib": 4,
+     "procSub": "12 ativos · 14 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJSP, TJPA, TJRJ"
+    },
+    "esforco": {
+     "comProducao": 26,
+     "tramitacaoDias": 1126,
+     "prazano": {
+      "2021": 0,
+      "2022": 171,
+      "2023": 101,
+      "2024": 143,
+      "2025": 531,
+      "2026": 339
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 12,
+      "2023": 0,
+      "2024": 5,
+      "2025": 0,
+      "2026": 10
+     },
+     "tarefano": {
+      "2021": 3,
+      "2022": 296,
+      "2023": 119,
+      "2024": 55,
+      "2025": 37,
+      "2026": 11
+     },
+     "atividades": {
+      "Prazos": 1285,
+      "Audiências": 27,
+      "Reuniões e Diligências": 521
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 84,
+      "2023": 66,
+      "2024": 23,
+      "2025": 26,
+      "2026": 6
+     }
+    },
+    "horas": {
+     "total": 2832.8,
+     "media": 109.0,
+     "mediaAtivos": 236.1,
+     "horasano": {
+      "2021": 4.2,
+      "2022": 782.6,
+      "2023": 397.5,
+      "2024": 314.1,
+      "2025": 825.7,
+      "2026": 508.7
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 14
+   }
+  },
+  "leandrosousacastelo_2122823": {
+   "nome": "LEANDRO SOUSA CASTELO",
+   "_idCliente": 2122823,
+   "dataset": {
+    "total": 7,
+    "ativos": 2,
+    "encerrados": {
+     "2021": 1,
+     "2022": 1,
+     "2023": 3
+    },
+    "areaTotal": 2,
+    "estoque": {
+     "2020": 1,
+     "2021": 2,
+     "2022": 2,
+     "2023": 1,
+     "2024": 2,
+     "2025": 2,
+     "2026": 2
+    },
+    "entradas": {
+     "2020": 1,
+     "2021": 2,
+     "2022": 1,
+     "2023": 2,
+     "2024": 1
+    },
+    "area": {
+     "Cível": 1,
+     "Tributário": 1
+    },
+    "uf": {
+     "SC": 2
+    },
+    "instancia": {
+     "1º Grau": 2
+    },
+    "polo": {
+     "Polo ativo": 1,
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJSC": 2
+    },
+    "ranking": [
+     [
+      "ELIMAR REFRIGERACAO LTDA",
+      1
+     ],
+     [
+      "MUNICÍPIO DE JOINVILLE",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 7,
+     "ativos": 2,
+     "areas": 2,
+     "trib": 1,
+     "procSub": "2 ativos · 5 encerrados",
+     "areasSub": "Cível, Tributário",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 7,
+     "tramitacaoDias": 916,
+     "prazano": {
+      "2021": 15,
+      "2022": 24,
+      "2023": 92,
+      "2024": 36,
+      "2025": 21,
+      "2026": 22
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 13,
+      "2023": 8,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 22,
+      "2022": 1,
+      "2023": 0,
+      "2024": 1,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 210,
+      "Audiências": 21,
+      "Reuniões e Diligências": 24
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 354.4,
+     "media": 50.6,
+     "mediaAtivos": 177.2,
+     "horasano": {
+      "2021": 51.4,
+      "2022": 52.8,
+      "2023": 139.0,
+      "2024": 51.4,
+      "2025": 29.2,
+      "2026": 30.6
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 5
+   }
+  },
+  "marcosantoniomendonc_2122931": {
+   "nome": "MARCOS ANTONIO MENDONÇA",
+   "_idCliente": 2122931,
+   "dataset": {
+    "total": 3,
+    "ativos": 2,
+    "encerrados": {},
+    "areaTotal": 2,
+    "estoque": {
+     "2020": 3,
+     "2021": 3,
+     "2022": 3,
+     "2023": 3,
+     "2024": 3,
+     "2025": 3,
+     "2026": 3
+    },
+    "entradas": {
+     "2020": 3
+    },
+    "area": {
+     "Tributário": 2
+    },
+    "uf": {
+     "SC": 2
+    },
+    "instancia": {
+     "1º Grau": 2
+    },
+    "polo": {
+     "Terceiro/Outros": 2
+    },
+    "tribunais": {
+     "TJSC": 2
+    },
+    "ranking": [
+     [
+      "ESTADO DE SANTA CATARINA",
+      2
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 3,
+     "ativos": 2,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "2 ativos · 1 encerrado",
+     "areasSub": "Tributário",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 3,
+     "tramitacaoDias": 2092,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 6,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 6,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 8.3,
+     "media": 2.8,
+     "mediaAtivos": 4.2,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 8.3,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 1
+   }
+  },
+  "industriadeesquadria_2122933": {
+   "nome": "INDUSTRIA DE ESQUADRIAS DE MADEIRAS E VIDROS NOVO MILENIO LTDA",
+   "_idCliente": 2122933,
+   "dataset": {
+    "total": 12,
+    "ativos": 9,
+    "encerrados": {
+     "2023": 1,
+     "2024": 1,
+     "2025": 1
+    },
+    "areaTotal": 9,
+    "estoque": {
+     "2020": 6,
+     "2021": 7,
+     "2022": 10,
+     "2023": 9,
+     "2024": 8,
+     "2025": 9,
+     "2026": 9
+    },
+    "entradas": {
+     "2020": 6,
+     "2021": 1,
+     "2022": 3,
+     "2025": 2
+    },
+    "area": {
+     "Tributário": 7,
+     "Ambiental": 1,
+     "Bancário": 1
+    },
+    "uf": {
+     "SC": 9
+    },
+    "instancia": {
+     "1º Grau": 8,
+     "2º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 7,
+     "Polo ativo": 2
+    },
+    "tribunais": {
+     "TJSC": 8,
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "ESTADO DE SANTA CATARINA",
+      6
+     ],
+     [
+      "INSTITUTO DO MEIO AMBIENTE DE SANTA CATARINA",
+      1
+     ],
+     [
+      "INSTITUTO DO MEIO AMBIENTE DO ESTADO DE SANTA CATARINA - IMA",
+      1
+     ],
+     [
+      "BANCO DO BRASIL S/A",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 12,
+     "ativos": 9,
+     "areas": 3,
+     "trib": 2,
+     "procSub": "9 ativos · 3 encerrados",
+     "areasSub": "Tributário, Ambiental, Bancário",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 12,
+     "tramitacaoDias": 1648,
+     "prazano": {
+      "2021": 0,
+      "2022": 88,
+      "2023": 86,
+      "2024": 27,
+      "2025": 69,
+      "2026": 44
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 15,
+      "2023": 5,
+      "2024": 5,
+      "2025": 5,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 2,
+      "2022": 0,
+      "2023": 0,
+      "2024": 1,
+      "2025": 3,
+      "2026": 5
+     },
+     "atividades": {
+      "Prazos": 314,
+      "Audiências": 30,
+      "Reuniões e Diligências": 11
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 4
+     }
+    },
+    "horas": {
+     "total": 499.1,
+     "media": 41.6,
+     "mediaAtivos": 55.5,
+     "horasano": {
+      "2021": 2.8,
+      "2022": 143.2,
+      "2023": 126.5,
+      "2024": 45.9,
+      "2025": 107.0,
+      "2026": 73.7
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 3
+   }
+  },
+  "ecoindustriaecomerci_2122934": {
+   "nome": "ECO INDUSTRIA E COMERCIO EIRELI",
+   "_idCliente": 2122934,
+   "dataset": {
+    "total": 14,
+    "ativos": 3,
+    "encerrados": {
+     "2024": 5,
+     "2025": 2,
+     "2026": 1
+    },
+    "areaTotal": 3,
+    "estoque": {
+     "2020": 5,
+     "2021": 10,
+     "2022": 11,
+     "2023": 12,
+     "2024": 7,
+     "2025": 7,
+     "2026": 6
+    },
+    "entradas": {
+     "2020": 5,
+     "2021": 5,
+     "2022": 1,
+     "2023": 1,
+     "2025": 2
+    },
+    "area": {
+     "Tributário": 2,
+     "Cível": 1
+    },
+    "uf": {
+     "SC": 3
+    },
+    "instancia": {
+     "1º Grau": 3
+    },
+    "polo": {
+     "Terceiro/Outros": 3
+    },
+    "tribunais": {
+     "TJSC": 3
+    },
+    "ranking": [
+     [
+      "UILSON SOARES",
+      1
+     ],
+     [
+      "ESTADO DE SANTA CATARINA",
+      1
+     ],
+     [
+      "MUNICÍPIO DE ARAQUARI/SC",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 14,
+     "ativos": 3,
+     "areas": 2,
+     "trib": 1,
+     "procSub": "3 ativos · 11 encerrados",
+     "areasSub": "Tributário, Cível",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 14,
+     "tramitacaoDias": 2019,
+     "prazano": {
+      "2021": 1,
+      "2022": 39,
+      "2023": 20,
+      "2024": 92,
+      "2025": 75,
+      "2026": 6
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 50,
+      "2025": 5,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 123,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 3
+     },
+     "atividades": {
+      "Prazos": 233,
+      "Audiências": 55,
+      "Reuniões e Diligências": 126
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 575.5,
+     "media": 41.1,
+     "mediaAtivos": 191.8,
+     "horasano": {
+      "2021": 172.4,
+      "2022": 54.2,
+      "2023": 27.8,
+      "2024": 197.4,
+      "2025": 111.2,
+      "2026": 12.5
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 11
+   }
+  },
+  "hpjadministradoradeb_2130055": {
+   "nome": "HPJ ADMINISTRADORA DE BENS LTDA",
+   "_idCliente": 2130055,
+   "dataset": {
+    "total": 11,
+    "ativos": 3,
+    "encerrados": {
+     "2022": 1,
+     "2023": 2,
+     "2024": 2,
+     "2025": 2,
+     "2026": 1
+    },
+    "areaTotal": 3,
+    "estoque": {
+     "2022": 3,
+     "2023": 6,
+     "2024": 4,
+     "2025": 4,
+     "2026": 3
+    },
+    "entradas": {
+     "2022": 4,
+     "2023": 5,
+     "2025": 2
+    },
+    "area": {
+     "Cível": 2,
+     "Tributário": 1
+    },
+    "uf": {
+     "SC": 3
+    },
+    "instancia": {
+     "1º Grau": 3
+    },
+    "polo": {
+     "Terceiro/Outros": 3
+    },
+    "tribunais": {
+     "TJSC": 3
+    },
+    "ranking": [
+     [
+      "RECICLE CATARINENSE DE RESÍDUOS LTDA",
+      1
+     ],
+     [
+      "MUNICÍPIO DE ARAQUARI/SC",
+      1
+     ],
+     [
+      "SIDNEY DE JESUS BAHR",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 11,
+     "ativos": 3,
+     "areas": 2,
+     "trib": 1,
+     "procSub": "3 ativos · 8 encerrados",
+     "areasSub": "Cível, Tributário",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 11,
+     "tramitacaoDias": 628,
+     "prazano": {
+      "2021": 0,
+      "2022": 70,
+      "2023": 110,
+      "2024": 12,
+      "2025": 94,
+      "2026": 38
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 8,
+      "2024": 0,
+      "2025": 7,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 1,
+      "2024": 0,
+      "2025": 2,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 324,
+      "Audiências": 15,
+      "Reuniões e Diligências": 3
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 475.4,
+     "media": 43.2,
+     "mediaAtivos": 158.5,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 97.3,
+      "2023": 165.4,
+      "2024": 16.7,
+      "2025": 143.2,
+      "2026": 52.8
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 8
+   }
+  },
+  "3lcomercioexteriorlt_3746748": {
+   "nome": "3L COMERCIO EXTERIOR LTDA",
+   "_idCliente": 3746748,
+   "dataset": {
+    "total": 13,
+    "ativos": 9,
+    "encerrados": {
+     "2023": 1,
+     "2025": 1,
+     "2026": 2
+    },
+    "areaTotal": 9,
+    "estoque": {
+     "2022": 2,
+     "2023": 6,
+     "2024": 6,
+     "2025": 9,
+     "2026": 9
+    },
+    "entradas": {
+     "2022": 2,
+     "2023": 5,
+     "2025": 4,
+     "2026": 2
+    },
+    "area": {
+     "Cível": 3,
+     "Tributário": 3,
+     "Bancário": 2,
+     "Administrativo": 1
+    },
+    "uf": {
+     "SC": 6,
+     "ES": 2,
+     "SP": 1
+    },
+    "instancia": {
+     "1º Grau": 9
+    },
+    "polo": {
+     "Terceiro/Outros": 6,
+     "Polo passivo": 2,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJSC": 6,
+     "N/D": 1,
+     "TRF3": 1,
+     "TJES": 1
+    },
+    "ranking": [
+     [
+      "BANCO BRADESCO S/A",
+      2
+     ],
+     [
+      "MUNICÍPIO DE JOINVILLE",
+      2
+     ],
+     [
+      "PROMOVE SERVICOS DE DIVULGACAO PROPAGANDA E MARKETING LTDA",
+      1
+     ],
+     [
+      "LAIZA PICOLI SILVA CARDOSO",
+      1
+     ],
+     [
+      "FELIPE PEREZ VARGAS DE VASCONCELOS",
+      1
+     ],
+     [
+      "UNIÃO FEDERAL",
+      1
+     ],
+     [
+      "KERLY BEATRIZ GONCALVES JUZINSKA DE CARVALHO 03183087979",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 13,
+     "ativos": 9,
+     "areas": 4,
+     "trib": 4,
+     "procSub": "9 ativos · 4 encerrados",
+     "areasSub": "Cível, Tributário, Bancário",
+     "tribSub": "TJSC, TRF3, TJES"
+    },
+    "esforco": {
+     "comProducao": 13,
+     "tramitacaoDias": 615,
+     "prazano": {
+      "2021": 0,
+      "2022": 30,
+      "2023": 149,
+      "2024": 69,
+      "2025": 210,
+      "2026": 167
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 21,
+      "2024": 5,
+      "2025": 10,
+      "2026": 10
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 4,
+      "2026": 6
+     },
+     "atividades": {
+      "Prazos": 625,
+      "Audiências": 46,
+      "Reuniões e Diligências": 10
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 946.7,
+     "media": 72.8,
+     "mediaAtivos": 105.2,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 41.7,
+      "2023": 236.3,
+      "2024": 102.9,
+      "2025": 311.4,
+      "2026": 254.4
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 4
+   }
+  },
+  "leonardosousacastelo_3786876": {
+   "nome": "LEONARDO SOUSA CASTELO",
+   "_idCliente": 3786876,
+   "dataset": {
+    "total": 4,
+    "ativos": 2,
+    "encerrados": {
+     "2024": 2
+    },
+    "areaTotal": 2,
+    "estoque": {
+     "2022": 1,
+     "2023": 1,
+     "2024": 1,
+     "2025": 2,
+     "2026": 2
+    },
+    "entradas": {
+     "2022": 1,
+     "2024": 2,
+     "2025": 1
+    },
+    "area": {
+     "Cível": 1,
+     "Penal-Criminal": 1
+    },
+    "uf": {
+     "SC": 2
+    },
+    "instancia": {
+     "1º Grau": 2
+    },
+    "polo": {
+     "Polo ativo": 1,
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJSC": 2
+    },
+    "ranking": [
+     [
+      "MARCUS RIZZO",
+      1
+     ],
+     [
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 4,
+     "ativos": 2,
+     "areas": 2,
+     "trib": 1,
+     "procSub": "2 ativos · 2 encerrados",
+     "areasSub": "Cível, Penal-Criminal",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 4,
+     "tramitacaoDias": 558,
+     "prazano": {
+      "2021": 0,
+      "2022": 3,
+      "2023": 0,
+      "2024": 13,
+      "2025": 95,
+      "2026": 162
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 7,
+      "2026": 5
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 2,
+      "2026": 2
+     },
+     "atividades": {
+      "Prazos": 273,
+      "Audiências": 12,
+      "Reuniões e Diligências": 4
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 401.8,
+     "media": 100.5,
+     "mediaAtivos": 200.9,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 4.2,
+      "2023": 0.0,
+      "2024": 18.1,
+      "2025": 144.6,
+      "2026": 234.9
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 2
+   }
+  },
+  "joaovictorfaleirocas_3839401": {
+   "nome": "JOÃO VICTOR FALEIRO CASTELO",
+   "_idCliente": 3839401,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "dreammachineelitesa_4221589": {
+   "nome": "DREAM MACHINE ELITE S.A.",
+   "_idCliente": 4221589,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "performancefranchisi_675906175": {
+   "nome": "PERFORMANCE FRANCHISING LTDA",
+   "_idCliente": 675906175,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "maquianadecobranca_677012434": {
+   "nome": "MAQUIANA DE COBRANÇA",
+   "_idCliente": 677012434,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "zanasalesfaleiro_677393313": {
+   "nome": "ZANA SALES FALEIRO",
+   "_idCliente": 677393313,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "goalforcadevendasltd_681325470": {
+   "nome": "GOAL FORCA DE VENDAS LTDA",
+   "_idCliente": 681325470,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "salesforcetecnologia_682803155": {
+   "nome": "SALESFORCE TECNOLOGIA LTDA",
+   "_idCliente": 682803155,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "bigdreamcapitalparti_685398589": {
+   "nome": "Big Dream Capital Participações",
+   "_idCliente": 685398589,
+   "dataset": {
+    "total": 0,
+    "ativos": 0,
+    "encerrados": {},
+    "areaTotal": 0,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
+    },
+    "entradas": {},
+    "area": {},
+    "uf": {},
+    "instancia": {},
+    "polo": {},
+    "tribunais": {},
+    "ranking": [],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 0,
+     "ativos": 0,
+     "areas": 0,
+     "trib": 0,
+     "procSub": "0 ativos · 0 encerrados",
+     "areasSub": "",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 0,
+     "tramitacaoDias": 0,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     }
+    },
+    "horas": {
+     "total": 0.0,
+     "media": 0,
+     "mediaAtivos": 0,
+     "horasano": {
+      "2021": 0.0,
+      "2022": 0.0,
+      "2023": 0.0,
+      "2024": 0.0,
+      "2025": 0.0,
+      "2026": 0.0
+     },
+     "_estimativa": true
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo 300F",
+ "nomeHtml": "Grupo <em>300F</em>",
+ "nEmpresas": 17
+}
