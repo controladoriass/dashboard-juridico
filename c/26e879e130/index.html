@@ -2235,8 +2235,9 @@ var LINKS_CLIENTE = {
   kreibich:'8412b3bf59', poti:'1821d8293a', pz:'1583395839', comex:'4f3dd0d777',
   'msincorp':'5e50b83e37', 'ar':'2edf219b66', 'yany':'1a6e305e4d', 'mg7':'60fc637718',
   'platao':'a3b2384cfa',
-  'praiholl':'95f249611c'
-};
+  'praiholl':'95f249611c',
+  erbs:'c4cfef63bf', binotto:'b5f8561229', riviera:'a0bc0bd18b', msluzitania:'e2b046c697', anjos:'a9a15b3835', c2:'5f1f58774c', cescon:'5827ffc674', dvt:'698a97d687', fluir:'4987e4275a', heko:'8830c25cdd', indusflora:'8c90de5cba', inoven:'7db7a2600e', jta:'375db390ec', labellamafia:'0a574f1bd8', masterplast:'268e68f285', multiclick:'537dea8c36', rgitapema:'53586427be', sx:'f155d076a5', tajiri:'e3105a87c1', terrabrasil:'ee344ec20a', vitalle:'72943f5148', yesica:'64b89479c7', yorburger:'1ac09b7d5b', ampempreendimentoslo:'e238d510de', encoreempreendimento:'89a5328de3', laticiniosmondailtda:'cde7cbf347', riouruguai:'c98f12ddf4', stamp:'70da3c4c5d', '300f':'d39c5ac847', zatto:'cacbdea6ad', bkr:'7af21f27ac', marcosmarceloberakha:'05b2369b17', distribuidorapachavi:'47d02ea071', brunaguerracarnielbl:'2ac0a50bfe', darlandiasdacosta:'e0a39aef44', imexinvestimentosltd:'90f6e46bbc', dionesmarcos:'665c8f9d3c', joseantoniogalizione:'c07cb49f17', etrzionconstrutoraei:'6e61165d09', marautopecasltda:'9c26a68327', crbvazconsultoriaimo:'c3a978044a', alumbraholdingltda:'995d70746c', mandiratransportesel:'01f09870fe', empreiteirademaodeob:'2dfd578089', vitalmarcomercioeind:'433f78499e', massolindustriaecome:'1cc21963cd', piantemodasltda:'054983cdcb', saolucasadministrado:'8962e45e00', hanksoriginalburguer:'2015a923c1', titibikesltda:'eeb9fa1f11', phytogeneticltda:'ec5b6c244a', estopackembalagenslt:'5b992a1ed6', nostraconconstrutora:'9dc2bfd134', obaobarestaurantebar:'9983bd3a34', jmconstrutoraeincorp:'123915b095', lavoroadministracaod:'9ed3f697be', realstateempreendime:'d0f06ae2f8', mansourinvestimentos:'3901c26d33'
+  };
 // toast discreto (some sozinho) — usado ao copiar o link do cliente
 function toast(msg){
   var t=document.getElementById('toast-msg');
@@ -2283,7 +2284,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=2026081001fix3rs';
+  var _cb = '?v=2026081002fix3rs';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
