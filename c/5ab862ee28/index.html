@@ -2,7 +2,6 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="cliente-grupo" content="brusvi">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Indicadores Jurídicos · Silva & Silva</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1457,18 +1456,115 @@ function renderDashboard(){
     // Campos: valor_mensal, indice, reajuste_periodo, hora_excedente (null = não cadastrado),
     // data_inicio (AAAA-MM-DD), status, obs. Outros grupos: adicionar aqui quando conferidos.
     var _CONTRATOS = {
-      russi:    { valor_mensal: 12292.66, indice: 'CUB',              reajuste_periodo: 'julho de cada ano', data_inicio: '2014-10-29' },
-      bhm:      { valor_mensal:  2296.20, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2017-06-05' },
+russi       : { valor_mensal:  12968.00, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2020-12-16' },
+bhm         : { valor_mensal:   2296.20, indice: 'sem info',   reajuste_periodo: 'sem info',             data_inicio: '2017-06-05' },
       cn:       { valor_mensal:  7294.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2019-01-02' },
       concept:  { valor_mensal:  7294.50, indice: 'IGP-M',            reajuste_periodo: 'anual',             data_inicio: '2020-06-08' },
       zm:       { valor_mensal: 19452.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-03-10' },
-      integra:  { valor_mensal:  3241.68, indice: 'IGP-M',            reajuste_periodo: 'anual',             data_inicio: '2020-12-01' },
+integra     : { valor_mensal:   3241.68, indice: 'sem info',   reajuste_periodo: 'sem info',             data_inicio: '2022-12-01' },
       porto:    { valor_mensal:  6484.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2020-03-30' },
       profor:   { valor_mensal:  5829.12, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-07-15' },
       wf:       { valor_mensal:  8169.44, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2018-09-01' },
       abc:      { valor_mensal: 12968.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2019-11-15' },
       serpa:    { valor_mensal:  4052.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2022-05-06' },
-      comex:    { valor_mensal:  4863.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-02-15' }
+comex       : { valor_mensal:   4863.00, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2024-02-15' },
+      msincorp: { valor_mensal: 32000.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2022-01-27' },
+ar          : { valor_mensal:   7294.50, indice: 'sem info',   reajuste_periodo: 'sem info',             data_inicio: '2018-10-16' },
+yany        : { valor_mensal:   3242.00, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2025-07-18' },
+      mg7:      { valor_mensal: 18480.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-01-01' },
+platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2025-04-10' },
+      praiholl: { valor_mensal:  7590.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2025-02-03' },
+      erbs:        { valor_mensal: 17020.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-07-23' },
+      binotto:     { valor_mensal: 18480.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2017-01-01' },
+      riviera:     { valor_mensal: 17020.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2026-02-24' },
+      msluzitania: { valor_mensal: 10626.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2025-04-02' },
+      '300f': { valor_mensal:   3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2022-06-01' },
+      '3rs': { valor_mensal:  12968.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2023-11-01' },
+      agrotop: { valor_mensal:  10536.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2026-01-19' },
+      ampempreendimentoslo: { valor_mensal:  10974.17, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2009-07-22' },
+      bkr: { valor_mensal:   3042.62, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2020-10-26' },
+      brusvi: { valor_mensal:   6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-04-17' },
+      c2: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2018-11-08' },
+      cescon: { valor_mensal:   7000.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2026-02-24' },
+      chady: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-02-07' },
+      darlandiasdacosta: { valor_mensal:   2431.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2022-08-31' },
+      dvt: { valor_mensal:   1621.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2012-11-01' },
+      embra: { valor_mensal:   4000.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2019-09-01' },
+      empreiteirademaodeob: { valor_mensal:  10536.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2021-09-22' },
+      encoreempreendimento: { valor_mensal:   6484.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2023-06-06' },
+      etrzionconstrutoraei: { valor_mensal:   3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-02-23' },
+      feltz: { valor_mensal:   4863.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2021-09-20' },
+      fluir: { valor_mensal:   3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-03-11' },
+      gfi: { valor_mensal:   4400.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2026-05-25' },
+      heko: { valor_mensal:   4000.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2013-08-01' },
+      hpj: { valor_mensal:   2090.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2020-09-29' },
+      inoven: { valor_mensal:   4863.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2022-11-03' },
+      jmconstrutoraeincorp: { valor_mensal:   3242.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2026-05-11' },
+      jorcelina: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-08-12' },
+      jta: { valor_mensal:  10000.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-11-05' },
+      lsc: { valor_mensal:   8105.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2020-09-04' },
+      marautopecasltda: { valor_mensal:   2431.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-02-28' },
+      marcosmarceloberakha: { valor_mensal:   6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-04-02' },
+      massolindustriaecome: { valor_mensal:   4863.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-04-24' },
+      masterplast: { valor_mensal:   5673.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2019-07-02' },
+      multiclick: { valor_mensal:   2958.33, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-04-10' },
+      nostraconconstrutora: { valor_mensal:   6000.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2026-06-19' },
+      obaobarestaurantebar: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2020-03-27' },
+      piantemodasltda: { valor_mensal:   3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-09-16' },
+      pz: { valor_mensal:   1621.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-12-01' },
+      rgitapema: { valor_mensal:   2674.65, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-03-17' },
+      rhonaldomotorsportsa: { valor_mensal:   2118.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-05-15' },
+      riouruguai: { valor_mensal:   6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-11-25' },
+      sabores: { valor_mensal:   3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-05-20' },
+      saolucasadministrado: { valor_mensal:   1901.64, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-05-26' },
+      sx: { valor_mensal:   8105.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2024-08-06' },
+      tajiri: { valor_mensal:   2431.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-12-01' },
+      vitalle: { valor_mensal:   3803.28, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2015-05-27' },
+      vitalmarcomercioeind: { valor_mensal:   6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-04-24' },
+      yesica: { valor_mensal:   4052.50, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2021-01-25' },
+      zatto: { valor_mensal:   5000.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2021-02-25' },
+      zimmermann: { valor_mensal:   9726.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2021-10-18' },
+      abit: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      ads: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      alumbraholdingltda: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      anjos: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      asael: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      brasil: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      brunaguerracarnielbl: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      cost: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      crbvazconsultoriaimo: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      dionesmarcos: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      distribuidorapachavi: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      dynamis: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      easychef: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      estopackembalagenslt: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      golden: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      hanksoriginalburguer: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      imexinvestimentosltd: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      indusflora: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      joseantoniogalizione: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      kaliska: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      kreibich: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      labellamafia: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      latex: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      laticiniosmondailtda: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      lavoroadministracaod: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      mallo: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      mandiratransportesel: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      mansourinvestimentos: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      morart: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      mtop: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      phytogeneticltda: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      poti: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      primor: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      realstateempreendime: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      rech: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      stamp: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      terrabrasil: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      titibikesltda: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      yorburger: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' }
+    
+    
     };
     var _c = _CONTRATOS[_gAtC];
     if(!_c){ _bl.style.display='none'; return; }
@@ -1496,11 +1592,11 @@ function renderDashboard(){
     }
     var _grid = el('ct-grid'); if(_grid){
       var _items = [];
-      _items.push({lbl:'Valor mensal', val:brl(_c.valor_mensal), sub:'honorários fixos', gold:true});
+      _items.push({lbl:'Valor mensal', val:(_c.valor_mensal>0?brl(_c.valor_mensal):'sem info'), sub:(_c.valor_mensal>0?'honorários fixos':''), gold:true});
       if(_c.indice){
         _items.push({lbl:'Reajuste', val:_c.indice, sub:_c.reajuste_periodo||''});
       }
-      _items.push({lbl:'Início da vigência', val:dataBr(_c.data_inicio), sub: (anosDesde(_c.data_inicio) ? 'há '+anosDesde(_c.data_inicio) : '')});
+      _items.push({lbl:'Início da vigência', val:(_c.data_inicio && _c.data_inicio!=='sem info' ? dataBr(_c.data_inicio) : 'sem info'), sub: ((_c.data_inicio && _c.data_inicio!=='sem info' && anosDesde(_c.data_inicio)) ? 'há '+anosDesde(_c.data_inicio) : '')});
       _grid.innerHTML='';
       _items.forEach(function(it){
         var d=document.createElement('div'); d.className='ct-quad-item';
@@ -2136,7 +2232,10 @@ var LINKS_CLIENTE = {
   latex:'45c4e9b7e5', lsc:'059e567ac3', sabores:'8c3f60520a', dynamis:'26e879e130', jorcelina:'095e4888e9',
   primor:'1d6b667531', asael:'9a59e6d276', chady:'4e26ecb5c2', rech:'ae78acdcfe', embra:'e92bc0827a',
   golden:'2fbfd5c61c', feltz:'69f46d8453', mallo:'309fc6537d', '3rs':'a69f8bd880', brasil:'5b2a499674',
-  kreibich:'8412b3bf59', poti:'1821d8293a', pz:'1583395839', comex:'4f3dd0d777'
+  kreibich:'8412b3bf59', poti:'1821d8293a', pz:'1583395839', comex:'4f3dd0d777',
+  'msincorp':'5e50b83e37', 'ar':'2edf219b66', 'yany':'1a6e305e4d', 'mg7':'60fc637718',
+  'platao':'a3b2384cfa',
+  'praiholl':'95f249611c'
 };
 // toast discreto (some sozinho) — usado ao copiar o link do cliente
 function toast(msg){
@@ -2162,7 +2261,7 @@ function gerarPDF(){ montarPrint(); setTimeout(function(){ window.print(); }, 40
 window.addEventListener('beforeprint', function(){ if(!document.getElementById('view-print').children.length) montarPrint(); });
 
 /* ===== LOADER: carrega dados/<grupo>.json (dados externos por grupo) =====
-   MODO CLIENTE: se existir um <meta name="cliente-grupo" content="<gk>"> na página
+   MODO CLIENTE: se existir um <meta name="cliente-grupo" content="brusvi"> na página
    (usado nas pastas c/<código>/ enviadas ao cliente), carrega SÓ aquele grupo e entra
    direto no painel dele, sem tela de seleção nem botão "voltar aos grupos". O uso
    interno (sem essa meta) segue normal, carregando todos os grupos do manifest. */
@@ -2184,7 +2283,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=20260803fix3rs';
+  var _cb = '?v=2026080709fix3rs';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
