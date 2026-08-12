@@ -1,19 +1,38 @@
-# Dados brutos / confidenciais — NUNCA subir
+# === Dashboard de Indicadores Jurídicos — .gitignore ===
+
+# Dados confidenciais / arquivos de trabalho local
 _*.json
 _*.md
 *.docx
 *.pdf
-_para_github/
-
-# arquivos de trabalho locais
 scratchpad/
-*.py
 .claude/
 launch.json
 
-# sistema
+# Auditoria interna — mantida local, não publicada no Pages (peso)
+auditoria_processos/
+
+# Wrapper de deploy (evita commit acidental do repo dentro do repo)
+_para_github/
+
+# Scripts Python locais (a origem de dados é externa)
+*.py
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema operacional
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Auditoria interna — não publicar no Pages (peso demais)
-auditoria_processos/
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
