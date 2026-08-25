@@ -1531,8 +1531,8 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
       'cost': { valor_mensal: 4271.34, indice: 'SM', reajuste_periodo: 'Anual (SM)', data_inicio: '2025-06-09' },
       'distribuidorapachavi': { valor_mensal: 4000.00, indice: 'Fixo', reajuste_periodo: 'Nao previsto (autorizado Dr. Kim 02/10/2025)', data_inicio: '2024-09-20' },
       'dynamis': { valor_mensal: 6484.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - 2 contratos separados de 2 SM', data_inicio: '' },
-      'easychef': { valor_mensal: 4376.70, indice: 'Fixo', reajuste_periodo: 'Nao informado', data_inicio: '' },
-      'estopackembalagenslt': { valor_mensal: 0.00, indice: 'IPCA', reajuste_periodo: 'Anual (12 meses)', data_inicio: '2026-06-23' },
+      'easychef': { valor_mensal: 4376.70, indice: 'IPCA', reajuste_periodo: 'Anual (12 meses) - 50% CNT + 50% Italia', data_inicio: '2026-06-23' },
+      'estopackembalagenslt': { valor_mensal: 0.00, indice: 'Sem info', reajuste_periodo: 'Sem info', data_inicio: '' },
       'golden': { valor_mensal: 3242.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - aditivo 01/05/2024', data_inicio: '2024-05-01' },
       'imexinvestimentosltd': { valor_mensal: 0.00, indice: 'Por demanda', reajuste_periodo: 'Nao aplicavel', data_inicio: '2025-11-26' },
       'indusflora': { valor_mensal: 8105.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - dividido em 2 pgtos (2 SM + 3 SM)', data_inicio: '2019-10-08' },
@@ -2267,7 +2267,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=2026082402';
+  var _cb = '?v=2026082403';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
