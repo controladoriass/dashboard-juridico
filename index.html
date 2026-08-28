@@ -1545,9 +1545,6 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
       morart: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
       primor: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
       rech: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      terra
-    
-    
     };
     var _c = _CONTRATOS[_gAtC];
     if(!_c){ _bl.style.display='none'; return; }
@@ -2267,7 +2264,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=2026082405';
+  var _cb = '?v=2026082406';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
