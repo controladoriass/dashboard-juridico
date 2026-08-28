@@ -1456,6 +1456,7 @@ function renderDashboard(){
     // Campos: valor_mensal, indice, reajuste_periodo, hora_excedente (null = não cadastrado),
     // data_inicio (AAAA-MM-DD), status, obs. Outros grupos: adicionar aqui quando conferidos.
     var _CONTRATOS = {
+      'terrabrasil': { valor_mensal: 9726.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - 6 SM', data_inicio: '2022-09-01' },
 russi       : { valor_mensal:  12968.00, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2020-12-16' },
 bhm         : { valor_mensal:   2296.20, indice: 'sem info',   reajuste_periodo: 'sem info',             data_inicio: '2017-06-05' },
       cn:       { valor_mensal:  7294.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2019-01-02' },
@@ -1532,19 +1533,17 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
       'distribuidorapachavi': { valor_mensal: 4000.00, indice: 'Fixo', reajuste_periodo: 'Nao previsto (autorizado Dr. Kim 02/10/2025)', data_inicio: '2024-09-20' },
       'dynamis': { valor_mensal: 6484.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - 2 contratos separados de 2 SM', data_inicio: '' },
       'easychef': { valor_mensal: 4376.70, indice: 'IPCA', reajuste_periodo: 'Anual (12 meses) - 50% CNT + 50% Italia', data_inicio: '2026-06-23' },
-      'estopackembalagenslt': { valor_mensal: 0.00, indice: 'Sem info', reajuste_periodo: 'Sem info', data_inicio: '' },
+      'estopackembalagenslt': { valor_mensal: 4592.29, indice: 'SM', reajuste_periodo: 'Anual (SM) - inadimplentes', data_inicio: '2024-09-06' },
       'golden': { valor_mensal: 3242.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - aditivo 01/05/2024', data_inicio: '2024-05-01' },
       'imexinvestimentosltd': { valor_mensal: 0.00, indice: 'Por demanda', reajuste_periodo: 'Nao aplicavel', data_inicio: '2025-11-26' },
       'indusflora': { valor_mensal: 8105.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - dividido em 2 pgtos (2 SM + 3 SM)', data_inicio: '2019-10-08' },
-      kaliska: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      kreibich: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      labellamafia: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      latex: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      laticiniosmondailtda: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      mallo: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      morart: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      primor: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
-      rech: { valor_mensal: 0, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: 'sem info' },
+      'kaliska': { valor_mensal: 5673.50, indice: 'SM', reajuste_periodo: 'Anual (SM)', data_inicio: '2025-05-01' },
+      'kreibich': { valor_mensal: 4052.50, indice: 'SM', reajuste_periodo: 'Anual (SM) - 2,5 SM, metade Sinop', data_inicio: '2016-01-01' },
+      'latex': { valor_mensal: 6078.75, indice: 'SM', reajuste_periodo: 'Anual (SM) - 3,75 SM', data_inicio: '2022-02-24' },
+      'mallo': { valor_mensal: 3242.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - 2 SM', data_inicio: '2024-04-04' },
+      'morart': { valor_mensal: 2431.50, indice: 'SM', reajuste_periodo: 'Anual (SM) - 1,5 SM', data_inicio: '2017-07-14' },
+      'primor': { valor_mensal: 4000.00, indice: 'IGPM', reajuste_periodo: 'IGPM (aditivo 01/09/2024)', data_inicio: '2021-02-04' },
+      'rech': { valor_mensal: 3242.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - 2 SM, inadimplentes (aditivo 14/02/2022)', data_inicio: '2013-08-07' },
     };
     var _c = _CONTRATOS[_gAtC];
     if(!_c){ _bl.style.display='none'; return; }
@@ -2217,7 +2216,7 @@ var LINKS_CLIENTE = {
   'msincorp':'5e50b83e37', 'ar':'2edf219b66', 'yany':'1a6e305e4d', 'mg7':'60fc637718',
   'platao':'a3b2384cfa',
   'praiholl':'95f249611c',
-  erbs:'c4cfef63bf', binotto:'b5f8561229', riviera:'a0bc0bd18b', msluzitania:'e2b046c697', c2:'5f1f58774c', cescon:'5827ffc674', dvt:'698a97d687', fluir:'4987e4275a', heko:'8830c25cdd', indusflora:'8c90de5cba', inoven:'7db7a2600e', jta:'375db390ec', labellamafia:'0a574f1bd8', masterplast:'268e68f285', multiclick:'537dea8c36', rgitapema:'53586427be', sx:'f155d076a5', tajiri:'e3105a87c1', vitalle:'72943f5148', yesica:'64b89479c7', ampempreendimentoslo:'e238d510de', encoreempreendimento:'89a5328de3', laticiniosmondailtda:'cde7cbf347', riouruguai:'c98f12ddf4', '300f':'d39c5ac847', zatto:'cacbdea6ad', bkr:'7af21f27ac', marcosmarceloberakha:'05b2369b17', distribuidorapachavi:'47d02ea071', brunaguerracarnielbl:'2ac0a50bfe', darlandiasdacosta:'e0a39aef44', imexinvestimentosltd:'90f6e46bbc', etrzionconstrutoraei:'6e61165d09', marautopecasltda:'9c26a68327', empreiteirademaodeob:'2dfd578089', vitalmarcomercioeind:'433f78499e', massolindustriaecome:'1cc21963cd', piantemodasltda:'054983cdcb', saolucasadministrado:'8962e45e00', estopackembalagenslt:'5b992a1ed6', nostraconconstrutora:'9dc2bfd134', obaobarestaurantebar:'9983bd3a34', jmconstrutoraeincorp:'123915b095'
+  erbs:'c4cfef63bf', binotto:'b5f8561229', riviera:'a0bc0bd18b', msluzitania:'e2b046c697', c2:'5f1f58774c', cescon:'5827ffc674', dvt:'698a97d687', fluir:'4987e4275a', heko:'8830c25cdd', indusflora:'8c90de5cba', inoven:'7db7a2600e', jta:'375db390ec', masterplast:'268e68f285', multiclick:'537dea8c36', rgitapema:'53586427be', sx:'f155d076a5', tajiri:'e3105a87c1', vitalle:'72943f5148', yesica:'64b89479c7', ampempreendimentoslo:'e238d510de', encoreempreendimento:'89a5328de3', riouruguai:'c98f12ddf4', '300f':'d39c5ac847', zatto:'cacbdea6ad', bkr:'7af21f27ac', marcosmarceloberakha:'05b2369b17', distribuidorapachavi:'47d02ea071', brunaguerracarnielbl:'2ac0a50bfe', darlandiasdacosta:'e0a39aef44', imexinvestimentosltd:'90f6e46bbc', etrzionconstrutoraei:'6e61165d09', marautopecasltda:'9c26a68327', empreiteirademaodeob:'2dfd578089', vitalmarcomercioeind:'433f78499e', massolindustriaecome:'1cc21963cd', piantemodasltda:'054983cdcb', saolucasadministrado:'8962e45e00', estopackembalagenslt:'5b992a1ed6', nostraconconstrutora:'9dc2bfd134', obaobarestaurantebar:'9983bd3a34', jmconstrutoraeincorp:'123915b095'
   };
 // toast discreto (some sozinho) — usado ao copiar o link do cliente
 function toast(msg){
@@ -2265,7 +2264,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=2026082407';
+  var _cb = '?v=2026082409';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
