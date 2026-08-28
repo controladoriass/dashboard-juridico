@@ -2243,7 +2243,7 @@ function gerarPDF(){ montarPrint(); setTimeout(function(){ window.print(); }, 40
 window.addEventListener('beforeprint', function(){ if(!document.getElementById('view-print').children.length) montarPrint(); });
 
 /* ===== LOADER: carrega dados/<grupo>.json (dados externos por grupo) =====
-   MODO CLIENTE: se existir um <meta name="cliente-grupo" content="<gk>"> na página
+   MODO CLIENTE: se existir um"> na página
    (usado nas pastas c/<código>/ enviadas ao cliente), carrega SÓ aquele grupo e entra
    direto no painel dele, sem tela de seleção nem botão "voltar aos grupos". O uso
    interno (sem essa meta) segue normal, carregando todos os grupos do manifest. */
