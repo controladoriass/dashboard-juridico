@@ -2205,6 +2205,7 @@ function montarPrint(){
    c/<código>/ que contém SÓ os dados daquele grupo — o cliente não vê os demais,
    nem pela tela nem pela URL. */
 var LINKS_CLIENTE = {
+  terrabrasil:'ee344ec20a',
   russi:'4eccda8c78', wf:'635e9c8ddb', zm:'cb54479644', cn:'70ec698f78', concept:'25864dde3a',
   profor:'4c05b109cc', bhm:'0ff3055e50', integra:'1a33dbec70', porto:'47b98aa046', abc:'17430a49f0',
   serpa:'5b7507b043', brusvi:'5ab862ee28', abit:'c6795728b0', cost:'66acbe3c2b', gfi:'6a434e7d70',
@@ -2264,7 +2265,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=2026082406';
+  var _cb = '?v=2026082407';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
