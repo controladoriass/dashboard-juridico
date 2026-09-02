@@ -1459,11 +1459,11 @@ function renderDashboard(){
     var _CONTRATOS = {
       'terrabrasil': { valor_mensal: 9726.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - 6 SM', data_inicio: '2022-09-01' },
 russi       : { valor_mensal:  12968.00, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2020-12-16' },
-bhm         : { valor_mensal:   2296.20, indice: 'sem info',   reajuste_periodo: 'sem info',             data_inicio: '2017-06-05' },
+'bhm': { valor_mensal: 2296.20, indice: '6,79% sobre base do SM', reajuste_periodo: 'sem info', data_inicio: '2017-06-05' },
       cn:       { valor_mensal:  7294.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2019-01-02' },
       concept:  { valor_mensal:  7294.50, indice: 'IGP-M',            reajuste_periodo: 'anual',             data_inicio: '2020-06-08' },
       zm:       { valor_mensal: 19452.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-03-10' },
-integra     : { valor_mensal:   3241.68, indice: 'sem info',   reajuste_periodo: 'sem info',             data_inicio: '2022-12-01' },
+'integra': { valor_mensal: 3241.68, indice: 'IGPM', reajuste_periodo: 'sem info', data_inicio: '2022-12-01' },
       porto:    { valor_mensal:  6484.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2020-03-30' },
       profor:   { valor_mensal:  5829.12, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-07-15' },
       wf:       { valor_mensal:  8169.44, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2018-09-01' },
@@ -1485,7 +1485,7 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
       agrotop: { valor_mensal:  10536.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2026-01-19' },
       ampempreendimentoslo: { valor_mensal:  10974.17, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2009-07-22' },
       bkr: { valor_mensal:   3042.62, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2020-10-26' },
-      brusvi: { valor_mensal:   6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-04-17' },
+      'brusvi': { valor_mensal: 6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'Anual (SM)', data_inicio: '2024-04-17' },
       c2: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2018-11-08' },
       cescon: { valor_mensal:   7000.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2026-02-24' },
       chady: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-02-07' },
@@ -1497,14 +1497,14 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
       etrzionconstrutoraei: { valor_mensal:   3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-02-23' },
       feltz: { valor_mensal:   4863.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2021-09-20' },
       fluir: { valor_mensal:   3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-03-11' },
-      gfi: { valor_mensal:   4400.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2026-05-25' },
+      'gfi': { valor_mensal: 4400.00, indice: 'INPC', reajuste_periodo: 'sem info', data_inicio: '2026-05-25' },
       heko: { valor_mensal:   4000.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2013-08-01' },
       hpj: { valor_mensal:   2090.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2020-09-29' },
       inoven: { valor_mensal:   4863.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2022-11-03' },
       jmconstrutoraeincorp: { valor_mensal:   3242.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2026-05-11' },
       jorcelina: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-08-12' },
       jta: { valor_mensal:  10000.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-11-05' },
-      lsc: { valor_mensal:   8105.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2020-09-04' },
+      'lsc': { valor_mensal: 8105.00, indice: 'Salário Mínimo', reajuste_periodo: 'Anual (SM)', data_inicio: '2020-09-04' },
       marautopecasltda: { valor_mensal:   2431.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-02-28' },
       marcosmarceloberakha: { valor_mensal:   6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-04-02' },
       massolindustriaecome: { valor_mensal:   4863.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-04-24' },
@@ -1517,7 +1517,7 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
       rgitapema: { valor_mensal:   2674.65, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-03-17' },
       rhonaldomotorsportsa: { valor_mensal:   2118.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-05-15' },
       riouruguai: { valor_mensal:   6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2025-11-25' },
-      sabores: { valor_mensal:   3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-05-20' },
+      'sabores': { valor_mensal: 3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'Anual (SM)', data_inicio: '2024-05-20' },
       saolucasadministrado: { valor_mensal:   1901.64, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-05-26' },
       sx: { valor_mensal:   8105.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2024-08-06' },
       tajiri: { valor_mensal:   2431.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-12-01' },
@@ -2265,7 +2265,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=2026082409cli';
+  var _cb = '?v=2026090201cli';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
