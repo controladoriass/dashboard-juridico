@@ -2,11 +2,11 @@
   "kpiGrupo": {
     "proc": 2,
     "ativos": 1,
-    "areas": 0,
+    "areas": 1,
     "trib": 1,
     "procSub": "1 ativos · 1 encerrados",
-    "areasSub": "",
-    "tribSub": "",
+    "areasSub": "Cível",
+    "tribSub": "TJMT",
     "encerrados": 1,
     "kHoras": 54.0
   },
@@ -22,7 +22,11 @@
         },
         "areaTotal": 1,
         "estoque": {
-          "2025": 1
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
         },
         "entradas": {
           "2025": 2
@@ -41,6 +45,7 @@
           "Passivo": 1
         },
         "tribunais": {
+          "TJMT": 1,
           "N/D": 1
         },
         "ranking": [],
@@ -48,11 +53,11 @@
         "kpi": {
           "proc": 2,
           "ativos": 1,
-          "areas": 0,
+          "areas": 1,
           "trib": 1,
-          "procSub": "1 ativos · 1 encerrados",
+          "procSub": "1 ativos · 1 encerrado",
           "areasSub": "Cível",
-          "tribSub": ""
+          "tribSub": "TJMT"
         },
         "esforco": {
           "comProducao": 2,
@@ -72,8 +77,8 @@
           "media": 27.0,
           "mediaAtivos": 54.0,
           "horasano": {
-            "2024": 43.7,
-            "2025": 5.4,
+            "2024": 46.8,
+            "2025": 5.5,
             "2026": 1.8
           },
           "_estimativa": false
@@ -82,7 +87,7 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
-          "kHoras": 50.9
+          "kHoras": 54.0
         }
       }
     },
@@ -106,15 +111,21 @@
         "entradas": {
           "2025": 2
         },
-        "area": {},
-        "uf": {
-          "MT": 1
+        "area": {
+          "Cível": 2
         },
-        "instancia": {},
+        "uf": {
+          "MT": 2
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
         "polo": {
-          "Polo passivo": 1
+          "Outros": 1,
+          "Passivo": 1
         },
         "tribunais": {
+          "TJMT": 1,
           "N/D": 1
         },
         "ranking": [],
@@ -122,11 +133,11 @@
         "kpi": {
           "proc": 2,
           "ativos": 1,
-          "areas": 0,
+          "areas": 1,
           "trib": 1,
           "procSub": "1 ativos · 1 encerrado",
-          "areasSub": "",
-          "tribSub": ""
+          "areasSub": "Cível",
+          "tribSub": "TJMT"
         },
         "esforco": {
           "comProducao": 2,
@@ -142,11 +153,15 @@
           "extrajudano": {}
         },
         "horas": {
-          "total": 0,
-          "media": 0.0,
-          "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": true
+          "total": 54.0,
+          "media": 27.0,
+          "mediaAtivos": 54.0,
+          "horasano": {
+            "2024": 46.8,
+            "2025": 5.5,
+            "2026": 1.8
+          },
+          "_estimativa": false
         },
         "encerradosTotal": 1
       }

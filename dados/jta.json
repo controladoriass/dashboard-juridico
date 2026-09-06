@@ -1,1 +1,381 @@
-{"kpiGrupo": {"proc": 9, "ativos": 9, "areas": 4, "trib": 4, "procSub": "9 ativos · 0 encerrados", "areasSub": "Cível, Penal-Criminal, Trabalhista, Tributário", "tribSub": "TJSC, TJRS, TRT12, TRF4", "encerrados": 0}, "empresas": {"_panorama": {"nome": "Panorama Geral do Grupo", "_idCliente": 682052149, "dataset": {"total": 9, "ativos": 9, "encerrados": {}, "areaTotal": 9, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 1, "2026": 9}, "entradas": {"2025": 1, "2026": 8}, "area": {"Tributário": 1, "Cível": 4, "Trabalhista": 1, "Penal-Criminal": 3}, "uf": {"RS": 3, "SC": 6}, "instancia": {"1º Grau": 9}, "polo": {"Outros": 5, "Passivo": 3, "Ativo": 1}, "tribunais": {"TRF4": 1, "TJSC": 4, "TRT12": 1, "TJRS": 2, "N/D": 1}, "ranking": [["DJALMA DE ESPINDULA JUNIOR", 1], ["SIMONE CLAUDIA CEMA", 1], ["JOAO NIRTO DIEL", 1], ["DEPARTAMENTO ESTADUAL DE INVESTIGAÇÕES DO NARCOTRÁFICO", 1], ["DELEGACIA DE POLÍCIA DE PORTO BELO", 1], ["MANHATTAN DISTRIBUIDORA DE PETROLEO LTDA", 1], ["CLEMENTE ARLINDO GUZZI", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 9, "ativos": 9, "areas": 4, "trib": 4, "procSub": "9 ativos · 0 encerrados", "areasSub": "", "tribSub": "TJSC, TJRS, TRT12, TRF4"}, "esforco": {"comProducao": 9, "tramitacaoDias": 109, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 224.6, "media": 25.0, "mediaAtivos": 25.0, "horasano": {"2026": 189.4, "2025": 35.1}, "_estimativa": false}, "encerradosTotal": 0, "_panorama": true, "nome": "Panorama Geral do Grupo"}}, "jtaempreendimentoseu_682052149": {"nome": "JTA Empreendimentos e Urbanismo LTDA", "_idCliente": 682052149, "dataset": {"total": 6, "ativos": 6, "encerrados": {}, "areaTotal": 6, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 1, "2026": 6}, "entradas": {"2025": 1, "2026": 5}, "area": {"Tributário": 1, "Cível": 2, "Trabalhista": 1, "Penal-Criminal": 2}, "uf": {"RS": 3, "SC": 3}, "instancia": {"1º Grau": 6}, "polo": {"Terceiro/Outros": 4, "Polo passivo": 2}, "tribunais": {"TRF4": 1, "TJSC": 2, "TRT12": 1, "TJRS": 2}, "ranking": [["DJALMA DE ESPINDULA JUNIOR", 1], ["SIMONE CLAUDIA CEMA", 1], ["JOAO NIRTO DIEL", 1], ["DEPARTAMENTO ESTADUAL DE INVESTIGAÇÕES DO NARCOTRÁFICO", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 6, "ativos": 6, "areas": 4, "trib": 4, "procSub": "6 ativos · 0 encerrados", "areasSub": "Cível, Penal-Criminal, Trabalhista, Tributário", "tribSub": "TJSC, TJRS, TRT12, TRF4"}, "esforco": {"comProducao": 6, "tramitacaoDias": 109, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 209.0, "media": 34.8, "mediaAtivos": 34.8, "horasano": {"2026": 173.8, "2025": 35.1}, "_estimativa": false}, "encerradosTotal": 0}, "encerradosTotal": 0}, "marcosantoniopinheir_684111099": {"nome": "Marcos Antonio Pinheiro", "_idCliente": 684111099, "dataset": {"total": 1, "ativos": 1, "encerrados": {}, "areaTotal": 1, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "entradas": {"2026": 1}, "area": {"Penal-Criminal": 1}, "uf": {"SC": 1}, "instancia": {"1º Grau": 1}, "polo": {"Terceiro/Outros": 1}, "tribunais": {"N/D": 1}, "ranking": [["DELEGACIA DE POLÍCIA DE PORTO BELO", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 1, "ativos": 1, "areas": 1, "trib": 0, "procSub": "1 ativos · 0 encerrados", "areasSub": "Penal-Criminal", "tribSub": ""}, "esforco": {"comProducao": 1, "tramitacaoDias": 196, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 0.6, "media": 0.6, "mediaAtivos": 0.6, "horasano": {"2026": 0.6}, "_estimativa": false}, "encerradosTotal": 0}, "encerradosTotal": 0}, "josetelmodeharoantun_685425622": {"nome": "Jose Telmo de Haro Antunes Junior", "_idCliente": 685425622, "dataset": {"total": 2, "ativos": 2, "encerrados": {}, "areaTotal": 2, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 2}, "entradas": {"2026": 2}, "area": {"Cível": 2}, "uf": {"SC": 2}, "instancia": {"1º Grau": 2}, "polo": {"Polo passivo": 1, "Polo ativo": 1}, "tribunais": {"TJSC": 2}, "ranking": [["MANHATTAN DISTRIBUIDORA DE PETROLEO LTDA", 1], ["CLEMENTE ARLINDO GUZZI", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 2, "ativos": 2, "areas": 1, "trib": 1, "procSub": "2 ativos · 0 encerrados", "areasSub": "Cível", "tribSub": "TJSC"}, "esforco": {"comProducao": 2, "tramitacaoDias": 26, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 15.0, "media": 7.5, "mediaAtivos": 7.5, "horasano": {"2026": 15.0}, "_estimativa": false}, "encerradosTotal": 0}, "encerradosTotal": 0}}, "nome": "Grupo JTA Empreendimentos e Urbanismo LTDA", "nomeHtml": "Grupo <em>JTA Empreendimentos e Urbanismo LTDA</em>", "nEmpresas": 3}
+{
+ "kpiGrupo": {
+  "proc": 9,
+  "ativos": 9,
+  "areas": 4,
+  "trib": 4,
+  "procSub": "9 ativos · 0 encerrados",
+  "areasSub": "Cível, Penal-Criminal, Tributário",
+  "tribSub": "TJSC, TJRS, TRF4",
+  "encerrados": 0
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama Geral do Grupo",
+   "_idCliente": 682052149,
+   "dataset": {
+    "total": 9,
+    "ativos": 9,
+    "encerrados": {},
+    "areaTotal": 9,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 9
+    },
+    "entradas": {
+     "2025": 1,
+     "2026": 8
+    },
+    "area": {
+     "Tributário": 1,
+     "Cível": 4,
+     "Trabalhista": 1,
+     "Penal-Criminal": 3
+    },
+    "uf": {
+     "RS": 3,
+     "SC": 6
+    },
+    "instancia": {
+     "1º Grau": 9
+    },
+    "polo": {
+     "Outros": 5,
+     "Passivo": 3,
+     "Ativo": 1
+    },
+    "tribunais": {
+     "TRF4": 1,
+     "TJSC": 4,
+     "TRT12": 1,
+     "TJRS": 2,
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "DJALMA DE ESPINDULA JUNIOR",
+      1
+     ],
+     [
+      "SIMONE CLAUDIA CEMA",
+      1
+     ],
+     [
+      "JOAO NIRTO DIEL",
+      1
+     ],
+     [
+      "DEPARTAMENTO ESTADUAL DE INVESTIGAÇÕES DO NARCOTRÁFICO",
+      1
+     ],
+     [
+      "DELEGACIA DE POLÍCIA DE PORTO BELO",
+      1
+     ],
+     [
+      "MANHATTAN DISTRIBUIDORA DE PETROLEO LTDA",
+      1
+     ],
+     [
+      "CLEMENTE ARLINDO GUZZI",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 9,
+     "ativos": 9,
+     "areas": 4,
+     "trib": 4,
+     "procSub": "9 ativos · 0 encerrados",
+     "areasSub": "Cível, Penal-Criminal, Tributário",
+     "tribSub": "TJSC, TJRS, TRF4"
+    },
+    "esforco": {
+     "comProducao": 9,
+     "tramitacaoDias": 109,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 224.6,
+     "media": 25.0,
+     "mediaAtivos": 25.0,
+     "horasano": {
+      "2026": 189.4,
+      "2025": 35.1
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0,
+    "_panorama": true,
+    "nome": "Panorama Geral do Grupo"
+   }
+  },
+  "jtaempreendimentoseu_682052149": {
+   "nome": "JTA Empreendimentos e Urbanismo LTDA",
+   "_idCliente": 682052149,
+   "dataset": {
+    "total": 6,
+    "ativos": 6,
+    "encerrados": {},
+    "areaTotal": 6,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 6
+    },
+    "entradas": {
+     "2025": 1,
+     "2026": 5
+    },
+    "area": {
+     "Tributário": 1,
+     "Cível": 2,
+     "Trabalhista": 1,
+     "Penal-Criminal": 2
+    },
+    "uf": {
+     "RS": 3,
+     "SC": 3
+    },
+    "instancia": {
+     "1º Grau": 6
+    },
+    "polo": {
+     "Terceiro/Outros": 4,
+     "Polo passivo": 2
+    },
+    "tribunais": {
+     "TRF4": 1,
+     "TJSC": 2,
+     "TRT12": 1,
+     "TJRS": 2
+    },
+    "ranking": [
+     [
+      "DJALMA DE ESPINDULA JUNIOR",
+      1
+     ],
+     [
+      "SIMONE CLAUDIA CEMA",
+      1
+     ],
+     [
+      "JOAO NIRTO DIEL",
+      1
+     ],
+     [
+      "DEPARTAMENTO ESTADUAL DE INVESTIGAÇÕES DO NARCOTRÁFICO",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 6,
+     "ativos": 6,
+     "areas": 4,
+     "trib": 4,
+     "procSub": "6 ativos · 0 encerrados",
+     "areasSub": "Cível, Penal-Criminal, Trabalhista, Tributário",
+     "tribSub": "TJSC, TJRS, TRT12, TRF4"
+    },
+    "esforco": {
+     "comProducao": 6,
+     "tramitacaoDias": 109,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 209.0,
+     "media": 34.8,
+     "mediaAtivos": 34.8,
+     "horasano": {
+      "2026": 173.8,
+      "2025": 35.1
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   },
+   "encerradosTotal": 0
+  },
+  "marcosantoniopinheir_684111099": {
+   "nome": "Marcos Antonio Pinheiro",
+   "_idCliente": 684111099,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 1
+    },
+    "entradas": {
+     "2026": 1
+    },
+    "area": {
+     "Penal-Criminal": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "N/D": 1
+    },
+    "ranking": [
+     [
+      "DELEGACIA DE POLÍCIA DE PORTO BELO",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 0,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Penal-Criminal",
+     "tribSub": ""
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 196,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 0.6,
+     "media": 0.6,
+     "mediaAtivos": 0.6,
+     "horasano": {
+      "2026": 0.6
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   },
+   "encerradosTotal": 0
+  },
+  "josetelmodeharoantun_685425622": {
+   "nome": "Jose Telmo de Haro Antunes Junior",
+   "_idCliente": 685425622,
+   "dataset": {
+    "total": 2,
+    "ativos": 2,
+    "encerrados": {},
+    "areaTotal": 2,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 2
+    },
+    "entradas": {
+     "2026": 2
+    },
+    "area": {
+     "Cível": 2
+    },
+    "uf": {
+     "SC": 2
+    },
+    "instancia": {
+     "1º Grau": 2
+    },
+    "polo": {
+     "Polo passivo": 1,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJSC": 2
+    },
+    "ranking": [
+     [
+      "MANHATTAN DISTRIBUIDORA DE PETROLEO LTDA",
+      1
+     ],
+     [
+      "CLEMENTE ARLINDO GUZZI",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 2,
+     "ativos": 2,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "2 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 2,
+     "tramitacaoDias": 26,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 15.0,
+     "media": 7.5,
+     "mediaAtivos": 7.5,
+     "horasano": {
+      "2026": 15.0
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   },
+   "encerradosTotal": 0
+  }
+ },
+ "nome": "Grupo JTA Empreendimentos e Urbanismo LTDA",
+ "nomeHtml": "Grupo <em>JTA Empreendimentos e Urbanismo LTDA</em>",
+ "nEmpresas": 3
+}

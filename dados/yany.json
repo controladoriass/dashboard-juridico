@@ -1,1 +1,370 @@
-{"kpiGrupo": {"proc": 12, "ativos": 11, "areas": 4, "trib": 3, "procSub": "11 ativos · 1 encerrado", "areasSub": "Bancário, Cível, Penal-Criminal, Tributário", "tribSub": "TJSC, TRF4, TJRS", "encerrados": 1}, "empresas": {"_panorama": {"nome": "Panorama Geral do Grupo", "_idCliente": 682227515, "dataset": {"total": 12, "ativos": 11, "encerrados": {"2026": 1}, "areaTotal": 12, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 9, "2026": 12}, "entradas": {"2025": 9, "2026": 3}, "area": {"Cível": 6, "Tributário": 4, "Penal-Criminal": 1, "Bancário": 1}, "uf": {"SC": 11, "RS": 1}, "instancia": {"1º Grau": 12}, "polo": {"Terceiro/Outros": 8, "Polo ativo": 2}, "tribunais": {"TJSC": 8, "TRF4": 3, "TJRS": 1}, "ranking": [["UNIÃO FAZENDA NACIONAL", 3], ["ADONIRON HUGO MARTINS", 2], ["SUPERNOVA EDITORA LTDA", 2], ["ESTADO DE SANTA CATARINA", 1], ["SEM PARAR INSTITUICAO DE PAGAMENTO LTDA", 1], ["NELCIR DE LIMA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 12, "ativos": 11, "areas": 4, "trib": 3, "procSub": "11 ativos · 1 encerrado", "areasSub": "", "tribSub": "TJSC, TRF4, TJRS"}, "esforco": {"comProducao": 10, "tramitacaoDias": 339, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 157.1, "media": 13.1, "mediaAtivos": 14.3, "horasano": {"2026": 83.8, "2025": 73.2}, "_estimativa": false}, "encerradosTotal": 1, "_panorama": true, "nome": "Panorama Geral do Grupo"}}, "yanyesquadriasdemade_682227515": {"nome": "Yany Esquadrias de Madeira LTDA", "_idCliente": 682227515, "dataset": {"total": 8, "ativos": 7, "encerrados": {"2026": 1}, "areaTotal": 8, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 8, "2026": 8}, "entradas": {"2025": 8}, "area": {"Cível": 4, "Tributário": 4}, "uf": {"SC": 8}, "instancia": {"1º Grau": 8}, "polo": {"Terceiro/Outros": 7, "Polo ativo": 1}, "tribunais": {"TJSC": 5, "TRF4": 3}, "ranking": [["UNIÃO FAZENDA NACIONAL", 3], ["ADONIRON HUGO MARTINS", 2], ["SUPERNOVA EDITORA LTDA", 2], ["ESTADO DE SANTA CATARINA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 8, "ativos": 7, "areas": 2, "trib": 2, "procSub": "7 ativos · 1 encerrado", "areasSub": "Cível, Tributário", "tribSub": "TJSC, TRF4"}, "esforco": {"comProducao": 8, "tramitacaoDias": 372, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 111.6, "media": 13.9, "mediaAtivos": 15.9, "horasano": {"2026": 45.9, "2025": 65.7}, "_estimativa": false}, "encerradosTotal": 1}}, "islainecescacorrea_685347657": {"nome": "Islaine Cesca Correa", "_idCliente": 685347657, "dataset": {"total": 1, "ativos": 1, "encerrados": {}, "areaTotal": 1, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "entradas": {"2026": 1}, "area": {"Cível": 1}, "uf": {"SC": 1}, "instancia": {"1º Grau": 1}, "polo": {"Polo ativo": 1}, "tribunais": {"TJSC": 1}, "ranking": [["SEM PARAR INSTITUICAO DE PAGAMENTO LTDA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 1, "ativos": 1, "areas": 1, "trib": 1, "procSub": "1 ativos · 0 encerrados", "areasSub": "Cível", "tribSub": "TJSC"}, "esforco": {"comProducao": 1, "tramitacaoDias": 43, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 14.8, "media": 14.8, "mediaAtivos": 14.8, "horasano": {"2026": 14.8}, "_estimativa": false}, "encerradosTotal": 0}}, "valdoninazariocorrea_682272471": {"nome": "Valdoni Nazario Correa", "_idCliente": 682272471, "dataset": {"total": 3, "ativos": 3, "encerrados": {}, "areaTotal": 3, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 1, "2026": 3}, "entradas": {"2025": 1, "2026": 2}, "area": {"Cível": 1, "Penal-Criminal": 1, "Bancário": 1}, "uf": {"SC": 2, "RS": 1}, "instancia": {"1º Grau": 3}, "polo": {"Terceiro/Outros": 1}, "tribunais": {"TJSC": 2, "TJRS": 1}, "ranking": [["NELCIR DE LIMA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 3, "ativos": 3, "areas": 3, "trib": 2, "procSub": "3 ativos · 0 encerrados", "areasSub": "Cível, Penal-Criminal, Bancário", "tribSub": "TJSC, TJRS"}, "esforco": {"comProducao": 1, "tramitacaoDias": 372, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 30.7, "media": 10.2, "mediaAtivos": 10.2, "horasano": {"2026": 23.1, "2025": 7.5}, "_estimativa": false}, "encerradosTotal": 0}}}, "nome": "Grupo Yany Esquadrias de Madeira LTDA", "nomeHtml": "Grupo <em>Yany Esquadrias de Madeira LTDA</em>", "nEmpresas": 3}
+{
+ "kpiGrupo": {
+  "proc": 12,
+  "ativos": 11,
+  "areas": 4,
+  "trib": 3,
+  "procSub": "11 ativos · 1 encerrado",
+  "areasSub": "Bancário, Cível, Penal-Criminal, Tributário",
+  "tribSub": "TJSC, TRF4, TJRS",
+  "encerrados": 1
+ },
+ "empresas": {
+  "_panorama": {
+   "nome": "Panorama Geral do Grupo",
+   "_idCliente": 682227515,
+   "dataset": {
+    "total": 12,
+    "ativos": 11,
+    "encerrados": {
+     "2026": 1
+    },
+    "areaTotal": 11,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 9,
+     "2026": 12
+    },
+    "entradas": {
+     "2025": 9,
+     "2026": 3
+    },
+    "area": {
+     "Cível": 6,
+     "Tributário": 4,
+     "Penal-Criminal": 1,
+     "Bancário": 1
+    },
+    "uf": {
+     "SC": 11,
+     "RS": 1
+    },
+    "instancia": {
+     "1º Grau": 12
+    },
+    "polo": {
+     "Terceiro/Outros": 8,
+     "Polo ativo": 2
+    },
+    "tribunais": {
+     "TJSC": 8,
+     "TRF4": 3,
+     "TJRS": 1
+    },
+    "ranking": [
+     [
+      "UNIÃO FAZENDA NACIONAL",
+      3
+     ],
+     [
+      "ADONIRON HUGO MARTINS",
+      2
+     ],
+     [
+      "SUPERNOVA EDITORA LTDA",
+      2
+     ],
+     [
+      "ESTADO DE SANTA CATARINA",
+      1
+     ],
+     [
+      "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
+      1
+     ],
+     [
+      "NELCIR DE LIMA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 12,
+     "ativos": 11,
+     "areas": 4,
+     "trib": 3,
+     "procSub": "11 ativos · 1 encerrado",
+     "areasSub": "",
+     "tribSub": "TJSC, TRF4, TJRS"
+    },
+    "esforco": {
+     "comProducao": 10,
+     "tramitacaoDias": 339,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 157.1,
+     "media": 13.1,
+     "mediaAtivos": 14.3,
+     "horasano": {
+      "2026": 83.8,
+      "2025": 73.2
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1,
+    "_panorama": true,
+    "nome": "Panorama Geral do Grupo"
+   }
+  },
+  "yanyesquadriasdemade_682227515": {
+   "nome": "Yany Esquadrias de Madeira LTDA",
+   "_idCliente": 682227515,
+   "dataset": {
+    "total": 8,
+    "ativos": 7,
+    "encerrados": {
+     "2026": 1
+    },
+    "areaTotal": 8,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 8,
+     "2026": 8
+    },
+    "entradas": {
+     "2025": 8
+    },
+    "area": {
+     "Cível": 4,
+     "Tributário": 4
+    },
+    "uf": {
+     "SC": 8
+    },
+    "instancia": {
+     "1º Grau": 8
+    },
+    "polo": {
+     "Terceiro/Outros": 7,
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJSC": 5,
+     "TRF4": 3
+    },
+    "ranking": [
+     [
+      "UNIÃO FAZENDA NACIONAL",
+      3
+     ],
+     [
+      "ADONIRON HUGO MARTINS",
+      2
+     ],
+     [
+      "SUPERNOVA EDITORA LTDA",
+      2
+     ],
+     [
+      "ESTADO DE SANTA CATARINA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 8,
+     "ativos": 7,
+     "areas": 2,
+     "trib": 2,
+     "procSub": "7 ativos · 1 encerrado",
+     "areasSub": "Cível, Tributário",
+     "tribSub": "TJSC, TRF4"
+    },
+    "esforco": {
+     "comProducao": 8,
+     "tramitacaoDias": 372,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 111.6,
+     "media": 13.9,
+     "mediaAtivos": 15.9,
+     "horasano": {
+      "2026": 45.9,
+      "2025": 65.7
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 1
+   }
+  },
+  "islainecescacorrea_685347657": {
+   "nome": "Islaine Cesca Correa",
+   "_idCliente": 685347657,
+   "dataset": {
+    "total": 1,
+    "ativos": 1,
+    "encerrados": {},
+    "areaTotal": 1,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 1
+    },
+    "entradas": {
+     "2026": 1
+    },
+    "area": {
+     "Cível": 1
+    },
+    "uf": {
+     "SC": 1
+    },
+    "instancia": {
+     "1º Grau": 1
+    },
+    "polo": {
+     "Polo ativo": 1
+    },
+    "tribunais": {
+     "TJSC": 1
+    },
+    "ranking": [
+     [
+      "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 1,
+     "ativos": 1,
+     "areas": 1,
+     "trib": 1,
+     "procSub": "1 ativos · 0 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJSC"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 43,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 14.8,
+     "media": 14.8,
+     "mediaAtivos": 14.8,
+     "horasano": {
+      "2026": 14.8
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  },
+  "valdoninazariocorrea_682272471": {
+   "nome": "Valdoni Nazario Correa",
+   "_idCliente": 682272471,
+   "dataset": {
+    "total": 3,
+    "ativos": 3,
+    "encerrados": {},
+    "areaTotal": 3,
+    "estoque": {
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 1,
+     "2026": 3
+    },
+    "entradas": {
+     "2025": 1,
+     "2026": 2
+    },
+    "area": {
+     "Cível": 1,
+     "Penal-Criminal": 1,
+     "Bancário": 1
+    },
+    "uf": {
+     "SC": 2,
+     "RS": 1
+    },
+    "instancia": {
+     "1º Grau": 3
+    },
+    "polo": {
+     "Terceiro/Outros": 1
+    },
+    "tribunais": {
+     "TJSC": 2,
+     "TJRS": 1
+    },
+    "ranking": [
+     [
+      "NELCIR DE LIMA",
+      1
+     ]
+    ],
+    "_complexidadeSoAtivos": true,
+    "kpi": {
+     "proc": 3,
+     "ativos": 3,
+     "areas": 3,
+     "trib": 2,
+     "procSub": "3 ativos · 0 encerrados",
+     "areasSub": "Cível, Penal-Criminal, Bancário",
+     "tribSub": "TJSC, TJRS"
+    },
+    "esforco": {
+     "comProducao": 1,
+     "tramitacaoDias": 372,
+     "prazano": {},
+     "audano": {},
+     "tarefano": {},
+     "atividades": {
+      "Prazos": 0,
+      "Audiências": 0,
+      "Reuniões e Diligências": 0
+     },
+     "extrajudano": {}
+    },
+    "horas": {
+     "total": 30.7,
+     "media": 10.2,
+     "mediaAtivos": 10.2,
+     "horasano": {
+      "2026": 23.1,
+      "2025": 7.5
+     },
+     "_estimativa": false
+    },
+    "encerradosTotal": 0
+   }
+  }
+ },
+ "nome": "Grupo Yany Esquadrias de Madeira LTDA",
+ "nomeHtml": "Grupo <em>Yany Esquadrias de Madeira LTDA</em>",
+ "nEmpresas": 3
+}
