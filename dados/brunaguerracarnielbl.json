@@ -8,7 +8,7 @@
     "areasSub": "Cível, Administrativo, Trabalhista",
     "tribSub": "TJSC, TJRS, TRT09",
     "encerrados": 0,
-    "kHoras": 222.0
+    "kHoras": 256.4
   },
   "empresas": {
     "_panorama": {
@@ -34,7 +34,10 @@
           "2026": 1
         },
         "area": {
-          "Não informado": 14
+          "Cível": 11,
+          "Não informado": 1,
+          "Trabalhista": 1,
+          "Administrativo": 1
         },
         "uf": {
           "SC": 9,
@@ -46,13 +49,13 @@
           "1º Grau": 14
         },
         "polo": {
-          "Ativo": 3,
-          "Outros": 6,
-          "Passivo": 5
+          "Terceiro/Outros": 9,
+          "Polo ativo": 3,
+          "Polo passivo": 2
         },
         "tribunais": {
-          "TJSC": 8,
-          "N/D": 3,
+          "TJSC": 9,
+          "N/D": 2,
           "TJRS": 2,
           "TRT09": 1
         },
@@ -81,14 +84,14 @@
           "extrajudano": {}
         },
         "horas": {
-          "total": 222.0,
-          "media": 15.86,
-          "mediaAtivos": 15.86,
+          "total": 256.4,
+          "media": 18.31,
+          "mediaAtivos": 18.31,
           "horasano": {
-            "2023": 57.4,
-            "2024": 74.4,
-            "2025": 43.1,
-            "2026": 18.2
+            "2023": 109.1,
+            "2024": 75.5,
+            "2025": 44.8,
+            "2026": 27.0
           },
           "_estimativa": false
         },
@@ -96,7 +99,7 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
-          "kHoras": 193.1
+          "kHoras": 256.4
         }
       }
     },
@@ -124,23 +127,27 @@
         },
         "area": {
           "Cível": 11,
-          "Administrativo": 1,
-          "Trabalhista": 1
+          "Não informado": 1,
+          "Trabalhista": 1,
+          "Administrativo": 1
         },
         "uf": {
           "SC": 9,
+          "N/I": 2,
           "RS": 2,
           "PR": 1
         },
-        "instancia": {},
+        "instancia": {
+          "1º Grau": 14
+        },
         "polo": {
           "Terceiro/Outros": 9,
           "Polo ativo": 3,
           "Polo passivo": 2
         },
         "tribunais": {
-          "TJSC": 8,
-          "N/D": 3,
+          "TJSC": 9,
+          "N/D": 2,
           "TJRS": 2,
           "TRT09": 1
         },
@@ -169,11 +176,16 @@
           "extrajudano": {}
         },
         "horas": {
-          "total": 0,
-          "media": 0.0,
-          "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": true
+          "total": 256.4,
+          "media": 18.31,
+          "mediaAtivos": 18.31,
+          "horasano": {
+            "2023": 109.1,
+            "2024": 75.5,
+            "2025": 44.8,
+            "2026": 27.0
+          },
+          "_estimativa": false
         },
         "encerradosTotal": 0
       }

@@ -1,146 +1,68 @@
 {
   "kpiGrupo": {
-    "proc": 17,
-    "ativos": 16,
+    "proc": 18,
+    "ativos": 17,
     "areas": 3,
     "trib": 3,
-    "procSub": "16 ativos · 1 encerrados",
+    "procSub": "17 ativos · 1 encerrado",
     "areasSub": "Bancário, Tributário, Cível",
     "tribSub": "TJSC, TRF4",
     "encerrados": 1,
-    "kHoras": 228.9
+    "kHoras": 231.3
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 679032540,
       "dataset": {
-        "total": 17,
-        "ativos": 16,
+        "total": 18,
+        "ativos": 17,
         "encerrados": {
           "2025": 1
         },
-        "areaTotal": 16,
-        "estoque": {
-          "2024": 3,
-          "2025": 14,
-          "2026": 16
-        },
-        "entradas": {
-          "2024": 3,
-          "2025": 12,
-          "2026": 2
-        },
-        "area": {
-          "Não informado": 17
-        },
-        "uf": {
-          "SC": 16,
-          "N/I": 1
-        },
-        "instancia": {
-          "1º Grau": 17
-        },
-        "polo": {
-          "Ativo": 11,
-          "Passivo": 6
-        },
-        "tribunais": {
-          "TJSC": 10,
-          "TRF4": 5,
-          "N/D": 1
-        },
-        "ranking": [],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "proc": 17,
-          "ativos": 16,
-          "areas": 3,
-          "trib": 3,
-          "procSub": "16 ativos · 1 encerrados",
-          "areasSub": "",
-          "tribSub": "TJSC, TRF4"
-        },
-        "esforco": {
-          "comProducao": 17,
-          "tramitacaoDias": 424,
-          "prazano": {},
-          "audano": {},
-          "tarefano": {},
-          "atividades": {
-            "Prazos": 0,
-            "Audiências": 0,
-            "Reuniões e Diligências": 0
-          },
-          "extrajudano": {}
-        },
-        "horas": {
-          "total": 228.9,
-          "media": 13.46,
-          "mediaAtivos": 14.31,
-          "horasano": {
-            "2024": 4.1,
-            "2025": 132.6,
-            "2026": 41.4
-          },
-          "_estimativa": false
-        },
-        "encerradosTotal": 1,
-        "_panorama": true,
-        "nome": "Panorama Geral do Grupo",
-        "kpiGrupo": {
-          "kHoras": 178.1
-        }
-      }
-    },
-    "distribuidorapachavi_": {
-      "nome": "Distribuidora Pachavi LTDA",
-      "_idCliente": 679032540,
-      "dataset": {
-        "total": 17,
-        "ativos": 16,
-        "encerrados": {
-          "2025": 1
-        },
-        "areaTotal": 16,
+        "areaTotal": 17,
         "estoque": {
           "2022": 0,
           "2023": 0,
           "2024": 3,
           "2025": 14,
-          "2026": 16
+          "2026": 17
         },
         "entradas": {
           "2024": 3,
           "2025": 12,
-          "2026": 2
+          "2026": 3
         },
         "area": {
           "Bancário": 9,
           "Tributário": 6,
-          "Cível": 1
+          "Cível": 3
         },
         "uf": {
-          "SC": 15
+          "SC": 17,
+          "N/I": 1
         },
-        "instancia": {},
+        "instancia": {
+          "1º Grau": 12,
+          "2º Grau": 6
+        },
         "polo": {
-          "Terceiro/Outros": 12,
-          "Polo ativo": 4
+          "Ativo": 9,
+          "Passivo": 9
         },
         "tribunais": {
-          "TJSC": 10,
+          "TJSC": 12,
           "TRF4": 5,
           "N/D": 1
         },
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 17,
-          "ativos": 16,
+          "proc": 18,
+          "ativos": 17,
           "areas": 3,
           "trib": 3,
-          "procSub": "16 ativos · 1 encerrado",
+          "procSub": "17 ativos · 1 encerrado",
           "areasSub": "Bancário, Tributário, Cível",
           "tribSub": "TJSC, TRF4"
         },
@@ -158,11 +80,102 @@
           "extrajudano": {}
         },
         "horas": {
-          "total": 0,
-          "media": 0.0,
-          "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": true
+          "total": 231.3,
+          "media": 12.85,
+          "mediaAtivos": 13.61,
+          "horasano": {
+            "2024": 54.9,
+            "2025": 134.2,
+            "2026": 42.2
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 1,
+        "_panorama": true,
+        "nome": "Panorama Geral do Grupo",
+        "kpiGrupo": {
+          "kHoras": 231.3
+        }
+      }
+    },
+    "distribuidorapachavi_": {
+      "nome": "Distribuidora Pachavi LTDA",
+      "_idCliente": 679032540,
+      "dataset": {
+        "total": 18,
+        "ativos": 17,
+        "encerrados": {
+          "2025": 1
+        },
+        "areaTotal": 17,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 3,
+          "2025": 14,
+          "2026": 17
+        },
+        "entradas": {
+          "2024": 3,
+          "2025": 12,
+          "2026": 3
+        },
+        "area": {
+          "Bancário": 9,
+          "Tributário": 6,
+          "Cível": 3
+        },
+        "uf": {
+          "SC": 17,
+          "N/I": 1
+        },
+        "instancia": {
+          "1º Grau": 12,
+          "2º Grau": 6
+        },
+        "polo": {
+          "Ativo": 9,
+          "Passivo": 9
+        },
+        "tribunais": {
+          "TJSC": 12,
+          "TRF4": 5,
+          "N/D": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 18,
+          "ativos": 17,
+          "areas": 3,
+          "trib": 3,
+          "procSub": "17 ativos · 1 encerrado",
+          "areasSub": "Bancário, Tributário, Cível",
+          "tribSub": "TJSC, TRF4"
+        },
+        "esforco": {
+          "comProducao": 17,
+          "tramitacaoDias": 424,
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {}
+        },
+        "horas": {
+          "total": 231.3,
+          "media": 12.85,
+          "mediaAtivos": 13.61,
+          "horasano": {
+            "2024": 54.9,
+            "2025": 134.2,
+            "2026": 42.2
+          },
+          "_estimativa": false
         },
         "encerradosTotal": 1
       }

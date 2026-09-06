@@ -2,13 +2,13 @@
   "kpiGrupo": {
     "proc": 1,
     "ativos": 1,
-    "areas": 0,
+    "areas": 1,
     "trib": 1,
     "procSub": "1 ativos · 0 encerrados",
-    "areasSub": "",
-    "tribSub": "",
+    "areasSub": "Cível",
+    "tribSub": "TJSC",
     "encerrados": 0,
-    "kHoras": 232.4
+    "kHoras": 247.8
   },
   "empresas": {
     "_panorama": {
@@ -20,13 +20,17 @@
         "encerrados": {},
         "areaTotal": 1,
         "estoque": {
-          "2025": 1
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
         },
         "entradas": {
           "2025": 1
         },
         "area": {
-          "Não informado": 1
+          "Cível": 1
         },
         "uf": {
           "SC": 1
@@ -38,7 +42,7 @@
           "Outros": 1
         },
         "tribunais": {
-          "N/D": 1
+          "TJSC": 1
         },
         "ranking": [
           [
@@ -50,11 +54,11 @@
         "kpi": {
           "proc": 1,
           "ativos": 1,
-          "areas": 0,
+          "areas": 1,
           "trib": 1,
           "procSub": "1 ativos · 0 encerrados",
-          "areasSub": "",
-          "tribSub": ""
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
         },
         "esforco": {
           "comProducao": 1,
@@ -70,13 +74,13 @@
           "extrajudano": {}
         },
         "horas": {
-          "total": 232.4,
-          "media": 232.4,
-          "mediaAtivos": 232.4,
+          "total": 247.8,
+          "media": 247.8,
+          "mediaAtivos": 247.8,
           "horasano": {
-            "2024": 30.7,
+            "2024": 54.2,
             "2025": 98.0,
-            "2026": 88.3
+            "2026": 95.7
           },
           "_estimativa": false
         },
@@ -84,7 +88,7 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
-          "kHoras": 217.0
+          "kHoras": 247.8
         }
       }
     },
@@ -106,16 +110,20 @@
         "entradas": {
           "2025": 1
         },
-        "area": {},
+        "area": {
+          "Cível": 1
+        },
         "uf": {
           "SC": 1
         },
-        "instancia": {},
+        "instancia": {
+          "1º Grau": 1
+        },
         "polo": {
           "Terceiro/Outros": 1
         },
         "tribunais": {
-          "N/D": 1
+          "TJSC": 1
         },
         "ranking": [
           [
@@ -127,11 +135,11 @@
         "kpi": {
           "proc": 1,
           "ativos": 1,
-          "areas": 0,
+          "areas": 1,
           "trib": 1,
           "procSub": "1 ativos · 0 encerrados",
-          "areasSub": "",
-          "tribSub": ""
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
         },
         "esforco": {
           "comProducao": 1,
@@ -147,11 +155,15 @@
           "extrajudano": {}
         },
         "horas": {
-          "total": 0,
-          "media": 0.0,
-          "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": true
+          "total": 247.8,
+          "media": 247.8,
+          "mediaAtivos": 247.8,
+          "horasano": {
+            "2024": 54.2,
+            "2025": 98.0,
+            "2026": 95.7
+          },
+          "_estimativa": false
         },
         "encerradosTotal": 0
       }
