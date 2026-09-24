@@ -737,7 +737,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 <!-- VOLUME -->
 <section class="block alt" id="volume">
   <div class="sec-head reveal">
-    <span class="sec-num">01 — Volume</span>
+    <span class="sec-num">01 · Volume</span>
     <h2>Evolução do volume processual</h2>
     <p>Como a carteira deste cliente se comporta ao longo do tempo: o ritmo de entrada de novos processos, os encerramentos e o saldo de casos ativos sob gestão a cada ano.</p>
   </div>
@@ -768,9 +768,9 @@ body.dash.is-semdados #sd-overlay{display:block}
 <!-- COMPLEXIDADE -->
 <section class="block" id="complexidade">
   <div class="sec-head reveal">
-    <span class="sec-num">02 — Complexidade</span>
+    <span class="sec-num">02 · Complexidade</span>
     <h2>Perfil e complexidade da carteira</h2>
-    <p>A composição dos processos por área, instância, posição e abrangência geográfica — indicadores que ajudam a dimensionar o nível de especialização e a estrutura necessária para conduzir a carteira.</p>
+    <p>A composição dos processos por área, instância, posição e abrangência geográfica, indicadores que ajudam a dimensionar o nível de especialização e a estrutura necessária para conduzir a carteira.</p>
   </div>
 
   <div class="grid g2 pg-cplx1">
@@ -811,7 +811,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 <section class="block alt" id="esforco">
   <div class="amp-wm">&amp;</div>
   <div class="sec-head reveal">
-    <span class="sec-num">03 — Esforço operacional <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
+    <span class="sec-num">03 · Esforço operacional <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
     <h2>Esforço operacional da equipe</h2>
     <p>Volume de trabalho dedicado à carteira: compromissos executados, produção por processo e tempo médio de tramitação.</p>
   </div>
@@ -819,7 +819,7 @@ body.dash.is-semdados #sd-overlay{display:block}
   <div class="kpis reveal" style="margin-bottom:24px;--kn:3">
     <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub" id="e-compromissos-sub">prazos + audiências + reuniões e diligências</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-atosproc">0</div><div class="k">Atos por processo</div><div class="sub" id="e-atosproc-sub">compromissos ÷ processos movimentados</div></div>
-    <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média — ativos contam até 23/07</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média (ativos contam até 23/07)</div></div>
   </div>
 
   <div class="sub-lead reveal">Atividades executadas por ano</div>
@@ -862,7 +862,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 <!-- HORAS -->
 <section class="block" id="horas">
   <div class="sec-head reveal">
-    <span class="sec-num">04 — Horas dedicadas <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
+    <span class="sec-num">04 · Horas dedicadas <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
     <h2>Horas dedicadas à carteira</h2>
     <p>Tempo efetivamente apontado pela equipe nos processos do cliente, consolidado a partir dos registros de timesheet do sistema.</p>
   </div>
@@ -875,7 +875,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 
   <div class="card reveal">
     <h3><span class="bt"></span>Evolução das horas por ano</h3>
-    <div class="desc">Horas apontadas por ano — evolução da carga de trabalho ao longo do contrato.</div>
+    <div class="desc">Horas apontadas por ano: evolução da carga de trabalho ao longo do contrato.</div>
     <div class="vbars" id="horasano"></div>
     <div class="insight" id="horas-nota-box" style="margin-top:34px;display:none">
       <div class="t">Sobre este indicador</div>
@@ -1147,7 +1147,7 @@ function renderDashboard(){
     }
     return;
   } else { document.body.classList.remove('is-semdados'); }
-  el('ph-titulo').innerHTML = m.nome+' — '+DATA_CORTE.extenso;
+  el('ph-titulo').innerHTML = m.nome+', '+DATA_CORTE.extenso;
   el('hero-nome').innerHTML = m.nomeHtml;
   // botão "Gerar link": no Panorama do grupo OU na empresa única (grupo de 1 empresa,
   // que não tem panorama). Nunca no modo cliente.
@@ -1160,7 +1160,7 @@ function renderDashboard(){
   }
   // período de análise: recorte de exibição ANO_MIN..último ano com dados (base pré-2022 omitida)
   var _anosEst = (DATA.dataset && DATA.dataset.estoque) ? Object.keys(cortaAnos(DATA.dataset.estoque)).sort() : [];
-  var _periodo = _anosEst.length ? (_anosEst[0]+' — '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
+  var _periodo = _anosEst.length ? (_anosEst[0]+' a '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
   el('hero-periodo').textContent = _periodo;
   el('hero-atualizado').textContent = DATA_CORTE.extenso;
   el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0';
@@ -1377,7 +1377,7 @@ function renderDashboard(){
     function _formatRatio(r){ return (Math.round(r*10)/10).toString().replace('.',','); }
     // nome do periodo parcial (ex: "jan-jun/2026")
     var _MES3 = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
-    function _rotuloParcial(anoFim, meses){ return _MES3[0]+'–'+_MES3[meses-1]+'/'+anoFim; }
+    function _rotuloParcial(anoFim, meses){ return _MES3[0]+' a '+_MES3[meses-1]+'/'+anoFim; }
 
     // §3 ESFORCO — volume + tramitacao + evolucao ano-a-ano (compromissos totais)
     var _p3 = '';
@@ -2211,38 +2211,38 @@ function montarPrint(){
   }
 
   // ---------- PÁGINA 2: Volume — KPIs de volume ----------
-  sheet([cloneKpis('v-cresc')], '01 — Volume', 'Evolução do volume processual', 'Ritmo de entrada de novos processos, encerramentos e saldo de casos ativos ano a ano.');
+  sheet([cloneKpis('v-cresc')], '01 · Volume', 'Evolução do volume processual', 'Ritmo de entrada de novos processos, encerramentos e saldo de casos ativos ano a ano.');
   // ---------- PÁGINA 3: Volume — os 2 gráficos ----------
-  sheet([cloneCardOf('estoque'), cloneCardOf('fluxo')], '01 — Volume', 'Evolução da carteira e fluxo anual');
+  sheet([cloneCardOf('estoque'), cloneCardOf('fluxo')], '01 · Volume', 'Evolução da carteira e fluxo anual');
 
   // ---------- COMPLEXIDADE ----------
   // pág 4: Distribuição por área
-  sheet([cloneCardOf('donut')], '02 — Complexidade', 'Perfil e complexidade da carteira', 'Composição da carteira por área, instância, posição e abrangência geográfica.');
+  sheet([cloneCardOf('donut')], '02 · Complexidade', 'Perfil e complexidade da carteira', 'Composição da carteira por área, instância, posição e abrangência geográfica.');
   // pág 5: Por instância + posição
-  sheet([cloneCardOf('instancia')], '02 — Complexidade', 'Instância e posição processual');
+  sheet([cloneCardOf('instancia')], '02 · Complexidade', 'Instância e posição processual');
   // pág 6: Distribuição geográfica
-  sheet([cloneCardOf('regioes')], '02 — Complexidade', 'Distribuição geográfica');
+  sheet([cloneCardOf('regioes')], '02 · Complexidade', 'Distribuição geográfica');
   // pág 7: Tribunais e foros
-  sheet([cloneCardOf('tribunais')], '02 — Complexidade', 'Tribunais e foros');
+  sheet([cloneCardOf('tribunais')], '02 · Complexidade', 'Tribunais e foros');
 
   // ---------- ESFORÇO ----------
   var semEsf = !ds.esforco || Object.keys(ds.esforco).length===0;
   if(!semEsf){
     // pág 8: KPIs de esforço
-    sheet([cloneKpis('e-compromissos')], '03 — Esforço operacional', 'Esforço operacional da equipe', 'Compromissos executados, produção por processo e tempo médio de tramitação.');
+    sheet([cloneKpis('e-compromissos')], '03 · Esforço operacional', 'Esforço operacional da equipe', 'Compromissos executados, produção por processo e tempo médio de tramitação.');
     // pág 9: Prazos + Audiências (se existirem)
     var g1=[]; if(visivel('prazano')) g1.push(cloneCardOf('prazano')); if(visivel('audano')) g1.push(cloneCardOf('audano'));
-    if(g1.length) sheet(g1, '03 — Esforço operacional', 'Atividades por ano · prazos e audiências');
+    if(g1.length) sheet(g1, '03 · Esforço operacional', 'Atividades por ano · prazos e audiências');
     // pág 10: Tarefas + Atividades por tipo
     var g2=[]; if(visivel('tarefano')) g2.push(cloneCardOf('tarefano')); if(visivel('atividades')) g2.push(cloneCardOf('atividades'));
-    if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · reuniões, diligências e composição');
+    if(g2.length) sheet(g2, '03 · Esforço operacional', 'Atividades por ano · reuniões, diligências e composição');
     // pág extrajudicial (se houver dado): atividades por ano
     // "Atividades extrajudiciais por ano": Rangel pediu remover do PDF APENAS do grupo ABC
     // (23/07/2026). Nos demais 9 grupos continua saindo normal.
-    if(visivel('extrajudano') && GRUPO_ATUAL !== 'abc') sheet([cloneCardOf('extrajudano')], '03 — Esforço operacional', 'Atividades extrajudiciais por ano');
+    if(visivel('extrajudano') && GRUPO_ATUAL !== 'abc') sheet([cloneCardOf('extrajudano')], '03 · Esforço operacional', 'Atividades extrajudiciais por ano');
     // pág 11: Equipe mobilizada
     var eqp=[]; if(visivel('people')) eqp.push(cloneCardOf('people'));
-    if(eqp.length) sheet(eqp, '03 — Esforço operacional', 'Equipe mobilizada por este cliente');
+    if(eqp.length) sheet(eqp, '03 · Esforço operacional', 'Equipe mobilizada por este cliente');
   }
 
   // ---------- HORAS ----------
@@ -2252,13 +2252,13 @@ function montarPrint(){
     // removemos do clone — eles vão sozinhos na pág 13.
     var cardHoras = visivel('horasano') ? cloneCardOf('horasano') : null;
     if(cardHoras){ cardHoras.querySelectorAll('.insight').forEach(function(x){ x.remove(); }); }
-    sheet([cloneKpis('h-total'), cardHoras], '04 — Horas dedicadas', 'Horas dedicadas à carteira', 'Tempo apontado pela equipe nos processos do cliente (registros de timesheet).');
+    sheet([cloneKpis('h-total'), cardHoras], '04 · Horas dedicadas', 'Horas dedicadas à carteira', 'Tempo apontado pela equipe nos processos do cliente (registros de timesheet).');
     // pág 13: Sobre este indicador (nota do ^ — a leitura interpretativa foi removida)
     var nota=cloneInsight('horas-nota');
     if(nota){
       // remove clip-path das cortinas animadas: no PDF nao ha animacao, o texto ficaria invisivel
       nota.querySelectorAll('.cortina-txt').forEach(function(el){ el.classList.remove('cortina-txt'); el.style.clipPath='none'; });
-      sheet([nota], '04 — Horas dedicadas', 'Sobre este indicador');
+      sheet([nota], '04 · Horas dedicadas', 'Sobre este indicador');
     }
   }
 
