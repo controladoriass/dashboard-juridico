@@ -1369,7 +1369,15 @@ function renderDashboard(){
         } else if(_rat>=0.9){
           _compEvoTxt = ' O ritmo anual manteve-se estável entre <b>'+fmt(_cA)+'</b> ('+_yA+') e '+_valFimCompTxt+'.';
         } else {
-          _compEvoTxt = ' O ritmo anual recuou de <b>'+fmt(_cA)+'</b> ('+_yA+') para '+_valFimCompTxt+'.';
+          // Recuo na CONTAGEM de compromissos. Se a carteira cresceu no periodo (saldo liquido
+          // positivo de processos), nao afirmar "recuou" (enfraquece a justificativa do contrato):
+          // manter o foco no volume operacional acumulado, que segue relevante. So diz "recuou"
+          // quando a carteira tambem encolheu (saldo <= 0), onde a queda e coerente com o resto.
+          if(typeof _saldo!=='undefined' && _saldo>0){
+            _compEvoTxt = ' O volume operacional manteve-se relevante ao longo do período, acompanhando uma carteira em expansão (saldo líquido de <b>'+(_saldo>0?'+':'')+fmt(_saldo)+' processos</b>).';
+          } else {
+            _compEvoTxt = ' O ritmo anual recuou de <b>'+fmt(_cA)+'</b> ('+_yA+') para '+_valFimCompTxt+'.';
+          }
         }
       }
       if(_tramitAnos>=3.5){
