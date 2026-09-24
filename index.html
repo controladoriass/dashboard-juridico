@@ -744,8 +744,8 @@ body.dash.is-semdados #sd-overlay{display:block}
 
   <div class="kpis reveal" style="margin-bottom:24px;--kn:4">
     <div class="kpi"><div class="n" id="v-cresc">—</div><div class="k">Ritmo de novos processos</div><div class="sub" id="v-cresc-sub">—</div><span class="trend" id="v-trend">▲ expansão</span></div>
-    <div class="kpi"><div class="n" id="v-entradas">0</div><div class="k">Entradas no período</div><div class="sub">total de processos abertos</div></div>
-    <div class="kpi"><div class="n" id="v-encerr">0</div><div class="k">Encerramentos</div><div class="sub">casos finalizados (por status)</div></div>
+    <div class="kpi"><div class="n" id="v-entradas">0</div><div class="k">Entradas no período</div><div class="sub" id="v-entradas-sub">novos processos após o ano-base</div></div>
+    <div class="kpi"><div class="n" id="v-encerr">0</div><div class="k">Encerramentos</div><div class="sub" id="v-encerr-sub">casos finalizados no período</div></div>
     <div class="kpi"><div class="n" data-count="0" id="v-ativos">0</div><div class="k">Ativos hoje</div><div class="sub" id="v-ativos-sub">processos em andamento</div></div>
   </div>
 
@@ -1256,14 +1256,17 @@ function renderDashboard(){
     // os 66 ativos; 30+99-70=59 != 66). Base do periodo = estoque de fim do ano-base.
     // Identidade garantida: _estBaseCon + _totEnt - _totEnc == _estFim.
     var _estBaseCon = _estC[_baseKey] || _estIni || 0;
-    // Entradas do periodo = anos APOS o ano-base (o estoque-base ja inclui as do proprio ano-base).
-    var _totEnt = 0;
+    // Entradas e encerramentos do periodo = anos APOS o ano-base (o estoque-base ja inclui os do
+    // proprio ano-base). Sao EXATAMENTE os numeros mostrados nos KPIs da pagina de Volume.
+    var _totEnt = 0, _totEnc = 0;
     for(var _yy=0; _yy<_entKeys.length; _yy++){ if(_entKeys[_yy] > _baseKey){ _totEnt += (+_entC[_entKeys[_yy]]||0); } }
-    // SALDO e MULTIPLICADOR derivam DIRETO da serie de estoque publicada (a que o cliente ve nos
-    // graficos), nao de entradas-encerrados. Assim a conta SEMPRE fecha e nao contradiz o card,
-    // mesmo quando a serie bruta de encerrados tem ruido de recoleta (datas faltantes etc).
-    var _saldo = _estFim - _estBaseCon;           // fecha por definicao
-    var _mult = _estBaseCon>0 ? (_estFim/_estBaseCon) : 0;  // crescimento real da carteira ativa
+    var _encKeysC = Object.keys(_encC);
+    for(var _zz=0; _zz<_encKeysC.length; _zz++){ if(_encKeysC[_zz] > _baseKey){ _totEnc += (+_encC[_encKeysC[_zz]]||0); } }
+    // SALDO = entradas - encerramentos (a MESMA subtracao que o cliente faz com os KPIs a vista),
+    // pra nunca contradizer a pagina 3. MULTIPLICADOR = estoque_fim/estoque_base (crescimento real
+    // da carteira, coerente com o grafico de estoque). NAO somar estBase+todas-entradas (bug antigo).
+    var _saldo = _totEnt - _totEnc;
+    var _mult = _estBaseCon>0 ? (_estFim/_estBaseCon) : 0;
     var _multTxt = (Math.round(_mult*10)/10).toString().replace('.',',');
 
     // esforço — recorte 2023+ (2022 tinha timesheet sub-registrado, ver [[dashboard-esforco-corte-2023]])
@@ -1619,19 +1622,23 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   if(_baseVal<5){ for(var _bi=0;_bi<entKeys.length;_bi++){ if((entVals[_bi]||0)>=5){ _baseKey=entKeys[_bi]; _baseVal=entVals[_bi]; break; } } }
   // Estoque no ano-base (denominador do KPI)
   var _estBase = _estC[_baseKey] || 0;
-  // Fim: SOMA de entradas do período inteiro (recorte cortado por ANO_MIN)
-  const totEntradas=Object.values(_entC).reduce((a,b)=>a+b,0);
-  const totEncerr=Object.values(_encC).reduce((a,b)=>a+b,0);
+  // ---------------------------------------------------------------------------
+  // KPIs de Volume — MESMA logica CORRIGIDA das Consideracoes (24/09/2026), pra pagina 3
+  // nao contradizer a conclusao. O estoque[baseKey] ja e o FIM do ano-base; entao entradas e
+  // encerramentos contam so os anos APOS a base (senao conta o ano-base 2x -> "4,3x/99/70" que
+  // nao fechava). Multiplicador e saldo derivam da serie de estoque publicada (fecha sempre).
+  const _ultEst = Object.values(_estC)[Object.values(_estC).length-1]||0;  // estoque fim
   var _fimKey = entKeys[entKeys.length-1]||'';
-  const totAtuados = _estBase + totEntradas;
-  const crescPct = _estBase>0 ? Math.round((totAtuados-_estBase)/_estBase*100) : 0;
-  const crescMult = _estBase>0 ? (totAtuados/_estBase) : 0;
-  // valor final do estoque (usado na narrativa das Considerações, não no KPI)
-  const _ultEst = Object.values(_estC)[Object.values(_estC).length-1]||0;
+  var totEntradas=0, totEncerr=0;
+  for(var _ei=0;_ei<entKeys.length;_ei++){ if(entKeys[_ei] > _baseKey){ totEntradas += (+_entC[entKeys[_ei]]||0); } }
+  var _encKeysV=Object.keys(_encC);
+  for(var _ci=0;_ci<_encKeysV.length;_ci++){ if(_encKeysV[_ci] > _baseKey){ totEncerr += (+_encC[_encKeysV[_ci]]||0); } }
+  const crescMult = _estBase>0 ? (_ultEst/_estBase) : 0;   // = estoque_fim / estoque_base
+  const crescPct = _estBase>0 ? Math.round((_ultEst-_estBase)/_estBase*100) : 0;
   if(el('v-cresc')){
     var multTxt = (Math.round(crescMult*10)/10).toString().replace('.',',');
     el('v-cresc').innerHTML = multTxt+'<small>×</small>';
-    el('v-cresc-sub').textContent = 'atuamos em '+totAtuados.toLocaleString('pt-BR')+' processos ('+_estBase+' em '+_baseKey+' + '+totEntradas.toLocaleString('pt-BR')+' entradas no período)';
+    el('v-cresc-sub').textContent = 'estoque de '+(_estBase).toLocaleString('pt-BR')+' ('+_baseKey+') para '+(_ultEst).toLocaleString('pt-BR')+' ('+_fimKey+')';
     el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
   if(el('v-encerr')){ el('v-encerr').dataset.count=totEncerr; el('v-encerr').textContent=totEncerr.toLocaleString('pt-BR'); }
