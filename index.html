@@ -1244,17 +1244,26 @@ function renderDashboard(){
     var _baseKey = _entKeys[0]||'', _baseVal = _entVals[0]||0;
     if(_baseVal<5){ for(var _i=0;_i<_entKeys.length;_i++){ if((_entVals[_i]||0)>=5){ _baseKey=_entKeys[_i]; _baseVal=_entVals[_i]; break; } } }
     var _ultKey = _entKeys[_entKeys.length-1]||'';
-    var _totEnt = Object.values(_entC).reduce(function(a,b){return a+(+b||0);},0);
-    var _totEnc = Object.values(_encC).reduce(function(a,b){return a+(+b||0);},0);
-    var _saldo = _totEnt - _totEnc;
-    // Valor inicial/final do estoque
+    // Valor inicial/final do estoque (estoque = FIM de cada ano, ja liquido de entradas/encerr. daquele ano)
     var _estIni = _estVals[0]||0;
     var _estFim = _estVals[_estVals.length-1]||0;
     var _estIniKey = _estKeys[0]||'', _estFimKey = _estKeys[_estKeys.length-1]||'';
-    // "N×" = (estoque_base + total_entradas) / estoque_base — lógica Dr. Kim 23/07/2026
+    // ---------------------------------------------------------------------------
+    // VOLUME/CRESCIMENTO — conta que FECHA (corrigido 24/09/2026).
+    // O estoque[baseKey] ja e o FIM do ano-base (ja contem as entradas/encerr. daquele ano).
+    // Portanto so podemos somar entradas/encerr. dos anos SEGUINTES, senao contamos o ano-base
+    // duas vezes (bug antigo: estBase + TODAS as entradas => "129 proc / 4,3x" que nao batia com
+    // os 66 ativos; 30+99-70=59 != 66). Base do periodo = estoque de fim do ano-base.
+    // Identidade garantida: _estBaseCon + _totEnt - _totEnc == _estFim.
     var _estBaseCon = _estC[_baseKey] || _estIni || 0;
-    var _totAtuadosCon = _estBaseCon + _totEnt;
-    var _mult = _estBaseCon>0 ? (_totAtuadosCon/_estBaseCon) : 0;
+    // Entradas do periodo = anos APOS o ano-base (o estoque-base ja inclui as do proprio ano-base).
+    var _totEnt = 0;
+    for(var _yy=0; _yy<_entKeys.length; _yy++){ if(_entKeys[_yy] > _baseKey){ _totEnt += (+_entC[_entKeys[_yy]]||0); } }
+    // SALDO e MULTIPLICADOR derivam DIRETO da serie de estoque publicada (a que o cliente ve nos
+    // graficos), nao de entradas-encerrados. Assim a conta SEMPRE fecha e nao contradiz o card,
+    // mesmo quando a serie bruta de encerrados tem ruido de recoleta (datas faltantes etc).
+    var _saldo = _estFim - _estBaseCon;           // fecha por definicao
+    var _mult = _estBaseCon>0 ? (_estFim/_estBaseCon) : 0;  // crescimento real da carteira ativa
     var _multTxt = (Math.round(_mult*10)/10).toString().replace('.',',');
 
     // esforço — recorte 2023+ (2022 tinha timesheet sub-registrado, ver [[dashboard-esforco-corte-2023]])
@@ -1300,8 +1309,7 @@ function renderDashboard(){
         _conclEv = 'O saldo líquido de <b>'+fmt(_saldo)+' processos</b> indica encerramentos superando entradas no período.';
       }
       _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
-        'Considerando o estoque de <b>'+fmt(_estBaseCon)+' processos</b> em '+_baseKey+' e <b>'+fmt(_totEnt)+' novas entradas</b> até '+_ultKey+', o escritório atuou em <b>'+fmt(_totAtuadosCon)+' processos</b>, o equivalente a <b>'+_multTxt+'×</b> o tamanho da carteira no ano-base. '+
-        'No mesmo período foram registrados <b>'+fmt(_totEnc)+' encerramentos</b>, elevando a carteira ativa de <b>'+fmt(_estIni)+'</b> ('+_estIniKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'). '+
+        'O estoque de processos em andamento passou de <b>'+fmt(_estBaseCon)+'</b> ('+_baseKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'), com <b>'+fmt(_totEnt)+' novos processos</b> ingressados no período'+(_mult>=1.05?', o equivalente a <b>'+_multTxt+'×</b> o tamanho da carteira no ano-base':'')+'. '+
         _conclEv;
     }
 
