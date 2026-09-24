@@ -1478,7 +1478,15 @@ function renderDashboard(){
         } else if(_rH>=0.9){
           _horasEvoTxt = ' A carga anual manteve-se estável entre <b>'+fmt(_hA)+'h</b> ('+_yrsA+') e '+_valFimTxt+'.';
         } else {
-          _horasEvoTxt = ' A carga anual recuou de <b>'+fmt(_hA)+'h</b> ('+_yrsA+') para '+_valFimTxt+'.';
+          // Recuo na carga anual de horas. Se a carteira cresceu no periodo (saldo liquido positivo
+          // de processos), NAO afirmar "recuou" (enfraquece a justificativa do aditivo, que vai pro
+          // cliente): manter o foco no volume total acumulado de horas, que segue relevante. So diz
+          // "recuou" quando a carteira tambem encolheu (saldo <= 0). Mesmo criterio dos compromissos.
+          if(!_LEG && typeof _saldo!=='undefined' && _saldo>0){
+            _horasEvoTxt = ' O trabalho técnico manteve-se relevante ao longo do período, acompanhando uma carteira em expansão.';
+          } else {
+            _horasEvoTxt = ' A carga anual recuou de <b>'+fmt(_hA)+'h</b> ('+_yrsA+') para '+_valFimTxt+'.';
+          }
         }
       }
       _p4 = '<span class="cons-ico">'+_icoH+'</span> <b>'+_tituloH+'</b> '+
