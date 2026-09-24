@@ -1167,8 +1167,10 @@ function renderDashboard(){
   // Subtitulo do topo = decomposicao do TOTAL da carteira (ativos + encerrados de TODOS os anos,
   // que somam k.proc). Rotulamos "no total" pra o cliente NAO confundir esse encerrados acumulado
   // com os "encerramentos no periodo" da secao de Volume (recorte do grafico). Nao mexe nos dados.
+  // Grupos LEGADO (abc/russi): manter o subtitulo original do JSON, sem rotulo.
+  var _legTopo = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
   var _mEnc = (k.procSub||'').match(/(\d[\d.\s]*)\s*encerrad/i);
-  if(_mEnc && k.ativos!=null){
+  if(!_legTopo && _mEnc && k.ativos!=null){
     el('k-proc-sub').textContent = k.ativos.toLocaleString('pt-BR')+' ativos · '+_mEnc[1].trim()+' encerrados (no total)';
   } else {
     el('k-proc-sub').textContent = k.procSub||'';
@@ -1232,6 +1234,8 @@ function renderDashboard(){
     var _mostraCons = !!DATA.dataset._panorama || _grupo1;
     if(!_mostraCons){ _bl.style.display='none'; _tx.innerHTML=''; return; }
 
+    // GRUPOS LEGADO (abc, russi): manter comportamento antigo das Consideracoes (pedido 24/09/2026).
+    var _LEG = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
     var _ds = DATA.dataset, _esf = _ds.esforco||{}, _h = _ds.horas||{};
     var _nEmp = _gAt2 ? _gAt2.nEmpresas : (Object.keys(_ds.area||{}).length||0);
     var _nomeG = _gAt2 ? (_gAt2.nome||'do grupo').replace(/^Grupo\s+/i,'') : 'do grupo';
@@ -1265,17 +1269,24 @@ function renderDashboard(){
     // os 66 ativos; 30+99-70=59 != 66). Base do periodo = estoque de fim do ano-base.
     // Identidade garantida: _estBaseCon + _totEnt - _totEnc == _estFim.
     var _estBaseCon = _estC[_baseKey] || _estIni || 0;
-    // Entradas e encerramentos do periodo = anos APOS o ano-base (o estoque-base ja inclui os do
-    // proprio ano-base). Sao EXATAMENTE os numeros mostrados nos KPIs da pagina de Volume.
-    var _totEnt = 0, _totEnc = 0;
-    for(var _yy=0; _yy<_entKeys.length; _yy++){ if(_entKeys[_yy] > _baseKey){ _totEnt += (+_entC[_entKeys[_yy]]||0); } }
-    var _encKeysC = Object.keys(_encC);
-    for(var _zz=0; _zz<_encKeysC.length; _zz++){ if(_encKeysC[_zz] > _baseKey){ _totEnc += (+_encC[_encKeysC[_zz]]||0); } }
-    // SALDO = entradas - encerramentos (a MESMA subtracao que o cliente faz com os KPIs a vista),
-    // pra nunca contradizer a pagina 3. MULTIPLICADOR = estoque_fim/estoque_base (crescimento real
-    // da carteira, coerente com o grafico de estoque). NAO somar estBase+todas-entradas (bug antigo).
-    var _saldo = _totEnt - _totEnc;
-    var _mult = _estBaseCon>0 ? (_estFim/_estBaseCon) : 0;
+    var _totEnt = 0, _totEnc = 0, _saldo = 0, _mult = 0;
+    if(_LEG){
+      // LEGADO (abc/russi): comportamento antigo — entradas/encerr de TODOS os anos; mult=(estBase+totEnt)/estBase; saldo=totEnt-totEnc.
+      _totEnt = Object.values(_entC).reduce(function(a,b){return a+(+b||0);},0);
+      _totEnc = Object.values(_encC).reduce(function(a,b){return a+(+b||0);},0);
+      _saldo = _totEnt - _totEnc;
+      _mult = _estBaseCon>0 ? ((_estBaseCon+_totEnt)/_estBaseCon) : 0;
+    } else {
+      // Entradas e encerramentos do periodo = anos APOS o ano-base (o estoque-base ja inclui os do
+      // proprio ano-base). Sao EXATAMENTE os numeros mostrados nos KPIs da pagina de Volume.
+      for(var _yy=0; _yy<_entKeys.length; _yy++){ if(_entKeys[_yy] > _baseKey){ _totEnt += (+_entC[_entKeys[_yy]]||0); } }
+      var _encKeysC = Object.keys(_encC);
+      for(var _zz=0; _zz<_encKeysC.length; _zz++){ if(_encKeysC[_zz] > _baseKey){ _totEnc += (+_encC[_encKeysC[_zz]]||0); } }
+      // SALDO = entradas - encerramentos (a MESMA subtracao que o cliente faz com os KPIs a vista),
+      // pra nunca contradizer a pagina 3. MULTIPLICADOR = estoque_fim/estoque_base.
+      _saldo = _totEnt - _totEnc;
+      _mult = _estBaseCon>0 ? (_estFim/_estBaseCon) : 0;
+    }
     var _multTxt = (Math.round(_mult*10)/10).toString().replace('.',',');
 
     // esforço — recorte 2023+ (2022 tinha timesheet sub-registrado, ver [[dashboard-esforco-corte-2023]])
@@ -1294,8 +1305,13 @@ function renderDashboard(){
     // o que contradizia os cards 27,5/59,2 vs conclusao 33,4/71,9. Denominadores = os do card:
     // kpi.proc (total de processos) e ds.ativos.
     var _procKpi = (_ds.kpi && _ds.kpi.proc) ? _ds.kpi.proc : (_ds.areaTotal||0);
-    var _mediaProc = _procKpi>0 ? Math.round(_totHoras/_procKpi*10)/10 : 0;
-    var _mediaAtivos = _ativosNum>0 ? Math.round(_totHoras/_ativosNum*10)/10 : 0;
+    var _mediaProc, _mediaAtivos;
+    if(_LEG){ // legado: usa medias gravadas no JSON (comportamento antigo)
+      _mediaProc = _h.media||0; _mediaAtivos = _h.mediaAtivos||0;
+    } else {
+      _mediaProc = _procKpi>0 ? Math.round(_totHoras/_procKpi*10)/10 : 0;
+      _mediaAtivos = _ativosNum>0 ? Math.round(_totHoras/_ativosNum*10)/10 : 0;
+    }
 
     function fmt(n){ return (Math.round(n)).toLocaleString('pt-BR'); }
     function fmtDec(n){ return (Math.round(n*10)/10).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}); }
@@ -1320,9 +1336,16 @@ function renderDashboard(){
         _icoEv='▼'; _tituloEv='Carteira em retração.';
         _conclEv = 'O saldo líquido de <b>'+fmt(_saldo)+' processos</b> indica encerramentos superando entradas no período.';
       }
-      _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
-        'O estoque de processos em andamento passou de <b>'+fmt(_estBaseCon)+'</b> ('+_baseKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'), com <b>'+fmt(_totEnt)+' novos processos</b> ingressados no período'+(_mult>=1.05?', o equivalente a <b>'+_multTxt+'×</b> o tamanho da carteira no ano-base':'')+'. '+
-        _conclEv;
+      if(_LEG){ // LEGADO (abc/russi): redacao antiga
+        _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
+          'Considerando o estoque de <b>'+fmt(_estBaseCon)+' processos</b> em '+_baseKey+' e <b>'+fmt(_totEnt)+' novas entradas</b> até '+_ultKey+', o escritório atuou em <b>'+fmt(_estBaseCon+_totEnt)+' processos</b>, o equivalente a <b>'+_multTxt+'×</b> o tamanho da carteira no ano-base. '+
+          'No mesmo período foram registrados <b>'+fmt(_totEnc)+' encerramentos</b>, elevando a carteira ativa de <b>'+fmt(_estIni)+'</b> ('+_estIniKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'). '+
+          _conclEv;
+      } else {
+        _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
+          'O estoque de processos em andamento passou de <b>'+fmt(_estBaseCon)+'</b> ('+_baseKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'), com <b>'+fmt(_totEnt)+' novos processos</b> ingressados no período'+(_mult>=1.05?', o equivalente a <b>'+_multTxt+'×</b> o tamanho da carteira no ano-base':'')+'. '+
+          _conclEv;
+      }
     }
 
     // Helpers: projeta ano incompleto (corte no meio do ano) para o ano cheio, mantido o ritmo
@@ -1393,7 +1416,7 @@ function renderDashboard(){
           // positivo de processos), nao afirmar "recuou" (enfraquece a justificativa do contrato):
           // manter o foco no volume operacional acumulado, que segue relevante. So diz "recuou"
           // quando a carteira tambem encolheu (saldo <= 0), onde a queda e coerente com o resto.
-          if(typeof _saldo!=='undefined' && _saldo>0){
+          if(!_LEG && typeof _saldo!=='undefined' && _saldo>0){
             _compEvoTxt = ' O volume operacional manteve-se relevante ao longo do período, acompanhando uma carteira em expansão (saldo líquido de <b>'+(_saldo>0?'+':'')+fmt(_saldo)+' processos</b>).';
           } else {
             _compEvoTxt = ' O ritmo anual recuou de <b>'+fmt(_cA)+'</b> ('+_yA+') para '+_valFimCompTxt+'.';
@@ -1619,6 +1642,9 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
 
   // insights dinâmicos (gerados dos dados) — séries cortadas ao recorte de exibição (>= ANO_MIN)
   const ds=DATA.dataset;
+  // GRUPOS LEGADO (abc, russi): Rangel pediu (24/09/2026) que NAO mudem em nada, nem pela logica
+  // compartilhada. Mantem o comportamento ANTIGO (pre-correcoes de 24/09) so nesses dois.
+  const _GRUPO_LEGADO = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
   const _estC=cortaAnos(ds.estoque), _entC=cortaAnos(ds.entradas), _encC=cortaAnos(ds.encerrados);
   // KPI "Ritmo de novos processos" (Dr. Kim, 23/07/2026):
   // fórmula = (estoque_no_ano_base + total_de_entradas_no_período) ÷ estoque_no_ano_base.
@@ -1638,19 +1664,37 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   // nao fechava). Multiplicador e saldo derivam da serie de estoque publicada (fecha sempre).
   const _ultEst = Object.values(_estC)[Object.values(_estC).length-1]||0;  // estoque fim
   var _fimKey = entKeys[entKeys.length-1]||'';
-  var totEntradas=0, totEncerr=0;
-  for(var _ei=0;_ei<entKeys.length;_ei++){ if(entKeys[_ei] > _baseKey){ totEntradas += (+_entC[entKeys[_ei]]||0); } }
-  var _encKeysV=Object.keys(_encC);
-  for(var _ci=0;_ci<_encKeysV.length;_ci++){ if(_encKeysV[_ci] > _baseKey){ totEncerr += (+_encC[_encKeysV[_ci]]||0); } }
-  const crescMult = _estBase>0 ? (_ultEst/_estBase) : 0;   // = estoque_fim / estoque_base
-  const crescPct = _estBase>0 ? Math.round((_ultEst-_estBase)/_estBase*100) : 0;
-  if(el('v-cresc')){
-    var multTxt = (Math.round(crescMult*10)/10).toString().replace('.',',');
-    el('v-cresc').innerHTML = multTxt+'<small>×</small>';
-    el('v-cresc-sub').textContent = 'estoque de '+(_estBase).toLocaleString('pt-BR')+' ('+_baseKey+') para '+(_ultEst).toLocaleString('pt-BR')+' ('+_fimKey+')';
-    el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
+  var totEntradas=0, totEncerr=0, crescMult=0, crescPct=0;
+  if(_GRUPO_LEGADO){
+    // COMPORTAMENTO ANTIGO (abc/russi): entradas/encerr = TODOS os anos do recorte; mult = (estBase+totEnt)/estBase
+    totEntradas = Object.values(_entC).reduce(function(a,b){return a+(+b||0);},0);
+    totEncerr = Object.values(_encC).reduce(function(a,b){return a+(+b||0);},0);
+    var _totAtuadosLeg = _estBase + totEntradas;
+    crescMult = _estBase>0 ? (_totAtuadosLeg/_estBase) : 0;
+    crescPct = _estBase>0 ? Math.round((_totAtuadosLeg-_estBase)/_estBase*100) : 0;
+    if(el('v-cresc')){
+      var multTxtL = (Math.round(crescMult*10)/10).toString().replace('.',',');
+      el('v-cresc').innerHTML = multTxtL+'<small>×</small>';
+      el('v-cresc-sub').textContent = 'atuamos em '+_totAtuadosLeg.toLocaleString('pt-BR')+' processos ('+_estBase+' em '+_baseKey+' + '+totEntradas.toLocaleString('pt-BR')+' entradas no período)';
+      el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
+  } else {
+    // CORRIGIDO (demais grupos): entradas/encerr so pos-base; mult = estFim/estBase.
+    for(var _ei=0;_ei<entKeys.length;_ei++){ if(entKeys[_ei] > _baseKey){ totEntradas += (+_entC[entKeys[_ei]]||0); } }
+    var _encKeysV=Object.keys(_encC);
+    for(var _ci=0;_ci<_encKeysV.length;_ci++){ if(_encKeysV[_ci] > _baseKey){ totEncerr += (+_encC[_encKeysV[_ci]]||0); } }
+    crescMult = _estBase>0 ? (_ultEst/_estBase) : 0;
+    crescPct = _estBase>0 ? Math.round((_ultEst-_estBase)/_estBase*100) : 0;
+    if(el('v-cresc')){
+      var multTxt = (Math.round(crescMult*10)/10).toString().replace('.',',');
+      el('v-cresc').innerHTML = multTxt+'<small>×</small>';
+      el('v-cresc-sub').textContent = 'estoque de '+(_estBase).toLocaleString('pt-BR')+' ('+_baseKey+') para '+(_ultEst).toLocaleString('pt-BR')+' ('+_fimKey+')';
+      el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
+  }
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
   if(el('v-encerr')){ el('v-encerr').dataset.count=totEncerr; el('v-encerr').textContent=totEncerr.toLocaleString('pt-BR'); }
+  // sub-legendas dos cards conforme recorte (legado mantem os textos antigos)
+  if(el('v-entradas-sub')) el('v-entradas-sub').textContent = _GRUPO_LEGADO ? 'total de processos abertos' : 'novos processos após o ano-base';
+  if(el('v-encerr-sub')) el('v-encerr-sub').textContent = _GRUPO_LEGADO ? 'casos finalizados (por status)' : 'casos finalizados no período';
   if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
   if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.extenso+')';
   // limpar containers
