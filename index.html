@@ -1163,7 +1163,16 @@ function renderDashboard(){
   var _periodo = _anosEst.length ? (_anosEst[0]+' — '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
   el('hero-periodo').textContent = _periodo;
   el('hero-atualizado').textContent = DATA_CORTE.extenso;
-  el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0'; el('k-proc-sub').textContent=k.procSub;
+  el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0';
+  // Subtitulo do topo = decomposicao do TOTAL da carteira (ativos + encerrados de TODOS os anos,
+  // que somam k.proc). Rotulamos "no total" pra o cliente NAO confundir esse encerrados acumulado
+  // com os "encerramentos no periodo" da secao de Volume (recorte do grafico). Nao mexe nos dados.
+  var _mEnc = (k.procSub||'').match(/(\d[\d.\s]*)\s*encerrad/i);
+  if(_mEnc && k.ativos!=null){
+    el('k-proc-sub').textContent = k.ativos.toLocaleString('pt-BR')+' ativos · '+_mEnc[1].trim()+' encerrados (no total)';
+  } else {
+    el('k-proc-sub').textContent = k.procSub||'';
+  }
   // horas dedicadas (topo) — recorte >= ANO_MIN_ESFORCO (2023): 2022 tinha timesheet sub-registrado
   var _hsTopo = (DATA.dataset && DATA.dataset.horas) ? DATA.dataset.horas : {};
   var _totHorasTopo = Object.values(cortaAnosEsforco(_hsTopo.horasano)||{}).reduce(function(a,b){return a+(+b||0);},0);
