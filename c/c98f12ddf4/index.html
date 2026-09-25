@@ -738,15 +738,15 @@ body.dash.is-semdados #sd-overlay{display:block}
 <!-- VOLUME -->
 <section class="block alt" id="volume">
   <div class="sec-head reveal">
-    <span class="sec-num">01 — Volume</span>
+    <span class="sec-num">01 · Volume</span>
     <h2>Evolução do volume processual</h2>
     <p>Como a carteira deste cliente se comporta ao longo do tempo: o ritmo de entrada de novos processos, os encerramentos e o saldo de casos ativos sob gestão a cada ano.</p>
   </div>
 
   <div class="kpis reveal" style="margin-bottom:24px;--kn:4">
     <div class="kpi"><div class="n" id="v-cresc">—</div><div class="k">Ritmo de novos processos</div><div class="sub" id="v-cresc-sub">—</div><span class="trend" id="v-trend">▲ expansão</span></div>
-    <div class="kpi"><div class="n" id="v-entradas">0</div><div class="k">Entradas no período</div><div class="sub">total de processos abertos</div></div>
-    <div class="kpi"><div class="n" id="v-encerr">0</div><div class="k">Encerramentos</div><div class="sub">casos finalizados (por status)</div></div>
+    <div class="kpi"><div class="n" id="v-entradas">0</div><div class="k">Entradas no período</div><div class="sub" id="v-entradas-sub">novos processos após o ano-base</div></div>
+    <div class="kpi"><div class="n" id="v-encerr">0</div><div class="k">Encerramentos</div><div class="sub" id="v-encerr-sub">casos finalizados no período</div></div>
     <div class="kpi"><div class="n" data-count="0" id="v-ativos">0</div><div class="k">Ativos hoje</div><div class="sub" id="v-ativos-sub">processos em andamento</div></div>
   </div>
 
@@ -769,9 +769,9 @@ body.dash.is-semdados #sd-overlay{display:block}
 <!-- COMPLEXIDADE -->
 <section class="block" id="complexidade">
   <div class="sec-head reveal">
-    <span class="sec-num">02 — Complexidade</span>
+    <span class="sec-num">02 · Complexidade</span>
     <h2>Perfil e complexidade da carteira</h2>
-    <p>A composição dos processos por área, instância, posição e abrangência geográfica — indicadores que ajudam a dimensionar o nível de especialização e a estrutura necessária para conduzir a carteira.</p>
+    <p>A composição dos processos por área, instância, posição e abrangência geográfica, indicadores que ajudam a dimensionar o nível de especialização e a estrutura necessária para conduzir a carteira.</p>
   </div>
 
   <div class="grid g2 pg-cplx1">
@@ -812,7 +812,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 <section class="block alt" id="esforco">
   <div class="amp-wm">&amp;</div>
   <div class="sec-head reveal">
-    <span class="sec-num">03 — Esforço operacional <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
+    <span class="sec-num">03 · Esforço operacional <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
     <h2>Esforço operacional da equipe</h2>
     <p>Volume de trabalho dedicado à carteira: compromissos executados, produção por processo e tempo médio de tramitação.</p>
   </div>
@@ -820,7 +820,7 @@ body.dash.is-semdados #sd-overlay{display:block}
   <div class="kpis reveal" style="margin-bottom:24px;--kn:3">
     <div class="kpi"><div class="n" data-count="0" id="e-compromissos">0</div><div class="k">Compromissos executados</div><div class="sub" id="e-compromissos-sub">prazos + audiências + reuniões e diligências</div></div>
     <div class="kpi"><div class="n" data-count="0" id="e-atosproc">0</div><div class="k">Atos por processo</div><div class="sub" id="e-atosproc-sub">compromissos ÷ processos movimentados</div></div>
-    <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média — ativos contam até 23/07</div></div>
+    <div class="kpi"><div class="n" data-count="0" id="e-tramit">0</div><div class="k">Dias · tramitação média</div><div class="sub" id="e-tramit-sub">idade média (ativos contam até 23/07)</div></div>
   </div>
 
   <div class="sub-lead reveal">Atividades executadas por ano</div>
@@ -863,7 +863,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 <!-- HORAS -->
 <section class="block" id="horas">
   <div class="sec-head reveal">
-    <span class="sec-num">04 — Horas dedicadas <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
+    <span class="sec-num">04 · Horas dedicadas <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
     <h2>Horas dedicadas à carteira</h2>
     <p>Tempo efetivamente apontado pela equipe nos processos do cliente, consolidado a partir dos registros de timesheet do sistema.</p>
   </div>
@@ -876,7 +876,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 
   <div class="card reveal">
     <h3><span class="bt"></span>Evolução das horas por ano</h3>
-    <div class="desc">Horas apontadas por ano — evolução da carga de trabalho ao longo do contrato.</div>
+    <div class="desc">Horas apontadas por ano: evolução da carga de trabalho ao longo do contrato.</div>
     <div class="vbars" id="horasano"></div>
     <div class="insight" id="horas-nota-box" style="margin-top:34px;display:none">
       <div class="t">Sobre este indicador</div>
@@ -922,7 +922,7 @@ let GRUPOS = {};
 let DATA = {}; let GRUPO_ATUAL=null;
 const GOLD='#CFA36E', NAVYMID='#3F5276';
 /* ===== DATA DE CORTE — mudar SO AQUI na atualizacao mensal (tudo acompanha) ===== */
-const DATA_CORTE = { curta:'28/07/2026', extenso:'Agosto de 2026' };
+const DATA_CORTE = { curta:'31/08/2026', extenso:'Agosto de 2026' };
 // Recorte de exibição: séries por ano mostram só ANO_MIN..2026 (base pré-2022 é pouco
 // confiável para leitura). NÃO exclui processos — só corta a SÉRIE dos gráficos e os
 // cálculos derivados dela. Os KPIs de total (processos, ativos, áreas, horas) seguem reais.
@@ -1148,7 +1148,7 @@ function renderDashboard(){
     }
     return;
   } else { document.body.classList.remove('is-semdados'); }
-  el('ph-titulo').innerHTML = m.nome+' — '+DATA_CORTE.extenso;
+  el('ph-titulo').innerHTML = m.nome+', '+DATA_CORTE.extenso;
   el('hero-nome').innerHTML = m.nomeHtml;
   // botão "Gerar link": no Panorama do grupo OU na empresa única (grupo de 1 empresa,
   // que não tem panorama). Nunca no modo cliente.
@@ -1161,10 +1161,21 @@ function renderDashboard(){
   }
   // período de análise: recorte de exibição ANO_MIN..último ano com dados (base pré-2022 omitida)
   var _anosEst = (DATA.dataset && DATA.dataset.estoque) ? Object.keys(cortaAnos(DATA.dataset.estoque)).sort() : [];
-  var _periodo = _anosEst.length ? (_anosEst[0]+' — '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
+  var _periodo = _anosEst.length ? (_anosEst[0]+' a '+_anosEst[_anosEst.length-1]) : (m.periodo||'—');
   el('hero-periodo').textContent = _periodo;
   el('hero-atualizado').textContent = DATA_CORTE.extenso;
-  el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0'; el('k-proc-sub').textContent=k.procSub;
+  el('k-proc').dataset.count=k.proc; el('k-proc').textContent='0';
+  // Subtitulo do topo = decomposicao do TOTAL da carteira (ativos + encerrados de TODOS os anos,
+  // que somam k.proc). Rotulamos "no total" pra o cliente NAO confundir esse encerrados acumulado
+  // com os "encerramentos no periodo" da secao de Volume (recorte do grafico). Nao mexe nos dados.
+  // Grupos LEGADO (abc/russi): manter o subtitulo original do JSON, sem rotulo.
+  var _legTopo = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
+  var _mEnc = (k.procSub||'').match(/(\d[\d.\s]*)\s*encerrad/i);
+  if(!_legTopo && _mEnc && k.ativos!=null){
+    el('k-proc-sub').textContent = k.ativos.toLocaleString('pt-BR')+' ativos · '+_mEnc[1].trim()+' encerrados (no total)';
+  } else {
+    el('k-proc-sub').textContent = k.procSub||'';
+  }
   // horas dedicadas (topo) — recorte >= ANO_MIN_ESFORCO (2023): 2022 tinha timesheet sub-registrado
   var _hsTopo = (DATA.dataset && DATA.dataset.horas) ? DATA.dataset.horas : {};
   var _totHorasTopo = Object.values(cortaAnosEsforco(_hsTopo.horasano)||{}).reduce(function(a,b){return a+(+b||0);},0);
@@ -1224,6 +1235,8 @@ function renderDashboard(){
     var _mostraCons = !!DATA.dataset._panorama || _grupo1;
     if(!_mostraCons){ _bl.style.display='none'; _tx.innerHTML=''; return; }
 
+    // GRUPOS LEGADO (abc, russi): manter comportamento antigo das Consideracoes (pedido 24/09/2026).
+    var _LEG = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
     var _ds = DATA.dataset, _esf = _ds.esforco||{}, _h = _ds.horas||{};
     var _nEmp = _gAt2 ? _gAt2.nEmpresas : (Object.keys(_ds.area||{}).length||0);
     var _nomeG = _gAt2 ? (_gAt2.nome||'do grupo').replace(/^Grupo\s+/i,'') : 'do grupo';
@@ -1245,17 +1258,36 @@ function renderDashboard(){
     var _baseKey = _entKeys[0]||'', _baseVal = _entVals[0]||0;
     if(_baseVal<5){ for(var _i=0;_i<_entKeys.length;_i++){ if((_entVals[_i]||0)>=5){ _baseKey=_entKeys[_i]; _baseVal=_entVals[_i]; break; } } }
     var _ultKey = _entKeys[_entKeys.length-1]||'';
-    var _totEnt = Object.values(_entC).reduce(function(a,b){return a+(+b||0);},0);
-    var _totEnc = Object.values(_encC).reduce(function(a,b){return a+(+b||0);},0);
-    var _saldo = _totEnt - _totEnc;
-    // Valor inicial/final do estoque
+    // Valor inicial/final do estoque (estoque = FIM de cada ano, ja liquido de entradas/encerr. daquele ano)
     var _estIni = _estVals[0]||0;
     var _estFim = _estVals[_estVals.length-1]||0;
     var _estIniKey = _estKeys[0]||'', _estFimKey = _estKeys[_estKeys.length-1]||'';
-    // "N×" = (estoque_base + total_entradas) / estoque_base — lógica Dr. Kim 23/07/2026
+    // ---------------------------------------------------------------------------
+    // VOLUME/CRESCIMENTO — conta que FECHA (corrigido 24/09/2026).
+    // O estoque[baseKey] ja e o FIM do ano-base (ja contem as entradas/encerr. daquele ano).
+    // Portanto so podemos somar entradas/encerr. dos anos SEGUINTES, senao contamos o ano-base
+    // duas vezes (bug antigo: estBase + TODAS as entradas => "129 proc / 4,3x" que nao batia com
+    // os 66 ativos; 30+99-70=59 != 66). Base do periodo = estoque de fim do ano-base.
+    // Identidade garantida: _estBaseCon + _totEnt - _totEnc == _estFim.
     var _estBaseCon = _estC[_baseKey] || _estIni || 0;
-    var _totAtuadosCon = _estBaseCon + _totEnt;
-    var _mult = _estBaseCon>0 ? (_totAtuadosCon/_estBaseCon) : 0;
+    var _totEnt = 0, _totEnc = 0, _saldo = 0, _mult = 0;
+    if(_LEG){
+      // LEGADO (abc/russi): comportamento antigo — entradas/encerr de TODOS os anos; mult=(estBase+totEnt)/estBase; saldo=totEnt-totEnc.
+      _totEnt = Object.values(_entC).reduce(function(a,b){return a+(+b||0);},0);
+      _totEnc = Object.values(_encC).reduce(function(a,b){return a+(+b||0);},0);
+      _saldo = _totEnt - _totEnc;
+      _mult = _estBaseCon>0 ? ((_estBaseCon+_totEnt)/_estBaseCon) : 0;
+    } else {
+      // Entradas e encerramentos do periodo = anos APOS o ano-base (o estoque-base ja inclui os do
+      // proprio ano-base). Sao EXATAMENTE os numeros mostrados nos KPIs da pagina de Volume.
+      for(var _yy=0; _yy<_entKeys.length; _yy++){ if(_entKeys[_yy] > _baseKey){ _totEnt += (+_entC[_entKeys[_yy]]||0); } }
+      var _encKeysC = Object.keys(_encC);
+      for(var _zz=0; _zz<_encKeysC.length; _zz++){ if(_encKeysC[_zz] > _baseKey){ _totEnc += (+_encC[_encKeysC[_zz]]||0); } }
+      // SALDO = entradas - encerramentos (a MESMA subtracao que o cliente faz com os KPIs a vista),
+      // pra nunca contradizer a pagina 3. MULTIPLICADOR = estoque_fim/estoque_base.
+      _saldo = _totEnt - _totEnc;
+      _mult = _estBaseCon>0 ? (_estFim/_estBaseCon) : 0;
+    }
     var _multTxt = (Math.round(_mult*10)/10).toString().replace('.',',');
 
     // esforço — recorte 2023+ (2022 tinha timesheet sub-registrado, ver [[dashboard-esforco-corte-2023]])
@@ -1269,8 +1301,18 @@ function renderDashboard(){
     // horas (recorte >= ANO_MIN_ESFORCO=2023: 2022 sub-registrado, ver [[dashboard-esforco-corte-2023]])
     var _horasC = cortaAnosEsforco(_h.horasano||{});
     var _totHoras = Object.values(_horasC).reduce(function(a,b){return a+(+b||0);},0);
-    var _mediaProc = _h.media||0;
-    var _mediaAtivos = _h.mediaAtivos||0;
+    // Media de horas: recalcular do _totHoras (recorte >=2023, MESMA base do card de Horas).
+    // Nao usar _h.media/_h.mediaAtivos gravados (somam TODOS os anos, inclusive 2022 sub-registrado),
+    // o que contradizia os cards 27,5/59,2 vs conclusao 33,4/71,9. Denominadores = os do card:
+    // kpi.proc (total de processos) e ds.ativos.
+    var _procKpi = (_ds.kpi && _ds.kpi.proc) ? _ds.kpi.proc : (_ds.areaTotal||0);
+    var _mediaProc, _mediaAtivos;
+    if(_LEG){ // legado: usa medias gravadas no JSON (comportamento antigo)
+      _mediaProc = _h.media||0; _mediaAtivos = _h.mediaAtivos||0;
+    } else {
+      _mediaProc = _procKpi>0 ? Math.round(_totHoras/_procKpi*10)/10 : 0;
+      _mediaAtivos = _ativosNum>0 ? Math.round(_totHoras/_ativosNum*10)/10 : 0;
+    }
 
     function fmt(n){ return (Math.round(n)).toLocaleString('pt-BR'); }
     function fmtDec(n){ return (Math.round(n*10)/10).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1}); }
@@ -1295,10 +1337,16 @@ function renderDashboard(){
         _icoEv='▼'; _tituloEv='Carteira em retração.';
         _conclEv = 'O saldo líquido de <b>'+fmt(_saldo)+' processos</b> indica encerramentos superando entradas no período.';
       }
-      _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
-        'Considerando o estoque de <b>'+fmt(_estBaseCon)+' processos</b> em '+_baseKey+' e <b>'+fmt(_totEnt)+' novas entradas</b> até '+_ultKey+', o escritório atuou em <b>'+fmt(_totAtuadosCon)+' processos</b>, o equivalente a <b>'+_multTxt+'×</b> o tamanho da carteira no ano-base. '+
-        'No mesmo período foram registrados <b>'+fmt(_totEnc)+' encerramentos</b>, elevando a carteira ativa de <b>'+fmt(_estIni)+'</b> ('+_estIniKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'). '+
-        _conclEv;
+      if(_LEG){ // LEGADO (abc/russi): redacao antiga
+        _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
+          'Considerando o estoque de <b>'+fmt(_estBaseCon)+' processos</b> em '+_baseKey+' e <b>'+fmt(_totEnt)+' novas entradas</b> até '+_ultKey+', o escritório atuou em <b>'+fmt(_estBaseCon+_totEnt)+' processos</b>, o equivalente a <b>'+_multTxt+'×</b> o tamanho da carteira no ano-base. '+
+          'No mesmo período foram registrados <b>'+fmt(_totEnc)+' encerramentos</b>, elevando a carteira ativa de <b>'+fmt(_estIni)+'</b> ('+_estIniKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'). '+
+          _conclEv;
+      } else {
+        _p2 = '<span class="cons-ico">'+_icoEv+'</span> <b>'+_tituloEv+'</b> '+
+          'O estoque de processos em andamento passou de <b>'+fmt(_estBaseCon)+'</b> ('+_baseKey+') para <b>'+fmt(_estFim)+'</b> ('+_estFimKey+'), com <b>'+fmt(_totEnt)+' novos processos</b> ingressados no período'+(_mult>=1.05?', o equivalente a <b>'+_multTxt+'×</b> o tamanho da carteira no ano-base':'')+'. '+
+          _conclEv;
+      }
     }
 
     // Helpers: projeta ano incompleto (corte no meio do ano) para o ano cheio, mantido o ritmo
@@ -1330,7 +1378,7 @@ function renderDashboard(){
     function _formatRatio(r){ return (Math.round(r*10)/10).toString().replace('.',','); }
     // nome do periodo parcial (ex: "jan-jun/2026")
     var _MES3 = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
-    function _rotuloParcial(anoFim, meses){ return _MES3[0]+'–'+_MES3[meses-1]+'/'+anoFim; }
+    function _rotuloParcial(anoFim, meses){ return _MES3[0]+' a '+_MES3[meses-1]+'/'+anoFim; }
 
     // §3 ESFORCO — volume + tramitacao + evolucao ano-a-ano (compromissos totais)
     var _p3 = '';
@@ -1365,7 +1413,15 @@ function renderDashboard(){
         } else if(_rat>=0.9){
           _compEvoTxt = ' O ritmo anual manteve-se estável entre <b>'+fmt(_cA)+'</b> ('+_yA+') e '+_valFimCompTxt+'.';
         } else {
-          _compEvoTxt = ' O ritmo anual recuou de <b>'+fmt(_cA)+'</b> ('+_yA+') para '+_valFimCompTxt+'.';
+          // Recuo na CONTAGEM de compromissos. Se a carteira cresceu no periodo (saldo liquido
+          // positivo de processos), nao afirmar "recuou" (enfraquece a justificativa do contrato):
+          // manter o foco no volume operacional acumulado, que segue relevante. So diz "recuou"
+          // quando a carteira tambem encolheu (saldo <= 0), onde a queda e coerente com o resto.
+          if(!_LEG && typeof _saldo!=='undefined' && _saldo>0){
+            _compEvoTxt = ' O volume operacional manteve-se relevante ao longo do período, acompanhando uma carteira em expansão (saldo líquido de <b>'+(_saldo>0?'+':'')+fmt(_saldo)+' processos</b>).';
+          } else {
+            _compEvoTxt = ' O ritmo anual recuou de <b>'+fmt(_cA)+'</b> ('+_yA+') para '+_valFimCompTxt+'.';
+          }
         }
       }
       if(_tramitAnos>=3.5){
@@ -1423,7 +1479,15 @@ function renderDashboard(){
         } else if(_rH>=0.9){
           _horasEvoTxt = ' A carga anual manteve-se estável entre <b>'+fmt(_hA)+'h</b> ('+_yrsA+') e '+_valFimTxt+'.';
         } else {
-          _horasEvoTxt = ' A carga anual recuou de <b>'+fmt(_hA)+'h</b> ('+_yrsA+') para '+_valFimTxt+'.';
+          // Recuo na carga anual de horas. Se a carteira cresceu no periodo (saldo liquido positivo
+          // de processos), NAO afirmar "recuou" (enfraquece a justificativa do aditivo, que vai pro
+          // cliente): manter o foco no volume total acumulado de horas, que segue relevante. So diz
+          // "recuou" quando a carteira tambem encolheu (saldo <= 0). Mesmo criterio dos compromissos.
+          if(!_LEG && typeof _saldo!=='undefined' && _saldo>0){
+            _horasEvoTxt = ' O trabalho técnico manteve-se relevante ao longo do período, acompanhando uma carteira em expansão.';
+          } else {
+            _horasEvoTxt = ' A carga anual recuou de <b>'+fmt(_hA)+'h</b> ('+_yrsA+') para '+_valFimTxt+'.';
+          }
         }
       }
       _p4 = '<span class="cons-ico">'+_icoH+'</span> <b>'+_tituloH+'</b> '+
@@ -1458,51 +1522,51 @@ function renderDashboard(){
     // data_inicio (AAAA-MM-DD), status, obs. Outros grupos: adicionar aqui quando conferidos.
     var _CONTRATOS = {
       'terrabrasil': { valor_mensal: 9726.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - 6 SM', data_inicio: '2022-09-01' },
-russi       : { valor_mensal:  12968.00, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2020-12-16' },
-'bhm': { valor_mensal: 2296.20, indice: '6,79% sobre base do SM', reajuste_periodo: 'sem info', data_inicio: '2017-06-05' },
+russi       : { valor_mensal:  12968.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2020-12-16' },
+'bhm': { valor_mensal: 2296.20, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2017-06-05' },
       cn:       { valor_mensal:  7294.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2019-01-02' },
-      concept:  { valor_mensal:  7294.50, indice: 'IGP-M',            reajuste_periodo: 'anual',             data_inicio: '2020-06-08' },
+      concept:  { valor_mensal:  7294.50, indice: 'Salário Mínimo',            reajuste_periodo: 'anual',             data_inicio: '2020-06-08' },
       zm:       { valor_mensal: 19452.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-03-10' },
-'integra': { valor_mensal: 3241.68, indice: 'IGPM', reajuste_periodo: 'sem info', data_inicio: '2022-12-01' },
+'integra': { valor_mensal: 3241.68, indice: 'IGPM', reajuste_periodo: 'anual', data_inicio: '2022-12-01' },
       porto:    { valor_mensal:  6484.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2020-03-30' },
       profor:   { valor_mensal:  5829.12, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-07-15' },
-      wf:       { valor_mensal:  8169.44, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2018-09-01' },
+      wf:       { valor_mensal:  8704.77, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2018-09-01' },
       abc:      { valor_mensal: 12968.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2019-11-15' },
       serpa:    { valor_mensal:  4052.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2022-05-06' },
-comex       : { valor_mensal:   4863.00, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2024-02-15' },
+comex       : { valor_mensal:   4863.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-02-15' },
       msincorp: { valor_mensal: 32000.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2022-01-27' },
-'ar': { valor_mensal: 7294.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2018-10-16' },
-yany        : { valor_mensal:   3242.00, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2025-07-18' },
+'ar': { valor_mensal: 7294.50, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2018-10-16' },
+yany        : { valor_mensal:   3242.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2025-07-18' },
       mg7:      { valor_mensal: 18480.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2024-01-01' },
-platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_periodo: 'sem info',             data_inicio: '2025-04-10' },
+platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2025-04-10' },
       praiholl: { valor_mensal:  7590.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2025-02-03' },
       erbs:        { valor_mensal: 17020.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2021-07-23' },
       binotto:     { valor_mensal: 18480.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2017-01-01' },
       riviera:     { valor_mensal: 17020.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2026-02-24' },
       msluzitania: { valor_mensal: 10626.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2025-04-02' },
       '300f': { valor_mensal: 3242.00, indice: 'Salário Mínimo', reajuste_periodo: '6 meses c/ renovação automática', data_inicio: '2022-06-01' },
-      '3rs': { valor_mensal: 12968.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-11-01' },
-      agrotop: { valor_mensal:  10536.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2026-01-19' },
+      '3rs': { valor_mensal: 12968.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2023-11-01' },
+      agrotop: { valor_mensal:  10536.50, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2026-01-19' },
       'ampempreendimentoslo': { valor_mensal: 10974.17, indice: 'Salário Mínimo', reajuste_periodo: 'Último aditivo 05/05/2018', data_inicio: '2009-07-22' },
       'bkr': { valor_mensal: 3042.62, indice: 'Salário Mínimo', reajuste_periodo: '12 meses', data_inicio: '2020-10-26' },
       'brusvi': { valor_mensal: 6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'Anual (SM)', data_inicio: '2024-04-17' },
-      c2: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2018-11-08' },
-      'cescon': { valor_mensal: 7000.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2026-02-24' },
-      chady: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-02-07' },
+      c2: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2018-11-08' },
+      'cescon': { valor_mensal: 7000.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2026-02-24' },
+      chady: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2024-02-07' },
       'darlandiasdacosta': { valor_mensal: 2431.50, indice: 'Salário Mínimo', reajuste_periodo: '12 meses', data_inicio: '2022-07-06' },
       'dvt': { valor_mensal: 1621.00, indice: 'Salário Mínimo', reajuste_periodo: 'Último aditivo 04/2025', data_inicio: '2012-11-01' },
-      'embra': { valor_mensal: 4000.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2019-09-01' },
+      'embra': { valor_mensal: 4000.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2019-09-01' },
       'empreiteirademaodeob': { valor_mensal: 10536.50, indice: 'Salário Mínimo', reajuste_periodo: '12 meses', data_inicio: '2021-09-22' },
       'encoreempreendimento': { valor_mensal: 6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'Não especificado', data_inicio: '2023-06-06' },
       'etrzionconstrutoraei': { valor_mensal: 3242.00, indice: 'Salário Mínimo', reajuste_periodo: '12 meses', data_inicio: '2024-02-23' },
-      feltz: { valor_mensal:   4863.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2021-09-20' },
+      feltz: { valor_mensal:   4863.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2021-09-20' },
       'fluir': { valor_mensal: 3242.00, indice: 'Salário Mínimo', reajuste_periodo: '12 meses da assinatura', data_inicio: '2025-03-11' },
-      'gfi': { valor_mensal: 4400.00, indice: 'INPC', reajuste_periodo: 'sem info', data_inicio: '2026-05-25' },
+      'gfi': { valor_mensal: 11347.00, indice: 'INPC', reajuste_periodo: 'anual', data_inicio: '2026-05-25' },
       'heko': { valor_mensal: 4000.00, indice: 'Não estipulado', reajuste_periodo: 'Último aditivo 22/04/2015', data_inicio: '2013-08-01' },
-      hpj: { valor_mensal:   2090.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2020-09-29' },
+      hpj: { valor_mensal:   2090.00, indice: 'sem info', reajuste_periodo: 'anual', data_inicio: '2020-09-29' },
       'inoven': { valor_mensal: 4863.00, indice: 'Salário Mínimo', reajuste_periodo: 'Último aditivo 22/04/2025', data_inicio: '2022-11-03' },
       'jmconstrutoraeincorp': { valor_mensal: 3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'Não especificado', data_inicio: '2026-05-11' },
-      jorcelina: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2024-08-12' },
+      jorcelina: { valor_mensal:   4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2024-08-12' },
       'jta': { valor_mensal: 10000.00, indice: 'Salário Mínimo', reajuste_periodo: '24 meses', data_inicio: '2025-11-05' },
       'lsc': { valor_mensal: 8105.00, indice: 'Salário Mínimo', reajuste_periodo: 'Anual (SM)', data_inicio: '2020-09-04' },
       'marautopecasltda': { valor_mensal: 2431.50, indice: 'Salário Mínimo', reajuste_periodo: 'Não especificado', data_inicio: '2024-02-28' },
@@ -1513,9 +1577,9 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
       'nostraconconstrutora': { valor_mensal: 6000.00, indice: 'IPCA', reajuste_periodo: '12 meses', data_inicio: '2026-06-19' },
       'obaobarestaurantebar': { valor_mensal: 4052.50, indice: 'Salário Mínimo', reajuste_periodo: 'Não especificado', data_inicio: '2020-03-27' },
       'piantemodasltda': { valor_mensal: 3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'Não especificado (aditivo 04/07/2025)', data_inicio: '2024-09-16' },
-      pz: { valor_mensal:   1621.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-12-01' },
+      pz: { valor_mensal:   1621.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2023-12-01' },
       'rgitapema': { valor_mensal: 2674.65, indice: 'Salário Mínimo', reajuste_periodo: '6 meses (aditivo 10/11/2025)', data_inicio: '2025-03-17' },
-      rhonaldomotorsportsa: { valor_mensal:   2118.00, indice: 'Salário Mínimo', reajuste_periodo: 'sem info', data_inicio: '2023-05-15' },
+      rhonaldomotorsportsa: { valor_mensal:   2118.00, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2023-05-15' },
       'riouruguai': { valor_mensal: 6484.00, indice: 'Salário Mínimo', reajuste_periodo: '6 meses c/ renovação automática', data_inicio: '2025-11-25' },
       'sabores': { valor_mensal: 3242.00, indice: 'Salário Mínimo', reajuste_periodo: 'Anual (SM)', data_inicio: '2024-05-20' },
       'saolucasadministrado': { valor_mensal: 1901.64, indice: 'Salário Mínimo', reajuste_periodo: 'Não especificado', data_inicio: '2023-05-26' },
@@ -1524,7 +1588,7 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
       'vitalle': { valor_mensal: 3803.28, indice: 'Salário Mínimo', reajuste_periodo: '12 meses (27/05/2015)', data_inicio: '2014-04-13' },
       'vitalmarcomercioeind': { valor_mensal: 6484.00, indice: 'Salário Mínimo', reajuste_periodo: 'Não especificado', data_inicio: '2025-04-24' },
       'yesica': { valor_mensal: 4052.50, indice: 'Salário Mínimo', reajuste_periodo: '12 meses (01/01/2026)', data_inicio: '2021-01-25' },
-      zimmermann: { valor_mensal:   9726.00, indice: 'sem info', reajuste_periodo: 'sem info', data_inicio: '2021-10-18' },
+      zimmermann: { valor_mensal:   9726.00, indice: 'sem info', reajuste_periodo: 'anual', data_inicio: '2021-10-18' },
       'abit': { valor_mensal: 1810.20, indice: 'Fixo', reajuste_periodo: 'Nao previsto (contrato antigo)', data_inicio: '2023-10-01' },
       'ads': { valor_mensal: 7500.04, indice: 'SM', reajuste_periodo: 'Anual (SM)', data_inicio: '2026-04-27' },
       'asael': { valor_mensal: 5000.00, indice: 'SM', reajuste_periodo: 'Anual (SM)', data_inicio: '2026-03-01' },
@@ -1587,6 +1651,9 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
 
   // insights dinâmicos (gerados dos dados) — séries cortadas ao recorte de exibição (>= ANO_MIN)
   const ds=DATA.dataset;
+  // GRUPOS LEGADO (abc, russi): Rangel pediu (24/09/2026) que NAO mudem em nada, nem pela logica
+  // compartilhada. Mantem o comportamento ANTIGO (pre-correcoes de 24/09) so nesses dois.
+  const _GRUPO_LEGADO = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
   const _estC=cortaAnos(ds.estoque), _entC=cortaAnos(ds.entradas), _encC=cortaAnos(ds.encerrados);
   // KPI "Ritmo de novos processos" (Dr. Kim, 23/07/2026):
   // fórmula = (estoque_no_ano_base + total_de_entradas_no_período) ÷ estoque_no_ano_base.
@@ -1599,22 +1666,44 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   if(_baseVal<5){ for(var _bi=0;_bi<entKeys.length;_bi++){ if((entVals[_bi]||0)>=5){ _baseKey=entKeys[_bi]; _baseVal=entVals[_bi]; break; } } }
   // Estoque no ano-base (denominador do KPI)
   var _estBase = _estC[_baseKey] || 0;
-  // Fim: SOMA de entradas do período inteiro (recorte cortado por ANO_MIN)
-  const totEntradas=Object.values(_entC).reduce((a,b)=>a+b,0);
-  const totEncerr=Object.values(_encC).reduce((a,b)=>a+b,0);
+  // ---------------------------------------------------------------------------
+  // KPIs de Volume — MESMA logica CORRIGIDA das Consideracoes (24/09/2026), pra pagina 3
+  // nao contradizer a conclusao. O estoque[baseKey] ja e o FIM do ano-base; entao entradas e
+  // encerramentos contam so os anos APOS a base (senao conta o ano-base 2x -> "4,3x/99/70" que
+  // nao fechava). Multiplicador e saldo derivam da serie de estoque publicada (fecha sempre).
+  const _ultEst = Object.values(_estC)[Object.values(_estC).length-1]||0;  // estoque fim
   var _fimKey = entKeys[entKeys.length-1]||'';
-  const totAtuados = _estBase + totEntradas;
-  const crescPct = _estBase>0 ? Math.round((totAtuados-_estBase)/_estBase*100) : 0;
-  const crescMult = _estBase>0 ? (totAtuados/_estBase) : 0;
-  // valor final do estoque (usado na narrativa das Considerações, não no KPI)
-  const _ultEst = Object.values(_estC)[Object.values(_estC).length-1]||0;
-  if(el('v-cresc')){
-    var multTxt = (Math.round(crescMult*10)/10).toString().replace('.',',');
-    el('v-cresc').innerHTML = multTxt+'<small>×</small>';
-    el('v-cresc-sub').textContent = 'atuamos em '+totAtuados.toLocaleString('pt-BR')+' processos ('+_estBase+' em '+_baseKey+' + '+totEntradas.toLocaleString('pt-BR')+' entradas no período)';
-    el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
+  var totEntradas=0, totEncerr=0, crescMult=0, crescPct=0;
+  if(_GRUPO_LEGADO){
+    // COMPORTAMENTO ANTIGO (abc/russi): entradas/encerr = TODOS os anos do recorte; mult = (estBase+totEnt)/estBase
+    totEntradas = Object.values(_entC).reduce(function(a,b){return a+(+b||0);},0);
+    totEncerr = Object.values(_encC).reduce(function(a,b){return a+(+b||0);},0);
+    var _totAtuadosLeg = _estBase + totEntradas;
+    crescMult = _estBase>0 ? (_totAtuadosLeg/_estBase) : 0;
+    crescPct = _estBase>0 ? Math.round((_totAtuadosLeg-_estBase)/_estBase*100) : 0;
+    if(el('v-cresc')){
+      var multTxtL = (Math.round(crescMult*10)/10).toString().replace('.',',');
+      el('v-cresc').innerHTML = multTxtL+'<small>×</small>';
+      el('v-cresc-sub').textContent = 'atuamos em '+_totAtuadosLeg.toLocaleString('pt-BR')+' processos ('+_estBase+' em '+_baseKey+' + '+totEntradas.toLocaleString('pt-BR')+' entradas no período)';
+      el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
+  } else {
+    // CORRIGIDO (demais grupos): entradas/encerr so pos-base; mult = estFim/estBase.
+    for(var _ei=0;_ei<entKeys.length;_ei++){ if(entKeys[_ei] > _baseKey){ totEntradas += (+_entC[entKeys[_ei]]||0); } }
+    var _encKeysV=Object.keys(_encC);
+    for(var _ci=0;_ci<_encKeysV.length;_ci++){ if(_encKeysV[_ci] > _baseKey){ totEncerr += (+_encC[_encKeysV[_ci]]||0); } }
+    crescMult = _estBase>0 ? (_ultEst/_estBase) : 0;
+    crescPct = _estBase>0 ? Math.round((_ultEst-_estBase)/_estBase*100) : 0;
+    if(el('v-cresc')){
+      var multTxt = (Math.round(crescMult*10)/10).toString().replace('.',',');
+      el('v-cresc').innerHTML = multTxt+'<small>×</small>';
+      el('v-cresc-sub').textContent = 'estoque de '+(_estBase).toLocaleString('pt-BR')+' ('+_baseKey+') para '+(_ultEst).toLocaleString('pt-BR')+' ('+_fimKey+')';
+      el('v-trend').textContent = crescPct>=0?'▲ expansão':'▼ redução'; }
+  }
   if(el('v-entradas')){ el('v-entradas').dataset.count=totEntradas; el('v-entradas').textContent=totEntradas.toLocaleString('pt-BR'); }
   if(el('v-encerr')){ el('v-encerr').dataset.count=totEncerr; el('v-encerr').textContent=totEncerr.toLocaleString('pt-BR'); }
+  // sub-legendas dos cards conforme recorte (legado mantem os textos antigos)
+  if(el('v-entradas-sub')) el('v-entradas-sub').textContent = _GRUPO_LEGADO ? 'total de processos abertos' : 'novos processos após o ano-base';
+  if(el('v-encerr-sub')) el('v-encerr-sub').textContent = _GRUPO_LEGADO ? 'casos finalizados (por status)' : 'casos finalizados no período';
   if(el('v-ativos')){ el('v-ativos').dataset.count=ds.ativos||0; el('v-ativos').textContent=(ds.ativos||0).toLocaleString('pt-BR'); }
   if(el('v-ativos-sub')) el('v-ativos-sub').textContent='processos em andamento ('+DATA_CORTE.extenso+')';
   // limpar containers
@@ -2131,38 +2220,38 @@ function montarPrint(){
   }
 
   // ---------- PÁGINA 2: Volume — KPIs de volume ----------
-  sheet([cloneKpis('v-cresc')], '01 — Volume', 'Evolução do volume processual', 'Ritmo de entrada de novos processos, encerramentos e saldo de casos ativos ano a ano.');
+  sheet([cloneKpis('v-cresc')], '01 · Volume', 'Evolução do volume processual', 'Ritmo de entrada de novos processos, encerramentos e saldo de casos ativos ano a ano.');
   // ---------- PÁGINA 3: Volume — os 2 gráficos ----------
-  sheet([cloneCardOf('estoque'), cloneCardOf('fluxo')], '01 — Volume', 'Evolução da carteira e fluxo anual');
+  sheet([cloneCardOf('estoque'), cloneCardOf('fluxo')], '01 · Volume', 'Evolução da carteira e fluxo anual');
 
   // ---------- COMPLEXIDADE ----------
   // pág 4: Distribuição por área
-  sheet([cloneCardOf('donut')], '02 — Complexidade', 'Perfil e complexidade da carteira', 'Composição da carteira por área, instância, posição e abrangência geográfica.');
+  sheet([cloneCardOf('donut')], '02 · Complexidade', 'Perfil e complexidade da carteira', 'Composição da carteira por área, instância, posição e abrangência geográfica.');
   // pág 5: Por instância + posição
-  sheet([cloneCardOf('instancia')], '02 — Complexidade', 'Instância e posição processual');
+  sheet([cloneCardOf('instancia')], '02 · Complexidade', 'Instância e posição processual');
   // pág 6: Distribuição geográfica
-  sheet([cloneCardOf('regioes')], '02 — Complexidade', 'Distribuição geográfica');
+  sheet([cloneCardOf('regioes')], '02 · Complexidade', 'Distribuição geográfica');
   // pág 7: Tribunais e foros
-  sheet([cloneCardOf('tribunais')], '02 — Complexidade', 'Tribunais e foros');
+  sheet([cloneCardOf('tribunais')], '02 · Complexidade', 'Tribunais e foros');
 
   // ---------- ESFORÇO ----------
   var semEsf = !ds.esforco || Object.keys(ds.esforco).length===0;
   if(!semEsf){
     // pág 8: KPIs de esforço
-    sheet([cloneKpis('e-compromissos')], '03 — Esforço operacional', 'Esforço operacional da equipe', 'Compromissos executados, produção por processo e tempo médio de tramitação.');
+    sheet([cloneKpis('e-compromissos')], '03 · Esforço operacional', 'Esforço operacional da equipe', 'Compromissos executados, produção por processo e tempo médio de tramitação.');
     // pág 9: Prazos + Audiências (se existirem)
     var g1=[]; if(visivel('prazano')) g1.push(cloneCardOf('prazano')); if(visivel('audano')) g1.push(cloneCardOf('audano'));
-    if(g1.length) sheet(g1, '03 — Esforço operacional', 'Atividades por ano · prazos e audiências');
+    if(g1.length) sheet(g1, '03 · Esforço operacional', 'Atividades por ano · prazos e audiências');
     // pág 10: Tarefas + Atividades por tipo
     var g2=[]; if(visivel('tarefano')) g2.push(cloneCardOf('tarefano')); if(visivel('atividades')) g2.push(cloneCardOf('atividades'));
-    if(g2.length) sheet(g2, '03 — Esforço operacional', 'Atividades por ano · reuniões, diligências e composição');
+    if(g2.length) sheet(g2, '03 · Esforço operacional', 'Atividades por ano · reuniões, diligências e composição');
     // pág extrajudicial (se houver dado): atividades por ano
     // "Atividades extrajudiciais por ano": Rangel pediu remover do PDF APENAS do grupo ABC
     // (23/07/2026). Nos demais 9 grupos continua saindo normal.
-    if(visivel('extrajudano') && GRUPO_ATUAL !== 'abc') sheet([cloneCardOf('extrajudano')], '03 — Esforço operacional', 'Atividades extrajudiciais por ano');
+    if(visivel('extrajudano') && GRUPO_ATUAL !== 'abc') sheet([cloneCardOf('extrajudano')], '03 · Esforço operacional', 'Atividades extrajudiciais por ano');
     // pág 11: Equipe mobilizada
     var eqp=[]; if(visivel('people')) eqp.push(cloneCardOf('people'));
-    if(eqp.length) sheet(eqp, '03 — Esforço operacional', 'Equipe mobilizada por este cliente');
+    if(eqp.length) sheet(eqp, '03 · Esforço operacional', 'Equipe mobilizada por este cliente');
   }
 
   // ---------- HORAS ----------
@@ -2172,13 +2261,13 @@ function montarPrint(){
     // removemos do clone — eles vão sozinhos na pág 13.
     var cardHoras = visivel('horasano') ? cloneCardOf('horasano') : null;
     if(cardHoras){ cardHoras.querySelectorAll('.insight').forEach(function(x){ x.remove(); }); }
-    sheet([cloneKpis('h-total'), cardHoras], '04 — Horas dedicadas', 'Horas dedicadas à carteira', 'Tempo apontado pela equipe nos processos do cliente (registros de timesheet).');
+    sheet([cloneKpis('h-total'), cardHoras], '04 · Horas dedicadas', 'Horas dedicadas à carteira', 'Tempo apontado pela equipe nos processos do cliente (registros de timesheet).');
     // pág 13: Sobre este indicador (nota do ^ — a leitura interpretativa foi removida)
     var nota=cloneInsight('horas-nota');
     if(nota){
       // remove clip-path das cortinas animadas: no PDF nao ha animacao, o texto ficaria invisivel
       nota.querySelectorAll('.cortina-txt').forEach(function(el){ el.classList.remove('cortina-txt'); el.style.clipPath='none'; });
-      sheet([nota], '04 — Horas dedicadas', 'Sobre este indicador');
+      sheet([nota], '04 · Horas dedicadas', 'Sobre este indicador');
     }
   }
 
@@ -2264,7 +2353,7 @@ window.addEventListener('beforeprint', function(){ if(!document.getElementById('
   }
   // cache-buster: garante que o navegador SEMPRE busque a versão nova dos dados
   // (troca este número a cada atualização de dados — evita cliente ver JSON velho em cache)
-  var _cb = '?v=2026091001riouru';
+  var _cb = '?v=2026090303';
   if(MODO_CLIENTE){
     // carrega só o JSON do grupo do cliente (que fica na própria pasta, isolado)
     fetch(GRUPO_CLIENTE+'.json'+_cb,{cache:'no-cache'})
