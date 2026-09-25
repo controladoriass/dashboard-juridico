@@ -788,7 +788,7 @@ body.dash.is-semdados #sd-overlay{display:block}
       <div class="desc">Processos que sobem de instância consomem trabalho sênior.</div>
       <div class="hbars" id="instancia"></div>
       <h3 style="margin-top:30px">Posição processual</h3>
-      <div class="desc">Atuação ofensiva, defensiva e de terceiro.</div>
+      <div class="desc" id="polo-desc">Posição do cliente nos processos.</div>
       <div class="hbars" id="polo"></div>
     </div>
   </div>
@@ -1748,6 +1748,26 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   vbars('estoque',_estC,ds.estoqueHl);
   hbars('instancia',ds.instancia);
   hbars('polo',ds.polo,true);
+  // legenda dinamica do polo: so as posicoes realmente presentes
+  (function(){
+    var _pd=el('polo-desc'); if(!_pd) return;
+    var _p={ativo:false,passivo:false,terceiro:false};
+    Object.keys(ds.polo||{}).forEach(function(k){
+      var s=(k||'').toLowerCase();
+      if(s.indexOf('ativo')>=0) _p.ativo=true;
+      else if(s.indexOf('passivo')>=0) _p.passivo=true;
+      else _p.terceiro=true; // Outros / Terceiro
+    });
+    var _l=[];
+    if(_p.ativo) _l.push('ofensiva (polo ativo)');
+    if(_p.passivo) _l.push('defensiva (polo passivo)');
+    if(_p.terceiro) _l.push('como terceiro');
+    var _f;
+    if(_l.length===0){ _f='Posição do cliente nos processos.'; }
+    else if(_l.length===1){ _f='Atuação '+_l[0]+'.'; }
+    else { var _u=_l.pop(); _f='Atuação '+_l.join(', ')+' e '+_u+'.'; }
+    _pd.textContent=_f;
+  })();
   donut();regions();tribunais();fluxo();
 
   // === ESFORCO === (recorte >= ANO_MIN_ESFORCO=2023: 2022 tinha timesheet sub-registrado
