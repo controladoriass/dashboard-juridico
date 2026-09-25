@@ -796,12 +796,12 @@ body.dash.is-semdados #sd-overlay{display:block}
   <div class="grid g2 pg-cplx2" style="margin-top:22px">
     <div class="card reveal">
       <h3><span class="bt"></span>Distribuição geográfica</h3>
-      <div class="desc">Presença em mais de um estado e diversas comarcas.</div>
+      <div class="desc" id="regioes-desc">Distribuição dos processos por estado.</div>
       <div class="regions" id="regioes"></div>
     </div>
     <div class="card reveal">
       <h3><span class="bt"></span>Tribunais e foros</h3>
-      <div class="desc">Atuação simultânea em justiça estadual, trabalhista e federal.</div>
+      <div class="desc" id="tribunais-desc">Distribuição da atuação por tribunais e foros.</div>
       <div class="pills" id="tribunais"></div>
     </div>
   </div>
@@ -1076,6 +1076,15 @@ function regions(){
       <div class="bar"><i data-w="${(v/max)*100}"></i></div>`;
     box.appendChild(d);
   }
+  // legenda dinamica: numero real de estados (exclui UF nao informada)
+  var _rdesc=document.getElementById('regioes-desc');
+  if(_rdesc){
+    var _ufs=Object.keys(obj).filter(function(k){return k!=='Não informado'&&k!=='Nao informado'&&k!=='N/I';});
+    var _n=_ufs.length;
+    if(_n>=2){ _rdesc.textContent='Presença em '+_n+' estados, com processos distribuídos por diversas comarcas.'; }
+    else if(_n===1){ _rdesc.textContent='Atuação concentrada em '+(names[_ufs[0]]||_ufs[0])+', distribuída por diversas comarcas.'; }
+    else { _rdesc.textContent='Distribuição dos processos por estado.'; }
+  }
 }
 function tribunais(){
   const box=document.getElementById('tribunais');
@@ -1084,6 +1093,32 @@ function tribunais(){
     const p=document.createElement('div');p.className='pill pill-anim';
     p.style.setProperty('--pi',i++);
     p.innerHTML=`${k}<b>${v}</b>`;box.appendChild(p);
+  }
+  // legenda dinamica: descreve so as esferas realmente presentes nos tribunais do grupo
+  var _desc=document.getElementById('tribunais-desc');
+  if(_desc){
+    var _esf={estadual:false,federal:false,trabalhista:false,superior:false};
+    Object.keys(DATA.tribunais||{}).forEach(function(t){
+      var s=(t||'').toUpperCase();
+      if(/TRT|TST|TRABALH/.test(s)) _esf.trabalhista=true;
+      else if(/STF|STJ|TSE|TNU/.test(s)) _esf.superior=true;
+      else if(/TRF|JF|JUSTI[ÇC]A FEDERAL|SJ|SEÇÃO JUDICI/.test(s)) _esf.federal=true;
+      else if(/TJ|COMARCA|JUSTI[ÇC]A ESTADUAL|FORO/.test(s)) _esf.estadual=true;
+      else _esf.estadual=true; // fallback: foros/varas estaduais
+    });
+    var _labels=[];
+    if(_esf.estadual) _labels.push('estadual');
+    if(_esf.federal) _labels.push('federal');
+    if(_esf.trabalhista) _labels.push('trabalhista');
+    if(_esf.superior) _labels.push('superior');
+    var _frase;
+    if(_labels.length===0){ _frase='Distribuição da atuação por tribunais e foros.'; }
+    else if(_labels.length===1){ _frase='Atuação concentrada na justiça '+_labels[0]+'.'; }
+    else {
+      var _ult=_labels.pop();
+      _frase='Atuação em justiça '+_labels.join(', ')+' e '+_ult+'.';
+    }
+    _desc.textContent=_frase;
   }
 }
 function ranking(){
