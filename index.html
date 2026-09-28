@@ -921,12 +921,18 @@ let GRUPOS = {};
 let DATA = {}; let GRUPO_ATUAL=null;
 const GOLD='#CFA36E', NAVYMID='#3F5276';
 /* ===== DATA DE CORTE — mudar SO AQUI na atualizacao mensal (tudo acompanha) ===== */
-/* Override por grupo: certos grupos (ex. russi) têm data de corte específica */
+/* Override por grupo: certos grupos (ex. russi) têm data de corte específica.
+   Vale tanto no link isolado c/<hex>/ (via meta cliente-grupo) quanto no dashboard-mãe (via GRUPO_ATUAL). */
 const _CORTE_POR_GRUPO = {
   russi: { curta:'28/09/2026', extenso:'Setembro de 2026' }
 };
+const _CORTE_PADRAO = { curta:'31/08/2026', extenso:'Agosto de 2026' };
 const _SLUG_META = (function(){ try { var m=document.querySelector('meta[name="cliente-grupo"]'); return m?m.getAttribute('content'):null; } catch(e){ return null; } })();
-const DATA_CORTE = (_SLUG_META && _CORTE_POR_GRUPO[_SLUG_META]) ? _CORTE_POR_GRUPO[_SLUG_META] : { curta:'31/08/2026', extenso:'Agosto de 2026' };
+/* DATA_CORTE começa pelo meta (link isolado) OU padrão; é reatribuído em cada entrarDashboard(). */
+let DATA_CORTE = (_SLUG_META && _CORTE_POR_GRUPO[_SLUG_META]) ? _CORTE_POR_GRUPO[_SLUG_META] : _CORTE_PADRAO;
+function _atualizarDataCortePor(slug){
+  DATA_CORTE = (slug && _CORTE_POR_GRUPO[slug]) ? _CORTE_POR_GRUPO[slug] : _CORTE_PADRAO;
+}
 // Recorte de exibição: séries por ano mostram só ANO_MIN..2026 (base pré-2022 é pouco
 // confiável para leitura). NÃO exclui processos — só corta a SÉRIE dos gráficos e os
 // cálculos derivados dela. Os KPIs de total (processos, ativos, áreas, horas) seguem reais.
@@ -2020,6 +2026,7 @@ function zoomText(html, meio, fim){
 // Nível 2: MONTA os cards de empresas do grupo (sem navegar)
 function montarEmpresas(gk){
   GRUPO_ATUAL=gk;
+  _atualizarDataCortePor(gk);
   const g=GRUPOS[gk];
   el('emp-titulo').innerHTML=g.nomeHtml;
   el('emp-eyebrow').textContent = g.nEmpresas>1 ? 'Grupo econômico' : 'Cliente';
@@ -2071,6 +2078,7 @@ function abrirGrupo(gk, cardEl){
 // Nível 3: dashboard da EMPRESA -> zoom no nome da empresa -> dashboard monta
 function montarDashboard(gk, ek){
   GRUPO_ATUAL=gk;
+  _atualizarDataCortePor(gk);
   const emp=GRUPOS[gk].empresas[ek];
   const g=GRUPOS[gk];
   let nomeHtml=emp.nome;
