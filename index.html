@@ -921,7 +921,12 @@ let GRUPOS = {};
 let DATA = {}; let GRUPO_ATUAL=null;
 const GOLD='#CFA36E', NAVYMID='#3F5276';
 /* ===== DATA DE CORTE — mudar SO AQUI na atualizacao mensal (tudo acompanha) ===== */
-const DATA_CORTE = { curta:'31/08/2026', extenso:'Agosto de 2026' };
+/* Override por grupo: certos grupos (ex. russi) têm data de corte específica */
+const _CORTE_POR_GRUPO = {
+  russi: { curta:'28/09/2026', extenso:'Setembro de 2026' }
+};
+const _SLUG_META = (function(){ try { var m=document.querySelector('meta[name="cliente-grupo"]'); return m?m.getAttribute('content'):null; } catch(e){ return null; } })();
+const DATA_CORTE = (_SLUG_META && _CORTE_POR_GRUPO[_SLUG_META]) ? _CORTE_POR_GRUPO[_SLUG_META] : { curta:'31/08/2026', extenso:'Agosto de 2026' };
 // Recorte de exibição: séries por ano mostram só ANO_MIN..2026 (base pré-2022 é pouco
 // confiável para leitura). NÃO exclui processos — só corta a SÉRIE dos gráficos e os
 // cálculos derivados dela. Os KPIs de total (processos, ativos, áreas, horas) seguem reais.
@@ -1270,7 +1275,7 @@ function renderDashboard(){
     if(!_mostraCons){ _bl.style.display='none'; _tx.innerHTML=''; return; }
 
     // GRUPOS LEGADO (abc, russi): manter comportamento antigo das Consideracoes (pedido 24/09/2026).
-    var _LEG = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
+    var _LEG = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc');
     var _ds = DATA.dataset, _esf = _ds.esforco||{}, _h = _ds.horas||{};
     var _nEmp = _gAt2 ? _gAt2.nEmpresas : (Object.keys(_ds.area||{}).length||0);
     var _nomeG = _gAt2 ? (_gAt2.nome||'do grupo').replace(/^Grupo\s+/i,'') : 'do grupo';
@@ -1687,7 +1692,7 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   const ds=DATA.dataset;
   // GRUPOS LEGADO (abc, russi): Rangel pediu (24/09/2026) que NAO mudem em nada, nem pela logica
   // compartilhada. Mantem o comportamento ANTIGO (pre-correcoes de 24/09) so nesses dois.
-  const _GRUPO_LEGADO = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
+  const _GRUPO_LEGADO = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc');
   const _estC=cortaAnos(ds.estoque), _entC=cortaAnos(ds.entradas), _encC=cortaAnos(ds.encerrados);
   // KPI "Ritmo de novos processos" (Dr. Kim, 23/07/2026):
   // fórmula = (estoque_no_ano_base + total_de_entradas_no_período) ÷ estoque_no_ano_base.

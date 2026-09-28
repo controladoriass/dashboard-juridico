@@ -2,15 +2,15 @@
  "nome": "Grupo J.A. Russi",
  "nomeHtml": "Grupo <em>J.A. Russi</em>",
  "kpiGrupo": {
-  "proc": 1053,
-  "ativos": 650,
+  "proc": 1063,
+  "ativos": 659,
   "areas": 10,
-  "trib": 19,
-  "procSub": "650 ativos · 403 encerrados",
+  "trib": 20,
+  "procSub": "659 ativos · 404 encerrados",
   "areasSub": "Cível, Tributário, Trabalhista",
   "tribSub": "TJSC, TRT12, TRF4",
+  "encerrados": 404,
   "valor": "~R$ 723<small>mi</small>",
-  "encerrados": 403,
   "valorTotal": 722605522.03
  },
  "empresas": {
@@ -18,9 +18,12 @@
    "nome": "Panorama Geral do Grupo",
    "_idCliente": null,
    "dataset": {
-    "total": 1053,
-    "ativos": 650,
+    "total": 1063,
+    "ativos": 659,
     "encerrados": {
+     "2010": 0,
+     "2011": 0,
+     "2012": 0,
      "2013": 2,
      "2014": 3,
      "2015": 13,
@@ -34,9 +37,9 @@
      "2023": 13,
      "2024": 7,
      "2025": 7,
-     "2026": 5
+     "2026": 9
     },
-    "areaTotal": 650,
+    "areaTotal": 659,
     "estoque": {
      "2010": 10,
      "2011": 11,
@@ -54,7 +57,7 @@
      "2023": 424,
      "2024": 490,
      "2025": 618,
-     "2026": 649
+     "2026": 659
     },
     "entradas": {
      "2010": 10,
@@ -73,13 +76,13 @@
      "2023": 84,
      "2024": 73,
      "2025": 135,
-     "2026": 36
+     "2026": 50
     },
     "estoqueHl": [],
     "area": {
-     "Cível": 345,
-     "Tributário": 160,
-     "Trabalhista": 99,
+     "Cível": 352,
+     "Tributário": 159,
+     "Trabalhista": 102,
      "Administrativo": 17,
      "Penal-Criminal": 11,
      "Pública": 9,
@@ -89,87 +92,84 @@
      "Recuperação Judicial": 1
     },
     "uf": {
-     "SC": 535,
-     "N/I": 30,
+     "SC": 556,
+     "N/I": 27,
      "PR": 19,
-     "DF": 16,
+     "DF": 18,
      "RS": 9,
      "RN": 6,
      "MS": 6,
      "RJ": 6,
-     "AP": 4,
+     "AP": 5,
      "PA": 3,
-     "SP": 3
+     "SP": 3,
+     "CE": 1
     },
     "instancia": {
-     "1º Grau": 468,
-     "2º Grau": 96,
+     "1º Grau": 473,
+     "2º Grau": 97,
      "N/I": 65,
-     "Superiores": 21
+     "Superiores": 24
     },
     "polo": {
-     "Polo passivo": 278,
-     "Polo ativo": 267,
-     "Terceiro/Outros": 92
+     "Polo passivo": 296,
+     "Terceiro/Outros": 96,
+     "Polo ativo": 267
     },
     "tribunais": {
-     "TJSC": 401,
-     "TRT12": 74,
-     "N/I": 72,
+     "TJSC": 407,
+     "TRT12": 76,
+     "N/I": 70,
      "TRF4": 24,
+     "STJ": 20,
      "TJPR": 18,
-     "STJ": 18,
      "TJRS": 9,
-     "TRT08": 7,
+     "TRT08": 8,
      "TRT21": 6,
      "TJRJ": 5,
      "TJMS": 4,
      "TRT02": 2,
-     "DRF": 2,
      "Justiça Federal de Santa Catarina": 2,
-     "ALAC": 1,
+     "DRF": 2,
      "TRT07": 1,
+     "ALAC": 1,
+     "TRF3": 1,
      "TRT24": 1,
      "TRT01": 1,
-     "TRF3": 1,
      "TJSP": 1
     },
     "ranking": [
      [
       "MUNICÍPIO DE ITAPEMA",
-      60
+      70
+     ],
+     [
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+      14
+     ],
+     [
+      "MUNICÍPIO DE BRUSQUE",
+      14
      ],
      [
       "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
       14
      ],
      [
-      "MUNICÍPIO DE BRUSQUE",
-      13
-     ],
-     [
       "LEILA CRISTINA CROCETA HESSMAN",
       12
-     ],
-     [
-      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
-      11
-     ],
-     [
-      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-      11
      ],
      [
       "HONORATA POFFO",
       11
      ],
      [
-      "UNIÃO FAZENDA NACIONAL",
-      7
+      "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+      11
      ],
      [
-      "MUNICÍPIO DE ITAJAÍ",
-      6
+      "UNIÃO FAZENDA NACIONAL",
+      7
      ],
      [
       "ANTÍDIO PEDRO REIS JÚNIOR",
@@ -184,28 +184,33 @@
       6
      ],
      [
-      "COMPANHIA ÁGUAS DE ITAPEMA",
-      5
-     ],
-     [
       "PREFEITURA MUNICIPAL DE ITAPEMA",
       5
      ],
      [
       "RAFAEL GASPERIN BACCIN",
       5
+     ],
+     [
+      "ANDREY DIOGO ASSIS ANCAY",
+      5
+     ],
+     [
+      "MUNICÍPIO DE ITAJAÍ",
+      5
      ]
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 1053,
-     "ativos": 650,
+     "proc": 1063,
+     "ativos": 659,
      "areas": 10,
-     "trib": 19,
-     "procSub": "650 ativos · 403 encerrados",
+     "trib": 20,
+     "procSub": "659 ativos · 404 encerrados",
      "areasSub": "Cível, Tributário, Trabalhista",
      "tribSub": "TJSC, TRT12, TRF4"
     },
+    "encerradosTotal": 404,
     "esforco": {
      "comProducao": 721,
      "tramitacaoDias": 1542,
@@ -253,8 +258,8 @@
     },
     "horas": {
      "total": 11354.0,
-     "media": 10.7,
-     "mediaAtivos": 17.8,
+     "media": 30.7,
+     "mediaAtivos": 32.9,
      "horasano": {
       "2021": 71.5,
       "2022": 785.6,
@@ -266,7 +271,6 @@
      "_estimativa": true
     },
     "_panorama": true,
-    "encerradosTotal": 403,
     "nome": "Panorama Geral do Grupo"
    },
    "_panorama": true
@@ -275,41 +279,71 @@
    "nome": "Construtora e Incorporadora J.A. Russi LTDA",
    "_idCliente": "2123691",
    "dataset": {
-    "total": 658,
-    "ativos": 468,
+    "total": 665,
+    "ativos": 474,
     "encerrados": {
-     "2020": 120,
-     "2021": 12,
+     "2010": 0,
+     "2011": 0,
+     "2012": 0,
+     "2013": 1,
+     "2014": 3,
+     "2015": 11,
+     "2016": 1,
+     "2017": 1,
+     "2018": 1,
+     "2019": 12,
+     "2020": 119,
+     "2021": 11,
      "2022": 11,
-     "2023": 9,
+     "2023": 7,
      "2024": 6,
      "2025": 3,
-     "2026": 3
+     "2026": 4
     },
-    "areaTotal": 468,
+    "areaTotal": 474,
     "estoque": {
-     "2020": 169,
-     "2021": 201,
-     "2022": 248,
-     "2023": 296,
-     "2024": 335,
-     "2025": 439,
-     "2026": 466
+     "2010": 3,
+     "2011": 4,
+     "2012": 17,
+     "2013": 42,
+     "2014": 47,
+     "2015": 55,
+     "2016": 66,
+     "2017": 129,
+     "2018": 147,
+     "2019": 205,
+     "2020": 166,
+     "2021": 199,
+     "2022": 246,
+     "2023": 295,
+     "2024": 334,
+     "2025": 438,
+     "2026": 474
     },
     "entradas": {
-     "2020": 82,
+     "2010": 3,
+     "2011": 1,
+     "2012": 13,
+     "2013": 26,
+     "2014": 8,
+     "2015": 19,
+     "2016": 12,
+     "2017": 64,
+     "2018": 19,
+     "2019": 70,
+     "2020": 80,
      "2021": 44,
      "2022": 58,
      "2023": 56,
      "2024": 45,
      "2025": 107,
-     "2026": 32
+     "2026": 40
     },
     "estoqueHl": [],
     "area": {
-     "Cível": 222,
-     "Tributário": 133,
-     "Trabalhista": 87,
+     "Cível": 226,
+     "Tributário": 132,
+     "Trabalhista": 90,
      "Administrativo": 9,
      "Pública": 8,
      "Penal-Criminal": 4,
@@ -317,53 +351,54 @@
      "Imobiliário": 2
     },
     "uf": {
-     "SC": 390,
-     "N/I": 22,
+     "SC": 409,
+     "N/I": 19,
      "PR": 18,
      "DF": 10,
      "RN": 6,
+     "AP": 4,
      "PA": 3,
-     "AP": 3,
      "SP": 2,
+     "CE": 1,
      "MS": 1,
      "RS": 1
     },
     "instancia": {
-     "1º Grau": 343,
+     "1º Grau": 348,
      "2º Grau": 61,
      "N/I": 52,
-     "Superiores": 12
+     "Superiores": 13
     },
     "polo": {
-     "Polo ativo": 175,
-     "Terceiro/Outros": 71,
-     "Polo passivo": 210
+     "Polo passivo": 227,
+     "Terceiro/Outros": 74,
+     "Polo ativo": 173
     },
     "tribunais": {
-     "TJSC": 288,
-     "TRT12": 65,
-     "N/I": 51,
+     "TJSC": 293,
+     "TRT12": 67,
+     "N/I": 49,
      "TJPR": 18,
      "TRF4": 14,
      "STJ": 11,
-     "TRT08": 6,
+     "TRT08": 7,
      "TRT21": 6,
      "TRT02": 2,
      "DRF": 2,
-     "ALAC": 1,
      "TRT07": 1,
+     "Justiça Federal de Santa Catarina": 1,
      "TJMS": 1,
-     "TJRS": 1,
-     "Justiça Federal de Santa Catarina": 1
+     "ALAC": 1,
+     "TJRS": 1
     },
     "ranking": [
      [
       "MUNICÍPIO DE ITAPEMA",
-      55
+      64
      ],
      [
       "MUNICÍPIO DE BRUSQUE",
-      13
+      14
      ],
      [
       "LEILA CRISTINA CROCETA HESSMAN",
@@ -382,10 +417,6 @@
       9
      ],
      [
-      "MUNICÍPIO DE ITAJAÍ",
-      6
-     ],
-     [
       "ANTÍDIO PEDRO REIS JÚNIOR",
       6
      ],
@@ -399,6 +430,10 @@
      ],
      [
       "ANDREY DIOGO ASSIS ANCAY",
+      5
+     ],
+     [
+      "MUNICÍPIO DE ITAJAÍ",
       5
      ],
      [
@@ -420,15 +455,15 @@
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 658,
-     "ativos": 468,
+     "proc": 665,
+     "ativos": 474,
      "areas": 8,
-     "trib": 14,
-     "procSub": "468 ativos · 190 encerrados",
+     "trib": 15,
+     "procSub": "474 ativos · 191 encerrados",
      "areasSub": "Cível, Tributário, Trabalhista",
      "tribSub": "TJSC, TRT12, TJPR"
     },
-    "encerradosTotal": 190,
+    "encerradosTotal": 191,
     "horas": {
      "total": 7049.5,
      "media": 10.7,
@@ -449,39 +484,69 @@
    "nome": "Nacional Fundações LTDA",
    "_idCliente": "2130232",
    "dataset": {
-    "total": 126,
-    "ativos": 60,
+    "total": 127,
+    "ativos": 61,
     "encerrados": {
+     "2010": 0,
+     "2011": 0,
+     "2012": 0,
+     "2013": 0,
+     "2014": 0,
+     "2015": 1,
+     "2016": 1,
+     "2017": 1,
+     "2018": 0,
+     "2019": 4,
      "2020": 40,
-     "2021": 4,
-     "2022": 14,
+     "2021": 3,
+     "2022": 13,
      "2023": 2,
      "2024": 0,
-     "2025": 2,
+     "2025": 0,
      "2026": 1
     },
-    "areaTotal": 60,
+    "areaTotal": 61,
     "estoque": {
-     "2020": 40,
-     "2021": 45,
-     "2022": 42,
-     "2023": 47,
-     "2024": 58,
+     "2010": 3,
+     "2011": 3,
+     "2012": 6,
+     "2013": 14,
+     "2014": 27,
+     "2015": 38,
+     "2016": 52,
+     "2017": 55,
+     "2018": 59,
+     "2019": 70,
+     "2020": 38,
+     "2021": 43,
+     "2022": 41,
+     "2023": 46,
+     "2024": 57,
      "2025": 60,
-     "2026": 60
+     "2026": 61
     },
     "entradas": {
+     "2010": 3,
+     "2011": 0,
+     "2012": 3,
+     "2013": 8,
+     "2014": 13,
+     "2015": 12,
+     "2016": 15,
+     "2017": 4,
+     "2018": 4,
+     "2019": 15,
      "2020": 8,
-     "2021": 9,
+     "2021": 8,
      "2022": 11,
      "2023": 7,
      "2024": 11,
-     "2025": 4,
-     "2026": 1
+     "2025": 3,
+     "2026": 2
     },
     "estoqueHl": [],
     "area": {
-     "Cível": 49,
+     "Cível": 50,
      "Tributário": 6,
      "Trabalhista": 4,
      "Recuperação Judicial": 1
@@ -492,30 +557,30 @@
      "N/I": 6,
      "RJ": 6,
      "MS": 5,
-     "DF": 1
+     "DF": 2
     },
     "instancia": {
      "1º Grau": 45,
      "2º Grau": 13,
-     "Superiores": 2
+     "Superiores": 3
     },
     "polo": {
-     "Polo ativo": 34,
+     "Polo ativo": 35,
      "Polo passivo": 18,
      "Terceiro/Outros": 8
     },
     "tribunais": {
      "TJSC": 29,
      "TJRS": 8,
-     "N/I": 5,
      "TJRJ": 5,
-     "TJMS": 3,
+     "N/I": 5,
+     "STJ": 3,
      "TRF4": 3,
+     "TJMS": 3,
      "TRT12": 2,
-     "STJ": 2,
+     "TRF3": 1,
      "TRT24": 1,
-     "TRT01": 1,
-     "TRF3": 1
+     "TRT01": 1
     },
     "ranking": [
      [
@@ -533,6 +598,10 @@
      [
       "ESTALEIRO PROMAR",
       3
+     ],
+     [
+      "LOMATER LOCACOES E SERVICOS LTDA",
+      2
      ],
      [
       "ASSOCIAÇÃO DOS ADQUIRENTES DO CONDOMÍNIO GIARDINO DI RAVENA",
@@ -573,19 +642,15 @@
      [
       "DICAVE GARTNER DISTRIBUIDORA CATARINENSE DE VEÍCULOS LTDA",
       2
-     ],
-     [
-      "AUTO FOSSA PEREQUÊ LTDA",
-      1
      ]
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 126,
-     "ativos": 60,
+     "proc": 127,
+     "ativos": 61,
      "areas": 4,
-     "trib": 10,
-     "procSub": "60 ativos · 66 encerrados",
+     "trib": 11,
+     "procSub": "61 ativos · 66 encerrados",
      "areasSub": "Cível, Tributário, Trabalhista",
      "tribSub": "TJSC, TJRS, TJRJ"
     },
@@ -613,9 +678,19 @@
     "total": 116,
     "ativos": 52,
     "encerrados": {
+     "2010": 0,
+     "2011": 0,
+     "2012": 0,
+     "2013": 1,
+     "2014": 0,
+     "2015": 0,
+     "2016": 1,
+     "2017": 0,
+     "2018": 0,
+     "2019": 5,
      "2020": 45,
-     "2021": 1,
-     "2022": 9,
+     "2021": 0,
+     "2022": 8,
      "2023": 0,
      "2024": 1,
      "2025": 2,
@@ -623,17 +698,37 @@
     },
     "areaTotal": 52,
     "estoque": {
-     "2020": 26,
-     "2021": 30,
-     "2022": 25,
-     "2023": 36,
-     "2024": 45,
-     "2025": 53,
-     "2026": 53
+     "2010": 1,
+     "2011": 1,
+     "2012": 9,
+     "2013": 14,
+     "2014": 23,
+     "2015": 35,
+     "2016": 41,
+     "2017": 52,
+     "2018": 56,
+     "2019": 62,
+     "2020": 25,
+     "2021": 28,
+     "2022": 24,
+     "2023": 35,
+     "2024": 44,
+     "2025": 52,
+     "2026": 52
     },
     "entradas": {
+     "2010": 1,
+     "2011": 0,
+     "2012": 8,
+     "2013": 6,
+     "2014": 9,
+     "2015": 12,
+     "2016": 7,
+     "2017": 11,
+     "2018": 4,
+     "2019": 11,
      "2020": 8,
-     "2021": 5,
+     "2021": 3,
      "2022": 4,
      "2023": 11,
      "2024": 10,
@@ -648,7 +743,7 @@
      "Penal-Criminal": 2
     },
     "uf": {
-     "SC": 46,
+     "SC": 47,
      "DF": 3,
      "PR": 1,
      "SP": 1
@@ -656,12 +751,12 @@
     "instancia": {
      "1º Grau": 37,
      "2º Grau": 9,
-     "N/I": 3,
-     "Superiores": 3
+     "Superiores": 3,
+     "N/I": 3
     },
     "polo": {
      "Polo ativo": 25,
-     "Polo passivo": 19,
+     "Polo passivo": 20,
      "Terceiro/Outros": 7
     },
     "tribunais": {
@@ -674,7 +769,7 @@
     "ranking": [
      [
       "MUNICÍPIO DE ITAPEMA",
-      5
+      6
      ],
      [
       "RONALDO BRUTTI REIS",
@@ -738,7 +833,7 @@
      "proc": 116,
      "ativos": 52,
      "areas": 4,
-     "trib": 4,
+     "trib": 5,
      "procSub": "52 ativos · 64 encerrados",
      "areasSub": "Cível, Tributário, Administrativo",
      "tribSub": "TJSC, TRF4, STJ"
@@ -767,6 +862,14 @@
     "total": 23,
     "ativos": 11,
     "encerrados": {
+     "2012": 0,
+     "2013": 0,
+     "2014": 0,
+     "2015": 0,
+     "2016": 0,
+     "2017": 0,
+     "2018": 0,
+     "2019": 0,
      "2020": 9,
      "2021": 1,
      "2022": 2,
@@ -777,6 +880,14 @@
     },
     "areaTotal": 11,
     "estoque": {
+     "2012": 1,
+     "2013": 1,
+     "2014": 3,
+     "2015": 6,
+     "2016": 8,
+     "2017": 10,
+     "2018": 11,
+     "2019": 13,
      "2020": 5,
      "2021": 7,
      "2022": 5,
@@ -786,6 +897,14 @@
      "2026": 11
     },
     "entradas": {
+     "2012": 1,
+     "2013": 0,
+     "2014": 2,
+     "2015": 3,
+     "2016": 2,
+     "2017": 2,
+     "2018": 1,
+     "2019": 2,
      "2020": 1,
      "2021": 3,
      "2022": 0,
@@ -815,8 +934,8 @@
     "tribunais": {
      "TJSC": 8,
      "STJ": 1,
-     "TRF4": 1,
-     "Justiça Federal de Santa Catarina": 1
+     "Justiça Federal de Santa Catarina": 1,
+     "TRF4": 1
     },
     "ranking": [
      [
@@ -856,7 +975,7 @@
      "trib": 4,
      "procSub": "11 ativos · 12 encerrados",
      "areasSub": "Cível, Tributário",
-     "tribSub": "TJSC, STJ, TRF4"
+     "tribSub": "TJSC, STJ, Justiça Federal de Santa Catarina"
     },
     "encerradosTotal": 12,
     "horas": {
@@ -882,32 +1001,62 @@
     "total": 16,
     "ativos": 10,
     "encerrados": {
+     "2010": 0,
+     "2011": 0,
+     "2012": 0,
+     "2013": 0,
+     "2014": 0,
+     "2015": 0,
+     "2016": 0,
+     "2017": 0,
+     "2018": 0,
+     "2019": 2,
      "2020": 1,
      "2021": 0,
      "2022": 0,
      "2023": 0,
      "2024": 0,
      "2025": 0,
-     "2026": 1
+     "2026": 3
     },
     "areaTotal": 10,
     "estoque": {
+     "2010": 1,
+     "2011": 1,
+     "2012": 2,
+     "2013": 2,
+     "2014": 3,
+     "2015": 4,
+     "2016": 4,
+     "2017": 4,
+     "2018": 4,
+     "2019": 2,
      "2020": 2,
      "2021": 2,
      "2022": 2,
      "2023": 6,
      "2024": 8,
      "2025": 11,
-     "2026": 11
+     "2026": 10
     },
     "entradas": {
+     "2010": 1,
+     "2011": 0,
+     "2012": 1,
+     "2013": 0,
+     "2014": 1,
+     "2015": 1,
+     "2016": 0,
+     "2017": 0,
+     "2018": 0,
+     "2019": 0,
      "2020": 1,
      "2021": 0,
      "2022": 0,
      "2023": 4,
      "2024": 2,
      "2025": 3,
-     "2026": 1
+     "2026": 2
     },
     "estoqueHl": [],
     "area": {
@@ -915,7 +1064,7 @@
      "Trabalhista": 3
     },
     "uf": {
-     "SC": 11
+     "SC": 10
     },
     "instancia": {
      "1º Grau": 9,
@@ -923,7 +1072,7 @@
     },
     "polo": {
      "Polo passivo": 4,
-     "Polo ativo": 7
+     "Polo ativo": 6
     },
     "tribunais": {
      "TJSC": 6,
@@ -932,43 +1081,39 @@
     },
     "ranking": [
      [
-      "SANDRO",
+      "SANDRO RODRIGO CARCUCHINSKI CORREA",
       2
      ],
      [
-      "ROSANGELA",
+      "MARIA MARIA INDUSTRIA E COMERCIO LTDA",
       1
      ],
      [
-      "MARIA MARIA",
+      "CICERO DE OLIVEIRA BATISTA",
       1
      ],
      [
-      "CICERO",
+      "SHAIANE BERNARDO DA SILVA 07656249907",
       1
      ],
      [
-      "SHAIANE",
+      "GIOVANA BEATRIZ MORETTI",
       1
      ],
      [
-      "GIOVANA",
+      "PAULO ROBERTO MORETTI",
       1
      ],
      [
-      "PAULO",
+      "LEDUC MALHAS ATACADO E VAREJO LTDA",
       1
      ],
      [
-      "LEDUC",
+      "CELESC DISTRIBUIÇÃO S.A.",
       1
      ],
      [
-      "CELESC",
-      1
-     ],
-     [
-      "JONATAS",
+      "JÔNATAS BATISTA",
       1
      ]
     ],
@@ -977,7 +1122,7 @@
      "proc": 16,
      "ativos": 10,
      "areas": 2,
-     "trib": 2,
+     "trib": 3,
      "procSub": "10 ativos · 6 encerrados",
      "areasSub": "Cível, Trabalhista",
      "tribSub": "TJSC, TRT12"
@@ -1003,9 +1148,15 @@
    "nome": "Ricardo Alexandre de Oliveira Serpa",
    "_idCliente": "2122318",
    "dataset": {
-    "total": 19,
-    "ativos": 11,
+    "total": 20,
+    "ativos": 12,
     "encerrados": {
+     "2014": 0,
+     "2015": 0,
+     "2016": 0,
+     "2017": 0,
+     "2018": 0,
+     "2019": 0,
      "2020": 5,
      "2021": 0,
      "2022": 2,
@@ -1014,54 +1165,69 @@
      "2025": 0,
      "2026": 0
     },
-    "areaTotal": 11,
+    "areaTotal": 12,
     "estoque": {
+     "2014": 1,
+     "2015": 2,
+     "2016": 2,
+     "2017": 2,
+     "2018": 2,
+     "2019": 4,
      "2020": 5,
      "2021": 7,
      "2022": 7,
      "2023": 6,
      "2024": 8,
      "2025": 10,
-     "2026": 11
+     "2026": 12
     },
     "entradas": {
+     "2014": 1,
+     "2015": 1,
+     "2016": 0,
+     "2017": 0,
+     "2018": 0,
+     "2019": 2,
      "2020": 6,
      "2021": 2,
      "2022": 2,
      "2023": 0,
      "2024": 2,
      "2025": 2,
-     "2026": 1
+     "2026": 2
     },
     "estoqueHl": [],
     "area": {
-     "Cível": 4,
+     "Cível": 5,
      "Administrativo": 4,
      "Penal-Criminal": 3
     },
     "uf": {
      "SC": 10,
+     "DF": 1,
      "N/I": 1
     },
     "instancia": {
      "1º Grau": 6,
      "N/I": 4,
+     "Superiores": 1,
      "2º Grau": 1
     },
     "polo": {
+     "Polo ativo": 3,
      "Polo passivo": 7,
-     "Terceiro/Outros": 2,
-     "Polo ativo": 2
+     "Terceiro/Outros": 2
     },
     "tribunais": {
      "N/I": 6,
      "TJSC": 4,
+     "STJ": 1,
      "TRF4": 1
     },
     "ranking": [
      [
       "MARILENE LAURINDO",
-      2
+      3
      ],
      [
       "DETRAN",
@@ -1086,13 +1252,13 @@
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 19,
-     "ativos": 11,
+     "proc": 20,
+     "ativos": 12,
      "areas": 3,
-     "trib": 2,
-     "procSub": "11 ativos · 8 encerrados",
+     "trib": 4,
+     "procSub": "12 ativos · 8 encerrados",
      "areasSub": "Cível, Administrativo, Penal-Criminal",
-     "tribSub": "TJSC, TRF4"
+     "tribSub": "TJSC, STJ, TRF4"
     },
     "encerradosTotal": 8,
     "horas": {
@@ -1118,25 +1284,61 @@
     "total": 5,
     "ativos": 2,
     "encerrados": {
+     "2012": 0,
+     "2013": 0,
+     "2014": 0,
+     "2015": 0,
+     "2016": 0,
+     "2017": 0,
+     "2018": 0,
+     "2019": 0,
      "2020": 3,
      "2021": 0,
-     "2022": 0
+     "2022": 0,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
     },
     "areaTotal": 2,
     "estoque": {
+     "2012": 2,
+     "2013": 2,
+     "2014": 2,
+     "2015": 2,
+     "2016": 2,
+     "2017": 2,
+     "2018": 3,
+     "2019": 3,
      "2020": 1,
      "2021": 1,
-     "2022": 2
+     "2022": 2,
+     "2023": 2,
+     "2024": 2,
+     "2025": 2,
+     "2026": 2
     },
     "entradas": {
+     "2012": 2,
+     "2013": 0,
+     "2014": 0,
+     "2015": 0,
+     "2016": 0,
+     "2017": 0,
+     "2018": 1,
+     "2019": 0,
      "2020": 1,
      "2021": 0,
-     "2022": 1
+     "2022": 1,
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
     },
     "estoqueHl": [],
     "area": {
-     "Cível": 1,
-     "Penal-Criminal": 1
+     "Penal-Criminal": 1,
+     "Cível": 1
     },
     "uf": {
      "SC": 2
@@ -1154,11 +1356,11 @@
     },
     "ranking": [
      [
-      "MP SC",
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
       1
      ],
      [
-      "BANCO ITAU",
+      "BANCO ITAÚ",
       1
      ]
     ],
@@ -1167,9 +1369,9 @@
      "proc": 5,
      "ativos": 2,
      "areas": 2,
-     "trib": 1,
+     "trib": 2,
      "procSub": "2 ativos · 3 encerrados",
-     "areasSub": "Cível, Penal-Criminal",
+     "areasSub": "Penal-Criminal, Cível",
      "tribSub": "TJSC"
     },
     "encerradosTotal": 3,
@@ -1193,56 +1395,65 @@
    "nome": "Joana Russi Reis",
    "_idCliente": "2124120",
    "dataset": {
-    "total": 11,
-    "ativos": 8,
+    "total": 12,
+    "ativos": 9,
     "encerrados": {
+     "2018": 0,
+     "2019": 0,
      "2020": 1,
      "2021": 0,
      "2022": 1,
      "2023": 1,
      "2024": 0,
-     "2025": 0
+     "2025": 0,
+     "2026": 0
     },
-    "areaTotal": 8,
+    "areaTotal": 9,
     "estoque": {
+     "2018": 1,
+     "2019": 2,
      "2020": 3,
      "2021": 5,
      "2022": 6,
      "2023": 7,
      "2024": 7,
-     "2025": 8
+     "2025": 8,
+     "2026": 9
     },
     "entradas": {
+     "2018": 1,
+     "2019": 1,
      "2020": 2,
      "2021": 2,
      "2022": 2,
      "2023": 2,
      "2024": 0,
-     "2025": 1
+     "2025": 1,
+     "2026": 1
     },
     "estoqueHl": [],
     "area": {
-     "Cível": 5,
+     "Cível": 6,
      "Bancário": 2,
      "Tributário": 1
     },
     "uf": {
-     "SC": 7,
+     "SC": 8,
      "DF": 1
     },
     "instancia": {
-     "2º Grau": 4,
+     "2º Grau": 5,
      "1º Grau": 3,
      "Superiores": 1
     },
     "polo": {
-     "Terceiro/Outros": 2,
+     "Terceiro/Outros": 3,
      "Polo passivo": 6
     },
     "tribunais": {
-     "TJSC": 6,
-     "N/I": 1,
-     "STJ": 1
+     "TJSC": 7,
+     "STJ": 1,
+     "N/I": 1
     },
     "ranking": [
      [
@@ -1250,25 +1461,29 @@
       4
      ],
      [
-      "BADESC",
+      "AGENCIA DE FOMENTO DO ESTADO DE SANTA CATARINA S.A. - BADESC",
       2
      ],
      [
-      "SEF SC",
+      "BRUNA MICHAELE LUCIANI",
       1
      ],
      [
-      "ALEX",
+      "SECRETARIA DE ESTADO DA FAZENDA",
+      1
+     ],
+     [
+      "ALEX DOS SANTOS ALVES",
       1
      ]
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 11,
-     "ativos": 8,
+     "proc": 12,
+     "ativos": 9,
      "areas": 3,
-     "trib": 2,
-     "procSub": "8 ativos · 3 encerrados",
+     "trib": 3,
+     "procSub": "9 ativos · 3 encerrados",
      "areasSub": "Cível, Bancário, Tributário",
      "tribSub": "TJSC, STJ"
     },
@@ -1351,23 +1566,62 @@
     "total": 52,
     "ativos": 14,
     "encerrados": {
+     "2010": 0,
+     "2011": 0,
+     "2012": 0,
+     "2013": 0,
+     "2014": 0,
+     "2015": 1,
+     "2016": 0,
+     "2017": 0,
+     "2018": 0,
+     "2019": 5,
      "2020": 29,
      "2021": 0,
-     "2022": 2,
-     "2023": 2
+     "2022": 1,
+     "2023": 2,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
     },
     "areaTotal": 14,
     "estoque": {
+     "2010": 2,
+     "2011": 2,
+     "2012": 2,
+     "2013": 12,
+     "2014": 12,
+     "2015": 14,
+     "2016": 15,
+     "2017": 17,
+     "2018": 20,
+     "2019": 30,
      "2020": 9,
-     "2021": 11,
+     "2021": 10,
      "2022": 16,
-     "2023": 14
+     "2023": 14,
+     "2024": 14,
+     "2025": 14,
+     "2026": 14
     },
     "entradas": {
+     "2010": 2,
+     "2011": 0,
+     "2012": 0,
+     "2013": 10,
+     "2014": 0,
+     "2015": 3,
+     "2016": 1,
+     "2017": 2,
+     "2018": 3,
+     "2019": 15,
      "2020": 8,
-     "2021": 2,
+     "2021": 1,
      "2022": 7,
-     "2023": 0
+     "2023": 0,
+     "2024": 0,
+     "2025": 0,
+     "2026": 0
     },
     "estoqueHl": [],
     "area": {
@@ -1376,7 +1630,7 @@
      "Imobiliário": 1
     },
     "uf": {
-     "SC": 13
+     "SC": 14
     },
     "instancia": {
      "1º Grau": 8,
@@ -1384,17 +1638,21 @@
     },
     "polo": {
      "Polo passivo": 3,
-     "Polo ativo": 10
+     "Polo ativo": 11
     },
     "tribunais": {
      "TJSC": 12,
-     "N/I": 1,
-     "TRT12": 1
+     "TRT12": 1,
+     "N/I": 1
     },
     "ranking": [
      [
       "HIDELBRANDO GOMES",
       3
+     ],
+     [
+      "PÉRICLES MARTINS PINTO",
+      2
      ],
      [
       "ARLINDO PRIEBE",
@@ -1406,10 +1664,6 @@
      ],
      [
       "VALDECIR VICENTIN",
-      1
-     ],
-     [
-      "PÉRICLES MARTINS PINTO",
       1
      ],
      [
@@ -1442,7 +1696,7 @@
      "proc": 52,
      "ativos": 14,
      "areas": 3,
-     "trib": 2,
+     "trib": 3,
      "procSub": "14 ativos · 38 encerrados",
      "areasSub": "Cível, Trabalhista, Imobiliário",
      "tribSub": "TJSC, TRT12"
@@ -1471,6 +1725,10 @@
     "total": 18,
     "ativos": 7,
     "encerrados": {
+     "2016": 0,
+     "2017": 0,
+     "2018": 0,
+     "2019": 1,
      "2020": 2,
      "2021": 5,
      "2022": 3,
@@ -1481,6 +1739,10 @@
     },
     "areaTotal": 7,
     "estoque": {
+     "2016": 1,
+     "2017": 2,
+     "2018": 3,
+     "2019": 5,
      "2020": 8,
      "2021": 6,
      "2022": 4,
@@ -1490,6 +1752,10 @@
      "2026": 7
     },
     "entradas": {
+     "2016": 1,
+     "2017": 1,
+     "2018": 1,
+     "2019": 3,
      "2020": 5,
      "2021": 3,
      "2022": 1,
@@ -1520,9 +1786,9 @@
     },
     "tribunais": {
      "TJSC": 4,
-     "N/I": 1,
      "STJ": 1,
-     "TRF4": 1
+     "TRF4": 1,
+     "N/I": 1
     },
     "ranking": [
      [
@@ -1543,7 +1809,7 @@
      "proc": 18,
      "ativos": 7,
      "areas": 3,
-     "trib": 3,
+     "trib": 4,
      "procSub": "7 ativos · 11 encerrados",
      "areasSub": "Cível, Tributário, Administrativo",
      "tribSub": "TJSC, STJ, TRF4"
@@ -1683,16 +1949,19 @@
     "ativos": 1,
     "encerrados": {
      "2024": 0,
-     "2025": 2
+     "2025": 2,
+     "2026": 0
     },
     "areaTotal": 1,
     "estoque": {
      "2024": 1,
-     "2025": 1
+     "2025": 1,
+     "2026": 1
     },
     "entradas": {
      "2024": 1,
-     "2025": 2
+     "2025": 2,
+     "2026": 0
     },
     "estoqueHl": [],
     "area": {
@@ -1712,7 +1981,7 @@
     },
     "ranking": [
      [
-      "MP SC",
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
       1
      ]
     ],
@@ -1751,16 +2020,19 @@
     "ativos": 4,
     "encerrados": {
      "2024": 0,
-     "2025": 0
+     "2025": 0,
+     "2026": 0
     },
     "areaTotal": 4,
     "estoque": {
      "2024": 1,
-     "2025": 4
+     "2025": 4,
+     "2026": 4
     },
     "entradas": {
      "2024": 1,
-     "2025": 3
+     "2025": 3,
+     "2026": 0
     },
     "estoqueHl": [],
     "area": {
@@ -1783,11 +2055,11 @@
     },
     "ranking": [
      [
-      "ADEMIR",
+      "ADEMIR CAVALARI PONCIANO",
       3
      ],
      [
-      "GIVALDO",
+      "GIVALDO ALVES BEZERRA",
       1
      ]
     ],
@@ -1880,26 +2152,29 @@
     "total": 2,
     "ativos": 2,
     "encerrados": {
-     "2025": 0
+     "2025": 0,
+     "2026": 0
     },
     "areaTotal": 2,
     "estoque": {
-     "2025": 2
+     "2025": 2,
+     "2026": 2
     },
     "entradas": {
-     "2025": 2
+     "2025": 2,
+     "2026": 0
     },
     "estoqueHl": [],
     "area": {
-     "Tributário": 1,
-     "Pública": 1
+     "Pública": 1,
+     "Tributário": 1
     },
     "uf": {
      "SC": 2
     },
     "instancia": {
-     "1º Grau": 1,
-     "2º Grau": 1
+     "2º Grau": 1,
+     "1º Grau": 1
     },
     "polo": {
      "Polo ativo": 1,
@@ -1910,8 +2185,12 @@
     },
     "ranking": [
      [
-      "MP SC",
-      2
+      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+      1
+     ],
+     [
+      "MINISTERIO PUBLICO DO ESTADO DE SANTA CATARINA PROCURADORIA GERAL DE JUSTICA",
+      1
      ]
     ],
     "_complexidadeSoAtivos": true,
@@ -1921,7 +2200,7 @@
      "areas": 2,
      "trib": 1,
      "procSub": "2 ativos · 0 encerrados",
-     "areasSub": "Tributário, Pública",
+     "areasSub": "Pública, Tributário",
      "tribSub": "TJSC"
     },
     "encerradosTotal": 0,
