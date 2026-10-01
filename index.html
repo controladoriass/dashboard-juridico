@@ -1803,8 +1803,8 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   [_prazCe,_audCe,_tarCe].forEach(function(ser){ Object.keys(ser||{}).forEach(function(a){ if((+ser[a]||0)>0) _anosEsf.push(a); }); });
   var _anoInicioEsf = _anosEsf.length ? Math.min.apply(null, _anosEsf.map(Number)) : ANO_MIN_ESFORCO;
   if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + reuniões e diligências · desde '+_anoInicioEsf;
-  // flag "· dados estimados" no título — só aparece se _estimativa é true (reusa flag horas, sinal de parcialidade)
-  var _flagEsf = el('esf-estim-flag'); if(_flagEsf) _flagEsf.style.display = (hs && hs._estimativa) ? '' : 'none';
+  // flag "· dados estimados" no título — só aparece se esf._estimativa é true
+  var _flagEsf = el('esf-estim-flag'); if(_flagEsf) _flagEsf.style.display = (esf && esf._estimativa) ? '' : 'none';
   if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
   if(_nAud) vbars('audano',_audCe,[Object.keys(_audCe).slice(-1)[0]]);
@@ -1835,7 +1835,7 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   // primeiro ano com horas > 0 no recorte (usado no sub-rotulo "horas desde X")
   var _anosHoras = Object.keys(_horasC).filter(function(a){return (+_horasC[a]||0)>0;}).sort();
   var _anoInicioHoras = _anosHoras.length ? _anosHoras[0] : ANO_MIN_ESFORCO;
-  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent=(_anoInicioHoras==ANO_MIN_ESFORCO?'horas desde '+ANO_MIN_ESFORCO:'horas apontadas em '+_anoInicioHoras);} }
+  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; if(el('h-total-sub')) el('h-total-sub').textContent=(_anoInicioHoras==ANO_MIN_ESFORCO?'horas desde '+ANO_MIN_ESFORCO:'horas apontadas em '+_anoInicioHoras);} }
   // flag "· dados estimados" no título — só aparece se _estimativa é true
   var _flagHoras = el('horas-estim-flag'); if(_flagHoras) _flagHoras.style.display = hs._estimativa ? '' : 'none';
   if(el('h-media')){ if(semHoras){el('h-media').innerHTML='—';if(el('h-media-sub'))el('h-media-sub').textContent='em atualização';} else {el('h-media').innerHTML=String(_mediaH).replace('.',',')+'<small>h</small>'; el('h-media-sub').textContent=Math.round(_totHoras)+'h / '+k.proc+' processos';} }
