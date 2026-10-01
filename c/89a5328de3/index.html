@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <meta name="cliente-grupo" content="encoreempreendimento">
 <meta charset="UTF-8">
-<meta name="cliente-grupo" content="encoreempreendimento">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Indicadores Jurídicos · Silva & Silva</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -812,7 +812,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 <section class="block alt" id="esforco">
   <div class="amp-wm">&amp;</div>
   <div class="sec-head reveal">
-    <span class="sec-num">03 · Esforço operacional <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
+    <span class="sec-num">03 · Esforço operacional <span id="esf-estim-flag" style="color:var(--amber);font-size:10px;letter-spacing:.1em;display:none">· dados estimados</span></span>
     <h2>Esforço operacional da equipe</h2>
     <p>Volume de trabalho dedicado à carteira: compromissos executados, produção por processo e tempo médio de tramitação.</p>
   </div>
@@ -863,7 +863,7 @@ body.dash.is-semdados #sd-overlay{display:block}
 <!-- HORAS -->
 <section class="block" id="horas">
   <div class="sec-head reveal">
-    <span class="sec-num">04 · Horas dedicadas <span style="color:var(--amber);font-size:10px;letter-spacing:.1em">· dados estimados</span></span>
+    <span class="sec-num">04 · Horas dedicadas <span id="horas-estim-flag" style="color:var(--amber);font-size:10px;letter-spacing:.1em;display:none">· dados estimados</span></span>
     <h2>Horas dedicadas à carteira</h2>
     <p>Tempo efetivamente apontado pela equipe nos processos do cliente, consolidado a partir dos registros de timesheet do sistema.</p>
   </div>
@@ -1227,8 +1227,8 @@ function renderDashboard(){
   var _totHorasTopo = Object.values(cortaAnosEsforco(_hsTopo.horasano)||{}).reduce(function(a,b){return a+(+b||0);},0);
   el('k-horas').removeAttribute('data-count');
   if(_totHorasTopo>0){
-    el('k-horas').innerHTML = (_hsTopo._estimativa?'^':'')+Math.round(_totHorasTopo);
-    el('k-horas-sub').textContent = (DATA.dataset._panorama?'consolidado do grupo':'horas apontadas')+(_hsTopo._estimativa?' · parcial':'');
+    el('k-horas').innerHTML = Math.round(_totHorasTopo);
+    el('k-horas-sub').textContent = (DATA.dataset._panorama?'consolidado do grupo':'horas apontadas')+(_hsTopo._estimativa?' · dados estimados':'');
   } else { el('k-horas').textContent='—'; el('k-horas-sub').textContent='em atualização'; }
   el('k-areas').dataset.count=k.areas; el('k-areas').textContent='0'; el('k-areas-sub').textContent=k.areasSub;
   if(el('k-ativos')){ el('k-ativos').dataset.count=DATA.dataset.ativos||0; el('k-ativos').textContent='0'; el('k-ativos-sub').textContent='em andamento hoje'; }
@@ -1479,8 +1479,11 @@ function renderDashboard(){
       } else {
         _conclEs = 'O volume de atos indica atuação contínua da equipe em múltiplos ritos e ao longo de todo o período.';
       }
+      // primeiro ano com compromissos > 0 (sub-rotulo dinamico — ex: assessoria entrou em 2026)
+      var _anosComp = Object.keys(_compYear).filter(function(y){return (+_compYear[y]||0)>0;}).map(Number);
+      var _anoInicioComp = _anosComp.length ? Math.min.apply(null,_anosComp) : ANO_MIN_ESFORCO;
       _p3 = '<span class="cons-ico">'+_icoEs+'</span> <b>'+_tituloEs+'</b> '+
-        'A equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+ANO_MIN_ESFORCO+' ('+fmt(_totPraz)+' prazos, '+fmt(_totAud)+' audiências e '+fmt(_totTar)+' reuniões e diligências)'+
+        'A equipe executou <b>'+fmt(_totComp)+' compromissos</b> desde '+_anoInicioComp+' ('+fmt(_totPraz)+' prazos, '+fmt(_totAud)+' audiências e '+fmt(_totTar)+' reuniões e diligências)'+
         (_tramit>0 ? ', com tempo médio de tramitação de <b>'+fmt(_tramit)+' dias</b> por processo' : '')+'.'+
         _compEvoTxt+' '+_conclEs;
     }
@@ -1537,7 +1540,7 @@ function renderDashboard(){
         }
       }
       _p4 = '<span class="cons-ico">'+_icoH+'</span> <b>'+_tituloH+'</b> '+
-        'Foram apontadas <b>'+fmt(_totHoras)+' horas</b> de trabalho técnico'+(_h._estimativa?' (parcial)':'')+
+        'Foram apontadas <b>'+fmt(_totHoras)+' horas</b> de trabalho técnico'+(_h._estimativa?' (dados estimados)':'')+
         ', com média de <b>'+fmtDec(_mediaProc)+' horas por processo</b>'+
         (_mediaAtivos>0 ? ' e <b>'+fmtDec(_mediaAtivos)+' horas por processo ativo</b>' : '')+'.'+
         _horasEvoTxt+' '+_conclH;
@@ -1796,7 +1799,13 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   else { _atv=esf.atividades||{}; }
   var _totComp=Object.keys(_atv).reduce(function(a,kk){return a+(_atv[kk]||0);},0);
   if(el('e-compromissos')){ if(semEsf||!_totComp){el('e-compromissos').removeAttribute('data-count');el('e-compromissos').textContent='—';} else {el('e-compromissos').dataset.count=_totComp; el('e-compromissos').textContent='0';} }
-  if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + reuniões e diligências · desde '+ANO_MIN_ESFORCO;
+  // primeiro ano com compromissos > 0 (sub-rotulo dinamico)
+  var _anosEsf = [];
+  [_prazCe,_audCe,_tarCe].forEach(function(ser){ Object.keys(ser||{}).forEach(function(a){ if((+ser[a]||0)>0) _anosEsf.push(a); }); });
+  var _anoInicioEsf = _anosEsf.length ? Math.min.apply(null, _anosEsf.map(Number)) : ANO_MIN_ESFORCO;
+  if(el('e-compromissos-sub')) el('e-compromissos-sub').textContent='prazos + audiências + reuniões e diligências · desde '+_anoInicioEsf;
+  // flag "· dados estimados" no título — só aparece se _estimativa é true (reusa flag horas, sinal de parcialidade)
+  var _flagEsf = el('esf-estim-flag'); if(_flagEsf) _flagEsf.style.display = (hs && hs._estimativa) ? '' : 'none';
   if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
   if(_nAud) vbars('audano',_audCe,[Object.keys(_audCe).slice(-1)[0]]);
@@ -1824,7 +1833,12 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   const _totHoras = Object.values(_horasC).reduce((a,b)=>a+(+b||0),0);
   const _mediaH = k.proc ? Math.round(_totHoras/k.proc*10)/10 : 0;
   const _mediaHAtiv = (ds.ativos) ? Math.round(_totHoras/ds.ativos*10)/10 : 0;
-  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent='horas desde '+ANO_MIN_ESFORCO;} }
+  // primeiro ano com horas > 0 no recorte (usado no sub-rotulo "horas desde X")
+  var _anosHoras = Object.keys(_horasC).filter(function(a){return (+_horasC[a]||0)>0;}).sort();
+  var _anoInicioHoras = _anosHoras.length ? _anosHoras[0] : ANO_MIN_ESFORCO;
+  if(el('h-total')){ if(semHoras){el('h-total').removeAttribute('data-count');el('h-total').textContent='—';if(el('h-total-sub'))el('h-total-sub').textContent='em atualização';} else if(hs._estimativa){el('h-total').removeAttribute('data-count');el('h-total').innerHTML='^'+Math.round(_totHoras);if(el('h-total-sub'))el('h-total-sub').textContent='horas apontadas (parcial)';} else {el('h-total').dataset.count=Math.round(_totHoras); el('h-total').textContent='0'; el('h-total-sub').textContent=(_anoInicioHoras==ANO_MIN_ESFORCO?'horas desde '+ANO_MIN_ESFORCO:'horas apontadas em '+_anoInicioHoras);} }
+  // flag "· dados estimados" no título — só aparece se _estimativa é true
+  var _flagHoras = el('horas-estim-flag'); if(_flagHoras) _flagHoras.style.display = hs._estimativa ? '' : 'none';
   if(el('h-media')){ if(semHoras){el('h-media').innerHTML='—';if(el('h-media-sub'))el('h-media-sub').textContent='em atualização';} else {el('h-media').innerHTML=String(_mediaH).replace('.',',')+'<small>h</small>'; el('h-media-sub').textContent=Math.round(_totHoras)+'h / '+k.proc+' processos';} }
   if(el('h-mediaativos')){ if(semHoras){el('h-mediaativos').innerHTML='—';if(el('h-mediaativos-sub'))el('h-mediaativos-sub').textContent='em atualização';} else {el('h-mediaativos').innerHTML=String(_mediaHAtiv).replace('.',',')+'<small>h</small>'; el('h-mediaativos-sub').textContent=Math.round(_totHoras)+'h / '+ds.ativos+' ativos';} }
   if(hs.horasano) vbars('horasano',_horasC,[Object.keys(_horasC).slice(-1)[0]],'h');
