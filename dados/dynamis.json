@@ -1,73 +1,72 @@
 {
  "kpiGrupo": {
-  "proc": 17,
-  "ativos": 13,
+  "proc": 15,
+  "ativos": 11,
   "areas": 2,
-  "trib": 7,
-  "procSub": "13 ativos · 4 encerrados",
+  "trib": 5,
+  "procSub": "11 ativos · 4 encerrados",
   "areasSub": "Cível, Tributário",
-  "tribSub": "TJSC, TJRS, TRF4",
+  "tribSub": "TJSC, TJRS, TJSP",
   "encerrados": 4
  },
  "empresas": {
   "_panorama": {
    "nome": "Panorama Geral do Grupo",
-   "_idCliente": 681470124,
+   "_idCliente": 676006996,
    "dataset": {
-    "total": 17,
-    "ativos": 13,
+    "total": 15,
+    "ativos": 11,
     "encerrados": {
      "2024": 3,
      "2025": 1
     },
-    "areaTotal": 13,
+    "areaTotal": 11,
     "estoque": {
      "2022": 2,
      "2023": 4,
-     "2024": 11,
-     "2025": 14,
-     "2026": 17
+     "2024": 8,
+     "2025": 10,
+     "2026": 11
     },
     "entradas": {
+     "2022": 2,
      "2023": 2,
      "2024": 7,
      "2025": 3,
-     "2026": 3,
-     "2022": 2
+     "2026": 1
     },
     "area": {
-     "Cível": 7,
-     "Tributário": 6
+     "Cível": 8,
+     "Tributário": 3
     },
     "uf": {
      "SC": 3,
-     "PR": 2,
-     "MG": 1,
      "RS": 3,
-     "SP": 1,
-     "N/I": 1,
+     "SP": 2,
+     "MG": 1,
      "DF": 1,
      "MT": 1
     },
     "instancia": {
-     "1º Grau": 11,
+     "1º Grau": 9,
      "2º Grau": 2
     },
     "polo": {
-     "Polo ativo": 9,
-     "Passivo": 2,
-     "Terceiro/Outros": 2
+     "Polo ativo": 8,
+     "Polo passivo": 3
     },
     "tribunais": {
      "TJSC": 3,
-     "TRF4": 2,
-     "N/D": 1,
-     "TJMG": 1,
      "TJRS": 3,
-     "TJSP": 1,
-     "TRF1": 2
+     "TJSP": 2,
+     "TRF1": 2,
+     "TJMG": 1
     },
     "ranking": [
+     [
+      "FABIO HARTURO DI BIANCHI",
+      2
+     ],
      [
       "MARCELO NOGUEIRA CARREIRA",
       2
@@ -85,10 +84,6 @@
       1
      ],
      [
-      "FABIO HARTURO DI BIANCHI",
-      1
-     ],
-     [
       "GERENTE DA 2ª GERÊNCIA REGIONAL DA FAZENDA ESTADUAL - ESTADO DE SANTA CATARINA - ITAJAÍ",
       1
      ],
@@ -103,37 +98,65 @@
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 17,
-     "ativos": 13,
+     "proc": 15,
+     "ativos": 11,
      "areas": 2,
-     "trib": 7,
-     "procSub": "13 ativos · 4 encerrados",
+     "trib": 5,
+     "procSub": "11 ativos · 4 encerrados",
      "areasSub": "Cível, Tributário",
-     "tribSub": "TJSC, TJRS, TRF4"
+     "tribSub": "TJSC, TJRS, TJSP"
     },
     "esforco": {
-     "comProducao": 20,
-     "tramitacaoDias": 729,
-     "prazano": {},
-     "audano": {},
-     "tarefano": {},
-     "atividades": {
-      "Prazos": 0,
-      "Audiências": 0,
-      "Reuniões e Diligências": 0
+     "comProducao": 15,
+     "tramitacaoDias": 787,
+     "prazano": {
+      "2021": 0,
+      "2022": 3,
+      "2023": 20,
+      "2024": 65,
+      "2025": 66,
+      "2026": 57
      },
-     "extrajudano": {}
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 6,
+      "2023": 25,
+      "2024": 67,
+      "2025": 60,
+      "2026": 41
+     },
+     "atividades": {
+      "Prazos": 211,
+      "Audiências": 5,
+      "Reuniões e Diligências": 199
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 8,
+      "2024": 82,
+      "2025": 63,
+      "2026": 40
+     }
     },
     "horas": {
-     "total": 827.2,
-     "media": 41.4,
-     "mediaAtivos": 63.6,
+     "total": 676.9,
+     "media": 45.1,
+     "mediaAtivos": 61.5,
      "horasano": {
-      "2022": 22.1,
       "2023": 73.6,
       "2024": 207.4,
-      "2025": 288.4,
-      "2026": 235.7
+      "2025": 200.7,
+      "2026": 173.0,
+      "2022": 22.1
      },
      "_estimativa": false
     },
@@ -142,168 +165,57 @@
     "nome": "Panorama Geral do Grupo"
    }
   },
-  "dynamisimportadoraed_681470124": {
-   "nome": "Dynamis Importadora e Distribuidora Relatorio 2 - Dynamis",
-   "_idCliente": 681470124,
-   "dataset": {
-    "total": 0,
-    "ativos": 0,
-    "encerrados": {},
-    "areaTotal": 0,
-    "estoque": {
-     "2022": 0,
-     "2023": 0,
-     "2024": 0,
-     "2025": 0,
-     "2026": 0
-    },
-    "entradas": {},
-    "area": {},
-    "uf": {},
-    "instancia": {},
-    "polo": {},
-    "tribunais": {},
-    "ranking": [],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 0,
-     "ativos": 0,
-     "areas": 0,
-     "trib": 0,
-     "procSub": "0 ativos · 0 encerrados",
-     "areasSub": "",
-     "tribSub": ""
-    },
-    "esforco": {
-     "comProducao": 0,
-     "tramitacaoDias": 0,
-     "prazano": {},
-     "audano": {},
-     "tarefano": {},
-     "atividades": {
-      "Prazos": 0,
-      "Audiências": 0,
-      "Reuniões e Diligências": 0
-     },
-     "extrajudano": {}
-    },
-    "horas": {
-     "total": 0.0,
-     "media": 0,
-     "mediaAtivos": 0,
-     "horasano": {},
-     "_estimativa": false
-    },
-    "encerradosTotal": 0
-   }
-  },
-  "dynamisimportadoraed_681470121": {
-   "nome": "Dynamis Importadora e Distribuidora Relatorio - Dynamis",
-   "_idCliente": 681470121,
-   "dataset": {
-    "total": 0,
-    "ativos": 0,
-    "encerrados": {},
-    "areaTotal": 0,
-    "estoque": {
-     "2022": 0,
-     "2023": 0,
-     "2024": 0,
-     "2025": 0,
-     "2026": 0
-    },
-    "entradas": {},
-    "area": {},
-    "uf": {},
-    "instancia": {},
-    "polo": {},
-    "tribunais": {},
-    "ranking": [],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 0,
-     "ativos": 0,
-     "areas": 0,
-     "trib": 0,
-     "procSub": "0 ativos · 0 encerrados",
-     "areasSub": "",
-     "tribSub": ""
-    },
-    "esforco": {
-     "comProducao": 0,
-     "tramitacaoDias": 0,
-     "prazano": {},
-     "audano": {},
-     "tarefano": {},
-     "atividades": {
-      "Prazos": 0,
-      "Audiências": 0,
-      "Reuniões e Diligências": 0
-     },
-     "extrajudano": {}
-    },
-    "horas": {
-     "total": 0.0,
-     "media": 0,
-     "mediaAtivos": 0,
-     "horasano": {},
-     "_estimativa": false
-    },
-    "encerradosTotal": 0
-   }
-  },
   "dynamisimportadoraed_676006996": {
    "nome": "Dynamis Importadora e Distribuidora LTDA - Dynamis",
    "_idCliente": 676006996,
    "dataset": {
-    "total": 10,
-    "ativos": 8,
+    "total": 8,
+    "ativos": 6,
     "encerrados": {
      "2024": 1,
      "2025": 1
     },
-    "areaTotal": 8,
+    "areaTotal": 6,
     "estoque": {
      "2022": 0,
      "2023": 1,
-     "2024": 5,
-     "2025": 7,
-     "2026": 10
+     "2024": 4,
+     "2025": 5,
+     "2026": 6
     },
     "entradas": {
      "2023": 1,
      "2024": 4,
      "2025": 2,
-     "2026": 3
+     "2026": 1
     },
     "area": {
-     "Cível": 5,
-     "Tributário": 3
+     "Cível": 6
     },
     "uf": {
+     "SP": 2,
      "SC": 2,
-     "PR": 2,
      "MG": 1,
-     "RS": 1,
-     "SP": 1,
-     "N/I": 1
+     "RS": 1
     },
     "instancia": {
-     "1º Grau": 8
+     "1º Grau": 6
     },
     "polo": {
-     "Polo ativo": 6,
-     "Passivo": 2
+     "Polo passivo": 3,
+     "Polo ativo": 3
     },
     "tribunais": {
+     "TJSP": 2,
      "TJSC": 2,
-     "TRF4": 2,
-     "N/D": 1,
      "TJMG": 1,
-     "TJRS": 1,
-     "TJSP": 1
+     "TJRS": 1
     },
     "ranking": [
+     [
+      "FABIO HARTURO DI BIANCHI",
+      2
+     ],
      [
       "MARCELO NOGUEIRA CARREIRA",
       2
@@ -315,44 +227,68 @@
      [
       "ECOTEC ENERGY HORTENSIAS LTDA",
       1
-     ],
-     [
-      "FABIO HARTURO DI BIANCHI",
-      1
      ]
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 10,
-     "ativos": 8,
-     "areas": 2,
-     "trib": 6,
-     "procSub": "8 ativos · 2 encerrados",
-     "areasSub": "Cível, Tributário",
-     "tribSub": "TJSC, TRF4, N/D"
+     "proc": 8,
+     "ativos": 6,
+     "areas": 1,
+     "trib": 4,
+     "procSub": "6 ativos · 2 encerrados",
+     "areasSub": "Cível",
+     "tribSub": "TJSP, TJSC, TJMG"
     },
     "esforco": {
-     "comProducao": 11,
-     "tramitacaoDias": 533,
-     "prazano": {},
-     "audano": {},
-     "tarefano": {},
-     "atividades": {
-      "Prazos": 0,
-      "Audiências": 0,
-      "Reuniões e Diligências": 0
+     "comProducao": 8,
+     "tramitacaoDias": 586,
+     "prazano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 7,
+      "2024": 42,
+      "2025": 40,
+      "2026": 42
      },
-     "extrajudano": {}
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 0,
+      "2025": 0,
+      "2026": 0
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 2,
+      "2025": 19,
+      "2026": 12
+     },
+     "atividades": {
+      "Prazos": 131,
+      "Audiências": 0,
+      "Reuniões e Diligências": 33
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 2,
+      "2025": 10,
+      "2026": 11
+     }
     },
     "horas": {
-     "total": 321.6,
-     "media": 29.2,
-     "mediaAtivos": 40.2,
+     "total": 252.6,
+     "media": 31.6,
+     "mediaAtivos": 42.1,
      "horasano": {
       "2023": 10.6,
       "2024": 53.7,
-      "2025": 113.7,
-      "2026": 143.7
+      "2025": 101.2,
+      "2026": 87.1
      },
      "_estimativa": false
     },
@@ -372,9 +308,9 @@
     "estoque": {
      "2022": 2,
      "2023": 3,
-     "2024": 6,
-     "2025": 7,
-     "2026": 7
+     "2024": 4,
+     "2025": 5,
+     "2026": 5
     },
     "entradas": {
      "2022": 2,
@@ -397,8 +333,7 @@
      "2º Grau": 2
     },
     "polo": {
-     "Polo ativo": 3,
-     "Terceiro/Outros": 2
+     "Polo ativo": 5
     },
     "tribunais": {
      "TJRS": 2,
@@ -434,28 +369,56 @@
      "tribSub": "TJRS, TRF1, TJSC"
     },
     "esforco": {
-     "comProducao": 9,
-     "tramitacaoDias": 963,
-     "prazano": {},
-     "audano": {},
-     "tarefano": {},
-     "atividades": {
-      "Prazos": 0,
-      "Audiências": 0,
-      "Reuniões e Diligências": 0
+     "comProducao": 7,
+     "tramitacaoDias": 1028,
+     "prazano": {
+      "2021": 0,
+      "2022": 3,
+      "2023": 13,
+      "2024": 23,
+      "2025": 26,
+      "2026": 15
      },
-     "extrajudano": {}
+     "audano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 0,
+      "2024": 2,
+      "2025": 1,
+      "2026": 2
+     },
+     "tarefano": {
+      "2021": 0,
+      "2022": 6,
+      "2023": 25,
+      "2024": 65,
+      "2025": 41,
+      "2026": 29
+     },
+     "atividades": {
+      "Prazos": 80,
+      "Audiências": 5,
+      "Reuniões e Diligências": 166
+     },
+     "extrajudano": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 8,
+      "2024": 80,
+      "2025": 53,
+      "2026": 29
+     }
     },
     "horas": {
-     "total": 505.6,
-     "media": 56.2,
-     "mediaAtivos": 101.1,
+     "total": 424.3,
+     "media": 60.6,
+     "mediaAtivos": 84.9,
      "horasano": {
       "2022": 22.1,
       "2023": 63.0,
       "2024": 153.7,
-      "2025": 174.7,
-      "2026": 92.0
+      "2025": 99.5,
+      "2026": 85.9
      },
      "_estimativa": false
     },
@@ -465,5 +428,5 @@
  },
  "nome": "Grupo Dynamis",
  "nomeHtml": "Grupo <em>Dynamis</em>",
- "nEmpresas": 4
+ "nEmpresas": 2
 }
