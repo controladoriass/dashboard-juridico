@@ -3,7 +3,7 @@
   "proc": 11,
   "ativos": 10,
   "areas": 2,
-  "trib": 2,
+  "trib": 1,
   "procSub": "10 ativos · 1 encerrado",
   "areasSub": "Cível, Bancário",
   "tribSub": "TJSC",
@@ -45,7 +45,8 @@
     },
     "polo": {
      "Polo ativo": 7,
-     "Terceiro/Outros": 3
+     "Polo passivo": 2,
+     "Terceiro/Outros": 1
     },
     "tribunais": {
      "TJSC": 9,
@@ -82,7 +83,7 @@
      "proc": 11,
      "ativos": 10,
      "areas": 2,
-     "trib": 2,
+     "trib": 1,
      "procSub": "10 ativos · 1 encerrado",
      "areasSub": "Cível, Bancário",
      "tribSub": "TJSC"
@@ -182,7 +183,8 @@
     },
     "polo": {
      "Polo ativo": 7,
-     "Terceiro/Outros": 3
+     "Polo passivo": 2,
+     "Terceiro/Outros": 1
     },
     "tribunais": {
      "TJSC": 9,
@@ -219,7 +221,7 @@
      "proc": 11,
      "ativos": 10,
      "areas": 2,
-     "trib": 2,
+     "trib": 1,
      "procSub": "10 ativos · 1 encerrado",
      "areasSub": "Cível, Bancário",
      "tribSub": "TJSC"
