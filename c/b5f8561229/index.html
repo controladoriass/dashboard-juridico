@@ -925,7 +925,8 @@ const GOLD='#CFA36E', NAVYMID='#3F5276';
 /* Override por grupo: certos grupos (ex. russi) têm data de corte específica.
    Vale tanto no link isolado c/<hex>/ (via meta cliente-grupo) quanto no dashboard-mãe (via GRUPO_ATUAL). */
 const _CORTE_POR_GRUPO = {
-  russi: { curta:'28/09/2026', extenso:'Setembro de 2026' }
+  russi: { curta:'28/09/2026', extenso:'Setembro de 2026' },
+  abit: { curta:'30/09/2026', extenso:'Setembro de 2026' }
 };
 const _CORTE_PADRAO = { curta:'31/08/2026', extenso:'Agosto de 2026' };
 const _SLUG_META = (function(){ try { var m=document.querySelector('meta[name="cliente-grupo"]'); return m?m.getAttribute('content'):null; } catch(e){ return null; } })();
@@ -1218,7 +1219,7 @@ function renderDashboard(){
   var _legTopo = (typeof GRUPO_ATUAL!=='undefined') && (GRUPO_ATUAL==='abc' || GRUPO_ATUAL==='russi');
   var _mEnc = (k.procSub||'').match(/(\d[\d.\s]*)\s*encerrad/i);
   if(!_legTopo && _mEnc && k.ativos!=null){
-    el('k-proc-sub').textContent = k.ativos.toLocaleString('pt-BR')+' ativos · '+_mEnc[1].trim()+' encerrados (no total)';
+    el('k-proc-sub').textContent = k.ativos.toLocaleString('pt-BR')+' ativos · '+_mEnc[1].trim()+(_mEnc[1].trim()==='1'?' encerrado':' encerrados')+' (no total)';
   } else {
     el('k-proc-sub').textContent = k.procSub||'';
   }
@@ -1807,6 +1808,7 @@ platao      : { valor_mensal:   2431.50, indice: 'Salário Mínimo',   reajuste_
   var _flagEsf = el('esf-estim-flag'); if(_flagEsf) _flagEsf.style.display = (esf && esf._estimativa) ? '' : 'none';
   if(el('e-atosproc')){ var _base=esf.comProducao||0; if(semEsf||!_totComp||!_base){el('e-atosproc').removeAttribute('data-count');el('e-atosproc').textContent='—';} else {el('e-atosproc').dataset.count=Math.round(_totComp/_base); el('e-atosproc').textContent='0';} }
   if(el('e-tramit')){ if(semEsf||!esf.tramitacaoDias){el('e-tramit').removeAttribute('data-count');el('e-tramit').textContent='—';} else {el('e-tramit').dataset.count=esf.tramitacaoDias; el('e-tramit').textContent='0';} }
+  if(el('e-tramit-sub')){ el('e-tramit-sub').textContent='idade média (ativos contam até '+DATA_CORTE.curta.slice(0,5)+')'; }
   if(_nAud) vbars('audano',_audCe,[Object.keys(_audCe).slice(-1)[0]]);
   if(_nPraz) vbars('prazano',_prazCe,[Object.keys(_prazCe).slice(-1)[0]]);
   if(_nTar) vbars('tarefano',_tarCe,[Object.keys(_tarCe).slice(-1)[0]]);
