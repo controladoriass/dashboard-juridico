@@ -1,10 +1,10 @@
 {
  "kpiGrupo": {
-  "proc": 87,
-  "ativos": 72,
-  "areas": 6,
+  "proc": 86,
+  "ativos": 71,
+  "areas": 5,
   "trib": 6,
-  "procSub": "72 ativos · 15 encerrados",
+  "procSub": "71 ativos · 15 encerrados",
   "areasSub": "Cível, Trabalhista, Tributário",
   "tribSub": "TJSC, TRT12, TRF4",
   "encerrados": 15
@@ -12,10 +12,10 @@
  "empresas": {
   "_panorama": {
    "nome": "Panorama Geral do Grupo",
-   "_idCliente": 685020708,
+   "_idCliente": 677012424,
    "dataset": {
-    "total": 87,
-    "ativos": 72,
+    "total": 86,
+    "ativos": 71,
     "encerrados": {
      "2019": 1,
      "2021": 1,
@@ -24,7 +24,7 @@
      "2024": 2,
      "2025": 7
     },
-    "areaTotal": 72,
+    "areaTotal": 71,
     "estoque": {
      "2017": 1,
      "2018": 1,
@@ -35,7 +35,7 @@
      "2023": 46,
      "2024": 53,
      "2025": 55,
-     "2026": 72
+     "2026": 71
     },
     "entradas": {
      "2017": 1,
@@ -46,33 +46,32 @@
      "2023": 13,
      "2024": 9,
      "2025": 9,
-     "2026": 17
+     "2026": 16
     },
     "area": {
      "Cível": 34,
      "Trabalhista": 13,
      "Tributário": 12,
      "Administrativo": 6,
-     "Penal-Criminal": 6,
-     "Ambiental": 1
+     "Penal-Criminal": 6
     },
     "uf": {
-     "SC": 61,
+     "SC": 60,
      "DF": 1,
      "MT": 1
     },
     "instancia": {
-     "1º Grau": 65,
+     "1º Grau": 64,
      "2º Grau": 5,
      "Superiores": 2
     },
     "polo": {
-     "Polo passivo": 44,
+     "Polo passivo": 43,
      "Terceiro/Outros": 16,
      "Polo ativo": 12
     },
     "tribunais": {
-     "TJSC": 42,
+     "TJSC": 41,
      "N/D": 14,
      "TRT12": 9,
      "TRF4": 3,
@@ -83,7 +82,7 @@
     "ranking": [
      [
       "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-      5
+      4
      ],
      [
       "UNIÃO FAZENDA NACIONAL",
@@ -144,24 +143,24 @@
     ],
     "_complexidadeSoAtivos": true,
     "kpi": {
-     "proc": 87,
-     "ativos": 72,
-     "areas": 6,
+     "proc": 86,
+     "ativos": 71,
+     "areas": 5,
      "trib": 6,
-     "procSub": "72 ativos · 15 encerrados",
+     "procSub": "71 ativos · 15 encerrados",
      "areasSub": "Cível, Trabalhista, Tributário",
      "tribSub": "TJSC, TRT12, TRF4"
     },
     "esforco": {
-     "comProducao": 87,
-     "tramitacaoDias": 1049,
+     "comProducao": 86,
+     "tramitacaoDias": 1061,
      "prazano": {
       "2021": 1,
       "2022": 41,
       "2023": 85,
       "2024": 107,
       "2025": 115,
-      "2026": 126
+      "2026": 124
      },
      "audano": {
       "2021": 0,
@@ -177,12 +176,12 @@
       "2023": 73,
       "2024": 88,
       "2025": 69,
-      "2026": 78
+      "2026": 77
      },
      "atividades": {
-      "Prazos": 475,
+      "Prazos": 473,
       "Audiências": 46,
-      "Reuniões e Diligências": 484
+      "Reuniões e Diligências": 483
      },
      "extrajudano": {
       "2021": 4,
@@ -194,13 +193,13 @@
      }
     },
     "horas": {
-     "total": 1615.8,
-     "media": 18.6,
-     "mediaAtivos": 22.4,
+     "total": 1595.1,
+     "media": 18.5,
+     "mediaAtivos": 22.5,
      "horasano": {
-      "2026": 437.3,
       "2024": 406.4,
       "2025": 322.5,
+      "2026": 416.7,
       "2022": 130.2,
       "2023": 315.1,
       "2021": 4.3
@@ -210,108 +209,6 @@
     "encerradosTotal": 15,
     "_panorama": true,
     "nome": "Panorama Geral do Grupo"
-   }
-  },
-  "victorfeltzfeltz_685020708": {
-   "nome": "Victor Feltz - Feltz",
-   "_idCliente": 685020708,
-   "dataset": {
-    "total": 1,
-    "ativos": 1,
-    "encerrados": {},
-    "areaTotal": 1,
-    "estoque": {
-     "2022": 0,
-     "2023": 0,
-     "2024": 0,
-     "2025": 0,
-     "2026": 1
-    },
-    "entradas": {
-     "2026": 1
-    },
-    "area": {
-     "Ambiental": 1
-    },
-    "uf": {
-     "SC": 1
-    },
-    "instancia": {
-     "1º Grau": 1
-    },
-    "polo": {
-     "Polo passivo": 1
-    },
-    "tribunais": {
-     "TJSC": 1
-    },
-    "ranking": [
-     [
-      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 1,
-     "ativos": 1,
-     "areas": 1,
-     "trib": 1,
-     "procSub": "1 ativos · 0 encerrados",
-     "areasSub": "Ambiental",
-     "tribSub": "TJSC"
-    },
-    "esforco": {
-     "comProducao": 1,
-     "tramitacaoDias": 183,
-     "prazano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 2
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     },
-     "tarefano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 1
-     },
-     "atividades": {
-      "Prazos": 2,
-      "Audiências": 0,
-      "Reuniões e Diligências": 1
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     }
-    },
-    "horas": {
-     "total": 20.6,
-     "media": 20.6,
-     "mediaAtivos": 20.6,
-     "horasano": {
-      "2026": 20.6
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 0
    }
   },
   "elianeeufrasiofeltzf_677012424": {
@@ -1321,5 +1218,5 @@
  },
  "nome": "Grupo Feltz",
  "nomeHtml": "Grupo <em>Feltz</em>",
- "nEmpresas": 8
+ "nEmpresas": 7
 }
