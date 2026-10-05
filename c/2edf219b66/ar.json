@@ -1,1182 +1,1182 @@
 {
- "kpiGrupo": {
-  "proc": 280,
-  "ativos": 192,
-  "areas": 11,
-  "trib": 12,
-  "procSub": "192 ativos · 88 encerrados",
-  "areasSub": "Cível, Tributário, Trabalhista",
-  "tribSub": "TJSC, N/I, TRT12",
-  "encerrados": 88
- },
- "empresas": {
-  "_panorama": {
-   "nome": "Panorama do Grupo",
-   "_idCliente": 0,
-   "dataset": {
-    "total": 280,
+  "kpiGrupo": {
+    "proc": 280,
     "ativos": 192,
-    "encerrados": {
-     "2022": 8,
-     "2023": 2,
-     "2024": 5,
-     "2025": 9,
-     "2026": 17
-    },
-    "areaTotal": 11,
-    "estoque": {
-     "2022": 157,
-     "2023": 168,
-     "2024": 194,
-     "2025": 216,
-     "2026": 223
-    },
-    "entradas": {
-     "2022": 18,
-     "2023": 13,
-     "2024": 31,
-     "2025": 31,
-     "2026": 24
-    },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Cível": 123,
-     "Tributário": 72,
-     "Trabalhista": 60,
-     "Bancário": 9,
-     "Administrativo": 6,
-     "Penal-Criminal": 5,
-     "Recuperação Judicial": 1,
-     "Aduaneiro": 1,
-     "Ambiental": 1,
-     "Não informada": 1,
-     "Imobiliário": 1
-    },
-    "uf": {
-     "SC": 222,
-     "N/I": 35,
-     "SP": 10,
-     "DF": 9,
-     "PR": 2,
-     "MG": 1,
-     "RS": 1
-    },
-    "instancia": {
-     "1º Grau": 204,
-     "2º Grau": 35,
-     "Superiores": 16
-    },
-    "polo": {
-     "Polo ativo": 127,
-     "Polo passivo": 122,
-     "Terceiro/Outros": 31
-    },
-    "tribunais": {
-     "TJSC": 115,
-     "N/I": 67,
-     "TRT12": 38,
-     "TRF4": 33,
-     "TJSP": 10,
-     "STJ": 7,
-     "MINTRAB": 3,
-     "STF": 2,
-     "MPT": 2,
-     "TJMG": 1,
-     "TJRS": 1,
-     "ALAC": 1
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 280,
-     "ativos": 192,
-     "procSub": "192 ativos · 88 encerrados",
-     "areas": 11,
-     "areasSub": "Cível, Tributário, Trabalhista",
-     "trib": 12,
-     "tribSub": "TJSC, N/I, TRT12"
-    },
-    "encerradosTotal": 88,
-    "horas": {
-     "total": 2920.7,
-     "media": 10.4,
-     "mediaAtivos": 15.1,
-     "horasano": {
-      "2026": 643.6,
-      "2025": 640.0,
-      "2024": 562.5,
-      "2023": 534.3,
-      "2022": 540.6
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2023": 818,
-      "2024": 1520,
-      "2025": 1738,
-      "2026": 1596
-     },
-     "audano": {
-      "2023": 82,
-      "2024": 152,
-      "2025": 113,
-      "2026": 95
-     },
-     "tarefano": {
-      "2023": 590,
-      "2024": 385,
-      "2025": 557,
-      "2026": 246
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Reuniões e Diligências": 2677,
-      "Prazos": 6494,
-      "Audiências": 562
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    },
-    "nome": "Panorama do Grupo",
-    "_panorama": true
-   }
+    "areas": 11,
+    "trib": 12,
+    "procSub": "192 ativos · 88 encerrados",
+    "areasSub": "Cível, Tributário, Trabalhista",
+    "tribSub": "TJSC, N/I, TRT12",
+    "encerrados": 88
   },
-  "arsolucoeslogisticas_2129833": {
-   "nome": "AR SOLUÇÕES LOGÍSTICAS LTDA - AR",
-   "_idCliente": 2129833,
-   "dataset": {
-    "total": 82,
-    "ativos": 50,
-    "encerrados": {
-     "2022": 5,
-     "2023": 2,
-     "2024": 5,
-     "2025": 3,
-     "2026": 17
+  "empresas": {
+    "_panorama": {
+      "nome": "Panorama do Grupo",
+      "_idCliente": 0,
+      "dataset": {
+        "total": 280,
+        "ativos": 192,
+        "encerrados": {
+          "2022": 8,
+          "2023": 2,
+          "2024": 5,
+          "2025": 9,
+          "2026": 17
+        },
+        "areaTotal": 11,
+        "estoque": {
+          "2022": 157,
+          "2023": 168,
+          "2024": 194,
+          "2025": 216,
+          "2026": 223
+        },
+        "entradas": {
+          "2022": 18,
+          "2023": 13,
+          "2024": 31,
+          "2025": 31,
+          "2026": 24
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Cível": 123,
+          "Tributário": 72,
+          "Trabalhista": 60,
+          "Bancário": 9,
+          "Administrativo": 6,
+          "Penal-Criminal": 5,
+          "Recuperação Judicial": 1,
+          "Aduaneiro": 1,
+          "Ambiental": 1,
+          "Não informada": 1,
+          "Imobiliário": 1
+        },
+        "uf": {
+          "SC": 222,
+          "N/I": 35,
+          "SP": 10,
+          "DF": 9,
+          "PR": 2,
+          "MG": 1,
+          "RS": 1
+        },
+        "instancia": {
+          "1º Grau": 204,
+          "2º Grau": 35,
+          "Superiores": 16
+        },
+        "polo": {
+          "Polo ativo": 127,
+          "Polo passivo": 122,
+          "Terceiro/Outros": 31
+        },
+        "tribunais": {
+          "TJSC": 115,
+          "N/I": 67,
+          "TRT12": 38,
+          "TRF4": 33,
+          "TJSP": 10,
+          "STJ": 7,
+          "MINTRAB": 3,
+          "STF": 2,
+          "MPT": 2,
+          "TJMG": 1,
+          "TJRS": 1,
+          "ALAC": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 280,
+          "ativos": 192,
+          "procSub": "192 ativos · 88 encerrados",
+          "areas": 11,
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "trib": 12,
+          "tribSub": "TJSC, N/I, TRT12"
+        },
+        "encerradosTotal": 88,
+        "horas": {
+          "total": 2920.7,
+          "media": 10.4,
+          "mediaAtivos": 15.1,
+          "horasano": {
+            "2026": 643.6,
+            "2025": 640.0,
+            "2024": 562.5,
+            "2023": 534.3,
+            "2022": 540.6
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 818,
+            "2024": 1520,
+            "2025": 1738,
+            "2026": 1596
+          },
+          "audano": {
+            "2023": 82,
+            "2024": 152,
+            "2025": 113,
+            "2026": 95
+          },
+          "tarefano": {
+            "2023": 590,
+            "2024": 385,
+            "2025": 557,
+            "2026": 246
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Reuniões e Diligências": 2677,
+            "Prazos": 6494,
+            "Audiências": 562
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        },
+        "nome": "Panorama do Grupo",
+        "_panorama": true
+      }
     },
-    "areaTotal": 8,
-    "estoque": {
-     "2022": 19,
-     "2023": 23,
-     "2024": 34,
-     "2025": 48,
-     "2026": 50
+    "arsolucoeslogisticas_2129833": {
+      "nome": "AR SOLUÇÕES LOGÍSTICAS LTDA - AR",
+      "_idCliente": 2129833,
+      "dataset": {
+        "total": 82,
+        "ativos": 50,
+        "encerrados": {
+          "2022": 5,
+          "2023": 2,
+          "2024": 5,
+          "2025": 3,
+          "2026": 17
+        },
+        "areaTotal": 8,
+        "estoque": {
+          "2022": 19,
+          "2023": 23,
+          "2024": 34,
+          "2025": 48,
+          "2026": 50
+        },
+        "entradas": {
+          "2022": 6,
+          "2023": 6,
+          "2024": 16,
+          "2025": 17,
+          "2026": 19
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Trabalhista": 29,
+          "Cível": 27,
+          "Tributário": 19,
+          "Bancário": 3,
+          "Recuperação Judicial": 1,
+          "Administrativo": 1,
+          "Aduaneiro": 1,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 61,
+          "N/I": 11,
+          "DF": 4,
+          "SP": 3,
+          "MG": 1,
+          "PR": 1,
+          "RS": 1
+        },
+        "instancia": {
+          "1º Grau": 67,
+          "2º Grau": 9,
+          "Superiores": 5
+        },
+        "polo": {
+          "Polo ativo": 35,
+          "Polo passivo": 32,
+          "Terceiro/Outros": 15
+        },
+        "tribunais": {
+          "TJSC": 24,
+          "TRT12": 20,
+          "N/I": 19,
+          "TRF4": 5,
+          "MINTRAB": 3,
+          "TJSP": 3,
+          "STJ": 3,
+          "STF": 2,
+          "TJMG": 1,
+          "MPT": 1,
+          "TJRS": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 82,
+          "ativos": 50,
+          "procSub": "50 ativos · 32 encerrados",
+          "areas": 8,
+          "areasSub": "Trabalhista, Cível, Tributário",
+          "trib": 11,
+          "tribSub": "TJSC, TRT12, N/I"
+        },
+        "encerradosTotal": 32,
+        "horas": {
+          "total": 2017.8,
+          "media": 24.6,
+          "mediaAtivos": 40.4,
+          "horasano": {
+            "2026": 439.4,
+            "2025": 453.6,
+            "2024": 341.3,
+            "2023": 409.6,
+            "2022": 373.9
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 355,
+            "2024": 663,
+            "2025": 714,
+            "2026": 948
+          },
+          "audano": {
+            "2023": 65,
+            "2024": 34,
+            "2025": 45,
+            "2026": 71
+          },
+          "tarefano": {
+            "2023": 576,
+            "2024": 377,
+            "2025": 541,
+            "2026": 227
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Reuniões e Diligências": 2614,
+            "Prazos": 3069,
+            "Audiências": 285
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "entradas": {
-     "2022": 6,
-     "2023": 6,
-     "2024": 16,
-     "2025": 17,
-     "2026": 19
+    "embrareefarmazensger_2130116": {
+      "nome": "EMBRAREEF ARMAZÉNS GERAIS LTDA - AR",
+      "_idCliente": 2130116,
+      "dataset": {
+        "total": 99,
+        "ativos": 71,
+        "encerrados": {
+          "2025": 2
+        },
+        "areaTotal": 6,
+        "estoque": {
+          "2022": 72,
+          "2023": 75,
+          "2024": 83,
+          "2025": 88,
+          "2026": 90
+        },
+        "entradas": {
+          "2022": 1,
+          "2023": 3,
+          "2024": 8,
+          "2025": 7,
+          "2026": 2
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Cível": 50,
+          "Trabalhista": 20,
+          "Tributário": 19,
+          "Bancário": 5,
+          "Administrativo": 4,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 81,
+          "N/I": 9,
+          "SP": 7,
+          "DF": 2
+        },
+        "instancia": {
+          "1º Grau": 68,
+          "2º Grau": 14,
+          "Superiores": 2
+        },
+        "polo": {
+          "Polo ativo": 49,
+          "Polo passivo": 43,
+          "Terceiro/Outros": 7
+        },
+        "tribunais": {
+          "TJSC": 38,
+          "N/I": 27,
+          "TRF4": 13,
+          "TRT12": 11,
+          "TJSP": 7,
+          "STJ": 2,
+          "MPT": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 99,
+          "ativos": 71,
+          "procSub": "71 ativos · 28 encerrados",
+          "areas": 6,
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 7,
+          "tribSub": "TJSC, N/I, TRF4"
+        },
+        "encerradosTotal": 28,
+        "horas": {
+          "total": 333.6,
+          "media": 3.4,
+          "mediaAtivos": 4.7,
+          "horasano": {
+            "2026": 73.7,
+            "2025": 68.9,
+            "2024": 79.0,
+            "2023": 35.6,
+            "2022": 76.5
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 229,
+            "2024": 366,
+            "2025": 424,
+            "2026": 262
+          },
+          "audano": {
+            "2023": 4,
+            "2024": 35,
+            "2025": 20,
+            "2026": 10
+          },
+          "tarefano": {
+            "2023": 3,
+            "2026": 7
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 1597,
+            "Audiências": 110,
+            "Reuniões e Diligências": 13
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Trabalhista": 29,
-     "Cível": 27,
-     "Tributário": 19,
-     "Bancário": 3,
-     "Recuperação Judicial": 1,
-     "Administrativo": 1,
-     "Aduaneiro": 1,
-     "Penal-Criminal": 1
+    "embrafrioarmazensger_2122107": {
+      "nome": "EMBRAFRIO ARMAZENS GERAIS FRIGORÍFICOS LTDA - AR",
+      "_idCliente": 2122107,
+      "dataset": {
+        "total": 56,
+        "ativos": 37,
+        "encerrados": {
+          "2022": 3,
+          "2025": 4
+        },
+        "areaTotal": 5,
+        "estoque": {
+          "2022": 33,
+          "2023": 34,
+          "2024": 39,
+          "2025": 42,
+          "2026": 44
+        },
+        "entradas": {
+          "2022": 4,
+          "2023": 1,
+          "2024": 5,
+          "2025": 7,
+          "2026": 2
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Cível": 30,
+          "Tributário": 23,
+          "Bancário": 1,
+          "Não informada": 1,
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 40,
+          "N/I": 12,
+          "DF": 3,
+          "PR": 1
+        },
+        "instancia": {
+          "1º Grau": 36,
+          "2º Grau": 10,
+          "Superiores": 7
+        },
+        "polo": {
+          "Polo ativo": 29,
+          "Polo passivo": 22,
+          "Terceiro/Outros": 5
+        },
+        "tribunais": {
+          "TJSC": 31,
+          "N/I": 14,
+          "TRF4": 8,
+          "STJ": 2,
+          "TRT12": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 56,
+          "ativos": 37,
+          "procSub": "37 ativos · 19 encerrados",
+          "areas": 5,
+          "areasSub": "Cível, Tributário, Bancário",
+          "trib": 5,
+          "tribSub": "TJSC, N/I, TRF4"
+        },
+        "encerradosTotal": 19,
+        "horas": {
+          "total": 330.3,
+          "media": 5.9,
+          "mediaAtivos": 8.9,
+          "horasano": {
+            "2026": 73.6,
+            "2025": 87.2,
+            "2024": 69.4,
+            "2023": 59.3,
+            "2022": 40.8
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 141,
+            "2024": 297,
+            "2025": 432,
+            "2026": 300
+          },
+          "audano": {
+            "2023": 10,
+            "2024": 55,
+            "2025": 45,
+            "2026": 11
+          },
+          "tarefano": {
+            "2023": 3,
+            "2024": 5,
+            "2025": 10,
+            "2026": 6
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 1263,
+            "Audiências": 127,
+            "Reuniões e Diligências": 24
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "uf": {
-     "SC": 61,
-     "N/I": 11,
-     "DF": 4,
-     "SP": 3,
-     "MG": 1,
-     "PR": 1,
-     "RS": 1
+    "embrareeflogistdearm_2122475": {
+      "nome": "EMBRAREEF LOGIST. DE ARMAZ. E MANUT. DE CONT. LTDA - AR",
+      "_idCliente": 2122475,
+      "dataset": {
+        "total": 11,
+        "ativos": 6,
+        "encerrados": {},
+        "areaTotal": 3,
+        "estoque": {
+          "2023": 9,
+          "2024": 10
+        },
+        "entradas": {
+          "2023": 2,
+          "2024": 1
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Cível": 7,
+          "Trabalhista": 2,
+          "Tributário": 2
+        },
+        "uf": {
+          "SC": 9,
+          "N/I": 2
+        },
+        "instancia": {
+          "1º Grau": 9,
+          "Superiores": 2
+        },
+        "polo": {
+          "Polo ativo": 6,
+          "Polo passivo": 5
+        },
+        "tribunais": {
+          "TJSC": 6,
+          "TRT12": 2,
+          "TRF4": 2,
+          "N/I": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 11,
+          "ativos": 6,
+          "procSub": "6 ativos · 5 encerrados",
+          "areas": 3,
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 4,
+          "tribSub": "TJSC, TRT12, TRF4"
+        },
+        "encerradosTotal": 5,
+        "horas": {
+          "total": 16.9,
+          "media": 1.5,
+          "mediaAtivos": 2.8,
+          "horasano": {
+            "2026": 1.3,
+            "2025": 3.6,
+            "2024": 1.5,
+            "2023": 2.4,
+            "2022": 8.2
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 35,
+            "2024": 35,
+            "2025": 37,
+            "2026": 13
+          },
+          "audano": {
+            "2024": 5
+          },
+          "tarefano": {
+            "2023": 2,
+            "2025": 2
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 120,
+            "Reuniões e Diligências": 4,
+            "Audiências": 5
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "instancia": {
-     "1º Grau": 67,
-     "2º Grau": 9,
-     "Superiores": 5
+    "renzologisticaeservi_2122766": {
+      "nome": "RENZO LOGÍSTICA E SERVIÇOS EM TRANSPORTES EIRELI - AR",
+      "_idCliente": 2122766,
+      "dataset": {
+        "total": 19,
+        "ativos": 15,
+        "encerrados": {},
+        "areaTotal": 5,
+        "estoque": {
+          "2022": 16
+        },
+        "entradas": {
+          "2022": 5
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Trabalhista": 8,
+          "Tributário": 6,
+          "Penal-Criminal": 2,
+          "Cível": 2,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 18,
+          "N/I": 1
+        },
+        "instancia": {
+          "1º Grau": 14,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Polo passivo": 14,
+          "Terceiro/Outros": 3
+        },
+        "tribunais": {
+          "TJSC": 6,
+          "N/I": 5,
+          "TRT12": 4,
+          "TRF4": 3,
+          "ALAC": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 19,
+          "ativos": 15,
+          "procSub": "15 ativos · 4 encerrados",
+          "areas": 5,
+          "areasSub": "Trabalhista, Tributário, Penal-Criminal",
+          "trib": 5,
+          "tribSub": "TJSC, N/I, TRT12"
+        },
+        "encerradosTotal": 4,
+        "horas": {
+          "total": 35.5,
+          "media": 1.9,
+          "mediaAtivos": 2.4,
+          "horasano": {
+            "2025": 1.7,
+            "2024": 5.0,
+            "2023": 3.1,
+            "2022": 25.7
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2024": 20,
+            "2025": 44
+          },
+          "audano": {
+            "2024": 10
+          },
+          "tarefano": {
+            "2023": 3
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Reuniões e Diligências": 3,
+            "Prazos": 64,
+            "Audiências": 10
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "polo": {
-     "Polo ativo": 35,
-     "Polo passivo": 32,
-     "Terceiro/Outros": 15
+    "investplusadministra_675961927": {
+      "nome": "INVEST PLUS ADMINISTRAÇÕES E PARTICIPAÇÕES LTDA - AR",
+      "_idCliente": 675961927,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "—",
+          "trib": 0,
+          "tribSub": "—"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {},
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "tribunais": {
-     "TJSC": 24,
-     "TRT12": 20,
-     "N/I": 19,
-     "TRF4": 5,
-     "MINTRAB": 3,
-     "TJSP": 3,
-     "STJ": 3,
-     "STF": 2,
-     "TJMG": 1,
-     "MPT": 1,
-     "TJRS": 1
+    "turristecnologialtda_675961934": {
+      "nome": "TURRIS TECNOLOGIA LTDA - AR",
+      "_idCliente": 675961934,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "—",
+          "trib": 0,
+          "tribSub": "—"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {},
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 82,
-     "ativos": 50,
-     "procSub": "50 ativos · 32 encerrados",
-     "areas": 8,
-     "areasSub": "Trabalhista, Cível, Tributário",
-     "trib": 11,
-     "tribSub": "TJSC, TRT12, N/I"
+    "marcelorehm_2129980": {
+      "nome": "MARCELO REHM - AR",
+      "_idCliente": 2129980,
+      "dataset": {
+        "total": 2,
+        "ativos": 2,
+        "encerrados": {},
+        "areaTotal": 1,
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Cível": 2
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 2
+        },
+        "tribunais": {
+          "TJSC": 2
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 2,
+          "ativos": 2,
+          "procSub": "2 ativos · 0 encerrados",
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 30.9,
+          "media": 15.4,
+          "mediaAtivos": 15.4,
+          "horasano": {
+            "2026": 14.8,
+            "2025": 10.0,
+            "2024": 3.2,
+            "2023": 2.9
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2026": 18,
+            "2025": 12,
+            "2024": 4,
+            "2023": 4
+          },
+          "audano": {},
+          "tarefano": {
+            "2026": 6,
+            "2025": 4,
+            "2024": 1,
+            "2023": 1
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 38,
+            "Reuniões e Diligências": 12
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "encerradosTotal": 32,
-    "horas": {
-     "total": 2017.8,
-     "media": 24.6,
-     "mediaAtivos": 40.4,
-     "horasano": {
-      "2026": 439.4,
-      "2025": 453.6,
-      "2024": 341.3,
-      "2023": 409.6,
-      "2022": 373.9
-     },
-     "_estimativa": false
+    "angelinapatriciatheo_2130117": {
+      "nome": "ANGELINA PATRÍCIA THEODORO - AR",
+      "_idCliente": 2130117,
+      "dataset": {
+        "total": 5,
+        "ativos": 5,
+        "encerrados": {},
+        "areaTotal": 3,
+        "estoque": {
+          "2023": 4,
+          "2024": 5
+        },
+        "entradas": {
+          "2023": 1,
+          "2024": 1
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Cível": 3,
+          "Imobiliário": 1,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 5
+        },
+        "instancia": {
+          "1º Grau": 4
+        },
+        "polo": {
+          "Polo ativo": 4,
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "TJSC": 4,
+          "N/I": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 5,
+          "ativos": 5,
+          "procSub": "5 ativos · 0 encerrados",
+          "areas": 3,
+          "areasSub": "Cível, Imobiliário, Penal-Criminal",
+          "trib": 2,
+          "tribSub": "TJSC, N/I"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 95.5,
+          "media": 19.1,
+          "mediaAtivos": 19.1,
+          "horasano": {
+            "2026": 37.0,
+            "2025": 14.9,
+            "2024": 12.6,
+            "2023": 19.4,
+            "2022": 11.6
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 34,
+            "2024": 114,
+            "2025": 59,
+            "2026": 45
+          },
+          "audano": {
+            "2024": 10
+          },
+          "tarefano": {
+            "2026": 2
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 252,
+            "Audiências": 10,
+            "Reuniões e Diligências": 2
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     },
-    "esforco": {
-     "prazano": {
-      "2023": 355,
-      "2024": 663,
-      "2025": 714,
-      "2026": 948
-     },
-     "audano": {
-      "2023": 65,
-      "2024": 34,
-      "2025": 45,
-      "2026": 71
-     },
-     "tarefano": {
-      "2023": 576,
-      "2024": 377,
-      "2025": 541,
-      "2026": 227
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Reuniões e Diligências": 2614,
-      "Prazos": 3069,
-      "Audiências": 285
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
+    "enzotheodororehm_2308723": {
+      "nome": "ENZO THEODORO REHM - AR",
+      "_idCliente": 2308723,
+      "dataset": {
+        "total": 2,
+        "ativos": 2,
+        "encerrados": {},
+        "areaTotal": 2,
+        "estoque": {
+          "2022": 1,
+          "2026": 2
+        },
+        "entradas": {
+          "2022": 1,
+          "2026": 1
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Tributário": 1,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Polo passivo": 2
+        },
+        "tribunais": {
+          "TJSC": 2
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 2,
+          "ativos": 2,
+          "procSub": "2 ativos · 0 encerrados",
+          "areas": 2,
+          "areasSub": "Tributário, Penal-Criminal",
+          "trib": 1,
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 7.7,
+          "media": 3.9,
+          "mediaAtivos": 3.9,
+          "horasano": {
+            "2026": 3.8,
+            "2025": 0.1,
+            "2022": 3.9
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2026": 19,
+            "2025": 1
+          },
+          "audano": {},
+          "tarefano": {
+            "2026": 3
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 40,
+            "Reuniões e Diligências": 6
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
+    },
+    "leodirorestesparisot_4024443": {
+      "nome": "LEODIR ORESTES PARISOTTO - AR",
+      "_idCliente": 4024443,
+      "dataset": {
+        "total": 1,
+        "ativos": 1,
+        "encerrados": {},
+        "areaTotal": 1,
+        "estoque": {
+          "2022": 1
+        },
+        "entradas": {
+          "2022": 1
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "2º Grau": 1
+        },
+        "polo": {
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 1,
+          "ativos": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 52.5,
+          "media": 52.5,
+          "mediaAtivos": 52.5,
+          "horasano": {
+            "2024": 50.5,
+            "2023": 2.0
+          },
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {
+            "2024": 50,
+            "2023": 2
+          },
+          "audano": {
+            "2024": 15
+          },
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 52,
+            "Audiências": 15
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
+    },
+    "gbparisottotransport_2120779": {
+      "nome": "G&B PARISOTTO TRANSPORTES RODOVIARIOS LTDA - AR",
+      "_idCliente": 2120779,
+      "dataset": {
+        "total": 3,
+        "ativos": 3,
+        "encerrados": {},
+        "areaTotal": 2,
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Tributário": 2,
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 3
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Polo passivo": 3
+        },
+        "tribunais": {
+          "TRF4": 2,
+          "TJSC": 1
+        },
+        "ranking": [],
+        "_complexidadeSoAtivos": false,
+        "kpi": {
+          "proc": 3,
+          "ativos": 3,
+          "procSub": "3 ativos · 0 encerrados",
+          "areas": 2,
+          "areasSub": "Tributário, Cível",
+          "trib": 2,
+          "tribSub": "TRF4, TJSC"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 0,
+          "media": 0.0,
+          "mediaAtivos": 0.0,
+          "horasano": {},
+          "_estimativa": false
+        },
+        "esforco": {
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": {},
+          "comProducao": {},
+          "people": []
+        }
+      }
     }
-   }
   },
-  "embrareefarmazensger_2130116": {
-   "nome": "EMBRAREEF ARMAZÉNS GERAIS LTDA - AR",
-   "_idCliente": 2130116,
-   "dataset": {
-    "total": 99,
-    "ativos": 71,
-    "encerrados": {
-     "2025": 2
-    },
-    "areaTotal": 6,
-    "estoque": {
-     "2022": 72,
-     "2023": 75,
-     "2024": 83,
-     "2025": 88,
-     "2026": 90
-    },
-    "entradas": {
-     "2022": 1,
-     "2023": 3,
-     "2024": 8,
-     "2025": 7,
-     "2026": 2
-    },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Cível": 50,
-     "Trabalhista": 20,
-     "Tributário": 19,
-     "Bancário": 5,
-     "Administrativo": 4,
-     "Ambiental": 1
-    },
-    "uf": {
-     "SC": 81,
-     "N/I": 9,
-     "SP": 7,
-     "DF": 2
-    },
-    "instancia": {
-     "1º Grau": 68,
-     "2º Grau": 14,
-     "Superiores": 2
-    },
-    "polo": {
-     "Polo ativo": 49,
-     "Polo passivo": 43,
-     "Terceiro/Outros": 7
-    },
-    "tribunais": {
-     "TJSC": 38,
-     "N/I": 27,
-     "TRF4": 13,
-     "TRT12": 11,
-     "TJSP": 7,
-     "STJ": 2,
-     "MPT": 1
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 99,
-     "ativos": 71,
-     "procSub": "71 ativos · 28 encerrados",
-     "areas": 6,
-     "areasSub": "Cível, Trabalhista, Tributário",
-     "trib": 7,
-     "tribSub": "TJSC, N/I, TRF4"
-    },
-    "encerradosTotal": 28,
-    "horas": {
-     "total": 333.6,
-     "media": 3.4,
-     "mediaAtivos": 4.7,
-     "horasano": {
-      "2026": 73.7,
-      "2025": 68.9,
-      "2024": 79.0,
-      "2023": 35.6,
-      "2022": 76.5
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2023": 229,
-      "2024": 366,
-      "2025": 424,
-      "2026": 262
-     },
-     "audano": {
-      "2023": 4,
-      "2024": 35,
-      "2025": 20,
-      "2026": 10
-     },
-     "tarefano": {
-      "2023": 3,
-      "2026": 7
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Prazos": 1597,
-      "Audiências": 110,
-      "Reuniões e Diligências": 13
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "embrafrioarmazensger_2122107": {
-   "nome": "EMBRAFRIO ARMAZENS GERAIS FRIGORÍFICOS LTDA - AR",
-   "_idCliente": 2122107,
-   "dataset": {
-    "total": 56,
-    "ativos": 37,
-    "encerrados": {
-     "2022": 3,
-     "2025": 4
-    },
-    "areaTotal": 5,
-    "estoque": {
-     "2022": 33,
-     "2023": 34,
-     "2024": 39,
-     "2025": 42,
-     "2026": 44
-    },
-    "entradas": {
-     "2022": 4,
-     "2023": 1,
-     "2024": 5,
-     "2025": 7,
-     "2026": 2
-    },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Cível": 30,
-     "Tributário": 23,
-     "Bancário": 1,
-     "Não informada": 1,
-     "Trabalhista": 1
-    },
-    "uf": {
-     "SC": 40,
-     "N/I": 12,
-     "DF": 3,
-     "PR": 1
-    },
-    "instancia": {
-     "1º Grau": 36,
-     "2º Grau": 10,
-     "Superiores": 7
-    },
-    "polo": {
-     "Polo ativo": 29,
-     "Polo passivo": 22,
-     "Terceiro/Outros": 5
-    },
-    "tribunais": {
-     "TJSC": 31,
-     "N/I": 14,
-     "TRF4": 8,
-     "STJ": 2,
-     "TRT12": 1
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 56,
-     "ativos": 37,
-     "procSub": "37 ativos · 19 encerrados",
-     "areas": 5,
-     "areasSub": "Cível, Tributário, Bancário",
-     "trib": 5,
-     "tribSub": "TJSC, N/I, TRF4"
-    },
-    "encerradosTotal": 19,
-    "horas": {
-     "total": 330.3,
-     "media": 5.9,
-     "mediaAtivos": 8.9,
-     "horasano": {
-      "2026": 73.6,
-      "2025": 87.2,
-      "2024": 69.4,
-      "2023": 59.3,
-      "2022": 40.8
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2023": 141,
-      "2024": 297,
-      "2025": 432,
-      "2026": 300
-     },
-     "audano": {
-      "2023": 10,
-      "2024": 55,
-      "2025": 45,
-      "2026": 11
-     },
-     "tarefano": {
-      "2023": 3,
-      "2024": 5,
-      "2025": 10,
-      "2026": 6
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Prazos": 1263,
-      "Audiências": 127,
-      "Reuniões e Diligências": 24
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "embrareeflogistdearm_2122475": {
-   "nome": "EMBRAREEF LOGIST. DE ARMAZ. E MANUT. DE CONT. LTDA - AR",
-   "_idCliente": 2122475,
-   "dataset": {
-    "total": 11,
-    "ativos": 6,
-    "encerrados": {},
-    "areaTotal": 3,
-    "estoque": {
-     "2023": 9,
-     "2024": 10
-    },
-    "entradas": {
-     "2023": 2,
-     "2024": 1
-    },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Cível": 7,
-     "Trabalhista": 2,
-     "Tributário": 2
-    },
-    "uf": {
-     "SC": 9,
-     "N/I": 2
-    },
-    "instancia": {
-     "1º Grau": 9,
-     "Superiores": 2
-    },
-    "polo": {
-     "Polo ativo": 6,
-     "Polo passivo": 5
-    },
-    "tribunais": {
-     "TJSC": 6,
-     "TRT12": 2,
-     "TRF4": 2,
-     "N/I": 1
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 11,
-     "ativos": 6,
-     "procSub": "6 ativos · 5 encerrados",
-     "areas": 3,
-     "areasSub": "Cível, Trabalhista, Tributário",
-     "trib": 4,
-     "tribSub": "TJSC, TRT12, TRF4"
-    },
-    "encerradosTotal": 5,
-    "horas": {
-     "total": 16.9,
-     "media": 1.5,
-     "mediaAtivos": 2.8,
-     "horasano": {
-      "2026": 1.3,
-      "2025": 3.6,
-      "2024": 1.5,
-      "2023": 2.4,
-      "2022": 8.2
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2023": 35,
-      "2024": 35,
-      "2025": 37,
-      "2026": 13
-     },
-     "audano": {
-      "2024": 5
-     },
-     "tarefano": {
-      "2023": 2,
-      "2025": 2
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Prazos": 120,
-      "Reuniões e Diligências": 4,
-      "Audiências": 5
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "renzologisticaeservi_2122766": {
-   "nome": "RENZO LOGÍSTICA E SERVIÇOS EM TRANSPORTES EIRELI - AR",
-   "_idCliente": 2122766,
-   "dataset": {
-    "total": 19,
-    "ativos": 15,
-    "encerrados": {},
-    "areaTotal": 5,
-    "estoque": {
-     "2022": 16
-    },
-    "entradas": {
-     "2022": 5
-    },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Trabalhista": 8,
-     "Tributário": 6,
-     "Penal-Criminal": 2,
-     "Cível": 2,
-     "Administrativo": 1
-    },
-    "uf": {
-     "SC": 18,
-     "N/I": 1
-    },
-    "instancia": {
-     "1º Grau": 14,
-     "2º Grau": 1
-    },
-    "polo": {
-     "Polo ativo": 2,
-     "Polo passivo": 14,
-     "Terceiro/Outros": 3
-    },
-    "tribunais": {
-     "TJSC": 6,
-     "N/I": 5,
-     "TRT12": 4,
-     "TRF4": 3,
-     "ALAC": 1
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 19,
-     "ativos": 15,
-     "procSub": "15 ativos · 4 encerrados",
-     "areas": 5,
-     "areasSub": "Trabalhista, Tributário, Penal-Criminal",
-     "trib": 5,
-     "tribSub": "TJSC, N/I, TRT12"
-    },
-    "encerradosTotal": 4,
-    "horas": {
-     "total": 35.5,
-     "media": 1.9,
-     "mediaAtivos": 2.4,
-     "horasano": {
-      "2025": 1.7,
-      "2024": 5.0,
-      "2023": 3.1,
-      "2022": 25.7
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2024": 20,
-      "2025": 44
-     },
-     "audano": {
-      "2024": 10
-     },
-     "tarefano": {
-      "2023": 3
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Reuniões e Diligências": 3,
-      "Prazos": 64,
-      "Audiências": 10
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "investplusadministra_675961927": {
-   "nome": "INVEST PLUS ADMINISTRAÇÕES E PARTICIPAÇÕES LTDA - AR",
-   "_idCliente": 675961927,
-   "dataset": {
-    "total": 0,
-    "ativos": 0,
-    "encerrados": {},
-    "areaTotal": 0,
-    "estoque": {},
-    "entradas": {},
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {},
-    "uf": {},
-    "instancia": {},
-    "polo": {},
-    "tribunais": {},
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 0,
-     "ativos": 0,
-     "procSub": "0 ativos · 0 encerrados",
-     "areas": 0,
-     "areasSub": "—",
-     "trib": 0,
-     "tribSub": "—"
-    },
-    "encerradosTotal": 0,
-    "horas": {
-     "total": 0,
-     "media": 0,
-     "mediaAtivos": 0,
-     "horasano": {},
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {},
-     "audano": {},
-     "tarefano": {},
-     "extrajudano": {},
-     "atividades": {},
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "turristecnologialtda_675961934": {
-   "nome": "TURRIS TECNOLOGIA LTDA - AR",
-   "_idCliente": 675961934,
-   "dataset": {
-    "total": 0,
-    "ativos": 0,
-    "encerrados": {},
-    "areaTotal": 0,
-    "estoque": {},
-    "entradas": {},
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {},
-    "uf": {},
-    "instancia": {},
-    "polo": {},
-    "tribunais": {},
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 0,
-     "ativos": 0,
-     "procSub": "0 ativos · 0 encerrados",
-     "areas": 0,
-     "areasSub": "—",
-     "trib": 0,
-     "tribSub": "—"
-    },
-    "encerradosTotal": 0,
-    "horas": {
-     "total": 0,
-     "media": 0,
-     "mediaAtivos": 0,
-     "horasano": {},
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {},
-     "audano": {},
-     "tarefano": {},
-     "extrajudano": {},
-     "atividades": {},
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "marcelorehm_2129980": {
-   "nome": "MARCELO REHM - AR",
-   "_idCliente": 2129980,
-   "dataset": {
-    "total": 2,
-    "ativos": 2,
-    "encerrados": {},
-    "areaTotal": 1,
-    "estoque": {},
-    "entradas": {},
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Cível": 2
-    },
-    "uf": {
-     "SC": 2
-    },
-    "instancia": {
-     "1º Grau": 2
-    },
-    "polo": {
-     "Polo ativo": 2
-    },
-    "tribunais": {
-     "TJSC": 2
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 2,
-     "ativos": 2,
-     "procSub": "2 ativos · 0 encerrados",
-     "areas": 1,
-     "areasSub": "Cível",
-     "trib": 1,
-     "tribSub": "TJSC"
-    },
-    "encerradosTotal": 0,
-    "horas": {
-     "total": 30.9,
-     "media": 15.4,
-     "mediaAtivos": 15.4,
-     "horasano": {
-      "2026": 14.8,
-      "2025": 10.0,
-      "2024": 3.2,
-      "2023": 2.9
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2026": 18,
-      "2025": 12,
-      "2024": 4,
-      "2023": 4
-     },
-     "audano": {},
-     "tarefano": {
-      "2026": 6,
-      "2025": 4,
-      "2024": 1,
-      "2023": 1
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Prazos": 38,
-      "Reuniões e Diligências": 12
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "angelinapatriciatheo_2130117": {
-   "nome": "ANGELINA PATRÍCIA THEODORO - AR",
-   "_idCliente": 2130117,
-   "dataset": {
-    "total": 5,
-    "ativos": 5,
-    "encerrados": {},
-    "areaTotal": 3,
-    "estoque": {
-     "2023": 4,
-     "2024": 5
-    },
-    "entradas": {
-     "2023": 1,
-     "2024": 1
-    },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Cível": 3,
-     "Imobiliário": 1,
-     "Penal-Criminal": 1
-    },
-    "uf": {
-     "SC": 5
-    },
-    "instancia": {
-     "1º Grau": 4
-    },
-    "polo": {
-     "Polo ativo": 4,
-     "Polo passivo": 1
-    },
-    "tribunais": {
-     "TJSC": 4,
-     "N/I": 1
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 5,
-     "ativos": 5,
-     "procSub": "5 ativos · 0 encerrados",
-     "areas": 3,
-     "areasSub": "Cível, Imobiliário, Penal-Criminal",
-     "trib": 2,
-     "tribSub": "TJSC, N/I"
-    },
-    "encerradosTotal": 0,
-    "horas": {
-     "total": 95.5,
-     "media": 19.1,
-     "mediaAtivos": 19.1,
-     "horasano": {
-      "2026": 37.0,
-      "2025": 14.9,
-      "2024": 12.6,
-      "2023": 19.4,
-      "2022": 11.6
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2023": 34,
-      "2024": 114,
-      "2025": 59,
-      "2026": 45
-     },
-     "audano": {
-      "2024": 10
-     },
-     "tarefano": {
-      "2026": 2
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Prazos": 252,
-      "Audiências": 10,
-      "Reuniões e Diligências": 2
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "enzotheodororehm_2308723": {
-   "nome": "ENZO THEODORO REHM - AR",
-   "_idCliente": 2308723,
-   "dataset": {
-    "total": 2,
-    "ativos": 2,
-    "encerrados": {},
-    "areaTotal": 2,
-    "estoque": {
-     "2022": 1,
-     "2026": 2
-    },
-    "entradas": {
-     "2022": 1,
-     "2026": 1
-    },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Tributário": 1,
-     "Penal-Criminal": 1
-    },
-    "uf": {
-     "SC": 2
-    },
-    "instancia": {
-     "1º Grau": 2
-    },
-    "polo": {
-     "Polo passivo": 2
-    },
-    "tribunais": {
-     "TJSC": 2
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 2,
-     "ativos": 2,
-     "procSub": "2 ativos · 0 encerrados",
-     "areas": 2,
-     "areasSub": "Tributário, Penal-Criminal",
-     "trib": 1,
-     "tribSub": "TJSC"
-    },
-    "encerradosTotal": 0,
-    "horas": {
-     "total": 7.7,
-     "media": 3.9,
-     "mediaAtivos": 3.9,
-     "horasano": {
-      "2026": 3.8,
-      "2025": 0.1,
-      "2022": 3.9
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2026": 19,
-      "2025": 1
-     },
-     "audano": {},
-     "tarefano": {
-      "2026": 3
-     },
-     "extrajudano": {},
-     "atividades": {
-      "Prazos": 40,
-      "Reuniões e Diligências": 6
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "leodirorestesparisot_4024443": {
-   "nome": "LEODIR ORESTES PARISOTTO - AR",
-   "_idCliente": 4024443,
-   "dataset": {
-    "total": 1,
-    "ativos": 1,
-    "encerrados": {},
-    "areaTotal": 1,
-    "estoque": {
-     "2022": 1
-    },
-    "entradas": {
-     "2022": 1
-    },
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Cível": 1
-    },
-    "uf": {
-     "SC": 1
-    },
-    "instancia": {
-     "2º Grau": 1
-    },
-    "polo": {
-     "Terceiro/Outros": 1
-    },
-    "tribunais": {
-     "TJSC": 1
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 1,
-     "ativos": 1,
-     "procSub": "1 ativos · 0 encerrados",
-     "areas": 1,
-     "areasSub": "Cível",
-     "trib": 1,
-     "tribSub": "TJSC"
-    },
-    "encerradosTotal": 0,
-    "horas": {
-     "total": 52.5,
-     "media": 52.5,
-     "mediaAtivos": 52.5,
-     "horasano": {
-      "2024": 50.5,
-      "2023": 2.0
-     },
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {
-      "2024": 50,
-      "2023": 2
-     },
-     "audano": {
-      "2024": 15
-     },
-     "tarefano": {},
-     "extrajudano": {},
-     "atividades": {
-      "Prazos": 52,
-      "Audiências": 15
-     },
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  },
-  "gbparisottotransport_2120779": {
-   "nome": "G&B PARISOTTO TRANSPORTES RODOVIARIOS LTDA - AR",
-   "_idCliente": 2120779,
-   "dataset": {
-    "total": 3,
-    "ativos": 3,
-    "encerrados": {},
-    "areaTotal": 2,
-    "estoque": {},
-    "entradas": {},
-    "estoqueHl": [
-     "2026"
-    ],
-    "area": {
-     "Tributário": 2,
-     "Cível": 1
-    },
-    "uf": {
-     "SC": 3
-    },
-    "instancia": {
-     "1º Grau": 2
-    },
-    "polo": {
-     "Polo passivo": 3
-    },
-    "tribunais": {
-     "TRF4": 2,
-     "TJSC": 1
-    },
-    "ranking": [],
-    "_complexidadeSoAtivos": false,
-    "kpi": {
-     "proc": 3,
-     "ativos": 3,
-     "procSub": "3 ativos · 0 encerrados",
-     "areas": 2,
-     "areasSub": "Tributário, Cível",
-     "trib": 2,
-     "tribSub": "TRF4, TJSC"
-    },
-    "encerradosTotal": 0,
-    "horas": {
-     "total": 0,
-     "media": 0.0,
-     "mediaAtivos": 0.0,
-     "horasano": {},
-     "_estimativa": false
-    },
-    "esforco": {
-     "prazano": {},
-     "audano": {},
-     "tarefano": {},
-     "extrajudano": {},
-     "atividades": {},
-     "extrajudtipo": {},
-     "tramitacaoDias": {},
-     "comProducao": {},
-     "people": {}
-    }
-   }
-  }
- },
- "nome": "Grupo AR",
- "nomeHtml": "Grupo <em>AR</em>",
- "nEmpresas": 12
+  "nome": "Grupo AR",
+  "nomeHtml": "Grupo <em>AR</em>",
+  "nEmpresas": 12
 }
