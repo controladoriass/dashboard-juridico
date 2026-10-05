@@ -7,7 +7,14 @@
         "nome": "Panorama Geral do Grupo",
         "proc": 385,
         "ativos": 190,
-        "encerrados": 195,
+        "encerrados": {
+          "2026": 1,
+          "2025": 105,
+          "2024": 24,
+          "2023": 21,
+          "2022": 43,
+          "2021": 1
+        },
         "procSub": 385,
         "areasSub": 7,
         "tribSub": 35,
@@ -98,22 +105,9 @@
           "2022": 118,
           "2021": 74
         },
-        "encerramentos": {
-          "2026": 1,
-          "2025": 105,
-          "2024": 24,
-          "2023": 21,
-          "2022": 43,
-          "2021": 1
-        },
-        "estoqueHl": {
-          "2021": 73,
-          "2022": 148,
-          "2023": 161,
-          "2024": 206,
-          "2025": 155,
-          "2026": 190
-        },
+        "estoqueHl": [
+          "2026"
+        ],
         "esforco": {
           "prazano": {
             "2021": 110,
@@ -302,7 +296,13 @@
         "nome": "Energia Erbs Indústria e Transporte Ltda",
         "proc": 176,
         "ativos": 109,
-        "encerrados": 67,
+        "encerrados": {
+          "2026": 1,
+          "2025": 40,
+          "2024": 5,
+          "2023": 12,
+          "2022": 9
+        },
         "area": {
           "Cível": 61,
           "Tributário": 54,
@@ -379,21 +379,9 @@
           "2022": 40,
           "2021": 17
         },
-        "encerramentos": {
-          "2026": 1,
-          "2025": 40,
-          "2024": 5,
-          "2023": 12,
-          "2022": 9
-        },
-        "estoqueHl": {
-          "2021": 17,
-          "2022": 48,
-          "2023": 56,
-          "2024": 86,
-          "2025": 87,
-          "2026": 109
-        },
+        "estoqueHl": [
+          "2026"
+        ],
         "esforco": {
           "prazano": {
             "2021": 30,
@@ -569,7 +557,13 @@
         "nome": "Botuverá Indústria e Comércio de Acumuladores e Componentes Eireli",
         "proc": 49,
         "ativos": 27,
-        "encerrados": 22,
+        "encerrados": {
+          "2022": 10,
+          "2025": 7,
+          "2024": 2,
+          "2023": 2,
+          "2021": 1
+        },
         "area": {
           "Cível": 40,
           "Tributário": 8,
@@ -616,21 +610,9 @@
           "2022": 29,
           "2021": 5
         },
-        "encerramentos": {
-          "2022": 10,
-          "2025": 7,
-          "2024": 2,
-          "2023": 2,
-          "2021": 1
-        },
-        "estoqueHl": {
-          "2021": 4,
-          "2022": 23,
-          "2023": 22,
-          "2024": 28,
-          "2025": 22,
-          "2026": 27
-        },
+        "estoqueHl": [
+          "2026"
+        ],
         "esforco": {
           "prazano": {
             "2021": 14,
@@ -749,7 +731,11 @@
         "nome": "Botuverá Transporte Rodoviário de Cargas e Recuperadora de Sucatas Ltda",
         "proc": 32,
         "ativos": 12,
-        "encerrados": 20,
+        "encerrados": {
+          "2025": 15,
+          "2022": 3,
+          "2023": 2
+        },
         "area": {
           "Ambiental": 1,
           "Trabalhista": 5,
@@ -797,18 +783,9 @@
           "2022": 10,
           "2021": 13
         },
-        "encerramentos": {
-          "2025": 15,
-          "2022": 3,
-          "2023": 2
-        },
-        "estoqueHl": {
-          "2021": 13,
-          "2022": 20,
-          "2023": 18,
-          "2024": 26,
-          "2025": 12
-        },
+        "estoqueHl": [
+          "2025"
+        ],
         "esforco": {
           "prazano": {
             "2021": 11,
@@ -911,7 +888,12 @@
         "nome": "Indústria e Comércio de Acumuladores e Componentes Motociclísticos Erbs Ltda",
         "proc": 44,
         "ativos": 21,
-        "encerrados": 23,
+        "encerrados": {
+          "2025": 10,
+          "2022": 8,
+          "2023": 1,
+          "2024": 4
+        },
         "area": {
           "Cível": 22,
           "Administrativo": 6,
@@ -967,20 +949,9 @@
           "2022": 15,
           "2021": 14
         },
-        "encerramentos": {
-          "2025": 10,
-          "2022": 8,
-          "2023": 1,
-          "2024": 4
-        },
-        "estoqueHl": {
-          "2021": 14,
-          "2022": 21,
-          "2023": 25,
-          "2024": 24,
-          "2025": 17,
-          "2026": 21
-        },
+        "estoqueHl": [
+          "2026"
+        ],
         "esforco": {
           "prazano": {
             "2021": 22,
@@ -1095,7 +1066,12 @@
         "nome": "Comércio de Baterias Erbs Ltda",
         "proc": 44,
         "ativos": 8,
-        "encerrados": 36,
+        "encerrados": {
+          "2025": 20,
+          "2024": 5,
+          "2023": 3,
+          "2022": 8
+        },
         "area": {
           "Tributário": 5,
           "Cível": 32,
@@ -1145,20 +1121,9 @@
           "2022": 12,
           "2021": 18
         },
-        "encerramentos": {
-          "2025": 20,
-          "2024": 5,
-          "2023": 3,
-          "2022": 8
-        },
-        "estoqueHl": {
-          "2021": 18,
-          "2022": 22,
-          "2023": 23,
-          "2024": 26,
-          "2025": 6,
-          "2026": 8
-        },
+        "estoqueHl": [
+          "2026"
+        ],
         "esforco": {
           "prazano": {
             "2021": 32,
@@ -1289,7 +1254,10 @@
         "nome": "Comércio de Baterias Erbs Tijucas Ltda",
         "proc": 9,
         "ativos": 4,
-        "encerrados": 5,
+        "encerrados": {
+          "2024": 4,
+          "2025": 1
+        },
         "area": {
           "Cível": 5,
           "Tributário": 4
@@ -1323,17 +1291,9 @@
           "2021": 1,
           "2026": 1
         },
-        "encerramentos": {
-          "2024": 4,
-          "2025": 1
-        },
-        "estoqueHl": {
-          "2021": 1,
-          "2022": 6,
-          "2024": 3,
-          "2025": 3,
-          "2026": 4
-        },
+        "estoqueHl": [
+          "2026"
+        ],
         "esforco": {
           "prazano": {
             "2022": 6,
@@ -1422,7 +1382,12 @@
         "nome": "Erbs Manutenção de Acumuladores Ltda",
         "proc": 17,
         "ativos": 5,
-        "encerrados": 12,
+        "encerrados": {
+          "2024": 3,
+          "2023": 1,
+          "2025": 4,
+          "2022": 4
+        },
         "area": {
           "Tributário": 2,
           "Administrativo": 2,
@@ -1466,19 +1431,9 @@
           "2022": 5,
           "2021": 5
         },
-        "encerramentos": {
-          "2024": 3,
-          "2023": 1,
-          "2025": 4,
-          "2022": 4
-        },
-        "estoqueHl": {
-          "2021": 5,
-          "2022": 6,
-          "2023": 8,
-          "2024": 8,
-          "2025": 5
-        },
+        "estoqueHl": [
+          "2025"
+        ],
         "esforco": {
           "prazano": {
             "2022": 79,
@@ -1582,15 +1537,14 @@
         "nome": "Tesla Serviços Contábeis e Administrativos Ltda",
         "proc": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {},
         "area": {},
         "uf": {},
         "tribunais": {},
         "instancia": {},
         "estoque": {},
         "entradas": {},
-        "encerramentos": {},
-        "estoqueHl": {},
+        "estoqueHl": [],
         "esforco": {
           "prazano": {},
           "audano": {},
@@ -1632,15 +1586,14 @@
         "nome": "EP Participações Societárias Ltda",
         "proc": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {},
         "area": {},
         "uf": {},
         "tribunais": {},
         "instancia": {},
         "estoque": {},
         "entradas": {},
-        "encerramentos": {},
-        "estoqueHl": {},
+        "estoqueHl": [],
         "esforco": {
           "prazano": {},
           "audano": {},
@@ -1682,15 +1635,14 @@
         "nome": "EP Participações Societárias SCP",
         "proc": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {},
         "area": {},
         "uf": {},
         "tribunais": {},
         "instancia": {},
         "estoque": {},
         "entradas": {},
-        "encerramentos": {},
-        "estoqueHl": {},
+        "estoqueHl": [],
         "esforco": {
           "prazano": {},
           "audano": {},
@@ -1732,7 +1684,7 @@
         "nome": "Holding Erbs Ltda",
         "proc": 2,
         "ativos": 2,
-        "encerrados": 0,
+        "encerrados": {},
         "area": {
           "Tributário": 2
         },
@@ -1751,10 +1703,9 @@
         "entradas": {
           "2025": 2
         },
-        "encerramentos": {},
-        "estoqueHl": {
-          "2025": 2
-        },
+        "estoqueHl": [
+          "2025"
+        ],
         "esforco": {
           "prazano": {},
           "audano": {},
@@ -1796,15 +1747,14 @@
         "nome": "Magicred Serviços de Cobranças Ltda",
         "proc": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {},
         "area": {},
         "uf": {},
         "tribunais": {},
         "instancia": {},
         "estoque": {},
         "entradas": {},
-        "encerramentos": {},
-        "estoqueHl": {},
+        "estoqueHl": [],
         "esforco": {
           "prazano": {
             "2025": 16
@@ -1850,7 +1800,7 @@
         "nome": "Praf Participações Ltda",
         "proc": 1,
         "ativos": 1,
-        "encerrados": 0,
+        "encerrados": {},
         "area": {
           "Cível": 1
         },
@@ -1869,10 +1819,9 @@
         "entradas": {
           "2025": 1
         },
-        "encerramentos": {},
-        "estoqueHl": {
-          "2025": 1
-        },
+        "estoqueHl": [
+          "2025"
+        ],
         "esforco": {
           "prazano": {},
           "audano": {},
@@ -1926,15 +1875,14 @@
         "nome": "Erbs Construtora Ltda",
         "proc": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {},
         "area": {},
         "uf": {},
         "tribunais": {},
         "instancia": {},
         "estoque": {},
         "entradas": {},
-        "encerramentos": {},
-        "estoqueHl": {},
+        "estoqueHl": [],
         "esforco": {
           "prazano": {
             "2025": 63,
@@ -2005,15 +1953,14 @@
         "nome": "Praf Erbs SPE Ltda",
         "proc": 0,
         "ativos": 0,
-        "encerrados": 0,
+        "encerrados": {},
         "area": {},
         "uf": {},
         "tribunais": {},
         "instancia": {},
         "estoque": {},
         "entradas": {},
-        "encerramentos": {},
-        "estoqueHl": {},
+        "estoqueHl": [],
         "esforco": {
           "prazano": {
             "2026": 6
@@ -2067,7 +2014,11 @@
         "nome": "Heivi Securitizadora S.A.",
         "proc": 11,
         "ativos": 1,
-        "encerrados": 10,
+        "encerrados": {
+          "2025": 8,
+          "2022": 1,
+          "2024": 1
+        },
         "area": {
           "Tributário": 1,
           "Cível": 10
@@ -2104,19 +2055,9 @@
           "2022": 2,
           "2021": 1
         },
-        "encerramentos": {
-          "2025": 8,
-          "2022": 1,
-          "2024": 1
-        },
-        "estoqueHl": {
-          "2021": 1,
-          "2022": 2,
-          "2023": 3,
-          "2024": 5,
-          "2025": 0,
-          "2026": 1
-        },
+        "estoqueHl": [
+          "2026"
+        ],
         "esforco": {
           "prazano": {
             "2021": 1,
