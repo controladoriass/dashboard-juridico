@@ -18,14 +18,14 @@
         "ativos": 105,
         "encerrados": {
           "2016": 1,
-          "2019": 7,
-          "2020": 29,
-          "2021": 21,
-          "2022": 13,
-          "2023": 7,
-          "2024": 4,
-          "2025": 19,
-          "2026": 2
+          "2019": 10,
+          "2020": 41,
+          "2021": 30,
+          "2022": 18,
+          "2023": 10,
+          "2024": 6,
+          "2025": 27,
+          "2026": 3
         },
         "areaTotal": 105,
         "estoque": {
@@ -204,12 +204,14 @@
             "2024": 318.7,
             "2025": 461.8,
             "2026": 374.2
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 101,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 146
     },
@@ -310,10 +312,12 @@
             "2024": 12.4,
             "2025": 48.2,
             "2026": 37.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -324,7 +328,7 @@
         "total": 4,
         "ativos": 3,
         "encerrados": {
-          "2025": 1
+          "2025": 2
         },
         "areaTotal": 3,
         "estoque": {
@@ -413,10 +417,12 @@
             "2024": 11.1,
             "2025": 20.0,
             "2026": 31.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 1
     },
@@ -469,10 +475,12 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "tractorpartsdistribu_": {
@@ -524,10 +532,12 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "rechimportadoraedist_": {
@@ -537,14 +547,14 @@
         "total": 188,
         "ativos": 69,
         "encerrados": {
-          "2016": 1,
-          "2019": 5,
-          "2020": 26,
-          "2021": 15,
-          "2022": 11,
-          "2023": 6,
-          "2024": 2,
-          "2025": 13,
+          "2016": 2,
+          "2019": 10,
+          "2020": 52,
+          "2021": 30,
+          "2022": 22,
+          "2023": 12,
+          "2024": 4,
+          "2025": 26,
           "2026": 1
         },
         "areaTotal": 69,
@@ -717,10 +727,12 @@
             "2024": 162.4,
             "2025": 191.0,
             "2026": 109.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 159
+        "encerradosTotal": 159,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 119
     },
@@ -731,13 +743,13 @@
         "total": 55,
         "ativos": 29,
         "encerrados": {
-          "2019": 2,
-          "2020": 3,
-          "2021": 6,
-          "2022": 2,
-          "2023": 1,
-          "2024": 2,
-          "2025": 5,
+          "2019": 4,
+          "2020": 6,
+          "2021": 11,
+          "2022": 4,
+          "2023": 2,
+          "2024": 4,
+          "2025": 10,
           "2026": 1
         },
         "areaTotal": 29,
@@ -908,10 +920,12 @@
             "2024": 132.8,
             "2025": 202.6,
             "2026": 195.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 42
+        "encerradosTotal": 42,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 26
     }

@@ -197,12 +197,14 @@
             "2024": 267.4,
             "2025": 298.1,
             "2026": 203.3
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 2,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 2,
       "_panorama": true
@@ -394,10 +396,12 @@
             "2024": 267.4,
             "2025": 298.1,
             "2026": 203.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 2
     }

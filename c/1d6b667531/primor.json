@@ -175,12 +175,14 @@
             "2024": 87.7,
             "2025": 158.1,
             "2026": 107.9
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 15,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "joaopereiraprimor_": {
@@ -226,10 +228,10 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": []
       },
       "encerradosTotal": 0,
       "_semProcessos": true
@@ -398,10 +400,12 @@
             "2024": 79.0,
             "2025": 139.5,
             "2026": 92.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 13
+        "encerradosTotal": 13,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 13
     },
@@ -478,10 +482,12 @@
           "horasano": {
             "2024": 0.3,
             "2025": 1.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 1
     },
@@ -574,10 +580,12 @@
             "2024": 8.4,
             "2025": 17.1,
             "2026": 15.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 1
     }

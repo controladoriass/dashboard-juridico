@@ -44,7 +44,7 @@
         },
         "polo": {
           "Polo ativo": 3,
-          "Outros": 1,
+          "Terceiro/Outros": 1,
           "Polo passivo": 1
         },
         "tribunais": {
@@ -134,12 +134,14 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 134.6
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "alexandrepastuchenca_": {
@@ -226,10 +228,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "italiacomercioedistr_": {
@@ -263,7 +267,7 @@
         },
         "polo": {
           "Polo ativo": 2,
-          "Outros": 1
+          "Terceiro/Outros": 1
         },
         "tribunais": {
           "TJSP": 1,
@@ -342,10 +346,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 57.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "cntcomercioltdaeasyc_": {
@@ -456,10 +462,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 77.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

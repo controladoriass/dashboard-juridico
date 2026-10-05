@@ -17,20 +17,20 @@
         "total": 94,
         "ativos": 65,
         "encerrados": {
+          "0224": 1,
           "2013": 1,
-          "2015": 3,
-          "2020": 6,
-          "2022": 5,
-          "2025": 1,
           "2014": 1,
-          "2019": 5,
-          "2021": 6,
-          "2026": 1,
+          "2015": 2,
           "2016": 1,
-          "2023": 6,
           "2017": 1,
-          "2024": 2,
-          "0224": 1
+          "2019": 4,
+          "2020": 4,
+          "2021": 4,
+          "2022": 4,
+          "2023": 4,
+          "2024": 1,
+          "2025": 1,
+          "2026": 0
         },
         "areaTotal": 65,
         "estoque": {
@@ -2016,12 +2016,14 @@
             "2022": 154.3,
             "2023": 312.0,
             "2024": 198.0
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 63,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "999"
+        ]
       }
     },
     "gfkhoteisltdakreibic_": {
@@ -2104,10 +2106,12 @@
           "horasano": {
             "2025": 4.8,
             "2026": 4.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "exportacaoimportacao_": {
@@ -2120,7 +2124,7 @@
           "2013": 1,
           "2015": 1,
           "2020": 1,
-          "2022": 1
+          "2022": 2
         },
         "areaTotal": 7,
         "estoque": {
@@ -2256,10 +2260,12 @@
             "2024": 11.9,
             "2025": 22.6,
             "2026": 54.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 5
+        "encerradosTotal": 5,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "fernandacamillekreib_": {
@@ -2362,10 +2368,12 @@
             "2024": 1.9,
             "2025": 7.6,
             "2026": 0.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "femaghoteiseppltdakr_": {
@@ -2555,10 +2563,12 @@
             "2024": 98.9,
             "2025": 125.7,
             "2026": 105.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "marcelokreibichkreib_": {
@@ -2568,12 +2578,12 @@
         "total": 28,
         "ativos": 11,
         "encerrados": {
-          "2014": 1,
-          "2015": 2,
-          "2019": 1,
-          "2020": 1,
-          "2021": 1,
-          "2026": 1
+          "2014": 3,
+          "2015": 7,
+          "2019": 3,
+          "2020": 3,
+          "2021": 3,
+          "2026": 4
         },
         "areaTotal": 11,
         "estoque": {
@@ -2728,10 +2738,12 @@
             "2024": 9.9,
             "2025": 32.3,
             "2026": 51.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 23
+        "encerradosTotal": 23,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "hotelibissinopkreibi_": {
@@ -2742,7 +2754,7 @@
         "ativos": 0,
         "encerrados": {
           "2016": 1,
-          "2023": 2
+          "2023": 3
         },
         "areaTotal": 0,
         "estoque": {
@@ -2831,10 +2843,12 @@
             "2023": 5.8,
             "2024": 1.5,
             "2025": 0.2
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 4
+        "encerradosTotal": 4,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "madeireirasucupiralt_": {
@@ -2846,8 +2860,8 @@
         "encerrados": {
           "2017": 1,
           "2020": 1,
-          "2022": 2,
-          "2023": 1
+          "2022": 3,
+          "2023": 2
         },
         "areaTotal": 2,
         "estoque": {
@@ -2967,10 +2981,12 @@
             "2024": 4.7,
             "2025": 9.5,
             "2026": 6.6
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 7
+        "encerradosTotal": 7,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "k2madeirasltdaeppkre_": {
@@ -2980,11 +2996,11 @@
         "total": 24,
         "ativos": 20,
         "encerrados": {
-          "2019": 3,
+          "2019": 4,
           "2020": 2,
-          "2021": 5,
+          "2021": 6,
           "2022": 2,
-          "2023": 3,
+          "2023": 4,
           "2024": 2
         },
         "areaTotal": 20,
@@ -3160,10 +3176,12 @@
             "2024": 65.2,
             "2025": 18.1,
             "2026": 19.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 20
+        "encerradosTotal": 20,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "administradoradebens_": {
@@ -3272,10 +3290,12 @@
           "horasano": {
             "2022": 5.9,
             "2023": 2.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "acassiamariadejesusk_": {
@@ -3384,10 +3404,12 @@
           "horasano": {
             "2024": 2.9,
             "2025": 0.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "carlosjosedeoliveira_": {
@@ -5276,10 +5298,12 @@
             "2022": 9.6,
             "2023": 25.0,
             "2024": 1.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 3
+        "encerradosTotal": 3,
+        "estoqueHl": [
+          "999"
+        ]
       }
     },
     "hotelariaaccorbrasil_": {
@@ -5359,10 +5383,12 @@
           "total": 0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

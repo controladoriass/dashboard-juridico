@@ -38,8 +38,8 @@
           "2º Grau": 1
         },
         "polo": {
-          "Passivo": 4,
-          "Ativo": 3
+          "Polo passivo": 4,
+          "Polo ativo": 3
         },
         "tribunais": {
           "TJSC": 6,
@@ -98,12 +98,14 @@
             "2025": 52.3,
             "2026": 44.9,
             "2024": 0.1
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2025"
+        ]
       }
     },
     "saboresdoceulanchone_": {
@@ -186,10 +188,12 @@
           "horasano": {
             "2025": 48.6,
             "2026": 38.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "marcioturcanosabores_": {
@@ -270,10 +274,12 @@
             "2024": 0.1,
             "2025": 3.7,
             "2026": 6.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "restaurantemtorreslt_": {
@@ -327,10 +333,12 @@
           "mediaAtivos": 0,
           "horasano": {
             "2026": 0.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

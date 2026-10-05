@@ -17,12 +17,12 @@
         "total": 119,
         "ativos": 99,
         "encerrados": {
-          "2014": 1,
-          "2015": 1,
-          "2019": 2,
-          "2020": 1,
-          "2022": 2,
-          "2025": 4,
+          "2014": 2,
+          "2015": 2,
+          "2019": 3,
+          "2020": 2,
+          "2022": 3,
+          "2025": 7,
           "2026": 1
         },
         "areaTotal": 99,
@@ -134,15 +134,17 @@
             "2024": 265.2,
             "2025": 469.7,
             "2026": 434.4
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 20,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 1685.1
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "ampempreendimentoslo_": {
@@ -152,12 +154,12 @@
         "total": 119,
         "ativos": 99,
         "encerrados": {
-          "2014": 1,
-          "2015": 1,
-          "2019": 2,
-          "2020": 1,
-          "2022": 2,
-          "2025": 4,
+          "2014": 2,
+          "2015": 2,
+          "2019": 3,
+          "2020": 2,
+          "2022": 3,
+          "2025": 7,
           "2026": 1
         },
         "areaTotal": 99,
@@ -269,15 +271,17 @@
             "2024": 265.2,
             "2025": 469.7,
             "2026": 434.4
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 20,
         "_panorama": true,
         "nome": "Amp Empreendimentos Logísticos LTDA",
         "kpiGrupo": {
           "kHoras": 1685.1
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

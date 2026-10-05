@@ -194,12 +194,14 @@
             "2024": 0.0,
             "2025": 1442.8,
             "2026": 3258.2
-          },
-          "_estimativa": true
+          }
         },
         "encerradosTotal": 132,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msincorporadorasamat_682208735": {
@@ -386,10 +388,12 @@
             "2024": 0.0,
             "2025": 1321.9,
             "2026": 2686.9
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 123
+        "encerradosTotal": 123,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msincorporadorasafil_682541420": {
@@ -476,10 +480,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msincorporadorasafil_682541481": {
@@ -566,10 +572,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mstropicaleresidence_682541588": {
@@ -656,10 +664,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "residencialhamburgom_682541562": {
@@ -746,10 +756,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "residencialmsspaziov_682541539": {
@@ -836,10 +848,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mspietraresidence_682541532": {
@@ -926,10 +940,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msdifioreresidence_682541522": {
@@ -1016,10 +1032,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mssmartportobeloempr_682541416": {
@@ -1134,10 +1152,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 34.8
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msvivendasdoatlantic_682541387": {
@@ -1258,10 +1278,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 43.1
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msbotanicalparkempre_682541386": {
@@ -1361,10 +1383,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 1.4
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mseasyuphouseempreen_682541385": {
@@ -1466,10 +1490,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 12.5
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "greencoastresidencee_682541378": {
@@ -1588,10 +1614,12 @@
             "2024": 0.0,
             "2025": 8.3,
             "2026": 30.6
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msliveresidenceempre_682541367": {
@@ -1681,10 +1709,12 @@
             "2024": 0.0,
             "2025": 9.7,
             "2026": 40.3
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 8
+        "encerradosTotal": 8,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msavivahresidenceclu_682541361": {
@@ -1774,10 +1804,12 @@
             "2024": 0.0,
             "2025": 16.7,
             "2026": 59.8
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 14
+        "encerradosTotal": 14,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msitajubaempreendime_682541359": {
@@ -1867,10 +1899,12 @@
             "2024": 0.0,
             "2025": 11.1,
             "2026": 75.1
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 10
+        "encerradosTotal": 10,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mssunvillagelifeempr_682541358": {
@@ -1957,10 +1991,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msreservaportobeloup_682541354": {
@@ -2047,10 +2083,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msjardimportobelouph_682541349": {
@@ -2137,10 +2175,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msvia406uphouseltda_682541343": {
@@ -2227,10 +2267,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "ms6ltda_682541339": {
@@ -2317,10 +2359,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msvivacittaempreendi_682541335": {
@@ -2409,10 +2453,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 13.9
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msbogotaempreendimen_682541331": {
@@ -2501,10 +2547,12 @@
             "2024": 0.0,
             "2025": 1.4,
             "2026": 26.4
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msnorthsoulhouseempr_682541328": {
@@ -2591,10 +2639,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msoneoceanempreendim_682541321": {
@@ -2683,10 +2733,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 11.1
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 3
+        "encerradosTotal": 3,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msriversideuphouselt_682541309": {
@@ -2775,10 +2827,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 6.9
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "msperequehomeparkemp_681587593": {
@@ -2943,10 +2997,12 @@
             "2024": 0.0,
             "2025": 72.3,
             "2026": 200.2
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 8
+        "encerradosTotal": 8,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "toscanaconstrucoeslt_683036335": {
@@ -3036,10 +3092,12 @@
             "2024": 0.0,
             "2025": 1.4,
             "2026": 6.9
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "alexandremelchiorett_685034885": {
@@ -3128,10 +3186,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 8.3
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "carlataynaradebrito_685082867": {
@@ -3218,10 +3278,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

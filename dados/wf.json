@@ -207,12 +207,14 @@
             "2024": 830.7,
             "2025": 1125.2,
             "2026": 974.5
-          },
-          "_estimativa": false
+          }
         },
         "_panorama": true,
         "encerradosTotal": 76,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "wff": {
@@ -328,9 +330,11 @@
             "2024": 645.7,
             "2025": 979.5,
             "2026": 816.2
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "wf": {
@@ -437,9 +441,11 @@
             "2024": 159.4,
             "2025": 113.4,
             "2026": 106.6
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "hasckel_hasckel": {
@@ -524,9 +530,11 @@
             "2024": 13.4,
             "2025": 18.9,
             "2026": 39.7
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "francisco_hasckel": {
@@ -621,9 +629,11 @@
             "2024": 11.0,
             "2025": 13.4,
             "2026": 10.8
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "hasckel_bens": {
@@ -682,9 +692,11 @@
             "2022": 1.9,
             "2023": 0.4,
             "2026": 1.2
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "willian_hasckel": {
@@ -758,9 +770,11 @@
           "mediaAtivos": 1.2,
           "horasano": {
             "2024": 1.2
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "perola_do_mar": {
@@ -817,9 +831,11 @@
           "mediaAtivos": 0,
           "horasano": {
             "2023": 11.6
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "elisete_hasckel": {
@@ -870,7 +886,10 @@
           "ativos": 0
         },
         "encerradosTotal": 0,
-        "_semProcessos": true
+        "_semProcessos": true,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "francisco_jr": {
@@ -921,7 +940,10 @@
           "ativos": 0
         },
         "encerradosTotal": 0,
-        "_semProcessos": true
+        "_semProcessos": true,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

@@ -18,16 +18,16 @@
         "ativos": 719,
         "encerrados": {
           "2013": 1,
-          "2015": 5,
+          "2015": 7,
           "2018": 1,
-          "2019": 12,
-          "2020": 2,
-          "2021": 4,
-          "2022": 4,
-          "2023": 6,
-          "2024": 8,
-          "2025": 4,
-          "2026": 2
+          "2019": 16,
+          "2020": 3,
+          "2021": 5,
+          "2022": 5,
+          "2023": 8,
+          "2024": 11,
+          "2025": 5,
+          "2026": 3
         },
         "areaTotal": 719,
         "estoque": {
@@ -264,13 +264,15 @@
             "2024": 2617.6,
             "2025": 2617.7,
             "2026": 1819.8
-          },
-          "_estimativa": true
+          }
         },
         "encerradosTotal": 36,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
-        "encerrados_total_calc": 65
+        "encerrados_total_calc": 65,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 65
     },
@@ -281,17 +283,17 @@
         "total": 638,
         "ativos": 575,
         "encerrados": {
-          "2013": 1,
-          "2015": 5,
-          "2018": 1,
-          "2019": 12,
-          "2020": 2,
-          "2021": 4,
-          "2022": 4,
-          "2023": 6,
-          "2024": 6,
-          "2025": 4,
-          "2026": 2
+          "2013": 2,
+          "2015": 8,
+          "2018": 2,
+          "2019": 20,
+          "2020": 3,
+          "2021": 7,
+          "2022": 7,
+          "2023": 10,
+          "2024": 10,
+          "2025": 7,
+          "2026": 1
         },
         "areaTotal": 575,
         "estoque": {
@@ -516,10 +518,12 @@
             "2024": 2069.7,
             "2025": 1937.7,
             "2026": 1298.3
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 77
+        "encerradosTotal": 77,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 62
     },
@@ -712,10 +716,12 @@
             "2024": 187.6,
             "2025": 233.5,
             "2026": 134.8
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "transportadorabinott_676009799": {
@@ -814,10 +820,12 @@
             "2024": 22.5,
             "2025": 22.5,
             "2026": 22.5
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "transportadorapapels_675934010": {
@@ -893,10 +901,12 @@
             "2024": 4.9,
             "2025": 4.9,
             "2026": 4.9
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "tecbaparticipacoesem_675891786": {
@@ -970,10 +980,12 @@
             "2024": 2.3,
             "2025": 2.3,
             "2026": 2.3
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "brasillogisticaparti_676007284": {
@@ -1032,10 +1044,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "emisaparticipacoesem_675934032": {
@@ -1109,10 +1123,12 @@
             "2024": 4.4,
             "2025": 4.4,
             "2026": 4.4
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "epbparticipacoesempr_675978577": {
@@ -1171,10 +1187,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "ebbparticipacoesempr_675918974": {
@@ -1233,10 +1251,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "auroraparticipacoess_675980555": {
@@ -1295,10 +1315,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "eebprodutosflorestai_675918955": {
@@ -1357,10 +1379,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "bbsbinottosolutionsl_2120515": {
@@ -1472,10 +1496,12 @@
             "2024": 25.9,
             "2025": 25.9,
             "2026": 25.9
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "binottorepresentacoe_677438780": {
@@ -1551,10 +1577,12 @@
             "2024": 1.6,
             "2025": 1.6,
             "2026": 1.6
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "leonardobinottobazzo_675892452": {
@@ -1613,10 +1641,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "laisbinottobazzo_675891785": {
@@ -1675,10 +1705,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "cristianelettimazzoc_2123139": {
@@ -1754,10 +1786,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "elizabethbinottobazz_2121862": {
@@ -1869,10 +1903,12 @@
             "2024": 60.0,
             "2025": 60.0,
             "2026": 60.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "thiagobinotto_3224308": {
@@ -1961,10 +1997,12 @@
             "2024": 1.8,
             "2025": 1.8,
             "2026": 1.8
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "brunomazzochibinotto_676940049": {
@@ -2023,10 +2061,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "andrebinotto_2121837": {
@@ -2112,10 +2152,12 @@
             "2024": 7.6,
             "2025": 7.6,
             "2026": 7.6
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "edemilsonpedrobinott_2361186": {
@@ -2243,10 +2285,12 @@
             "2024": 75.1,
             "2025": 75.1,
             "2026": 75.1
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "emiliobinotto_2122646": {
@@ -2354,10 +2398,12 @@
             "2024": 20.8,
             "2025": 20.8,
             "2026": 20.8
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "edilsonsergiobinotto_2122851": {
@@ -2558,10 +2604,12 @@
             "2024": 133.4,
             "2025": 219.6,
             "2026": 159.8
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     }

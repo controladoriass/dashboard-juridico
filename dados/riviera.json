@@ -18,11 +18,11 @@
         "ativos": 169,
         "encerrados": {
           "2020": 1,
-          "2022": 61,
-          "2023": 19,
-          "2024": 25,
-          "2025": 49,
-          "2026": 3
+          "2022": 69,
+          "2023": 21,
+          "2024": 28,
+          "2025": 55,
+          "2026": 4
         },
         "areaTotal": 169,
         "estoque": {
@@ -181,12 +181,14 @@
             "2024": 781.1,
             "2025": 1401.6,
             "2026": 1425.4
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 178,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "rivieraempreendiment_2123028": {
@@ -197,11 +199,11 @@
         "ativos": 167,
         "encerrados": {
           "2020": 1,
-          "2022": 60,
-          "2023": 19,
-          "2024": 24,
-          "2025": 47,
-          "2026": 3
+          "2022": 68,
+          "2023": 21,
+          "2024": 27,
+          "2025": 53,
+          "2026": 4
         },
         "areaTotal": 167,
         "estoque": {
@@ -360,10 +362,12 @@
             "2024": 764.0,
             "2025": 1361.2,
             "2026": 1401.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 174
+        "encerradosTotal": 174,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "edificiorivierabusin_2122832": {
@@ -446,10 +450,12 @@
             "2024": 11.2,
             "2025": 15.0,
             "2026": 24.4
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "efparticipacoes_677012464": {
@@ -501,10 +507,12 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "ef2participacoes_677012465": {
@@ -556,10 +564,12 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "lucianadalmolin_677012466": {
@@ -611,10 +621,12 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "evandroluisdalmolin_2123623": {
@@ -686,10 +698,12 @@
             "2023": 12.0,
             "2024": 5.9,
             "2025": 1.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "efadministracaoderec_677012467": {
@@ -759,10 +773,12 @@
           "mediaAtivos": 0,
           "horasano": {
             "2025": 24.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

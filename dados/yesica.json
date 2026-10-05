@@ -44,9 +44,9 @@
           "2º Grau": 1
         },
         "polo": {
-          "Passivo": 2,
-          "Ativo": 3,
-          "Outros": 1
+          "Polo passivo": 2,
+          "Polo ativo": 3,
+          "Terceiro/Outros": 1
         },
         "tribunais": {
           "TJSC": 2,
@@ -102,12 +102,14 @@
             "2026": 166.9,
             "2025": 172.4,
             "2024": 62.6
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 1,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "yesicavegacorretagem_2120240": {
@@ -195,10 +197,12 @@
             "2026": 90.5,
             "2025": 118.9,
             "2024": 51.2
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "yesicaelizabethvega_675860597": {
@@ -264,10 +268,12 @@
             "2026": 2.6,
             "2025": 21.4,
             "2024": 11.4
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "holdingpilargroupltd_679070784": {
@@ -339,10 +345,12 @@
           "horasano": {
             "2026": 73.8,
             "2025": 32.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

@@ -47,8 +47,8 @@
           "2º Grau": 6
         },
         "polo": {
-          "Ativo": 9,
-          "Passivo": 9
+          "Polo ativo": 9,
+          "Polo passivo": 9
         },
         "tribunais": {
           "TJSC": 12,
@@ -87,15 +87,17 @@
             "2024": 54.9,
             "2025": 134.2,
             "2026": 42.2
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 1,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 231.3
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "distribuidorapachavi_": {
@@ -134,8 +136,8 @@
           "2º Grau": 6
         },
         "polo": {
-          "Ativo": 9,
-          "Passivo": 9
+          "Polo ativo": 9,
+          "Polo passivo": 9
         },
         "tribunais": {
           "TJSC": 12,
@@ -174,10 +176,12 @@
             "2024": 54.9,
             "2025": 134.2,
             "2026": 42.2
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

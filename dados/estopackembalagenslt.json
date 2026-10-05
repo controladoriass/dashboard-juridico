@@ -51,8 +51,8 @@
           "Superiores": 2
         },
         "polo": {
-          "Ativo": 8,
-          "Passivo": 6
+          "Polo ativo": 8,
+          "Polo passivo": 6
         },
         "tribunais": {
           "TJSC": 9,
@@ -145,12 +145,14 @@
             "2024": 6.5,
             "2025": 135.3,
             "2026": 73.1
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 3,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "estopackembalagenslt_": {
@@ -194,8 +196,8 @@
           "Superiores": 2
         },
         "polo": {
-          "Ativo": 8,
-          "Passivo": 6
+          "Polo ativo": 8,
+          "Polo passivo": 6
         },
         "tribunais": {
           "TJSC": 9,
@@ -288,10 +290,12 @@
             "2024": 6.5,
             "2025": 135.3,
             "2026": 73.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 3
+        "encerradosTotal": 3,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

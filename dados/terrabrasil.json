@@ -200,12 +200,14 @@
             "2024": 407.3,
             "2025": 500.0,
             "2026": 712.7
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 30,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 30
     },
@@ -384,10 +386,12 @@
             "2024": 95.0,
             "2025": 78.3,
             "2026": 141.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 7
+        "encerradosTotal": 7,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 7
     },
@@ -492,10 +496,12 @@
             "2024": 5.1,
             "2025": 3.1,
             "2026": 0.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "rhariecomercioetrans_4034124": {
@@ -505,8 +511,8 @@
         "total": 14,
         "ativos": 9,
         "encerrados": {
-          "2025": 2,
-          "2026": 3
+          "2025": 1,
+          "2026": 1
         },
         "areaTotal": 9,
         "estoque": {
@@ -645,10 +651,12 @@
             "2024": 62.9,
             "2025": 36.2,
             "2026": 97.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 5
     },
@@ -758,10 +766,12 @@
             "2024": 9.4,
             "2025": 19.4,
             "2026": 19.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "rbsadministradoradeb_3805664": {
@@ -885,10 +895,12 @@
             "2024": 39.1,
             "2025": 123.4,
             "2026": 86.2
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 3
+        "encerradosTotal": 3,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "uniaofundacoes_2149784": {
@@ -1039,10 +1051,12 @@
             "2024": 175.3,
             "2025": 174.3,
             "2026": 137.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 7
+        "encerradosTotal": 7,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "robsonaureliodossant_3811925": {
@@ -1158,10 +1172,12 @@
             "2024": 1.3,
             "2025": 3.9,
             "2026": 0.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 4
+        "encerradosTotal": 4,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "rharierobsondesouzas_679005191": {
@@ -1312,10 +1328,12 @@
             "2024": 19.2,
             "2025": 61.4,
             "2026": 229.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 3
+        "encerradosTotal": 3,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 3
     },
@@ -1420,10 +1438,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

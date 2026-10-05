@@ -51,9 +51,9 @@
           "Superiores": 1
         },
         "polo": {
-          "Outros": 52,
-          "Ativo": 31,
-          "Passivo": 24
+          "Terceiro/Outros": 52,
+          "Polo ativo": 31,
+          "Polo passivo": 24
         },
         "tribunais": {
           "TJSC": 50,
@@ -154,11 +154,13 @@
           "horasano": {
             "2025": 935.3,
             "2026": 774.8
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 1,
-        "_panorama": true
+        "_panorama": true,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "_panorama": true
     },
@@ -306,10 +308,12 @@
           "horasano": {
             "2025": 935.3,
             "2026": 774.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 1
     }

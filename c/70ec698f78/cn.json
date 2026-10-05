@@ -395,8 +395,7 @@
             "2024": 527.3,
             "2025": 636.7,
             "2026": 359.4
-          },
-          "_estimativa": false
+          }
         }
       }
     },
@@ -471,8 +470,7 @@
           "horasano": {
             "2023": 1.0,
             "2026": 0.7
-          },
-          "_estimativa": false
+          }
         }
       }
     },
@@ -537,8 +535,7 @@
           "mediaAtivos": 0.0,
           "horasano": {
             "2022": 0.0
-          },
-          "_estimativa": false
+          }
         }
       }
     },
@@ -592,8 +589,7 @@
           "mediaAtivos": 0,
           "horasano": {
             "2026": 1.0
-          },
-          "_estimativa": false
+          }
         },
         "_semProcessos": true
       }
@@ -712,8 +708,7 @@
             "2024": 92.2,
             "2025": 92.5,
             "2026": 41.4
-          },
-          "_estimativa": false
+          }
         }
       }
     }

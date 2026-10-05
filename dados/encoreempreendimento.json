@@ -41,8 +41,8 @@
           "1º Grau": 2
         },
         "polo": {
-          "Outros": 1,
-          "Passivo": 1
+          "Terceiro/Outros": 1,
+          "Polo passivo": 1
         },
         "tribunais": {
           "TJMT": 1,
@@ -80,15 +80,17 @@
             "2024": 46.8,
             "2025": 5.5,
             "2026": 1.8
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 1,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 54.0
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "encoreempreendimento_": {
@@ -121,8 +123,8 @@
           "1º Grau": 2
         },
         "polo": {
-          "Outros": 1,
-          "Passivo": 1
+          "Terceiro/Outros": 1,
+          "Polo passivo": 1
         },
         "tribunais": {
           "TJMT": 1,
@@ -160,10 +162,12 @@
             "2024": 46.8,
             "2025": 5.5,
             "2026": 1.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

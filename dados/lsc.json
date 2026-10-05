@@ -17,10 +17,10 @@
         "total": 78,
         "ativos": 52,
         "encerrados": {
-          "2023": 2,
+          "2023": 3,
           "2024": 1,
-          "2025": 13,
-          "2026": 2
+          "2025": 19,
+          "2026": 3
         },
         "areaTotal": 52,
         "estoque": {
@@ -62,7 +62,7 @@
           "N/I": 2
         },
         "polo": {
-          "Passivo": 63,
+          "Polo passivo": 63,
           "Polo ativo": 11,
           "Terceiro/Outros": 4
         },
@@ -193,12 +193,14 @@
             "2024": 163.2,
             "2025": 165.9,
             "2026": 212.0
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 26,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "lscindustriaecomerci_683208995": {
@@ -244,11 +246,11 @@
           "total": 0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
         "encerradosTotal": 0,
-        "_semProcessos": true
+        "_semProcessos": true,
+        "estoqueHl": []
       }
     },
     "lscindustriaecomerci_683208988": {
@@ -294,11 +296,11 @@
           "total": 0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
         "encerradosTotal": 0,
-        "_semProcessos": true
+        "_semProcessos": true,
+        "estoqueHl": []
       }
     },
     "lscindustriaecomerci_2437953": {
@@ -308,10 +310,10 @@
         "total": 78,
         "ativos": 52,
         "encerrados": {
-          "2023": 2,
+          "2023": 3,
           "2024": 1,
-          "2025": 13,
-          "2026": 2
+          "2025": 19,
+          "2026": 3
         },
         "areaTotal": 52,
         "estoque": {
@@ -353,7 +355,7 @@
           "N/I": 2
         },
         "polo": {
-          "Passivo": 63,
+          "Polo passivo": 63,
           "Polo ativo": 11,
           "Terceiro/Outros": 4
         },
@@ -484,10 +486,12 @@
             "2024": 163.2,
             "2025": 165.9,
             "2026": 212.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 26
+        "encerradosTotal": 26,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

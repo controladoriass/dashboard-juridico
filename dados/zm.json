@@ -238,12 +238,14 @@
             "2024": 508.0,
             "2025": 911.4,
             "2026": 962.8
-          },
-          "_estimativa": true
+          }
         },
         "_panorama": true,
         "encerradosTotal": 72,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "zm": {
@@ -425,9 +427,11 @@
             "2024": 451.0,
             "2025": 809.2,
             "2026": 854.7
-          },
-          "_estimativa": true
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "cazen_adm": {
@@ -507,9 +511,11 @@
             "2024": 17.3,
             "2025": 31.1,
             "2026": 32.9
-          },
-          "_estimativa": true
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "alexandre_zen": {
@@ -589,9 +595,11 @@
             "2024": 5.0,
             "2025": 8.9,
             "2026": 9.4
-          },
-          "_estimativa": true
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "emanuele_zen": {
@@ -671,9 +679,11 @@
             "2024": 2.5,
             "2025": 4.4,
             "2026": 4.7
-          },
-          "_estimativa": true
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "cazen_part": {
@@ -753,9 +763,11 @@
             "2024": 2.5,
             "2025": 4.4,
             "2026": 4.7
-          },
-          "_estimativa": true
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "zm_fomento": {
@@ -806,7 +818,10 @@
           "ativos": 0
         },
         "encerradosTotal": 0,
-        "_semProcessos": true
+        "_semProcessos": true,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "emilio_souza": {
@@ -857,7 +872,10 @@
           "ativos": 0
         },
         "encerradosTotal": 0,
-        "_semProcessos": true
+        "_semProcessos": true,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "zzm_fomento": {
@@ -939,9 +957,11 @@
             "2024": 29.7,
             "2025": 53.4,
             "2026": 56.4
-          },
-          "_estimativa": true
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

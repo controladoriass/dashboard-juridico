@@ -184,12 +184,14 @@
             "2024": 54.0,
             "2025": 272.6,
             "2026": 105.0
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 2,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 2
     },
@@ -200,8 +202,8 @@
         "total": 91,
         "ativos": 89,
         "encerrados": {
-          "2025": 1,
-          "2026": 1
+          "2025": 4,
+          "2026": 3
         },
         "areaTotal": 89,
         "estoque": {
@@ -366,10 +368,12 @@
             "2024": 53.1,
             "2025": 272.6,
             "2026": 104.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 7
+        "encerradosTotal": 7,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 2
     },
@@ -453,10 +457,12 @@
             "2023": 1.2,
             "2024": 0.9,
             "2026": 0.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

@@ -144,12 +144,14 @@
             "2024": 64.4,
             "2025": 92.8,
             "2026": 93.1
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 9,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "c2construtoraeincorp_2123617": {
@@ -420,11 +422,13 @@
             "2024": 64.4,
             "2025": 92.8,
             "2026": 93.1
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 9,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

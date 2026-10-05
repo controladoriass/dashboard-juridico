@@ -133,12 +133,14 @@
             "2023": 841.2,
             "2022": 991.0,
             "2021": 32.3
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 3,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "jbnegociosimobiliari_": {
@@ -192,10 +194,12 @@
           "mediaAtivos": 0,
           "horasano": {
             "2026": 0.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "grupogoldenltdagolde_": {
@@ -255,10 +259,12 @@
             "2026": 1.0,
             "2025": 29.4,
             "2024": 0.2
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "imobiliariagoldenltd_": {
@@ -339,10 +345,12 @@
             "2025": 64.0,
             "2024": 41.8,
             "2023": 2.2
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "josuefigueiracaetano_": {
@@ -420,10 +428,12 @@
           "mediaAtivos": 1.9,
           "horasano": {
             "2023": 3.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "imobiliariagoldenpri_": {
@@ -509,10 +519,12 @@
             "2024": 22.8,
             "2023": 4.6,
             "2022": 10.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "goldenimoveisitapema_": {
@@ -571,10 +583,12 @@
             "2023": 830.5,
             "2022": 980.2,
             "2021": 32.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "josuebarbosagolden_": {
@@ -686,10 +700,12 @@
             "2026": 3.5,
             "2025": 0.9,
             "2024": 0.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

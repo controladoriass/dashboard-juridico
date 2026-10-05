@@ -92,15 +92,17 @@
             "2024": 75.5,
             "2025": 44.8,
             "2026": 27.0
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 256.4
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "brunaguerracarnielbl_": {
@@ -184,10 +186,12 @@
             "2024": 75.5,
             "2025": 44.8,
             "2026": 27.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

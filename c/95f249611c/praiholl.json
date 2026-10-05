@@ -147,12 +147,14 @@
             "2022": 0.4,
             "2025": 403.9,
             "2026": 420.2
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "praihollempreendimen_680630916": {
@@ -291,10 +293,12 @@
             "2022": 0.4,
             "2025": 339.2,
             "2026": 320.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "dubaimallphempreendi_682454260": {
@@ -398,10 +402,12 @@
           "horasano": {
             "2025": 64.7,
             "2026": 99.4
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

@@ -17,11 +17,11 @@
         "total": 21,
         "ativos": 7,
         "encerrados": {
-          "2014": 1,
-          "2020": 1,
-          "2021": 1,
-          "2025": 3,
-          "2026": 2
+          "2014": 2,
+          "2020": 2,
+          "2021": 2,
+          "2025": 5,
+          "2026": 3
         },
         "areaTotal": 7,
         "estoque": {
@@ -128,12 +128,14 @@
             "2024": 46.4,
             "2025": 17.6,
             "2026": 29.6
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 8,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 157.3,
@@ -157,13 +159,13 @@
         "total": 21,
         "ativos": 7,
         "encerrados": {
-          "2014": 1,
-          "2019": 1,
-          "2020": 1,
-          "2021": 1,
-          "2023": 3,
-          "2025": 4,
-          "2026": 2
+          "2014": 2,
+          "2019": 2,
+          "2020": 2,
+          "2021": 2,
+          "2023": 7,
+          "2025": 10,
+          "2026": 6
         },
         "areaTotal": 7,
         "estoque": {
@@ -272,10 +274,12 @@
             "2024": 46.4,
             "2025": 17.6,
             "2026": 29.6
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 31
+        "encerradosTotal": 31,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 157.3,
@@ -350,10 +354,12 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

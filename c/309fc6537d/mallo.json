@@ -45,9 +45,9 @@
           "2º Grau": 4
         },
         "polo": {
-          "Ativo": 23,
-          "Passivo": 5,
-          "Outros": 3
+          "Polo ativo": 23,
+          "Polo passivo": 5,
+          "Terceiro/Outros": 3
         },
         "tribunais": {
           "TJSC": 20,
@@ -147,12 +147,14 @@
             "2024": 208.2,
             "2025": 388.8,
             "2026": 203.3
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 8,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "noma1speltdamallon_684811608": {
@@ -206,10 +208,12 @@
           "mediaAtivos": 0,
           "horasano": {
             "2026": 0.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "nomaempreendimentosl_682374145": {
@@ -281,10 +285,12 @@
           "horasano": {
             "2025": 7.1,
             "2026": 4.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mfcacademialtdamallo_678933867": {
@@ -371,10 +377,12 @@
             "2024": 18.5,
             "2025": 33.3,
             "2026": 14.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "asmempreendimentoslt_677172861": {
@@ -426,10 +434,12 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "asmempreendimentoslt_677172846": {
@@ -487,10 +497,12 @@
           "mediaAtivos": 0,
           "horasano": {
             "2024": 0.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "ivoneteschiocchetmal_677172722": {
@@ -563,10 +575,12 @@
             "2024": 2.1,
             "2025": 25.3,
             "2026": 0.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "felipealbertoschiocc_677172707": {
@@ -640,10 +654,12 @@
           "horasano": {
             "2024": 18.7,
             "2025": 8.4
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "guilhermeadolfoschio_677172599": {
@@ -734,10 +750,12 @@
             "2024": 20.7,
             "2025": 18.6,
             "2026": 9.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mallonempreendimento_677050464": {
@@ -749,7 +767,7 @@
         "encerrados": {
           "2024": 2,
           "2025": 2,
-          "2026": 2
+          "2026": 3
         },
         "areaTotal": 11,
         "estoque": {
@@ -843,10 +861,12 @@
             "2024": 147.7,
             "2025": 296.1,
             "2026": 173.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 7
+        "encerradosTotal": 7,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

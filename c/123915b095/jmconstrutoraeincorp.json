@@ -37,8 +37,8 @@
           "2º Grau": 2
         },
         "polo": {
-          "Passivo": 4,
-          "Ativo": 3
+          "Polo passivo": 4,
+          "Polo ativo": 3
         },
         "tribunais": {
           "TRF4": 4,
@@ -113,12 +113,14 @@
           "total": 9.7,
           "media": 1.4,
           "mediaAtivos": 1.4,
-          "horasano": {},
-          "_estimativa": true
+          "horasano": {}
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 129.9,
@@ -238,10 +240,12 @@
           "total": 9.7,
           "media": 1.4,
           "mediaAtivos": 1.4,
-          "horasano": {},
-          "_estimativa": true
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 129.9,

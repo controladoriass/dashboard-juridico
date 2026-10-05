@@ -143,15 +143,17 @@
             "2024": 22.0,
             "2025": 125.8,
             "2026": 86.4
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 3,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 263.0
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "darlandiasdacosta_": {
@@ -286,10 +288,12 @@
             "2024": 22.0,
             "2025": 125.8,
             "2026": 86.4
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 3
+        "encerradosTotal": 3,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

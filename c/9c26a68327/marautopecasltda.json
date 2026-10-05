@@ -88,15 +88,17 @@
           "mediaAtivos": 7.7,
           "horasano": {
             "2024": 7.6
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 7.7
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "marautopecasltda_": {
@@ -176,10 +178,12 @@
           "mediaAtivos": 7.7,
           "horasano": {
             "2024": 7.6
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

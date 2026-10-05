@@ -1,432 +1,438 @@
 {
- "kpiGrupo": {
-  "proc": 15,
-  "ativos": 11,
-  "areas": 2,
-  "trib": 5,
-  "procSub": "11 ativos · 4 encerrados",
-  "areasSub": "Cível, Tributário",
-  "tribSub": "TJSC, TJRS, TJSP",
-  "encerrados": 4
- },
- "empresas": {
-  "_panorama": {
-   "nome": "Panorama Geral do Grupo",
-   "_idCliente": 676006996,
-   "dataset": {
-    "total": 15,
+  "kpiGrupo": {
+    "proc": 15,
     "ativos": 11,
-    "encerrados": {
-     "2024": 3,
-     "2025": 1
-    },
-    "areaTotal": 11,
-    "estoque": {
-     "2022": 2,
-     "2023": 4,
-     "2024": 8,
-     "2025": 10,
-     "2026": 11
-    },
-    "entradas": {
-     "2022": 2,
-     "2023": 2,
-     "2024": 7,
-     "2025": 3,
-     "2026": 1
-    },
-    "area": {
-     "Cível": 8,
-     "Tributário": 3
-    },
-    "uf": {
-     "SC": 3,
-     "RS": 3,
-     "SP": 2,
-     "MG": 1,
-     "DF": 1,
-     "MT": 1
-    },
-    "instancia": {
-     "1º Grau": 9,
-     "2º Grau": 2
-    },
-    "polo": {
-     "Polo ativo": 8,
-     "Polo passivo": 3
-    },
-    "tribunais": {
-     "TJSC": 3,
-     "TJRS": 3,
-     "TJSP": 2,
-     "TRF1": 2,
-     "TJMG": 1
-    },
-    "ranking": [
-     [
-      "FABIO HARTURO DI BIANCHI",
-      2
-     ],
-     [
-      "MARCELO NOGUEIRA CARREIRA",
-      2
-     ],
-     [
-      "DELEGADO DA RECEITA FEDERAL DO BRASIL EM CUIABÁ/MT",
-      2
-     ],
-     [
-      "BHB MONTAGENS PARA EVENTOS PROMOCIONAIS LTDA",
-      1
-     ],
-     [
-      "ECOTEC ENERGY HORTENSIAS LTDA",
-      1
-     ],
-     [
-      "GERENTE DA 2ª GERÊNCIA REGIONAL DA FAZENDA ESTADUAL - ESTADO DE SANTA CATARINA - ITAJAÍ",
-      1
-     ],
-     [
-      "CERAMICA BARRENSE LTDA",
-      1
-     ],
-     [
-      "ECOTEC ENERGY LTDA",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 15,
-     "ativos": 11,
-     "areas": 2,
-     "trib": 5,
-     "procSub": "11 ativos · 4 encerrados",
-     "areasSub": "Cível, Tributário",
-     "tribSub": "TJSC, TJRS, TJSP"
-    },
-    "esforco": {
-     "comProducao": 15,
-     "tramitacaoDias": 787,
-     "prazano": {
-      "2021": 0,
-      "2022": 3,
-      "2023": 20,
-      "2024": 65,
-      "2025": 66,
-      "2026": 57
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 2,
-      "2025": 1,
-      "2026": 2
-     },
-     "tarefano": {
-      "2021": 0,
-      "2022": 6,
-      "2023": 25,
-      "2024": 67,
-      "2025": 60,
-      "2026": 41
-     },
-     "atividades": {
-      "Prazos": 211,
-      "Audiências": 5,
-      "Reuniões e Diligências": 199
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 8,
-      "2024": 82,
-      "2025": 63,
-      "2026": 40
-     }
-    },
-    "horas": {
-     "total": 676.9,
-     "media": 45.1,
-     "mediaAtivos": 61.5,
-     "horasano": {
-      "2023": 73.6,
-      "2024": 207.4,
-      "2025": 200.7,
-      "2026": 173.0,
-      "2022": 22.1
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 4,
-    "_panorama": true,
-    "nome": "Panorama Geral do Grupo"
-   }
+    "areas": 2,
+    "trib": 5,
+    "procSub": "11 ativos · 4 encerrados",
+    "areasSub": "Cível, Tributário",
+    "tribSub": "TJSC, TJRS, TJSP",
+    "encerrados": 4
   },
-  "dynamisimportadoraed_676006996": {
-   "nome": "Dynamis Importadora e Distribuidora LTDA - Dynamis",
-   "_idCliente": 676006996,
-   "dataset": {
-    "total": 8,
-    "ativos": 6,
-    "encerrados": {
-     "2024": 1,
-     "2025": 1
+  "empresas": {
+    "_panorama": {
+      "nome": "Panorama Geral do Grupo",
+      "_idCliente": 676006996,
+      "dataset": {
+        "total": 15,
+        "ativos": 11,
+        "encerrados": {
+          "2024": 3,
+          "2025": 1
+        },
+        "areaTotal": 11,
+        "estoque": {
+          "2022": 2,
+          "2023": 4,
+          "2024": 8,
+          "2025": 10,
+          "2026": 11
+        },
+        "entradas": {
+          "2022": 2,
+          "2023": 2,
+          "2024": 7,
+          "2025": 3,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 8,
+          "Tributário": 3
+        },
+        "uf": {
+          "SC": 3,
+          "RS": 3,
+          "SP": 2,
+          "MG": 1,
+          "DF": 1,
+          "MT": 1
+        },
+        "instancia": {
+          "1º Grau": 9,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 8,
+          "Polo passivo": 3
+        },
+        "tribunais": {
+          "TJSC": 3,
+          "TJRS": 3,
+          "TJSP": 2,
+          "TRF1": 2,
+          "TJMG": 1
+        },
+        "ranking": [
+          [
+            "FABIO HARTURO DI BIANCHI",
+            2
+          ],
+          [
+            "MARCELO NOGUEIRA CARREIRA",
+            2
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL DO BRASIL EM CUIABÁ/MT",
+            2
+          ],
+          [
+            "BHB MONTAGENS PARA EVENTOS PROMOCIONAIS LTDA",
+            1
+          ],
+          [
+            "ECOTEC ENERGY HORTENSIAS LTDA",
+            1
+          ],
+          [
+            "GERENTE DA 2ª GERÊNCIA REGIONAL DA FAZENDA ESTADUAL - ESTADO DE SANTA CATARINA - ITAJAÍ",
+            1
+          ],
+          [
+            "CERAMICA BARRENSE LTDA",
+            1
+          ],
+          [
+            "ECOTEC ENERGY LTDA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 15,
+          "ativos": 11,
+          "areas": 2,
+          "trib": 5,
+          "procSub": "11 ativos · 4 encerrados",
+          "areasSub": "Cível, Tributário",
+          "tribSub": "TJSC, TJRS, TJSP"
+        },
+        "esforco": {
+          "comProducao": 15,
+          "tramitacaoDias": 787,
+          "prazano": {
+            "2021": 0,
+            "2022": 3,
+            "2023": 20,
+            "2024": 65,
+            "2025": 66,
+            "2026": 57
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 2,
+            "2025": 1,
+            "2026": 2
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 6,
+            "2023": 25,
+            "2024": 67,
+            "2025": 60,
+            "2026": 41
+          },
+          "atividades": {
+            "Prazos": 211,
+            "Audiências": 5,
+            "Reuniões e Diligências": 199
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 8,
+            "2024": 82,
+            "2025": 63,
+            "2026": 40
+          }
+        },
+        "horas": {
+          "total": 676.9,
+          "media": 45.1,
+          "mediaAtivos": 61.5,
+          "horasano": {
+            "2023": 73.6,
+            "2024": 207.4,
+            "2025": 200.7,
+            "2026": 173.0,
+            "2022": 22.1
+          }
+        },
+        "encerradosTotal": 4,
+        "_panorama": true,
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
+      }
     },
-    "areaTotal": 6,
-    "estoque": {
-     "2022": 0,
-     "2023": 1,
-     "2024": 4,
-     "2025": 5,
-     "2026": 6
+    "dynamisimportadoraed_676006996": {
+      "nome": "Dynamis Importadora e Distribuidora LTDA - Dynamis",
+      "_idCliente": 676006996,
+      "dataset": {
+        "total": 8,
+        "ativos": 6,
+        "encerrados": {
+          "2024": 1,
+          "2025": 1
+        },
+        "areaTotal": 6,
+        "estoque": {
+          "2022": 0,
+          "2023": 1,
+          "2024": 4,
+          "2025": 5,
+          "2026": 6
+        },
+        "entradas": {
+          "2023": 1,
+          "2024": 4,
+          "2025": 2,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 6
+        },
+        "uf": {
+          "SP": 2,
+          "SC": 2,
+          "MG": 1,
+          "RS": 1
+        },
+        "instancia": {
+          "1º Grau": 6
+        },
+        "polo": {
+          "Polo passivo": 3,
+          "Polo ativo": 3
+        },
+        "tribunais": {
+          "TJSP": 2,
+          "TJSC": 2,
+          "TJMG": 1,
+          "TJRS": 1
+        },
+        "ranking": [
+          [
+            "FABIO HARTURO DI BIANCHI",
+            2
+          ],
+          [
+            "MARCELO NOGUEIRA CARREIRA",
+            2
+          ],
+          [
+            "BHB MONTAGENS PARA EVENTOS PROMOCIONAIS LTDA",
+            1
+          ],
+          [
+            "ECOTEC ENERGY HORTENSIAS LTDA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 8,
+          "ativos": 6,
+          "areas": 1,
+          "trib": 4,
+          "procSub": "6 ativos · 2 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSP, TJSC, TJMG"
+        },
+        "esforco": {
+          "comProducao": 8,
+          "tramitacaoDias": 586,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 7,
+            "2024": 42,
+            "2025": 40,
+            "2026": 42
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 2,
+            "2025": 19,
+            "2026": 12
+          },
+          "atividades": {
+            "Prazos": 131,
+            "Audiências": 0,
+            "Reuniões e Diligências": 33
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 2,
+            "2025": 10,
+            "2026": 11
+          }
+        },
+        "horas": {
+          "total": 252.6,
+          "media": 31.6,
+          "mediaAtivos": 42.1,
+          "horasano": {
+            "2023": 10.6,
+            "2024": 53.7,
+            "2025": 101.2,
+            "2026": 87.1
+          }
+        },
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
+      }
     },
-    "entradas": {
-     "2023": 1,
-     "2024": 4,
-     "2025": 2,
-     "2026": 1
-    },
-    "area": {
-     "Cível": 6
-    },
-    "uf": {
-     "SP": 2,
-     "SC": 2,
-     "MG": 1,
-     "RS": 1
-    },
-    "instancia": {
-     "1º Grau": 6
-    },
-    "polo": {
-     "Polo passivo": 3,
-     "Polo ativo": 3
-    },
-    "tribunais": {
-     "TJSP": 2,
-     "TJSC": 2,
-     "TJMG": 1,
-     "TJRS": 1
-    },
-    "ranking": [
-     [
-      "FABIO HARTURO DI BIANCHI",
-      2
-     ],
-     [
-      "MARCELO NOGUEIRA CARREIRA",
-      2
-     ],
-     [
-      "BHB MONTAGENS PARA EVENTOS PROMOCIONAIS LTDA",
-      1
-     ],
-     [
-      "ECOTEC ENERGY HORTENSIAS LTDA",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 8,
-     "ativos": 6,
-     "areas": 1,
-     "trib": 4,
-     "procSub": "6 ativos · 2 encerrados",
-     "areasSub": "Cível",
-     "tribSub": "TJSP, TJSC, TJMG"
-    },
-    "esforco": {
-     "comProducao": 8,
-     "tramitacaoDias": 586,
-     "prazano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 7,
-      "2024": 42,
-      "2025": 40,
-      "2026": 42
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     },
-     "tarefano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 2,
-      "2025": 19,
-      "2026": 12
-     },
-     "atividades": {
-      "Prazos": 131,
-      "Audiências": 0,
-      "Reuniões e Diligências": 33
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 2,
-      "2025": 10,
-      "2026": 11
-     }
-    },
-    "horas": {
-     "total": 252.6,
-     "media": 31.6,
-     "mediaAtivos": 42.1,
-     "horasano": {
-      "2023": 10.6,
-      "2024": 53.7,
-      "2025": 101.2,
-      "2026": 87.1
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 2
-   }
+    "dynamisimportadoralt_2436561": {
+      "nome": "Dynamis Importadora LTDA - Dynamis",
+      "_idCliente": 2436561,
+      "dataset": {
+        "total": 7,
+        "ativos": 5,
+        "encerrados": {
+          "2024": 2
+        },
+        "areaTotal": 5,
+        "estoque": {
+          "2022": 2,
+          "2023": 3,
+          "2024": 4,
+          "2025": 5,
+          "2026": 5
+        },
+        "entradas": {
+          "2022": 2,
+          "2023": 1,
+          "2024": 3,
+          "2025": 1
+        },
+        "area": {
+          "Tributário": 3,
+          "Cível": 2
+        },
+        "uf": {
+          "RS": 2,
+          "SC": 1,
+          "DF": 1,
+          "MT": 1
+        },
+        "instancia": {
+          "1º Grau": 3,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 5
+        },
+        "tribunais": {
+          "TJRS": 2,
+          "TRF1": 2,
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "DELEGADO DA RECEITA FEDERAL DO BRASIL EM CUIABÁ/MT",
+            2
+          ],
+          [
+            "GERENTE DA 2ª GERÊNCIA REGIONAL DA FAZENDA ESTADUAL - ESTADO DE SANTA CATARINA - ITAJAÍ",
+            1
+          ],
+          [
+            "CERAMICA BARRENSE LTDA",
+            1
+          ],
+          [
+            "ECOTEC ENERGY LTDA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 7,
+          "ativos": 5,
+          "areas": 2,
+          "trib": 3,
+          "procSub": "5 ativos · 2 encerrados",
+          "areasSub": "Tributário, Cível",
+          "tribSub": "TJRS, TRF1, TJSC"
+        },
+        "esforco": {
+          "comProducao": 7,
+          "tramitacaoDias": 1028,
+          "prazano": {
+            "2021": 0,
+            "2022": 3,
+            "2023": 13,
+            "2024": 23,
+            "2025": 26,
+            "2026": 15
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 2,
+            "2025": 1,
+            "2026": 2
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 6,
+            "2023": 25,
+            "2024": 65,
+            "2025": 41,
+            "2026": 29
+          },
+          "atividades": {
+            "Prazos": 80,
+            "Audiências": 5,
+            "Reuniões e Diligências": 166
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 8,
+            "2024": 80,
+            "2025": 53,
+            "2026": 29
+          }
+        },
+        "horas": {
+          "total": 424.3,
+          "media": 60.6,
+          "mediaAtivos": 84.9,
+          "horasano": {
+            "2022": 22.1,
+            "2023": 63.0,
+            "2024": 153.7,
+            "2025": 99.5,
+            "2026": 85.9
+          }
+        },
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
+      }
+    }
   },
-  "dynamisimportadoralt_2436561": {
-   "nome": "Dynamis Importadora LTDA - Dynamis",
-   "_idCliente": 2436561,
-   "dataset": {
-    "total": 7,
-    "ativos": 5,
-    "encerrados": {
-     "2024": 2
-    },
-    "areaTotal": 5,
-    "estoque": {
-     "2022": 2,
-     "2023": 3,
-     "2024": 4,
-     "2025": 5,
-     "2026": 5
-    },
-    "entradas": {
-     "2022": 2,
-     "2023": 1,
-     "2024": 3,
-     "2025": 1
-    },
-    "area": {
-     "Tributário": 3,
-     "Cível": 2
-    },
-    "uf": {
-     "RS": 2,
-     "SC": 1,
-     "DF": 1,
-     "MT": 1
-    },
-    "instancia": {
-     "1º Grau": 3,
-     "2º Grau": 2
-    },
-    "polo": {
-     "Polo ativo": 5
-    },
-    "tribunais": {
-     "TJRS": 2,
-     "TRF1": 2,
-     "TJSC": 1
-    },
-    "ranking": [
-     [
-      "DELEGADO DA RECEITA FEDERAL DO BRASIL EM CUIABÁ/MT",
-      2
-     ],
-     [
-      "GERENTE DA 2ª GERÊNCIA REGIONAL DA FAZENDA ESTADUAL - ESTADO DE SANTA CATARINA - ITAJAÍ",
-      1
-     ],
-     [
-      "CERAMICA BARRENSE LTDA",
-      1
-     ],
-     [
-      "ECOTEC ENERGY LTDA",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 7,
-     "ativos": 5,
-     "areas": 2,
-     "trib": 3,
-     "procSub": "5 ativos · 2 encerrados",
-     "areasSub": "Tributário, Cível",
-     "tribSub": "TJRS, TRF1, TJSC"
-    },
-    "esforco": {
-     "comProducao": 7,
-     "tramitacaoDias": 1028,
-     "prazano": {
-      "2021": 0,
-      "2022": 3,
-      "2023": 13,
-      "2024": 23,
-      "2025": 26,
-      "2026": 15
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 2,
-      "2025": 1,
-      "2026": 2
-     },
-     "tarefano": {
-      "2021": 0,
-      "2022": 6,
-      "2023": 25,
-      "2024": 65,
-      "2025": 41,
-      "2026": 29
-     },
-     "atividades": {
-      "Prazos": 80,
-      "Audiências": 5,
-      "Reuniões e Diligências": 166
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 8,
-      "2024": 80,
-      "2025": 53,
-      "2026": 29
-     }
-    },
-    "horas": {
-     "total": 424.3,
-     "media": 60.6,
-     "mediaAtivos": 84.9,
-     "horasano": {
-      "2022": 22.1,
-      "2023": 63.0,
-      "2024": 153.7,
-      "2025": 99.5,
-      "2026": 85.9
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 2
-   }
-  }
- },
- "nome": "Grupo Dynamis",
- "nomeHtml": "Grupo <em>Dynamis</em>",
- "nEmpresas": 2
+  "nome": "Grupo Dynamis",
+  "nomeHtml": "Grupo <em>Dynamis</em>",
+  "nEmpresas": 2
 }

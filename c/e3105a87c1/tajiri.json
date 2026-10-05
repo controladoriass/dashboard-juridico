@@ -193,12 +193,14 @@
             "2024": 117.9,
             "2025": 97.0,
             "2026": 112.5
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 4,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "itajaicomerciodeveic_2230415": {
@@ -371,10 +373,12 @@
             "2024": 30.0,
             "2025": 3.9,
             "2026": 0.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "nipponcomerciodeveic_2121570": {
@@ -492,10 +496,12 @@
             "2024": 0.0,
             "2025": 6.5,
             "2026": 24.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "gfempreendimentosimo_2120257": {
@@ -638,10 +644,12 @@
             "2024": 36.8,
             "2025": 42.0,
             "2026": 56.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 2
     },
@@ -752,10 +760,12 @@
             "2024": 14.9,
             "2025": 8.7,
             "2026": 17.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "gilbertokochirotajir_2305560": {
@@ -859,10 +869,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "diegotajiri_2125098": {
@@ -990,10 +1002,12 @@
             "2024": 16.5,
             "2025": 14.0,
             "2026": 4.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "gabrielaisauratajiri_2123430": {
@@ -1100,10 +1114,12 @@
             "2024": 19.7,
             "2025": 21.9,
             "2026": 2.4
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "yurikuwanotajiri_677180049": {
@@ -1190,10 +1206,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "teresacristinalopest_677180059": {
@@ -1297,10 +1315,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 6.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "keiladaianedosanjos_677180063": {
@@ -1387,10 +1407,12 @@
             "2024": 0.0,
             "2025": 0.0,
             "2026": 0.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

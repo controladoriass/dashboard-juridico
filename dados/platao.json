@@ -96,12 +96,14 @@
             "2023": 2.7,
             "2025": 169.4,
             "2026": 133.2
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "katafigosparticipaco_681045484": {
@@ -168,10 +170,12 @@
           "horasano": {
             "2025": 0.6,
             "2026": 0.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -246,10 +250,12 @@
             "2023": 2.7,
             "2025": 128.8,
             "2026": 67.6
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -305,11 +311,13 @@
           "horasano": {
             "2025": 3.8,
             "2026": 6.2
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
-        "_semProcessos": true
+        "_semProcessos": true,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0,
       "_semProcessos": true
@@ -377,10 +385,12 @@
           "horasano": {
             "2025": 29.7,
             "2026": 28.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -458,10 +468,12 @@
           "horasano": {
             "2025": 6.5,
             "2026": 30.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     }

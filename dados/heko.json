@@ -17,9 +17,9 @@
         "total": 79,
         "ativos": 70,
         "encerrados": {
-          "2019": 5,
+          "2019": 6,
           "2024": 1,
-          "2025": 1
+          "2025": 2
         },
         "areaTotal": 70,
         "estoque": {
@@ -69,9 +69,9 @@
           "Superiores": 1
         },
         "polo": {
-          "Passivo": 34,
-          "Outros": 15,
-          "Ativo": 30
+          "Polo passivo": 34,
+          "Terceiro/Outros": 15,
+          "Polo ativo": 30
         },
         "tribunais": {
           "TJSC": 50,
@@ -175,15 +175,17 @@
             "2024": 123.8,
             "2025": 110.5,
             "2026": 66.0
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 7,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 555.4
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "hekocientificaprodut_2123474": {
@@ -331,10 +333,12 @@
           "total": 0,
           "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 3
+        "encerradosTotal": 3,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "quimilaborcomerciode_2122222": {
@@ -344,7 +348,7 @@
         "total": 19,
         "ativos": 15,
         "encerrados": {
-          "2019": 2,
+          "2019": 3,
           "2024": 1
         },
         "areaTotal": 15,
@@ -433,10 +437,12 @@
           "total": 0,
           "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 4
+        "encerradosTotal": 4,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "portaldiagnosticocom_2120069": {
@@ -559,10 +565,12 @@
           "total": 0,
           "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "pontualsuportetecnic_2124136": {
@@ -643,10 +651,12 @@
           "total": 0,
           "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "parisiopauloandrade_2122293": {
@@ -753,10 +763,12 @@
           "total": 0,
           "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "julianamacedoandrade_2118790": {
@@ -831,10 +843,12 @@
           "total": 0,
           "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

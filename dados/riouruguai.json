@@ -75,12 +75,14 @@
           "horasano": {
             "2026": 9.0,
             "2025": 5.9
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 2,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "riouruguaideempresas_682986508": {
@@ -145,10 +147,12 @@
           "mediaAtivos": 3.7,
           "horasano": {
             "2026": 7.5
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 7.7,
@@ -215,10 +219,12 @@
           "mediaAtivos": 0,
           "horasano": {
             "2025": 1.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 5.3,
@@ -286,10 +292,12 @@
           "mediaAtivos": 0,
           "horasano": {
             "2025": 2.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 2.0,

@@ -47,8 +47,8 @@
           "N/I": 2
         },
         "polo": {
-          "Passivo": 4,
-          "Ativo": 3
+          "Polo passivo": 4,
+          "Polo ativo": 3
         },
         "tribunais": {
           "OUTROS": 6,
@@ -124,12 +124,14 @@
             "2024": 2.78,
             "2025": 10.43,
             "2026": 4.25
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "obaobarestaurantebar_": {
@@ -169,8 +171,8 @@
           "N/I": 2
         },
         "polo": {
-          "Passivo": 4,
-          "Ativo": 3
+          "Polo passivo": 4,
+          "Polo ativo": 3
         },
         "tribunais": {
           "OUTROS": 6,
@@ -246,10 +248,12 @@
             "2024": 2.78,
             "2025": 10.43,
             "2026": 4.25
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

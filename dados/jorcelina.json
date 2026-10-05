@@ -48,7 +48,7 @@
         "polo": {
           "Terceiro/Outros": 12,
           "Polo ativo": 4,
-          "Passivo": 2
+          "Polo passivo": 2
         },
         "tribunais": {
           "TJSC": 11,
@@ -117,12 +117,14 @@
             "2024": 48.9,
             "2025": 155.3,
             "2026": 106.3
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "claudineidesouzapart_": {
@@ -193,10 +195,12 @@
           "mediaAtivos": 1.0,
           "horasano": {
             "2024": 3.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "robertadasilvadoprad_": {
@@ -286,10 +290,12 @@
             "2024": 31.2,
             "2025": 115.9,
             "2026": 77.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "luisantoniodopradojo_": {
@@ -324,7 +330,7 @@
         },
         "polo": {
           "Polo ativo": 1,
-          "Passivo": 1
+          "Polo passivo": 1
         },
         "tribunais": {
           "TJSC": 1,
@@ -371,10 +377,12 @@
             "2024": 7.1,
             "2025": 32.8,
             "2026": 28.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "jorcelinadasilvaltda_": {
@@ -408,7 +416,7 @@
         },
         "polo": {
           "Polo ativo": 2,
-          "Passivo": 1
+          "Polo passivo": 1
         },
         "tribunais": {
           "TRT12": 2,
@@ -455,10 +463,12 @@
             "2024": 7.6,
             "2025": 6.6,
             "2026": 0.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

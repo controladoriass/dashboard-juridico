@@ -171,12 +171,14 @@
           "horasano": {
             "2025": 190.7,
             "2026": 375.3
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -274,10 +276,12 @@
           "horasano": {
             "2025": 10.6,
             "2026": 14.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -442,10 +446,12 @@
           "horasano": {
             "2025": 180.1,
             "2026": 360.4
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     }

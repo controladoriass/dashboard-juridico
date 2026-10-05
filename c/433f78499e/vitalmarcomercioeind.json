@@ -43,9 +43,9 @@
           "Superiores": 1
         },
         "polo": {
-          "Ativo": 23,
-          "Outros": 7,
-          "Passivo": 5
+          "Polo ativo": 23,
+          "Terceiro/Outros": 7,
+          "Polo passivo": 5
         },
         "tribunais": {
           "TJSC": 26,
@@ -148,12 +148,14 @@
             "2024": 0.0,
             "2025": 111.7,
             "2026": 244.0
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 4,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "vitalmarcomercioeind_": {
@@ -295,10 +297,12 @@
             "2024": 0.0,
             "2025": 111.7,
             "2026": 244.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 4
+        "encerradosTotal": 4,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

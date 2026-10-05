@@ -98,12 +98,14 @@
           "horasano": {
             "2026": 172.3,
             "2025": 197.7
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "adsdronesdistribuica_683905875": {
@@ -174,10 +176,12 @@
           "mediaAtivos": 19.3,
           "horasano": {
             "2026": 19.3
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "ncatechcomerciodemaq_682740903": {
@@ -249,10 +253,12 @@
           "horasano": {
             "2026": 31.0,
             "2025": 14.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "adsdronesdistribuica_682529991": {
@@ -341,10 +347,12 @@
           "horasano": {
             "2026": 122.0,
             "2025": 182.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

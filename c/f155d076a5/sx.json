@@ -51,9 +51,9 @@
           "Superiores": 1
         },
         "polo": {
-          "Outros": 4,
-          "Passivo": 21,
-          "Ativo": 17
+          "Terceiro/Outros": 4,
+          "Polo passivo": 21,
+          "Polo ativo": 17
         },
         "tribunais": {
           "TJSC": 27,
@@ -155,12 +155,14 @@
             "2024": 76.9,
             "2025": 175.1,
             "2026": 234.1
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 10,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "tigipiomineracaoetra_678926233": {
@@ -248,10 +250,12 @@
             "2024": 41.5,
             "2025": 41.5,
             "2026": 41.5
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 96.6,
@@ -365,10 +369,12 @@
             "2024": 49.6,
             "2025": 49.6,
             "2026": 49.6
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 4
+        "encerradosTotal": 4,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 69.3,
@@ -496,10 +502,12 @@
             "2024": 97.5,
             "2025": 97.5,
             "2026": 97.5
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 3
+        "encerradosTotal": 3,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 131.4,
@@ -609,10 +617,12 @@
             "2024": 78.5,
             "2025": 78.5,
             "2026": 78.5
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 157.5,
@@ -702,10 +712,12 @@
             "2024": 10.7,
             "2025": 10.7,
             "2026": 10.6
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 10.8,
@@ -791,10 +803,12 @@
             "2024": 21.1,
             "2025": 21.1,
             "2026": 21.1
-          },
-          "_estimativa": true
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "horas": {
         "total": 20.4,

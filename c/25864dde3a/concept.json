@@ -218,7 +218,10 @@
         },
         "_panorama": true,
         "encerradosTotal": 112,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "concept": {
@@ -347,9 +350,11 @@
             "2024": 103.1,
             "2025": 651.8,
             "2026": 815.4
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "porto_valente": {
@@ -455,7 +460,10 @@
             "2025": 346.3,
             "2026": 442.1
           }
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "luciano_lima": {
@@ -538,9 +546,11 @@
             "2024": 1.4,
             "2025": 111.7,
             "2026": 54.3
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

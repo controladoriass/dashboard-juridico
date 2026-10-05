@@ -43,9 +43,9 @@
           "2º Grau": 1
         },
         "polo": {
-          "Passivo": 2,
-          "Outros": 8,
-          "Ativo": 6
+          "Polo passivo": 2,
+          "Terceiro/Outros": 8,
+          "Polo ativo": 6
         },
         "tribunais": {
           "TJSC": 5,
@@ -114,12 +114,14 @@
             "2024": 117.1,
             "2025": 48.1,
             "2026": 48.7
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 3,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mariadefatimavieirac_": {
@@ -176,10 +178,12 @@
           "horasano": {
             "2024": 7.0,
             "2025": 2.4
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "joseluizvieirachady_": {
@@ -250,10 +254,12 @@
           "mediaAtivos": 5.8,
           "horasano": {
             "2024": 5.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "elisianescaburichady_": {
@@ -305,10 +311,12 @@
           "total": 0.0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "mariadefatimanicolod_": {
@@ -379,10 +387,12 @@
           "mediaAtivos": 0.9,
           "horasano": {
             "2024": 0.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "adrianavieirachady_": {
@@ -456,10 +466,12 @@
           "horasano": {
             "2024": 31.7,
             "2025": 6.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "chadyconfeccoesltdac_": {
@@ -556,10 +568,12 @@
             "2024": 71.7,
             "2025": 39.7,
             "2026": 48.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

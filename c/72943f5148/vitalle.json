@@ -181,12 +181,14 @@
             "2024": 234.0,
             "2025": 219.7,
             "2026": 193.6
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 6,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "vitalleconstrutoraei_2130173": {
@@ -360,10 +362,12 @@
             "2024": 234.0,
             "2025": 219.7,
             "2026": 193.6
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 6
+        "encerradosTotal": 6,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

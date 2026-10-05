@@ -138,12 +138,14 @@
             "2024": 160.7,
             "2025": 209.1,
             "2026": 258.8
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 19,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "inovencomerciointern_2129803": {
@@ -255,10 +257,12 @@
             "2024": 160.7,
             "2025": 191.7,
             "2026": 232.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 17
+        "encerradosTotal": 17,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "inovenindustriacomer_681546826": {
@@ -346,10 +350,12 @@
           "horasano": {
             "2025": 17.4,
             "2026": 26.7
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

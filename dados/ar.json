@@ -116,8 +116,7 @@
             "2024": 562.5,
             "2023": 534.3,
             "2022": 540.6
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -248,8 +247,7 @@
             "2024": 341.3,
             "2023": 409.6,
             "2022": 373.9
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -290,7 +288,7 @@
         "total": 99,
         "ativos": 71,
         "encerrados": {
-          "2025": 2
+          "2025": 28
         },
         "areaTotal": 6,
         "estoque": {
@@ -365,8 +363,7 @@
             "2024": 79.0,
             "2023": 35.6,
             "2022": 76.5
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -405,8 +402,8 @@
         "total": 56,
         "ativos": 37,
         "encerrados": {
-          "2022": 3,
-          "2025": 4
+          "2022": 8,
+          "2025": 11
         },
         "areaTotal": 5,
         "estoque": {
@@ -478,8 +475,7 @@
             "2024": 69.4,
             "2023": 59.3,
             "2022": 40.8
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -577,8 +573,7 @@
             "2024": 1.5,
             "2023": 2.4,
             "2022": 8.2
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -672,8 +667,7 @@
             "2024": 5.0,
             "2023": 3.1,
             "2022": 25.7
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -733,8 +727,7 @@
           "total": 0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
         "esforco": {
           "prazano": {},
@@ -783,8 +776,7 @@
           "total": 0,
           "media": 0,
           "mediaAtivos": 0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
         "esforco": {
           "prazano": {},
@@ -848,8 +840,7 @@
             "2025": 10.0,
             "2024": 3.2,
             "2023": 2.9
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -937,8 +928,7 @@
             "2024": 12.6,
             "2023": 19.4,
             "2022": 11.6
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -1021,8 +1011,7 @@
             "2026": 3.8,
             "2025": 0.1,
             "2022": 3.9
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -1096,8 +1085,7 @@
           "horasano": {
             "2024": 50.5,
             "2023": 2.0
-          },
-          "_estimativa": false
+          }
         },
         "esforco": {
           "prazano": {
@@ -1166,8 +1154,7 @@
           "total": 0,
           "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {},
-          "_estimativa": false
+          "horasano": {}
         },
         "esforco": {
           "prazano": {},

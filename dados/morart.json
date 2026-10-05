@@ -198,12 +198,14 @@
             "2024": 193.9,
             "2025": 162.9,
             "2026": 175.4
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 6,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "morartcorretoraeimob_": {
@@ -380,10 +382,12 @@
             "2024": 157.1,
             "2025": 126.9,
             "2026": 118.8
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 2
+        "encerradosTotal": 2,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "luizcarlosfeitosamor_": {
@@ -535,10 +539,12 @@
             "2024": 36.8,
             "2025": 36.0,
             "2026": 56.6
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 4
+        "encerradosTotal": 4,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

@@ -42,9 +42,9 @@
           "2º Grau": 4
         },
         "polo": {
-          "Ativo": 6,
-          "Passivo": 9,
-          "Outros": 3
+          "Polo ativo": 6,
+          "Polo passivo": 9,
+          "Terceiro/Outros": 3
         },
         "tribunais": {
           "TJSC": 15,
@@ -122,15 +122,17 @@
           "horasano": {
             "2025": 368.8,
             "2026": 400.9
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 1,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 769.7
-        }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "marcosmarceloberakha_": {
@@ -168,9 +170,9 @@
           "2º Grau": 4
         },
         "polo": {
-          "Ativo": 6,
-          "Passivo": 9,
-          "Outros": 3
+          "Polo ativo": 6,
+          "Polo passivo": 9,
+          "Terceiro/Outros": 3
         },
         "tribunais": {
           "TJSC": 15,
@@ -248,10 +250,12 @@
           "horasano": {
             "2025": 368.8,
             "2026": 400.9
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 1
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
       }
     }
   },

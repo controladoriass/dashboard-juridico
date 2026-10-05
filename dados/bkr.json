@@ -58,9 +58,9 @@
           "Superiores": 1
         },
         "polo": {
-          "Outros": 36,
-          "Ativo": 26,
-          "Passivo": 3
+          "Terceiro/Outros": 36,
+          "Polo ativo": 26,
+          "Polo passivo": 3
         },
         "tribunais": {
           "TRT12": 20,
@@ -165,12 +165,14 @@
             "2024": 230.8,
             "2025": 384.5,
             "2026": 644.4
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 16,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "bkrempreendimentosim_2129893": {
@@ -323,9 +325,11 @@
             "2024": 94.7,
             "2025": 204.0,
             "2026": 293.4
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 7
     },
@@ -475,9 +479,11 @@
             "2024": 135.9,
             "2025": 180.2,
             "2026": 302.3
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 8
     },
@@ -555,9 +561,11 @@
           "mediaAtivos": 16.2,
           "horasano": {
             "2026": 48.7
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -635,9 +643,11 @@
             "2023": 0.2,
             "2024": 0.2,
             "2025": 0.3
-          },
-          "_estimativa": false
-        }
+          }
+        },
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 1
     }

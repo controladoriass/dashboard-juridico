@@ -43,9 +43,9 @@
           "1º Grau": 9
         },
         "polo": {
-          "Outros": 5,
-          "Passivo": 3,
-          "Ativo": 1
+          "Terceiro/Outros": 5,
+          "Polo passivo": 3,
+          "Polo ativo": 1
         },
         "tribunais": {
           "TJSC": 4,
@@ -114,12 +114,14 @@
           "horasano": {
             "2026": 189.4,
             "2025": 35.1
-          },
-          "_estimativa": false
+          }
         },
         "encerradosTotal": 0,
         "_panorama": true,
-        "nome": "Panorama Geral do Grupo"
+        "nome": "Panorama Geral do Grupo",
+        "estoqueHl": [
+          "2026"
+        ]
       }
     },
     "jtaempreendimentoseu_682052149": {
@@ -212,10 +214,12 @@
           "horasano": {
             "2026": 173.8,
             "2025": 35.1
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -287,10 +291,12 @@
           "mediaAtivos": 0.6,
           "horasano": {
             "2026": 0.6
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     },
@@ -367,10 +373,12 @@
           "mediaAtivos": 7.5,
           "horasano": {
             "2026": 15.0
-          },
-          "_estimativa": false
+          }
         },
-        "encerradosTotal": 0
+        "encerradosTotal": 0,
+        "estoqueHl": [
+          "2026"
+        ]
       },
       "encerradosTotal": 0
     }
