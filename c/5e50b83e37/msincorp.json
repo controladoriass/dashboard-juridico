@@ -1,1 +1,3231 @@
-{"kpiGrupo": {"proc": 577, "ativos": 445, "areas": 7, "trib": 9, "procSub": "445 ativos · 132 encerrados", "areasSub": "Cível, Bancário, Administrativo", "tribSub": "TJSC, TRF4/SC, TRF4", "encerrados": 132}, "empresas": {"_panorama": {"nome": "Panorama Geral do Grupo", "_idCliente": 682208735, "dataset": {"total": 577, "ativos": 445, "encerrados": {"2024": 3, "2025": 44, "2026": 85}, "areaTotal": 445, "estoque": {"2024": -3, "2025": 372, "2026": 487}, "entradas": {"2025": 419, "2026": 200}, "area": {"Cível": 520, "Bancário": 25, "Administrativo": 13, "Tributário": 7, "Ambiental": 8, "Trabalhista": 2, "Não informado": 1, "Penal-Criminal": 1}, "uf": {"SC": 388, "DF": 8, "PR": 3, "SP": 2, "RS": 1}, "instancia": {"1º Grau": 442, "2º Grau": 123, "Superiores": 12}, "polo": {"Terceiro/Outros": 371, "Polo ativo": 27, "Polo passivo": 16}, "tribunais": {"TJSC": 305, "TRF4/SC": 166, "TRF4": 52, "N/D": 28, "STJ": 13, "TJSP": 4, "PROCON-SC": 4, "TRT12": 2, "JF/RS": 2, "STF": 1}, "ranking": [["BANCO PINE S/A", 5], ["BANCO INTER S.A", 4], ["IBAMA", 4], ["BRUNO SCHNEIDER", 3], ["MARIA MARCIANO", 3], ["TEREZINHA SALETE LOPES", 3], ["BANCO DO BRASIL S/A", 3], ["CONDOMINIO EDIFICIO RESIDENCIAL TORRI DI FRATE", 3], ["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA", 3], ["FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP", 2], ["EDIMAR LUIZ MENEGHETTI", 2], ["BRUNA CORREA DOS SANTOS", 2], ["NELZA MARIA MACHADO DA SILVA", 2], ["ZEILA CARNEIRO", 2], ["MC INDUSTRIA DE MOVEIS LTDA", 2]], "_complexidadeSoAtivos": true, "kpi": {"proc": 577, "ativos": 445, "areas": 7, "trib": 9, "procSub": "445 ativos · 132 encerrados", "areasSub": "Cível, Bancário, Administrativo", "tribSub": "TJSC, TRF4/SC, TRF4"}, "esforco": {"comProducao": 645, "tramitacaoDias": 236, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 869, "2026": 1852}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 43, "2026": 127}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 126, "2026": 365}, "atividades": {"Prazos": 2721, "Audiências": 170, "Reuniões e Diligências": 491}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 34, "2026": 132}}, "horas": {"total": 4701.0, "media": 7.3, "mediaAtivos": 11.4, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 1442.8, "2026": 3258.2}, "_estimativa": true}, "encerradosTotal": 132, "_panorama": true, "nome": "Panorama Geral do Grupo"}}, "msincorporadorasamat_682208735": {"nome": "Ms Incorporadora S/A - Matriz", "_idCliente": 682208735, "dataset": {"total": 513, "ativos": 390, "encerrados": {"2024": 3, "2025": 44, "2026": 76}, "areaTotal": 390, "estoque": {"2024": -3, "2025": 340, "2026": 390}, "entradas": {"2025": 387, "2026": 126}, "area": {"Cível": 463, "Bancário": 25, "Administrativo": 13, "Tributário": 6, "Ambiental": 2, "Trabalhista": 2, "Não informado": 1, "Penal-Criminal": 1}, "uf": {"SC": 344, "DF": 7, "PR": 3, "SP": 2, "RS": 1}, "instancia": {"1º Grau": 388, "2º Grau": 114, "Superiores": 11}, "polo": {"Terceiro/Outros": 334, "Polo ativo": 22, "Polo passivo": 13}, "tribunais": {"TJSC": 250, "TRF4/SC": 163, "TRF4": 51, "N/D": 24, "STJ": 12, "TJSP": 4, "PROCON-SC": 4, "TRT12": 2, "JF/RS": 2, "STF": 1}, "ranking": [["BANCO PINE S/A", 5], ["BANCO INTER S.A", 4], ["BRUNO SCHNEIDER", 3], ["MARIA MARCIANO", 3], ["TEREZINHA SALETE LOPES", 3], ["BANCO DO BRASIL S/A", 3], ["CONDOMINIO EDIFICIO RESIDENCIAL TORRI DI FRATE", 3], ["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA", 3], ["FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP", 2], ["EDIMAR LUIZ MENEGHETTI", 2], ["BRUNA CORREA DOS SANTOS", 2], ["NELZA MARIA MACHADO DA SILVA", 2], ["ZEILA CARNEIRO", 2], ["MC INDUSTRIA DE MOVEIS LTDA", 2], ["CONDOMINIO PARQUE RESIDENCIAL PROGRESSO", 2]], "_complexidadeSoAtivos": true, "kpi": {"proc": 513, "ativos": 390, "areas": 7, "trib": 9, "procSub": "390 ativos · 123 encerrados", "areasSub": "Cível, Bancário, Administrativo", "tribSub": "TJSC, TRF4/SC, TRF4"}, "esforco": {"comProducao": 546, "tramitacaoDias": 245, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 782, "2026": 1496}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 43, "2026": 114}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 126, "2026": 323}, "atividades": {"Prazos": 2278, "Audiências": 157, "Reuniões e Diligências": 449}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 34, "2026": 130}}, "horas": {"total": 4008.8, "media": 7.3, "mediaAtivos": 10.9, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 1321.9, "2026": 2686.9}, "_estimativa": true}, "encerradosTotal": 123}}, "msincorporadorasafil_682541420": {"nome": "Ms Incorporadora S/A - Filial Blumenau", "_idCliente": 682541420, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "msincorporadorasafil_682541481": {"nome": "Ms Incorporadora S/A - Filial Itajai", "_idCliente": 682541481, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "mstropicaleresidence_682541588": {"nome": "Ms Tropicale Residence", "_idCliente": 682541588, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "residencialhamburgom_682541562": {"nome": "Residencial Hamburgo - Melchioretto Sandri Engenharia", "_idCliente": 682541562, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "residencialmsspaziov_682541539": {"nome": "Residencial Ms Spazio Vitta", "_idCliente": 682541539, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "mspietraresidence_682541532": {"nome": "Ms Pietra Residence", "_idCliente": 682541532, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "msdifioreresidence_682541522": {"nome": "Ms Di Fiore Residence", "_idCliente": 682541522, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "mssmartportobeloempr_682541416": {"nome": "Ms Smart Porto Belo Empreendimentos LTDA", "_idCliente": 682541416, "dataset": {"total": 6, "ativos": 6, "encerrados": {}, "areaTotal": 6, "estoque": {"2025": 1, "2026": 6}, "entradas": {"2025": 1, "2026": 5}, "area": {"Cível": 4, "Ambiental": 2}, "uf": {"SC": 4}, "instancia": {"1º Grau": 6}, "polo": {"Polo ativo": 2, "Terceiro/Outros": 1, "Polo passivo": 1}, "tribunais": {"N/D": 3, "TJSC": 2, "TRF4/SC": 1}, "ranking": [["IBAMA", 2], ["ITAIPAVA TERRAPLANAGEM LTDA", 1], ["RODRIGO CUETIKI RIBEIRO", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 6, "ativos": 6, "areas": 2, "trib": 2, "procSub": "6 ativos · 0 encerrados", "areasSub": "Cível, Ambiental", "tribSub": "TJSC, TRF4/SC"}, "esforco": {"comProducao": 4, "tramitacaoDias": 134, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 22}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 3}, "atividades": {"Prazos": 22, "Audiências": 0, "Reuniões e Diligências": 3}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}}, "horas": {"total": 34.8, "media": 8.7, "mediaAtivos": 8.7, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 34.8}, "_estimativa": true}, "encerradosTotal": 0}}, "msvivendasdoatlantic_682541387": {"nome": "Ms Vivendas do Atlantico Empreendimentos LTDA", "_idCliente": 682541387, "dataset": {"total": 6, "ativos": 6, "encerrados": {}, "areaTotal": 6, "estoque": {"2025": 1, "2026": 6}, "entradas": {"2025": 1, "2026": 5}, "area": {"Cível": 4, "Ambiental": 1, "Tributário": 1}, "uf": {"SC": 4, "DF": 1}, "instancia": {"1º Grau": 4, "2º Grau": 1, "Superiores": 1}, "polo": {"Terceiro/Outros": 5}, "tribunais": {"TJSC": 4, "STJ": 1, "TRF4/SC": 1}, "ranking": [["RMD LOCACAO DE EQUIPAMENTOS LTDA", 2], ["SERGIO ROBERTO DA SILVA", 1], ["MARCON SONDAGENS LTDA", 1], ["MUNICIPIO DE BALNEARIO DE PICARRAS", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 6, "ativos": 6, "areas": 3, "trib": 3, "procSub": "6 ativos · 0 encerrados", "areasSub": "Cível, Ambiental, Tributário", "tribSub": "TJSC, STJ, TRF4/SC"}, "esforco": {"comProducao": 5, "tramitacaoDias": 114, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 27}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 2}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 2}, "atividades": {"Prazos": 27, "Audiências": 2, "Reuniões e Diligências": 2}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 43.1, "media": 8.6, "mediaAtivos": 8.6, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 43.1}, "_estimativa": true}, "encerradosTotal": 0}}, "msbotanicalparkempre_682541386": {"nome": "Ms Botanical Park Empreendimentos LTDA", "_idCliente": 682541386, "dataset": {"total": 3, "ativos": 3, "encerrados": {}, "areaTotal": 3, "estoque": {"2026": 3}, "entradas": {"2026": 3}, "area": {"Cível": 3}, "uf": {"SC": 1}, "instancia": {"1º Grau": 3}, "polo": {"Terceiro/Outros": 1}, "tribunais": {"TJSC": 3}, "ranking": [["AMABILE MARIA VIEIRA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 3, "ativos": 3, "areas": 1, "trib": 1, "procSub": "3 ativos · 0 encerrados", "areasSub": "Cível", "tribSub": "TJSC"}, "esforco": {"comProducao": 1, "tramitacaoDias": 24, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 1, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 1.4, "media": 1.4, "mediaAtivos": 1.4, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 1.4}, "_estimativa": true}, "encerradosTotal": 0}}, "mseasyuphouseempreen_682541385": {"nome": "Ms Easy Up House Empreendimentos Imobiliarios LTDA", "_idCliente": 682541385, "dataset": {"total": 2, "ativos": 1, "encerrados": {"2026": 1}, "areaTotal": 1, "estoque": {"2026": 1}, "entradas": {"2026": 2}, "area": {"Cível": 2}, "uf": {"SC": 1}, "instancia": {"1º Grau": 2}, "polo": {"Terceiro/Outros": 1}, "tribunais": {"TJSC": 2}, "ranking": [["ADRIANA DO SACRAMENTO DANTAS", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 2, "ativos": 1, "areas": 1, "trib": 1, "procSub": "1 ativos · 1 encerrados", "areasSub": "Cível", "tribSub": "TJSC"}, "esforco": {"comProducao": 2, "tramitacaoDias": 94, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 6}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 3}, "atividades": {"Prazos": 6, "Audiências": 0, "Reuniões e Diligências": 3}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}}, "horas": {"total": 12.5, "media": 6.2, "mediaAtivos": 12.5, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 12.5}, "_estimativa": true}, "encerradosTotal": 1}}, "greencoastresidencee_682541378": {"nome": "Green Coast Residence Empreendimentos LTDA", "_idCliente": 682541378, "dataset": {"total": 6, "ativos": 6, "encerrados": {}, "areaTotal": 6, "estoque": {"2025": 3, "2026": 6}, "entradas": {"2025": 3, "2026": 3}, "area": {"Cível": 4, "Ambiental": 2}, "uf": {"SC": 5}, "instancia": {"1º Grau": 5, "2º Grau": 1}, "polo": {"Terceiro/Outros": 4, "Polo passivo": 1}, "tribunais": {"TJSC": 4, "N/D": 1, "TRF4/SC": 1}, "ranking": [["IBAMA", 2], ["ORSEGUPS MONITORAMENTO ELETRONICO LTDA", 1], ["AUGUSTO IVAN STUEWER", 1], ["BLITZ TRANSPORTES E COMERCIO A GRANEL LTDA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 6, "ativos": 6, "areas": 2, "trib": 2, "procSub": "6 ativos · 0 encerrados", "areasSub": "Cível, Ambiental", "tribSub": "TJSC, TRF4/SC"}, "esforco": {"comProducao": 5, "tramitacaoDias": 244, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 6, "2026": 21}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "atividades": {"Prazos": 27, "Audiências": 0, "Reuniões e Diligências": 1}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 38.9, "media": 7.8, "mediaAtivos": 7.8, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 8.3, "2026": 30.6}, "_estimativa": true}, "encerradosTotal": 0}}, "msliveresidenceempre_682541367": {"nome": "Ms Live Residence Empreendimentos LTDA", "_idCliente": 682541367, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 3, "2026": 8}, "entradas": {"2025": 3, "2026": 5}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 8 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 8, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 7, "2026": 25}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 2}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 2}, "atividades": {"Prazos": 32, "Audiências": 2, "Reuniões e Diligências": 2}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 50.0, "media": 6.2, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 9.7, "2026": 40.3}, "_estimativa": true}, "encerradosTotal": 8}}, "msavivahresidenceclu_682541361": {"nome": "Ms Avivah Residence Club Empreendimentos LTDA", "_idCliente": 682541361, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 3, "2026": 14}, "entradas": {"2025": 3, "2026": 11}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 14 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 14, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 12, "2026": 37}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 5}, "atividades": {"Prazos": 49, "Audiências": 1, "Reuniões e Diligências": 5}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 76.5, "media": 5.5, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 16.7, "2026": 59.8}, "_estimativa": true}, "encerradosTotal": 14}}, "msitajubaempreendime_682541359": {"nome": "Ms Itajuba Empreendimentos LTDA", "_idCliente": 682541359, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 3, "2026": 10}, "entradas": {"2025": 3, "2026": 7}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 10 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 10, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 8, "2026": 41}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 2}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 11}, "atividades": {"Prazos": 49, "Audiências": 2, "Reuniões e Diligências": 11}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 86.2, "media": 8.6, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 11.1, "2026": 75.1}, "_estimativa": true}, "encerradosTotal": 10}}, "mssunvillagelifeempr_682541358": {"nome": "Ms Sun Village Life Empreendimentos LTDA", "_idCliente": 682541358, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "msreservaportobeloup_682541354": {"nome": "Ms Reserva Porto Belo Up House LTDA", "_idCliente": 682541354, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "msjardimportobelouph_682541349": {"nome": "Ms Jardim Porto Belo Up House LTDA", "_idCliente": 682541349, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "msvia406uphouseltda_682541343": {"nome": "Ms Via 406 Up House LTDA", "_idCliente": 682541343, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "ms6ltda_682541339": {"nome": "Ms 6 LTDA", "_idCliente": 682541339, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "msvivacittaempreendi_682541335": {"nome": "Ms Viva Citta Empreendimentos LTDA", "_idCliente": 682541335, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 2}, "entradas": {"2026": 2}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 2 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 2, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 8}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 2}, "atividades": {"Prazos": 8, "Audiências": 0, "Reuniões e Diligências": 2}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 13.9, "media": 7.0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 13.9}, "_estimativa": true}, "encerradosTotal": 2}}, "msbogotaempreendimen_682541331": {"nome": "Ms Bogota Empreendimentos LTDA", "_idCliente": 682541331, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 1, "2026": 1}, "entradas": {"2025": 1}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 1 encerrado", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 1, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 1, "2026": 13}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 6}, "atividades": {"Prazos": 14, "Audiências": 0, "Reuniões e Diligências": 6}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 27.8, "media": 27.8, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 1.4, "2026": 26.4}, "_estimativa": true}, "encerradosTotal": 1}}, "msnorthsoulhouseempr_682541328": {"nome": "Ms North Soul House Empreendimentos Imobiliarios LTDA", "_idCliente": 682541328, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}, "msoneoceanempreendim_682541321": {"nome": "Ms One Ocean Empreendimentos LTDA", "_idCliente": 682541321, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 3}, "entradas": {"2026": 3}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 3 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 3, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 8}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 8, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 11.1, "media": 3.7, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 11.1}, "_estimativa": true}, "encerradosTotal": 3}}, "msriversideuphouselt_682541309": {"nome": "Ms Riverside Up House LTDA", "_idCliente": 682541309, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "entradas": {"2026": 1}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 1 encerrado", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 1, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 5}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 5, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 6.9, "media": 6.9, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 6.9}, "_estimativa": true}, "encerradosTotal": 1}}, "msperequehomeparkemp_681587593": {"nome": "Ms Pereque Home Park Empreendimentos", "_idCliente": 681587593, "dataset": {"total": 41, "ativos": 33, "encerrados": {"2026": 8}, "areaTotal": 33, "estoque": {"2025": 16, "2026": 33}, "entradas": {"2025": 16, "2026": 25}, "area": {"Cível": 40, "Ambiental": 1}, "uf": {"SC": 29}, "instancia": {"1º Grau": 34, "2º Grau": 7}, "polo": {"Terceiro/Outros": 25, "Polo ativo": 3, "Polo passivo": 1}, "tribunais": {"TJSC": 40, "TRF4": 1}, "ranking": [["LEANDRO TERRA RANGEL", 2], ["ANDRE SAMSONESCU JUNIOR", 2], ["MVA SOLUCOES AMBIENTAIS LTDA", 2], ["ADAILES DA COSTA MENDES", 1], ["ERBE INCORPORADORA 019 S.A.", 1], ["REGINALDO MUNIZ MORAES", 1], ["HOLDING FONTANA LTDA", 1], ["VANESSA APARECIDA ALMEIDA", 1], ["IVANDRO REBELLO", 1], ["ADRIANO FERREIRA", 1], ["MARIA HELENA PIERONI MALLO", 1], ["PIZZOLATTI MATERIAIS DE CONSTRUCAO LTDA", 1], ["LUCIO ROMARIO DE PAULA LEITE", 1], ["CLAUDIO ROQUE OTTERO", 1], ["MARCELO ULIANO", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 41, "ativos": 33, "areas": 2, "trib": 2, "procSub": "33 ativos · 8 encerrados", "areasSub": "Cível, Ambiental", "tribSub": "TJSC, TRF4"}, "esforco": {"comProducao": 40, "tramitacaoDias": 175, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 52, "2026": 132}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 6}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 6}, "atividades": {"Prazos": 184, "Audiências": 6, "Reuniões e Diligências": 6}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 272.5, "media": 6.8, "mediaAtivos": 9.4, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 72.3, "2026": 200.2}, "_estimativa": true}, "encerradosTotal": 8}}, "toscanaconstrucoeslt_683036335": {"nome": "Toscana Construcoes LTDA", "_idCliente": 683036335, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 1, "2026": 2}, "entradas": {"2025": 1, "2026": 1}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 2 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 2, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 1, "2026": 4}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "atividades": {"Prazos": 5, "Audiências": 0, "Reuniões e Diligências": 1}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 8.3, "media": 4.2, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 1.4, "2026": 6.9}, "_estimativa": true}, "encerradosTotal": 2}}, "alexandremelchiorett_685034885": {"nome": "Alexandre Melchioretto", "_idCliente": 685034885, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "entradas": {"2026": 1}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 1 encerrado", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 1, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 6}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 6, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 8.3, "media": 8.3, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 8.3}, "_estimativa": true}, "encerradosTotal": 1}}, "carlataynaradebrito_685082867": {"nome": "Carla Taynara de Brito", "_idCliente": 685082867, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {"2021": 0.0, "2022": 0.0, "2023": 0.0, "2024": 0.0, "2025": 0.0, "2026": 0.0}, "_estimativa": true}, "encerradosTotal": 0}}}, "nome": "Grupo MS Incorporadora", "nomeHtml": "Grupo <em>MS Incorporadora</em>", "nEmpresas": 30}
+{
+  "kpiGrupo": {
+    "proc": 577,
+    "ativos": 445,
+    "areas": 7,
+    "trib": 9,
+    "procSub": "445 ativos · 132 encerrados",
+    "areasSub": "Cível, Bancário, Administrativo",
+    "tribSub": "TJSC, TRF4/SC, TRF4",
+    "encerrados": 132
+  },
+  "empresas": {
+    "_panorama": {
+      "nome": "Panorama Geral do Grupo",
+      "_idCliente": 682208735,
+      "dataset": {
+        "total": 577,
+        "ativos": 445,
+        "encerrados": {
+          "2024": 3,
+          "2025": 44,
+          "2026": 85
+        },
+        "areaTotal": 445,
+        "estoque": {
+          "2024": -3,
+          "2025": 372,
+          "2026": 487
+        },
+        "entradas": {
+          "2025": 419,
+          "2026": 200
+        },
+        "area": {
+          "Cível": 520,
+          "Bancário": 25,
+          "Administrativo": 13,
+          "Ambiental": 8,
+          "Tributário": 7,
+          "Trabalhista": 2,
+          "OUTROS": 1,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 388,
+          "DF": 8,
+          "PR": 3,
+          "SP": 2,
+          "RS": 1
+        },
+        "instancia": {
+          "1º Grau": 442,
+          "2º Grau": 123,
+          "Superiores": 12
+        },
+        "polo": {
+          "Terceiro/Outros": 371,
+          "Polo ativo": 27,
+          "Polo passivo": 16
+        },
+        "tribunais": {
+          "TJSC": 305,
+          "TRF4/SC": 166,
+          "TRF4": 52,
+          "OUTROS": 28,
+          "STJ": 13,
+          "TJSP": 4,
+          "PROCON-SC": 4,
+          "TRT12": 2,
+          "JF/RS": 2,
+          "STF": 1
+        },
+        "ranking": [
+          [
+            "BANCO PINE S/A",
+            5
+          ],
+          [
+            "BANCO INTER S.A",
+            4
+          ],
+          [
+            "IBAMA",
+            4
+          ],
+          [
+            "BRUNO SCHNEIDER",
+            3
+          ],
+          [
+            "MARIA MARCIANO",
+            3
+          ],
+          [
+            "TEREZINHA SALETE LOPES",
+            3
+          ],
+          [
+            "BANCO DO BRASIL S/A",
+            3
+          ],
+          [
+            "CONDOMINIO EDIFICIO RESIDENCIAL TORRI DI FRATE",
+            3
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            3
+          ],
+          [
+            "FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP",
+            2
+          ],
+          [
+            "EDIMAR LUIZ MENEGHETTI",
+            2
+          ],
+          [
+            "BRUNA CORREA DOS SANTOS",
+            2
+          ],
+          [
+            "NELZA MARIA MACHADO DA SILVA",
+            2
+          ],
+          [
+            "ZEILA CARNEIRO",
+            2
+          ],
+          [
+            "MC INDUSTRIA DE MOVEIS LTDA",
+            2
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 577,
+          "ativos": 445,
+          "areas": 7,
+          "trib": 9,
+          "procSub": "445 ativos · 132 encerrados",
+          "areasSub": "Cível, Bancário, Administrativo",
+          "tribSub": "TJSC, TRF4/SC, TRF4"
+        },
+        "esforco": {
+          "comProducao": 645,
+          "tramitacaoDias": 236,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 869,
+            "2026": 1852
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 43,
+            "2026": 127
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 126,
+            "2026": 365
+          },
+          "atividades": {
+            "Prazos": 2721,
+            "Audiências": 170,
+            "Reuniões e Diligências": 491
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 34,
+            "2026": 132
+          }
+        },
+        "horas": {
+          "total": 4701.0,
+          "media": 7.3,
+          "mediaAtivos": 11.4,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 1442.8,
+            "2026": 3258.2
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 132,
+        "_panorama": true,
+        "nome": "Panorama Geral do Grupo"
+      }
+    },
+    "msincorporadorasamat_682208735": {
+      "nome": "Ms Incorporadora S/A - Matriz",
+      "_idCliente": 682208735,
+      "dataset": {
+        "total": 513,
+        "ativos": 390,
+        "encerrados": {
+          "2024": 3,
+          "2025": 44,
+          "2026": 76
+        },
+        "areaTotal": 390,
+        "estoque": {
+          "2024": -3,
+          "2025": 340,
+          "2026": 390
+        },
+        "entradas": {
+          "2025": 387,
+          "2026": 126
+        },
+        "area": {
+          "Cível": 463,
+          "Bancário": 25,
+          "Administrativo": 13,
+          "Tributário": 6,
+          "Ambiental": 2,
+          "Trabalhista": 2,
+          "OUTROS": 1,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 344,
+          "DF": 7,
+          "PR": 3,
+          "SP": 2,
+          "RS": 1
+        },
+        "instancia": {
+          "1º Grau": 388,
+          "2º Grau": 114,
+          "Superiores": 11
+        },
+        "polo": {
+          "Terceiro/Outros": 334,
+          "Polo ativo": 22,
+          "Polo passivo": 13
+        },
+        "tribunais": {
+          "TJSC": 250,
+          "TRF4/SC": 163,
+          "TRF4": 51,
+          "OUTROS": 24,
+          "STJ": 12,
+          "TJSP": 4,
+          "PROCON-SC": 4,
+          "TRT12": 2,
+          "JF/RS": 2,
+          "STF": 1
+        },
+        "ranking": [
+          [
+            "BANCO PINE S/A",
+            5
+          ],
+          [
+            "BANCO INTER S.A",
+            4
+          ],
+          [
+            "BRUNO SCHNEIDER",
+            3
+          ],
+          [
+            "MARIA MARCIANO",
+            3
+          ],
+          [
+            "TEREZINHA SALETE LOPES",
+            3
+          ],
+          [
+            "BANCO DO BRASIL S/A",
+            3
+          ],
+          [
+            "CONDOMINIO EDIFICIO RESIDENCIAL TORRI DI FRATE",
+            3
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            3
+          ],
+          [
+            "FUNDAÇÃO DO MEIO AMBIENTE DE PORTO BELO - FAMAP",
+            2
+          ],
+          [
+            "EDIMAR LUIZ MENEGHETTI",
+            2
+          ],
+          [
+            "BRUNA CORREA DOS SANTOS",
+            2
+          ],
+          [
+            "NELZA MARIA MACHADO DA SILVA",
+            2
+          ],
+          [
+            "ZEILA CARNEIRO",
+            2
+          ],
+          [
+            "MC INDUSTRIA DE MOVEIS LTDA",
+            2
+          ],
+          [
+            "CONDOMINIO PARQUE RESIDENCIAL PROGRESSO",
+            2
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 513,
+          "ativos": 390,
+          "areas": 7,
+          "trib": 9,
+          "procSub": "390 ativos · 123 encerrados",
+          "areasSub": "Cível, Bancário, Administrativo",
+          "tribSub": "TJSC, TRF4/SC, TRF4"
+        },
+        "esforco": {
+          "comProducao": 546,
+          "tramitacaoDias": 245,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 782,
+            "2026": 1496
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 43,
+            "2026": 114
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 126,
+            "2026": 323
+          },
+          "atividades": {
+            "Prazos": 2278,
+            "Audiências": 157,
+            "Reuniões e Diligências": 449
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 34,
+            "2026": 130
+          }
+        },
+        "horas": {
+          "total": 4008.8,
+          "media": 7.3,
+          "mediaAtivos": 10.9,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 1321.9,
+            "2026": 2686.9
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 123
+      }
+    },
+    "msincorporadorasafil_682541420": {
+      "nome": "Ms Incorporadora S/A - Filial Blumenau",
+      "_idCliente": 682541420,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msincorporadorasafil_682541481": {
+      "nome": "Ms Incorporadora S/A - Filial Itajai",
+      "_idCliente": 682541481,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "mstropicaleresidence_682541588": {
+      "nome": "Ms Tropicale Residence",
+      "_idCliente": 682541588,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "residencialhamburgom_682541562": {
+      "nome": "Residencial Hamburgo - Melchioretto Sandri Engenharia",
+      "_idCliente": 682541562,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "residencialmsspaziov_682541539": {
+      "nome": "Residencial Ms Spazio Vitta",
+      "_idCliente": 682541539,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "mspietraresidence_682541532": {
+      "nome": "Ms Pietra Residence",
+      "_idCliente": 682541532,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msdifioreresidence_682541522": {
+      "nome": "Ms Di Fiore Residence",
+      "_idCliente": 682541522,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "mssmartportobeloempr_682541416": {
+      "nome": "Ms Smart Porto Belo Empreendimentos LTDA",
+      "_idCliente": 682541416,
+      "dataset": {
+        "total": 6,
+        "ativos": 6,
+        "encerrados": {},
+        "areaTotal": 6,
+        "estoque": {
+          "2025": 1,
+          "2026": 6
+        },
+        "entradas": {
+          "2025": 1,
+          "2026": 5
+        },
+        "area": {
+          "Cível": 4,
+          "Ambiental": 2
+        },
+        "uf": {
+          "SC": 4
+        },
+        "instancia": {
+          "1º Grau": 6
+        },
+        "polo": {
+          "Polo ativo": 2,
+          "Terceiro/Outros": 1,
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "OUTROS": 3,
+          "TJSC": 2,
+          "TRF4/SC": 1
+        },
+        "ranking": [
+          [
+            "IBAMA",
+            2
+          ],
+          [
+            "ITAIPAVA TERRAPLANAGEM LTDA",
+            1
+          ],
+          [
+            "RODRIGO CUETIKI RIBEIRO",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 6,
+          "ativos": 6,
+          "areas": 2,
+          "trib": 2,
+          "procSub": "6 ativos · 0 encerrados",
+          "areasSub": "Cível, Ambiental",
+          "tribSub": "TJSC, TRF4/SC"
+        },
+        "esforco": {
+          "comProducao": 4,
+          "tramitacaoDias": 134,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 22
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 3
+          },
+          "atividades": {
+            "Prazos": 22,
+            "Audiências": 0,
+            "Reuniões e Diligências": 3
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 34.8,
+          "media": 8.7,
+          "mediaAtivos": 8.7,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 34.8
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msvivendasdoatlantic_682541387": {
+      "nome": "Ms Vivendas do Atlantico Empreendimentos LTDA",
+      "_idCliente": 682541387,
+      "dataset": {
+        "total": 6,
+        "ativos": 6,
+        "encerrados": {},
+        "areaTotal": 6,
+        "estoque": {
+          "2025": 1,
+          "2026": 6
+        },
+        "entradas": {
+          "2025": 1,
+          "2026": 5
+        },
+        "area": {
+          "Cível": 4,
+          "Ambiental": 1,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 4,
+          "DF": 1
+        },
+        "instancia": {
+          "1º Grau": 4,
+          "2º Grau": 1,
+          "Superiores": 1
+        },
+        "polo": {
+          "Terceiro/Outros": 5
+        },
+        "tribunais": {
+          "TJSC": 4,
+          "STJ": 1,
+          "TRF4/SC": 1
+        },
+        "ranking": [
+          [
+            "RMD LOCACAO DE EQUIPAMENTOS LTDA",
+            2
+          ],
+          [
+            "SERGIO ROBERTO DA SILVA",
+            1
+          ],
+          [
+            "MARCON SONDAGENS LTDA",
+            1
+          ],
+          [
+            "MUNICIPIO DE BALNEARIO DE PICARRAS",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 6,
+          "ativos": 6,
+          "areas": 3,
+          "trib": 3,
+          "procSub": "6 ativos · 0 encerrados",
+          "areasSub": "Cível, Ambiental, Tributário",
+          "tribSub": "TJSC, STJ, TRF4/SC"
+        },
+        "esforco": {
+          "comProducao": 5,
+          "tramitacaoDias": 114,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 27
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 2
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 2
+          },
+          "atividades": {
+            "Prazos": 27,
+            "Audiências": 2,
+            "Reuniões e Diligências": 2
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 43.1,
+          "media": 8.6,
+          "mediaAtivos": 8.6,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 43.1
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msbotanicalparkempre_682541386": {
+      "nome": "Ms Botanical Park Empreendimentos LTDA",
+      "_idCliente": 682541386,
+      "dataset": {
+        "total": 3,
+        "ativos": 3,
+        "encerrados": {},
+        "areaTotal": 3,
+        "estoque": {
+          "2026": 3
+        },
+        "entradas": {
+          "2026": 3
+        },
+        "area": {
+          "Cível": 3
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 3
+        },
+        "polo": {
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 3
+        },
+        "ranking": [
+          [
+            "AMABILE MARIA VIEIRA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 3,
+          "ativos": 3,
+          "areas": 1,
+          "trib": 1,
+          "procSub": "3 ativos · 0 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "esforco": {
+          "comProducao": 1,
+          "tramitacaoDias": 24,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 1
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 1,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 1.4,
+          "media": 1.4,
+          "mediaAtivos": 1.4,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 1.4
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "mseasyuphouseempreen_682541385": {
+      "nome": "Ms Easy Up House Empreendimentos Imobiliarios LTDA",
+      "_idCliente": 682541385,
+      "dataset": {
+        "total": 2,
+        "ativos": 1,
+        "encerrados": {
+          "2026": 1
+        },
+        "areaTotal": 1,
+        "estoque": {
+          "2026": 1
+        },
+        "entradas": {
+          "2026": 2
+        },
+        "area": {
+          "Cível": 2
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 2
+        },
+        "ranking": [
+          [
+            "ADRIANA DO SACRAMENTO DANTAS",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 2,
+          "ativos": 1,
+          "areas": 1,
+          "trib": 1,
+          "procSub": "1 ativos · 1 encerrados",
+          "areasSub": "Cível",
+          "tribSub": "TJSC"
+        },
+        "esforco": {
+          "comProducao": 2,
+          "tramitacaoDias": 94,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 6
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 3
+          },
+          "atividades": {
+            "Prazos": 6,
+            "Audiências": 0,
+            "Reuniões e Diligências": 3
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 1
+          }
+        },
+        "horas": {
+          "total": 12.5,
+          "media": 6.2,
+          "mediaAtivos": 12.5,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 12.5
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 1
+      }
+    },
+    "greencoastresidencee_682541378": {
+      "nome": "Green Coast Residence Empreendimentos LTDA",
+      "_idCliente": 682541378,
+      "dataset": {
+        "total": 6,
+        "ativos": 6,
+        "encerrados": {},
+        "areaTotal": 6,
+        "estoque": {
+          "2025": 3,
+          "2026": 6
+        },
+        "entradas": {
+          "2025": 3,
+          "2026": 3
+        },
+        "area": {
+          "Cível": 4,
+          "Ambiental": 2
+        },
+        "uf": {
+          "SC": 5
+        },
+        "instancia": {
+          "1º Grau": 5,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Terceiro/Outros": 4,
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "TJSC": 4,
+          "OUTROS": 1,
+          "TRF4/SC": 1
+        },
+        "ranking": [
+          [
+            "IBAMA",
+            2
+          ],
+          [
+            "ORSEGUPS MONITORAMENTO ELETRONICO LTDA",
+            1
+          ],
+          [
+            "AUGUSTO IVAN STUEWER",
+            1
+          ],
+          [
+            "BLITZ TRANSPORTES E COMERCIO A GRANEL LTDA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 6,
+          "ativos": 6,
+          "areas": 2,
+          "trib": 2,
+          "procSub": "6 ativos · 0 encerrados",
+          "areasSub": "Cível, Ambiental",
+          "tribSub": "TJSC, TRF4/SC"
+        },
+        "esforco": {
+          "comProducao": 5,
+          "tramitacaoDias": 244,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 6,
+            "2026": 21
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 1
+          },
+          "atividades": {
+            "Prazos": 27,
+            "Audiências": 0,
+            "Reuniões e Diligências": 1
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 38.9,
+          "media": 7.8,
+          "mediaAtivos": 7.8,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 8.3,
+            "2026": 30.6
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msliveresidenceempre_682541367": {
+      "nome": "Ms Live Residence Empreendimentos LTDA",
+      "_idCliente": 682541367,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 3,
+          "2026": 8
+        },
+        "entradas": {
+          "2025": 3,
+          "2026": 5
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 8 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 8,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 7,
+            "2026": 25
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 2
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 2
+          },
+          "atividades": {
+            "Prazos": 32,
+            "Audiências": 2,
+            "Reuniões e Diligências": 2
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 50.0,
+          "media": 6.2,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 9.7,
+            "2026": 40.3
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 8
+      }
+    },
+    "msavivahresidenceclu_682541361": {
+      "nome": "Ms Avivah Residence Club Empreendimentos LTDA",
+      "_idCliente": 682541361,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 3,
+          "2026": 14
+        },
+        "entradas": {
+          "2025": 3,
+          "2026": 11
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 14 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 14,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 12,
+            "2026": 37
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 1
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 5
+          },
+          "atividades": {
+            "Prazos": 49,
+            "Audiências": 1,
+            "Reuniões e Diligências": 5
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 76.5,
+          "media": 5.5,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 16.7,
+            "2026": 59.8
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 14
+      }
+    },
+    "msitajubaempreendime_682541359": {
+      "nome": "Ms Itajuba Empreendimentos LTDA",
+      "_idCliente": 682541359,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 3,
+          "2026": 10
+        },
+        "entradas": {
+          "2025": 3,
+          "2026": 7
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 10 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 10,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 8,
+            "2026": 41
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 2
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 11
+          },
+          "atividades": {
+            "Prazos": 49,
+            "Audiências": 2,
+            "Reuniões e Diligências": 11
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 86.2,
+          "media": 8.6,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 11.1,
+            "2026": 75.1
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 10
+      }
+    },
+    "mssunvillagelifeempr_682541358": {
+      "nome": "Ms Sun Village Life Empreendimentos LTDA",
+      "_idCliente": 682541358,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msreservaportobeloup_682541354": {
+      "nome": "Ms Reserva Porto Belo Up House LTDA",
+      "_idCliente": 682541354,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msjardimportobelouph_682541349": {
+      "nome": "Ms Jardim Porto Belo Up House LTDA",
+      "_idCliente": 682541349,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msvia406uphouseltda_682541343": {
+      "nome": "Ms Via 406 Up House LTDA",
+      "_idCliente": 682541343,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "ms6ltda_682541339": {
+      "nome": "Ms 6 LTDA",
+      "_idCliente": 682541339,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msvivacittaempreendi_682541335": {
+      "nome": "Ms Viva Citta Empreendimentos LTDA",
+      "_idCliente": 682541335,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 2
+        },
+        "entradas": {
+          "2026": 2
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 2 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 2,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 8
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 2
+          },
+          "atividades": {
+            "Prazos": 8,
+            "Audiências": 0,
+            "Reuniões e Diligências": 2
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 13.9,
+          "media": 7.0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 13.9
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 2
+      }
+    },
+    "msbogotaempreendimen_682541331": {
+      "nome": "Ms Bogota Empreendimentos LTDA",
+      "_idCliente": 682541331,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2025": 1
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 1 encerrado",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 1,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 1,
+            "2026": 13
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 6
+          },
+          "atividades": {
+            "Prazos": 14,
+            "Audiências": 0,
+            "Reuniões e Diligências": 6
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 27.8,
+          "media": 27.8,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 1.4,
+            "2026": 26.4
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 1
+      }
+    },
+    "msnorthsoulhouseempr_682541328": {
+      "nome": "Ms North Soul House Empreendimentos Imobiliarios LTDA",
+      "_idCliente": 682541328,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    },
+    "msoneoceanempreendim_682541321": {
+      "nome": "Ms One Ocean Empreendimentos LTDA",
+      "_idCliente": 682541321,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 3
+        },
+        "entradas": {
+          "2026": 3
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 3 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 3,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 8
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 8,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 11.1,
+          "media": 3.7,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 11.1
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 3
+      }
+    },
+    "msriversideuphouselt_682541309": {
+      "nome": "Ms Riverside Up House LTDA",
+      "_idCliente": 682541309,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2026": 1
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 1 encerrado",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 1,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 5
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 5,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 6.9,
+          "media": 6.9,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 6.9
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 1
+      }
+    },
+    "msperequehomeparkemp_681587593": {
+      "nome": "Ms Pereque Home Park Empreendimentos",
+      "_idCliente": 681587593,
+      "dataset": {
+        "total": 41,
+        "ativos": 33,
+        "encerrados": {
+          "2026": 8
+        },
+        "areaTotal": 33,
+        "estoque": {
+          "2025": 16,
+          "2026": 33
+        },
+        "entradas": {
+          "2025": 16,
+          "2026": 25
+        },
+        "area": {
+          "Cível": 40,
+          "Ambiental": 1
+        },
+        "uf": {
+          "SC": 29
+        },
+        "instancia": {
+          "1º Grau": 34,
+          "2º Grau": 7
+        },
+        "polo": {
+          "Terceiro/Outros": 25,
+          "Polo ativo": 3,
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "TJSC": 40,
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "LEANDRO TERRA RANGEL",
+            2
+          ],
+          [
+            "ANDRE SAMSONESCU JUNIOR",
+            2
+          ],
+          [
+            "MVA SOLUCOES AMBIENTAIS LTDA",
+            2
+          ],
+          [
+            "ADAILES DA COSTA MENDES",
+            1
+          ],
+          [
+            "ERBE INCORPORADORA 019 S.A.",
+            1
+          ],
+          [
+            "REGINALDO MUNIZ MORAES",
+            1
+          ],
+          [
+            "HOLDING FONTANA LTDA",
+            1
+          ],
+          [
+            "VANESSA APARECIDA ALMEIDA",
+            1
+          ],
+          [
+            "IVANDRO REBELLO",
+            1
+          ],
+          [
+            "ADRIANO FERREIRA",
+            1
+          ],
+          [
+            "MARIA HELENA PIERONI MALLO",
+            1
+          ],
+          [
+            "PIZZOLATTI MATERIAIS DE CONSTRUCAO LTDA",
+            1
+          ],
+          [
+            "LUCIO ROMARIO DE PAULA LEITE",
+            1
+          ],
+          [
+            "CLAUDIO ROQUE OTTERO",
+            1
+          ],
+          [
+            "MARCELO ULIANO",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 41,
+          "ativos": 33,
+          "areas": 2,
+          "trib": 2,
+          "procSub": "33 ativos · 8 encerrados",
+          "areasSub": "Cível, Ambiental",
+          "tribSub": "TJSC, TRF4"
+        },
+        "esforco": {
+          "comProducao": 40,
+          "tramitacaoDias": 175,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 52,
+            "2026": 132
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 6
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 6
+          },
+          "atividades": {
+            "Prazos": 184,
+            "Audiências": 6,
+            "Reuniões e Diligências": 6
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 272.5,
+          "media": 6.8,
+          "mediaAtivos": 9.4,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 72.3,
+            "2026": 200.2
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 8
+      }
+    },
+    "toscanaconstrucoeslt_683036335": {
+      "nome": "Toscana Construcoes LTDA",
+      "_idCliente": 683036335,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 1,
+          "2026": 2
+        },
+        "entradas": {
+          "2025": 1,
+          "2026": 1
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 2 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 2,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 1,
+            "2026": 4
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 1
+          },
+          "atividades": {
+            "Prazos": 5,
+            "Audiências": 0,
+            "Reuniões e Diligências": 1
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 8.3,
+          "media": 4.2,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 1.4,
+            "2026": 6.9
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 2
+      }
+    },
+    "alexandremelchiorett_685034885": {
+      "nome": "Alexandre Melchioretto",
+      "_idCliente": 685034885,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2026": 1
+        },
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 1 encerrado",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 1,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 6
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 6,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 8.3,
+          "media": 8.3,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 8.3
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 1
+      }
+    },
+    "carlataynaradebrito_685082867": {
+      "nome": "Carla Taynara de Brito",
+      "_idCliente": 685082867,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 0
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 0.0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2021": 0.0,
+            "2022": 0.0,
+            "2023": 0.0,
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          },
+          "_estimativa": true
+        },
+        "encerradosTotal": 0
+      }
+    }
+  },
+  "nome": "Grupo MS Incorporadora",
+  "nomeHtml": "Grupo <em>MS Incorporadora</em>",
+  "nEmpresas": 30
+}

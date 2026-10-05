@@ -8,7 +8,7 @@
     "trib": 9,
     "procSub": "113 ativos · 108 encerrados",
     "areasSub": "Trabalhista, Cível, Tributário",
-    "tribSub": "TJSC, TRT12, SEFAZ",
+    "tribSub": "TJSC, TRT12, OUTROS",
     "horas": "^2269",
     "horasSub": "horas apontadas (parcial, ver notas por empresa)",
     "valor": "~R$ 45<small>mi</small>",
@@ -63,7 +63,7 @@
         },
         "uf": {
           "SC": 100,
-          "N/I": 5,
+          "OUTROS": 5,
           "PE": 2,
           "RS": 2,
           "MS": 1,
@@ -85,7 +85,7 @@
         "tribunais": {
           "TJSC": 43,
           "TRT12": 41,
-          "N/I": 18,
+          "OUTROS": 18,
           "SEFAZ": 3,
           "TRT06": 2,
           "TJRS": 2,
@@ -164,7 +164,7 @@
           "trib": 9,
           "procSub": "113 ativos · 108 encerrados",
           "areasSub": "Trabalhista, Cível, Tributário",
-          "tribSub": "TJSC, TRT12, SEFAZ"
+          "tribSub": "TJSC, TRT12, OUTROS"
         },
         "encerradosTotal": 108,
         "esforco": {
@@ -280,7 +280,7 @@
         },
         "uf": {
           "SC": 87,
-          "N/I": 4,
+          "OUTROS": 4,
           "PE": 2,
           "RS": 2,
           "MS": 1,
@@ -302,7 +302,7 @@
         "tribunais": {
           "TJSC": 39,
           "TRT12": 33,
-          "N/I": 16,
+          "OUTROS": 16,
           "SEFAZ": 3,
           "TRT06": 2,
           "TJRS": 2,
@@ -497,7 +497,7 @@
           "Cível": 2
         },
         "uf": {
-          "N/I": 1,
+          "OUTROS": 1,
           "SC": 1
         },
         "instancia": {
@@ -508,7 +508,7 @@
           "Polo ativo": 1
         },
         "tribunais": {
-          "N/I": 2
+          "OUTROS": 2
         },
         "ranking": [
           [

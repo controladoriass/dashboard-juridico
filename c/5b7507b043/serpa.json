@@ -6,7 +6,7 @@
     "trib": 7,
     "procSub": "55 ativos · 7 encerrados",
     "areasSub": "Trabalhista, Tributário, Cível",
-    "tribSub": "TRT12, TJSC, TRF4",
+    "tribSub": "TRT12, OUTROS, TJSC",
     "encerrados": 7
   },
   "empresas": {
@@ -50,7 +50,7 @@
         "uf": {
           "SC": 48,
           "DF": 5,
-          "N/I": 2
+          "OUTROS": 2
         },
         "instancia": {
           "1º Grau": 35,
@@ -64,7 +64,7 @@
         },
         "tribunais": {
           "TRT12": 32,
-          "N/I": 6,
+          "OUTROS": 6,
           "TJSC": 6,
           "TRF4": 5,
           "STJ": 2,
@@ -142,7 +142,7 @@
           "trib": 7,
           "procSub": "55 ativos · 7 encerrados",
           "areasSub": "Trabalhista, Tributário, Cível",
-          "tribSub": "TRT12, TJSC, TRF4"
+          "tribSub": "TRT12, OUTROS, TJSC"
         },
         "encerradosTotal": 7,
         "horas": {
@@ -245,7 +245,7 @@
         "uf": {
           "SC": 48,
           "DF": 5,
-          "N/I": 2
+          "OUTROS": 2
         },
         "instancia": {
           "1º Grau": 35,
@@ -259,7 +259,7 @@
         },
         "tribunais": {
           "TRT12": 32,
-          "N/I": 6,
+          "OUTROS": 6,
           "TJSC": 6,
           "TRF4": 5,
           "STJ": 2,

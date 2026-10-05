@@ -6,7 +6,7 @@
     "trib": 3,
     "procSub": "17 ativos · 1 encerrado",
     "areasSub": "Bancário, Tributário, Cível",
-    "tribSub": "TJSC, TRF4",
+    "tribSub": "TJSC, TRF4, OUTROS",
     "encerrados": 1,
     "kHoras": 231.3
   },
@@ -40,7 +40,7 @@
         },
         "uf": {
           "SC": 17,
-          "N/I": 1
+          "OUTROS": 1
         },
         "instancia": {
           "1º Grau": 12,
@@ -53,7 +53,7 @@
         "tribunais": {
           "TJSC": 12,
           "TRF4": 5,
-          "N/D": 1
+          "OUTROS": 1
         },
         "ranking": [],
         "_complexidadeSoAtivos": true,
@@ -64,7 +64,7 @@
           "trib": 3,
           "procSub": "17 ativos · 1 encerrado",
           "areasSub": "Bancário, Tributário, Cível",
-          "tribSub": "TJSC, TRF4"
+          "tribSub": "TJSC, TRF4, OUTROS"
         },
         "esforco": {
           "comProducao": 17,
@@ -127,7 +127,7 @@
         },
         "uf": {
           "SC": 17,
-          "N/I": 1
+          "OUTROS": 1
         },
         "instancia": {
           "1º Grau": 12,
@@ -140,7 +140,7 @@
         "tribunais": {
           "TJSC": 12,
           "TRF4": 5,
-          "N/D": 1
+          "OUTROS": 1
         },
         "ranking": [],
         "_complexidadeSoAtivos": true,

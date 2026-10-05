@@ -1,1222 +1,1222 @@
 {
- "kpiGrupo": {
-  "proc": 86,
-  "ativos": 71,
-  "areas": 5,
-  "trib": 6,
-  "procSub": "71 ativos · 15 encerrados",
-  "areasSub": "Cível, Trabalhista, Tributário",
-  "tribSub": "TJSC, TRT12, TRF4",
-  "encerrados": 15
- },
- "empresas": {
-  "_panorama": {
-   "nome": "Panorama Geral do Grupo",
-   "_idCliente": 677012424,
-   "dataset": {
-    "total": 86,
+  "kpiGrupo": {
+    "proc": 86,
     "ativos": 71,
-    "encerrados": {
-     "2019": 1,
-     "2021": 1,
-     "2022": 2,
-     "2023": 2,
-     "2024": 2,
-     "2025": 7
-    },
-    "areaTotal": 71,
-    "estoque": {
-     "2017": 1,
-     "2018": 1,
-     "2019": 1,
-     "2020": 2,
-     "2021": 20,
-     "2022": 35,
-     "2023": 46,
-     "2024": 53,
-     "2025": 55,
-     "2026": 71
-    },
-    "entradas": {
-     "2017": 1,
-     "2019": 1,
-     "2020": 1,
-     "2021": 19,
-     "2022": 17,
-     "2023": 13,
-     "2024": 9,
-     "2025": 9,
-     "2026": 16
-    },
-    "area": {
-     "Cível": 34,
-     "Trabalhista": 13,
-     "Tributário": 12,
-     "Administrativo": 6,
-     "Penal-Criminal": 6
-    },
-    "uf": {
-     "SC": 60,
-     "DF": 1,
-     "MT": 1
-    },
-    "instancia": {
-     "1º Grau": 64,
-     "2º Grau": 5,
-     "Superiores": 2
-    },
-    "polo": {
-     "Polo passivo": 43,
-     "Terceiro/Outros": 16,
-     "Polo ativo": 12
-    },
-    "tribunais": {
-     "TJSC": 41,
-     "N/D": 14,
-     "TRT12": 9,
-     "TRF4": 3,
-     "Justiça Federal de Santa Catarina": 2,
-     "STJ": 1,
-     "TJMT": 1
-    },
-    "ranking": [
-     [
-      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-      4
-     ],
-     [
-      "UNIÃO FAZENDA NACIONAL",
-      4
-     ],
-     [
-      "RUTE MARIA GOEDERT KROON EIRELI",
-      4
-     ],
-     [
-      "RESIDENCIAL MARTIM PESCADOR LTDA",
-      4
-     ],
-     [
-      "PEDRO PAULO SANTANA LAUS",
-      4
-     ],
-     [
-      "F&F PARTICIPACOES LTDA",
-      2
-     ],
-     [
-      "RECEITA FEDERAL DO BRASIL",
-      2
-     ],
-     [
-      "PROCON",
-      2
-     ],
-     [
-      "EMPREENDIMENTOS IMOBILIÁRIOS BAYER CORTE LTDA",
-      2
-     ],
-     [
-      "ALIDA MARIA MATZENBACHER THOMANN",
-      2
-     ],
-     [
-      "OI S.A - EM RECUPERAÇÃO JUDICIAL",
-      2
-     ],
-     [
-      "MUNICÍPIO DE BIGUAÇU/SC",
-      2
-     ],
-     [
-      "CLINICA DR. EGIDIO MARTORANO FILHO LTDA",
-      1
-     ],
-     [
-      "UNIÃO FEDERAL",
-      1
-     ],
-     [
-      "LEANDRO LAERCIO DE SOUZA",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 86,
-     "ativos": 71,
-     "areas": 5,
-     "trib": 6,
-     "procSub": "71 ativos · 15 encerrados",
-     "areasSub": "Cível, Trabalhista, Tributário",
-     "tribSub": "TJSC, TRT12, TRF4"
-    },
-    "esforco": {
-     "comProducao": 86,
-     "tramitacaoDias": 1061,
-     "prazano": {
-      "2021": 1,
-      "2022": 41,
-      "2023": 85,
-      "2024": 107,
-      "2025": 115,
-      "2026": 124
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 5,
-      "2023": 6,
-      "2024": 13,
-      "2025": 14,
-      "2026": 8
-     },
-     "tarefano": {
-      "2021": 150,
-      "2022": 26,
-      "2023": 73,
-      "2024": 88,
-      "2025": 69,
-      "2026": 77
-     },
-     "atividades": {
-      "Prazos": 473,
-      "Audiências": 46,
-      "Reuniões e Diligências": 483
-     },
-     "extrajudano": {
-      "2021": 4,
-      "2022": 56,
-      "2023": 79,
-      "2024": 155,
-      "2025": 78,
-      "2026": 73
-     }
-    },
-    "horas": {
-     "total": 1595.1,
-     "media": 18.5,
-     "mediaAtivos": 22.5,
-     "horasano": {
-      "2024": 406.4,
-      "2025": 322.5,
-      "2026": 416.7,
-      "2022": 130.2,
-      "2023": 315.1,
-      "2021": 4.3
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 15,
-    "_panorama": true,
-    "nome": "Panorama Geral do Grupo"
-   }
+    "areas": 5,
+    "trib": 6,
+    "procSub": "71 ativos · 15 encerrados",
+    "areasSub": "Cível, Trabalhista, Tributário",
+    "tribSub": "TJSC, OUTROS, TRT12",
+    "encerrados": 15
   },
-  "elianeeufrasiofeltzf_677012424": {
-   "nome": "Eliane Eufrasio Feltz - Feltz",
-   "_idCliente": 677012424,
-   "dataset": {
-    "total": 5,
-    "ativos": 5,
-    "encerrados": {},
-    "areaTotal": 5,
-    "estoque": {
-     "2022": 0,
-     "2023": 0,
-     "2024": 3,
-     "2025": 4,
-     "2026": 5
+  "empresas": {
+    "_panorama": {
+      "nome": "Panorama Geral do Grupo",
+      "_idCliente": 677012424,
+      "dataset": {
+        "total": 86,
+        "ativos": 71,
+        "encerrados": {
+          "2019": 1,
+          "2021": 1,
+          "2022": 2,
+          "2023": 2,
+          "2024": 2,
+          "2025": 7
+        },
+        "areaTotal": 71,
+        "estoque": {
+          "2017": 1,
+          "2018": 1,
+          "2019": 1,
+          "2020": 2,
+          "2021": 20,
+          "2022": 35,
+          "2023": 46,
+          "2024": 53,
+          "2025": 55,
+          "2026": 71
+        },
+        "entradas": {
+          "2017": 1,
+          "2019": 1,
+          "2020": 1,
+          "2021": 19,
+          "2022": 17,
+          "2023": 13,
+          "2024": 9,
+          "2025": 9,
+          "2026": 16
+        },
+        "area": {
+          "Cível": 34,
+          "Trabalhista": 13,
+          "Tributário": 12,
+          "Administrativo": 6,
+          "Penal-Criminal": 6
+        },
+        "uf": {
+          "SC": 60,
+          "DF": 1,
+          "MT": 1
+        },
+        "instancia": {
+          "1º Grau": 64,
+          "2º Grau": 5,
+          "Superiores": 2
+        },
+        "polo": {
+          "Polo passivo": 43,
+          "Terceiro/Outros": 16,
+          "Polo ativo": 12
+        },
+        "tribunais": {
+          "TJSC": 41,
+          "OUTROS": 14,
+          "TRT12": 9,
+          "TRF4": 3,
+          "Justiça Federal de Santa Catarina": 2,
+          "STJ": 1,
+          "TJMT": 1
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            4
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            4
+          ],
+          [
+            "RUTE MARIA GOEDERT KROON EIRELI",
+            4
+          ],
+          [
+            "RESIDENCIAL MARTIM PESCADOR LTDA",
+            4
+          ],
+          [
+            "PEDRO PAULO SANTANA LAUS",
+            4
+          ],
+          [
+            "F&F PARTICIPACOES LTDA",
+            2
+          ],
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            2
+          ],
+          [
+            "PROCON",
+            2
+          ],
+          [
+            "EMPREENDIMENTOS IMOBILIÁRIOS BAYER CORTE LTDA",
+            2
+          ],
+          [
+            "ALIDA MARIA MATZENBACHER THOMANN",
+            2
+          ],
+          [
+            "OI S.A - EM RECUPERAÇÃO JUDICIAL",
+            2
+          ],
+          [
+            "MUNICÍPIO DE BIGUAÇU/SC",
+            2
+          ],
+          [
+            "CLINICA DR. EGIDIO MARTORANO FILHO LTDA",
+            1
+          ],
+          [
+            "UNIÃO FEDERAL",
+            1
+          ],
+          [
+            "LEANDRO LAERCIO DE SOUZA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 86,
+          "ativos": 71,
+          "areas": 5,
+          "trib": 6,
+          "procSub": "71 ativos · 15 encerrados",
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "tribSub": "TJSC, OUTROS, TRT12"
+        },
+        "esforco": {
+          "comProducao": 86,
+          "tramitacaoDias": 1061,
+          "prazano": {
+            "2021": 1,
+            "2022": 41,
+            "2023": 85,
+            "2024": 107,
+            "2025": 115,
+            "2026": 124
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 5,
+            "2023": 6,
+            "2024": 13,
+            "2025": 14,
+            "2026": 8
+          },
+          "tarefano": {
+            "2021": 150,
+            "2022": 26,
+            "2023": 73,
+            "2024": 88,
+            "2025": 69,
+            "2026": 77
+          },
+          "atividades": {
+            "Prazos": 473,
+            "Audiências": 46,
+            "Reuniões e Diligências": 483
+          },
+          "extrajudano": {
+            "2021": 4,
+            "2022": 56,
+            "2023": 79,
+            "2024": 155,
+            "2025": 78,
+            "2026": 73
+          }
+        },
+        "horas": {
+          "total": 1595.1,
+          "media": 18.5,
+          "mediaAtivos": 22.5,
+          "horasano": {
+            "2024": 406.4,
+            "2025": 322.5,
+            "2026": 416.7,
+            "2022": 130.2,
+            "2023": 315.1,
+            "2021": 4.3
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 15,
+        "_panorama": true,
+        "nome": "Panorama Geral do Grupo"
+      }
     },
-    "entradas": {
-     "2024": 3,
-     "2025": 1,
-     "2026": 1
+    "elianeeufrasiofeltzf_677012424": {
+      "nome": "Eliane Eufrasio Feltz - Feltz",
+      "_idCliente": 677012424,
+      "dataset": {
+        "total": 5,
+        "ativos": 5,
+        "encerrados": {},
+        "areaTotal": 5,
+        "estoque": {
+          "2022": 0,
+          "2023": 0,
+          "2024": 3,
+          "2025": 4,
+          "2026": 5
+        },
+        "entradas": {
+          "2024": 3,
+          "2025": 1,
+          "2026": 1
+        },
+        "area": {
+          "Cível": 3,
+          "Administrativo": 1,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 4
+        },
+        "instancia": {
+          "1º Grau": 5
+        },
+        "polo": {
+          "Polo ativo": 3,
+          "Terceiro/Outros": 1,
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "TJSC": 4,
+          "OUTROS": 1
+        },
+        "ranking": [
+          [
+            "F&F PARTICIPACOES LTDA",
+            2
+          ],
+          [
+            "CLINICA DR. EGIDIO MARTORANO FILHO LTDA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 5,
+          "ativos": 5,
+          "areas": 3,
+          "trib": 1,
+          "procSub": "5 ativos · 0 encerrados",
+          "areasSub": "Cível, Administrativo, Penal-Criminal",
+          "tribSub": "TJSC"
+        },
+        "esforco": {
+          "comProducao": 5,
+          "tramitacaoDias": 626,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 10,
+            "2025": 19,
+            "2026": 4
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 4,
+            "2026": 1
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 7,
+            "2026": 8
+          },
+          "atividades": {
+            "Prazos": 33,
+            "Audiências": 5,
+            "Reuniões e Diligências": 15
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 128.5,
+          "media": 25.7,
+          "mediaAtivos": 25.7,
+          "horasano": {
+            "2024": 44.6,
+            "2025": 58.5,
+            "2026": 25.4
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 0
+      }
     },
-    "area": {
-     "Cível": 3,
-     "Administrativo": 1,
-     "Penal-Criminal": 1
+    "valmorjosefeltzfeltz_3796661": {
+      "nome": "Valmor José Feltz - Feltz",
+      "_idCliente": 3796661,
+      "dataset": {
+        "total": 6,
+        "ativos": 6,
+        "encerrados": {},
+        "areaTotal": 6,
+        "estoque": {
+          "2022": 1,
+          "2023": 3,
+          "2024": 4,
+          "2025": 4,
+          "2026": 6
+        },
+        "entradas": {
+          "2022": 1,
+          "2023": 2,
+          "2024": 1,
+          "2026": 2
+        },
+        "area": {
+          "Tributário": 3,
+          "Penal-Criminal": 2,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 5
+        },
+        "instancia": {
+          "1º Grau": 6
+        },
+        "polo": {
+          "Terceiro/Outros": 3,
+          "Polo passivo": 2,
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "OUTROS": 3,
+          "TJSC": 2,
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "UNIÃO FEDERAL",
+            1
+          ],
+          [
+            "LEANDRO LAERCIO DE SOUZA",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "DETRAN",
+            1
+          ],
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 6,
+          "ativos": 6,
+          "areas": 3,
+          "trib": 2,
+          "procSub": "6 ativos · 0 encerrados",
+          "areasSub": "Tributário, Penal-Criminal, Administrativo",
+          "tribSub": "TJSC, TRF4"
+        },
+        "esforco": {
+          "comProducao": 6,
+          "tramitacaoDias": 809,
+          "prazano": {
+            "2021": 0,
+            "2022": 1,
+            "2023": 2,
+            "2024": 11,
+            "2025": 5,
+            "2026": 4
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 2,
+            "2024": 1,
+            "2025": 3,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 2,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 23,
+            "Audiências": 6,
+            "Reuniões e Diligências": 2
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 44.5,
+          "media": 7.4,
+          "mediaAtivos": 7.4,
+          "horasano": {
+            "2022": 1.5,
+            "2023": 4.1,
+            "2024": 27.7,
+            "2025": 7.1,
+            "2026": 4.1
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 0
+      }
     },
-    "uf": {
-     "SC": 4
+    "vjfmarmorariafeltz_3087645": {
+      "nome": "Vjf Marmoraria - Feltz",
+      "_idCliente": 3087645,
+      "dataset": {
+        "total": 2,
+        "ativos": 2,
+        "encerrados": {},
+        "areaTotal": 2,
+        "estoque": {
+          "2022": 1,
+          "2023": 2,
+          "2024": 2,
+          "2025": 2,
+          "2026": 2
+        },
+        "entradas": {
+          "2022": 1,
+          "2023": 1
+        },
+        "area": {
+          "Trabalhista": 1,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Polo passivo": 1,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "OUTROS": 2
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
+            1
+          ],
+          [
+            "PROCON",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 2,
+          "ativos": 2,
+          "areas": 2,
+          "trib": 0,
+          "procSub": "2 ativos · 0 encerrados",
+          "areasSub": "Trabalhista, Administrativo",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 2,
+          "tramitacaoDias": 1372,
+          "prazano": {
+            "2021": 0,
+            "2022": 1,
+            "2023": 1,
+            "2024": 4,
+            "2025": 0,
+            "2026": 0
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 2,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 20,
+            "2023": 72,
+            "2024": 87,
+            "2025": 50,
+            "2026": 47
+          },
+          "atividades": {
+            "Prazos": 6,
+            "Audiências": 2,
+            "Reuniões e Diligências": 276
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 56,
+            "2023": 79,
+            "2024": 155,
+            "2025": 78,
+            "2026": 73
+          }
+        },
+        "horas": {
+          "total": 387.6,
+          "media": 193.8,
+          "mediaAtivos": 193.8,
+          "horasano": {
+            "2022": 38.2,
+            "2023": 80.0,
+            "2024": 131.5,
+            "2025": 77.9,
+            "2026": 60.1
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 0
+      }
     },
-    "instancia": {
-     "1º Grau": 5
+    "elianeeufrasiofeltzm_2416563": {
+      "nome": "Eliane Eufrasio Feltz ME - Feltz",
+      "_idCliente": 2416563,
+      "dataset": {
+        "total": 24,
+        "ativos": 19,
+        "encerrados": {
+          "2021": 1,
+          "2022": 1,
+          "2023": 1,
+          "2025": 2
+        },
+        "areaTotal": 19,
+        "estoque": {
+          "2020": 1,
+          "2021": 8,
+          "2022": 14,
+          "2023": 15,
+          "2024": 15,
+          "2025": 14,
+          "2026": 19
+        },
+        "entradas": {
+          "2020": 1,
+          "2021": 8,
+          "2022": 7,
+          "2023": 2,
+          "2025": 1,
+          "2026": 5
+        },
+        "area": {
+          "Cível": 7,
+          "Trabalhista": 5,
+          "Tributário": 4,
+          "Penal-Criminal": 2,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 16,
+          "DF": 1
+        },
+        "instancia": {
+          "1º Grau": 17,
+          "Superiores": 1,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo passivo": 14,
+          "Terceiro/Outros": 4,
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "TJSC": 8,
+          "TRT12": 4,
+          "OUTROS": 3,
+          "Justiça Federal de Santa Catarina": 2,
+          "STJ": 1,
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "RUTE MARIA GOEDERT KROON EIRELI",
+            4
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            3
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            2
+          ],
+          [
+            "EMPREENDIMENTOS IMOBILIÁRIOS BAYER CORTE LTDA",
+            2
+          ],
+          [
+            "REINA ASSIS BORGES",
+            1
+          ],
+          [
+            "MINERVINO ZACARIAS ROSA",
+            1
+          ],
+          [
+            "SUPERINTENDENTE DO MINISTÉRIO DO TRABALHO E EMPREGO EM FLORIANÓPOLIS - SC",
+            1
+          ],
+          [
+            "ANDRE DA SILVA SANTOS",
+            1
+          ],
+          [
+            "DANIEL SANTOS",
+            1
+          ],
+          [
+            "ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "RAHONI SILVEIRA DA COSTA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 24,
+          "ativos": 19,
+          "areas": 5,
+          "trib": 5,
+          "procSub": "19 ativos · 5 encerrados",
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "tribSub": "TJSC, TRT12, Justiça Federal de Santa Catarina"
+        },
+        "esforco": {
+          "comProducao": 24,
+          "tramitacaoDias": 1192,
+          "prazano": {
+            "2021": 1,
+            "2022": 18,
+            "2023": 18,
+            "2024": 12,
+            "2025": 19,
+            "2026": 32
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 1,
+            "2023": 0,
+            "2024": 4,
+            "2025": 2,
+            "2026": 1
+          },
+          "tarefano": {
+            "2021": 121,
+            "2022": 3,
+            "2023": 0,
+            "2024": 0,
+            "2025": 2,
+            "2026": 8
+          },
+          "atividades": {
+            "Prazos": 100,
+            "Audiências": 8,
+            "Reuniões e Diligências": 134
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 191.5,
+          "media": 8.0,
+          "mediaAtivos": 10.1,
+          "horasano": {
+            "2021": 0.3,
+            "2022": 29.7,
+            "2023": 27.7,
+            "2024": 29.0,
+            "2025": 35.7,
+            "2026": 69.2
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 5
+      }
     },
-    "polo": {
-     "Polo ativo": 3,
-     "Terceiro/Outros": 1,
-     "Polo passivo": 1
+    "victorfeltzfeltz_2130314": {
+      "nome": "Victor Feltz - Feltz",
+      "_idCliente": 2130314,
+      "dataset": {
+        "total": 18,
+        "ativos": 16,
+        "encerrados": {
+          "2024": 1,
+          "2025": 1
+        },
+        "areaTotal": 16,
+        "estoque": {
+          "2021": 1,
+          "2022": 2,
+          "2023": 3,
+          "2024": 6,
+          "2025": 12,
+          "2026": 16
+        },
+        "entradas": {
+          "2021": 1,
+          "2022": 1,
+          "2023": 1,
+          "2024": 4,
+          "2025": 7,
+          "2026": 4
+        },
+        "area": {
+          "Cível": 9,
+          "Trabalhista": 5,
+          "Administrativo": 1,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 13,
+          "MT": 1
+        },
+        "instancia": {
+          "1º Grau": 14,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo passivo": 8,
+          "Polo ativo": 4,
+          "Terceiro/Outros": 4
+        },
+        "tribunais": {
+          "TJSC": 9,
+          "OUTROS": 3,
+          "TRT12": 3,
+          "TJMT": 1
+        },
+        "ranking": [
+          [
+            "PAULA CRISTINA FARIAS",
+            1
+          ],
+          [
+            "ANDERSON BRAZ -- IMPRESSÕES DIGITAIS",
+            1
+          ],
+          [
+            "PAULO HENRIQUE RODRIGUES VIEIRA",
+            1
+          ],
+          [
+            "JOSE GABRIEL PEREIRA DA SILVA",
+            1
+          ],
+          [
+            "CRISTIANO DE BEM CARDOSO -- AGROPECUÁRIA NOVOTETO EIRELI - ME",
+            1
+          ],
+          [
+            "CLAUDIA ROSSANA BLASI MARTINS GUSBERTI",
+            1
+          ],
+          [
+            "PAULA CRISTINA FARIAS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+            1
+          ],
+          [
+            "GUILHERME LUIZ COSTENARO",
+            1
+          ],
+          [
+            "FRANCISCO DAVI SILVA DE ALENCAR",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO FEDERAL",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO",
+            1
+          ],
+          [
+            "RESIDENCIAL MARTIM PESCADOR LTDA",
+            1
+          ],
+          [
+            "ERIVAN DE SOUSA",
+            1
+          ],
+          [
+            "PROCON",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 18,
+          "ativos": 16,
+          "areas": 4,
+          "trib": 3,
+          "procSub": "16 ativos · 2 encerrados",
+          "areasSub": "Cível, Trabalhista, Administrativo",
+          "tribSub": "TJSC, TRT12, TJMT"
+        },
+        "esforco": {
+          "comProducao": 18,
+          "tramitacaoDias": 604,
+          "prazano": {
+            "2021": 0,
+            "2022": 3,
+            "2023": 4,
+            "2024": 16,
+            "2025": 32,
+            "2026": 43
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 1,
+            "2023": 0,
+            "2024": 2,
+            "2025": 2,
+            "2026": 5
+          },
+          "tarefano": {
+            "2021": 8,
+            "2022": 3,
+            "2023": 0,
+            "2024": 0,
+            "2025": 2,
+            "2026": 6
+          },
+          "atividades": {
+            "Prazos": 98,
+            "Audiências": 10,
+            "Reuniões e Diligências": 19
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 238.2,
+          "media": 13.2,
+          "mediaAtivos": 14.9,
+          "horasano": {
+            "2022": 4.4,
+            "2023": 4.1,
+            "2024": 38.6,
+            "2025": 82.6,
+            "2026": 108.7
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 2
+      }
     },
-    "tribunais": {
-     "TJSC": 4,
-     "N/D": 1
+    "valmorfeltzfeltz_2130263": {
+      "nome": "Valmor Feltz - Feltz",
+      "_idCliente": 2130263,
+      "dataset": {
+        "total": 3,
+        "ativos": 2,
+        "encerrados": {
+          "2025": 1
+        },
+        "areaTotal": 2,
+        "estoque": {
+          "2022": 1,
+          "2023": 1,
+          "2024": 2,
+          "2025": 1,
+          "2026": 2
+        },
+        "entradas": {
+          "2022": 1,
+          "2024": 1,
+          "2026": 1
+        },
+        "area": {
+          "Administrativo": 1,
+          "Tributário": 1
+        },
+        "uf": {},
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Terceiro/Outros": 2
+        },
+        "tribunais": {
+          "OUTROS": 2
+        },
+        "ranking": [
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 3,
+          "ativos": 2,
+          "areas": 2,
+          "trib": 0,
+          "procSub": "2 ativos · 1 encerrado",
+          "areasSub": "Administrativo, Tributário",
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 3,
+          "tramitacaoDias": 828,
+          "prazano": {
+            "2021": 0,
+            "2022": 1,
+            "2023": 0,
+            "2024": 1,
+            "2025": 0,
+            "2026": 2
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 1,
+            "2025": 3,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 4,
+            "Audiências": 0,
+            "Reuniões e Diligências": 4
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 18.5,
+          "media": 6.2,
+          "mediaAtivos": 9.3,
+          "horasano": {
+            "2022": 2.2,
+            "2024": 0.9,
+            "2025": 1.7,
+            "2026": 13.7
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 1
+      }
     },
-    "ranking": [
-     [
-      "F&F PARTICIPACOES LTDA",
-      2
-     ],
-     [
-      "CLINICA DR. EGIDIO MARTORANO FILHO LTDA",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 5,
-     "ativos": 5,
-     "areas": 3,
-     "trib": 1,
-     "procSub": "5 ativos · 0 encerrados",
-     "areasSub": "Cível, Administrativo, Penal-Criminal",
-     "tribSub": "TJSC"
-    },
-    "esforco": {
-     "comProducao": 5,
-     "tramitacaoDias": 626,
-     "prazano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 10,
-      "2025": 19,
-      "2026": 4
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 4,
-      "2026": 1
-     },
-     "tarefano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 7,
-      "2026": 8
-     },
-     "atividades": {
-      "Prazos": 33,
-      "Audiências": 5,
-      "Reuniões e Diligências": 15
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     }
-    },
-    "horas": {
-     "total": 128.5,
-     "media": 25.7,
-     "mediaAtivos": 25.7,
-     "horasano": {
-      "2024": 44.6,
-      "2025": 58.5,
-      "2026": 25.4
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 0
-   }
+    "valmorjosefeltzmefel_2129962": {
+      "nome": "Valmor José Feltz ME - Feltz",
+      "_idCliente": 2129962,
+      "dataset": {
+        "total": 28,
+        "ativos": 21,
+        "encerrados": {
+          "2019": 1,
+          "2022": 1,
+          "2023": 1,
+          "2024": 1,
+          "2025": 3
+        },
+        "areaTotal": 21,
+        "estoque": {
+          "2017": 1,
+          "2018": 1,
+          "2019": 1,
+          "2020": 1,
+          "2021": 11,
+          "2022": 16,
+          "2023": 22,
+          "2024": 21,
+          "2025": 18,
+          "2026": 21
+        },
+        "entradas": {
+          "2017": 1,
+          "2019": 1,
+          "2021": 10,
+          "2022": 6,
+          "2023": 7,
+          "2026": 3
+        },
+        "area": {
+          "Cível": 15,
+          "Tributário": 4,
+          "Trabalhista": 2
+        },
+        "uf": {
+          "SC": 21
+        },
+        "instancia": {
+          "1º Grau": 18,
+          "2º Grau": 2,
+          "Superiores": 1
+        },
+        "polo": {
+          "Polo passivo": 17,
+          "Polo ativo": 3,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 18,
+          "TRT12": 2,
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "PEDRO PAULO SANTANA LAUS",
+            4
+          ],
+          [
+            "RESIDENCIAL MARTIM PESCADOR LTDA",
+            3
+          ],
+          [
+            "OI S.A - EM RECUPERAÇÃO JUDICIAL",
+            2
+          ],
+          [
+            "MUNICÍPIO DE BIGUAÇU/SC",
+            2
+          ],
+          [
+            "DALLANO CONSTRUTORA E INCORPORADORA",
+            1
+          ],
+          [
+            "CLEDSON PATRICK SANTOS DO ROSARIO",
+            1
+          ],
+          [
+            "WALDIR CACHOEIRA",
+            1
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            1
+          ],
+          [
+            "HALISSON HABITZREUTER",
+            1
+          ],
+          [
+            "WALDELAR ZANOTTI SILOTE",
+            1
+          ],
+          [
+            "MARIO SERGIO DE QUADRO",
+            1
+          ],
+          [
+            "CASTRO ADVOCACIA SOCIEDADE DE ADVOGADOS",
+            1
+          ],
+          [
+            "MUNICÍPIO DE TIJUCAS/SC",
+            1
+          ],
+          [
+            "ALIDA MARIA MATZENBACHER THOMANN",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 28,
+          "ativos": 21,
+          "areas": 3,
+          "trib": 3,
+          "procSub": "21 ativos · 7 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TRT12, TRF4"
+        },
+        "esforco": {
+          "comProducao": 28,
+          "tramitacaoDias": 1458,
+          "prazano": {
+            "2021": 0,
+            "2022": 17,
+            "2023": 60,
+            "2024": 53,
+            "2025": 40,
+            "2026": 39
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 3,
+            "2023": 4,
+            "2024": 4,
+            "2025": 3,
+            "2026": 1
+          },
+          "tarefano": {
+            "2021": 21,
+            "2022": 0,
+            "2023": 1,
+            "2024": 0,
+            "2025": 3,
+            "2026": 8
+          },
+          "atividades": {
+            "Prazos": 209,
+            "Audiências": 15,
+            "Reuniões e Diligências": 33
+          },
+          "extrajudano": {
+            "2021": 4,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 586.3,
+          "media": 20.9,
+          "mediaAtivos": 27.9,
+          "horasano": {
+            "2021": 4.0,
+            "2022": 54.3,
+            "2023": 199.3,
+            "2024": 134.1,
+            "2025": 59.0,
+            "2026": 135.5
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 7
+      }
+    }
   },
-  "valmorjosefeltzfeltz_3796661": {
-   "nome": "Valmor José Feltz - Feltz",
-   "_idCliente": 3796661,
-   "dataset": {
-    "total": 6,
-    "ativos": 6,
-    "encerrados": {},
-    "areaTotal": 6,
-    "estoque": {
-     "2022": 1,
-     "2023": 3,
-     "2024": 4,
-     "2025": 4,
-     "2026": 6
-    },
-    "entradas": {
-     "2022": 1,
-     "2023": 2,
-     "2024": 1,
-     "2026": 2
-    },
-    "area": {
-     "Tributário": 3,
-     "Penal-Criminal": 2,
-     "Administrativo": 1
-    },
-    "uf": {
-     "SC": 5
-    },
-    "instancia": {
-     "1º Grau": 6
-    },
-    "polo": {
-     "Terceiro/Outros": 3,
-     "Polo passivo": 2,
-     "Polo ativo": 1
-    },
-    "tribunais": {
-     "N/D": 3,
-     "TJSC": 2,
-     "TRF4": 1
-    },
-    "ranking": [
-     [
-      "UNIÃO FEDERAL",
-      1
-     ],
-     [
-      "LEANDRO LAERCIO DE SOUZA",
-      1
-     ],
-     [
-      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-      1
-     ],
-     [
-      "DETRAN",
-      1
-     ],
-     [
-      "RECEITA FEDERAL DO BRASIL",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 6,
-     "ativos": 6,
-     "areas": 3,
-     "trib": 2,
-     "procSub": "6 ativos · 0 encerrados",
-     "areasSub": "Tributário, Penal-Criminal, Administrativo",
-     "tribSub": "TJSC, TRF4"
-    },
-    "esforco": {
-     "comProducao": 6,
-     "tramitacaoDias": 809,
-     "prazano": {
-      "2021": 0,
-      "2022": 1,
-      "2023": 2,
-      "2024": 11,
-      "2025": 5,
-      "2026": 4
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 2,
-      "2024": 1,
-      "2025": 3,
-      "2026": 0
-     },
-     "tarefano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 2,
-      "2026": 0
-     },
-     "atividades": {
-      "Prazos": 23,
-      "Audiências": 6,
-      "Reuniões e Diligências": 2
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     }
-    },
-    "horas": {
-     "total": 44.5,
-     "media": 7.4,
-     "mediaAtivos": 7.4,
-     "horasano": {
-      "2022": 1.5,
-      "2023": 4.1,
-      "2024": 27.7,
-      "2025": 7.1,
-      "2026": 4.1
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 0
-   }
-  },
-  "vjfmarmorariafeltz_3087645": {
-   "nome": "Vjf Marmoraria - Feltz",
-   "_idCliente": 3087645,
-   "dataset": {
-    "total": 2,
-    "ativos": 2,
-    "encerrados": {},
-    "areaTotal": 2,
-    "estoque": {
-     "2022": 1,
-     "2023": 2,
-     "2024": 2,
-     "2025": 2,
-     "2026": 2
-    },
-    "entradas": {
-     "2022": 1,
-     "2023": 1
-    },
-    "area": {
-     "Trabalhista": 1,
-     "Administrativo": 1
-    },
-    "uf": {
-     "SC": 1
-    },
-    "instancia": {
-     "1º Grau": 2
-    },
-    "polo": {
-     "Polo passivo": 1,
-     "Terceiro/Outros": 1
-    },
-    "tribunais": {
-     "N/D": 2
-    },
-    "ranking": [
-     [
-      "MINISTÉRIO PÚBLICO DO TRABALHO SANTA CATARINA",
-      1
-     ],
-     [
-      "PROCON",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 2,
-     "ativos": 2,
-     "areas": 2,
-     "trib": 0,
-     "procSub": "2 ativos · 0 encerrados",
-     "areasSub": "Trabalhista, Administrativo",
-     "tribSub": ""
-    },
-    "esforco": {
-     "comProducao": 2,
-     "tramitacaoDias": 1372,
-     "prazano": {
-      "2021": 0,
-      "2022": 1,
-      "2023": 1,
-      "2024": 4,
-      "2025": 0,
-      "2026": 0
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 2,
-      "2025": 0,
-      "2026": 0
-     },
-     "tarefano": {
-      "2021": 0,
-      "2022": 20,
-      "2023": 72,
-      "2024": 87,
-      "2025": 50,
-      "2026": 47
-     },
-     "atividades": {
-      "Prazos": 6,
-      "Audiências": 2,
-      "Reuniões e Diligências": 276
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 56,
-      "2023": 79,
-      "2024": 155,
-      "2025": 78,
-      "2026": 73
-     }
-    },
-    "horas": {
-     "total": 387.6,
-     "media": 193.8,
-     "mediaAtivos": 193.8,
-     "horasano": {
-      "2022": 38.2,
-      "2023": 80.0,
-      "2024": 131.5,
-      "2025": 77.9,
-      "2026": 60.1
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 0
-   }
-  },
-  "elianeeufrasiofeltzm_2416563": {
-   "nome": "Eliane Eufrasio Feltz ME - Feltz",
-   "_idCliente": 2416563,
-   "dataset": {
-    "total": 24,
-    "ativos": 19,
-    "encerrados": {
-     "2021": 1,
-     "2022": 1,
-     "2023": 1,
-     "2025": 2
-    },
-    "areaTotal": 19,
-    "estoque": {
-     "2020": 1,
-     "2021": 8,
-     "2022": 14,
-     "2023": 15,
-     "2024": 15,
-     "2025": 14,
-     "2026": 19
-    },
-    "entradas": {
-     "2020": 1,
-     "2021": 8,
-     "2022": 7,
-     "2023": 2,
-     "2025": 1,
-     "2026": 5
-    },
-    "area": {
-     "Cível": 7,
-     "Trabalhista": 5,
-     "Tributário": 4,
-     "Penal-Criminal": 2,
-     "Administrativo": 1
-    },
-    "uf": {
-     "SC": 16,
-     "DF": 1
-    },
-    "instancia": {
-     "1º Grau": 17,
-     "Superiores": 1,
-     "2º Grau": 1
-    },
-    "polo": {
-     "Polo passivo": 14,
-     "Terceiro/Outros": 4,
-     "Polo ativo": 1
-    },
-    "tribunais": {
-     "TJSC": 8,
-     "TRT12": 4,
-     "N/D": 3,
-     "Justiça Federal de Santa Catarina": 2,
-     "STJ": 1,
-     "TRF4": 1
-    },
-    "ranking": [
-     [
-      "RUTE MARIA GOEDERT KROON EIRELI",
-      4
-     ],
-     [
-      "UNIÃO FAZENDA NACIONAL",
-      3
-     ],
-     [
-      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-      2
-     ],
-     [
-      "EMPREENDIMENTOS IMOBILIÁRIOS BAYER CORTE LTDA",
-      2
-     ],
-     [
-      "REINA ASSIS BORGES",
-      1
-     ],
-     [
-      "MINERVINO ZACARIAS ROSA",
-      1
-     ],
-     [
-      "SUPERINTENDENTE DO MINISTÉRIO DO TRABALHO E EMPREGO EM FLORIANÓPOLIS - SC",
-      1
-     ],
-     [
-      "ANDRE DA SILVA SANTOS",
-      1
-     ],
-     [
-      "DANIEL SANTOS",
-      1
-     ],
-     [
-      "ESTADO DE SANTA CATARINA",
-      1
-     ],
-     [
-      "RAHONI SILVEIRA DA COSTA",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 24,
-     "ativos": 19,
-     "areas": 5,
-     "trib": 5,
-     "procSub": "19 ativos · 5 encerrados",
-     "areasSub": "Cível, Trabalhista, Tributário",
-     "tribSub": "TJSC, TRT12, Justiça Federal de Santa Catarina"
-    },
-    "esforco": {
-     "comProducao": 24,
-     "tramitacaoDias": 1192,
-     "prazano": {
-      "2021": 1,
-      "2022": 18,
-      "2023": 18,
-      "2024": 12,
-      "2025": 19,
-      "2026": 32
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 1,
-      "2023": 0,
-      "2024": 4,
-      "2025": 2,
-      "2026": 1
-     },
-     "tarefano": {
-      "2021": 121,
-      "2022": 3,
-      "2023": 0,
-      "2024": 0,
-      "2025": 2,
-      "2026": 8
-     },
-     "atividades": {
-      "Prazos": 100,
-      "Audiências": 8,
-      "Reuniões e Diligências": 134
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     }
-    },
-    "horas": {
-     "total": 191.5,
-     "media": 8.0,
-     "mediaAtivos": 10.1,
-     "horasano": {
-      "2021": 0.3,
-      "2022": 29.7,
-      "2023": 27.7,
-      "2024": 29.0,
-      "2025": 35.7,
-      "2026": 69.2
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 5
-   }
-  },
-  "victorfeltzfeltz_2130314": {
-   "nome": "Victor Feltz - Feltz",
-   "_idCliente": 2130314,
-   "dataset": {
-    "total": 18,
-    "ativos": 16,
-    "encerrados": {
-     "2024": 1,
-     "2025": 1
-    },
-    "areaTotal": 16,
-    "estoque": {
-     "2021": 1,
-     "2022": 2,
-     "2023": 3,
-     "2024": 6,
-     "2025": 12,
-     "2026": 16
-    },
-    "entradas": {
-     "2021": 1,
-     "2022": 1,
-     "2023": 1,
-     "2024": 4,
-     "2025": 7,
-     "2026": 4
-    },
-    "area": {
-     "Cível": 9,
-     "Trabalhista": 5,
-     "Administrativo": 1,
-     "Penal-Criminal": 1
-    },
-    "uf": {
-     "SC": 13,
-     "MT": 1
-    },
-    "instancia": {
-     "1º Grau": 14,
-     "2º Grau": 2
-    },
-    "polo": {
-     "Polo passivo": 8,
-     "Polo ativo": 4,
-     "Terceiro/Outros": 4
-    },
-    "tribunais": {
-     "TJSC": 9,
-     "N/D": 3,
-     "TRT12": 3,
-     "TJMT": 1
-    },
-    "ranking": [
-     [
-      "PAULA CRISTINA FARIAS",
-      1
-     ],
-     [
-      "ANDERSON BRAZ -- IMPRESSÕES DIGITAIS",
-      1
-     ],
-     [
-      "PAULO HENRIQUE RODRIGUES VIEIRA",
-      1
-     ],
-     [
-      "JOSE GABRIEL PEREIRA DA SILVA",
-      1
-     ],
-     [
-      "CRISTIANO DE BEM CARDOSO -- AGROPECUÁRIA NOVOTETO EIRELI - ME",
-      1
-     ],
-     [
-      "CLAUDIA ROSSANA BLASI MARTINS GUSBERTI",
-      1
-     ],
-     [
-      "PAULA CRISTINA FARIAS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
-      1
-     ],
-     [
-      "GUILHERME LUIZ COSTENARO",
-      1
-     ],
-     [
-      "FRANCISCO DAVI SILVA DE ALENCAR",
-      1
-     ],
-     [
-      "MINISTÉRIO PÚBLICO FEDERAL",
-      1
-     ],
-     [
-      "MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO",
-      1
-     ],
-     [
-      "RESIDENCIAL MARTIM PESCADOR LTDA",
-      1
-     ],
-     [
-      "ERIVAN DE SOUSA",
-      1
-     ],
-     [
-      "PROCON",
-      1
-     ],
-     [
-      "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 18,
-     "ativos": 16,
-     "areas": 4,
-     "trib": 3,
-     "procSub": "16 ativos · 2 encerrados",
-     "areasSub": "Cível, Trabalhista, Administrativo",
-     "tribSub": "TJSC, TRT12, TJMT"
-    },
-    "esforco": {
-     "comProducao": 18,
-     "tramitacaoDias": 604,
-     "prazano": {
-      "2021": 0,
-      "2022": 3,
-      "2023": 4,
-      "2024": 16,
-      "2025": 32,
-      "2026": 43
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 1,
-      "2023": 0,
-      "2024": 2,
-      "2025": 2,
-      "2026": 5
-     },
-     "tarefano": {
-      "2021": 8,
-      "2022": 3,
-      "2023": 0,
-      "2024": 0,
-      "2025": 2,
-      "2026": 6
-     },
-     "atividades": {
-      "Prazos": 98,
-      "Audiências": 10,
-      "Reuniões e Diligências": 19
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     }
-    },
-    "horas": {
-     "total": 238.2,
-     "media": 13.2,
-     "mediaAtivos": 14.9,
-     "horasano": {
-      "2022": 4.4,
-      "2023": 4.1,
-      "2024": 38.6,
-      "2025": 82.6,
-      "2026": 108.7
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 2
-   }
-  },
-  "valmorfeltzfeltz_2130263": {
-   "nome": "Valmor Feltz - Feltz",
-   "_idCliente": 2130263,
-   "dataset": {
-    "total": 3,
-    "ativos": 2,
-    "encerrados": {
-     "2025": 1
-    },
-    "areaTotal": 2,
-    "estoque": {
-     "2022": 1,
-     "2023": 1,
-     "2024": 2,
-     "2025": 1,
-     "2026": 2
-    },
-    "entradas": {
-     "2022": 1,
-     "2024": 1,
-     "2026": 1
-    },
-    "area": {
-     "Administrativo": 1,
-     "Tributário": 1
-    },
-    "uf": {},
-    "instancia": {
-     "1º Grau": 2
-    },
-    "polo": {
-     "Terceiro/Outros": 2
-    },
-    "tribunais": {
-     "N/D": 2
-    },
-    "ranking": [
-     [
-      "RECEITA FEDERAL DO BRASIL",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 3,
-     "ativos": 2,
-     "areas": 2,
-     "trib": 0,
-     "procSub": "2 ativos · 1 encerrado",
-     "areasSub": "Administrativo, Tributário",
-     "tribSub": ""
-    },
-    "esforco": {
-     "comProducao": 3,
-     "tramitacaoDias": 828,
-     "prazano": {
-      "2021": 0,
-      "2022": 1,
-      "2023": 0,
-      "2024": 1,
-      "2025": 0,
-      "2026": 2
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     },
-     "tarefano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 1,
-      "2025": 3,
-      "2026": 0
-     },
-     "atividades": {
-      "Prazos": 4,
-      "Audiências": 0,
-      "Reuniões e Diligências": 4
-     },
-     "extrajudano": {
-      "2021": 0,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     }
-    },
-    "horas": {
-     "total": 18.5,
-     "media": 6.2,
-     "mediaAtivos": 9.3,
-     "horasano": {
-      "2022": 2.2,
-      "2024": 0.9,
-      "2025": 1.7,
-      "2026": 13.7
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 1
-   }
-  },
-  "valmorjosefeltzmefel_2129962": {
-   "nome": "Valmor José Feltz ME - Feltz",
-   "_idCliente": 2129962,
-   "dataset": {
-    "total": 28,
-    "ativos": 21,
-    "encerrados": {
-     "2019": 1,
-     "2022": 1,
-     "2023": 1,
-     "2024": 1,
-     "2025": 3
-    },
-    "areaTotal": 21,
-    "estoque": {
-     "2017": 1,
-     "2018": 1,
-     "2019": 1,
-     "2020": 1,
-     "2021": 11,
-     "2022": 16,
-     "2023": 22,
-     "2024": 21,
-     "2025": 18,
-     "2026": 21
-    },
-    "entradas": {
-     "2017": 1,
-     "2019": 1,
-     "2021": 10,
-     "2022": 6,
-     "2023": 7,
-     "2026": 3
-    },
-    "area": {
-     "Cível": 15,
-     "Tributário": 4,
-     "Trabalhista": 2
-    },
-    "uf": {
-     "SC": 21
-    },
-    "instancia": {
-     "1º Grau": 18,
-     "2º Grau": 2,
-     "Superiores": 1
-    },
-    "polo": {
-     "Polo passivo": 17,
-     "Polo ativo": 3,
-     "Terceiro/Outros": 1
-    },
-    "tribunais": {
-     "TJSC": 18,
-     "TRT12": 2,
-     "TRF4": 1
-    },
-    "ranking": [
-     [
-      "PEDRO PAULO SANTANA LAUS",
-      4
-     ],
-     [
-      "RESIDENCIAL MARTIM PESCADOR LTDA",
-      3
-     ],
-     [
-      "OI S.A - EM RECUPERAÇÃO JUDICIAL",
-      2
-     ],
-     [
-      "MUNICÍPIO DE BIGUAÇU/SC",
-      2
-     ],
-     [
-      "DALLANO CONSTRUTORA E INCORPORADORA",
-      1
-     ],
-     [
-      "CLEDSON PATRICK SANTOS DO ROSARIO",
-      1
-     ],
-     [
-      "WALDIR CACHOEIRA",
-      1
-     ],
-     [
-      "UNIÃO FAZENDA NACIONAL",
-      1
-     ],
-     [
-      "HALISSON HABITZREUTER",
-      1
-     ],
-     [
-      "WALDELAR ZANOTTI SILOTE",
-      1
-     ],
-     [
-      "MARIO SERGIO DE QUADRO",
-      1
-     ],
-     [
-      "CASTRO ADVOCACIA SOCIEDADE DE ADVOGADOS",
-      1
-     ],
-     [
-      "MUNICÍPIO DE TIJUCAS/SC",
-      1
-     ],
-     [
-      "ALIDA MARIA MATZENBACHER THOMANN",
-      1
-     ]
-    ],
-    "_complexidadeSoAtivos": true,
-    "kpi": {
-     "proc": 28,
-     "ativos": 21,
-     "areas": 3,
-     "trib": 3,
-     "procSub": "21 ativos · 7 encerrados",
-     "areasSub": "Cível, Tributário, Trabalhista",
-     "tribSub": "TJSC, TRT12, TRF4"
-    },
-    "esforco": {
-     "comProducao": 28,
-     "tramitacaoDias": 1458,
-     "prazano": {
-      "2021": 0,
-      "2022": 17,
-      "2023": 60,
-      "2024": 53,
-      "2025": 40,
-      "2026": 39
-     },
-     "audano": {
-      "2021": 0,
-      "2022": 3,
-      "2023": 4,
-      "2024": 4,
-      "2025": 3,
-      "2026": 1
-     },
-     "tarefano": {
-      "2021": 21,
-      "2022": 0,
-      "2023": 1,
-      "2024": 0,
-      "2025": 3,
-      "2026": 8
-     },
-     "atividades": {
-      "Prazos": 209,
-      "Audiências": 15,
-      "Reuniões e Diligências": 33
-     },
-     "extrajudano": {
-      "2021": 4,
-      "2022": 0,
-      "2023": 0,
-      "2024": 0,
-      "2025": 0,
-      "2026": 0
-     }
-    },
-    "horas": {
-     "total": 586.3,
-     "media": 20.9,
-     "mediaAtivos": 27.9,
-     "horasano": {
-      "2021": 4.0,
-      "2022": 54.3,
-      "2023": 199.3,
-      "2024": 134.1,
-      "2025": 59.0,
-      "2026": 135.5
-     },
-     "_estimativa": false
-    },
-    "encerradosTotal": 7
-   }
-  }
- },
- "nome": "Grupo Feltz",
- "nomeHtml": "Grupo <em>Feltz</em>",
- "nEmpresas": 7
+  "nome": "Grupo Feltz",
+  "nomeHtml": "Grupo <em>Feltz</em>",
+  "nEmpresas": 7
 }

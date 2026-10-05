@@ -1,1 +1,259 @@
-{"kpiGrupo": {"proc": 7, "ativos": 7, "areas": 4, "trib": 2, "procSub": "7 ativos · 0 encerrados", "areasSub": "Administrativo, Pública, Cível", "tribSub": "TJSC", "encerrados": 0}, "empresas": {"_panorama": {"nome": "Panorama Geral do Grupo", "_idCliente": 2129573, "dataset": {"total": 7, "ativos": 7, "encerrados": {}, "areaTotal": 7, "estoque": {"2020": 4, "2021": 4, "2022": 4, "2023": 5, "2024": 6, "2025": 6, "2026": 7}, "entradas": {"2020": 4, "2023": 1, "2024": 1, "2026": 1}, "area": {"Administrativo": 3, "Pública": 2, "Cível": 1, "Imobiliário": 1}, "uf": {"SC": 7}, "instancia": {"1º Grau": 5, "N/I": 2}, "polo": {"Passivo": 4, "Ativo": 3}, "tribunais": {"N/D": 6, "TJSC": 1}, "ranking": [["MUNICÍPIO DE ITAPEMA", 5], ["GIRASSÓIS ADMINISTRAÇÃO E NEGÓCIOS LTDA", 2]], "_complexidadeSoAtivos": true, "kpi": {"proc": 7, "ativos": 7, "areas": 4, "trib": 2, "procSub": "7 ativos · 0 encerrados", "areasSub": "", "tribSub": "TJSC"}, "esforco": {"comProducao": 6, "tramitacaoDias": 1802, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 18, "2025": 8, "2026": 6}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 2, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 32, "Audiências": 0, "Reuniões e Diligências": 2}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 18.3, "media": 2.61, "mediaAtivos": 2.61, "horasano": {"2023": 0.83, "2024": 2.78, "2025": 10.43, "2026": 4.25}, "_estimativa": false}, "encerradosTotal": 0, "_panorama": true, "nome": "Panorama Geral do Grupo"}}, "obaobarestaurantebar_": {"nome": "Oba Oba Restaurante Bar LTDA", "_idCliente": 2129573, "dataset": {"total": 7, "ativos": 7, "encerrados": {}, "areaTotal": 7, "estoque": {"2020": 4, "2021": 4, "2022": 4, "2023": 5, "2024": 6, "2025": 6, "2026": 7}, "entradas": {"2020": 4, "2023": 1, "2024": 1, "2026": 1}, "area": {"Administrativo": 3, "Pública": 2, "Cível": 1, "Imobiliário": 1}, "uf": {"SC": 7}, "instancia": {"1º Grau": 5, "N/I": 2}, "polo": {"Passivo": 4, "Ativo": 3}, "tribunais": {"N/D": 6, "TJSC": 1}, "ranking": [["MUNICÍPIO DE ITAPEMA", 5], ["GIRASSÓIS ADMINISTRAÇÃO E NEGÓCIOS LTDA", 2]], "_complexidadeSoAtivos": true, "kpi": {"proc": 7, "ativos": 7, "areas": 4, "trib": 2, "procSub": "7 ativos · 0 encerrados", "areasSub": "Administrativo, Pública, Cível", "tribSub": "TJSC"}, "esforco": {"comProducao": 6, "tramitacaoDias": 1802, "prazano": {"2021": 0, "2022": 0, "2023": 0, "2024": 18, "2025": 8, "2026": 6}, "audano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "tarefano": {"2021": 2, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "atividades": {"Prazos": 32, "Audiências": 0, "Reuniões e Diligências": 2}, "extrajudano": {"2021": 0, "2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}}, "horas": {"total": 18.3, "media": 2.61, "mediaAtivos": 2.61, "horasano": {"2023": 0.83, "2024": 2.78, "2025": 10.43, "2026": 4.25}, "_estimativa": false}, "encerradosTotal": 0}}}, "nome": "Grupo OBA OBA Restaurante BAR LTDA", "nomeHtml": "Grupo <em>OBA OBA Restaurante BAR LTDA</em>", "nEmpresas": 1}
+{
+  "kpiGrupo": {
+    "proc": 7,
+    "ativos": 7,
+    "areas": 4,
+    "trib": 2,
+    "procSub": "7 ativos · 0 encerrados",
+    "areasSub": "Administrativo, Pública, Cível",
+    "tribSub": "OUTROS, TJSC",
+    "encerrados": 0
+  },
+  "empresas": {
+    "_panorama": {
+      "nome": "Panorama Geral do Grupo",
+      "_idCliente": 2129573,
+      "dataset": {
+        "total": 7,
+        "ativos": 7,
+        "encerrados": {},
+        "areaTotal": 7,
+        "estoque": {
+          "2020": 4,
+          "2021": 4,
+          "2022": 4,
+          "2023": 5,
+          "2024": 6,
+          "2025": 6,
+          "2026": 7
+        },
+        "entradas": {
+          "2020": 4,
+          "2023": 1,
+          "2024": 1,
+          "2026": 1
+        },
+        "area": {
+          "Administrativo": 3,
+          "Pública": 2,
+          "Cível": 1,
+          "Imobiliário": 1
+        },
+        "uf": {
+          "SC": 7
+        },
+        "instancia": {
+          "1º Grau": 5,
+          "N/I": 2
+        },
+        "polo": {
+          "Passivo": 4,
+          "Ativo": 3
+        },
+        "tribunais": {
+          "OUTROS": 6,
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            5
+          ],
+          [
+            "GIRASSÓIS ADMINISTRAÇÃO E NEGÓCIOS LTDA",
+            2
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 7,
+          "ativos": 7,
+          "areas": 4,
+          "trib": 2,
+          "procSub": "7 ativos · 0 encerrados",
+          "areasSub": "Administrativo, Pública, Cível",
+          "tribSub": "OUTROS, TJSC"
+        },
+        "esforco": {
+          "comProducao": 6,
+          "tramitacaoDias": 1802,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 18,
+            "2025": 8,
+            "2026": 6
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 2,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 32,
+            "Audiências": 0,
+            "Reuniões e Diligências": 2
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 18.3,
+          "media": 2.61,
+          "mediaAtivos": 2.61,
+          "horasano": {
+            "2023": 0.83,
+            "2024": 2.78,
+            "2025": 10.43,
+            "2026": 4.25
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 0,
+        "_panorama": true,
+        "nome": "Panorama Geral do Grupo"
+      }
+    },
+    "obaobarestaurantebar_": {
+      "nome": "Oba Oba Restaurante Bar LTDA",
+      "_idCliente": 2129573,
+      "dataset": {
+        "total": 7,
+        "ativos": 7,
+        "encerrados": {},
+        "areaTotal": 7,
+        "estoque": {
+          "2020": 4,
+          "2021": 4,
+          "2022": 4,
+          "2023": 5,
+          "2024": 6,
+          "2025": 6,
+          "2026": 7
+        },
+        "entradas": {
+          "2020": 4,
+          "2023": 1,
+          "2024": 1,
+          "2026": 1
+        },
+        "area": {
+          "Administrativo": 3,
+          "Pública": 2,
+          "Cível": 1,
+          "Imobiliário": 1
+        },
+        "uf": {
+          "SC": 7
+        },
+        "instancia": {
+          "1º Grau": 5,
+          "N/I": 2
+        },
+        "polo": {
+          "Passivo": 4,
+          "Ativo": 3
+        },
+        "tribunais": {
+          "OUTROS": 6,
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            5
+          ],
+          [
+            "GIRASSÓIS ADMINISTRAÇÃO E NEGÓCIOS LTDA",
+            2
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 7,
+          "ativos": 7,
+          "areas": 4,
+          "trib": 2,
+          "procSub": "7 ativos · 0 encerrados",
+          "areasSub": "Administrativo, Pública, Cível",
+          "tribSub": "TJSC"
+        },
+        "esforco": {
+          "comProducao": 6,
+          "tramitacaoDias": 1802,
+          "prazano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 18,
+            "2025": 8,
+            "2026": 6
+          },
+          "audano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "tarefano": {
+            "2021": 2,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "atividades": {
+            "Prazos": 32,
+            "Audiências": 0,
+            "Reuniões e Diligências": 2
+          },
+          "extrajudano": {
+            "2021": 0,
+            "2022": 0,
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        },
+        "horas": {
+          "total": 18.3,
+          "media": 2.61,
+          "mediaAtivos": 2.61,
+          "horasano": {
+            "2023": 0.83,
+            "2024": 2.78,
+            "2025": 10.43,
+            "2026": 4.25
+          },
+          "_estimativa": false
+        },
+        "encerradosTotal": 0
+      }
+    }
+  },
+  "nome": "Grupo OBA OBA Restaurante BAR LTDA",
+  "nomeHtml": "Grupo <em>OBA OBA Restaurante BAR LTDA</em>",
+  "nEmpresas": 1
+}

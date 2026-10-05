@@ -5,8 +5,8 @@
     "areas": 4,
     "trib": 4,
     "procSub": "21 ativos · 3 encerrados",
-    "areasSub": "Cível, Penal-Criminal, Família e Sucessões, Tributário",
-    "tribSub": "TJSC, TJPR, TRF4",
+    "areasSub": "Cível, Penal-Criminal, Tributário",
+    "tribSub": "TJSC, OUTROS, TJPR",
     "encerrados": 3,
     "kHoras": 263.0
   },
@@ -59,7 +59,7 @@
         },
         "tribunais": {
           "TJSC": 17,
-          "N/D": 2,
+          "OUTROS": 2,
           "TJPR": 1,
           "TRF4": 1
         },
@@ -116,8 +116,8 @@
           "areas": 4,
           "trib": 4,
           "procSub": "21 ativos · 3 encerrados",
-          "areasSub": "",
-          "tribSub": "TJSC, TJPR, TRF4"
+          "areasSub": "Cível, Penal-Criminal, Tributário",
+          "tribSub": "TJSC, OUTROS, TJPR"
         },
         "esforco": {
           "comProducao": 23,
@@ -202,7 +202,7 @@
         },
         "tribunais": {
           "TJSC": 17,
-          "N/D": 2,
+          "OUTROS": 2,
           "TJPR": 1,
           "TRF4": 1
         },

@@ -6,7 +6,7 @@
     "trib": 1,
     "procSub": "1 ativos · 1 encerrados",
     "areasSub": "Cível",
-    "tribSub": "TJMT",
+    "tribSub": "TJMT, OUTROS",
     "encerrados": 1,
     "kHoras": 54.0
   },
@@ -46,7 +46,7 @@
         },
         "tribunais": {
           "TJMT": 1,
-          "N/D": 1
+          "OUTROS": 1
         },
         "ranking": [],
         "_complexidadeSoAtivos": true,
@@ -57,7 +57,7 @@
           "trib": 1,
           "procSub": "1 ativos · 1 encerrado",
           "areasSub": "Cível",
-          "tribSub": "TJMT"
+          "tribSub": "TJMT, OUTROS"
         },
         "esforco": {
           "comProducao": 2,
@@ -126,7 +126,7 @@
         },
         "tribunais": {
           "TJMT": 1,
-          "N/D": 1
+          "OUTROS": 1
         },
         "ranking": [],
         "_complexidadeSoAtivos": true,

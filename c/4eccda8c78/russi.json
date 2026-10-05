@@ -1,1 +1,2006 @@
-{"nome":"Grupo J.A. Russi","nomeHtml":"Grupo <em>J.A. Russi</em>","kpiGrupo":{"proc":1011,"ativos":645,"areas":10,"trib":20,"procSub":"645 ativos · 366 encerrados","areasSub":"Cível, Tributário, Trabalhista","tribSub":"TJSC, TRT12, TRF4","encerrados":366,"valor":"~R$ 723<small>mi</small>","valorTotal":722605522.03,"horas":"7649"},"empresas":{"_panorama":{"nome":"Panorama Geral do Grupo","_idCliente":null,"dataset":{"total":1011,"ativos":645,"encerrados":{"2010":0,"2011":0,"2012":0,"2013":2,"2014":3,"2015":12,"2016":3,"2017":2,"2018":1,"2019":24,"2020":225,"2021":20,"2022":40,"2023":11,"2024":7,"2025":7,"2026":9},"areaTotal":645,"estoque":{"2010":8,"2011":9,"2012":37,"2013":75,"2014":106,"2015":142,"2016":176,"2017":256,"2018":286,"2019":366,"2020":253,"2021":298,"2022":337,"2023":410,"2024":476,"2025":604,"2026":645},"entradas":{"2010":8,"2011":1,"2012":28,"2013":40,"2014":34,"2015":48,"2016":37,"2017":82,"2018":31,"2019":104,"2020":112,"2021":65,"2022":79,"2023":84,"2024":73,"2025":135,"2026":50},"estoqueHl":[],"area":{"Cível":340,"Tributário":159,"Trabalhista":101,"Administrativo":17,"Penal-Criminal":11,"Pública":9,"Ambiental":3,"Imobiliário":2,"Bancário":2,"Recuperação Judicial":1},"uf":{"SC":542,"N/I":27,"PR":19,"DF":18,"RS":9,"RN":6,"MS":6,"RJ":6,"AP":5,"PA":3,"SP":3,"CE":1},"instancia":{"1º Grau":465,"2º Grau":97,"N/I":59,"Superiores":24},"polo":{"Polo passivo":293,"Terceiro/Outros":96,"Polo ativo":256},"tribunais":{"TJSC":395,"TRT12":75,"N/I":69,"TRF4":24,"STJ":20,"TJPR":18,"TJRS":9,"TRT08":8,"TRT21":6,"TJRJ":5,"TJMS":4,"TRT02":2,"Justiça Federal de Santa Catarina":2,"DRF":2,"TRT07":1,"ALAC":1,"TRF3":1,"TRT24":1,"TRT01":1,"TJSP":1},"ranking":[["MUNICÍPIO DE ITAPEMA",70],["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",14],["MUNICÍPIO DE BRUSQUE",14],["MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",14],["LEILA CRISTINA CROCETA HESSMAN",12],["HONORATA POFFO",11],["DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",11],["UNIÃO FAZENDA NACIONAL",7],["ANTÍDIO PEDRO REIS JÚNIOR",6],["RECEITA FEDERAL DO BRASIL",6],["FUNDAGEO FUNDAÇÕES LTDA",6],["PREFEITURA MUNICIPAL DE ITAPEMA",5],["RAFAEL GASPERIN BACCIN",5],["ANDREY DIOGO ASSIS ANCAY",5],["MUNICÍPIO DE ITAJAÍ",5]],"_complexidadeSoAtivos":true,"kpi":{"proc":1011,"ativos":645,"areas":10,"trib":20,"procSub":"645 ativos · 366 encerrados","areasSub":"Cível, Tributário, Trabalhista","tribSub":"TJSC, TRT12, TRF4"},"encerradosTotal":366,"esforco":{"comProducao":721,"tramitacaoDias":1542,"prazano":{"2021":44,"2022":531,"2023":718,"2024":798,"2025":1357,"2026":753},"audano":{"2022":17,"2023":25,"2024":80,"2025":130,"2026":54},"tarefano":{"2021":3368,"2022":42,"2023":60,"2024":49,"2025":54,"2026":74},"atividades":{"Prazos":4201,"Audiências":306,"Reuniões e Diligências":3647},"extrajudano":{"2022":9,"2023":40,"2024":6,"2025":6,"2026":16},"extrajudtipo":{"Notificações":8,"Distratos e acordos":3,"Pareceres e análises":1,"Outros":18}},"horas":{"total":7648.7,"media":7.6,"mediaAtivos":11.9,"horasano":{"2023":1481.1,"2024":1449.4,"2025":2591.9,"2026":2126.2}},"_panorama":true,"nome":"Panorama Geral do Grupo"},"_panorama":true},"construtora_russi":{"nome":"Construtora e Incorporadora J.A. Russi LTDA","_idCliente":"2123691","dataset":{"total":665,"ativos":474,"encerrados":{"2010":0,"2011":0,"2012":0,"2013":1,"2014":3,"2015":11,"2016":1,"2017":1,"2018":1,"2019":12,"2020":119,"2021":11,"2022":11,"2023":7,"2024":6,"2025":3,"2026":4},"areaTotal":474,"estoque":{"2010":3,"2011":4,"2012":17,"2013":42,"2014":47,"2015":55,"2016":66,"2017":129,"2018":147,"2019":205,"2020":166,"2021":199,"2022":246,"2023":295,"2024":334,"2025":438,"2026":474},"entradas":{"2010":3,"2011":1,"2012":13,"2013":26,"2014":8,"2015":19,"2016":12,"2017":64,"2018":19,"2019":70,"2020":80,"2021":44,"2022":58,"2023":56,"2024":45,"2025":107,"2026":40},"estoqueHl":[],"area":{"Cível":226,"Tributário":132,"Trabalhista":90,"Administrativo":9,"Pública":8,"Penal-Criminal":4,"Ambiental":3,"Imobiliário":2},"uf":{"SC":409,"N/I":19,"PR":18,"DF":10,"RN":6,"AP":4,"PA":3,"SP":2,"CE":1,"MS":1,"RS":1},"instancia":{"1º Grau":348,"2º Grau":61,"N/I":52,"Superiores":13},"polo":{"Polo passivo":227,"Terceiro/Outros":74,"Polo ativo":173},"tribunais":{"TJSC":293,"TRT12":67,"N/I":49,"TJPR":18,"TRF4":14,"STJ":11,"TRT08":7,"TRT21":6,"TRT02":2,"DRF":2,"TRT07":1,"Justiça Federal de Santa Catarina":1,"TJMS":1,"ALAC":1,"TJRS":1},"ranking":[["MUNICÍPIO DE ITAPEMA",64],["MUNICÍPIO DE BRUSQUE",14],["LEILA CRISTINA CROCETA HESSMAN",12],["MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",12],["HONORATA POFFO",11],["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",9],["ANTÍDIO PEDRO REIS JÚNIOR",6],["UNIÃO FAZENDA NACIONAL",6],["RAFAEL GASPERIN BACCIN",5],["ANDREY DIOGO ASSIS ANCAY",5],["MUNICÍPIO DE ITAJAÍ",5],["INVENTO EMPREENDIMENTOS E PARTICIPAÇÕES LTDA",4],["JORGE LEMIR CORREIA",4],["FABIANA COSTA",4],["PREFEITURA MUNICIPAL DE ITAPEMA",4]],"_complexidadeSoAtivos":true,"kpi":{"proc":665,"ativos":474,"areas":8,"trib":15,"procSub":"474 ativos · 191 encerrados","areasSub":"Cível, Tributário, Trabalhista","tribSub":"TJSC, TRT12, TJPR"},"encerradosTotal":191,"horas":{"total":5229.6,"media":7.9,"mediaAtivos":11.0,"horasano":{"2026":1529.8,"2025":1880.8,"2024":830.9,"2023":988.2}}}},"nacional_fund":{"nome":"Nacional Fundações LTDA","_idCliente":"2130232","dataset":{"total":127,"ativos":61,"encerrados":{"2010":0,"2011":0,"2012":0,"2013":0,"2014":0,"2015":1,"2016":1,"2017":1,"2018":0,"2019":4,"2020":40,"2021":3,"2022":13,"2023":2,"2024":0,"2025":0,"2026":1},"areaTotal":61,"estoque":{"2010":3,"2011":3,"2012":6,"2013":14,"2014":27,"2015":38,"2016":52,"2017":55,"2018":59,"2019":70,"2020":38,"2021":43,"2022":41,"2023":46,"2024":57,"2025":60,"2026":61},"entradas":{"2010":3,"2011":0,"2012":3,"2013":8,"2014":13,"2015":12,"2016":15,"2017":4,"2018":4,"2019":15,"2020":8,"2021":8,"2022":11,"2023":7,"2024":11,"2025":3,"2026":2},"estoqueHl":[],"area":{"Cível":50,"Tributário":6,"Trabalhista":4,"Recuperação Judicial":1},"uf":{"SC":34,"RS":8,"N/I":6,"RJ":6,"MS":5,"DF":2},"instancia":{"1º Grau":45,"2º Grau":13,"Superiores":3},"polo":{"Polo ativo":35,"Polo passivo":18,"Terceiro/Outros":8},"tribunais":{"TJSC":29,"TJRS":8,"TJRJ":5,"N/I":5,"STJ":3,"TRF4":3,"TJMS":3,"TRT12":2,"TRF3":1,"TRT24":1,"TRT01":1},"ranking":[["FUNDAGEO FUNDAÇÕES LTDA",6],["CONSÓRCIO UFN III",3],["PIONEIRA DA COSTA CONSTRUÇÃO E INCORPORAÇÃO LTDA",3],["ESTALEIRO PROMAR",3],["LOMATER LOCACOES E SERVICOS LTDA",2],["ASSOCIAÇÃO DOS ADQUIRENTES DO CONDOMÍNIO GIARDINO DI RAVENA",2],["RECEITA FEDERAL DO BRASIL",2],["CONSTRUTORA E INCORPORADORA STEIN",2],["PORTO DO SOL EMPREENDIMENTOS LTDA EPP",2],["SILVEIRA LOBO EMPREENDIMENTOS IMOBILIÁRIOS LTDA",2],["MASTHER EMPREEDIMENTPOS E PARTICIPAÇÕES EIRELI",2],["NEP INCORPORACOES S/A SPE",2],["RAKA BRASIL CONSTRUTORA E INCORPORADORA LTDA",2],["ECMAN ENGENHARIA S/A",2],["DICAVE GARTNER DISTRIBUIDORA CATARINENSE DE VEÍCULOS LTDA",2]],"_complexidadeSoAtivos":true,"kpi":{"proc":127,"ativos":61,"areas":4,"trib":11,"procSub":"61 ativos · 66 encerrados","areasSub":"Cível, Tributário, Trabalhista","tribSub":"TJSC, TJRS, TJRJ"},"encerradosTotal":66,"horas":{"total":837.0,"media":6.6,"mediaAtivos":13.7,"horasano":{"2026":212.2,"2025":239.6,"2024":250.8,"2023":134.5}}}},"alianca":{"nome":"Aliança Empreendimentos Imobiliários LTDA","_idCliente":"2118810","dataset":{"total":116,"ativos":52,"encerrados":{"2010":0,"2011":0,"2012":0,"2013":1,"2014":0,"2015":0,"2016":1,"2017":0,"2018":0,"2019":5,"2020":45,"2021":0,"2022":8,"2023":0,"2024":1,"2025":2,"2026":1},"areaTotal":52,"estoque":{"2010":1,"2011":1,"2012":9,"2013":14,"2014":23,"2015":35,"2016":41,"2017":52,"2018":56,"2019":62,"2020":25,"2021":28,"2022":24,"2023":35,"2024":44,"2025":52,"2026":52},"entradas":{"2010":1,"2011":0,"2012":8,"2013":6,"2014":9,"2015":12,"2016":7,"2017":11,"2018":4,"2019":11,"2020":8,"2021":3,"2022":4,"2023":11,"2024":10,"2025":10,"2026":1},"estoqueHl":[],"area":{"Cível":32,"Tributário":15,"Administrativo":3,"Penal-Criminal":2},"uf":{"SC":47,"DF":3,"PR":1,"SP":1},"instancia":{"1º Grau":37,"2º Grau":9,"Superiores":3,"N/I":3},"polo":{"Polo ativo":25,"Polo passivo":20,"Terceiro/Outros":7},"tribunais":{"TJSC":40,"N/I":5,"TRF4":4,"STJ":2,"TJSP":1},"ranking":[["MUNICÍPIO DE ITAPEMA",6],["RONALDO BRUTTI REIS",4],["DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",4],["JOAO BATISTA CORREA NETO",2],["ISTELA NETO MALTEZO KOHLRAUSCH",2],["EDIFICIO SUMMER VILLE RESIDENCE",2],["GERTRUDES MARIA VIVIAN KLEIN",2],["MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",2],["LUCIANA SZULCZEWSKI",2],["JOCELI THOMÉ DA CRUZ",2],["EDIFÍCIO LUMIERE RESIDENCE",2],["MARA CRISTINA AMARAL SANTOS",2],["COMPANHIA ÁGUAS DE ITAPEMA",2],["VISEU SOCIEDADE DE ADVOGADOS",1],["MOUNIR ZEITOUNI JÚNIOR",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":116,"ativos":52,"areas":4,"trib":5,"procSub":"52 ativos · 64 encerrados","areasSub":"Cível, Tributário, Administrativo","tribSub":"TJSC, TRF4, STJ"},"encerradosTotal":64,"horas":{"total":742.7,"media":6.4,"mediaAtivos":14.3,"horasano":{"2026":134.8,"2025":188.7,"2024":207.4,"2023":211.8}}}},"embraconci":{"nome":"Embraconci – Emp. Bras. da Const. Civil LTDA ME","_idCliente":"2123046","dataset":{"total":23,"ativos":11,"encerrados":{"2012":0,"2013":0,"2014":0,"2015":0,"2016":0,"2017":0,"2018":0,"2019":0,"2020":9,"2021":1,"2022":2,"2023":0,"2024":0,"2025":0,"2026":0},"areaTotal":11,"estoque":{"2012":1,"2013":1,"2014":3,"2015":6,"2016":8,"2017":10,"2018":11,"2019":13,"2020":5,"2021":7,"2022":5,"2023":8,"2024":9,"2025":10,"2026":11},"entradas":{"2012":1,"2013":0,"2014":2,"2015":3,"2016":2,"2017":2,"2018":1,"2019":2,"2020":1,"2021":3,"2022":0,"2023":3,"2024":1,"2025":1,"2026":1},"estoqueHl":[],"area":{"Cível":9,"Tributário":2},"uf":{"SC":10,"DF":1},"instancia":{"1º Grau":6,"2º Grau":4,"Superiores":1},"polo":{"Polo ativo":9,"Polo passivo":2},"tribunais":{"TJSC":8,"STJ":1,"Justiça Federal de Santa Catarina":1,"TRF4":1},"ranking":[["W & B AUTOCAR COMÉRCIO DE VEÍCULOS LTDA",4],["BC ADMINISTRADORA DE BENS INCORPORADORA",2],["CONDOMINIO PRIME RESIDENCE",1],["UNIÃO FAZENDA NACIONAL",1],["NEY EMERSON GAZDA",1],["DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",1],["COMPANHIA ÁGUAS DE ITAPEMA",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":23,"ativos":11,"areas":2,"trib":4,"procSub":"11 ativos · 12 encerrados","areasSub":"Cível, Tributário","tribSub":"TJSC, STJ, Justiça Federal de Santa Catarina"},"encerradosTotal":12,"horas":{"total":160.6,"media":7.0,"mediaAtivos":14.6,"horasano":{"2026":43.9,"2025":51.2,"2024":25.5,"2023":40.0}}}},"calcadao_praia":{"nome":"Calçadão Praia Shopping","_idCliente":"2122142","dataset":{"total":16,"ativos":10,"encerrados":{"2010":0,"2011":0,"2012":0,"2013":0,"2014":0,"2015":0,"2016":0,"2017":0,"2018":0,"2019":2,"2020":1,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":3},"areaTotal":10,"estoque":{"2010":1,"2011":1,"2012":2,"2013":2,"2014":3,"2015":4,"2016":4,"2017":4,"2018":4,"2019":2,"2020":2,"2021":2,"2022":2,"2023":6,"2024":8,"2025":11,"2026":10},"entradas":{"2010":1,"2011":0,"2012":1,"2013":0,"2014":1,"2015":1,"2016":0,"2017":0,"2018":0,"2019":0,"2020":1,"2021":0,"2022":0,"2023":4,"2024":2,"2025":3,"2026":2},"estoqueHl":[],"area":{"Cível":7,"Trabalhista":3},"uf":{"SC":10},"instancia":{"1º Grau":9,"Superiores":1},"polo":{"Polo passivo":4,"Polo ativo":6},"tribunais":{"TJSC":6,"TRT12":3,"N/I":1},"ranking":[["SANDRO RODRIGO CARCUCHINSKI CORREA",2],["MARIA MARIA INDUSTRIA E COMERCIO LTDA",1],["CICERO DE OLIVEIRA BATISTA",1],["SHAIANE BERNARDO DA SILVA 07656249907",1],["GIOVANA BEATRIZ MORETTI",1],["PAULO ROBERTO MORETTI",1],["LEDUC MALHAS ATACADO E VAREJO LTDA",1],["CELESC DISTRIBUIÇÃO S.A.",1],["JÔNATAS BATISTA",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":16,"ativos":10,"areas":2,"trib":3,"procSub":"10 ativos · 6 encerrados","areasSub":"Cível, Trabalhista","tribSub":"TJSC, TRT12"},"encerradosTotal":6,"horas":{"total":191.4,"media":12.0,"mediaAtivos":19.1,"horasano":{"2026":32.8,"2025":50.8,"2024":54.5,"2023":53.3}}}},"ricardo_serpa":{"nome":"Ricardo Alexandre de Oliveira Serpa","_idCliente":"2122318","dataset":{"total":20,"ativos":12,"encerrados":{"2014":0,"2015":0,"2016":0,"2017":0,"2018":0,"2019":0,"2020":5,"2021":0,"2022":2,"2023":1,"2024":0,"2025":0,"2026":0},"areaTotal":12,"estoque":{"2014":1,"2015":2,"2016":2,"2017":2,"2018":2,"2019":4,"2020":5,"2021":7,"2022":7,"2023":6,"2024":8,"2025":10,"2026":12},"entradas":{"2014":1,"2015":1,"2016":0,"2017":0,"2018":0,"2019":2,"2020":6,"2021":2,"2022":2,"2023":0,"2024":2,"2025":2,"2026":2},"estoqueHl":[],"area":{"Cível":5,"Administrativo":4,"Penal-Criminal":3},"uf":{"SC":10,"DF":1,"N/I":1},"instancia":{"1º Grau":6,"N/I":4,"Superiores":1,"2º Grau":1},"polo":{"Polo ativo":3,"Polo passivo":7,"Terceiro/Outros":2},"tribunais":{"N/I":6,"TJSC":4,"STJ":1,"TRF4":1},"ranking":[["MARILENE LAURINDO",3],["DETRAN",2],["MINISTÉRIO DA JUSTIÇA E DA SEGURANÇA PÚBLICA",2],["POLÍCIA CIVIL DO ESTADO DE SANTA CATARINA",1],["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",1],["POLÍCIA RODOVIÁRIA FEDERAL",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":20,"ativos":12,"areas":3,"trib":4,"procSub":"12 ativos · 8 encerrados","areasSub":"Cível, Administrativo, Penal-Criminal","tribSub":"TJSC, STJ, TRF4"},"encerradosTotal":8,"horas":{"total":120.9,"media":6.0,"mediaAtivos":10.1,"horasano":{"2026":59.2,"2025":42.1,"2024":15.9,"2023":3.7}}}},"suzana_chiamenti":{"nome":"Suzana de Fátima Russi Chiamenti","_idCliente":"2122647","dataset":{"total":5,"ativos":2,"encerrados":{"2012":0,"2013":0,"2014":0,"2015":0,"2016":0,"2017":0,"2018":0,"2019":0,"2020":3,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"areaTotal":2,"estoque":{"2012":2,"2013":2,"2014":2,"2015":2,"2016":2,"2017":2,"2018":3,"2019":3,"2020":1,"2021":1,"2022":2,"2023":2,"2024":2,"2025":2,"2026":2},"entradas":{"2012":2,"2013":0,"2014":0,"2015":0,"2016":0,"2017":0,"2018":1,"2019":0,"2020":1,"2021":0,"2022":1,"2023":0,"2024":0,"2025":0,"2026":0},"estoqueHl":[],"area":{"Penal-Criminal":1,"Cível":1},"uf":{"SC":2},"instancia":{"1º Grau":2},"polo":{"Polo passivo":1,"Polo ativo":1},"tribunais":{"N/I":1,"TJSC":1},"ranking":[["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",1],["BANCO ITAÚ",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":5,"ativos":2,"areas":2,"trib":2,"procSub":"2 ativos · 3 encerrados","areasSub":"Penal-Criminal, Cível","tribSub":"TJSC"},"encerradosTotal":3,"horas":{"total":1.2,"media":0.2,"mediaAtivos":0.6,"horasano":{"2023":1.2,"2024":0,"2025":0,"2026":0}}}},"joana_reis":{"nome":"Joana Russi Reis","_idCliente":"2124120","dataset":{"total":12,"ativos":9,"encerrados":{"2018":0,"2019":0,"2020":1,"2021":0,"2022":1,"2023":1,"2024":0,"2025":0,"2026":0},"areaTotal":9,"estoque":{"2018":1,"2019":2,"2020":3,"2021":5,"2022":6,"2023":7,"2024":7,"2025":8,"2026":9},"entradas":{"2018":1,"2019":1,"2020":2,"2021":2,"2022":2,"2023":2,"2024":0,"2025":1,"2026":1},"estoqueHl":[],"area":{"Cível":6,"Bancário":2,"Tributário":1},"uf":{"SC":8,"DF":1},"instancia":{"2º Grau":5,"1º Grau":3,"Superiores":1},"polo":{"Terceiro/Outros":3,"Polo passivo":6},"tribunais":{"TJSC":7,"STJ":1,"N/I":1},"ranking":[["ANDRE BAILL",4],["AGENCIA DE FOMENTO DO ESTADO DE SANTA CATARINA S.A. - BADESC",2],["BRUNA MICHAELE LUCIANI",1],["SECRETARIA DE ESTADO DA FAZENDA",1],["ALEX DOS SANTOS ALVES",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":12,"ativos":9,"areas":3,"trib":3,"procSub":"9 ativos · 3 encerrados","areasSub":"Cível, Bancário, Tributário","tribSub":"TJSC, STJ"},"encerradosTotal":3,"horas":{"total":179.0,"media":14.9,"mediaAtivos":19.9,"horasano":{"2026":52.4,"2025":52.4,"2024":32.4,"2023":41.9}}}},"rcr":{"nome":"RCR Empreendimentos Imobiliários","_idCliente":"2130460","dataset":{"total":18,"ativos":7,"encerrados":{"2016":0,"2017":0,"2018":0,"2019":1,"2020":2,"2021":5,"2022":3,"2023":0,"2024":0,"2025":0,"2026":0},"areaTotal":7,"estoque":{"2016":1,"2017":2,"2018":3,"2019":5,"2020":8,"2021":6,"2022":4,"2023":5,"2024":5,"2025":6,"2026":7},"entradas":{"2016":1,"2017":1,"2018":1,"2019":3,"2020":5,"2021":3,"2022":1,"2023":1,"2024":0,"2025":1,"2026":1},"estoqueHl":[],"area":{"Cível":4,"Tributário":2,"Administrativo":1},"uf":{"SC":6,"N/I":1},"instancia":{"1º Grau":4,"2º Grau":2,"Superiores":1},"polo":{"Terceiro/Outros":1,"Polo ativo":3,"Polo passivo":3},"tribunais":{"TJSC":4,"STJ":1,"TRF4":1,"N/I":1},"ranking":[["RICARDO VINHAS VILLANUEVA",5],["MUNICIPIO DE BALNEARIO CAMBORIU",1],["DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":18,"ativos":7,"areas":3,"trib":4,"procSub":"7 ativos · 11 encerrados","areasSub":"Cível, Tributário, Administrativo","tribSub":"TJSC, STJ, TRF4"},"encerradosTotal":11,"horas":{"total":27.9,"media":1.5,"mediaAtivos":4.0,"horasano":{"2026":13.8,"2025":5.0,"2024":2.4,"2023":6.6}}}},"russi_participacoes":{"nome":"J.A. Russi Participações S.A.","_idCliente":"675448089","dataset":{"total":0,"ativos":0,"encerrados":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"areaTotal":0,"estoque":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"entradas":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"estoqueHl":[],"area":{},"uf":{},"instancia":{},"polo":{},"tribunais":{},"ranking":[],"_complexidadeSoAtivos":true,"kpi":{"proc":0,"ativos":0,"areas":0,"trib":0,"procSub":"0 ativos · 0 encerrados","areasSub":"","tribSub":""},"encerradosTotal":0,"_semProcessos":true,"horas":{"total":13.6,"horasano":{"2026":3.8,"2025":4.2,"2024":5.6,"2023":0},"media":0,"mediaAtivos":0}}},"felipe_reis":{"nome":"Felipe Nilton Reis","_idCliente":"677012382","dataset":{"total":0,"ativos":0,"encerrados":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"areaTotal":0,"estoque":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"entradas":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"estoqueHl":[],"area":{},"uf":{},"instancia":{},"polo":{},"tribunais":{},"ranking":[],"_complexidadeSoAtivos":true,"kpi":{"proc":0,"ativos":0,"areas":0,"trib":0,"procSub":"0 ativos · 0 encerrados","areasSub":"","tribSub":""},"encerradosTotal":0,"_semProcessos":true,"horas":{"total":0.0,"horasano":{"2023":0,"2024":0,"2025":0,"2026":0},"media":0,"mediaAtivos":0}}},"harmony":{"nome":"Harmony of the Seas Empreendimentos Imobiliários LTDA","_idCliente":"677012386","dataset":{"total":3,"ativos":1,"encerrados":{"2024":0,"2025":2,"2026":0},"areaTotal":1,"estoque":{"2024":1,"2025":1,"2026":1},"entradas":{"2024":1,"2025":2,"2026":0},"estoqueHl":[],"area":{"Penal-Criminal":1},"uf":{"SC":1},"instancia":{"1º Grau":1},"polo":{"Polo passivo":1},"tribunais":{"TJSC":1},"ranking":[["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":3,"ativos":1,"areas":1,"trib":1,"procSub":"1 ativos · 2 encerrados","areasSub":"Penal-Criminal","tribSub":"TJSC"},"encerradosTotal":2,"horas":{"total":23.7,"media":7.9,"mediaAtivos":23.7,"horasano":{"2026":2.7,"2025":16.9,"2024":4.1,"2023":0}}}},"sunny_coast":{"nome":"Sunny Coast Empreendimentos Imobiliários SPE LTDA","_idCliente":"677012390","dataset":{"total":4,"ativos":4,"encerrados":{"2024":0,"2025":0,"2026":0},"areaTotal":4,"estoque":{"2024":1,"2025":4,"2026":4},"entradas":{"2024":1,"2025":3,"2026":0},"estoqueHl":[],"area":{"Trabalhista":4},"uf":{"SC":3,"AP":1},"instancia":{"1º Grau":3,"2º Grau":1},"polo":{"Polo passivo":4},"tribunais":{"TRT12":3,"TRT08":1},"ranking":[["ADEMIR CAVALARI PONCIANO",3],["GIVALDO ALVES BEZERRA",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":4,"ativos":4,"areas":1,"trib":2,"procSub":"4 ativos · 0 encerrados","areasSub":"Trabalhista","tribSub":"TRT12, TRT08"},"encerradosTotal":0,"horas":{"total":71.2,"media":17.8,"mediaAtivos":17.8,"horasano":{"2026":36.0,"2025":15.2,"2024":20.0,"2023":0}}}},"torremolinos":{"nome":"Condomínio Torremolinos","_idCliente":"677012391","dataset":{"total":0,"ativos":0,"encerrados":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"areaTotal":0,"estoque":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"entradas":{"2020":0,"2021":0,"2022":0,"2023":0,"2024":0,"2025":0,"2026":0},"estoqueHl":[],"area":{},"uf":{},"instancia":{},"polo":{},"tribunais":{},"ranking":[],"_complexidadeSoAtivos":true,"kpi":{"proc":0,"ativos":0,"areas":0,"trib":0,"procSub":"0 ativos · 0 encerrados","areasSub":"","tribSub":""},"encerradosTotal":0,"_semProcessos":true,"horas":{"total":0.0,"horasano":{"2023":0,"2024":0,"2025":0,"2026":0},"media":0,"mediaAtivos":0}}},"garden_mall":{"nome":"Empreendimento Garden Open Mall","_idCliente":"681898002","dataset":{"total":2,"ativos":2,"encerrados":{"2025":0,"2026":0},"areaTotal":2,"estoque":{"2025":2,"2026":2},"entradas":{"2025":2,"2026":0},"estoqueHl":[],"area":{"Pública":1,"Tributário":1},"uf":{"SC":2},"instancia":{"2º Grau":1,"1º Grau":1},"polo":{"Polo ativo":1,"Terceiro/Outros":1},"tribunais":{"TJSC":2},"ranking":[["MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",1],["MINISTERIO PUBLICO DO ESTADO DE SANTA CATARINA PROCURADORIA GERAL DE JUSTICA",1]],"_complexidadeSoAtivos":true,"kpi":{"proc":2,"ativos":2,"areas":2,"trib":1,"procSub":"2 ativos · 0 encerrados","areasSub":"Pública, Tributário","tribSub":"TJSC"},"encerradosTotal":0,"horas":{"total":49.9,"media":24.9,"mediaAtivos":24.9,"horasano":{"2026":4.9,"2025":45.0,"2023":0,"2024":0}}}}},"nEmpresas":15}
+{
+  "nome": "Grupo J.A. Russi",
+  "nomeHtml": "Grupo <em>J.A. Russi</em>",
+  "kpiGrupo": {
+    "proc": 1011,
+    "ativos": 645,
+    "areas": 10,
+    "trib": 20,
+    "procSub": "645 ativos · 366 encerrados",
+    "areasSub": "Cível, Tributário, Trabalhista",
+    "tribSub": "TJSC, TRT12, OUTROS",
+    "encerrados": 366,
+    "valor": "~R$ 723<small>mi</small>",
+    "valorTotal": 722605522.03,
+    "horas": "7649"
+  },
+  "empresas": {
+    "_panorama": {
+      "nome": "Panorama Geral do Grupo",
+      "_idCliente": null,
+      "dataset": {
+        "total": 1011,
+        "ativos": 645,
+        "encerrados": {
+          "2010": 0,
+          "2011": 0,
+          "2012": 0,
+          "2013": 2,
+          "2014": 3,
+          "2015": 12,
+          "2016": 3,
+          "2017": 2,
+          "2018": 1,
+          "2019": 24,
+          "2020": 225,
+          "2021": 20,
+          "2022": 40,
+          "2023": 11,
+          "2024": 7,
+          "2025": 7,
+          "2026": 9
+        },
+        "areaTotal": 645,
+        "estoque": {
+          "2010": 8,
+          "2011": 9,
+          "2012": 37,
+          "2013": 75,
+          "2014": 106,
+          "2015": 142,
+          "2016": 176,
+          "2017": 256,
+          "2018": 286,
+          "2019": 366,
+          "2020": 253,
+          "2021": 298,
+          "2022": 337,
+          "2023": 410,
+          "2024": 476,
+          "2025": 604,
+          "2026": 645
+        },
+        "entradas": {
+          "2010": 8,
+          "2011": 1,
+          "2012": 28,
+          "2013": 40,
+          "2014": 34,
+          "2015": 48,
+          "2016": 37,
+          "2017": 82,
+          "2018": 31,
+          "2019": 104,
+          "2020": 112,
+          "2021": 65,
+          "2022": 79,
+          "2023": 84,
+          "2024": 73,
+          "2025": 135,
+          "2026": 50
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 340,
+          "Tributário": 159,
+          "Trabalhista": 101,
+          "Administrativo": 17,
+          "Penal-Criminal": 11,
+          "Pública": 9,
+          "Ambiental": 3,
+          "Imobiliário": 2,
+          "Bancário": 2,
+          "Recuperação Judicial": 1
+        },
+        "uf": {
+          "SC": 542,
+          "OUTROS": 27,
+          "PR": 19,
+          "DF": 18,
+          "RS": 9,
+          "RN": 6,
+          "MS": 6,
+          "RJ": 6,
+          "AP": 5,
+          "PA": 3,
+          "SP": 3,
+          "CE": 1
+        },
+        "instancia": {
+          "1º Grau": 465,
+          "2º Grau": 97,
+          "N/I": 59,
+          "Superiores": 24
+        },
+        "polo": {
+          "Polo passivo": 293,
+          "Terceiro/Outros": 96,
+          "Polo ativo": 256
+        },
+        "tribunais": {
+          "TJSC": 395,
+          "TRT12": 75,
+          "OUTROS": 69,
+          "TRF4": 24,
+          "STJ": 20,
+          "TJPR": 18,
+          "TJRS": 9,
+          "TRT08": 8,
+          "TRT21": 6,
+          "TJRJ": 5,
+          "TJMS": 4,
+          "TRT02": 2,
+          "Justiça Federal de Santa Catarina": 2,
+          "DRF": 2,
+          "TRT07": 1,
+          "ALAC": 1,
+          "TRF3": 1,
+          "TRT24": 1,
+          "TRT01": 1,
+          "TJSP": 1
+        },
+        "ranking": [
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            70
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            14
+          ],
+          [
+            "MUNICÍPIO DE BRUSQUE",
+            14
+          ],
+          [
+            "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+            14
+          ],
+          [
+            "LEILA CRISTINA CROCETA HESSMAN",
+            12
+          ],
+          [
+            "HONORATA POFFO",
+            11
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            11
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            7
+          ],
+          [
+            "ANTÍDIO PEDRO REIS JÚNIOR",
+            6
+          ],
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            6
+          ],
+          [
+            "FUNDAGEO FUNDAÇÕES LTDA",
+            6
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE ITAPEMA",
+            5
+          ],
+          [
+            "RAFAEL GASPERIN BACCIN",
+            5
+          ],
+          [
+            "ANDREY DIOGO ASSIS ANCAY",
+            5
+          ],
+          [
+            "MUNICÍPIO DE ITAJAÍ",
+            5
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 1011,
+          "ativos": 645,
+          "areas": 10,
+          "trib": 20,
+          "procSub": "645 ativos · 366 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TRT12, OUTROS"
+        },
+        "encerradosTotal": 366,
+        "esforco": {
+          "comProducao": 721,
+          "tramitacaoDias": 1542,
+          "prazano": {
+            "2021": 44,
+            "2022": 531,
+            "2023": 718,
+            "2024": 798,
+            "2025": 1357,
+            "2026": 753
+          },
+          "audano": {
+            "2022": 17,
+            "2023": 25,
+            "2024": 80,
+            "2025": 130,
+            "2026": 54
+          },
+          "tarefano": {
+            "2021": 3368,
+            "2022": 42,
+            "2023": 60,
+            "2024": 49,
+            "2025": 54,
+            "2026": 74
+          },
+          "atividades": {
+            "Prazos": 4201,
+            "Audiências": 306,
+            "Reuniões e Diligências": 3647
+          },
+          "extrajudano": {
+            "2022": 9,
+            "2023": 40,
+            "2024": 6,
+            "2025": 6,
+            "2026": 16
+          },
+          "extrajudtipo": {
+            "Notificações": 8,
+            "Distratos e acordos": 3,
+            "Pareceres e análises": 1,
+            "Outros": 18
+          }
+        },
+        "horas": {
+          "total": 7648.7,
+          "media": 7.6,
+          "mediaAtivos": 11.9,
+          "horasano": {
+            "2023": 1481.1,
+            "2024": 1449.4,
+            "2025": 2591.9,
+            "2026": 2126.2
+          }
+        },
+        "_panorama": true,
+        "nome": "Panorama Geral do Grupo"
+      },
+      "_panorama": true
+    },
+    "construtora_russi": {
+      "nome": "Construtora e Incorporadora J.A. Russi LTDA",
+      "_idCliente": "2123691",
+      "dataset": {
+        "total": 665,
+        "ativos": 474,
+        "encerrados": {
+          "2010": 0,
+          "2011": 0,
+          "2012": 0,
+          "2013": 1,
+          "2014": 3,
+          "2015": 11,
+          "2016": 1,
+          "2017": 1,
+          "2018": 1,
+          "2019": 12,
+          "2020": 119,
+          "2021": 11,
+          "2022": 11,
+          "2023": 7,
+          "2024": 6,
+          "2025": 3,
+          "2026": 4
+        },
+        "areaTotal": 474,
+        "estoque": {
+          "2010": 3,
+          "2011": 4,
+          "2012": 17,
+          "2013": 42,
+          "2014": 47,
+          "2015": 55,
+          "2016": 66,
+          "2017": 129,
+          "2018": 147,
+          "2019": 205,
+          "2020": 166,
+          "2021": 199,
+          "2022": 246,
+          "2023": 295,
+          "2024": 334,
+          "2025": 438,
+          "2026": 474
+        },
+        "entradas": {
+          "2010": 3,
+          "2011": 1,
+          "2012": 13,
+          "2013": 26,
+          "2014": 8,
+          "2015": 19,
+          "2016": 12,
+          "2017": 64,
+          "2018": 19,
+          "2019": 70,
+          "2020": 80,
+          "2021": 44,
+          "2022": 58,
+          "2023": 56,
+          "2024": 45,
+          "2025": 107,
+          "2026": 40
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 226,
+          "Tributário": 132,
+          "Trabalhista": 90,
+          "Administrativo": 9,
+          "Pública": 8,
+          "Penal-Criminal": 4,
+          "Ambiental": 3,
+          "Imobiliário": 2
+        },
+        "uf": {
+          "SC": 409,
+          "OUTROS": 19,
+          "PR": 18,
+          "DF": 10,
+          "RN": 6,
+          "AP": 4,
+          "PA": 3,
+          "SP": 2,
+          "CE": 1,
+          "MS": 1,
+          "RS": 1
+        },
+        "instancia": {
+          "1º Grau": 348,
+          "2º Grau": 61,
+          "N/I": 52,
+          "Superiores": 13
+        },
+        "polo": {
+          "Polo passivo": 227,
+          "Terceiro/Outros": 74,
+          "Polo ativo": 173
+        },
+        "tribunais": {
+          "TJSC": 293,
+          "TRT12": 67,
+          "OUTROS": 49,
+          "TJPR": 18,
+          "TRF4": 14,
+          "STJ": 11,
+          "TRT08": 7,
+          "TRT21": 6,
+          "TRT02": 2,
+          "DRF": 2,
+          "TRT07": 1,
+          "Justiça Federal de Santa Catarina": 1,
+          "TJMS": 1,
+          "ALAC": 1,
+          "TJRS": 1
+        },
+        "ranking": [
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            64
+          ],
+          [
+            "MUNICÍPIO DE BRUSQUE",
+            14
+          ],
+          [
+            "LEILA CRISTINA CROCETA HESSMAN",
+            12
+          ],
+          [
+            "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+            12
+          ],
+          [
+            "HONORATA POFFO",
+            11
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            9
+          ],
+          [
+            "ANTÍDIO PEDRO REIS JÚNIOR",
+            6
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            6
+          ],
+          [
+            "RAFAEL GASPERIN BACCIN",
+            5
+          ],
+          [
+            "ANDREY DIOGO ASSIS ANCAY",
+            5
+          ],
+          [
+            "MUNICÍPIO DE ITAJAÍ",
+            5
+          ],
+          [
+            "INVENTO EMPREENDIMENTOS E PARTICIPAÇÕES LTDA",
+            4
+          ],
+          [
+            "JORGE LEMIR CORREIA",
+            4
+          ],
+          [
+            "FABIANA COSTA",
+            4
+          ],
+          [
+            "PREFEITURA MUNICIPAL DE ITAPEMA",
+            4
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 665,
+          "ativos": 474,
+          "areas": 8,
+          "trib": 15,
+          "procSub": "474 ativos · 191 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TRT12, TJPR"
+        },
+        "encerradosTotal": 191,
+        "horas": {
+          "total": 5229.6,
+          "media": 7.9,
+          "mediaAtivos": 11.0,
+          "horasano": {
+            "2026": 1529.8,
+            "2025": 1880.8,
+            "2024": 830.9,
+            "2023": 988.2
+          }
+        }
+      }
+    },
+    "nacional_fund": {
+      "nome": "Nacional Fundações LTDA",
+      "_idCliente": "2130232",
+      "dataset": {
+        "total": 127,
+        "ativos": 61,
+        "encerrados": {
+          "2010": 0,
+          "2011": 0,
+          "2012": 0,
+          "2013": 0,
+          "2014": 0,
+          "2015": 1,
+          "2016": 1,
+          "2017": 1,
+          "2018": 0,
+          "2019": 4,
+          "2020": 40,
+          "2021": 3,
+          "2022": 13,
+          "2023": 2,
+          "2024": 0,
+          "2025": 0,
+          "2026": 1
+        },
+        "areaTotal": 61,
+        "estoque": {
+          "2010": 3,
+          "2011": 3,
+          "2012": 6,
+          "2013": 14,
+          "2014": 27,
+          "2015": 38,
+          "2016": 52,
+          "2017": 55,
+          "2018": 59,
+          "2019": 70,
+          "2020": 38,
+          "2021": 43,
+          "2022": 41,
+          "2023": 46,
+          "2024": 57,
+          "2025": 60,
+          "2026": 61
+        },
+        "entradas": {
+          "2010": 3,
+          "2011": 0,
+          "2012": 3,
+          "2013": 8,
+          "2014": 13,
+          "2015": 12,
+          "2016": 15,
+          "2017": 4,
+          "2018": 4,
+          "2019": 15,
+          "2020": 8,
+          "2021": 8,
+          "2022": 11,
+          "2023": 7,
+          "2024": 11,
+          "2025": 3,
+          "2026": 2
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 50,
+          "Tributário": 6,
+          "Trabalhista": 4,
+          "Recuperação Judicial": 1
+        },
+        "uf": {
+          "SC": 34,
+          "RS": 8,
+          "OUTROS": 6,
+          "RJ": 6,
+          "MS": 5,
+          "DF": 2
+        },
+        "instancia": {
+          "1º Grau": 45,
+          "2º Grau": 13,
+          "Superiores": 3
+        },
+        "polo": {
+          "Polo ativo": 35,
+          "Polo passivo": 18,
+          "Terceiro/Outros": 8
+        },
+        "tribunais": {
+          "TJSC": 29,
+          "TJRS": 8,
+          "TJRJ": 5,
+          "OUTROS": 5,
+          "STJ": 3,
+          "TRF4": 3,
+          "TJMS": 3,
+          "TRT12": 2,
+          "TRF3": 1,
+          "TRT24": 1,
+          "TRT01": 1
+        },
+        "ranking": [
+          [
+            "FUNDAGEO FUNDAÇÕES LTDA",
+            6
+          ],
+          [
+            "CONSÓRCIO UFN III",
+            3
+          ],
+          [
+            "PIONEIRA DA COSTA CONSTRUÇÃO E INCORPORAÇÃO LTDA",
+            3
+          ],
+          [
+            "ESTALEIRO PROMAR",
+            3
+          ],
+          [
+            "LOMATER LOCACOES E SERVICOS LTDA",
+            2
+          ],
+          [
+            "ASSOCIAÇÃO DOS ADQUIRENTES DO CONDOMÍNIO GIARDINO DI RAVENA",
+            2
+          ],
+          [
+            "RECEITA FEDERAL DO BRASIL",
+            2
+          ],
+          [
+            "CONSTRUTORA E INCORPORADORA STEIN",
+            2
+          ],
+          [
+            "PORTO DO SOL EMPREENDIMENTOS LTDA EPP",
+            2
+          ],
+          [
+            "SILVEIRA LOBO EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
+            2
+          ],
+          [
+            "MASTHER EMPREEDIMENTPOS E PARTICIPAÇÕES EIRELI",
+            2
+          ],
+          [
+            "NEP INCORPORACOES S/A SPE",
+            2
+          ],
+          [
+            "RAKA BRASIL CONSTRUTORA E INCORPORADORA LTDA",
+            2
+          ],
+          [
+            "ECMAN ENGENHARIA S/A",
+            2
+          ],
+          [
+            "DICAVE GARTNER DISTRIBUIDORA CATARINENSE DE VEÍCULOS LTDA",
+            2
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 127,
+          "ativos": 61,
+          "areas": 4,
+          "trib": 11,
+          "procSub": "61 ativos · 66 encerrados",
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "tribSub": "TJSC, TJRS, TJRJ"
+        },
+        "encerradosTotal": 66,
+        "horas": {
+          "total": 837.0,
+          "media": 6.6,
+          "mediaAtivos": 13.7,
+          "horasano": {
+            "2026": 212.2,
+            "2025": 239.6,
+            "2024": 250.8,
+            "2023": 134.5
+          }
+        }
+      }
+    },
+    "alianca": {
+      "nome": "Aliança Empreendimentos Imobiliários LTDA",
+      "_idCliente": "2118810",
+      "dataset": {
+        "total": 116,
+        "ativos": 52,
+        "encerrados": {
+          "2010": 0,
+          "2011": 0,
+          "2012": 0,
+          "2013": 1,
+          "2014": 0,
+          "2015": 0,
+          "2016": 1,
+          "2017": 0,
+          "2018": 0,
+          "2019": 5,
+          "2020": 45,
+          "2021": 0,
+          "2022": 8,
+          "2023": 0,
+          "2024": 1,
+          "2025": 2,
+          "2026": 1
+        },
+        "areaTotal": 52,
+        "estoque": {
+          "2010": 1,
+          "2011": 1,
+          "2012": 9,
+          "2013": 14,
+          "2014": 23,
+          "2015": 35,
+          "2016": 41,
+          "2017": 52,
+          "2018": 56,
+          "2019": 62,
+          "2020": 25,
+          "2021": 28,
+          "2022": 24,
+          "2023": 35,
+          "2024": 44,
+          "2025": 52,
+          "2026": 52
+        },
+        "entradas": {
+          "2010": 1,
+          "2011": 0,
+          "2012": 8,
+          "2013": 6,
+          "2014": 9,
+          "2015": 12,
+          "2016": 7,
+          "2017": 11,
+          "2018": 4,
+          "2019": 11,
+          "2020": 8,
+          "2021": 3,
+          "2022": 4,
+          "2023": 11,
+          "2024": 10,
+          "2025": 10,
+          "2026": 1
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 32,
+          "Tributário": 15,
+          "Administrativo": 3,
+          "Penal-Criminal": 2
+        },
+        "uf": {
+          "SC": 47,
+          "DF": 3,
+          "PR": 1,
+          "SP": 1
+        },
+        "instancia": {
+          "1º Grau": 37,
+          "2º Grau": 9,
+          "Superiores": 3,
+          "N/I": 3
+        },
+        "polo": {
+          "Polo ativo": 25,
+          "Polo passivo": 20,
+          "Terceiro/Outros": 7
+        },
+        "tribunais": {
+          "TJSC": 40,
+          "OUTROS": 5,
+          "TRF4": 4,
+          "STJ": 2,
+          "TJSP": 1
+        },
+        "ranking": [
+          [
+            "MUNICÍPIO DE ITAPEMA",
+            6
+          ],
+          [
+            "RONALDO BRUTTI REIS",
+            4
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            4
+          ],
+          [
+            "JOAO BATISTA CORREA NETO",
+            2
+          ],
+          [
+            "ISTELA NETO MALTEZO KOHLRAUSCH",
+            2
+          ],
+          [
+            "EDIFICIO SUMMER VILLE RESIDENCE",
+            2
+          ],
+          [
+            "GERTRUDES MARIA VIVIAN KLEIN",
+            2
+          ],
+          [
+            "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+            2
+          ],
+          [
+            "LUCIANA SZULCZEWSKI",
+            2
+          ],
+          [
+            "JOCELI THOMÉ DA CRUZ",
+            2
+          ],
+          [
+            "EDIFÍCIO LUMIERE RESIDENCE",
+            2
+          ],
+          [
+            "MARA CRISTINA AMARAL SANTOS",
+            2
+          ],
+          [
+            "COMPANHIA ÁGUAS DE ITAPEMA",
+            2
+          ],
+          [
+            "VISEU SOCIEDADE DE ADVOGADOS",
+            1
+          ],
+          [
+            "MOUNIR ZEITOUNI JÚNIOR",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 116,
+          "ativos": 52,
+          "areas": 4,
+          "trib": 5,
+          "procSub": "52 ativos · 64 encerrados",
+          "areasSub": "Cível, Tributário, Administrativo",
+          "tribSub": "TJSC, TRF4, STJ"
+        },
+        "encerradosTotal": 64,
+        "horas": {
+          "total": 742.7,
+          "media": 6.4,
+          "mediaAtivos": 14.3,
+          "horasano": {
+            "2026": 134.8,
+            "2025": 188.7,
+            "2024": 207.4,
+            "2023": 211.8
+          }
+        }
+      }
+    },
+    "embraconci": {
+      "nome": "Embraconci – Emp. Bras. da Const. Civil LTDA ME",
+      "_idCliente": "2123046",
+      "dataset": {
+        "total": 23,
+        "ativos": 11,
+        "encerrados": {
+          "2012": 0,
+          "2013": 0,
+          "2014": 0,
+          "2015": 0,
+          "2016": 0,
+          "2017": 0,
+          "2018": 0,
+          "2019": 0,
+          "2020": 9,
+          "2021": 1,
+          "2022": 2,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 11,
+        "estoque": {
+          "2012": 1,
+          "2013": 1,
+          "2014": 3,
+          "2015": 6,
+          "2016": 8,
+          "2017": 10,
+          "2018": 11,
+          "2019": 13,
+          "2020": 5,
+          "2021": 7,
+          "2022": 5,
+          "2023": 8,
+          "2024": 9,
+          "2025": 10,
+          "2026": 11
+        },
+        "entradas": {
+          "2012": 1,
+          "2013": 0,
+          "2014": 2,
+          "2015": 3,
+          "2016": 2,
+          "2017": 2,
+          "2018": 1,
+          "2019": 2,
+          "2020": 1,
+          "2021": 3,
+          "2022": 0,
+          "2023": 3,
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 9,
+          "Tributário": 2
+        },
+        "uf": {
+          "SC": 10,
+          "DF": 1
+        },
+        "instancia": {
+          "1º Grau": 6,
+          "2º Grau": 4,
+          "Superiores": 1
+        },
+        "polo": {
+          "Polo ativo": 9,
+          "Polo passivo": 2
+        },
+        "tribunais": {
+          "TJSC": 8,
+          "STJ": 1,
+          "Justiça Federal de Santa Catarina": 1,
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "W & B AUTOCAR COMÉRCIO DE VEÍCULOS LTDA",
+            4
+          ],
+          [
+            "BC ADMINISTRADORA DE BENS INCORPORADORA",
+            2
+          ],
+          [
+            "CONDOMINIO PRIME RESIDENCE",
+            1
+          ],
+          [
+            "UNIÃO FAZENDA NACIONAL",
+            1
+          ],
+          [
+            "NEY EMERSON GAZDA",
+            1
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            1
+          ],
+          [
+            "COMPANHIA ÁGUAS DE ITAPEMA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 23,
+          "ativos": 11,
+          "areas": 2,
+          "trib": 4,
+          "procSub": "11 ativos · 12 encerrados",
+          "areasSub": "Cível, Tributário",
+          "tribSub": "TJSC, STJ, Justiça Federal de Santa Catarina"
+        },
+        "encerradosTotal": 12,
+        "horas": {
+          "total": 160.6,
+          "media": 7.0,
+          "mediaAtivos": 14.6,
+          "horasano": {
+            "2026": 43.9,
+            "2025": 51.2,
+            "2024": 25.5,
+            "2023": 40.0
+          }
+        }
+      }
+    },
+    "calcadao_praia": {
+      "nome": "Calçadão Praia Shopping",
+      "_idCliente": "2122142",
+      "dataset": {
+        "total": 16,
+        "ativos": 10,
+        "encerrados": {
+          "2010": 0,
+          "2011": 0,
+          "2012": 0,
+          "2013": 0,
+          "2014": 0,
+          "2015": 0,
+          "2016": 0,
+          "2017": 0,
+          "2018": 0,
+          "2019": 2,
+          "2020": 1,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 3
+        },
+        "areaTotal": 10,
+        "estoque": {
+          "2010": 1,
+          "2011": 1,
+          "2012": 2,
+          "2013": 2,
+          "2014": 3,
+          "2015": 4,
+          "2016": 4,
+          "2017": 4,
+          "2018": 4,
+          "2019": 2,
+          "2020": 2,
+          "2021": 2,
+          "2022": 2,
+          "2023": 6,
+          "2024": 8,
+          "2025": 11,
+          "2026": 10
+        },
+        "entradas": {
+          "2010": 1,
+          "2011": 0,
+          "2012": 1,
+          "2013": 0,
+          "2014": 1,
+          "2015": 1,
+          "2016": 0,
+          "2017": 0,
+          "2018": 0,
+          "2019": 0,
+          "2020": 1,
+          "2021": 0,
+          "2022": 0,
+          "2023": 4,
+          "2024": 2,
+          "2025": 3,
+          "2026": 2
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 7,
+          "Trabalhista": 3
+        },
+        "uf": {
+          "SC": 10
+        },
+        "instancia": {
+          "1º Grau": 9,
+          "Superiores": 1
+        },
+        "polo": {
+          "Polo passivo": 4,
+          "Polo ativo": 6
+        },
+        "tribunais": {
+          "TJSC": 6,
+          "TRT12": 3,
+          "OUTROS": 1
+        },
+        "ranking": [
+          [
+            "SANDRO RODRIGO CARCUCHINSKI CORREA",
+            2
+          ],
+          [
+            "MARIA MARIA INDUSTRIA E COMERCIO LTDA",
+            1
+          ],
+          [
+            "CICERO DE OLIVEIRA BATISTA",
+            1
+          ],
+          [
+            "SHAIANE BERNARDO DA SILVA 07656249907",
+            1
+          ],
+          [
+            "GIOVANA BEATRIZ MORETTI",
+            1
+          ],
+          [
+            "PAULO ROBERTO MORETTI",
+            1
+          ],
+          [
+            "LEDUC MALHAS ATACADO E VAREJO LTDA",
+            1
+          ],
+          [
+            "CELESC DISTRIBUIÇÃO S.A.",
+            1
+          ],
+          [
+            "JÔNATAS BATISTA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 16,
+          "ativos": 10,
+          "areas": 2,
+          "trib": 3,
+          "procSub": "10 ativos · 6 encerrados",
+          "areasSub": "Cível, Trabalhista",
+          "tribSub": "TJSC, TRT12"
+        },
+        "encerradosTotal": 6,
+        "horas": {
+          "total": 191.4,
+          "media": 12.0,
+          "mediaAtivos": 19.1,
+          "horasano": {
+            "2026": 32.8,
+            "2025": 50.8,
+            "2024": 54.5,
+            "2023": 53.3
+          }
+        }
+      }
+    },
+    "ricardo_serpa": {
+      "nome": "Ricardo Alexandre de Oliveira Serpa",
+      "_idCliente": "2122318",
+      "dataset": {
+        "total": 20,
+        "ativos": 12,
+        "encerrados": {
+          "2014": 0,
+          "2015": 0,
+          "2016": 0,
+          "2017": 0,
+          "2018": 0,
+          "2019": 0,
+          "2020": 5,
+          "2021": 0,
+          "2022": 2,
+          "2023": 1,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 12,
+        "estoque": {
+          "2014": 1,
+          "2015": 2,
+          "2016": 2,
+          "2017": 2,
+          "2018": 2,
+          "2019": 4,
+          "2020": 5,
+          "2021": 7,
+          "2022": 7,
+          "2023": 6,
+          "2024": 8,
+          "2025": 10,
+          "2026": 12
+        },
+        "entradas": {
+          "2014": 1,
+          "2015": 1,
+          "2016": 0,
+          "2017": 0,
+          "2018": 0,
+          "2019": 2,
+          "2020": 6,
+          "2021": 2,
+          "2022": 2,
+          "2023": 0,
+          "2024": 2,
+          "2025": 2,
+          "2026": 2
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 5,
+          "Administrativo": 4,
+          "Penal-Criminal": 3
+        },
+        "uf": {
+          "SC": 10,
+          "DF": 1,
+          "OUTROS": 1
+        },
+        "instancia": {
+          "1º Grau": 6,
+          "N/I": 4,
+          "Superiores": 1,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 3,
+          "Polo passivo": 7,
+          "Terceiro/Outros": 2
+        },
+        "tribunais": {
+          "OUTROS": 6,
+          "TJSC": 4,
+          "STJ": 1,
+          "TRF4": 1
+        },
+        "ranking": [
+          [
+            "MARILENE LAURINDO",
+            3
+          ],
+          [
+            "DETRAN",
+            2
+          ],
+          [
+            "MINISTÉRIO DA JUSTIÇA E DA SEGURANÇA PÚBLICA",
+            2
+          ],
+          [
+            "POLÍCIA CIVIL DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "POLÍCIA RODOVIÁRIA FEDERAL",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 20,
+          "ativos": 12,
+          "areas": 3,
+          "trib": 4,
+          "procSub": "12 ativos · 8 encerrados",
+          "areasSub": "Cível, Administrativo, Penal-Criminal",
+          "tribSub": "TJSC, STJ, TRF4"
+        },
+        "encerradosTotal": 8,
+        "horas": {
+          "total": 120.9,
+          "media": 6.0,
+          "mediaAtivos": 10.1,
+          "horasano": {
+            "2026": 59.2,
+            "2025": 42.1,
+            "2024": 15.9,
+            "2023": 3.7
+          }
+        }
+      }
+    },
+    "suzana_chiamenti": {
+      "nome": "Suzana de Fátima Russi Chiamenti",
+      "_idCliente": "2122647",
+      "dataset": {
+        "total": 5,
+        "ativos": 2,
+        "encerrados": {
+          "2012": 0,
+          "2013": 0,
+          "2014": 0,
+          "2015": 0,
+          "2016": 0,
+          "2017": 0,
+          "2018": 0,
+          "2019": 0,
+          "2020": 3,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 2,
+        "estoque": {
+          "2012": 2,
+          "2013": 2,
+          "2014": 2,
+          "2015": 2,
+          "2016": 2,
+          "2017": 2,
+          "2018": 3,
+          "2019": 3,
+          "2020": 1,
+          "2021": 1,
+          "2022": 2,
+          "2023": 2,
+          "2024": 2,
+          "2025": 2,
+          "2026": 2
+        },
+        "entradas": {
+          "2012": 2,
+          "2013": 0,
+          "2014": 0,
+          "2015": 0,
+          "2016": 0,
+          "2017": 0,
+          "2018": 1,
+          "2019": 0,
+          "2020": 1,
+          "2021": 0,
+          "2022": 1,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {
+          "Penal-Criminal": 1,
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Polo passivo": 1,
+          "Polo ativo": 1
+        },
+        "tribunais": {
+          "OUTROS": 1,
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "BANCO ITAÚ",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 5,
+          "ativos": 2,
+          "areas": 2,
+          "trib": 2,
+          "procSub": "2 ativos · 3 encerrados",
+          "areasSub": "Penal-Criminal, Cível",
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 3,
+        "horas": {
+          "total": 1.2,
+          "media": 0.2,
+          "mediaAtivos": 0.6,
+          "horasano": {
+            "2023": 1.2,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          }
+        }
+      }
+    },
+    "joana_reis": {
+      "nome": "Joana Russi Reis",
+      "_idCliente": "2124120",
+      "dataset": {
+        "total": 12,
+        "ativos": 9,
+        "encerrados": {
+          "2018": 0,
+          "2019": 0,
+          "2020": 1,
+          "2021": 0,
+          "2022": 1,
+          "2023": 1,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 9,
+        "estoque": {
+          "2018": 1,
+          "2019": 2,
+          "2020": 3,
+          "2021": 5,
+          "2022": 6,
+          "2023": 7,
+          "2024": 7,
+          "2025": 8,
+          "2026": 9
+        },
+        "entradas": {
+          "2018": 1,
+          "2019": 1,
+          "2020": 2,
+          "2021": 2,
+          "2022": 2,
+          "2023": 2,
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 6,
+          "Bancário": 2,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 8,
+          "DF": 1
+        },
+        "instancia": {
+          "2º Grau": 5,
+          "1º Grau": 3,
+          "Superiores": 1
+        },
+        "polo": {
+          "Terceiro/Outros": 3,
+          "Polo passivo": 6
+        },
+        "tribunais": {
+          "TJSC": 7,
+          "STJ": 1,
+          "OUTROS": 1
+        },
+        "ranking": [
+          [
+            "ANDRE BAILL",
+            4
+          ],
+          [
+            "AGENCIA DE FOMENTO DO ESTADO DE SANTA CATARINA S.A. - BADESC",
+            2
+          ],
+          [
+            "BRUNA MICHAELE LUCIANI",
+            1
+          ],
+          [
+            "SECRETARIA DE ESTADO DA FAZENDA",
+            1
+          ],
+          [
+            "ALEX DOS SANTOS ALVES",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 12,
+          "ativos": 9,
+          "areas": 3,
+          "trib": 3,
+          "procSub": "9 ativos · 3 encerrados",
+          "areasSub": "Cível, Bancário, Tributário",
+          "tribSub": "TJSC, STJ"
+        },
+        "encerradosTotal": 3,
+        "horas": {
+          "total": 179.0,
+          "media": 14.9,
+          "mediaAtivos": 19.9,
+          "horasano": {
+            "2026": 52.4,
+            "2025": 52.4,
+            "2024": 32.4,
+            "2023": 41.9
+          }
+        }
+      }
+    },
+    "rcr": {
+      "nome": "RCR Empreendimentos Imobiliários",
+      "_idCliente": "2130460",
+      "dataset": {
+        "total": 18,
+        "ativos": 7,
+        "encerrados": {
+          "2016": 0,
+          "2017": 0,
+          "2018": 0,
+          "2019": 1,
+          "2020": 2,
+          "2021": 5,
+          "2022": 3,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 7,
+        "estoque": {
+          "2016": 1,
+          "2017": 2,
+          "2018": 3,
+          "2019": 5,
+          "2020": 8,
+          "2021": 6,
+          "2022": 4,
+          "2023": 5,
+          "2024": 5,
+          "2025": 6,
+          "2026": 7
+        },
+        "entradas": {
+          "2016": 1,
+          "2017": 1,
+          "2018": 1,
+          "2019": 3,
+          "2020": 5,
+          "2021": 3,
+          "2022": 1,
+          "2023": 1,
+          "2024": 0,
+          "2025": 1,
+          "2026": 1
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 4,
+          "Tributário": 2,
+          "Administrativo": 1
+        },
+        "uf": {
+          "SC": 6,
+          "OUTROS": 1
+        },
+        "instancia": {
+          "1º Grau": 4,
+          "2º Grau": 2,
+          "Superiores": 1
+        },
+        "polo": {
+          "Terceiro/Outros": 1,
+          "Polo ativo": 3,
+          "Polo passivo": 3
+        },
+        "tribunais": {
+          "TJSC": 4,
+          "STJ": 1,
+          "TRF4": 1,
+          "OUTROS": 1
+        },
+        "ranking": [
+          [
+            "RICARDO VINHAS VILLANUEVA",
+            5
+          ],
+          [
+            "MUNICIPIO DE BALNEARIO CAMBORIU",
+            1
+          ],
+          [
+            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 18,
+          "ativos": 7,
+          "areas": 3,
+          "trib": 4,
+          "procSub": "7 ativos · 11 encerrados",
+          "areasSub": "Cível, Tributário, Administrativo",
+          "tribSub": "TJSC, STJ, TRF4"
+        },
+        "encerradosTotal": 11,
+        "horas": {
+          "total": 27.9,
+          "media": 1.5,
+          "mediaAtivos": 4.0,
+          "horasano": {
+            "2026": 13.8,
+            "2025": 5.0,
+            "2024": 2.4,
+            "2023": 6.6
+          }
+        }
+      }
+    },
+    "russi_participacoes": {
+      "nome": "J.A. Russi Participações S.A.",
+      "_idCliente": "675448089",
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 0,
+        "estoque": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "encerradosTotal": 0,
+        "_semProcessos": true,
+        "horas": {
+          "total": 13.6,
+          "horasano": {
+            "2026": 3.8,
+            "2025": 4.2,
+            "2024": 5.6,
+            "2023": 0
+          },
+          "media": 0,
+          "mediaAtivos": 0
+        }
+      }
+    },
+    "felipe_reis": {
+      "nome": "Felipe Nilton Reis",
+      "_idCliente": "677012382",
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 0,
+        "estoque": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "encerradosTotal": 0,
+        "_semProcessos": true,
+        "horas": {
+          "total": 0.0,
+          "horasano": {
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "media": 0,
+          "mediaAtivos": 0
+        }
+      }
+    },
+    "harmony": {
+      "nome": "Harmony of the Seas Empreendimentos Imobiliários LTDA",
+      "_idCliente": "677012386",
+      "dataset": {
+        "total": 3,
+        "ativos": 1,
+        "encerrados": {
+          "2024": 0,
+          "2025": 2,
+          "2026": 0
+        },
+        "areaTotal": 1,
+        "estoque": {
+          "2024": 1,
+          "2025": 1,
+          "2026": 1
+        },
+        "entradas": {
+          "2024": 1,
+          "2025": 2,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo passivo": 1
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 3,
+          "ativos": 1,
+          "areas": 1,
+          "trib": 1,
+          "procSub": "1 ativos · 2 encerrados",
+          "areasSub": "Penal-Criminal",
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 2,
+        "horas": {
+          "total": 23.7,
+          "media": 7.9,
+          "mediaAtivos": 23.7,
+          "horasano": {
+            "2026": 2.7,
+            "2025": 16.9,
+            "2024": 4.1,
+            "2023": 0
+          }
+        }
+      }
+    },
+    "sunny_coast": {
+      "nome": "Sunny Coast Empreendimentos Imobiliários SPE LTDA",
+      "_idCliente": "677012390",
+      "dataset": {
+        "total": 4,
+        "ativos": 4,
+        "encerrados": {
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 4,
+        "estoque": {
+          "2024": 1,
+          "2025": 4,
+          "2026": 4
+        },
+        "entradas": {
+          "2024": 1,
+          "2025": 3,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {
+          "Trabalhista": 4
+        },
+        "uf": {
+          "SC": 3,
+          "AP": 1
+        },
+        "instancia": {
+          "1º Grau": 3,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo passivo": 4
+        },
+        "tribunais": {
+          "TRT12": 3,
+          "TRT08": 1
+        },
+        "ranking": [
+          [
+            "ADEMIR CAVALARI PONCIANO",
+            3
+          ],
+          [
+            "GIVALDO ALVES BEZERRA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 4,
+          "ativos": 4,
+          "areas": 1,
+          "trib": 2,
+          "procSub": "4 ativos · 0 encerrados",
+          "areasSub": "Trabalhista",
+          "tribSub": "TRT12, TRT08"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 71.2,
+          "media": 17.8,
+          "mediaAtivos": 17.8,
+          "horasano": {
+            "2026": 36.0,
+            "2025": 15.2,
+            "2024": 20.0,
+            "2023": 0
+          }
+        }
+      }
+    },
+    "torremolinos": {
+      "nome": "Condomínio Torremolinos",
+      "_idCliente": "677012391",
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 0,
+        "estoque": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "entradas": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "areas": 0,
+          "trib": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areasSub": "",
+          "tribSub": ""
+        },
+        "encerradosTotal": 0,
+        "_semProcessos": true,
+        "horas": {
+          "total": 0.0,
+          "horasano": {
+            "2023": 0,
+            "2024": 0,
+            "2025": 0,
+            "2026": 0
+          },
+          "media": 0,
+          "mediaAtivos": 0
+        }
+      }
+    },
+    "garden_mall": {
+      "nome": "Empreendimento Garden Open Mall",
+      "_idCliente": "681898002",
+      "dataset": {
+        "total": 2,
+        "ativos": 2,
+        "encerrados": {
+          "2025": 0,
+          "2026": 0
+        },
+        "areaTotal": 2,
+        "estoque": {
+          "2025": 2,
+          "2026": 2
+        },
+        "entradas": {
+          "2025": 2,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {
+          "Pública": 1,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 2
+        },
+        "instancia": {
+          "2º Grau": 1,
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 1,
+          "Terceiro/Outros": 1
+        },
+        "tribunais": {
+          "TJSC": 2
+        },
+        "ranking": [
+          [
+            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
+            1
+          ],
+          [
+            "MINISTERIO PUBLICO DO ESTADO DE SANTA CATARINA PROCURADORIA GERAL DE JUSTICA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 2,
+          "ativos": 2,
+          "areas": 2,
+          "trib": 1,
+          "procSub": "2 ativos · 0 encerrados",
+          "areasSub": "Pública, Tributário",
+          "tribSub": "TJSC"
+        },
+        "encerradosTotal": 0,
+        "horas": {
+          "total": 49.9,
+          "media": 24.9,
+          "mediaAtivos": 24.9,
+          "horasano": {
+            "2026": 4.9,
+            "2025": 45.0,
+            "2023": 0,
+            "2024": 0
+          }
+        }
+      }
+    }
+  },
+  "nEmpresas": 15
+}

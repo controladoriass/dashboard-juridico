@@ -5,8 +5,8 @@
     "areas": 2,
     "trib": 1,
     "procSub": "3 ativos · 0 encerrados",
-    "areasSub": "2 áreas",
-    "tribSub": "1 tribunal",
+    "areasSub": "Cível, Tributário",
+    "tribSub": "OUTROS, TJPA",
     "encerrados": 0,
     "kHoras": 7.7
   },
@@ -46,8 +46,8 @@
           "Polo passivo": 1
         },
         "tribunais": {
-          "TJPA": 1,
-          "N/D": 2
+          "OUTROS": 2,
+          "TJPA": 1
         },
         "ranking": [
           [
@@ -66,8 +66,8 @@
           "areas": 2,
           "trib": 1,
           "procSub": "3 ativos · 0 encerrados",
-          "areasSub": "2 áreas",
-          "tribSub": "1 tribunal"
+          "areasSub": "Cível, Tributário",
+          "tribSub": "OUTROS, TJPA"
         },
         "esforco": {
           "comProducao": 3,
@@ -134,8 +134,8 @@
           "Polo passivo": 1
         },
         "tribunais": {
-          "TJPA": 1,
-          "N/D": 2
+          "OUTROS": 2,
+          "TJPA": 1
         },
         "ranking": [
           [
