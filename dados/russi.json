@@ -79,7 +79,9 @@
           "2025": 135,
           "2026": 50
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 340,
           "Tributário": 159,
@@ -337,7 +339,9 @@
           "2025": 107,
           "2026": 40
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 226,
           "Tributário": 132,
@@ -539,7 +543,9 @@
           "2025": 3,
           "2026": 2
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 50,
           "Tributário": 6,
@@ -727,7 +733,9 @@
           "2025": 10,
           "2026": 1
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 32,
           "Tributário": 15,
@@ -902,7 +910,9 @@
           "2025": 1,
           "2026": 1
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 9,
           "Tributário": 2
@@ -1044,7 +1054,9 @@
           "2025": 3,
           "2026": 2
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 7,
           "Trabalhista": 3
@@ -1179,7 +1191,9 @@
           "2025": 2,
           "2026": 2
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 5,
           "Administrativo": 4,
@@ -1315,7 +1329,9 @@
           "2025": 0,
           "2026": 0
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Penal-Criminal": 1,
           "Cível": 1
@@ -1408,7 +1424,9 @@
           "2025": 1,
           "2026": 1
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 6,
           "Bancário": 2,
@@ -1524,7 +1542,9 @@
           "2025": 1,
           "2026": 1
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 4,
           "Tributário": 2,
@@ -1622,7 +1642,9 @@
           "2025": 0,
           "2026": 0
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {},
         "uf": {},
         "instancia": {},
@@ -1688,7 +1710,9 @@
           "2025": 0,
           "2026": 0
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {},
         "uf": {},
         "instancia": {},
@@ -1742,7 +1766,9 @@
           "2025": 2,
           "2026": 0
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Penal-Criminal": 1
         },
@@ -1810,7 +1836,9 @@
           "2025": 3,
           "2026": 0
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Trabalhista": 4
         },
@@ -1897,7 +1925,9 @@
           "2025": 0,
           "2026": 0
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {},
         "uf": {},
         "instancia": {},
@@ -1948,7 +1978,9 @@
           "2025": 2,
           "2026": 0
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Pública": 1,
           "Tributário": 1
