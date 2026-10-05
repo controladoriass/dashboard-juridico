@@ -6,7 +6,7 @@
     "trib": 12,
     "procSub": "192 ativos · 88 encerrados",
     "areasSub": "Cível, Tributário, Trabalhista",
-    "tribSub": "TJSC, N/I, TRT12",
+    "tribSub": "TJSC, OUTROS, TRT12",
     "encerrados": 88
   },
   "empresas": {
@@ -17,7 +17,14 @@
         "total": 280,
         "ativos": 192,
         "encerrados": {
-          "2022": 8,
+          "2013": 9,
+          "2014": 10,
+          "2015": 12,
+          "2016": 4,
+          "2017": 3,
+          "2019": 7,
+          "2020": 3,
+          "2022": 7,
           "2023": 2,
           "2024": 5,
           "2025": 9,
@@ -42,16 +49,16 @@
           "2026"
         ],
         "area": {
-          "Cível": 123,
-          "Tributário": 72,
-          "Trabalhista": 60,
+          "Cível": 125,
+          "Tributário": 73,
+          "Trabalhista": 63,
           "Bancário": 9,
           "Administrativo": 6,
           "Penal-Criminal": 5,
           "Recuperação Judicial": 1,
           "Aduaneiro": 1,
           "Ambiental": 1,
-          "Não informada": 1,
+          "Outros": 1,
           "Imobiliário": 1
         },
         "uf": {
@@ -74,11 +81,11 @@
           "Terceiro/Outros": 31
         },
         "tribunais": {
-          "TJSC": 115,
-          "N/I": 67,
-          "TRT12": 38,
+          "TJSC": 117,
+          "OUTROS": 69,
+          "TRT12": 39,
           "TRF4": 33,
-          "TJSP": 10,
+          "TJSP": 11,
           "STJ": 7,
           "MINTRAB": 3,
           "STF": 2,
@@ -96,7 +103,7 @@
           "areas": 11,
           "areasSub": "Cível, Tributário, Trabalhista",
           "trib": 12,
-          "tribSub": "TJSC, N/I, TRT12"
+          "tribSub": "TJSC, OUTROS, TRT12"
         },
         "encerradosTotal": 88,
         "horas": {
@@ -209,7 +216,7 @@
         "tribunais": {
           "TJSC": 24,
           "TRT12": 20,
-          "N/I": 19,
+          "OUTROS": 19,
           "TRF4": 5,
           "MINTRAB": 3,
           "TJSP": 3,
@@ -228,7 +235,7 @@
           "areas": 8,
           "areasSub": "Trabalhista, Cível, Tributário",
           "trib": 11,
-          "tribSub": "TJSC, TRT12, N/I"
+          "tribSub": "TJSC, TRT12, OUTROS"
         },
         "encerradosTotal": 32,
         "horas": {
@@ -329,7 +336,7 @@
         },
         "tribunais": {
           "TJSC": 38,
-          "N/I": 27,
+          "OUTROS": 27,
           "TRF4": 13,
           "TRT12": 11,
           "TJSP": 7,
@@ -345,7 +352,7 @@
           "areas": 6,
           "areasSub": "Cível, Trabalhista, Tributário",
           "trib": 7,
-          "tribSub": "TJSC, N/I, TRF4"
+          "tribSub": "TJSC, OUTROS, TRF4"
         },
         "encerradosTotal": 28,
         "horas": {
@@ -444,7 +451,7 @@
         },
         "tribunais": {
           "TJSC": 31,
-          "N/I": 14,
+          "OUTROS": 14,
           "TRF4": 8,
           "STJ": 2,
           "TRT12": 1
@@ -458,7 +465,7 @@
           "areas": 5,
           "areasSub": "Cível, Tributário, Bancário",
           "trib": 5,
-          "tribSub": "TJSC, N/I, TRF4"
+          "tribSub": "TJSC, OUTROS, TRF4"
         },
         "encerradosTotal": 19,
         "horas": {
@@ -546,7 +553,7 @@
           "TJSC": 6,
           "TRT12": 2,
           "TRF4": 2,
-          "N/I": 1
+          "OUTROS": 1
         },
         "ranking": [],
         "_complexidadeSoAtivos": false,
@@ -639,7 +646,7 @@
         },
         "tribunais": {
           "TJSC": 6,
-          "N/I": 5,
+          "OUTROS": 5,
           "TRT12": 4,
           "TRF4": 3,
           "ALAC": 1
@@ -653,7 +660,7 @@
           "areas": 5,
           "areasSub": "Trabalhista, Tributário, Penal-Criminal",
           "trib": 5,
-          "tribSub": "TJSC, N/I, TRT12"
+          "tribSub": "TJSC, OUTROS, TRT12"
         },
         "encerradosTotal": 4,
         "horas": {
@@ -719,7 +726,7 @@
           "areas": 0,
           "areasSub": "—",
           "trib": 0,
-          "tribSub": "—"
+          "tribSub": ""
         },
         "encerradosTotal": 0,
         "horas": {
@@ -769,7 +776,7 @@
           "areas": 0,
           "areasSub": "—",
           "trib": 0,
-          "tribSub": "—"
+          "tribSub": ""
         },
         "encerradosTotal": 0,
         "horas": {
@@ -906,7 +913,7 @@
         },
         "tribunais": {
           "TJSC": 4,
-          "N/I": 1
+          "OUTROS": 1
         },
         "ranking": [],
         "_complexidadeSoAtivos": false,
@@ -917,7 +924,7 @@
           "areas": 3,
           "areasSub": "Cível, Imobiliário, Penal-Criminal",
           "trib": 2,
-          "tribSub": "TJSC, N/I"
+          "tribSub": "TJSC, OUTROS"
         },
         "encerradosTotal": 0,
         "horas": {
