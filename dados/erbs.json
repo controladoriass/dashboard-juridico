@@ -253,19 +253,32 @@
           ]
         },
         "horas": {
-          "total": 8392.53,
-          "media": 1398.75,
-          "mediaAtivos": 44.17,
           "horasano": {
             "2021": 97.8,
             "2022": 1124.0,
-            "2023": 1289.56,
-            "2024": 1922.86,
-            "2025": 2076.1,
-            "2026": 1882.21
-          }
+            "2023": 1289.6,
+            "2024": 2016.6,
+            "2025": 1793.8,
+            "2026": 1720.9
+          },
+          "total": 8042.7,
+          "media": 20.4,
+          "mediaAtivos": 42.3
+        },
+        "total": 395,
+        "encerradosTotal": 195,
+        "kpi": {
+          "proc": 395,
+          "ativos": 190,
+          "procSub": "190 ativos · 195 encerrados",
+          "areas": 7,
+          "areasSub": "Cível (194), Tributário (96), Trabalhista (64)",
+          "trib": 35,
+          "tribSub": "N/I (108), TJSC (80), TRT12 (37)"
         }
-      }
+      },
+      "nome": "Grupo ERBS",
+      "_idCliente": null
     },
     "energiaerbsindustria": {
       "dataset": {
@@ -490,19 +503,32 @@
           ]
         },
         "horas": {
-          "total": 5368.9,
-          "media": 894.82,
-          "mediaAtivos": 49.26,
+          "total": 5101.5,
+          "media": 28.3,
+          "mediaAtivos": 46.8,
           "horasano": {
             "2021": 76.68,
             "2022": 819.28,
             "2023": 965.86,
-            "2024": 1127.32,
-            "2025": 1131.49,
-            "2026": 1248.28
+            "2024": 1170.5,
+            "2025": 1038.5,
+            "2026": 1030.7
           }
+        },
+        "total": 180,
+        "encerradosTotal": 67,
+        "kpi": {
+          "proc": 180,
+          "ativos": 109,
+          "procSub": "109 ativos · 67 encerrados",
+          "areas": 6,
+          "areasSub": "Cível (63), Tributário (54), Trabalhista (46)",
+          "trib": 28,
+          "tribSub": "N/I (57), TRT12 (28), TJSC (18)"
         }
-      }
+      },
+      "_idCliente": 2171093,
+      "nome": "ENERGIA ERBS INDUSTRIA E TRANSPORTE LTDA"
     },
     "botuveraindustria": {
       "dataset": {
@@ -643,19 +669,32 @@
           ]
         },
         "horas": {
-          "total": 689.04,
-          "media": 114.84,
-          "mediaAtivos": 25.52,
+          "total": 626.6,
+          "media": 12.3,
+          "mediaAtivos": 23.2,
           "horasano": {
             "2021": 3.26,
             "2022": 58.21,
             "2023": 93.63,
-            "2024": 158.17,
-            "2025": 201.52,
-            "2026": 174.25
+            "2024": 151.6,
+            "2025": 148.8,
+            "2026": 171.1
           }
+        },
+        "total": 51,
+        "encerradosTotal": 22,
+        "kpi": {
+          "proc": 51,
+          "ativos": 27,
+          "procSub": "27 ativos · 22 encerrados",
+          "areas": 3,
+          "areasSub": "Cível (41), Tributário (9), Trabalhista (1)",
+          "trib": 9,
+          "tribSub": "TJSC (35), N/I (6), TRF4 (3)"
         }
-      }
+      },
+      "_idCliente": 2125278,
+      "nome": "BOTUVERÁ INDÚSTRIA E COMÉRCIO DE ACUMULADORES E COMPONENTES EIRELI"
     },
     "botuveratransporte": {
       "dataset": {
@@ -776,19 +815,32 @@
           ]
         },
         "horas": {
-          "total": 175.88,
-          "media": 29.31,
-          "mediaAtivos": 14.66,
+          "total": 186.9,
+          "media": 5.7,
+          "mediaAtivos": 15.6,
           "horasano": {
             "2021": 0.67,
             "2022": 97.74,
             "2023": 2.71,
-            "2024": 26.16,
-            "2025": 40.66,
-            "2026": 7.93
+            "2024": 40.2,
+            "2025": 23.1,
+            "2026": 22.5
           }
+        },
+        "total": 33,
+        "encerradosTotal": 20,
+        "kpi": {
+          "proc": 33,
+          "ativos": 12,
+          "procSub": "12 ativos · 20 encerrados",
+          "areas": 6,
+          "areasSub": "Administrativo (11), Tributário (8), Cível (7)",
+          "trib": 11,
+          "tribSub": "N/I (14), PREFEITURA MUNICIPAL (4), TRT12 (4)"
         }
-      }
+      },
+      "_idCliente": 2130280,
+      "nome": "BOTUVERÁ TRANSPORTE RODOVIÁRIO DE CARGAS E RECUPERADORA DE SUCATAS LTDA"
     },
     "indcommotociclisticos": {
       "dataset": {
@@ -931,19 +983,32 @@
           ]
         },
         "horas": {
-          "total": 203.02,
-          "media": 33.84,
-          "mediaAtivos": 9.67,
+          "total": 253.1,
+          "media": 5.8,
+          "mediaAtivos": 12.1,
           "horasano": {
             "2021": 2.42,
             "2022": 22.93,
             "2023": 40.37,
-            "2024": 11.87,
-            "2025": 39.47,
-            "2026": 85.98
+            "2024": 47.3,
+            "2025": 51.6,
+            "2026": 88.5
           }
+        },
+        "total": 44,
+        "encerradosTotal": 23,
+        "kpi": {
+          "proc": 44,
+          "ativos": 21,
+          "procSub": "21 ativos · 23 encerrados",
+          "areas": 5,
+          "areasSub": "Cível (22), Tributário (11), Administrativo (6)",
+          "trib": 13,
+          "tribSub": "TJSC (12), TRF4 (8), N/I (7)"
         }
-      }
+      },
+      "_idCliente": 2125271,
+      "nome": "INDÚSTRIA E COMÉRCIO DE ACUMULADORES E COMPONENTES MOTOCICLISTICOS ERBS LTDA"
     },
     "comerciobateriaserbs": {
       "dataset": {
@@ -1095,19 +1160,32 @@
           ]
         },
         "horas": {
-          "total": 678.2,
-          "media": 113.03,
-          "mediaAtivos": 84.78,
+          "total": 686.7,
+          "media": 14.6,
+          "mediaAtivos": 85.8,
           "horasano": {
             "2021": 13.02,
             "2022": 80.68,
             "2023": 70.22,
-            "2024": 336.17,
-            "2025": 150.93,
-            "2026": 27.19
+            "2024": 377.2,
+            "2025": 115.0,
+            "2026": 30.6
           }
+        },
+        "total": 47,
+        "encerradosTotal": 36,
+        "kpi": {
+          "proc": 47,
+          "ativos": 8,
+          "procSub": "8 ativos · 36 encerrados",
+          "areas": 4,
+          "areasSub": "Cível (35), Trabalhista (6), Tributário (5)",
+          "trib": 13,
+          "tribSub": "N/I (18), TJBA (7), TRF4 (4)"
         }
-      }
+      },
+      "_idCliente": 677038842,
+      "nome": "COMÉRCIO DE BATERIAS ERBS LTDA MATRIZ"
     },
     "comerciobateriastijucas": {
       "dataset": {
@@ -1205,18 +1283,31 @@
           ]
         },
         "horas": {
-          "total": 97.58,
-          "media": 19.52,
-          "mediaAtivos": 24.4,
+          "total": 113.4,
+          "media": 12.6,
+          "mediaAtivos": 28.4,
           "horasano": {
             "2022": 5.48,
             "2023": 3.82,
-            "2024": 33.02,
-            "2025": 42.9,
-            "2026": 12.37
+            "2024": 23.6,
+            "2025": 39.6,
+            "2026": 40.9
           }
+        },
+        "total": 9,
+        "encerradosTotal": 5,
+        "kpi": {
+          "proc": 9,
+          "ativos": 4,
+          "procSub": "4 ativos · 5 encerrados",
+          "areas": 2,
+          "areasSub": "Cível (5), Tributário (4)",
+          "trib": 4,
+          "tribSub": "TJSC (4), TRF4 (3), TJRS (1)"
         }
-      }
+      },
+      "_idCliente": 2161193,
+      "nome": "COMÉRCIO DE BATERIAS ERBS TIJUCAS LTDA"
     },
     "erbsmanutencao": {
       "dataset": {
@@ -1339,18 +1430,31 @@
           ]
         },
         "horas": {
-          "total": 223.06,
-          "media": 44.61,
-          "mediaAtivos": 44.61,
+          "total": 218.8,
+          "media": 12.9,
+          "mediaAtivos": 43.8,
           "horasano": {
             "2022": 12.77,
             "2023": 38.16,
-            "2024": 38.62,
-            "2025": 54.81,
-            "2026": 78.7
+            "2024": 53.5,
+            "2025": 55.3,
+            "2026": 59.1
           }
+        },
+        "total": 17,
+        "encerradosTotal": 12,
+        "kpi": {
+          "proc": 17,
+          "ativos": 5,
+          "procSub": "5 ativos · 12 encerrados",
+          "areas": 4,
+          "areasSub": "Cível (10), Trabalhista (3), Tributário (2)",
+          "trib": 9,
+          "tribSub": "TJPR (4), TJSC (3), TRT12 (3)"
         }
-      }
+      },
+      "_idCliente": 2307275,
+      "nome": "ERBS MANUTENCAO DE ACUMULADORES LTDA"
     },
     "teslaservicos": {
       "dataset": {
@@ -1378,12 +1482,29 @@
           "people": []
         },
         "horas": {
-          "total": 0,
-          "media": 0,
+          "total": 0.0,
+          "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {}
+          "horasano": {
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          }
+        },
+        "total": 0,
+        "encerradosTotal": 0,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
         }
-      }
+      },
+      "_idCliente": 2125187,
+      "nome": "TESLA SERVICOS CONTABEIS E ADMINISTRATIVOS LTDA"
     },
     "epparticipacoes": {
       "dataset": {
@@ -1411,12 +1532,29 @@
           "people": []
         },
         "horas": {
-          "total": 0,
-          "media": 0,
+          "total": 0.0,
+          "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {}
+          "horasano": {
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          }
+        },
+        "total": 0,
+        "encerradosTotal": 0,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
         }
-      }
+      },
+      "_idCliente": 677012394,
+      "nome": "EP PARTICIPACOES SOCIETARIAS LTDA"
     },
     "epscp": {
       "dataset": {
@@ -1444,12 +1582,29 @@
           "people": []
         },
         "horas": {
-          "total": 0,
-          "media": 0,
+          "total": 0.0,
+          "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {}
+          "horasano": {
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          }
+        },
+        "total": 0,
+        "encerradosTotal": 0,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
         }
-      }
+      },
+      "_idCliente": 677012397,
+      "nome": "EP PARTICIPACOES SOCIETARIAS SCP"
     },
     "holdingerbs": {
       "dataset": {
@@ -1493,12 +1648,29 @@
           "people": []
         },
         "horas": {
-          "total": 0,
-          "media": 0,
-          "mediaAtivos": 0.0,
-          "horasano": {}
+          "total": 4.8,
+          "media": 2.4,
+          "mediaAtivos": 2.4,
+          "horasano": {
+            "2024": 0.0,
+            "2025": 4.8,
+            "2026": 0.0
+          }
+        },
+        "total": 2,
+        "encerradosTotal": 0,
+        "kpi": {
+          "proc": 2,
+          "ativos": 2,
+          "procSub": "2 ativos · 0 encerrados",
+          "areas": 1,
+          "areasSub": "Tributário (2)",
+          "trib": 1,
+          "tribSub": "N/I (2)"
         }
-      }
+      },
+      "_idCliente": 677012401,
+      "nome": "HOLDING ERBS LTDA"
     },
     "magicred": {
       "dataset": {
@@ -1526,12 +1698,29 @@
           "people": []
         },
         "horas": {
-          "total": 0,
-          "media": 0,
+          "total": 0.0,
+          "media": 0.0,
           "mediaAtivos": 0.0,
-          "horasano": {}
+          "horasano": {
+            "2024": 0.0,
+            "2025": 0.0,
+            "2026": 0.0
+          }
+        },
+        "total": 0,
+        "encerradosTotal": 0,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
         }
-      }
+      },
+      "_idCliente": 677012403,
+      "nome": "MAGICRED SERVICOS DE COBRANCAS LTDA"
     },
     "prafparticipacoes": {
       "dataset": {
@@ -1583,15 +1772,29 @@
           ]
         },
         "horas": {
-          "total": 41.88,
-          "media": 20.94,
-          "mediaAtivos": 41.88,
+          "total": 62.0,
+          "media": 62.0,
+          "mediaAtivos": 62.0,
           "horasano": {
-            "2025": 35.9,
-            "2026": 5.98
+            "2024": 11.6,
+            "2025": 27.9,
+            "2026": 22.5
           }
+        },
+        "total": 1,
+        "encerradosTotal": 0,
+        "kpi": {
+          "proc": 1,
+          "ativos": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "areas": 1,
+          "areasSub": "Cível (1)",
+          "trib": 1,
+          "tribSub": "TJSC (1)"
         }
-      }
+      },
+      "_idCliente": 677012406,
+      "nome": "PRAF PARTICIPACOES LTDA"
     },
     "erbsconstrutora": {
       "dataset": {
@@ -1635,15 +1838,29 @@
           ]
         },
         "horas": {
-          "total": 85.05,
-          "media": 42.52,
-          "mediaAtivos": 85.05,
+          "total": 77.9,
+          "media": 77.9,
+          "mediaAtivos": 77.9,
           "horasano": {
-            "2025": 65.41,
-            "2026": 19.64
+            "2024": 0.0,
+            "2025": 70.8,
+            "2026": 7.1
           }
+        },
+        "total": 0,
+        "encerradosTotal": 0,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
         }
-      }
+      },
+      "_idCliente": 677012411,
+      "nome": "ERBS CONSTRUTORA LTDA"
     },
     "praferbsspe": {
       "dataset": {
@@ -1675,14 +1892,29 @@
           ]
         },
         "horas": {
-          "total": 16.83,
-          "media": 16.83,
-          "mediaAtivos": 16.83,
+          "total": 3.5,
+          "media": 3.5,
+          "mediaAtivos": 3.5,
           "horasano": {
-            "2025": 16.83
+            "2024": 0.0,
+            "2025": 3.3,
+            "2026": 0.2
           }
+        },
+        "total": 0,
+        "encerradosTotal": 0,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
         }
-      }
+      },
+      "_idCliente": 683060794,
+      "nome": "PRAF ERBS SPE LTDA"
     },
     "heivisecuritizadora": {
       "dataset": {
@@ -1810,19 +2042,33 @@
           ]
         },
         "horas": {
-          "total": 813.08,
-          "media": 135.51,
-          "mediaAtivos": 813.08,
+          "total": 707.4,
+          "media": 64.3,
+          "mediaAtivos": 707.4,
           "horasano": {
             "2021": 1.75,
             "2022": 26.92,
             "2023": 74.79,
-            "2024": 191.54,
-            "2025": 296.19,
-            "2026": 221.9
+            "2024": 141.1,
+            "2025": 215.1,
+            "2026": 247.7
           }
+        },
+        "total": 11,
+        "encerradosTotal": 10,
+        "kpi": {
+          "proc": 11,
+          "ativos": 1,
+          "procSub": "1 ativos · 10 encerrados",
+          "areas": 2,
+          "areasSub": "Cível (10), Tributário (1)",
+          "trib": 4,
+          "tribSub": "TJSC (5), N/I (3), TJRS (2)"
         }
-      }
+      },
+      "_idCliente": 2130235,
+      "nome": "HEIVI SECURITIZADORA S.A"
     }
-  }
+  },
+  "slug": "erbs"
 }
