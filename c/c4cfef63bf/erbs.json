@@ -286,6 +286,11 @@
           "areasSub": "Cível (194), Tributário (96), Trabalhista (64)",
           "trib": 35,
           "tribSub": "N/I (108), TJSC (80), TRT12 (37)"
+        },
+        "polo": {
+          "Polo ativo": 200,
+          "Polo passivo": 149,
+          "Terceiro/Outros": 46
         }
       },
       "nome": "Grupo ERBS",
@@ -547,6 +552,11 @@
           "areasSub": "Cível (63), Tributário (54), Trabalhista (46)",
           "trib": 28,
           "tribSub": "N/I (57), TRT12 (28), TJSC (18)"
+        },
+        "polo": {
+          "Polo ativo": 87,
+          "Polo passivo": 79,
+          "Terceiro/Outros": 14
         }
       },
       "_idCliente": 2171093,
@@ -721,6 +731,11 @@
           "areasSub": "Cível (41), Tributário (9), Trabalhista (1)",
           "trib": 9,
           "tribSub": "TJSC (35), N/I (6), TRF4 (3)"
+        },
+        "polo": {
+          "Polo passivo": 11,
+          "Polo ativo": 34,
+          "Terceiro/Outros": 6
         }
       },
       "_idCliente": 2125278,
@@ -878,6 +893,11 @@
           "areasSub": "Administrativo (11), Tributário (8), Cível (7)",
           "trib": 11,
           "tribSub": "N/I (14), PREFEITURA MUNICIPAL (4), TRT12 (4)"
+        },
+        "polo": {
+          "Polo passivo": 18,
+          "Terceiro/Outros": 5,
+          "Polo ativo": 10
         }
       },
       "_idCliente": 2130280,
@@ -1056,6 +1076,11 @@
           "areasSub": "Cível (22), Tributário (11), Administrativo (6)",
           "trib": 13,
           "tribSub": "TJSC (12), TRF4 (8), N/I (7)"
+        },
+        "polo": {
+          "Polo passivo": 11,
+          "Terceiro/Outros": 9,
+          "Polo ativo": 24
         }
       },
       "_idCliente": 2125271,
@@ -1244,6 +1269,11 @@
           "areasSub": "Cível (35), Trabalhista (6), Tributário (5)",
           "trib": 13,
           "tribSub": "N/I (18), TJBA (7), TRF4 (4)"
+        },
+        "polo": {
+          "Polo passivo": 15,
+          "Terceiro/Outros": 8,
+          "Polo ativo": 24
         }
       },
       "_idCliente": 677038842,
@@ -1372,6 +1402,11 @@
           "areasSub": "Cível (5), Tributário (4)",
           "trib": 4,
           "tribSub": "TJSC (4), TRF4 (3), TJRS (1)"
+        },
+        "polo": {
+          "Terceiro/Outros": 1,
+          "Polo ativo": 7,
+          "Polo passivo": 1
         }
       },
       "_idCliente": 2161193,
@@ -1527,6 +1562,11 @@
           "areasSub": "Cível (10), Trabalhista (3), Tributário (2)",
           "trib": 9,
           "tribSub": "TJPR (4), TJSC (3), TRT12 (3)"
+        },
+        "polo": {
+          "Polo passivo": 9,
+          "Terceiro/Outros": 2,
+          "Polo ativo": 6
         }
       },
       "_idCliente": 2307275,
@@ -1576,7 +1616,8 @@
           "areasSub": "",
           "trib": 0,
           "tribSub": ""
-        }
+        },
+        "polo": {}
       },
       "_idCliente": 2125187,
       "nome": "TESLA SERVICOS CONTABEIS E ADMINISTRATIVOS LTDA"
@@ -1625,7 +1666,8 @@
           "areasSub": "",
           "trib": 0,
           "tribSub": ""
-        }
+        },
+        "polo": {}
       },
       "_idCliente": 677012394,
       "nome": "EP PARTICIPACOES SOCIETARIAS LTDA"
@@ -1674,7 +1716,8 @@
           "areasSub": "",
           "trib": 0,
           "tribSub": ""
-        }
+        },
+        "polo": {}
       },
       "_idCliente": 677012397,
       "nome": "EP PARTICIPACOES SOCIETARIAS SCP"
@@ -1737,6 +1780,9 @@
           "areasSub": "Tributário (2)",
           "trib": 1,
           "tribSub": "N/I (2)"
+        },
+        "polo": {
+          "Polo ativo": 2
         }
       },
       "_idCliente": 677012401,
@@ -1790,7 +1836,8 @@
           "areasSub": "",
           "trib": 0,
           "tribSub": ""
-        }
+        },
+        "polo": {}
       },
       "_idCliente": 677012403,
       "nome": "MAGICRED SERVICOS DE COBRANCAS LTDA"
@@ -1865,6 +1912,9 @@
           "areasSub": "Cível (1)",
           "trib": 1,
           "tribSub": "TJSC (1)"
+        },
+        "polo": {
+          "Polo ativo": 1
         }
       },
       "_idCliente": 677012406,
@@ -1943,7 +1993,8 @@
           "areasSub": "",
           "trib": 0,
           "tribSub": ""
-        }
+        },
+        "polo": {}
       },
       "_idCliente": 677012411,
       "nome": "ERBS CONSTRUTORA LTDA"
@@ -2004,7 +2055,8 @@
           "areasSub": "",
           "trib": 0,
           "tribSub": ""
-        }
+        },
+        "polo": {}
       },
       "_idCliente": 683060794,
       "nome": "PRAF ERBS SPE LTDA"
@@ -2163,6 +2215,11 @@
           "areasSub": "Cível (10), Tributário (1)",
           "trib": 4,
           "tribSub": "TJSC (5), N/I (3), TJRS (2)"
+        },
+        "polo": {
+          "Polo passivo": 5,
+          "Polo ativo": 5,
+          "Terceiro/Outros": 1
         }
       },
       "_idCliente": 2130235,
