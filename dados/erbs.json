@@ -1,1 +1,1828 @@
-{"kpiGrupo": {"proc": 379, "ativos": 194, "areas": 6, "trib": 27, "procSub": "194 ativos · 185 encerrados", "areasSub": "Cível, Tributário, Trabalhista", "tribSub": "TJSC, TRT12, TRF4", "encerrados": 185}, "empresas": {"_panorama": {"nome": "Panorama Geral do Grupo", "_idCliente": 2171093, "dataset": {"total": 379, "ativos": 194, "encerrados": {"2021": 1, "2022": 42, "2023": 21, "2024": 23, "2025": 97, "2026": 1}, "areaTotal": 194, "estoque": {"2021": 75, "2022": 148, "2023": 160, "2024": 201, "2025": 155, "2026": 194}, "entradas": {"2021": 76, "2022": 116, "2023": 34, "2024": 66, "2025": 51, "2026": 40}, "area": {"Cível": 82, "Tributário": 50, "Trabalhista": 35, "Administrativo": 23, "Penal-Criminal": 3, "Ambiental": 1}, "uf": {"SC": 105, "DF": 23, "PR": 10, "MA": 7, "GO": 7, "N/I": 6, "MT": 5, "BA": 4, "SP": 4, "MS": 4, "RS": 4, "MG": 4, "RN": 3, "SE": 2, "PE": 2, "RJ": 1, "RR": 1}, "instancia": {"1º Grau": 157, "2º Grau": 26, "Superiores": 11}, "polo": {"Polo ativo": 93, "Polo passivo": 51, "Terceiro/Outros": 50}, "tribunais": {"TJSC": 44, "N/D": 38, "TRT12": 22, "TRF4": 15, "TJDFT": 12, "TJMA": 6, "TJGO": 6, "TJPR": 6, "MINTRAB": 5, "STJ": 5, "DRF": 5, "Procon Municipal": 5, "PREFEITURA MUNICIPAL": 4, "TJBA": 3, "STF": 2, "TJMT": 2, "CARF": 2, "TRT09": 2, "MMA": 1, "TJPE": 1, "MPT": 1, "TJRN": 1, "TJMS": 1, "TJRJ": 1, "TJRR": 1, "TRT15": 1, "TJRS": 1, "TJMG": 1}, "ranking": [["DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC", 15], ["RODAR TRANSPORTES E SERVICOS MECANICOS EIRELI", 13], ["RECEITA FEDERAL DO BRASIL", 7], ["JAIRO FELIX DURLI", 4], ["PREFEITURA MUNICIPAL DE BOMBINHAS", 4], ["ENEL TRADING BRASIL S.A", 3], ["SEFAZ", 3], ["RAIMUNDO NONATO FERNANDES FILHO", 2], ["ANDERSON ADRIANO CARDOSO", 2], ["VICTOR BRICKI DA SILVA", 2], ["GF COMERCIO E REPRESENTACAO DE PECAS AUTOMOTIVAS LTDA", 2], ["WEVERTON CHAVES ROMEU", 2], ["FM DOS SANTOS BATERIAS", 2], ["FCARMO COMERCIO E REPRESENTACOES LTDA", 2], ["MINISTÉRIO DO TRABALHO E EMPREGO", 2]], "_complexidadeSoAtivos": true, "kpi": {"proc": 379, "ativos": 194, "areas": 6, "trib": 27, "procSub": "194 ativos · 185 encerrados", "areasSub": "", "tribSub": "TJSC, TRT12, TRF4"}, "esforco": {"comProducao": 384, "tramitacaoDias": 697, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 31612.7, "media": 83.4, "mediaAtivos": 163.0, "horasano": {"2021": 827.0, "2022": 5512.7, "2023": 4657.9, "2024": 6592.8, "2025": 5999.2, "2026": 3853.0}, "_estimativa": true}, "encerradosTotal": 185, "_panorama": true, "nome": "Panorama Geral do Grupo"}}, "energiaerbsindustria_2171093": {"nome": "Energia ERBS Industria e Transporte LTDA", "_idCliente": 2171093, "dataset": {"total": 164, "ativos": 99, "encerrados": {"2022": 9, "2023": 12, "2024": 5, "2025": 38, "2026": 1}, "areaTotal": 99, "estoque": {"2021": 17, "2022": 48, "2023": 56, "2024": 79, "2025": 79, "2026": 99}, "entradas": {"2021": 17, "2022": 40, "2023": 20, "2024": 28, "2025": 38, "2026": 21}, "area": {"Cível": 34, "Tributário": 28, "Trabalhista": 27, "Administrativo": 8, "Penal-Criminal": 2}, "uf": {"SC": 54, "DF": 16, "N/I": 6, "MA": 6, "GO": 4, "MT": 3, "PR": 3, "BA": 2, "SP": 2, "MS": 1, "SE": 1, "PE": 1}, "instancia": {"1º Grau": 73, "2º Grau": 18, "Superiores": 8}, "polo": {"Polo ativo": 51, "Terceiro/Outros": 28, "Polo passivo": 20}, "tribunais": {"N/D": 22, "TRT12": 19, "TJSC": 14, "TJDFT": 10, "TRF4": 6, "TJMA": 5, "MINTRAB": 5, "TJGO": 4, "TJPR": 3, "STJ": 3, "DRF": 3, "STF": 1, "MMA": 1, "TJBA": 1, "TJMT": 1, "TJPE": 1}, "ranking": [["DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC", 7], ["RECEITA FEDERAL DO BRASIL", 4], ["ENEL TRADING BRASIL S.A", 3], ["RAIMUNDO NONATO FERNANDES FILHO", 2], ["ANDERSON ADRIANO CARDOSO", 2], ["VICTOR BRICKI DA SILVA", 2], ["GF COMERCIO E REPRESENTACAO DE PECAS AUTOMOTIVAS LTDA", 2], ["WEVERTON CHAVES ROMEU", 2], ["FM DOS SANTOS BATERIAS", 2], ["FCARMO COMERCIO E REPRESENTACOES LTDA", 2], ["MINISTÉRIO DO TRABALHO E EMPREGO", 2], ["INSTITUTO DO MEIO AMBIENTE DO ESTADO DE SANTA CATARINA - IMA", 2], ["SEFAZ MATO GROSSO DO SUL", 1], ["SEFAZ", 1], ["SECRETARIA DE ESTADO DE FAZENDA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 164, "ativos": 99, "areas": 5, "trib": 15, "procSub": "99 ativos · 65 encerrados", "areasSub": "Cível, Tributário, Trabalhista", "tribSub": "TRT12, TJSC, TJDFT"}, "esforco": {"comProducao": 165, "tramitacaoDias": 730, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 18192.3, "media": 110.3, "mediaAtivos": 189.5, "horasano": {"2021": 540.7, "2022": 3754.4, "2023": 3224.8, "2024": 3618.2, "2025": 4264.5, "2026": 2789.7}, "_estimativa": true}, "encerradosTotal": 65}, "encerradosTotal": null}, "energiaerbsindustria_677040159": {"nome": "Energia ERBS Industria e Transporte LTDA Filial", "_idCliente": 677040159, "dataset": {"total": 8, "ativos": 7, "encerrados": {"2025": 1}, "areaTotal": 7, "estoque": {"2022": 0, "2023": 0, "2024": 3, "2025": 3, "2026": 7}, "entradas": {"2024": 3, "2025": 1, "2026": 4}, "area": {"Cível": 5, "Trabalhista": 1, "Tributário": 1}, "uf": {"DF": 2, "SC": 1, "GO": 1, "RN": 1}, "instancia": {"1º Grau": 7}, "polo": {"Polo ativo": 3, "Polo passivo": 2, "Terceiro/Outros": 2}, "tribunais": {"N/D": 3, "TJDFT": 2, "MPT": 1, "TJRN": 1}, "ranking": [["R S J R COMERCIO DE BATERIAS LTDA", 1], ["F.J.R. COMERCIO E IMPORTACAO DE PECAS E ACESSORIOS LTDA", 1], ["MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO", 1], ["TRANSPORTE ESCOLAR TIA VANIA LTDA", 1], ["CONSELHO ADMINISTRATIVO TRIBUTÁRIO - GOIÁS", 1], ["GFO COMERCIO DE BATERIAS LTDA", 1], ["A C R M MOTA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 8, "ativos": 7, "areas": 3, "trib": 4, "procSub": "7 ativos · 1 encerrado", "areasSub": "Cível, Trabalhista, Tributário", "tribSub": "TJDFT, MPT, TJRN"}, "esforco": {"comProducao": 8, "tramitacaoDias": 311, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 340.6, "media": 42.6, "mediaAtivos": 48.6, "horasano": {}, "_estimativa": true}, "encerradosTotal": 1}}, "energiaerbsindustria_677015238": {"nome": "Energia ERBS Indústria e Transporte LTDA Filial", "_idCliente": 677015238, "dataset": {"total": 1, "ativos": 1, "encerrados": {}, "areaTotal": 1, "estoque": {"2022": 0, "2023": 0, "2024": 1, "2025": 1, "2026": 1}, "entradas": {"2024": 1}, "area": {"Administrativo": 1}, "uf": {"RS": 1}, "instancia": {"1º Grau": 1}, "polo": {"Polo passivo": 1}, "tribunais": {"N/D": 1}, "ranking": [["SECRETARIA DA FAZENDA DO ESTADO DO RIO GRANDE DO SUL", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 1, "ativos": 1, "areas": 1, "trib": 1, "procSub": "1 ativos · 0 encerrados", "areasSub": "Administrativo", "tribSub": ""}, "esforco": {"comProducao": 1, "tramitacaoDias": 873, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 83.4, "media": 83.4, "mediaAtivos": 83.4, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "energiaerbsindustria_677426279": {"nome": "Energia ERBS Industria e Transporte LTDA Filial Ms", "_idCliente": 677426279, "dataset": {"total": 4, "ativos": 4, "encerrados": {}, "areaTotal": 4, "estoque": {"2021": 0, "2022": 0, "2023": 0, "2024": 1, "2025": 3, "2026": 4}, "entradas": {"2024": 1, "2025": 2, "2026": 1}, "area": {"Tributário": 3, "Administrativo": 1}, "uf": {"MS": 3, "MT": 1}, "instancia": {"1º Grau": 4}, "polo": {"Polo passivo": 4}, "tribunais": {"N/D": 3, "TJMS": 1}, "ranking": [["SEFAZ", 2], ["INSTITUTO DE MEIO AMBIENTE DE MATO GROSSO DO SUL", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 4, "ativos": 4, "areas": 2, "trib": 1, "procSub": "4 ativos · 0 encerrados", "areasSub": "Tributário, Administrativo", "tribSub": "TJMS"}, "esforco": {"comProducao": 3, "tramitacaoDias": 525, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 82.0, "media": 27.3, "mediaAtivos": 27.3, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}, "encerradosTotal": null}, "energiaerbsindustria_677112460": {"nome": "Energia ERBS Industria e Transporte LTDA Filial", "_idCliente": 677112460, "dataset": {"total": 3, "ativos": 2, "encerrados": {"2025": 1}, "areaTotal": 2, "estoque": {"2022": 0, "2023": 0, "2024": 2, "2025": 1, "2026": 2}, "entradas": {"2024": 2, "2026": 1}, "area": {"Trabalhista": 1, "Cível": 1}, "uf": {"SC": 1, "PR": 1}, "instancia": {"1º Grau": 2}, "polo": {"Polo passivo": 1, "Polo ativo": 1}, "tribunais": {"TRT12": 1, "TJPR": 1}, "ranking": [["LUCAS JOSE CIUFFI FARIA", 1], ["C K KAMURA COMERCIO DE AUTO PECAS LTDA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 3, "ativos": 2, "areas": 2, "trib": 2, "procSub": "2 ativos · 1 encerrado", "areasSub": "Trabalhista, Cível", "tribSub": "TRT12, TJPR"}, "esforco": {"comProducao": 3, "tramitacaoDias": 378, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 321.1, "media": 107.0, "mediaAtivos": 160.5, "horasano": {}, "_estimativa": true}, "encerradosTotal": 1}}, "botuveraindustriaeco_2125278": {"nome": "Botuverá Indústria e Comércio de Acumuladores e Componentes EIRELI", "_idCliente": 2125278, "dataset": {"total": 50, "ativos": 28, "encerrados": {"2021": 1, "2022": 10, "2023": 2, "2024": 2, "2025": 7}, "areaTotal": 28, "estoque": {"2021": 4, "2022": 23, "2023": 22, "2024": 28, "2025": 22, "2026": 28}, "entradas": {"2021": 5, "2022": 29, "2023": 1, "2024": 8, "2025": 1, "2026": 6}, "area": {"Cível": 22, "Tributário": 6}, "uf": {"SC": 22, "DF": 3, "GO": 1, "RJ": 1, "SE": 1}, "instancia": {"1º Grau": 20, "2º Grau": 5, "Superiores": 3}, "polo": {"Polo ativo": 23, "Polo passivo": 4, "Terceiro/Outros": 1}, "tribunais": {"TJSC": 19, "TRF4": 3, "STJ": 2, "TJGO": 1, "TJRJ": 1, "STF": 1, "N/D": 1}, "ranking": [["RODAR TRANSPORTES E SERVICOS MECANICOS EIRELI", 13], ["DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC", 4], ["JAIRO FELIX DURLI", 3], ["C D R BATERIAS LTDA", 2], ["HR FOMENTO MERCANTIL E SERVICOS LTDA", 1], ["CASA DAS BATERIAS LTDA", 1], ["OI S.A - EM RECUPERAÇÃO JUDICIAL", 1], ["UNIÃO FAZENDA NACIONAL", 1], ["ESTADO DO SERGIPE", 1], ["JGIL COMERCIO E TRANSPORTES LTDA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 50, "ativos": 28, "areas": 2, "trib": 6, "procSub": "28 ativos · 22 encerrados", "areasSub": "Cível, Tributário", "tribSub": "TJSC, TRF4, STJ"}, "esforco": {"comProducao": 51, "tramitacaoDias": 1163, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 3413.8, "media": 66.9, "mediaAtivos": 126.4, "horasano": {"2021": 47.3, "2022": 485.1, "2023": 553.2, "2024": 935.5, "2025": 786.7, "2026": 606.0}, "_estimativa": true}, "encerradosTotal": 22}, "encerradosTotal": null}, "botuveratransportero_2130280": {"nome": "Botuverá Transporte Rodoviário de Cargas e Recuperadora de Sucatas LTDA", "_idCliente": 2130280, "dataset": {"total": 32, "ativos": 12, "encerrados": {"2022": 3, "2023": 2, "2025": 15}, "areaTotal": 12, "estoque": {"2021": 14, "2022": 21, "2023": 18, "2024": 26, "2025": 12, "2026": 12}, "entradas": {"2021": 14, "2022": 10, "2024": 8, "2025": 1}, "area": {"Administrativo": 5, "Tributário": 3, "Cível": 2, "Ambiental": 1, "Trabalhista": 1}, "uf": {"SC": 8, "DF": 1, "RR": 1, "RS": 1, "PR": 1}, "instancia": {"1º Grau": 10, "2º Grau": 2}, "polo": {"Polo passivo": 6, "Terceiro/Outros": 5, "Polo ativo": 1}, "tribunais": {"PREFEITURA MUNICIPAL": 4, "N/D": 2, "TRF4": 2, "TJRR": 1, "CARF": 1, "TJPR": 1, "TRT12": 1}, "ranking": [["PREFEITURA MUNICIPAL DE BOMBINHAS", 4], ["INSTITUTO BRASILEIRO DO MEIO AMBIENTE E DOS RECURSOS NATURAIS RENOVÁVEIS - IBAMA", 1], ["DECAR DISTRIBUIDORA DE BATERIAS LTDA", 1], ["ESTADO DO RIO GRANDE DO SUL", 1], ["DAYANE CRISTINE BORDIN ZILLI", 1], ["DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC", 1], ["UNIÃO FAZENDA NACIONAL", 1], ["ISABELLA ANDRADE SANTANA", 1], ["GOVERNO DO ESTADO DO MATO GROSSO", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 32, "ativos": 12, "areas": 5, "trib": 7, "procSub": "12 ativos · 20 encerrados", "areasSub": "Administrativo, Tributário, Cível", "tribSub": "PREFEITURA MUNICIPAL, TRF4, TJRR"}, "esforco": {"comProducao": 33, "tramitacaoDias": 1070, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 1073.1, "media": 32.5, "mediaAtivos": 89.4, "horasano": {"2021": 51.4, "2022": 458.7, "2023": 52.8, "2024": 330.8, "2025": 105.6, "2026": 73.7}, "_estimativa": true}, "encerradosTotal": 20}}, "industriaecomerciode_2125271": {"nome": "Indústria e Comércio de Acumuladores e Componentes Motociclisticos ERBS LTDA", "_idCliente": 2125271, "dataset": {"total": 44, "ativos": 21, "encerrados": {"2022": 8, "2023": 1, "2024": 4, "2025": 10}, "areaTotal": 21, "estoque": {"2021": 14, "2022": 21, "2023": 25, "2024": 24, "2025": 17, "2026": 21}, "entradas": {"2021": 14, "2022": 15, "2023": 5, "2024": 3, "2025": 3, "2026": 4}, "area": {"Cível": 8, "Administrativo": 6, "Trabalhista": 3, "Tributário": 3, "Penal-Criminal": 1}, "uf": {"SC": 12, "MG": 2, "PR": 2, "PE": 1, "RS": 1, "MT": 1, "GO": 1, "MA": 1}, "instancia": {"1º Grau": 21}, "polo": {"Terceiro/Outros": 9, "Polo passivo": 6, "Polo ativo": 6}, "tribunais": {"TJSC": 6, "Procon Municipal": 4, "N/D": 3, "TRF4": 3, "TJMT": 1, "TRT09": 1, "TJGO": 1, "TJMA": 1, "TRT12": 1}, "ranking": [["DELEGADO DA RECEITA FEDERAL DO BRASIL EM BLUMENAU/SC", 3], ["JEFFERSON FELIX DE OLIVEIRA", 2], ["CELSO DE MELO ANTUNES", 1], ["ANDERSON APARECIDO DA SILVA LIMA", 1], ["AUTO CENTER SANTO EXPEDITO LTDA", 1], ["PROCON - MARINGÁ", 1], ["DUARVAL FERNANDES", 1], ["IRINEU BERTON", 1], ["PEDRO NOVAK", 1], ["SIND.TRAB.EMP.REF.COL.CONV.COZ REST.IND.R.N.O.EST.PR", 1], ["PRIME INDUSTRIA DE PNEUS EIRELI", 1], ["PORTO CONTAINER LTDA FALIDA", 1], ["JGIL COMERCIO E TRANSPORTES LTDA", 1], ["JAIRO FELIX DURLI", 1], ["B S DE ALBUQUERQUE", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 44, "ativos": 21, "areas": 5, "trib": 9, "procSub": "21 ativos · 23 encerrados", "areasSub": "Cível, Administrativo, Trabalhista", "tribSub": "TJSC, Procon Municipal, TRF4"}, "esforco": {"comProducao": 44, "tramitacaoDias": 1071, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 1989.1, "media": 45.2, "mediaAtivos": 94.7, "horasano": {"2021": 120.9, "2022": 287.7, "2023": 312.8, "2024": 489.3, "2025": 489.3, "2026": 289.1}, "_estimativa": true}, "encerradosTotal": 23}}, "comerciodebateriaser_677038842": {"nome": "Comércio de Baterias ERBS LTDA Matriz", "_idCliente": 677038842, "dataset": {"total": 7, "ativos": 3, "encerrados": {"2025": 4}, "areaTotal": 3, "estoque": {"2022": 0, "2023": 0, "2024": 6, "2025": 2, "2026": 3}, "entradas": {"2024": 6, "2026": 1}, "area": {"Cível": 2, "Tributário": 1}, "uf": {"RN": 1, "BA": 1, "SC": 1}, "instancia": {"1º Grau": 3}, "polo": {"Polo passivo": 1, "Terceiro/Outros": 1, "Polo ativo": 1}, "tribunais": {"DRF": 1, "TJBA": 1, "TJSC": 1}, "ranking": [["DELEGACIA DA RECEITA FEDERAL", 1], ["IVANILDO DE AMORIM FERREIRA", 1], ["COMERCIO DE BATERIAS VINHEDO LTDA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 7, "ativos": 3, "areas": 2, "trib": 3, "procSub": "3 ativos · 4 encerrados", "areasSub": "Cível, Tributário", "tribSub": "DRF, TJBA, TJSC"}, "esforco": {"comProducao": 7, "tramitacaoDias": 519, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 810.4, "media": 115.8, "mediaAtivos": 270.1, "horasano": {}, "_estimativa": true}, "encerradosTotal": 4}}, "comerciodebateriaser_2161129": {"nome": "Comércio de Baterias ERBS LTDA", "_idCliente": 2161129, "dataset": {"total": 36, "ativos": 4, "encerrados": {"2022": 8, "2023": 3, "2024": 5, "2025": 16}, "areaTotal": 4, "estoque": {"2021": 20, "2022": 23, "2023": 25, "2024": 20, "2025": 4, "2026": 4}, "entradas": {"2021": 20, "2022": 12, "2023": 5, "2024": 2}, "area": {"Trabalhista": 2, "Administrativo": 1, "Tributário": 1}, "uf": {"SP": 2, "PR": 2}, "instancia": {"1º Grau": 4}, "polo": {"Polo passivo": 3, "Terceiro/Outros": 1}, "tribunais": {"N/D": 1, "TRT09": 1, "TRF4": 1, "TRT15": 1}, "ranking": [["SHIRLENE DA SILVA MONTICELLI", 1], ["WILMAR MILLEKI JUNIOR", 1], ["DELEGADO DA RECEITA FEDERAL DO BRASIL EM CURITIBA", 1], ["CLEBER DA SILVA PEREIRA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 36, "ativos": 4, "areas": 3, "trib": 4, "procSub": "4 ativos · 32 encerrados", "areasSub": "Trabalhista, Administrativo, Tributário", "tribSub": "TRT09, TRF4, TRT15"}, "esforco": {"comProducao": 39, "tramitacaoDias": 1437, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 2774.4, "media": 71.1, "mediaAtivos": 693.6, "horasano": {"2021": 66.7, "2022": 526.8, "2023": 514.3, "2024": 1219.0, "2025": 353.1, "2026": 94.5}, "_estimativa": true}, "encerradosTotal": 32}}, "erbscomerciodebateri_685540869": {"nome": "ERBS Comercio de Baterias LTDA", "_idCliente": 685540869, "dataset": {"total": 1, "ativos": 1, "encerrados": {}, "areaTotal": 1, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "entradas": {"2026": 1}, "area": {"Cível": 1}, "uf": {"BA": 1}, "instancia": {"1º Grau": 1}, "polo": {"Terceiro/Outros": 1}, "tribunais": {"TJBA": 1}, "ranking": [["ROMILSON MENDES GUIMARAES JUNIOR", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 1, "ativos": 1, "areas": 1, "trib": 1, "procSub": "1 ativos · 0 encerrados", "areasSub": "Cível", "tribSub": "TJBA"}, "esforco": {"comProducao": 1, "tramitacaoDias": 12, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 4.2, "media": 4.2, "mediaAtivos": 4.2, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "comerciodebateriaser_2161193": {"nome": "Comércio de Baterias ERBS Tijucas LTDA", "_idCliente": 2161193, "dataset": {"total": 8, "ativos": 3, "encerrados": {"2024": 4, "2025": 1}, "areaTotal": 3, "estoque": {"2021": 1, "2022": 6, "2023": 6, "2024": 3, "2025": 3, "2026": 3}, "entradas": {"2021": 1, "2022": 5, "2024": 1, "2025": 1}, "area": {"Cível": 3}, "uf": {"SC": 2, "RS": 1}, "instancia": {"1º Grau": 2, "2º Grau": 1}, "polo": {"Polo ativo": 2, "Terceiro/Outros": 1}, "tribunais": {"TJSC": 2, "TJRS": 1}, "ranking": [["ROSSI ABIA FARIAS", 2], ["LILIAN PAZ DE CASTILHOS", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 8, "ativos": 3, "areas": 1, "trib": 2, "procSub": "3 ativos · 5 encerrados", "areasSub": "Cível", "tribSub": "TJSC, TJRS"}, "esforco": {"comProducao": 8, "tramitacaoDias": 931, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 585.2, "media": 73.1, "mediaAtivos": 195.1, "horasano": {}, "_estimativa": true}, "encerradosTotal": 5}}, "comerciodebateriaser_684910119": {"nome": "Comercio de Baterias ERBS Tijucas LTDA", "_idCliente": 684910119, "dataset": {"total": 1, "ativos": 1, "encerrados": {}, "areaTotal": 1, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 1}, "entradas": {"2026": 1}, "area": {"Tributário": 1}, "uf": {"RN": 1}, "instancia": {"1º Grau": 1}, "polo": {"Polo passivo": 1}, "tribunais": {"DRF": 1}, "ranking": [["DELEGACIA DA RECEITA FEDERAL", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 1, "ativos": 1, "areas": 1, "trib": 1, "procSub": "1 ativos · 0 encerrados", "areasSub": "Tributário", "tribSub": "DRF"}, "esforco": {"comProducao": 1, "tramitacaoDias": 127, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 15.3, "media": 15.3, "mediaAtivos": 15.3, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "erbsmanutencaodeacum_2307275": {"nome": "ERBS Manutencao de Acumuladores LTDA", "_idCliente": 2307275, "dataset": {"total": 17, "ativos": 5, "encerrados": {"2022": 4, "2023": 1, "2024": 3, "2025": 4}, "areaTotal": 5, "estoque": {"2021": 5, "2022": 6, "2023": 8, "2024": 8, "2025": 5, "2026": 5}, "entradas": {"2021": 5, "2022": 5, "2023": 3, "2024": 3, "2025": 1}, "area": {"Cível": 3, "Tributário": 1, "Administrativo": 1}, "uf": {"MG": 2, "DF": 1, "SC": 1, "PR": 1}, "instancia": {"1º Grau": 5}, "polo": {"Polo passivo": 2, "Polo ativo": 2, "Terceiro/Outros": 1}, "tribunais": {"CARF": 1, "Procon Municipal": 1, "TJSC": 1, "TJPR": 1, "TJMG": 1}, "ranking": [["RECEITA FEDERAL DO BRASIL", 1], ["MARCOS ANTÔNIO GRACIANO REIS", 1], ["GABRIELA CRISTINA GAVIOLI PINTO", 1], ["SULBATS COMERCIO DE BATERIAS LTDA", 1], ["PRIMAX INDUSTRIA E COMERCIO DE BATERIAS LTDA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 17, "ativos": 5, "areas": 3, "trib": 5, "procSub": "5 ativos · 12 encerrados", "areasSub": "Cível, Tributário, Administrativo", "tribSub": "CARF, Procon Municipal, TJSC"}, "esforco": {"comProducao": 17, "tramitacaoDias": 1106, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 1341.3, "media": 78.9, "mediaAtivos": 268.3, "horasano": {}, "_estimativa": true}, "encerradosTotal": 12}}, "teslaservicoscontabe_2125187": {"nome": "Tesla Servicos Contabeis e Administrativos LTDA", "_idCliente": 2125187, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "epparticipacoessocie_677012394": {"nome": "Ep Participacoes Societarias LTDA", "_idCliente": 677012394, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "epparticipacoessocie_677012397": {"nome": "Ep Participacoes Societarias SCP", "_idCliente": 677012397, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "holdingerbsltda_677012401": {"nome": "Holding ERBS LTDA", "_idCliente": 677012401, "dataset": {"total": 2, "ativos": 2, "encerrados": {}, "areaTotal": 2, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 2, "2026": 2}, "entradas": {"2025": 2}, "area": {"Tributário": 2}, "uf": {"SC": 2}, "instancia": {"1º Grau": 2}, "polo": {"Polo ativo": 2}, "tribunais": {"N/D": 2}, "ranking": [["RECEITA FEDERAL DO BRASIL", 2]], "_complexidadeSoAtivos": true, "kpi": {"proc": 2, "ativos": 2, "areas": 1, "trib": 1, "procSub": "2 ativos · 0 encerrados", "areasSub": "Tributário", "tribSub": ""}, "esforco": {"comProducao": 2, "tramitacaoDias": 361, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 22.2, "media": 11.1, "mediaAtivos": 11.1, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "magicredservicosdeco_677012403": {"nome": "Magicred Servicos de Cobrancas LTDA", "_idCliente": 677012403, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 0.0, "media": 0, "mediaAtivos": 0, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "prafparticipacoesltd_677012406": {"nome": "Praf Participacoes LTDA", "_idCliente": 677012406, "dataset": {"total": 1, "ativos": 1, "encerrados": {}, "areaTotal": 1, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 1, "2026": 1}, "entradas": {"2025": 1}, "area": {"Cível": 1}, "uf": {"SC": 1}, "instancia": {"1º Grau": 1}, "polo": {"Polo ativo": 1}, "tribunais": {"TJSC": 1}, "ranking": [["PANDINI EMPREENDIMENTOS IMOBILIARIOS LTDA", 1]], "_complexidadeSoAtivos": true, "kpi": {"proc": 1, "ativos": 1, "areas": 1, "trib": 1, "procSub": "1 ativos · 0 encerrados", "areasSub": "Cível", "tribSub": "TJSC"}, "esforco": {"comProducao": 1, "tramitacaoDias": 543, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 190.4, "media": 190.4, "mediaAtivos": 190.4, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "erbsconstrutoraltda_677012411": {"nome": "ERBS Construtora LTDA", "_idCliente": 677012411, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 365.6, "media": 0, "mediaAtivos": 0, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}, "praferbsspeltda_683060794": {"nome": "Praf ERBS SPE LTDA", "_idCliente": 683060794, "dataset": {"total": 0, "ativos": 0, "encerrados": {}, "areaTotal": 0, "estoque": {"2022": 0, "2023": 0, "2024": 0, "2025": 0, "2026": 0}, "entradas": {}, "area": {}, "uf": {}, "instancia": {}, "polo": {}, "tribunais": {}, "ranking": [], "_complexidadeSoAtivos": true, "kpi": {"proc": 0, "ativos": 0, "areas": 0, "trib": 0, "procSub": "0 ativos · 0 encerrados", "areasSub": "", "tribSub": ""}, "esforco": {"comProducao": 0, "tramitacaoDias": 0, "prazano": {}, "audano": {}, "tarefano": {}, "atividades": {"Prazos": 0, "Audiências": 0, "Reuniões e Diligências": 0}, "extrajudano": {}}, "horas": {"total": 8.3, "media": 0, "mediaAtivos": 0, "horasano": {}, "_estimativa": true}, "encerradosTotal": 0}}}, "nome": "Grupo ERBS", "nomeHtml": "Grupo <em>ERBS</em>", "nEmpresas": 22}
+{
+  "nome": "Grupo ERBS",
+  "nomeCompleto": "Grupo ERBS",
+  "empresas": {
+    "_panorama": {
+      "dataset": {
+        "nome": "Panorama Geral do Grupo",
+        "proc": 385,
+        "ativos": 190,
+        "encerrados": 195,
+        "procSub": 385,
+        "areasSub": 7,
+        "tribSub": 35,
+        "area": {
+          "Cível": 187,
+          "Tributário": 95,
+          "Trabalhista": 62,
+          "Administrativo": 34,
+          "Outros": 1,
+          "Penal-Criminal": 5,
+          "Ambiental": 1
+        },
+        "uf": {
+          "MA": 13,
+          "MS": 4,
+          "BA": 11,
+          "DF": 31,
+          "SC": 203,
+          "MT": 6,
+          "N/I": 33,
+          "GO": 11,
+          "PR": 23,
+          "RS": 12,
+          "MG": 9,
+          "SE": 3,
+          "AL": 1,
+          "SP": 11,
+          "RN": 4,
+          "PE": 3,
+          "RJ": 6,
+          "RR": 1
+        },
+        "tribunais": {
+          "TJMA": 12,
+          "OUTRO": 107,
+          "STF": 2,
+          "TRT12": 35,
+          "TJSC": 78,
+          "TJGO": 9,
+          "MINTRAB": 5,
+          "TJPR": 14,
+          "STJ": 4,
+          "TJDFT": 17,
+          "DRF": 5,
+          "TRF4": 34,
+          "SEFAZ": 1,
+          "Justiça Federal de Santa Catarina": 1,
+          "TJMG": 5,
+          "TJMT": 4,
+          "TRT09": 4,
+          "MMA": 1,
+          "TJSP": 4,
+          "TJRS": 5,
+          "TJBA": 10,
+          "TJRN": 2,
+          "TRT04": 1,
+          "TJPE": 2,
+          "MPT": 1,
+          "Procon Estadual": 1,
+          "TJMS": 1,
+          "TJRJ": 4,
+          "TJSE": 1,
+          "TJRR": 1,
+          "CARF": 2,
+          "PREFEITURA MUNICIPAL": 4,
+          "Procon Municipal": 5,
+          "TRT15": 1,
+          "TRT01": 2
+        },
+        "instancia": {
+          "2º Grau": 35,
+          "1º Grau": 335,
+          "Superiores": 15
+        },
+        "estoque": {
+          "2021": 73,
+          "2022": 148,
+          "2023": 161,
+          "2024": 206,
+          "2025": 155,
+          "2026": 190
+        },
+        "entradas": {
+          "2026": 36,
+          "2025": 54,
+          "2024": 69,
+          "2023": 34,
+          "2022": 118,
+          "2021": 74
+        },
+        "encerramentos": {
+          "2026": 1,
+          "2025": 105,
+          "2024": 24,
+          "2023": 21,
+          "2022": 43,
+          "2021": 1
+        },
+        "estoqueHl": {
+          "2021": 73,
+          "2022": 148,
+          "2023": 161,
+          "2024": 206,
+          "2025": 155,
+          "2026": 190
+        },
+        "esforco": {
+          "prazano": 18725,
+          "audano": 1374,
+          "tarefano": 4638,
+          "extrajudano": 35,
+          "atividades": {
+            "2021": 74,
+            "2022": 118,
+            "2023": 34,
+            "2024": 69,
+            "2025": 54,
+            "2026": 36
+          },
+          "extrajudtipo": {
+            "Outros": 35
+          },
+          "tramitacaoDias": 902,
+          "comProducao": 190,
+          "people": [
+            "AMANDA CRISTINA DE REZENDES",
+            "ANA PAULA ALVES CARDOSO",
+            "Alessandra de Souza",
+            "Alexandre Ribeiro",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Luiza Fronczak",
+            "Ana Paula Bardini",
+            "Andressa de Mello Garmus",
+            "Anelise Dalbosco",
+            "Aniele Silveira",
+            "Anita Pereira da Silveira",
+            "BIANCA CAMILLY KOPETSKI",
+            "Barbara Pereira de Barros",
+            "Beatriz Vitória da Silva",
+            "Bianca Bodanese Figueroa",
+            "Bruna Duarte Soares Martins",
+            "Bruna Gabrielli Vidal",
+            "Bruno Pinheiro Damasceno",
+            "CARLOS ALBERTO PEREIRA DE GOES JUNIOR",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Caren Arienise da Silva Branco",
+            "Carolina Benetti",
+            "Cauane Krambauer",
+            "Cláudia Azevedo dos Santos de Moraes.",
+            "Controladoria",
+            "Cristina Reinhold Ramos",
+            "Dafne Inácio",
+            "Daniel Fioreze",
+            "Danielle Vicente",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Eduardo Agostini Costella",
+            "Elis Regina de Ramos Silva",
+            "Elisabeth Brum",
+            "Everton Leon da Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Fernando de Liz França",
+            "GABRIEL JOÃO FERNANDES BECKER",
+            "Gabriel Romero de Abreu Mesquita",
+            "Gabriela Saling Queiroz",
+            "Gabriela Sofia Dalsochio",
+            "Gabriella Ferigotti Carraro",
+            "Gabriella Zanardi Diniz",
+            "Gabrielly Almeida de Ataíde",
+            "Giovanna Julia Paulina da Silva",
+            "Giovanna Torres Pimentel",
+            "Giuliana Bernardes",
+            "Gloria Maria da Silva dos Santos",
+            "Graziane de Melo",
+            "Henrique Braun",
+            "Henrique Juliano de Oliveira",
+            "Henrique Rodrigues",
+            "JOHAN JULIUS RADLOFF",
+            "JORDANA BARBOSA BENITEZ DE CARVALHO",
+            "Jessica Cortes",
+            "José Alexandro de Miranda",
+            "José Roberto Schulchaski Filho",
+            "Joyce Menon dos Santos",
+            "João Paulo Felisberto",
+            "João Pedro Elpídio dos Santos Américo",
+            "Julia Stefani de Melo Silva",
+            "Juliana Coutinho Pacheco",
+            "Jéssica Szevnck Felix",
+            "Kauane Nuss Couto",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Kim Augusto Zanoni",
+            "LUIS OCTAVIO",
+            "Larissa Vizzotto",
+            "Leandro De Souza",
+            "Lenira Leandra Chaves Rael",
+            "Luan Carlo Zügel",
+            "Luana Bruguer Ribeiro",
+            "Luana Maiolli Barros",
+            "Luciano Vinholi",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "MARTINA CARGNIN SANTOS",
+            "Marco Antonio Sala",
+            "Marco Aurelio",
+            "Maria Alice Merlo Irrigaray",
+            "Maria Eduarda da Veiga",
+            "Maria Gabriely Pereira de Lacerda",
+            "Mariana Cristina da Silva",
+            "Mariana Gomes",
+            "Marina Spadoa",
+            "Matheus Henrique Mendonça",
+            "Matheus Solano Lopes",
+            "Mayara Schwartz Ferrari",
+            "Mylena Nunes de Oliveira",
+            "ODILSON DE ANDRADE E SILVA JÚNIOR",
+            "Patricia Kreling Reisdorfer",
+            "Pedro Henrique Almeida da Silva",
+            "Pedro Valença Resende Ferreira",
+            "Priscila França Kague",
+            "RUTH MENDES DA SILVA",
+            "Rafael Tudela Nicolau",
+            "Rangel Jesus Ferreira",
+            "Raquel Martins de Souza",
+            "Renan Dalla Lasta",
+            "Rodrigo Moura",
+            "SABRINA SCHAFHAUSER",
+            "SARAH ISABELA PEREIRA ZUCCO",
+            "Samara Walzburger",
+            "Simone Aparecida de Oliveira Ellwanger Gelbcke",
+            "TATIANE SILVA VELHO",
+            "Tainá de Souza Lima",
+            "Thayla Polyana",
+            "Thiago Gonçalves",
+            "Thiele Machado",
+            "Thiffany Cristyane Nogueira",
+            "Tomás Oltramari",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet",
+            "Vinicius Costa Barros"
+          ]
+        },
+        "horas": {
+          "total": 8392.53,
+          "media": 1398.75,
+          "mediaAtivos": 44.17,
+          "horasano": {
+            "2021": 97.8,
+            "2022": 1124.0,
+            "2023": 1289.56,
+            "2024": 1922.86,
+            "2025": 2076.1,
+            "2026": 1882.21
+          }
+        }
+      }
+    },
+    "energiaerbsindustria": {
+      "dataset": {
+        "nome": "Energia Erbs Indústria e Transporte Ltda",
+        "proc": 176,
+        "ativos": 109,
+        "encerrados": 67,
+        "area": {
+          "Cível": 61,
+          "Tributário": 54,
+          "Trabalhista": 44,
+          "Administrativo": 14,
+          "Outros": 1,
+          "Penal-Criminal": 2
+        },
+        "uf": {
+          "MA": 9,
+          "MS": 4,
+          "BA": 2,
+          "DF": 24,
+          "SC": 84,
+          "MT": 5,
+          "N/I": 19,
+          "GO": 7,
+          "PR": 5,
+          "RS": 5,
+          "MG": 2,
+          "SE": 1,
+          "AL": 1,
+          "SP": 5,
+          "RN": 2,
+          "PE": 1
+        },
+        "tribunais": {
+          "TJMA": 8,
+          "OUTRO": 57,
+          "STF": 1,
+          "TRT12": 26,
+          "TJSC": 17,
+          "TJGO": 5,
+          "MINTRAB": 5,
+          "TJPR": 4,
+          "STJ": 3,
+          "TJDFT": 16,
+          "DRF": 3,
+          "TRF4": 12,
+          "SEFAZ": 1,
+          "Justiça Federal de Santa Catarina": 1,
+          "TJMG": 1,
+          "TJMT": 3,
+          "TRT09": 1,
+          "MMA": 1,
+          "TJSP": 2,
+          "TJRS": 1,
+          "TJBA": 1,
+          "TJRN": 2,
+          "TRT04": 1,
+          "TJPE": 1,
+          "MPT": 1,
+          "Procon Estadual": 1,
+          "TJMS": 1
+        },
+        "instancia": {
+          "2º Grau": 20,
+          "1º Grau": 147,
+          "Superiores": 9
+        },
+        "estoque": {
+          "2021": 17,
+          "2022": 48,
+          "2023": 56,
+          "2024": 86,
+          "2025": 87,
+          "2026": 109
+        },
+        "entradas": {
+          "2026": 23,
+          "2025": 41,
+          "2024": 35,
+          "2023": 20,
+          "2022": 40,
+          "2021": 17
+        },
+        "encerramentos": {
+          "2026": 1,
+          "2025": 40,
+          "2024": 5,
+          "2023": 12,
+          "2022": 9
+        },
+        "estoqueHl": {
+          "2021": 17,
+          "2022": 48,
+          "2023": 56,
+          "2024": 86,
+          "2025": 87,
+          "2026": 109
+        },
+        "esforco": {
+          "prazano": 9173,
+          "audano": 739,
+          "tarefano": 3593,
+          "extrajudano": 7,
+          "atividades": {
+            "2021": 17,
+            "2022": 40,
+            "2023": 20,
+            "2024": 35,
+            "2025": 41,
+            "2026": 23
+          },
+          "extrajudtipo": {
+            "Outros": 7
+          },
+          "tramitacaoDias": 756,
+          "comProducao": 109,
+          "people": [
+            "AMANDA CRISTINA DE REZENDES",
+            "ANA PAULA ALVES CARDOSO",
+            "Alessandra de Souza",
+            "Alexandre Ribeiro",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Luiza Fronczak",
+            "Ana Paula Bardini",
+            "Andressa de Mello Garmus",
+            "Anelise Dalbosco",
+            "Aniele Silveira",
+            "Anita Pereira da Silveira",
+            "BIANCA CAMILLY KOPETSKI",
+            "Barbara Pereira de Barros",
+            "Beatriz Vitória da Silva",
+            "Bianca Bodanese Figueroa",
+            "Bruna Duarte Soares Martins",
+            "Bruna Gabrielli Vidal",
+            "Bruno Pinheiro Damasceno",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Caren Arienise da Silva Branco",
+            "Carolina Benetti",
+            "Cauane Krambauer",
+            "Controladoria",
+            "Daniel Fioreze",
+            "Danielle Vicente",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Eduardo Agostini Costella",
+            "Elis Regina de Ramos Silva",
+            "Elisabeth Brum",
+            "Everton Leon da Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Fernando de Liz França",
+            "GABRIEL JOÃO FERNANDES BECKER",
+            "Gabriel Romero de Abreu Mesquita",
+            "Gabriela Saling Queiroz",
+            "Gabriela Sofia Dalsochio",
+            "Gabriella Zanardi Diniz",
+            "Gabrielly Almeida de Ataíde",
+            "Giovanna Julia Paulina da Silva",
+            "Giovanna Torres Pimentel",
+            "Giuliana Bernardes",
+            "Gloria Maria da Silva dos Santos",
+            "Graziane de Melo",
+            "Henrique Braun",
+            "Henrique Juliano de Oliveira",
+            "Henrique Rodrigues",
+            "JOHAN JULIUS RADLOFF",
+            "JORDANA BARBOSA BENITEZ DE CARVALHO",
+            "Jessica Cortes",
+            "José Alexandro de Miranda",
+            "José Roberto Schulchaski Filho",
+            "Joyce Menon dos Santos",
+            "João Paulo Felisberto",
+            "Julia Stefani de Melo Silva",
+            "Jéssica Szevnck Felix",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Kim Augusto Zanoni",
+            "Larissa Vizzotto",
+            "Leandro De Souza",
+            "Luan Carlo Zügel",
+            "Luana Bruguer Ribeiro",
+            "Luana Maiolli Barros",
+            "Luciano Vinholi",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "MARTINA CARGNIN SANTOS",
+            "Marco Antonio Sala",
+            "Marco Aurelio",
+            "Maria Alice Merlo Irrigaray",
+            "Maria Eduarda da Veiga",
+            "Maria Gabriely Pereira de Lacerda",
+            "Mariana Cristina da Silva",
+            "Mariana Gomes",
+            "Marina Spadoa",
+            "Matheus Henrique Mendonça",
+            "Matheus Solano Lopes",
+            "Mylena Nunes de Oliveira",
+            "ODILSON DE ANDRADE E SILVA JÚNIOR",
+            "Patricia Kreling Reisdorfer",
+            "Pedro Henrique Almeida da Silva",
+            "Pedro Valença Resende Ferreira",
+            "Priscila França Kague",
+            "RUTH MENDES DA SILVA",
+            "Rafael Tudela Nicolau",
+            "Rangel Jesus Ferreira",
+            "Raquel Martins de Souza",
+            "Renan Dalla Lasta",
+            "Rodrigo Moura",
+            "SABRINA SCHAFHAUSER",
+            "Samara Walzburger",
+            "Simone Aparecida de Oliveira Ellwanger Gelbcke",
+            "Tainá de Souza Lima",
+            "Thayla Polyana",
+            "Thiago Gonçalves",
+            "Thiele Machado",
+            "Thiffany Cristyane Nogueira",
+            "Tomás Oltramari",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet",
+            "Vinicius Costa Barros"
+          ]
+        },
+        "horas": {
+          "total": 5368.9,
+          "media": 894.82,
+          "mediaAtivos": 49.26,
+          "horasano": {
+            "2021": 76.68,
+            "2022": 819.28,
+            "2023": 965.86,
+            "2024": 1127.32,
+            "2025": 1131.49,
+            "2026": 1248.28
+          }
+        }
+      }
+    },
+    "botuveraindustria": {
+      "dataset": {
+        "nome": "Botuverá Indústria e Comércio de Acumuladores e Componentes Eireli",
+        "proc": 49,
+        "ativos": 27,
+        "encerrados": 22,
+        "area": {
+          "Cível": 40,
+          "Tributário": 8,
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 40,
+          "DF": 3,
+          "GO": 2,
+          "RJ": 1,
+          "SE": 1,
+          "RS": 1,
+          "MG": 1
+        },
+        "tribunais": {
+          "TJSC": 34,
+          "STJ": 1,
+          "OUTRO": 5,
+          "TJGO": 2,
+          "TJRJ": 1,
+          "STF": 1,
+          "TRT12": 1,
+          "TRF4": 3,
+          "TJMG": 1
+        },
+        "instancia": {
+          "1º Grau": 40,
+          "Superiores": 3,
+          "2º Grau": 6
+        },
+        "estoque": {
+          "2021": 4,
+          "2022": 23,
+          "2023": 22,
+          "2024": 28,
+          "2025": 22,
+          "2026": 27
+        },
+        "entradas": {
+          "2026": 5,
+          "2025": 1,
+          "2024": 8,
+          "2023": 1,
+          "2022": 29,
+          "2021": 5
+        },
+        "encerramentos": {
+          "2022": 10,
+          "2025": 7,
+          "2024": 2,
+          "2023": 2,
+          "2021": 1
+        },
+        "estoqueHl": {
+          "2021": 4,
+          "2022": 23,
+          "2023": 22,
+          "2024": 28,
+          "2025": 22,
+          "2026": 27
+        },
+        "esforco": {
+          "prazano": 2397,
+          "audano": 158,
+          "tarefano": 30,
+          "extrajudano": 1,
+          "atividades": {
+            "2021": 5,
+            "2022": 29,
+            "2023": 1,
+            "2024": 8,
+            "2025": 1,
+            "2026": 5
+          },
+          "extrajudtipo": {
+            "Outros": 1
+          },
+          "tramitacaoDias": 1228,
+          "comProducao": 27,
+          "people": [
+            "Alexandre Ribeiro",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Luiza Fronczak",
+            "Ana Paula Bardini",
+            "Anelise Dalbosco",
+            "Aniele Silveira",
+            "BIANCA CAMILLY KOPETSKI",
+            "Barbara Pereira de Barros",
+            "Bruna Duarte Soares Martins",
+            "Bruna Gabrielli Vidal",
+            "Bruno Pinheiro Damasceno",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Caren Arienise da Silva Branco",
+            "Controladoria",
+            "Cristina Reinhold Ramos",
+            "Daniel Fioreze",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Eduardo Agostini Costella",
+            "Elis Regina de Ramos Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Gabriel Romero de Abreu Mesquita",
+            "Gabrielly Almeida de Ataíde",
+            "Giuliana Bernardes",
+            "Gloria Maria da Silva dos Santos",
+            "Henrique Juliano de Oliveira",
+            "Jessica Cortes",
+            "João Pedro Elpídio dos Santos Américo",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Kim Augusto Zanoni",
+            "Larissa Vizzotto",
+            "Leandro De Souza",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "MARTINA CARGNIN SANTOS",
+            "Maria Alice Merlo Irrigaray",
+            "Maria Eduarda da Veiga",
+            "Marina Spadoa",
+            "Matheus Solano Lopes",
+            "RUTH MENDES DA SILVA",
+            "TATIANE SILVA VELHO",
+            "Tainá de Souza Lima",
+            "Thiago Gonçalves",
+            "Thiffany Cristyane Nogueira",
+            "Tomás Oltramari",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet"
+          ]
+        },
+        "horas": {
+          "total": 689.04,
+          "media": 114.84,
+          "mediaAtivos": 25.52,
+          "horasano": {
+            "2021": 3.26,
+            "2022": 58.21,
+            "2023": 93.63,
+            "2024": 158.17,
+            "2025": 201.52,
+            "2026": 174.25
+          }
+        }
+      }
+    },
+    "botuveratransporte": {
+      "dataset": {
+        "nome": "Botuverá Transporte Rodoviário de Cargas e Recuperadora de Sucatas Ltda",
+        "proc": 32,
+        "ativos": 12,
+        "encerrados": 20,
+        "area": {
+          "Ambiental": 1,
+          "Trabalhista": 5,
+          "Cível": 6,
+          "Tributário": 8,
+          "Administrativo": 11,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "DF": 1,
+          "SE": 1,
+          "RR": 1,
+          "RS": 2,
+          "SC": 24,
+          "PR": 1,
+          "SP": 2
+        },
+        "tribunais": {
+          "OUTRO": 14,
+          "TJSE": 1,
+          "TJRR": 1,
+          "CARF": 1,
+          "PREFEITURA MUNICIPAL": 4,
+          "TJSC": 1,
+          "TJPR": 1,
+          "TRF4": 3,
+          "TRT12": 4,
+          "TJSP": 1,
+          "TJRS": 1
+        },
+        "instancia": {
+          "1º Grau": 29,
+          "2º Grau": 3
+        },
+        "estoque": {
+          "2021": 13,
+          "2022": 20,
+          "2023": 18,
+          "2024": 26,
+          "2025": 12
+        },
+        "entradas": {
+          "2025": 1,
+          "2024": 8,
+          "2022": 10,
+          "2021": 13
+        },
+        "encerramentos": {
+          "2025": 15,
+          "2022": 3,
+          "2023": 2
+        },
+        "estoqueHl": {
+          "2021": 13,
+          "2022": 20,
+          "2023": 18,
+          "2024": 26,
+          "2025": 12
+        },
+        "esforco": {
+          "prazano": 721,
+          "audano": 76,
+          "tarefano": 36,
+          "extrajudano": 0,
+          "atividades": {
+            "2021": 13,
+            "2022": 10,
+            "2024": 8,
+            "2025": 1
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 1134,
+          "comProducao": 12,
+          "people": [
+            "Alexandre Ribeiro",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Paula Bardini",
+            "Anelise Dalbosco",
+            "Aniele Silveira",
+            "BIANCA CAMILLY KOPETSKI",
+            "Bruna Gabrielli Vidal",
+            "Camila Barzotto Lugo",
+            "Cláudia Azevedo dos Santos de Moraes.",
+            "Controladoria",
+            "Danielle Vicente",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Eduardo Agostini Costella",
+            "Elis Regina de Ramos Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Gabrielly Almeida de Ataíde",
+            "Giuliana Bernardes",
+            "Henrique Juliano de Oliveira",
+            "José Alexandro de Miranda",
+            "Joyce Menon dos Santos",
+            "João Paulo Felisberto",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Kim Augusto Zanoni",
+            "Luan Carlo Zügel",
+            "MAIKO ROBERTO MAIER",
+            "Marco Antonio Sala",
+            "Maria Eduarda da Veiga",
+            "Matheus Solano Lopes",
+            "Priscila França Kague",
+            "Renan Dalla Lasta",
+            "Thayla Polyana",
+            "Thiago Gonçalves",
+            "Tomás Oltramari"
+          ]
+        },
+        "horas": {
+          "total": 175.88,
+          "media": 29.31,
+          "mediaAtivos": 14.66,
+          "horasano": {
+            "2021": 0.67,
+            "2022": 97.74,
+            "2023": 2.71,
+            "2024": 26.16,
+            "2025": 40.66,
+            "2026": 7.93
+          }
+        }
+      }
+    },
+    "indcommotociclisticos": {
+      "dataset": {
+        "nome": "Indústria e Comércio de Acumuladores e Componentes Motociclísticos Erbs Ltda",
+        "proc": 44,
+        "ativos": 21,
+        "encerrados": 23,
+        "area": {
+          "Cível": 22,
+          "Administrativo": 6,
+          "Trabalhista": 3,
+          "Tributário": 11,
+          "Penal-Criminal": 2
+        },
+        "uf": {
+          "SC": 26,
+          "MG": 3,
+          "GO": 2,
+          "PR": 3,
+          "PE": 2,
+          "MA": 4,
+          "RS": 1,
+          "MT": 1,
+          "BA": 1,
+          "DF": 1
+        },
+        "tribunais": {
+          "TJSC": 12,
+          "OUTRO": 7,
+          "Procon Municipal": 4,
+          "TJGO": 2,
+          "TJMA": 4,
+          "TJMT": 1,
+          "TJMG": 1,
+          "TRT09": 1,
+          "TRF4": 8,
+          "TJPE": 1,
+          "TRT12": 1,
+          "TJPR": 1,
+          "TJBA": 1
+        },
+        "instancia": {
+          "1º Grau": 42,
+          "2º Grau": 1,
+          "Superiores": 1
+        },
+        "estoque": {
+          "2021": 14,
+          "2022": 21,
+          "2023": 25,
+          "2024": 24,
+          "2025": 17,
+          "2026": 21
+        },
+        "entradas": {
+          "2026": 4,
+          "2025": 3,
+          "2024": 3,
+          "2023": 5,
+          "2022": 15,
+          "2021": 14
+        },
+        "encerramentos": {
+          "2025": 10,
+          "2022": 8,
+          "2023": 1,
+          "2024": 4
+        },
+        "estoqueHl": {
+          "2021": 14,
+          "2022": 21,
+          "2023": 25,
+          "2024": 24,
+          "2025": 17,
+          "2026": 21
+        },
+        "esforco": {
+          "prazano": 1360,
+          "audano": 92,
+          "tarefano": 93,
+          "extrajudano": 0,
+          "atividades": {
+            "2021": 14,
+            "2022": 15,
+            "2023": 5,
+            "2024": 3,
+            "2025": 3,
+            "2026": 4
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 1136,
+          "comProducao": 21,
+          "people": [
+            "Alexandre Ribeiro",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Anelise Dalbosco",
+            "Aniele Silveira",
+            "BIANCA CAMILLY KOPETSKI",
+            "Barbara Pereira de Barros",
+            "Bruna Duarte Soares Martins",
+            "Bruna Gabrielli Vidal",
+            "CARLOS ALBERTO PEREIRA DE GOES JUNIOR",
+            "Camila Barzotto Lugo",
+            "Controladoria",
+            "Dafne Inácio",
+            "Daniel Fioreze",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Eduardo Agostini Costella",
+            "Elis Regina de Ramos Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Gabrielly Almeida de Ataíde",
+            "Giuliana Bernardes",
+            "Gloria Maria da Silva dos Santos",
+            "Henrique Juliano de Oliveira",
+            "José Alexandro de Miranda",
+            "José Roberto Schulchaski Filho",
+            "Joyce Menon dos Santos",
+            "João Paulo Felisberto",
+            "Kethlin de Machado",
+            "LUIS OCTAVIO",
+            "Luan Carlo Zügel",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "Maria Alice Merlo Irrigaray",
+            "Maria Eduarda da Veiga",
+            "Maria Gabriely Pereira de Lacerda",
+            "Mariana Gomes",
+            "Marina Spadoa",
+            "Matheus Solano Lopes",
+            "RUTH MENDES DA SILVA",
+            "Renan Dalla Lasta",
+            "TATIANE SILVA VELHO",
+            "Thiago Gonçalves",
+            "Thiffany Cristyane Nogueira",
+            "Tomás Oltramari",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet"
+          ]
+        },
+        "horas": {
+          "total": 203.02,
+          "media": 33.84,
+          "mediaAtivos": 9.67,
+          "horasano": {
+            "2021": 2.42,
+            "2022": 22.93,
+            "2023": 40.37,
+            "2024": 11.87,
+            "2025": 39.47,
+            "2026": 85.98
+          }
+        }
+      }
+    },
+    "comerciobateriaserbs": {
+      "dataset": {
+        "nome": "Comércio de Baterias Erbs Ltda",
+        "proc": 44,
+        "ativos": 8,
+        "encerrados": 36,
+        "area": {
+          "Tributário": 5,
+          "Cível": 32,
+          "Trabalhista": 6,
+          "Administrativo": 1
+        },
+        "uf": {
+          "RN": 1,
+          "BA": 7,
+          "SC": 6,
+          "PR": 10,
+          "N/I": 12,
+          "SP": 2,
+          "RJ": 5,
+          "DF": 1
+        },
+        "tribunais": {
+          "DRF": 1,
+          "TJBA": 7,
+          "TJSC": 1,
+          "TRF4": 4,
+          "OUTRO": 18,
+          "TJRJ": 3,
+          "TJPR": 4,
+          "TRT09": 2,
+          "TJDFT": 1,
+          "TRT15": 1,
+          "TRT01": 2
+        },
+        "instancia": {
+          "1º Grau": 42,
+          "2º Grau": 1,
+          "Superiores": 1
+        },
+        "estoque": {
+          "2021": 18,
+          "2022": 22,
+          "2023": 23,
+          "2024": 26,
+          "2025": 6,
+          "2026": 8
+        },
+        "entradas": {
+          "2026": 2,
+          "2024": 8,
+          "2023": 4,
+          "2022": 12,
+          "2021": 18
+        },
+        "encerramentos": {
+          "2025": 20,
+          "2024": 5,
+          "2023": 3,
+          "2022": 8
+        },
+        "estoqueHl": {
+          "2021": 18,
+          "2022": 22,
+          "2023": 23,
+          "2024": 26,
+          "2025": 6,
+          "2026": 8
+        },
+        "esforco": {
+          "prazano": 1848,
+          "audano": 141,
+          "tarefano": 445,
+          "extrajudano": 8,
+          "atividades": {
+            "2021": 18,
+            "2022": 12,
+            "2023": 4,
+            "2024": 8,
+            "2026": 2
+          },
+          "extrajudtipo": {
+            "Outros": 8
+          },
+          "tramitacaoDias": 979,
+          "comProducao": 8,
+          "people": [
+            "Alexandre Ribeiro",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Paula Bardini",
+            "Andressa de Mello Garmus",
+            "Anelise Dalbosco",
+            "Aniele Silveira",
+            "Barbara Pereira de Barros",
+            "Bruno Pinheiro Damasceno",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Cláudia Azevedo dos Santos de Moraes.",
+            "Controladoria",
+            "Daniel Fioreze",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Eduardo Agostini Costella",
+            "Elis Regina de Ramos Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Fernando de Liz França",
+            "Gabriel Romero de Abreu Mesquita",
+            "Gabriella Ferigotti Carraro",
+            "Gabrielly Almeida de Ataíde",
+            "Giovanna Torres Pimentel",
+            "Giuliana Bernardes",
+            "Henrique Braun",
+            "Henrique Rodrigues",
+            "JORDANA BARBOSA BENITEZ DE CARVALHO",
+            "José Roberto Schulchaski Filho",
+            "Joyce Menon dos Santos",
+            "João Paulo Felisberto",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Larissa Vizzotto",
+            "Leandro De Souza",
+            "Luan Carlo Zügel",
+            "Luana Bruguer Ribeiro",
+            "Luana Maiolli Barros",
+            "Luciano Vinholi",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "Marco Antonio Sala",
+            "Maria Alice Merlo Irrigaray",
+            "Maria Gabriely Pereira de Lacerda",
+            "Mariana Gomes",
+            "Marina Spadoa",
+            "Matheus Solano Lopes",
+            "Mayara Schwartz Ferrari",
+            "Pedro Valença Resende Ferreira",
+            "Priscila França Kague",
+            "RUTH MENDES DA SILVA",
+            "Renan Dalla Lasta",
+            "Tainá de Souza Lima",
+            "Thayla Polyana",
+            "Thiago Gonçalves",
+            "Thiele Machado",
+            "Thiffany Cristyane Nogueira",
+            "Tomás Oltramari",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet"
+          ]
+        },
+        "horas": {
+          "total": 678.2,
+          "media": 113.03,
+          "mediaAtivos": 84.78,
+          "horasano": {
+            "2021": 13.02,
+            "2022": 80.68,
+            "2023": 70.22,
+            "2024": 336.17,
+            "2025": 150.93,
+            "2026": 27.19
+          }
+        }
+      }
+    },
+    "comerciobateriastijucas": {
+      "dataset": {
+        "nome": "Comércio de Baterias Erbs Tijucas Ltda",
+        "proc": 9,
+        "ativos": 4,
+        "encerrados": 5,
+        "area": {
+          "Cível": 5,
+          "Tributário": 4
+        },
+        "uf": {
+          "SC": 7,
+          "RS": 1,
+          "RN": 1
+        },
+        "tribunais": {
+          "TJSC": 4,
+          "TJRS": 1,
+          "TRF4": 3,
+          "DRF": 1
+        },
+        "instancia": {
+          "2º Grau": 2,
+          "1º Grau": 7
+        },
+        "estoque": {
+          "2021": 1,
+          "2022": 6,
+          "2024": 3,
+          "2025": 3,
+          "2026": 4
+        },
+        "entradas": {
+          "2025": 1,
+          "2024": 1,
+          "2022": 5,
+          "2021": 1,
+          "2026": 1
+        },
+        "encerramentos": {
+          "2024": 4,
+          "2025": 1
+        },
+        "estoqueHl": {
+          "2021": 1,
+          "2022": 6,
+          "2024": 3,
+          "2025": 3,
+          "2026": 4
+        },
+        "esforco": {
+          "prazano": 438,
+          "audano": 10,
+          "tarefano": 25,
+          "extrajudano": 6,
+          "atividades": {
+            "2021": 1,
+            "2022": 5,
+            "2024": 1,
+            "2025": 1,
+            "2026": 1
+          },
+          "extrajudtipo": {
+            "Outros": 6
+          },
+          "tramitacaoDias": 795,
+          "comProducao": 4,
+          "people": [
+            "Alexandre Ribeiro",
+            "Ana Gabriela Zimmermann",
+            "Ana Paula Bardini",
+            "BIANCA CAMILLY KOPETSKI",
+            "Barbara Pereira de Barros",
+            "Bruno Pinheiro Damasceno",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Controladoria",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Eduardo Agostini Costella",
+            "Fernanda Priscila Tascheck",
+            "Gabriella Zanardi Diniz",
+            "Gabrielly Almeida de Ataíde",
+            "Giuliana Bernardes",
+            "Henrique Rodrigues",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "MAIKO ROBERTO MAIER",
+            "Marina Spadoa",
+            "Matheus Solano Lopes",
+            "Renan Dalla Lasta",
+            "Thiago Gonçalves",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet"
+          ]
+        },
+        "horas": {
+          "total": 97.58,
+          "media": 19.52,
+          "mediaAtivos": 24.4,
+          "horasano": {
+            "2022": 5.48,
+            "2023": 3.82,
+            "2024": 33.02,
+            "2025": 42.9,
+            "2026": 12.37
+          }
+        }
+      }
+    },
+    "erbsmanutencao": {
+      "dataset": {
+        "nome": "Erbs Manutenção de Acumuladores Ltda",
+        "proc": 17,
+        "ativos": 5,
+        "encerrados": 12,
+        "area": {
+          "Tributário": 2,
+          "Administrativo": 2,
+          "Cível": 10,
+          "Trabalhista": 3
+        },
+        "uf": {
+          "DF": 1,
+          "MG": 3,
+          "BA": 1,
+          "SC": 7,
+          "SP": 1,
+          "PR": 4
+        },
+        "tribunais": {
+          "CARF": 1,
+          "Procon Municipal": 1,
+          "TJBA": 1,
+          "TJSC": 3,
+          "OUTRO": 1,
+          "TRT12": 3,
+          "TJPR": 4,
+          "TRF4": 1,
+          "TJMG": 2
+        },
+        "instancia": {
+          "1º Grau": 16,
+          "Superiores": 1
+        },
+        "estoque": {
+          "2021": 5,
+          "2022": 6,
+          "2023": 8,
+          "2024": 8,
+          "2025": 5
+        },
+        "entradas": {
+          "2025": 1,
+          "2024": 3,
+          "2023": 3,
+          "2022": 5,
+          "2021": 5
+        },
+        "encerramentos": {
+          "2024": 3,
+          "2023": 1,
+          "2025": 4,
+          "2022": 4
+        },
+        "estoqueHl": {
+          "2021": 5,
+          "2022": 6,
+          "2023": 8,
+          "2024": 8,
+          "2025": 5
+        },
+        "esforco": {
+          "prazano": 856,
+          "audano": 92,
+          "tarefano": 42,
+          "extrajudano": 0,
+          "atividades": {
+            "2021": 5,
+            "2022": 5,
+            "2023": 3,
+            "2024": 3,
+            "2025": 1
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 1170,
+          "comProducao": 5,
+          "people": [
+            "Alexandre Ribeiro",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Paula Bardini",
+            "Anelise Dalbosco",
+            "Barbara Pereira de Barros",
+            "Bruna Gabrielli Vidal",
+            "Bruno Pinheiro Damasceno",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Controladoria",
+            "Dafne Inácio",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Elis Regina de Ramos Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Gabrielly Almeida de Ataíde",
+            "Giuliana Bernardes",
+            "Henrique Braun",
+            "Henrique Juliano de Oliveira",
+            "José Roberto Schulchaski Filho",
+            "Joyce Menon dos Santos",
+            "João Paulo Felisberto",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Lenira Leandra Chaves Rael",
+            "Luan Carlo Zügel",
+            "Luana Maiolli Barros",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "Marco Antonio Sala",
+            "Marina Spadoa",
+            "Matheus Solano Lopes",
+            "Priscila França Kague",
+            "RUTH MENDES DA SILVA",
+            "Renan Dalla Lasta",
+            "Tainá de Souza Lima",
+            "Thiago Gonçalves",
+            "Thiele Machado",
+            "Tomás Oltramari"
+          ]
+        },
+        "horas": {
+          "total": 223.06,
+          "media": 44.61,
+          "mediaAtivos": 44.61,
+          "horasano": {
+            "2022": 12.77,
+            "2023": 38.16,
+            "2024": 38.62,
+            "2025": 54.81,
+            "2026": 78.7
+          }
+        }
+      }
+    },
+    "teslaservicos": {
+      "dataset": {
+        "nome": "Tesla Serviços Contábeis e Administrativos Ltda",
+        "proc": 0,
+        "ativos": 0,
+        "encerrados": 0,
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "estoque": {},
+        "entradas": {},
+        "encerramentos": {},
+        "estoqueHl": {},
+        "esforco": {
+          "prazano": 0,
+          "audano": 0,
+          "tarefano": 0,
+          "extrajudano": 0,
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0.0,
+          "horasano": {}
+        }
+      }
+    },
+    "epparticipacoes": {
+      "dataset": {
+        "nome": "EP Participações Societárias Ltda",
+        "proc": 0,
+        "ativos": 0,
+        "encerrados": 0,
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "estoque": {},
+        "entradas": {},
+        "encerramentos": {},
+        "estoqueHl": {},
+        "esforco": {
+          "prazano": 0,
+          "audano": 0,
+          "tarefano": 0,
+          "extrajudano": 0,
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0.0,
+          "horasano": {}
+        }
+      }
+    },
+    "epscp": {
+      "dataset": {
+        "nome": "EP Participações Societárias SCP",
+        "proc": 0,
+        "ativos": 0,
+        "encerrados": 0,
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "estoque": {},
+        "entradas": {},
+        "encerramentos": {},
+        "estoqueHl": {},
+        "esforco": {
+          "prazano": 0,
+          "audano": 0,
+          "tarefano": 0,
+          "extrajudano": 0,
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0.0,
+          "horasano": {}
+        }
+      }
+    },
+    "holdingerbs": {
+      "dataset": {
+        "nome": "Holding Erbs Ltda",
+        "proc": 2,
+        "ativos": 2,
+        "encerrados": 0,
+        "area": {
+          "Tributário": 2
+        },
+        "uf": {
+          "SC": 2
+        },
+        "tribunais": {
+          "OUTRO": 2
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "estoque": {
+          "2025": 2
+        },
+        "entradas": {
+          "2025": 2
+        },
+        "encerramentos": {},
+        "estoqueHl": {
+          "2025": 2
+        },
+        "esforco": {
+          "prazano": 16,
+          "audano": 0,
+          "tarefano": 0,
+          "extrajudano": 0,
+          "atividades": {
+            "2025": 2
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 426,
+          "comProducao": 2,
+          "people": []
+        },
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0.0,
+          "horasano": {}
+        }
+      }
+    },
+    "magicred": {
+      "dataset": {
+        "nome": "Magicred Serviços de Cobranças Ltda",
+        "proc": 0,
+        "ativos": 0,
+        "encerrados": 0,
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "estoque": {},
+        "entradas": {},
+        "encerramentos": {},
+        "estoqueHl": {},
+        "esforco": {
+          "prazano": 0,
+          "audano": 0,
+          "tarefano": 0,
+          "extrajudano": 0,
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0.0,
+          "horasano": {}
+        }
+      }
+    },
+    "prafparticipacoes": {
+      "dataset": {
+        "nome": "Praf Participações Ltda",
+        "proc": 1,
+        "ativos": 1,
+        "encerrados": 0,
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "estoque": {
+          "2025": 1
+        },
+        "entradas": {
+          "2025": 1
+        },
+        "encerramentos": {},
+        "estoqueHl": {
+          "2025": 1
+        },
+        "esforco": {
+          "prazano": 90,
+          "audano": 12,
+          "tarefano": 36,
+          "extrajudano": 6,
+          "atividades": {
+            "2025": 1
+          },
+          "extrajudtipo": {
+            "Outros": 6
+          },
+          "tramitacaoDias": 608,
+          "comProducao": 1,
+          "people": [
+            "Ana Paula Bardini",
+            "Controladoria",
+            "José Alexandro de Miranda",
+            "Luana Maiolli Barros",
+            "RUTH MENDES DA SILVA"
+          ]
+        },
+        "horas": {
+          "total": 41.88,
+          "media": 20.94,
+          "mediaAtivos": 41.88,
+          "horasano": {
+            "2025": 35.9,
+            "2026": 5.98
+          }
+        }
+      }
+    },
+    "erbsconstrutora": {
+      "dataset": {
+        "nome": "Erbs Construtora Ltda",
+        "proc": 0,
+        "ativos": 0,
+        "encerrados": 0,
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "estoque": {},
+        "entradas": {},
+        "encerramentos": {},
+        "estoqueHl": {},
+        "esforco": {
+          "prazano": 6,
+          "audano": 0,
+          "tarefano": 139,
+          "extrajudano": 0,
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": [
+            "Ana Paula Bardini",
+            "Barbara Pereira de Barros",
+            "Carolina Benetti",
+            "Controladoria",
+            "Fernando de Liz França",
+            "Gabriella Ferigotti Carraro",
+            "Gabrielly Almeida de Ataíde",
+            "Henrique Braun",
+            "João Paulo Felisberto",
+            "Kauane Nuss Couto",
+            "Kim Augusto Zanoni",
+            "Luana Bruguer Ribeiro",
+            "MAIKO ROBERTO MAIER",
+            "Maria Alice Merlo Irrigaray",
+            "Matheus Solano Lopes"
+          ]
+        },
+        "horas": {
+          "total": 85.05,
+          "media": 42.52,
+          "mediaAtivos": 85.05,
+          "horasano": {
+            "2025": 65.41,
+            "2026": 19.64
+          }
+        }
+      }
+    },
+    "praferbsspe": {
+      "dataset": {
+        "nome": "Praf Erbs SPE Ltda",
+        "proc": 0,
+        "ativos": 0,
+        "encerrados": 0,
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "estoque": {},
+        "entradas": {},
+        "encerramentos": {},
+        "estoqueHl": {},
+        "esforco": {
+          "prazano": 6,
+          "audano": 0,
+          "tarefano": 1,
+          "extrajudano": 0,
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": [
+            "Controladoria",
+            "Luana Maiolli Barros",
+            "Tainá de Souza Lima"
+          ]
+        },
+        "horas": {
+          "total": 16.83,
+          "media": 16.83,
+          "mediaAtivos": 16.83,
+          "horasano": {
+            "2025": 16.83
+          }
+        }
+      }
+    },
+    "heivisecuritizadora": {
+      "dataset": {
+        "nome": "Heivi Securitizadora S.A.",
+        "proc": 11,
+        "ativos": 1,
+        "encerrados": 10,
+        "area": {
+          "Tributário": 1,
+          "Cível": 10
+        },
+        "uf": {
+          "N/I": 2,
+          "SC": 6,
+          "RS": 2,
+          "SP": 1
+        },
+        "tribunais": {
+          "OUTRO": 3,
+          "TJSC": 5,
+          "TJRS": 2,
+          "TJSP": 1
+        },
+        "instancia": {
+          "1º Grau": 9,
+          "2º Grau": 2
+        },
+        "estoque": {
+          "2021": 1,
+          "2022": 2,
+          "2023": 3,
+          "2024": 5,
+          "2025": 0,
+          "2026": 1
+        },
+        "entradas": {
+          "2026": 1,
+          "2025": 3,
+          "2024": 3,
+          "2023": 1,
+          "2022": 2,
+          "2021": 1
+        },
+        "encerramentos": {
+          "2025": 8,
+          "2022": 1,
+          "2024": 1
+        },
+        "estoqueHl": {
+          "2021": 1,
+          "2022": 2,
+          "2023": 3,
+          "2024": 5,
+          "2025": 0,
+          "2026": 1
+        },
+        "esforco": {
+          "prazano": 1814,
+          "audano": 54,
+          "tarefano": 198,
+          "extrajudano": 7,
+          "atividades": {
+            "2021": 1,
+            "2022": 2,
+            "2023": 1,
+            "2024": 3,
+            "2025": 3,
+            "2026": 1
+          },
+          "extrajudtipo": {
+            "Outros": 7
+          },
+          "tramitacaoDias": 90,
+          "comProducao": 1,
+          "people": [
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Luiza Fronczak",
+            "Ana Paula Bardini",
+            "Aniele Silveira",
+            "BIANCA CAMILLY KOPETSKI",
+            "Barbara Pereira de Barros",
+            "Bruna Duarte Soares Martins",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Controladoria",
+            "Daniel Fioreze",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Eduardo Agostini Costella",
+            "Elis Regina de Ramos Silva",
+            "Fernanda Priscila Tascheck",
+            "Fernando de Liz França",
+            "GABRIEL JOÃO FERNANDES BECKER",
+            "Gabriella Ferigotti Carraro",
+            "Gabriella Zanardi Diniz",
+            "Gabrielly Almeida de Ataíde",
+            "Giuliana Bernardes",
+            "Henrique Braun",
+            "Henrique Rodrigues",
+            "JORDANA BARBOSA BENITEZ DE CARVALHO",
+            "Joyce Menon dos Santos",
+            "Juliana Coutinho Pacheco",
+            "Kauane Nuss Couto",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Luana Bruguer Ribeiro",
+            "Luciano Vinholi",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "Maria Gabriely Pereira de Lacerda",
+            "Mariana Gomes",
+            "Marina Spadoa",
+            "Matheus Solano Lopes",
+            "Patricia Kreling Reisdorfer",
+            "Pedro Valença Resende Ferreira",
+            "RUTH MENDES DA SILVA",
+            "Renan Dalla Lasta",
+            "SARAH ISABELA PEREIRA ZUCCO",
+            "Tainá de Souza Lima",
+            "Thiago Gonçalves",
+            "Thiffany Cristyane Nogueira",
+            "Tomás Oltramari",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet"
+          ]
+        },
+        "horas": {
+          "total": 813.08,
+          "media": 135.51,
+          "mediaAtivos": 813.08,
+          "horasano": {
+            "2021": 1.75,
+            "2022": 26.92,
+            "2023": 74.79,
+            "2024": 191.54,
+            "2025": 296.19,
+            "2026": 221.9
+          }
+        }
+      }
+    }
+  }
+}
