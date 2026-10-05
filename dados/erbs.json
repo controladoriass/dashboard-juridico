@@ -2226,5 +2226,17 @@
       "nome": "HEIVI SECURITIZADORA S.A"
     }
   },
-  "slug": "erbs"
+  "slug": "erbs",
+  "kpiGrupo": {
+    "proc": 395,
+    "ativos": 190,
+    "areas": 7,
+    "trib": 35,
+    "procSub": "190 ativos · 195 encerrados",
+    "areasSub": "Cível (194), Tributário (96), Trabalhista (64)",
+    "tribSub": "N/I (108), TJSC (80), TRT12 (37)",
+    "encerrados": 195
+  },
+  "nEmpresas": 16,
+  "nomeHtml": "Grupo ERBS"
 }
