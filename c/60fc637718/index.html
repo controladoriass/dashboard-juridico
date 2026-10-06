@@ -932,8 +932,7 @@ const _CORTE_POR_GRUPO = {
   feltz: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   erbs: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   ar: { curta:'30/09/2026', extenso:'Setembro de 2026' },
-  embra: { curta:'30/09/2026', extenso:'Setembro de 2026' },
-  nivan: { curta:'30/09/2026', extenso:'Setembro de 2026' }
+  embra: { curta:'30/09/2026', extenso:'Setembro de 2026' }
 };
 const _CORTE_PADRAO = { curta:'31/08/2026', extenso:'Agosto de 2026' };
 const _SLUG_META = (function(){ try { var m=document.querySelector('meta[name="cliente-grupo"]'); return m?m.getAttribute('content'):null; } catch(e){ return null; } })();
@@ -1580,7 +1579,6 @@ function renderDashboard(){
     var _CONTRATOS = {
       'terrabrasil': { valor_mensal: 9726.00, indice: 'SM', reajuste_periodo: 'Anual (SM) - 6 SM', data_inicio: '2022-09-01' },
 'sunprime':  { valor_mensal:  3480.00, indice: 'IPCA',             reajuste_periodo: 'anual',             data_inicio: '2026-07-14' },
-      'nivan':     { valor_mensal:  8105.00, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2016-06-13' },
       russi       : { valor_mensal:  12292.86, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2020-12-16' },
 'bhm': { valor_mensal: 2296.20, indice: 'Salário Mínimo', reajuste_periodo: 'anual', data_inicio: '2017-06-05' },
       cn:       { valor_mensal:  7294.50, indice: 'Salário Mínimo',   reajuste_periodo: 'anual',             data_inicio: '2019-01-02' },
@@ -2386,7 +2384,7 @@ function montarPrint(){
    nem pela tela nem pela URL. */
 var LINKS_CLIENTE = {
   terrabrasil:'ee344ec20a',
-  russi:'4eccda8c78', nivan:'50b1aedec2', sunprime:'a41df437ab', wf:'635e9c8ddb', zm:'cb54479644', cn:'70ec698f78', concept:'25864dde3a',
+  russi:'4eccda8c78', sunprime:'a41df437ab', wf:'635e9c8ddb', zm:'cb54479644', cn:'70ec698f78', concept:'25864dde3a',
   profor:'4c05b109cc', bhm:'0ff3055e50', integra:'1a33dbec70', porto:'47b98aa046', abc:'17430a49f0',
   serpa:'5b7507b043', brusvi:'5ab862ee28', abit:'c6795728b0', cost:'66acbe3c2b', gfi:'6a434e7d70',
   morart:'6d1c4f07ba', ads:'9354606f67', easychef:'6b894e79db', kaliska:'64b274e783',
