@@ -1,248 +1,189 @@
 {
+  "nome": "Grupo WF / WFF",
+  "nomeHtml": "Grupo <em>WF / WFF</em>",
+  "nEmpresas": 9,
   "kpiGrupo": {
-    "proc": 142,
+    "proc": 145,
     "ativos": 66,
-    "areas": 8,
-    "trib": 6,
-    "procSub": "66 ativos · 76 encerrados",
-    "areasSub": "Cível, Trabalhista, Administrativo",
-    "tribSub": "TJSC, OUTROS, TRT12",
-    "encerrados": 76
+    "encerrados": 79,
+    "empresas": 9
   },
   "empresas": {
     "_panorama": {
-      "nome": "Panorama Geral do Grupo",
       "_idCliente": null,
+      "nome": "Panorama Geral do Grupo",
       "dataset": {
-        "total": 142,
+        "_panorama": true,
+        "total": 145,
         "ativos": 66,
+        "encerradosTotal": 79,
         "encerrados": {
-          "2020": 0,
-          "2021": 6,
-          "2022": 36,
+          "2017": 1,
+          "2018": 1,
+          "2019": 1,
+          "2021": 3,
+          "2022": 37,
           "2023": 5,
           "2024": 8,
-          "2025": 17,
+          "2025": 19,
           "2026": 4
         },
-        "areaTotal": 66,
         "estoque": {
           "2020": 29,
-          "2021": 37,
-          "2022": 30,
-          "2023": 39,
-          "2024": 49,
+          "2021": 40,
+          "2022": 32,
+          "2023": 42,
+          "2024": 52,
           "2025": 56,
           "2026": 66
         },
         "entradas": {
+          "2015": 1,
+          "2016": 3,
+          "2017": 2,
+          "2018": 3,
+          "2019": 13,
           "2020": 9,
           "2021": 14,
           "2022": 29,
-          "2023": 14,
+          "2023": 15,
           "2024": 18,
           "2025": 24,
           "2026": 14
         },
-        "area": {
-          "Cível": 36,
-          "Trabalhista": 12,
-          "Administrativo": 7,
-          "Tributário": 5,
-          "Falência": 2,
-          "Penal-Criminal": 2,
-          "Família e Sucessões": 1,
-          "Recuperação Judicial": 1
-        },
-        "uf": {
-          "SC": 60,
-          "OUTROS": 4,
-          "RS": 2
-        },
-        "instancia": {
-          "1º Grau": 55,
-          "2º Grau": 11
-        },
-        "polo": {
-          "Polo passivo": 33,
-          "Polo ativo": 24,
-          "Terceiro/Outros": 9
-        },
-        "tribunais": {
-          "TJSC": 39,
-          "OUTROS": 14,
-          "TRT12": 7,
-          "TRF4": 3,
-          "TJRS": 2,
-          "MINTRAB": 1
-        },
-        "ranking": [
-          [
-            "MINISTÉRIO DO TRABALHO E EMPREGO",
-            3
-          ],
-          [
-            "TARCIZIO INACIO GESSELE",
-            3
-          ],
-          [
-            "MUNICÍPIO DE ITAPEMA",
-            3
-          ],
-          [
-            "ASSISTEL COMERCIO DE CONSTRUCAO LTDA",
-            2
-          ],
-          [
-            "COOPERATIVA DA CONSTRUCAO CIVIL DO ESTADO DE SANTA CATARINA",
-            2
-          ],
-          [
-            "DAVID MAGAIVER DA SILVA MENDES",
-            2
-          ],
-          [
-            "INSTALATO SOLUCOES ELETRICAS E HIDRAULICAS LTDA",
-            2
-          ],
-          [
-            "MARIANGELA MEDEIROS TEIXEIRA FUGANTI",
-            2
-          ],
-          [
-            "PEREIRA E ROMANZINI PARTICIPACOES LTDA EM RECUPERACAO JUDICIAL",
-            2
-          ],
-          [
-            "SP MOVEIS PLANEJADOS LTDA",
-            2
-          ],
-          [
-            "JOANA DARC SOUSA ARAUJO",
-            2
-          ],
-          [
-            "ANTONIO DO NASCIMENTO ANTUNES",
-            1
-          ],
-          [
-            "ATIVA AGRO LTDA",
-            1
-          ],
-          [
-            "CONCEPT HOME COMÉRCIO DE MÓVEIS E DECORAÇÃO",
-            1
-          ],
-          [
-            "EMPREENDIMENTO AERONAUTICO COSTA ESMERALDA LTDA",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "proc": 142,
-          "ativos": 66,
-          "areas": 8,
-          "trib": 6,
-          "procSub": "66 ativos · 76 encerrados",
-          "areasSub": "Cível, Trabalhista, Administrativo",
-          "tribSub": "TJSC, OUTROS, TRT12"
-        },
-        "esforco": {
-          "comProducao": 199,
-          "tramitacaoDias": 888,
-          "prazano": {
-            "2021": 10,
-            "2022": 136,
-            "2023": 215,
-            "2024": 140,
-            "2025": 237,
-            "2026": 175
-          },
-          "audano": {
-            "2022": 12,
-            "2023": 10,
-            "2024": 14,
-            "2025": 22,
-            "2026": 8
-          },
-          "tarefano": {
-            "2021": 497,
-            "2022": 518,
-            "2023": 444,
-            "2024": 357,
-            "2025": 415,
-            "2026": 195
-          },
-          "atividades": {
-            "Prazos": 913,
-            "Audiências": 66,
-            "Reuniões e Diligências": 2426
-          },
-          "extrajudano": {
-            "2021": 209,
-            "2022": 1634,
-            "2023": 658,
-            "2024": 683,
-            "2025": 806,
-            "2026": 373
-          },
-          "extrajudtipo": {
-            "Contratos e minutas": 333,
-            "Notificações": 158,
-            "Distratos e acordos": 59,
-            "Pareceres e análises": 41,
-            "Cobranças": 2,
-            "Outros": 1027
-          }
-        },
-        "horas": {
-          "total": 4744.2,
-          "media": 33.4,
-          "mediaAtivos": 71.9,
-          "horasano": {
-            "2021": 80.3,
-            "2022": 756.6,
-            "2023": 976.9,
-            "2024": 830.7,
-            "2025": 1125.2,
-            "2026": 974.5
-          }
-        },
-        "_panorama": true,
-        "encerradosTotal": 76,
-        "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
           "2026"
-        ]
+        ],
+        "area": {
+          "Família e Sucessões": 1,
+          "Cível": 66,
+          "Falência": 2,
+          "Trabalhista": 38,
+          "Administrativo": 12,
+          "Recuperação Judicial": 2,
+          "Tributário": 18,
+          "Extrajudicial - Mediação - Arbitragem": 1,
+          "Penal-Criminal": 5
+        },
+        "uf": {
+          "SC": 116,
+          "OUTROS": 26,
+          "AL": 1,
+          "RS": 2
+        },
+        "tribunais": {
+          "TJSC": 71,
+          "TRT12": 13,
+          "OUTROS": 53,
+          "TRF4": 4,
+          "MINTRAB": 1,
+          "TRT19": 1,
+          "TJRS": 2
+        },
+        "instancia": {
+          "1º Grau": 127,
+          "2º Grau": 18
+        },
+        "polo": {
+          "Terceiro/Outros": 25,
+          "Polo passivo": 73,
+          "Polo ativo": 47
+        },
+        "kpi": {
+          "proc": 145,
+          "ativos": 66,
+          "procSub": "79 encerrados",
+          "areas": 9,
+          "areasSub": "Cível (66), Trabalhista (38), Tributário (18)",
+          "trib": 7,
+          "tribSub": "TJSC (71), OUTROS (53), TRT12 (13)"
+        },
+        "esforco": {
+          "prazano": {
+            "2021": 54,
+            "2022": 916,
+            "2023": 1803,
+            "2024": 976,
+            "2025": 1629,
+            "2026": 1632
+          },
+          "audano": {
+            "2022": 104,
+            "2023": 179,
+            "2024": 70,
+            "2025": 111,
+            "2026": 60
+          },
+          "tarefano": {
+            "2020": 428,
+            "2021": 663,
+            "2022": 1893,
+            "2023": 872,
+            "2024": 714,
+            "2025": 853,
+            "2026": 491
+          },
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 5894,
+            "PRAZO": 7010,
+            "JULGAMENTO": 128,
+            "AUDIENCIA": 396,
+            "REUNIAO": 15,
+            "LIGACAO": 4,
+            "OUTROS": 3,
+            "ATENDIMENTO": 3,
+            "PARTICULAR": 1,
+            "DILIGENCIA": 1
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 888,
+          "comProducao": 145,
+          "people": []
+        },
+        "horas": {
+          "total": 4896.0,
+          "media": 33.8,
+          "mediaAtivos": 74.2,
+          "horasano": {
+            "2021": 58.5,
+            "2022": 758.1,
+            "2023": 1005.5,
+            "2024": 842.9,
+            "2025": 1132.8,
+            "2026": 1098.2
+          }
+        }
       }
     },
     "wff": {
-      "nome": "Construtora e Incorporadora WFF LTDA – EPP",
       "_idCliente": "2129637",
+      "nome": "Construtora e Incorporadora WFF LTDA - EPP",
       "dataset": {
         "total": 80,
-        "ativos": 40,
+        "ativos": 39,
+        "encerradosTotal": 41,
         "encerrados": {
-          "2020": 0,
-          "2021": 2,
+          "2018": 1,
+          "2021": 1,
           "2022": 27,
-          "2023": 0,
           "2024": 2,
-          "2025": 7,
+          "2025": 8,
           "2026": 2
         },
-        "areaTotal": 40,
         "estoque": {
-          "2020": 10,
+          "2020": 9,
           "2021": 15,
           "2022": 10,
           "2023": 16,
           "2024": 24,
-          "2025": 32,
-          "2026": 40
+          "2025": 31,
+          "2026": 39
         },
         "entradas": {
+          "2016": 2,
+          "2018": 1,
+          "2019": 2,
           "2020": 5,
           "2021": 7,
           "2022": 22,
@@ -251,311 +192,359 @@
           "2025": 15,
           "2026": 10
         },
-        "area": {
-          "Cível": 22,
-          "Trabalhista": 10,
-          "Administrativo": 5,
-          "Tributário": 1,
-          "Família e Sucessões": 1,
-          "Falência": 1
-        },
-        "uf": {
-          "SC": 37,
-          "OUTROS": 3
-        },
-        "instancia": {
-          "1º Grau": 32,
-          "2º Grau": 8
-        },
-        "polo": {
-          "Polo passivo": 25,
-          "Polo ativo": 12,
-          "Terceiro/Outros": 3
-        },
-        "tribunais": {
-          "TJSC": 22,
-          "OUTROS": 8,
-          "TRT12": 7,
-          "TRF4": 2,
-          "MINTRAB": 1
-        },
-        "ranking": [
-          [
-            "MINISTÉRIO DO TRABALHO E EMPREGO",
-            3
-          ],
-          [
-            "TARCIZIO INACIO GESSELE",
-            3
-          ],
-          [
-            "ASSISTEL COMERCIO DE CONSTRUCAO LTDA",
-            2
-          ],
-          [
-            "COOPERATIVA DA CONSTRUCAO CIVIL DO ESTADO DE SANTA CATARINA",
-            2
-          ],
-          [
-            "DAVID MAGAIVER DA SILVA MENDES",
-            2
-          ],
-          [
-            "INSTALATO SOLUCOES ELETRICAS E HIDRAULICAS LTDA",
-            2
-          ],
-          [
-            "MARIANGELA MEDEIROS TEIXEIRA FUGANTI",
-            2
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "areas": 6,
-          "trib": 5,
-          "proc": 80,
-          "ativos": 40,
-          "areasSub": "Cível, Trabalhista, Administrativo",
-          "tribSub": "TJSC, TRT12, TRF4"
-        },
-        "encerradosTotal": 40,
-        "horas": {
-          "total": 2992.0,
-          "media": 37.4,
-          "mediaAtivos": 74.8,
-          "horasano": {
-            "2021": 47.7,
-            "2022": 89.2,
-            "2023": 413.7,
-            "2024": 645.7,
-            "2025": 979.5,
-            "2026": 816.2
-          }
-        },
         "estoqueHl": [
           "2026"
-        ]
+        ],
+        "area": {
+          "Família e Sucessões": 1,
+          "Cível": 30,
+          "Falência": 1,
+          "Trabalhista": 33,
+          "Administrativo": 7,
+          "Recuperação Judicial": 1,
+          "Tributário": 6,
+          "Extrajudicial - Mediação - Arbitragem": 1
+        },
+        "uf": {
+          "SC": 60,
+          "OUTROS": 19,
+          "AL": 1
+        },
+        "tribunais": {
+          "TJSC": 31,
+          "TRT12": 10,
+          "OUTROS": 35,
+          "TRF4": 2,
+          "MINTRAB": 1,
+          "TRT19": 1
+        },
+        "instancia": {
+          "1º Grau": 69,
+          "2º Grau": 11
+        },
+        "polo": {
+          "Terceiro/Outros": 21,
+          "Polo passivo": 37,
+          "Polo ativo": 22
+        },
+        "kpi": {
+          "proc": 80,
+          "ativos": 39,
+          "procSub": "41 encerrados",
+          "areas": 8,
+          "areasSub": "Trabalhista (33), Cível (30), Administrativo (7)",
+          "trib": 6,
+          "tribSub": "OUTROS (35), TJSC (31), TRT12 (10)"
+        },
+        "esforco": {
+          "prazano": {
+            "2021": 22,
+            "2022": 472,
+            "2023": 1025,
+            "2024": 491,
+            "2025": 1095,
+            "2026": 1090
+          },
+          "audano": {
+            "2022": 20,
+            "2023": 97,
+            "2024": 60,
+            "2025": 96,
+            "2026": 43
+          },
+          "tarefano": {
+            "2020": 151,
+            "2021": 226,
+            "2022": 27,
+            "2023": 230,
+            "2024": 582,
+            "2025": 847,
+            "2026": 485
+          },
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 2533,
+            "PRAZO": 4195,
+            "JULGAMENTO": 88,
+            "AUDIENCIA": 228,
+            "REUNIAO": 11,
+            "LIGACAO": 2,
+            "OUTROS": 2,
+            "ATENDIMENTO": 2
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 569,
+          "comProducao": 80,
+          "people": []
+        },
+        "horas": {
+          "total": 3053.7,
+          "media": 38.2,
+          "mediaAtivos": 78.3,
+          "horasano": {
+            "2021": 25.9,
+            "2022": 89.2,
+            "2023": 423.7,
+            "2024": 651.4,
+            "2025": 983.5,
+            "2026": 880.0
+          }
+        }
       }
     },
     "wf": {
-      "nome": "Construtora e Incorporadora W.F LTDA",
       "_idCliente": "2122517",
+      "nome": "Construtora e Incorporadora W.F LTDA",
       "dataset": {
-        "total": 47,
-        "ativos": 17,
+        "total": 48,
+        "ativos": 18,
+        "encerradosTotal": 30,
         "encerrados": {
-          "2020": 0,
-          "2021": 3,
+          "2017": 1,
+          "2019": 1,
+          "2021": 1,
           "2022": 8,
           "2023": 5,
           "2024": 3,
           "2025": 9,
           "2026": 2
         },
-        "areaTotal": 17,
         "estoque": {
-          "2020": 15,
-          "2021": 17,
-          "2022": 16,
-          "2023": 15,
-          "2024": 16,
-          "2025": 16,
-          "2026": 17
+          "2020": 14,
+          "2021": 18,
+          "2022": 17,
+          "2023": 17,
+          "2024": 18,
+          "2025": 17,
+          "2026": 18
         },
         "entradas": {
+          "2016": 1,
+          "2017": 1,
+          "2018": 2,
+          "2019": 8,
           "2020": 3,
           "2021": 5,
           "2022": 7,
-          "2023": 4,
+          "2023": 5,
           "2024": 4,
           "2025": 9,
           "2026": 3
         },
-        "area": {
-          "Cível": 8,
-          "Tributário": 4,
-          "Trabalhista": 2,
-          "Administrativo": 1,
-          "Recuperação Judicial": 1,
-          "Falência": 1
-        },
-        "uf": {
-          "SC": 15,
-          "RS": 2
-        },
-        "instancia": {
-          "1º Grau": 15,
-          "2º Grau": 2
-        },
-        "polo": {
-          "Polo ativo": 8,
-          "Polo passivo": 6,
-          "Terceiro/Outros": 3
-        },
-        "tribunais": {
-          "TJSC": 11,
-          "OUTROS": 3,
-          "TJRS": 2,
-          "TRF4": 1
-        },
-        "ranking": [
-          [
-            "MUNICÍPIO DE ITAPEMA",
-            3
-          ],
-          [
-            "PEREIRA E ROMANZINI PARTICIPACOES LTDA EM RECUPERACAO JUDICIAL",
-            2
-          ],
-          [
-            "ANTONIO DO NASCIMENTO ANTUNES",
-            1
-          ],
-          [
-            "ATIVA AGRO LTDA",
-            1
-          ],
-          [
-            "CONCEPT HOME COMÉRCIO DE MÓVEIS E DECORAÇÃO",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "areas": 6,
-          "trib": 4,
-          "proc": 47,
-          "ativos": 17,
-          "areasSub": "Cível, Tributário, Trabalhista",
-          "tribSub": "TJSC, TJRS, TRF4"
-        },
-        "encerradosTotal": 30,
-        "horas": {
-          "total": 1561.2,
-          "media": 33.2,
-          "mediaAtivos": 91.8,
-          "horasano": {
-            "2021": 32.6,
-            "2022": 649.2,
-            "2023": 500.0,
-            "2024": 159.4,
-            "2025": 113.4,
-            "2026": 106.6
-          }
-        },
         "estoqueHl": [
           "2026"
-        ]
+        ],
+        "area": {
+          "Cível": 26,
+          "Recuperação Judicial": 1,
+          "Administrativo": 4,
+          "Falência": 1,
+          "Tributário": 11,
+          "Trabalhista": 5
+        },
+        "uf": {
+          "SC": 39,
+          "RS": 2,
+          "OUTROS": 7
+        },
+        "tribunais": {
+          "TJSC": 26,
+          "TJRS": 2,
+          "OUTROS": 15,
+          "TRT12": 3,
+          "TRF4": 2
+        },
+        "instancia": {
+          "2º Grau": 5,
+          "1º Grau": 43
+        },
+        "polo": {
+          "Polo ativo": 19,
+          "Polo passivo": 26,
+          "Terceiro/Outros": 3
+        },
+        "kpi": {
+          "proc": 48,
+          "ativos": 18,
+          "procSub": "30 encerrados",
+          "areas": 6,
+          "areasSub": "Cível (26), Tributário (11), Trabalhista (5)",
+          "trib": 5,
+          "tribSub": "TJSC (26), OUTROS (15), TRT12 (3)"
+        },
+        "esforco": {
+          "prazano": {
+            "2021": 32,
+            "2022": 358,
+            "2023": 631,
+            "2024": 339,
+            "2025": 449,
+            "2026": 375
+          },
+          "audano": {
+            "2022": 65,
+            "2023": 64,
+            "2024": 5,
+            "2025": 15,
+            "2026": 10
+          },
+          "tarefano": {
+            "2020": 152,
+            "2021": 308,
+            "2022": 1865,
+            "2023": 638,
+            "2024": 126,
+            "2025": 5,
+            "2026": 3
+          },
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 3091,
+            "PRAZO": 2184,
+            "AUDIENCIA": 132,
+            "JULGAMENTO": 27,
+            "OUTROS": 1,
+            "PARTICULAR": 1,
+            "DILIGENCIA": 1,
+            "REUNIAO": 3,
+            "LIGACAO": 2
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 1129,
+          "comProducao": 48,
+          "people": []
+        },
+        "horas": {
+          "total": 1596.3,
+          "media": 33.3,
+          "mediaAtivos": 88.7,
+          "horasano": {
+            "2021": 32.6,
+            "2022": 650.7,
+            "2023": 517.1,
+            "2024": 161.7,
+            "2025": 116.7,
+            "2026": 117.4
+          }
+        }
       }
     },
     "hasckel_hasckel": {
-      "nome": "Hasckel & Hasckel Construtora e Incorporadora",
       "_idCliente": "2122932",
+      "nome": "Hasckel & Hasckel Construtora e Incorporadora",
       "dataset": {
-        "total": 4,
+        "total": 5,
         "ativos": 3,
+        "encerradosTotal": 2,
         "encerrados": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 1,
-          "2026": 0
+          "2025": 2
         },
-        "areaTotal": 3,
         "estoque": {
-          "2020": 0,
-          "2021": 1,
-          "2022": 1,
-          "2023": 2,
-          "2024": 3,
+          "2020": 1,
+          "2021": 2,
+          "2022": 2,
+          "2023": 3,
+          "2024": 4,
           "2025": 2,
           "2026": 3
         },
         "entradas": {
-          "2020": 0,
+          "2019": 1,
           "2021": 1,
-          "2022": 0,
           "2023": 1,
           "2024": 1,
-          "2025": 0,
           "2026": 1
-        },
-        "area": {
-          "Cível": 3
-        },
-        "uf": {
-          "SC": 2,
-          "OUTROS": 1
-        },
-        "instancia": {
-          "1º Grau": 2,
-          "2º Grau": 1
-        },
-        "polo": {
-          "Polo ativo": 3
-        },
-        "tribunais": {
-          "TJSC": 2,
-          "OUTROS": 1
-        },
-        "ranking": [
-          [
-            "SP MOVEIS PLANEJADOS LTDA",
-            2
-          ],
-          [
-            "EMPREENDIMENTO AERONAUTICO COSTA ESMERALDA LTDA",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "areas": 1,
-          "trib": 2,
-          "proc": 4,
-          "ativos": 3,
-          "areasSub": "Cível",
-          "tribSub": "TJSC"
-        },
-        "encerradosTotal": 1,
-        "horas": {
-          "total": 103.1,
-          "media": 25.8,
-          "mediaAtivos": 34.4,
-          "horasano": {
-            "2022": 10.5,
-            "2023": 20.6,
-            "2024": 13.4,
-            "2025": 18.9,
-            "2026": 39.7
-          }
         },
         "estoqueHl": [
           "2026"
-        ]
+        ],
+        "area": {
+          "Cível": 4,
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 5
+        },
+        "tribunais": {
+          "TJSC": 5
+        },
+        "instancia": {
+          "1º Grau": 3,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 3,
+          "Polo passivo": 2
+        },
+        "kpi": {
+          "proc": 5,
+          "ativos": 3,
+          "procSub": "2 encerrados",
+          "areas": 2,
+          "areasSub": "Cível (4), Tributário (1)",
+          "trib": 1,
+          "tribSub": "TJSC (5)"
+        },
+        "esforco": {
+          "prazano": {
+            "2022": 47,
+            "2023": 37,
+            "2024": 83,
+            "2025": 37,
+            "2026": 132
+          },
+          "audano": {
+            "2022": 7,
+            "2024": 5
+          },
+          "tarefano": {
+            "2021": 3,
+            "2022": 1,
+            "2023": 3,
+            "2024": 4,
+            "2025": 1,
+            "2026": 2
+          },
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 13,
+            "PRAZO": 336,
+            "AUDIENCIA": 12,
+            "ATENDIMENTO": 1
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 1117,
+          "comProducao": 5,
+          "people": []
+        },
+        "horas": {
+          "total": 151.9,
+          "media": 30.4,
+          "mediaAtivos": 50.6,
+          "horasano": {
+            "2022": 10.5,
+            "2023": 20.6,
+            "2024": 14.2,
+            "2025": 19.0,
+            "2026": 87.6
+          }
+        }
       }
     },
     "francisco_hasckel": {
-      "nome": "Francisco de Assis Hasckel",
       "_idCliente": "2129890",
+      "nome": "Francisco de Assis Hasckel",
       "dataset": {
-        "total": 8,
+        "total": 9,
         "ativos": 5,
+        "encerradosTotal": 4,
         "encerrados": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 3,
-          "2025": 0,
-          "2026": 0
+          "2022": 1,
+          "2024": 3
         },
-        "areaTotal": 5,
         "estoque": {
-          "2020": 3,
-          "2021": 3,
+          "2020": 4,
+          "2021": 4,
           "2022": 3,
           "2023": 6,
           "2024": 5,
@@ -563,207 +552,228 @@
           "2026": 5
         },
         "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
+          "2015": 1,
+          "2017": 1,
+          "2019": 2,
           "2023": 3,
-          "2024": 2,
-          "2025": 0,
-          "2026": 0
+          "2024": 2
         },
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
-          "Cível": 2,
-          "Penal-Criminal": 2,
+          "Penal-Criminal": 5,
+          "Cível": 3,
           "Administrativo": 1
         },
         "uf": {
-          "SC": 5
-        },
-        "instancia": {
-          "1º Grau": 5
-        },
-        "polo": {
-          "Polo passivo": 2,
-          "Terceiro/Outros": 2,
-          "Polo ativo": 1
+          "SC": 9
         },
         "tribunais": {
-          "TJSC": 3,
-          "OUTROS": 2
+          "OUTROS": 2,
+          "TJSC": 7
         },
-        "ranking": [
-          [
-            "JOANA DARC SOUSA ARAUJO",
-            2
-          ],
-          [
-            "POLÍCIA CIVIL DO ESTADO DE SANTA CATARINA",
-            1
-          ],
-          [
-            "MINISTÉRIO PÚBLICO DO ESTADO DE SANTA CATARINA",
-            1
-          ],
-          [
-            "MUNICIPIO DE MAJOR GERCINO",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
+        "instancia": {
+          "1º Grau": 9
+        },
+        "polo": {
+          "Polo passivo": 7,
+          "Polo ativo": 1,
+          "Terceiro/Outros": 1
+        },
         "kpi": {
-          "areas": 3,
-          "trib": 2,
-          "proc": 8,
+          "proc": 9,
           "ativos": 5,
-          "areasSub": "Cível, Penal-Criminal, Administrativo",
-          "tribSub": "TJSC"
+          "procSub": "4 encerrados",
+          "areas": 3,
+          "areasSub": "Penal-Criminal (5), Cível (3), Administrativo (1)",
+          "trib": 2,
+          "tribSub": "TJSC (7), OUTROS (2)"
         },
-        "encerradosTotal": 3,
+        "esforco": {
+          "prazano": {
+            "2022": 22,
+            "2023": 67,
+            "2024": 43,
+            "2025": 48,
+            "2026": 35
+          },
+          "audano": {
+            "2022": 12,
+            "2023": 8,
+            "2026": 7
+          },
+          "tarefano": {
+            "2020": 116,
+            "2021": 67,
+            "2023": 1,
+            "2024": 2
+          },
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 186,
+            "PRAZO": 215,
+            "AUDIENCIA": 24,
+            "JULGAMENTO": 3
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 1531,
+          "comProducao": 9,
+          "people": []
+        },
         "horas": {
-          "total": 71.6,
-          "media": 8.9,
-          "mediaAtivos": 14.3,
+          "total": 73.8,
+          "media": 8.2,
+          "mediaAtivos": 14.8,
           "horasano": {
             "2022": 5.8,
-            "2023": 30.6,
-            "2024": 11.0,
-            "2025": 13.4,
-            "2026": 10.8
+            "2023": 31.1,
+            "2024": 11.3,
+            "2025": 13.5,
+            "2026": 12.0
           }
-        },
-        "estoqueHl": [
-          "2026"
-        ]
+        }
       }
     },
     "hasckel_bens": {
-      "nome": "Hasckel Administradora de Bens LTDA",
       "_idCliente": "2122922",
+      "nome": "Hasckel Administradora de Bens LTDA",
       "dataset": {
         "total": 2,
         "ativos": 0,
+        "encerradosTotal": 2,
         "encerrados": {
-          "2020": 0,
           "2021": 1,
-          "2022": 1,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
+          "2022": 1
         },
-        "areaTotal": 0,
         "estoque": {
           "2020": 1,
-          "2021": 1,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
+          "2021": 1
         },
         "entradas": {
           "2020": 1,
-          "2021": 1,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "area": [],
-        "uf": [],
-        "instancia": [],
-        "polo": [],
-        "tribunais": [],
-        "ranking": [],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "areas": 0,
-          "trib": 0,
-          "proc": 2,
-          "ativos": 0
-        },
-        "encerradosTotal": 2,
-        "horas": {
-          "total": 3.5,
-          "media": 1.8,
-          "mediaAtivos": 0,
-          "horasano": {
-            "2022": 1.9,
-            "2023": 0.4,
-            "2026": 1.2
-          }
+          "2021": 1
         },
         "estoqueHl": [
-          "2026"
-        ]
+          "2021"
+        ],
+        "area": {
+          "Cível": 2
+        },
+        "uf": {
+          "SC": 2
+        },
+        "tribunais": {
+          "TJSC": 1,
+          "OUTROS": 1
+        },
+        "instancia": {
+          "1º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 2
+        },
+        "kpi": {
+          "proc": 2,
+          "ativos": 0,
+          "procSub": "2 encerrados",
+          "areas": 1,
+          "areasSub": "Cível (2)",
+          "trib": 2,
+          "tribSub": "TJSC (1), OUTROS (1)"
+        },
+        "esforco": {
+          "prazano": {
+            "2022": 17,
+            "2023": 31
+          },
+          "audano": {},
+          "tarefano": {
+            "2020": 6,
+            "2021": 31,
+            "2026": 1
+          },
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 37,
+            "PRAZO": 48,
+            "REUNIAO": 1
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 389,
+          "comProducao": 2,
+          "people": []
+        },
+        "horas": {
+          "total": 4.0,
+          "media": 2.0,
+          "mediaAtivos": 0.0,
+          "horasano": {
+            "2022": 1.9,
+            "2023": 0.9,
+            "2026": 1.2
+          }
+        }
       }
     },
     "willian_hasckel": {
-      "nome": "Willian Hasckel",
       "_idCliente": "677012422",
+      "nome": "Willian Hasckel",
       "dataset": {
         "total": 1,
         "ativos": 1,
-        "encerrados": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "areaTotal": 1,
+        "encerradosTotal": 0,
+        "encerrados": {},
         "estoque": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
           "2024": 1,
           "2025": 1,
           "2026": 1
         },
         "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 1,
-          "2025": 0,
-          "2026": 0
+          "2024": 1
         },
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Cível": 1
         },
         "uf": {
           "SC": 1
         },
+        "tribunais": {
+          "TJSC": 1
+        },
         "instancia": {
           "1º Grau": 1
         },
         "polo": {
-          "Terceiro/Outros": 1
+          "Polo passivo": 1
         },
-        "tribunais": {
-          "TJSC": 1
-        },
-        "ranking": [
-          [
-            "NÃO HÁ",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
         "kpi": {
-          "areas": 1,
-          "trib": 1,
           "proc": 1,
           "ativos": 1,
-          "areasSub": "Cível",
-          "tribSub": "TJSC"
+          "procSub": "0 encerrados",
+          "areas": 1,
+          "areasSub": "Cível (1)",
+          "trib": 1,
+          "tribSub": "TJSC (1)"
         },
-        "encerradosTotal": 0,
+        "esforco": {
+          "prazano": {
+            "2024": 8
+          },
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {
+            "PRAZO": 8
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 8846,
+          "comProducao": 1,
+          "people": []
+        },
         "horas": {
           "total": 1.2,
           "media": 1.2,
@@ -771,183 +781,159 @@
           "horasano": {
             "2024": 1.2
           }
-        },
-        "estoqueHl": [
-          "2026"
-        ]
+        }
       }
     },
     "perola_do_mar": {
-      "nome": "Residencial Pérola do Mar",
       "_idCliente": "2121880",
+      "nome": "Residencial Perola do Mar",
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "areaTotal": 0,
-        "estoque": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "area": [],
-        "uf": [],
-        "instancia": [],
-        "polo": [],
-        "tribunais": [],
-        "ranking": [],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "areas": 0,
-          "trib": 0,
-          "proc": 0,
-          "ativos": 0
-        },
         "encerradosTotal": 0,
-        "horas": {
-          "total": 11.6,
-          "media": 0,
-          "mediaAtivos": 0,
-          "horasano": {
-            "2023": 11.6
-          }
+        "encerrados": {},
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "polo": {},
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
         },
-        "estoqueHl": [
-          "2026"
-        ]
+        "esforco": {
+          "prazano": {
+            "2023": 12,
+            "2024": 12
+          },
+          "audano": {
+            "2023": 10
+          },
+          "tarefano": {
+            "2020": 3,
+            "2021": 28
+          },
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 31,
+            "PRAZO": 24,
+            "JULGAMENTO": 10
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 12.1,
+          "media": 0.0,
+          "mediaAtivos": 0.0,
+          "horasano": {
+            "2023": 12.1,
+            "2024": 0.0
+          }
+        }
       }
     },
     "elisete_hasckel": {
-      "nome": "Elisete Hasckel",
       "_idCliente": "677012419",
+      "nome": "Elisete Hasckel",
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "areaTotal": 0,
-        "estoque": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "area": [],
-        "uf": [],
-        "instancia": [],
-        "polo": [],
-        "tribunais": [],
-        "ranking": [],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "areas": 0,
-          "trib": 0,
-          "proc": 0,
-          "ativos": 0
-        },
         "encerradosTotal": 0,
-        "_semProcessos": true,
-        "estoqueHl": [
-          "2026"
-        ]
+        "encerrados": {},
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "polo": {},
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
+        },
+        "esforco": {
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 0,
+          "media": 0.0,
+          "mediaAtivos": 0.0,
+          "horasano": {}
+        }
       }
     },
     "francisco_jr": {
-      "nome": "Francisco Hasckel Junior",
       "_idCliente": "677012420",
+      "nome": "Francisco Hasckel Junior",
       "dataset": {
         "total": 0,
         "ativos": 0,
-        "encerrados": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "areaTotal": 0,
-        "estoque": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "entradas": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
-        "area": [],
-        "uf": [],
-        "instancia": [],
-        "polo": [],
-        "tribunais": [],
-        "ranking": [],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "areas": 0,
-          "trib": 0,
-          "proc": 0,
-          "ativos": 0
-        },
         "encerradosTotal": 0,
-        "_semProcessos": true,
-        "estoqueHl": [
-          "2026"
-        ]
+        "encerrados": {},
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "polo": {},
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
+        },
+        "esforco": {
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 3
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 3.0,
+          "media": 0.0,
+          "mediaAtivos": 0.0,
+          "horasano": {
+            "2024": 3.0
+          }
+        }
       }
     }
-  },
-  "nome": "Grupo WF / WFF",
-  "nomeHtml": "Grupo <em>WF / WFF</em>",
-  "nEmpresas": 9
+  }
 }
