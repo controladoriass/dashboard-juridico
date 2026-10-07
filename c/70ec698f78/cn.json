@@ -871,7 +871,55 @@
           "media": 0.49
         }
       }
+    },
+    "brava_horizon": {
+      "_idCliente": 676683263,
+      "nome": "CN Construtora e Incorporadora Brava Horizon SPE Ltda",
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerradosTotal": 0,
+        "encerrados": {},
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "polo": {
+          "Polo ativo": 0,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "—",
+          "trib": 0,
+          "tribSub": "—"
+        },
+        "esforco": {
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {}
+        }
+      }
     }
   },
-  "nEmpresas": 4
+  "nEmpresas": 5
 }
