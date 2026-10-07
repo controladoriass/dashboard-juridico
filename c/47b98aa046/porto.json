@@ -2,36 +2,34 @@
   "nome": "Grupo Porto Florêncio",
   "nomeHtml": "Grupo <em>Porto Florêncio</em>",
   "kpiGrupo": {
-    "proc": 59,
-    "ativos": 14,
-    "areas": 3,
-    "trib": 4,
-    "procSub": "14 ativos · 45 encerrados",
-    "areasSub": "Cível, Trabalhista, Propriedade intelectual",
-    "tribSub": "TJSC, TRT12, INPI",
+    "proc": 62,
+    "ativos": 17,
+    "areas": 7,
+    "trib": 7,
+    "procSub": "17 ativos · 45 encerrados",
+    "areasSub": "Administrativo, Cível, Imobiliário, Penal-Criminal, Propriedade intelectual, Trabalhista, Tributário",
+    "tribSub": "INPI, STJ, TJPR, TJRS, TJSC, TRT12, TRT22",
+    "encerrados": 45,
     "horas": "^2534",
     "horasSub": "horas apontadas (timesheet real)",
     "valor": "~R$ 7<small>mi</small>",
-    "encerrados": 45,
     "valorTotal": 7068328.28
   },
   "empresas": {
     "_panorama": {
-      "nome": "Panorama Geral do Grupo",
       "_idCliente": null,
+      "nome": "Panorama Geral do Grupo",
       "dataset": {
-        "total": 59,
-        "ativos": 14,
+        "total": 62,
+        "ativos": 17,
+        "encerradosTotal": 45,
         "encerrados": {
-          "2020": 0,
-          "2021": 1,
-          "2022": 0,
-          "2023": 7,
-          "2024": 4,
+          "2026": 20,
           "2025": 13,
-          "2026": 20
+          "2024": 4,
+          "2023": 7,
+          "2021": 1
         },
-        "areaTotal": 14,
         "estoque": {
           "2020": 2,
           "2021": 8,
@@ -39,354 +37,231 @@
           "2023": 19,
           "2024": 33,
           "2025": 29,
-          "2026": 14
+          "2026": 17
         },
         "entradas": {
-          "2020": 2,
-          "2021": 7,
-          "2022": 12,
-          "2023": 6,
-          "2024": 18,
+          "2026": 8,
           "2025": 9,
-          "2026": 5
+          "2024": 18,
+          "2023": 6,
+          "2022": 12,
+          "2021": 7,
+          "2020": 2
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
-          "Cível": 10,
-          "Trabalhista": 3,
-          "Propriedade intelectual": 1
+          "Cível": 23,
+          "Trabalhista": 31,
+          "Tributário": 1,
+          "Imobiliário": 3,
+          "Propriedade intelectual": 2,
+          "Administrativo": 1,
+          "Penal-Criminal": 1
         },
         "uf": {
-          "SC": 12,
-          "OUTROS": 1,
-          "RS": 1
-        },
-        "instancia": {
-          "1º Grau": 12,
-          "2º Grau": 2
-        },
-        "polo": {
-          "Polo passivo": 7,
-          "Polo ativo": 7
+          "OUTROS": 10,
+          "PI": 1,
+          "SC": 48,
+          "RS": 2,
+          "PR": 1
         },
         "tribunais": {
-          "TJSC": 9,
-          "TRT12": 3,
-          "INPI": 1,
-          "TJRS": 1
+          "OUTROS": 21,
+          "TRT22": 1,
+          "TJSC": 17,
+          "TRT12": 17,
+          "STJ": 1,
+          "TJRS": 2,
+          "TJPR": 1,
+          "INPI": 2
         },
-        "ranking": [
-          [
-            "MANUEL DA MAIA CORDEIRO",
-            1
-          ],
-          [
-            "AGLAES BEATRIZ CAMPOS 04189455946",
-            1
-          ],
-          [
-            "ALCIMARA PICCOLI FORNEROLI BELLOTTO",
-            1
-          ],
-          [
-            "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
-            1
-          ],
-          [
-            "RESIDENCIAL PORTO DE MONACO",
-            1
-          ],
-          [
-            "HASAM INCORPORACOES LTDA",
-            1
-          ],
-          [
-            "CITTA DI MARANELLO",
-            1
-          ],
-          [
-            "MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO",
-            1
-          ],
-          [
-            "JOSE FERNANDES DE SOUZA",
-            1
-          ],
-          [
-            "SERAL OTIS INDUSTRIA METALURGICA LTDA",
-            1
-          ],
-          [
-            "SANTOS GUERRA ADMINISTRADORA DE BENS LTDA",
-            1
-          ],
-          [
-            "SANTOS GUERRA",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
+        "instancia": {
+          "1º Grau": 54,
+          "Superiores": 1,
+          "2º Grau": 7
+        },
+        "polo": {
+          "Polo ativo": 21,
+          "Polo passivo": 36,
+          "Terceiro/Outros": 5
+        },
         "kpi": {
-          "proc": 59,
-          "ativos": 14,
-          "areas": 3,
-          "trib": 4,
-          "procSub": "14 ativos · 45 encerrados",
-          "areasSub": "Cível, Trabalhista, Propriedade intelectual",
-          "tribSub": "TJSC, TRT12, INPI"
-        },
-        "esforco": {
-          "comProducao": 57,
-          "tramitacaoDias": 528,
-          "prazano": {
-            "2021": 7,
-            "2022": 31,
-            "2023": 51,
-            "2024": 113,
-            "2025": 158,
-            "2026": 56
-          },
-          "audano": {
-            "2022": 1,
-            "2023": 3,
-            "2024": 16,
-            "2025": 11,
-            "2026": 3
-          },
-          "tarefano": {
-            "2021": 35,
-            "2022": 219,
-            "2023": 460,
-            "2024": 442,
-            "2025": 412,
-            "2026": 262
-          },
-          "atividades": {
-            "Prazos": 416,
-            "Audiências": 34,
-            "Reuniões e Diligências": 1830
-          },
-          "extrajudano": {
-            "2021": 95,
-            "2022": 757,
-            "2023": 875,
-            "2024": 818,
-            "2025": 815,
-            "2026": 492
-          },
-          "extrajudtipo": {
-            "Contratos e minutas": 692,
-            "Notificações": 65,
-            "Distratos e acordos": 34,
-            "Pareceres e análises": 24,
-            "Cobranças": 1,
-            "Outros": 795
-          }
+          "proc": 62,
+          "ativos": 17,
+          "procSub": "17 ativos · 45 encerrados",
+          "areas": 7,
+          "areasSub": "Administrativo, Cível, Imobiliário, Penal-Criminal, Propriedade intelectual, Trabalhista, Tributário",
+          "trib": 7,
+          "tribSub": "INPI, STJ, TJPR, TJRS, TJSC, TRT12, TRT22"
         },
         "horas": {
-          "total": 2533.7,
-          "media": 42.9,
-          "mediaAtivos": 181.0,
+          "total": 2877.05,
+          "media": 46.4,
+          "mediaAtivos": 169.24,
           "horasano": {
-            "2021": 0.0,
-            "2022": 0.0,
-            "2023": 548.7,
-            "2024": 762.3,
-            "2025": 692.3,
-            "2026": 530.4
+            "2026": 608.93,
+            "2025": 689.0,
+            "2024": 753.01,
+            "2023": 539.46,
+            "2022": 247.92,
+            "2021": 38.74
           }
         },
-        "_panorama": true,
-        "encerradosTotal": 45,
-        "nome": "Panorama Geral do Grupo"
+        "esforco": {
+          "prazano": {
+            "2021": 46,
+            "2022": 213,
+            "2023": 450,
+            "2024": 881,
+            "2025": 943,
+            "2026": 422
+          },
+          "audano": {
+            "2022": 11,
+            "2023": 33,
+            "2024": 89,
+            "2025": 53,
+            "2026": 27
+          },
+          "tarefano": {
+            "2020": 36,
+            "2021": 112,
+            "2022": 806,
+            "2023": 946,
+            "2024": 889,
+            "2025": 865,
+            "2026": 651
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 2955,
+            "Audiências": 213,
+            "Reuniões e Diligências": 4305
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 62,
+          "people": []
+        }
       }
     },
     "porto_florencio": {
+      "_idCliente": 676964125,
       "nome": "Porto Florêncio & Vequi Empreend. Imob. LTDA",
-      "_idCliente": "676964125",
       "dataset": {
-        "total": 13,
-        "ativos": 4,
+        "total": 15,
+        "ativos": 6,
+        "encerradosTotal": 9,
         "encerrados": {
-          "2023": 0,
-          "2024": 0,
-          "2025": 5,
-          "2026": 4
+          "2026": 4,
+          "2025": 5
         },
-        "areaTotal": 4,
         "estoque": {
           "2023": 1,
           "2024": 9,
           "2025": 5,
-          "2026": 4
+          "2026": 6
         },
         "entradas": {
-          "2023": 1,
+          "2026": 5,
+          "2025": 1,
           "2024": 8,
-          "2025": 1,
-          "2026": 3
+          "2023": 1
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
-          "Cível": 2,
-          "Trabalhista": 2
+          "Cível": 5,
+          "Trabalhista": 10
         },
         "uf": {
-          "SC": 4
-        },
-        "instancia": {
-          "1º Grau": 4
-        },
-        "polo": {
-          "Polo passivo": 3,
-          "Polo ativo": 1
+          "OUTROS": 3,
+          "SC": 11,
+          "PR": 1
         },
         "tribunais": {
+          "OUTROS": 3,
           "TJSC": 2,
-          "TRT12": 2
-        },
-        "ranking": [
-          [
-            "CITTA DI MARANELLO",
-            1
-          ],
-          [
-            "MINISTÉRIO PÚBLICO DO TRABALHO 12ª REGIÃO",
-            1
-          ],
-          [
-            "JOSE FERNANDES DE SOUZA",
-            1
-          ],
-          [
-            "SERAL OTIS INDUSTRIA METALURGICA LTDA",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "proc": 13,
-          "ativos": 4,
-          "areas": 2,
-          "trib": 2,
-          "procSub": "4 ativos · 9 encerrados",
-          "areasSub": "Cível, Trabalhista",
-          "tribSub": "TJSC, TRT12"
-        },
-        "encerradosTotal": 9,
-        "horas": {
-          "total": 564.1,
-          "media": 43.4,
-          "mediaAtivos": 112.8,
-          "horasano": {
-            "2021": 0.0,
-            "2022": 0.0,
-            "2023": 35.1,
-            "2024": 131.7,
-            "2025": 234.2,
-            "2026": 163.1
-          }
-        }
-      }
-    },
-    "maria_ap_florencio": {
-      "nome": "Maria Aparecida Porto Florêncio",
-      "_idCliente": "2122942",
-      "dataset": {
-        "total": 3,
-        "ativos": 1,
-        "encerrados": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 1,
-          "2026": 1
-        },
-        "areaTotal": 1,
-        "estoque": {
-          "2020": 1,
-          "2021": 1,
-          "2022": 1,
-          "2023": 1,
-          "2024": 3,
-          "2025": 2,
-          "2026": 1
-        },
-        "entradas": {
-          "2020": 1,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 2,
-          "2025": 0,
-          "2026": 0
-        },
-        "estoqueHl": [],
-        "area": {
-          "Cível": 1
-        },
-        "uf": {
-          "SC": 1
+          "TRT12": 9,
+          "TJPR": 1
         },
         "instancia": {
-          "2º Grau": 1
+          "1º Grau": 13,
+          "2º Grau": 2
         },
         "polo": {
-          "Polo ativo": 1
+          "Polo ativo": 4,
+          "Polo passivo": 10,
+          "Terceiro/Outros": 1
         },
-        "tribunais": {
-          "TJSC": 1
-        },
-        "ranking": [
-          [
-            "MANUEL DA MAIA CORDEIRO",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 3,
-          "ativos": 1,
-          "areas": 1,
-          "trib": 1,
-          "procSub": "1 ativos · 2 encerrados",
-          "areasSub": "Cível",
-          "tribSub": "TJSC"
+          "proc": 15,
+          "ativos": 6,
+          "procSub": "6 ativos · 9 encerrados",
+          "areas": 2,
+          "areasSub": "Cível, Trabalhista",
+          "trib": 3,
+          "tribSub": "TJPR, TJSC, TRT12"
         },
-        "encerradosTotal": 2,
         "horas": {
-          "total": 71.1,
-          "media": 23.7,
-          "mediaAtivos": 71.1,
+          "total": 574.2,
+          "media": 38.28,
+          "mediaAtivos": 95.7,
           "horasano": {
-            "2021": 0.0,
-            "2022": 0.0,
-            "2023": 0.0,
-            "2024": 17.3,
-            "2025": 24.2,
-            "2026": 29.6
+            "2026": 174.1,
+            "2025": 233.51,
+            "2024": 131.5,
+            "2023": 35.09
           }
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 33,
+            "2024": 265,
+            "2025": 415,
+            "2026": 186
+          },
+          "audano": {
+            "2023": 18,
+            "2024": 54,
+            "2025": 26,
+            "2026": 8
+          },
+          "tarefano": {
+            "2024": 1,
+            "2025": 315,
+            "2026": 208
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 899,
+            "Audiências": 106,
+            "Reuniões e Diligências": 524
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 15,
+          "people": []
         }
       }
     },
     "porto_florencio_pfv": {
+      "_idCliente": 2123511,
       "nome": "Porto Florêncio Empreendimentos Imobiliários LTDA (PFV)",
-      "_idCliente": "2123511",
       "dataset": {
-        "total": 36,
-        "ativos": 5,
+        "total": 37,
+        "ativos": 6,
+        "encerradosTotal": 31,
         "encerrados": {
-          "2020": 0,
-          "2021": 1,
-          "2022": 0,
-          "2023": 7,
-          "2024": 4,
+          "2026": 14,
           "2025": 5,
-          "2026": 14
+          "2024": 4,
+          "2023": 7,
+          "2021": 1
         },
-        "areaTotal": 5,
         "estoque": {
           "2020": 1,
           "2021": 7,
@@ -394,224 +269,372 @@
           "2023": 17,
           "2024": 18,
           "2025": 18,
-          "2026": 5
+          "2026": 6
         },
         "entradas": {
-          "2020": 1,
-          "2021": 7,
-          "2022": 12,
-          "2023": 5,
-          "2024": 5,
+          "2026": 2,
           "2025": 5,
-          "2026": 1
+          "2024": 5,
+          "2023": 5,
+          "2022": 12,
+          "2021": 7,
+          "2020": 1
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
-          "Cível": 3,
-          "Trabalhista": 1,
-          "Propriedade intelectual": 1
+          "Trabalhista": 21,
+          "Cível": 9,
+          "Tributário": 1,
+          "Imobiliário": 3,
+          "Propriedade intelectual": 2,
+          "Administrativo": 1
         },
         "uf": {
-          "SC": 4,
+          "PI": 1,
+          "SC": 30,
+          "OUTROS": 6
+        },
+        "tribunais": {
+          "TRT22": 1,
+          "TRT12": 8,
+          "TJSC": 9,
+          "OUTROS": 16,
+          "STJ": 1,
+          "INPI": 2
+        },
+        "instancia": {
+          "1º Grau": 35,
+          "Superiores": 1,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo ativo": 10,
+          "Polo passivo": 24,
+          "Terceiro/Outros": 3
+        },
+        "kpi": {
+          "proc": 37,
+          "ativos": 6,
+          "procSub": "6 ativos · 31 encerrados",
+          "areas": 6,
+          "areasSub": "Administrativo, Cível, Imobiliário, Propriedade intelectual, Trabalhista, Tributário",
+          "trib": 5,
+          "tribSub": "INPI, STJ, TJSC, TRT12, TRT22"
+        },
+        "horas": {
+          "total": 2053.86,
+          "media": 55.51,
+          "mediaAtivos": 342.31,
+          "horasano": {
+            "2026": 343.75,
+            "2025": 366.17,
+            "2024": 552.92,
+            "2023": 504.37,
+            "2022": 247.92,
+            "2021": 38.74
+          }
+        },
+        "esforco": {
+          "prazano": {
+            "2021": 46,
+            "2022": 213,
+            "2023": 352,
+            "2024": 370,
+            "2025": 369,
+            "2026": 148
+          },
+          "audano": {
+            "2022": 11,
+            "2023": 10,
+            "2024": 25,
+            "2025": 15,
+            "2026": 1
+          },
+          "tarefano": {
+            "2020": 33,
+            "2021": 112,
+            "2022": 806,
+            "2023": 944,
+            "2024": 880,
+            "2025": 542,
+            "2026": 442
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 1498,
+            "Audiências": 62,
+            "Reuniões e Diligências": 3759
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 37,
+          "people": []
+        }
+      }
+    },
+    "maria_ap_florencio": {
+      "_idCliente": 2122942,
+      "nome": "Maria Aparecida Porto Florêncio",
+      "dataset": {
+        "total": 3,
+        "ativos": 1,
+        "encerradosTotal": 2,
+        "encerrados": {
+          "2025": 1,
+          "2026": 1
+        },
+        "estoque": {
+          "2020": 1,
+          "2024": 3,
+          "2025": 2,
+          "2026": 1
+        },
+        "entradas": {
+          "2024": 2,
+          "2020": 1
+        },
+        "estoqueHl": [
+          "2026"
+        ],
+        "area": {
+          "Cível": 2,
+          "Penal-Criminal": 1
+        },
+        "uf": {
+          "SC": 3
+        },
+        "tribunais": {
+          "TJSC": 2,
           "OUTROS": 1
         },
         "instancia": {
-          "1º Grau": 5
+          "2º Grau": 1,
+          "1º Grau": 2
         },
         "polo": {
           "Polo ativo": 3,
-          "Polo passivo": 2
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
         },
-        "tribunais": {
-          "TJSC": 3,
-          "TRT12": 1,
-          "INPI": 1
-        },
-        "ranking": [
-          [
-            "AGLAES BEATRIZ CAMPOS 04189455946",
-            1
-          ],
-          [
-            "ALCIMARA PICCOLI FORNEROLI BELLOTTO",
-            1
-          ],
-          [
-            "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
-            1
-          ],
-          [
-            "RESIDENCIAL PORTO DE MONACO",
-            1
-          ],
-          [
-            "THALYSSON ANDRE DOS SANTOS VIEIRA",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 36,
-          "ativos": 5,
-          "areas": 3,
-          "trib": 3,
-          "procSub": "5 ativos · 31 encerrados",
-          "areasSub": "Cível, Trabalhista, Propriedade intelectual",
-          "tribSub": "TJSC, TRT12, INPI"
+          "proc": 3,
+          "ativos": 1,
+          "procSub": "1 ativos · 2 encerrados",
+          "areas": 2,
+          "areasSub": "Cível, Penal-Criminal",
+          "trib": 1,
+          "tribSub": "TJSC"
         },
-        "encerradosTotal": 31,
         "horas": {
-          "total": 1725.3,
-          "media": 47.9,
-          "mediaAtivos": 345.1,
+          "total": 72.16,
+          "media": 24.05,
+          "mediaAtivos": 72.16,
           "horasano": {
-            "2021": 0.0,
-            "2022": 0.0,
-            "2023": 513.6,
-            "2024": 560.5,
-            "2025": 366.7,
-            "2026": 284.5
+            "2026": 32.03,
+            "2025": 24.1,
+            "2024": 16.03
           }
+        },
+        "esforco": {
+          "prazano": {
+            "2024": 60,
+            "2025": 71,
+            "2026": 88
+          },
+          "audano": {
+            "2026": 18
+          },
+          "tarefano": {
+            "2020": 3,
+            "2024": 6,
+            "2025": 7,
+            "2026": 1
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 219,
+            "Audiências": 18,
+            "Reuniões e Diligências": 17
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 3,
+          "people": []
         }
       }
     },
     "adalberto_florencio": {
+      "_idCliente": 676946597,
       "nome": "Adalberto Florêncio",
-      "_idCliente": "676946597",
       "dataset": {
         "total": 3,
         "ativos": 1,
+        "encerradosTotal": 2,
         "encerrados": {
-          "2024": 0,
-          "2025": 1,
-          "2026": 1
+          "2026": 1,
+          "2025": 1
         },
-        "areaTotal": 1,
         "estoque": {
           "2024": 1,
           "2025": 2,
           "2026": 1
         },
         "entradas": {
-          "2024": 1,
           "2025": 2,
-          "2026": 0
+          "2024": 1
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
-          "Cível": 1
+          "Cível": 3
         },
         "uf": {
-          "RS": 1
-        },
-        "instancia": {
-          "2º Grau": 1
-        },
-        "polo": {
-          "Polo ativo": 1
+          "OUTROS": 1,
+          "RS": 2
         },
         "tribunais": {
-          "TJRS": 1
+          "OUTROS": 1,
+          "TJRS": 2
         },
-        "ranking": [
-          [
-            "HASAM INCORPORACOES LTDA",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
+        "instancia": {
+          "1º Grau": 1,
+          "2º Grau": 2
+        },
+        "polo": {
+          "Polo ativo": 3,
+          "Polo passivo": 0,
+          "Terceiro/Outros": 0
+        },
         "kpi": {
           "proc": 3,
           "ativos": 1,
-          "areas": 1,
-          "trib": 1,
           "procSub": "1 ativos · 2 encerrados",
+          "areas": 1,
           "areasSub": "Cível",
+          "trib": 1,
           "tribSub": "TJRS"
         },
-        "encerradosTotal": 2,
         "horas": {
-          "total": 88.2,
-          "media": 29.4,
-          "mediaAtivos": 88.2,
+          "total": 86.37,
+          "media": 28.79,
+          "mediaAtivos": 86.37,
           "horasano": {
-            "2021": 0.0,
-            "2022": 0.0,
-            "2023": 0.0,
-            "2024": 34.1,
-            "2025": 39.5,
-            "2026": 14.6
+            "2026": 14.48,
+            "2025": 37.78,
+            "2024": 34.12
           }
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 22,
+            "2024": 100,
+            "2025": 33
+          },
+          "audano": {
+            "2024": 10,
+            "2025": 5
+          },
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 155,
+            "Audiências": 15
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 3,
+          "people": []
         }
       }
     },
     "daniel_florencio": {
+      "_idCliente": 677012457,
       "nome": "Daniel Florêncio",
-      "_idCliente": "677012457",
       "dataset": {
         "total": 4,
         "ativos": 3,
+        "encerradosTotal": 1,
         "encerrados": {
-          "2024": 0,
           "2025": 1
         },
-        "areaTotal": 3,
         "estoque": {
           "2024": 2,
           "2025": 2,
           "2026": 3
         },
         "entradas": {
-          "2024": 2,
+          "2026": 1,
           "2025": 1,
-          "2026": 1
+          "2024": 2
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
-          "Cível": 3
+          "Cível": 4
         },
         "uf": {
-          "SC": 3
+          "SC": 4
+        },
+        "tribunais": {
+          "TJSC": 4
         },
         "instancia": {
-          "1º Grau": 3
+          "1º Grau": 3,
+          "2º Grau": 1
         },
         "polo": {
           "Polo ativo": 1,
-          "Polo passivo": 2
+          "Polo passivo": 2,
+          "Terceiro/Outros": 1
         },
-        "tribunais": {
-          "TJSC": 3
-        },
-        "ranking": [
-          [
-            "SANTOS GUERRA ADMINISTRADORA DE BENS LTDA",
-            3
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
         "kpi": {
           "proc": 4,
           "ativos": 3,
-          "areas": 1,
-          "trib": 1,
           "procSub": "3 ativos · 1 encerrados",
+          "areas": 1,
           "areasSub": "Cível",
+          "trib": 1,
           "tribSub": "TJSC"
         },
-        "encerradosTotal": 1,
         "horas": {
-          "total": 85.0,
-          "media": 21.2,
-          "mediaAtivos": 28.3,
+          "total": 90.46,
+          "media": 22.61,
+          "mediaAtivos": 30.15,
           "horasano": {
-            "2021": 0.0,
-            "2022": 0.0,
-            "2023": 0.0,
-            "2024": 18.7,
-            "2025": 27.7,
-            "2026": 38.6
+            "2026": 44.58,
+            "2025": 27.44,
+            "2024": 18.43
           }
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 43,
+            "2024": 86,
+            "2025": 55
+          },
+          "audano": {
+            "2023": 5,
+            "2025": 7
+          },
+          "tarefano": {
+            "2023": 2,
+            "2024": 2,
+            "2025": 1
+          },
+          "extrajudano": {},
+          "atividades": {
+            "Prazos": 184,
+            "Audiências": 12,
+            "Reuniões e Diligências": 5
+          },
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 4,
+          "people": []
         }
       }
     }
