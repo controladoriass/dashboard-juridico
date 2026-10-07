@@ -5,8 +5,12 @@
   "kpiGrupo": {
     "proc": 145,
     "ativos": 66,
-    "encerrados": 79,
-    "empresas": 9
+    "areas": 9,
+    "trib": 7,
+    "procSub": "66 ativos · 79 encerrados",
+    "areasSub": "Cível, Trabalhista, Tributário",
+    "tribSub": "TJSC, OUTROS, TRT12",
+    "encerrados": 79
   },
   "empresas": {
     "_panorama": {
