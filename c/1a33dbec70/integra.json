@@ -1,6 +1,7 @@
 {
-  "nome": "Grupo Íntegra Construtora",
-  "nomeHtml": "Grupo <em>Íntegra Construtora</em>",
+  "nome": "Grupo Íntegra",
+  "nomeHtml": "Grupo <em>Íntegra</em>",
+  "nEmpresas": 1,
   "kpiGrupo": {
     "proc": 18,
     "ativos": 16,
@@ -9,164 +10,91 @@
     "procSub": "16 ativos · 2 encerrados",
     "areasSub": "Trabalhista, Cível, Tributário",
     "tribSub": "TRT12, TJSC, OUTROS",
-    "horas": 726.0,
-    "horasSub": "horas apontadas (coleta completa até 31/08/2026)",
-    "valor": "~R$ 2,2 mi",
-    "encerrados": 2,
-    "valorTotal": 2187040.32
+    "encerrados": 2
   },
   "empresas": {
     "_panorama": {
-      "nome": "Panorama Geral do Grupo",
       "_idCliente": null,
+      "nome": "Panorama do grupo",
       "dataset": {
         "total": 18,
         "ativos": 16,
+        "encerradosTotal": 2,
         "encerrados": {
           "2025": 2
         },
-        "areaTotal": 16,
         "estoque": {
-          "2020": 2,
-          "2021": 2,
+          "2026": 16,
+          "2025": 15,
+          "2024": 4,
           "2022": 3,
           "2023": 3,
-          "2024": 4,
-          "2025": 13,
-          "2026": 16
+          "2020": 2,
+          "2021": 2
         },
         "entradas": {
-          "2020": 2,
-          "2021": 0,
-          "2022": 1,
-          "2023": 0,
-          "2024": 1,
+          "2026": 3,
           "2025": 11,
-          "2026": 3
+          "2024": 1,
+          "2022": 1,
+          "2020": 2
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Trabalhista": 11,
-          "Cível": 3,
+          "Cível": 5,
           "Tributário": 2
         },
         "uf": {
-          "SC": 15,
-          "SP": 1
-        },
-        "instancia": {
-          "1º Grau": 11,
-          "2º Grau": 3,
-          "Não informado": 2
-        },
-        "polo": {
-          "Polo passivo": 12,
-          "Polo ativo": 4
+          "SC": 16,
+          "SP": 1,
+          "OUTROS": 1
         },
         "tribunais": {
           "TRT12": 10,
-          "TJSC": 3,
-          "OUTROS": 2,
+          "TJSC": 4,
+          "OUTROS": 3,
           "TRT02": 1
         },
-        "ranking": [
-          [
-            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
-            2
-          ],
-          [
-            "EDUARDO MARTINS LEAL",
-            1
-          ],
-          [
-            "SIDNEY DOMINGUES",
-            1
-          ],
-          [
-            "DIEGO DOS SANTOS",
-            1
-          ],
-          [
-            "PEDRO LADIR DE RAMOS",
-            1
-          ],
-          [
-            "JESSY JOSE PEREZ RONDON",
-            1
-          ],
-          [
-            "CLAUDIO AGOSTINHO DA SILVA",
-            1
-          ],
-          [
-            "LUIS OTAVIO PINHEIRO PERRI",
-            1
-          ],
-          [
-            "JHONATAN KRAUS",
-            1
-          ],
-          [
-            "ENIO RAFAEL LOZANO SANCHEZ",
-            1
-          ],
-          [
-            "ALCEU BRANCO DO AMARAL",
-            1
-          ],
-          [
-            "JONATA KRAUS",
-            1
-          ],
-          [
-            "HENRIQUE ANTUNES DE SOUZA",
-            1
-          ],
-          [
-            "ESTRUTURAS SERRA LITORAL LTDA",
-            1
-          ],
-          [
-            "DEBORA SABRINA PEREIRA DA SILVA",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
+        "instancia": {
+          "1º Grau": 13,
+          "2º Grau": 3,
+          "OUTROS": 2
+        },
+        "polo": {
+          "Polo passivo": 13,
+          "Polo ativo": 5
+        },
         "kpi": {
           "proc": 18,
           "ativos": 16,
-          "areas": 3,
-          "trib": 4,
           "procSub": "16 ativos · 2 encerrados",
+          "areas": 3,
           "areasSub": "Trabalhista, Cível, Tributário",
+          "trib": 4,
           "tribSub": "TRT12, TJSC, OUTROS"
         },
         "esforco": {
-          "comProducao": 18,
-          "tramitacaoDias": 613,
           "prazano": {
-            "2023": 3,
-            "2024": 7,
-            "2025": 72,
-            "2026": 55
+            "2023": 2,
+            "2024": 19,
+            "2025": 44,
+            "2026": 457
           },
           "audano": {
-            "2024": 2,
-            "2025": 6,
-            "2026": 7
+            "2025": 10,
+            "2026": 30
           },
           "tarefano": {
-            "2021": 12,
-            "2022": 64,
-            "2023": 45,
-            "2024": 88,
-            "2025": 80,
-            "2026": 46
-          },
-          "atividades": {
-            "Prazos": 137,
-            "Audiências": 15,
-            "Reuniões e Diligências": 335
+            "2020": 10,
+            "2021": 42,
+            "2022": 230,
+            "2023": 91,
+            "2024": 176,
+            "2025": 167,
+            "2026": 97
           },
           "extrajudano": {
             "2021": 40,
@@ -174,185 +102,190 @@
             "2023": 90,
             "2024": 168,
             "2025": 159,
-            "2026": 54
-          }
+            "2026": 55
+          },
+          "atividades": {
+            "Tarefa": 813,
+            "Audiência": 40,
+            "Prazo": 522,
+            "Reunião": 4,
+            "Ligação": 1,
+            "Atendimento": 2
+          },
+          "extrajudtipo": {
+            "Mediação-Arbitragem Extrajudicial": 742
+          },
+          "tramitacaoDias": 12132,
+          "comProducao": 18,
+          "people": [
+            "ALICIA CAMARGO",
+            "ANA PAULA ALVES CARDOSO",
+            "Alexandre Ribeiro",
+            "Ana Carolina Soares da Silva",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Paula Bardini",
+            "Andre Golin",
+            "BIANCA CAMILLY KOPETSKI",
+            "Barbara Pereira de Barros",
+            "Bianca Bodanese Figueroa",
+            "Bruna Gabrielli Vidal",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Caren Arienise da Silva Branco",
+            "Controladoria",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Elis Regina de Ramos Silva",
+            "Elisabeth Brum",
+            "Everton Leon da Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Fernando de Liz França",
+            "GABRIEL JOÃO FERNANDES BECKER",
+            "GILVANA DA SILVA E SÁ SOARES",
+            "Gabriel Romero de Abreu Mesquita",
+            "Gabriela Sofia Dalsochio",
+            "Gabriella Ferigotti Carraro",
+            "Gabriella Zanardi Diniz",
+            "Gabrielly Almeida de Ataíde",
+            "Giovanna Julia Paulina da Silva",
+            "Giovanna Torres Pimentel",
+            "Giuliana Bernardes",
+            "Gloria Maria da Silva dos Santos",
+            "Graziane de Melo",
+            "Henrique Braun",
+            "Henrique Rodrigues",
+            "JORDANA BARBOSA BENITEZ DE CARVALHO",
+            "José Roberto Schulchaski Filho",
+            "Joyce Menon dos Santos",
+            "João Paulo Felisberto",
+            "Kauane Nuss Couto",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Kim Augusto Zanoni",
+            "Luana Bruguer Ribeiro",
+            "Luciano Vinholi",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "Marco Antonio Sala",
+            "Marco Aurelio",
+            "Maria Alice Merlo Irrigaray",
+            "Matheus Solano Lopes",
+            "Mylena Nunes de Oliveira",
+            "Pedro Henrique Almeida da Silva",
+            "Pedro Valença Resende Ferreira",
+            "RUTH MENDES DA SILVA",
+            "Rafael Tudela Nicolau",
+            "Raquel Martins de Souza",
+            "Renan Dalla Lasta",
+            "Rodrigo Moura",
+            "SARAH ISABELA PEREIRA ZUCCO",
+            "TATIANE SILVA VELHO",
+            "Tainá de Souza Lima",
+            "Thiago Gonçalves",
+            "Thiffany Cristyane Nogueira",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet"
+          ]
         },
         "horas": {
-          "total": 726.0,
-          "media": 36.0,
-          "mediaAtivos": 40.5,
+          "total": 740.12,
+          "media": 41.12,
+          "mediaAtivos": 46.26,
           "horasano": {
-            "2021": 9.3,
-            "2022": 68.1,
-            "2023": 162.6,
-            "2024": 127.7,
-            "2025": 176.6,
-            "2026": 181.8
+            "2021": 9.27,
+            "2022": 68.32,
+            "2023": 164.08,
+            "2024": 127.81,
+            "2025": 178.45,
+            "2026": 192.18
           }
         },
-        "_panorama": true,
-        "encerradosTotal": 2,
-        "nome": "Panorama Geral do Grupo"
+        "_panorama": true
       }
     },
     "integra": {
-      "nome": "Íntegra Construtora e Incorporadora LTDA",
-      "_idCliente": "2129549",
+      "_idCliente": 2129549,
+      "nome": "INTEGRA CONSTRUTORA E INCORPORADORA LTDA",
       "dataset": {
         "total": 18,
         "ativos": 16,
+        "encerradosTotal": 2,
         "encerrados": {
-          "2020": 0,
-          "2021": 0,
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 2,
-          "2026": 0
+          "2025": 2
         },
-        "areaTotal": 16,
         "estoque": {
-          "2020": 2,
-          "2021": 2,
+          "2026": 16,
+          "2025": 15,
+          "2024": 4,
           "2022": 3,
           "2023": 3,
-          "2024": 4,
-          "2025": 13,
-          "2026": 16
+          "2020": 2,
+          "2021": 2
         },
         "entradas": {
-          "2020": 2,
-          "2021": 0,
-          "2022": 1,
-          "2023": 0,
-          "2024": 1,
+          "2026": 3,
           "2025": 11,
-          "2026": 3
+          "2024": 1,
+          "2022": 1,
+          "2020": 2
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          "2026"
+        ],
         "area": {
           "Trabalhista": 11,
-          "Cível": 3,
+          "Cível": 5,
           "Tributário": 2
         },
         "uf": {
-          "SC": 15,
-          "SP": 1
-        },
-        "instancia": {
-          "1º Grau": 11,
-          "2º Grau": 3,
-          "Não informado": 2
-        },
-        "polo": {
-          "Polo passivo": 12,
-          "Polo ativo": 4
+          "SC": 16,
+          "SP": 1,
+          "OUTROS": 1
         },
         "tribunais": {
           "TRT12": 10,
-          "TJSC": 3,
-          "OUTROS": 2,
+          "TJSC": 4,
+          "OUTROS": 3,
           "TRT02": 1
         },
-        "ranking": [
-          [
-            "DELEGADO DA RECEITA FEDERAL EM FLORIANÓPOLIS",
-            2
-          ],
-          [
-            "EDUARDO MARTINS LEAL",
-            1
-          ],
-          [
-            "SIDNEY DOMINGUES",
-            1
-          ],
-          [
-            "DIEGO DOS SANTOS",
-            1
-          ],
-          [
-            "PEDRO LADIR DE RAMOS",
-            1
-          ],
-          [
-            "JESSY JOSE PEREZ RONDON",
-            1
-          ],
-          [
-            "CLAUDIO AGOSTINHO DA SILVA",
-            1
-          ],
-          [
-            "LUIS OTAVIO PINHEIRO PERRI",
-            1
-          ],
-          [
-            "JHONATAN KRAUS",
-            1
-          ],
-          [
-            "ENIO RAFAEL LOZANO SANCHEZ",
-            1
-          ],
-          [
-            "ALCEU BRANCO DO AMARAL",
-            1
-          ],
-          [
-            "JONATA KRAUS",
-            1
-          ],
-          [
-            "HENRIQUE ANTUNES DE SOUZA",
-            1
-          ],
-          [
-            "ESTRUTURAS SERRA LITORAL LTDA",
-            1
-          ],
-          [
-            "DEBORA SABRINA PEREIRA DA SILVA",
-            1
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
+        "instancia": {
+          "1º Grau": 13,
+          "2º Grau": 3,
+          "OUTROS": 2
+        },
+        "polo": {
+          "Polo passivo": 13,
+          "Polo ativo": 5
+        },
         "kpi": {
           "proc": 18,
           "ativos": 16,
+          "procSub": "18",
           "areas": 3,
+          "areasSub": "3 áreas",
           "trib": 4,
-          "procSub": "16 ativos · 2 encerrados",
-          "areasSub": "Trabalhista, Cível, Tributário",
-          "tribSub": "TRT12, TJSC, TRT02"
+          "tribSub": "4 tribunais"
         },
-        "encerradosTotal": 2,
         "esforco": {
-          "comProducao": 18,
-          "tramitacaoDias": 613,
           "prazano": {
-            "2023": 3,
-            "2024": 7,
-            "2025": 72,
-            "2026": 55
+            "2023": 2,
+            "2024": 19,
+            "2025": 44,
+            "2026": 457
           },
           "audano": {
-            "2024": 2,
-            "2025": 6,
-            "2026": 7
+            "2025": 10,
+            "2026": 30
           },
           "tarefano": {
-            "2021": 12,
-            "2022": 64,
-            "2023": 45,
-            "2024": 88,
-            "2025": 80,
-            "2026": 46
-          },
-          "atividades": {
-            "Prazos": 137,
-            "Audiências": 15,
-            "Reuniões e Diligências": 335
+            "2020": 10,
+            "2021": 42,
+            "2022": 230,
+            "2023": 91,
+            "2024": 176,
+            "2025": 167,
+            "2026": 97
           },
           "extrajudano": {
             "2021": 40,
@@ -360,24 +293,106 @@
             "2023": 90,
             "2024": 168,
             "2025": 159,
-            "2026": 54
-          }
+            "2026": 55
+          },
+          "atividades": {
+            "Tarefa": 813,
+            "Audiência": 40,
+            "Prazo": 522,
+            "Reunião": 4,
+            "Ligação": 1,
+            "Atendimento": 2
+          },
+          "extrajudtipo": {
+            "Mediação-Arbitragem Extrajudicial": 742
+          },
+          "tramitacaoDias": 12132,
+          "comProducao": 18,
+          "people": [
+            "ALICIA CAMARGO",
+            "ANA PAULA ALVES CARDOSO",
+            "Alexandre Ribeiro",
+            "Ana Carolina Soares da Silva",
+            "Ana Gabriela Zimmermann",
+            "Ana Laura Leite Ribeiro",
+            "Ana Paula Bardini",
+            "Andre Golin",
+            "BIANCA CAMILLY KOPETSKI",
+            "Barbara Pereira de Barros",
+            "Bianca Bodanese Figueroa",
+            "Bruna Gabrielli Vidal",
+            "Camila Barzotto Lugo",
+            "Camila Lima de Azevedo",
+            "Caren Arienise da Silva Branco",
+            "Controladoria",
+            "EVILANIA DO NASCIMENTO AZEVEDO",
+            "Elis Regina de Ramos Silva",
+            "Elisabeth Brum",
+            "Everton Leon da Silva",
+            "Felipe Rocha",
+            "Fernanda Priscila Tascheck",
+            "Fernando de Liz França",
+            "GABRIEL JOÃO FERNANDES BECKER",
+            "GILVANA DA SILVA E SÁ SOARES",
+            "Gabriel Romero de Abreu Mesquita",
+            "Gabriela Sofia Dalsochio",
+            "Gabriella Ferigotti Carraro",
+            "Gabriella Zanardi Diniz",
+            "Gabrielly Almeida de Ataíde",
+            "Giovanna Julia Paulina da Silva",
+            "Giovanna Torres Pimentel",
+            "Giuliana Bernardes",
+            "Gloria Maria da Silva dos Santos",
+            "Graziane de Melo",
+            "Henrique Braun",
+            "Henrique Rodrigues",
+            "JORDANA BARBOSA BENITEZ DE CARVALHO",
+            "José Roberto Schulchaski Filho",
+            "Joyce Menon dos Santos",
+            "João Paulo Felisberto",
+            "Kauane Nuss Couto",
+            "Keila Bernardino Rodrigues",
+            "Kethlin de Machado",
+            "Kim Augusto Zanoni",
+            "Luana Bruguer Ribeiro",
+            "Luciano Vinholi",
+            "Luiz Ricardo Debértolis da Mota",
+            "MAIKO ROBERTO MAIER",
+            "Marco Antonio Sala",
+            "Marco Aurelio",
+            "Maria Alice Merlo Irrigaray",
+            "Matheus Solano Lopes",
+            "Mylena Nunes de Oliveira",
+            "Pedro Henrique Almeida da Silva",
+            "Pedro Valença Resende Ferreira",
+            "RUTH MENDES DA SILVA",
+            "Rafael Tudela Nicolau",
+            "Raquel Martins de Souza",
+            "Renan Dalla Lasta",
+            "Rodrigo Moura",
+            "SARAH ISABELA PEREIRA ZUCCO",
+            "TATIANE SILVA VELHO",
+            "Tainá de Souza Lima",
+            "Thiago Gonçalves",
+            "Thiffany Cristyane Nogueira",
+            "VALENTINNA OLTRAMARI SEBEN",
+            "Vanessa Benedet"
+          ]
         },
         "horas": {
-          "total": 726.0,
-          "media": 36.0,
-          "mediaAtivos": 40.5,
+          "total": 740.12,
+          "media": 41.12,
+          "mediaAtivos": 46.26,
           "horasano": {
-            "2021": 9.3,
-            "2022": 68.1,
-            "2023": 162.6,
-            "2024": 127.7,
-            "2025": 176.6,
-            "2026": 181.8
+            "2021": 9.27,
+            "2022": 68.32,
+            "2023": 164.08,
+            "2024": 127.81,
+            "2025": 178.45,
+            "2026": 192.18
           }
         }
       }
     }
-  },
-  "nEmpresas": 1
+  }
 }
