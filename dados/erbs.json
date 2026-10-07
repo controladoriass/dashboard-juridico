@@ -291,7 +291,8 @@
           "Polo ativo": 200,
           "Polo passivo": 149,
           "Terceiro/Outros": 46
-        }
+        },
+        "_panorama": true
       },
       "nome": "Grupo ERBS",
       "_idCliente": null
