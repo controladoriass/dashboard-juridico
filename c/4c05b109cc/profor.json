@@ -2,17 +2,17 @@
   "nome": "Grupo Profor",
   "nomeHtml": "Grupo <em>Profor</em>",
   "kpiGrupo": {
-    "proc": 140,
-    "ativos": 84,
-    "areas": 6,
-    "trib": 8,
-    "procSub": "84 ativos · 56 encerrados",
-    "areasSub": "Ambiental, Trabalhista, Cível",
-    "tribSub": "OUTROS, TRT12, TJSC",
+    "proc": 120,
+    "ativos": 72,
+    "areas": 5,
+    "trib": 7,
+    "procSub": "72 ativos · 48 encerrados",
+    "areasSub": "Cível, Trabalhista, Administrativo",
+    "tribSub": "TJSC, TRT12, OUTROS",
     "horas": 2519.61,
     "horasSub": "horas apontadas (coleta real 2021-2026)",
     "valor": "~R$ 32<small>mi</small>",
-    "encerrados": 56,
+    "encerrados": 48,
     "valorTotal": 31890362.16
   },
   "nEmpresas": 6,
@@ -21,81 +21,78 @@
       "_idCliente": null,
       "nome": "Panorama Geral do Grupo",
       "dataset": {
-        "total": 140,
-        "ativos": 84,
-        "encerradosTotal": 56,
+        "total": 120,
+        "ativos": 72,
+        "encerradosTotal": 48,
         "encerrados": {
           "2026": 5,
-          "2025": 33,
+          "2025": 27,
           "2024": 5,
           "2021": 2,
-          "2022": 5,
-          "2023": 6
+          "2022": 4,
+          "2023": 5
         },
         "estoque": {
-          "2026": 89,
-          "2025": 101,
-          "2024": 72,
-          "2023": 55,
-          "2022": 34,
-          "2021": 14
+          "2021": 13,
+          "2022": 27,
+          "2023": 39,
+          "2024": 55,
+          "2025": 62,
+          "2026": 72
         },
         "entradas": {
-          "2026": 21,
+          "2026": 15,
           "2025": 34,
-          "2024": 23,
-          "2023": 27,
-          "2022": 21,
+          "2024": 21,
+          "2023": 19,
+          "2022": 17,
           "2021": 14
         },
         "estoqueHl": [
-          "2026"
+          2026
         ],
         "area": {
-          "Ambiental": 5,
-          "Trabalhista": 35,
-          "Cível": 77,
+          "Cível": 73,
+          "Trabalhista": 34,
+          "Ambiental": 3,
           "Tributário": 2,
-          "Administrativo": 9,
-          "Penal-Criminal": 12
+          "Administrativo": 8
         },
         "uf": {
-          "SC": 128,
           "RS": 2,
           "PR": 3,
+          "SC": 109,
           "DF": 1,
-          "OUTROS": 5,
-          "MG": 1
+          "N/D": 5
         },
         "tribunais": {
-          "OUTROS": 26,
-          "TRT12": 34,
-          "TJSC": 72,
           "TJRS": 2,
           "TJPR": 3,
+          "TRT12": 33,
+          "TJSC": 61,
+          "OUTROS": 19,
           "STJ": 1,
-          "MPESC": 1,
           "TRF4": 1
         },
         "instancia": {
-          "1º Grau": 113,
+          "1º Grau": 94,
           "Superiores": 4,
-          "2º Grau": 22,
-          "OUTROS": 1
+          "2º Grau": 21,
+          "N/D": 1
         },
         "polo": {
-          "Polo passivo": 84,
-          "Polo ativo": 39,
-          "Terceiro/Outros": 17
+          "Polo Ativo": 47,
+          "Polo Passivo": 71,
+          "Terceiro": 2
         },
         "kpi": {
-          "proc": 140,
-          "ativos": 84,
-          "procSub": "84 ativos · 56 encerrados",
-          "areas": 6,
-          "areasSub": "Ambiental, Trabalhista, Cível",
-          "trib": 8,
-          "tribSub": "OUTROS, TRT12, TJSC"
+          "proc": 120,
+          "ativos": 72,
+          "procSub": "72 ativos · 48 encerrados",
+          "areas": 5,
+          "areasSub": "Cível, Trabalhista, Administrativo",
+          "trib": 7,
+          "tribSub": "TJSC, TRT12, OUTROS"
         },
         "esforco": {
           "prazano": {
@@ -139,7 +136,7 @@
           "extrajudtipo": {
             "18332": 1
           },
-          "tramitacaoDias": 672,
+          "tramitacaoDias": 731.6,
           "comProducao": 140
         },
         "horas": {
@@ -162,8 +159,8 @@
       "_idCliente": 2120501,
       "nome": "Profor Construtora e Incorporadora LTDA",
       "dataset": {
-        "total": 104,
-        "ativos": 62,
+        "total": 96,
+        "ativos": 57,
         "encerradosTotal": 42,
         "encerrados": {
           "2026": 4,
@@ -295,8 +292,8 @@
       "_idCliente": 2123381,
       "nome": "Eduardo Machado Formento",
       "dataset": {
-        "total": 6,
-        "ativos": 5,
+        "total": 3,
+        "ativos": 2,
         "encerradosTotal": 1,
         "encerrados": {
           "2021": 1
@@ -591,8 +588,8 @@
       "_idCliente": 3857652,
       "nome": "João Formento",
       "dataset": {
-        "total": 14,
-        "ativos": 8,
+        "total": 5,
+        "ativos": 4,
         "encerradosTotal": 6,
         "encerrados": {
           "2025": 6
