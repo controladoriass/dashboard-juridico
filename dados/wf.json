@@ -3,14 +3,14 @@
   "nomeHtml": "Grupo <em>WF / WFF</em>",
   "nEmpresas": 9,
   "kpiGrupo": {
-    "proc": 145,
-    "ativos": 66,
-    "areas": 9,
-    "trib": 7,
-    "procSub": "66 ativos · 79 encerrados",
+    "proc": 138,
+    "ativos": 64,
+    "procSub": "64 ativos · 74 encerrados",
+    "areas": 8,
     "areasSub": "Cível, Trabalhista, Tributário",
+    "trib": 7,
     "tribSub": "TJSC, OUTROS, TRT12",
-    "encerrados": 79
+    "encerrados": 74
   },
   "empresas": {
     "_panorama": {
@@ -18,89 +18,92 @@
       "nome": "Panorama Geral do Grupo",
       "dataset": {
         "_panorama": true,
-        "total": 145,
-        "ativos": 66,
-        "encerradosTotal": 79,
+        "total": 138,
+        "ativos": 64,
+        "encerradosTotal": 74,
         "encerrados": {
-          "2017": 1,
-          "2018": 1,
-          "2019": 1,
+          "2025": 17,
+          "2026": 4,
+          "2024": 6,
+          "2022": 36,
           "2021": 3,
-          "2022": 37,
+          "2018": 1,
+          "2017": 1,
           "2023": 5,
-          "2024": 8,
-          "2025": 19,
-          "2026": 4
+          "2019": 1
         },
         "estoque": {
-          "2020": 29,
-          "2021": 40,
-          "2022": 32,
-          "2023": 42,
-          "2024": 52,
-          "2025": 56,
-          "2026": 66
+          "2016": 3,
+          "2017": 5,
+          "2018": 7,
+          "2019": 16,
+          "2020": 25,
+          "2021": 36,
+          "2022": 29,
+          "2023": 38,
+          "2024": 48,
+          "2025": 53,
+          "2026": 63
         },
         "entradas": {
-          "2015": 1,
-          "2016": 3,
-          "2017": 2,
-          "2018": 3,
-          "2019": 13,
-          "2020": 9,
-          "2021": 14,
-          "2022": 29,
-          "2023": 15,
-          "2024": 18,
+          "2026": 14,
           "2025": 24,
-          "2026": 14
+          "2024": 16,
+          "2023": 14,
+          "2022": 29,
+          "2021": 14,
+          "2020": 9,
+          "2019": 10,
+          "2018": 3,
+          "2016": 3,
+          "2017": 2
         },
         "estoqueHl": [
-          "2026"
+          2026
         ],
         "area": {
           "Família e Sucessões": 1,
-          "Cível": 66,
+          "Cível": 64,
           "Falência": 2,
           "Trabalhista": 38,
           "Administrativo": 12,
           "Recuperação Judicial": 2,
           "Tributário": 18,
-          "Extrajudicial - Mediação - Arbitragem": 1,
-          "Penal-Criminal": 5
+          "Extrajudicial - Mediação - Arbitragem": 1
         },
         "uf": {
-          "SC": 116,
-          "OUTROS": 26,
+          "SC": 109,
+          "N/D": 26,
           "AL": 1,
           "RS": 2
         },
         "tribunais": {
-          "TJSC": 71,
+          "TJSC": 65,
           "TRT12": 13,
-          "OUTROS": 53,
+          "OUTROS": 52,
           "TRF4": 4,
           "MINTRAB": 1,
           "TRT19": 1,
           "TJRS": 2
         },
         "instancia": {
-          "1º Grau": 127,
-          "2º Grau": 18
+          "1º Grau": 120,
+          "2º Grau": 17,
+          "N/D": 1
         },
         "polo": {
-          "Terceiro/Outros": 25,
-          "Polo passivo": 73,
-          "Polo ativo": 47
+          "Terceiro": 2,
+          "Polo Passivo": 58,
+          "Polo Ativo": 78
         },
         "kpi": {
-          "proc": 145,
-          "ativos": 66,
-          "procSub": "79 encerrados",
-          "areas": 9,
-          "areasSub": "Cível (66), Trabalhista (38), Tributário (18)",
+          "proc": 138,
+          "ativos": 64,
+          "procSub": "74 encerrados",
+          "areas": 8,
+          "areasSub": "Cível (64), Trabalhista (38), Tributário (18)",
           "trib": 7,
-          "tribSub": "TJSC (71), OUTROS (53), TRT12 (13)"
+          "tribSub": "TJSC (65), OUTROS (52), TRT12 (13)"
         },
         "esforco": {
           "prazano": {
@@ -141,7 +144,7 @@
             "DILIGENCIA": 1
           },
           "extrajudtipo": {},
-          "tramitacaoDias": 888,
+          "tramitacaoDias": 965.9,
           "comProducao": 145,
           "people": []
         },
@@ -165,8 +168,8 @@
       "nome": "Construtora e Incorporadora WFF LTDA - EPP",
       "dataset": {
         "total": 80,
-        "ativos": 39,
-        "encerradosTotal": 41,
+        "ativos": 40,
+        "encerradosTotal": 40,
         "encerrados": {
           "2018": 1,
           "2021": 1,
@@ -300,8 +303,8 @@
       "_idCliente": "2122517",
       "nome": "Construtora e Incorporadora W.F LTDA",
       "dataset": {
-        "total": 48,
-        "ativos": 18,
+        "total": 47,
+        "ativos": 17,
         "encerradosTotal": 30,
         "encerrados": {
           "2017": 1,
@@ -437,9 +440,9 @@
       "_idCliente": "2122932",
       "nome": "Hasckel & Hasckel Construtora e Incorporadora",
       "dataset": {
-        "total": 5,
+        "total": 4,
         "ativos": 3,
-        "encerradosTotal": 2,
+        "encerradosTotal": 1,
         "encerrados": {
           "2025": 2
         },
@@ -539,9 +542,9 @@
       "_idCliente": "2129890",
       "nome": "Francisco de Assis Hasckel",
       "dataset": {
-        "total": 9,
-        "ativos": 5,
-        "encerradosTotal": 4,
+        "total": 4,
+        "ativos": 3,
+        "encerradosTotal": 1,
         "encerrados": {
           "2022": 1,
           "2024": 3
