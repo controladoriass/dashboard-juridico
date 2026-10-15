@@ -1,13 +1,13 @@
 {
   "kpiGrupo": {
-    "proc": 226,
+    "proc": 221,
     "ativos": 134,
     "areas": 10,
     "trib": 25,
-    "procSub": "134 ativos · 92 encerrados",
+    "procSub": "134 ativos · 87 encerrados",
     "areasSub": "Cível, Tributário, Trabalhista",
     "tribSub": "TJSC, OUTROS, TRT12",
-    "encerrados": 92
+    "encerrados": 87
   },
   "empresas": {
     "_panorama": {
@@ -15,16 +15,16 @@
       "nome": "Panorama Geral do Grupo",
       "dataset": {
         "_panorama": true,
-        "total": 226,
+        "total": 221,
         "ativos": 134,
-        "encerradosTotal": 92,
+        "encerradosTotal": 87,
         "encerrados": {
           "2026": 4,
-          "2025": 42,
+          "2025": 39,
           "2024": 11,
           "2015": 1,
-          "2023": 12,
-          "2022": 22
+          "2023": 11,
+          "2022": 21
         },
         "estoque": {
           "2020": 0,
@@ -37,17 +37,17 @@
         },
         "entradas": {
           "2026": 34,
-          "2025": 52,
-          "2024": 38,
+          "2025": 50,
+          "2024": 37,
           "2023": 26,
           "2022": 23,
-          "2021": 53
+          "2021": 51
         },
         "estoqueHl": [
           "2026"
         ],
         "area": {
-          "Cível": 117,
+          "Cível": 115,
           "Trabalhista": 40,
           "Administrativo": 9,
           "Tributário": 45,
@@ -59,7 +59,7 @@
           "Pública": 1
         },
         "uf": {
-          "SC": 157,
+          "SC": 153,
           "RJ": 2,
           "OUTROS": 19,
           "SP": 8,
@@ -79,10 +79,10 @@
           "ES": 1
         },
         "tribunais": {
-          "TJSC": 84,
+          "TJSC": 82,
           "TRT12": 27,
           "TJRJ": 1,
-          "OUTROS": 46,
+          "OUTROS": 43,
           "MPTSC": 1,
           "TJSP": 8,
           "TJPR": 5,
@@ -116,9 +116,9 @@
           "Terceiro/Outros": 33
         },
         "kpi": {
-          "proc": 226,
+          "proc": 221,
           "ativos": 134,
-          "procSub": "134 ativos · 92 encerrados",
+          "procSub": "134 ativos · 87 encerrados",
           "areas": 10,
           "areasSub": "Cível, Tributário, Trabalhista",
           "trib": 25,
@@ -186,7 +186,7 @@
       "_idCliente": 2123130,
       "nome": "ZM S.A.",
       "dataset": {
-        "total": 176,
+        "total": 173,
         "ativos": 115,
         "encerradosTotal": 61,
         "encerrados": {
@@ -913,7 +913,7 @@
       "_idCliente": 2119068,
       "nome": "Jonathan Zen",
       "dataset": {
-        "total": 28,
+        "total": 26,
         "ativos": 8,
         "encerradosTotal": 20,
         "encerrados": {
