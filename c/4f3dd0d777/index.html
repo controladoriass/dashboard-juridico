@@ -924,7 +924,7 @@ const GOLD='#CFA36E', NAVYMID='#3F5276';
 /* Override por grupo: certos grupos (ex. russi) têm data de corte específica.
    Vale tanto no link isolado c/<hex>/ (via meta cliente-grupo) quanto no dashboard-mãe (via GRUPO_ATUAL). */
 const _CORTE_POR_GRUPO = {
-  russi: { curta:'28/09/2026', extenso:'Setembro de 2026' },
+  russi: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   abit: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   morart: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   dynamis: { curta:'30/09/2026', extenso:'Setembro de 2026' },
@@ -943,12 +943,24 @@ const _CORTE_POR_GRUPO = {
   platao: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   kaliska: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   sunprime: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  msluzitania: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   empreiteirademaodeob: { curta:'30/09/2026', extenso:'Setembro de 2026' },
   vitalle: { curta:'30/09/2026', extenso:'Setembro de 2026' },
-  comex: { curta:'16/10/2026', extenso:'Outubro de 2026' },
-  binotto: { curta:'16/10/2026', extenso:'Outubro de 2026' }
+  mg7: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  comex: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  multiclick: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  binotto: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  msincorp: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  ampempreendimentoslo: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  lsc: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  rech: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  latex: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  primor: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  kreibich: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  masterplast: { curta:'30/09/2026', extenso:'Setembro de 2026' },
+  riviera: { curta:'30/09/2026', extenso:'Setembro de 2026' }
 };
-const _CORTE_PADRAO = { curta:'31/08/2026', extenso:'Agosto de 2026' };
+const _CORTE_PADRAO = { curta:'30/09/2026', extenso:'Setembro de 2026' };
 const _SLUG_META = (function(){ try { var m=document.querySelector('meta[name="cliente-grupo"]'); return m?m.getAttribute('content'):null; } catch(e){ return null; } })();
 /* DATA_CORTE começa pelo meta (link isolado) OU padrão; é reatribuído em cada entrarDashboard(). */
 let DATA_CORTE = (_SLUG_META && _CORTE_POR_GRUPO[_SLUG_META]) ? _CORTE_POR_GRUPO[_SLUG_META] : _CORTE_PADRAO;
