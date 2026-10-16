@@ -5,105 +5,104 @@
     "_panorama": {
       "dataset": {
         "nome": "Panorama Geral do Grupo",
-        "proc": 385,
-        "ativos": 190,
+        "proc": 373,
+        "ativos": 189,
         "encerrados": {
-          "2021": 1,
-          "2022": 43,
+          "2026": 1,
+          "2025": 96,
+          "2024": 23,
           "2023": 21,
-          "2024": 24,
-          "2025": 105,
-          "2026": 1
+          "2022": 42,
+          "2021": 1
         },
-        "procSub": 385,
-        "areasSub": 7,
-        "tribSub": 35,
+        "procSub": "189 ativos · 184 encerrados",
+        "areasSub": "Cível, Tributário, Trabalhista",
+        "tribSub": "OUTROS, TJSC, TRT12",
         "area": {
-          "Cível": 194,
-          "Tributário": 96,
-          "Trabalhista": 64,
+          "Cível": 176,
+          "Tributário": 94,
+          "Trabalhista": 62,
           "Administrativo": 34,
           "Penal-Criminal": 5,
-          "Outros": 1,
           "Ambiental": 1
         },
         "uf": {
-          "SC": 203,
-          "OUTROS": 33,
-          "DF": 31,
-          "PR": 23,
           "MA": 13,
-          "RS": 12,
-          "BA": 11,
-          "GO": 11,
-          "SP": 11,
-          "MG": 9,
-          "MT": 6,
-          "RJ": 6,
           "MS": 4,
-          "RN": 4,
+          "BA": 11,
+          "DF": 31,
+          "SC": 197,
+          "MT": 6,
+          "N/D": 31,
+          "GO": 11,
+          "PR": 22,
+          "RS": 10,
+          "MG": 9,
           "SE": 3,
-          "PE": 3,
           "AL": 1,
+          "SP": 10,
+          "RN": 4,
+          "PE": 3,
+          "RJ": 6,
           "RR": 1
         },
         "tribunais": {
-          "OUTROS": 108,
-          "TJSC": 80,
-          "TRT12": 37,
-          "TRF4": 34,
-          "TJDFT": 17,
-          "TJPR": 14,
           "TJMA": 12,
-          "TJBA": 10,
-          "TJGO": 9,
-          "TJRS": 7,
-          "TJRJ": 6,
-          "MINTRAB": 5,
-          "DRF": 5,
-          "TJMG": 5,
-          "Procon Municipal": 5,
-          "STJ": 4,
-          "TJMT": 4,
-          "TRT09": 4,
-          "TJSP": 4,
-          "PREFEITURA MUNICIPAL": 4,
-          "TJPE": 3,
+          "OUTROS": 104,
           "STF": 2,
-          "TJRN": 2,
-          "CARF": 2,
-          "TRT01": 2,
+          "TRT12": 35,
+          "TJSC": 73,
+          "TJGO": 9,
+          "MINTRAB": 5,
+          "TJPR": 13,
+          "STJ": 4,
+          "TJDFT": 17,
+          "DRF": 5,
+          "TRF4": 34,
           "SEFAZ": 1,
           "Justiça Federal de Santa Catarina": 1,
+          "TJMG": 5,
+          "TJMT": 4,
+          "TRT09": 4,
           "MMA": 1,
+          "TJSP": 3,
+          "TJRS": 3,
+          "TJBA": 10,
+          "TJRN": 2,
           "TRT04": 1,
+          "TJPE": 2,
           "MPT": 1,
           "Procon Estadual": 1,
           "TJMS": 1,
+          "TJRJ": 4,
           "TJSE": 1,
           "TJRR": 1,
-          "TRT15": 1
+          "CARF": 2,
+          "PREFEITURA MUNICIPAL": 4,
+          "Procon Municipal": 5,
+          "TRT15": 1,
+          "TRT01": 2
         },
         "instancia": {
-          "2º Grau": 35,
-          "1º Grau": 335,
+          "2º Grau": 33,
+          "1º Grau": 325,
           "Superiores": 15
         },
         "estoque": {
-          "2021": 73,
-          "2022": 148,
-          "2023": 161,
-          "2024": 206,
+          "2021": 72,
+          "2022": 146,
+          "2023": 158,
+          "2024": 201,
           "2025": 155,
-          "2026": 190
+          "2026": 189
         },
         "entradas": {
-          "2026": 36,
-          "2025": 54,
-          "2024": 69,
-          "2023": 34,
-          "2022": 118,
-          "2021": 74
+          "2026": 35,
+          "2025": 51,
+          "2024": 66,
+          "2023": 33,
+          "2022": 115,
+          "2021": 73
         },
         "estoqueHl": [
           "2026"
@@ -141,7 +140,7 @@
           "extrajudtipo": {
             "Outros": 35
           },
-          "tramitacaoDias": 902,
+          "tramitacaoDias": 922.2,
           "comProducao": 190,
           "people": [
             "AMANDA CRISTINA DE REZENDES",
@@ -276,21 +275,21 @@
           "media": 20.4,
           "mediaAtivos": 42.3
         },
-        "total": 395,
-        "encerradosTotal": 195,
+        "total": 373,
+        "encerradosTotal": 184,
         "kpi": {
-          "proc": 395,
-          "ativos": 190,
-          "procSub": "190 ativos · 195 encerrados",
-          "areas": 7,
+          "proc": 373,
+          "ativos": 189,
+          "procSub": "189 ativos · 184 encerrados",
+          "areas": 6,
           "areasSub": "Cível, Tributário, Trabalhista",
           "trib": 35,
           "tribSub": "OUTROS, TJSC, TRT12"
         },
         "polo": {
-          "Polo ativo": 200,
-          "Polo passivo": 149,
-          "Terceiro/Outros": 46
+          "Polo Ativo": 242,
+          "Polo Passivo": 124,
+          "Terceiro": 7
         },
         "_panorama": true
       },
@@ -314,30 +313,29 @@
           "Tributário": 54,
           "Trabalhista": 44,
           "Administrativo": 14,
-          "Outros": 1,
           "Penal-Criminal": 2
         },
         "uf": {
-          "SC": 84,
-          "DF": 24,
-          "OUTROS": 19,
           "MA": 9,
-          "GO": 7,
-          "MT": 5,
-          "PR": 5,
-          "RS": 5,
-          "SP": 5,
           "MS": 4,
           "BA": 2,
+          "DF": 24,
+          "SC": 84,
+          "MT": 5,
+          "N/D": 19,
+          "GO": 7,
+          "PR": 5,
+          "RS": 5,
           "MG": 2,
-          "RN": 2,
           "SE": 1,
           "AL": 1,
+          "SP": 5,
+          "RN": 2,
           "PE": 1
         },
         "tribunais": {
           "TJMA": 8,
-          "OUTRO": 57,
+          "OUTROS": 57,
           "STF": 1,
           "TRT12": 26,
           "TJSC": 17,
@@ -543,21 +541,20 @@
             "2026": 1030.7
           }
         },
-        "total": 180,
+        "total": 176,
         "encerradosTotal": 67,
         "kpi": {
-          "proc": 180,
+          "proc": 176,
           "ativos": 109,
           "procSub": "109 ativos · 67 encerrados",
-          "areas": 6,
-          "areasSub": "Cível (63), Tributário (54), Trabalhista (46)",
-          "trib": 28,
-          "tribSub": "N/I (57), TRT12 (28), TJSC (18)"
+          "areas": 5,
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "trib": 27,
+          "tribSub": "OUTROS, TRT12, TJSC"
         },
         "polo": {
-          "Polo ativo": 87,
-          "Polo passivo": 79,
-          "Terceiro/Outros": 14
+          "Polo Ativo": 113,
+          "Polo Passivo": 63
         }
       },
       "_idCliente": 2171093,
@@ -592,7 +589,7 @@
         "tribunais": {
           "TJSC": 34,
           "STJ": 1,
-          "OUTRO": 5,
+          "OUTROS": 5,
           "TJGO": 2,
           "TJRJ": 1,
           "STF": 1,
@@ -607,9 +604,9 @@
         },
         "estoque": {
           "2021": 4,
-          "2022": 23,
-          "2023": 22,
-          "2024": 28,
+          "2022": 24,
+          "2023": 23,
+          "2024": 29,
           "2025": 22,
           "2026": 27
         },
@@ -722,21 +719,20 @@
             "2026": 171.1
           }
         },
-        "total": 51,
+        "total": 49,
         "encerradosTotal": 22,
         "kpi": {
-          "proc": 51,
+          "proc": 49,
           "ativos": 27,
           "procSub": "27 ativos · 22 encerrados",
           "areas": 3,
-          "areasSub": "Cível (41), Tributário (9), Trabalhista (1)",
+          "areasSub": "Cível, Tributário, Trabalhista",
           "trib": 9,
-          "tribSub": "TJSC (35), N/I (6), TRF4 (3)"
+          "tribSub": "TJSC, OUTROS, TRF4"
         },
         "polo": {
-          "Polo passivo": 11,
-          "Polo ativo": 34,
-          "Terceiro/Outros": 6
+          "Polo Passivo": 12,
+          "Polo Ativo": 37
         }
       },
       "_idCliente": 2125278,
@@ -770,7 +766,7 @@
           "SP": 2
         },
         "tribunais": {
-          "OUTRO": 14,
+          "OUTROS": 14,
           "TJSE": 1,
           "TJRR": 1,
           "CARF": 1,
@@ -789,7 +785,6 @@
         "estoque": {
           "2021": 13,
           "2022": 20,
-          "2023": 18,
           "2024": 26,
           "2025": 12
         },
@@ -884,21 +879,20 @@
             "2026": 22.5
           }
         },
-        "total": 33,
+        "total": 32,
         "encerradosTotal": 20,
         "kpi": {
-          "proc": 33,
+          "proc": 32,
           "ativos": 12,
           "procSub": "12 ativos · 20 encerrados",
           "areas": 6,
-          "areasSub": "Administrativo (11), Tributário (8), Cível (7)",
+          "areasSub": "Administrativo, Tributário, Cível",
           "trib": 11,
-          "tribSub": "N/I (14), PREFEITURA MUNICIPAL (4), TRT12 (4)"
+          "tribSub": "OUTROS, PREFEITURA MUNICIPAL, TRT12"
         },
         "polo": {
-          "Polo passivo": 18,
-          "Terceiro/Outros": 5,
-          "Polo ativo": 10
+          "Polo Ativo": 16,
+          "Polo Passivo": 16
         }
       },
       "_idCliente": 2130280,
@@ -936,7 +930,7 @@
         },
         "tribunais": {
           "TJSC": 12,
-          "OUTRO": 7,
+          "OUTROS": 7,
           "Procon Municipal": 4,
           "TJGO": 2,
           "TJMA": 4,
@@ -1074,14 +1068,13 @@
           "ativos": 21,
           "procSub": "21 ativos · 23 encerrados",
           "areas": 5,
-          "areasSub": "Cível (22), Tributário (11), Administrativo (6)",
+          "areasSub": "Cível, Tributário, Administrativo",
           "trib": 13,
-          "tribSub": "TJSC (12), TRF4 (8), N/I (7)"
+          "tribSub": "TJSC, TRF4, OUTROS"
         },
         "polo": {
-          "Polo passivo": 11,
-          "Terceiro/Outros": 9,
-          "Polo ativo": 24
+          "Polo Passivo": 11,
+          "Polo Ativo": 33
         }
       },
       "_idCliente": 2125271,
@@ -1090,28 +1083,28 @@
     "comerciobateriaserbs": {
       "dataset": {
         "nome": "Comércio de Baterias Erbs Ltda",
-        "proc": 44,
+        "proc": 43,
         "ativos": 8,
         "encerrados": {
-          "2025": 20,
+          "2025": 19,
           "2024": 5,
           "2023": 3,
           "2022": 8
         },
         "area": {
           "Tributário": 5,
-          "Cível": 32,
+          "Cível": 31,
           "Trabalhista": 6,
           "Administrativo": 1
         },
         "uf": {
-          "OUTROS": 12,
-          "PR": 10,
+          "RN": 1,
           "BA": 7,
           "SC": 6,
-          "RJ": 5,
+          "PR": 9,
+          "N/D": 12,
           "SP": 2,
-          "RN": 1,
+          "RJ": 5,
           "DF": 1
         },
         "tribunais": {
@@ -1119,32 +1112,31 @@
           "TJBA": 7,
           "TJSC": 1,
           "TRF4": 4,
-          "OUTRO": 18,
+          "OUTROS": 18,
           "TJRJ": 3,
-          "TJPR": 4,
+          "TJPR": 3,
           "TRT09": 2,
           "TJDFT": 1,
           "TRT15": 1,
           "TRT01": 2
         },
         "instancia": {
-          "1º Grau": 42,
+          "1º Grau": 41,
           "2º Grau": 1,
           "Superiores": 1
         },
         "estoque": {
           "2021": 18,
-          "2022": 22,
-          "2023": 23,
-          "2024": 26,
-          "2025": 6,
+          "2022": 21,
+          "2023": 22,
+          "2024": 25,
           "2026": 8
         },
         "entradas": {
           "2026": 2,
           "2024": 8,
           "2023": 4,
-          "2022": 12,
+          "2022": 11,
           "2021": 18
         },
         "estoqueHl": [
@@ -1260,21 +1252,20 @@
             "2026": 30.6
           }
         },
-        "total": 47,
-        "encerradosTotal": 36,
+        "total": 43,
+        "encerradosTotal": 35,
         "kpi": {
-          "proc": 47,
+          "proc": 43,
           "ativos": 8,
-          "procSub": "8 ativos · 36 encerrados",
+          "procSub": "8 ativos · 35 encerrados",
           "areas": 4,
-          "areasSub": "Cível (35), Trabalhista (6), Tributário (5)",
-          "trib": 13,
-          "tribSub": "N/I (18), TJBA (7), TRF4 (4)"
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 11,
+          "tribSub": "OUTROS, TJBA, TRF4"
         },
         "polo": {
-          "Polo passivo": 15,
-          "Terceiro/Outros": 8,
-          "Polo ativo": 24
+          "Polo Ativo": 31,
+          "Polo Passivo": 12
         }
       },
       "_idCliente": 677038842,
@@ -1400,14 +1391,13 @@
           "ativos": 4,
           "procSub": "4 ativos · 5 encerrados",
           "areas": 2,
-          "areasSub": "Cível (5), Tributário (4)",
+          "areasSub": "Cível, Tributário",
           "trib": 4,
-          "tribSub": "TJSC (4), TRF4 (3), TJRS (1)"
+          "tribSub": "TJSC, TRF4, TJRS"
         },
         "polo": {
-          "Terceiro/Outros": 1,
-          "Polo ativo": 7,
-          "Polo passivo": 1
+          "Polo Passivo": 1,
+          "Polo Ativo": 8
         }
       },
       "_idCliente": 2161193,
@@ -1443,7 +1433,7 @@
           "Procon Municipal": 1,
           "TJBA": 1,
           "TJSC": 3,
-          "OUTRO": 1,
+          "OUTROS": 1,
           "TRT12": 3,
           "TJPR": 4,
           "TRF4": 1,
@@ -1560,14 +1550,13 @@
           "ativos": 5,
           "procSub": "5 ativos · 12 encerrados",
           "areas": 4,
-          "areasSub": "Cível (10), Trabalhista (3), Tributário (2)",
+          "areasSub": "Cível, Trabalhista, Tributário",
           "trib": 9,
-          "tribSub": "TJPR (4), TJSC (3), TRT12 (3)"
+          "tribSub": "TJPR, TJSC, TRT12"
         },
         "polo": {
-          "Polo passivo": 9,
-          "Terceiro/Outros": 2,
-          "Polo ativo": 6
+          "Polo Passivo": 9,
+          "Polo Ativo": 8
         }
       },
       "_idCliente": 2307275,
@@ -1736,7 +1725,7 @@
           "SC": 2
         },
         "tribunais": {
-          "OUTRO": 2
+          "OUTROS": 2
         },
         "instancia": {
           "1º Grau": 2
@@ -1778,12 +1767,12 @@
           "ativos": 2,
           "procSub": "2 ativos · 0 encerrados",
           "areas": 1,
-          "areasSub": "Tributário (2)",
+          "areasSub": "Tributário",
           "trib": 1,
-          "tribSub": "N/I (2)"
+          "tribSub": "OUTROS"
         },
         "polo": {
-          "Polo ativo": 2
+          "Polo Ativo": 2
         }
       },
       "_idCliente": 677012401,
@@ -1910,12 +1899,12 @@
           "ativos": 1,
           "procSub": "1 ativos · 0 encerrados",
           "areas": 1,
-          "areasSub": "Cível (1)",
+          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC (1)"
+          "tribSub": "TJSC"
         },
         "polo": {
-          "Polo ativo": 1
+          "Polo Ativo": 1
         }
       },
       "_idCliente": 677012406,
@@ -2065,52 +2054,16 @@
     "heivisecuritizadora": {
       "dataset": {
         "nome": "Heivi Securitizadora S.A.",
-        "proc": 11,
-        "ativos": 1,
-        "encerrados": {
-          "2025": 8,
-          "2022": 1,
-          "2024": 1
-        },
-        "area": {
-          "Tributário": 1,
-          "Cível": 10
-        },
-        "uf": {
-          "SC": 6,
-          "OUTROS": 2,
-          "RS": 2,
-          "SP": 1
-        },
-        "tribunais": {
-          "OUTRO": 3,
-          "TJSC": 5,
-          "TJRS": 2,
-          "TJSP": 1
-        },
-        "instancia": {
-          "1º Grau": 9,
-          "2º Grau": 2
-        },
-        "estoque": {
-          "2021": 1,
-          "2022": 2,
-          "2023": 3,
-          "2024": 5,
-          "2025": 0,
-          "2026": 1
-        },
-        "entradas": {
-          "2026": 1,
-          "2025": 3,
-          "2024": 3,
-          "2023": 1,
-          "2022": 2,
-          "2021": 1
-        },
-        "estoqueHl": [
-          "2026"
-        ],
+        "proc": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "estoque": {},
+        "entradas": {},
+        "estoqueHl": [],
         "esforco": {
           "prazano": {
             "2021": 1,
@@ -2206,22 +2159,18 @@
             "2026": 247.7
           }
         },
-        "total": 11,
-        "encerradosTotal": 10,
+        "total": 0,
+        "encerradosTotal": 0,
         "kpi": {
-          "proc": 11,
-          "ativos": 1,
-          "procSub": "1 ativos · 10 encerrados",
-          "areas": 2,
-          "areasSub": "Cível (10), Tributário (1)",
-          "trib": 4,
-          "tribSub": "TJSC (5), N/I (3), TJRS (2)"
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
         },
-        "polo": {
-          "Polo passivo": 5,
-          "Polo ativo": 5,
-          "Terceiro/Outros": 1
-        }
+        "polo": {}
       },
       "_idCliente": 2130235,
       "nome": "HEIVI SECURITIZADORA S.A"
@@ -2229,14 +2178,14 @@
   },
   "slug": "erbs",
   "kpiGrupo": {
-    "proc": 395,
-    "ativos": 190,
-    "areas": 7,
+    "proc": 373,
+    "ativos": 189,
+    "areas": 6,
     "trib": 35,
-    "procSub": "190 ativos · 195 encerrados",
+    "procSub": "189 ativos · 184 encerrados",
     "areasSub": "Cível, Tributário, Trabalhista",
     "tribSub": "OUTROS, TJSC, TRT12",
-    "encerrados": 195
+    "encerrados": 184
   },
   "nEmpresas": 16,
   "nomeHtml": "Grupo <em>ERBS</em>"
