@@ -5,6 +5,12 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
 ## [Não publicado]
 
+### Auditoria "APENAS assessoria mensal" — Grupo Dynamis (16/10/2026)
+- Formalizada auditoria de contratos no padrão novo (ZM/Profor).
+- Dados do painel (dynamis.json) **sem alteração**: 15 processos (8 Dynamis Imp. e Distribuidora + 7 Dynamis Imp. LTDA) — filtro já aplicado em `808c835` (recoleta set/2026).
+- 3 processos avulsos vinculados ao contrato 2157 (ANÁLISE E PARECER / ARTS IRPJ/CSLL, êxito 7% sobre crédito de R$ 6,82 Mi) continuam fora do painel: 5026860-24.2026.4.04.7200, 5026863-76.2026.4.04.7200 e 000413.160926.2.1.058.1.9-00.
+- Arquivos de auditoria (planilha mestre, PDF, markdown, JSON de avulsos) ficam na pasta local `auditoria_processos/dynamis/` — fora do repo público.
+
 ## [2026-08-10] Expansão em massa + padronizações
 
 ### Adicionado
