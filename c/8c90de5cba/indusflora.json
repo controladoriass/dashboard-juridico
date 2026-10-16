@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 93,
-    "ativos": 91,
-    "areas": 8,
+    "proc": 92,
+    "ativos": 90,
+    "areas": 7,
     "trib": 12,
-    "procSub": "91 ativos · 2 encerrados",
+    "procSub": "90 ativos · 2 encerrados",
     "areasSub": "Tributário, Trabalhista, Cível",
     "tribSub": "TJMG, TRT02, OUTROS",
     "encerrados": 2
@@ -14,11 +14,11 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 2129739,
       "dataset": {
-        "total": 93,
-        "ativos": 91,
+        "total": 92,
+        "ativos": 90,
         "encerrados": {
-          "2025": 1,
-          "2026": 1
+          "2026": 1,
+          "2025": 1
         },
         "areaTotal": 91,
         "estoque": {
@@ -30,63 +30,62 @@
           "2022": 75,
           "2023": 76,
           "2024": 79,
-          "2025": 88,
-          "2026": 93
+          "2025": 87,
+          "2026": 90
         },
         "entradas": {
-          "2015": 1,
+          "2026": 4,
+          "2025": 9,
+          "2024": 3,
+          "2023": 1,
+          "2022": 5,
+          "2021": 8,
+          "2020": 44,
           "2018": 14,
           "2019": 3,
-          "2020": 44,
-          "2021": 8,
-          "2022": 5,
-          "2023": 1,
-          "2024": 3,
-          "2025": 9,
-          "2026": 5
+          "2015": 1
         },
         "area": {
-          "Tributário": 45,
-          "Trabalhista": 28,
           "Cível": 15,
-          "Penal-Criminal": 1,
-          "Imobiliário": 1,
+          "Trabalhista": 27,
           "Recuperação Judicial": 1,
           "Pública": 1,
-          "OUTROS": 1
+          "Tributário": 45,
+          "Penal-Criminal": 1,
+          "Imobiliário": 1
         },
         "uf": {
           "MG": 49,
-          "SP": 21,
           "SC": 11,
-          "OUTROS": 7,
-          "PR": 3,
+          "SP": 20,
           "DF": 1,
+          "N/D": 7,
+          "PR": 3,
           "RJ": 1
         },
         "instancia": {
-          "1º Grau": 71,
           "2º Grau": 9,
-          "N/I": 8,
-          "Superiores": 5
+          "1º Grau": 70,
+          "Superiores": 5,
+          "N/D": 8
         },
         "polo": {
-          "Polo passivo": 67,
+          "Polo passivo": 66,
           "Polo ativo": 14,
           "Terceiro/Outros": 12
         },
         "tribunais": {
           "TJMG": 45,
-          "TRT02": 18,
-          "OUTROS": 10,
-          "TJSC": 6,
-          "TJPR": 3,
-          "TRT03": 3,
-          "STJ": 2,
-          "TRF4": 2,
-          "TJRJ": 1,
           "TRT12": 1,
+          "TJSC": 6,
+          "TRT02": 17,
+          "TRT03": 3,
           "TJSP": 1,
+          "TRF4": 2,
+          "STJ": 2,
+          "TJPR": 3,
+          "OUTROS": 10,
+          "TJRJ": 1,
           "DRF": 1
         },
         "ranking": [
@@ -153,17 +152,18 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 93,
-          "ativos": 91,
-          "areas": 8,
-          "trib": 12,
-          "procSub": "91 ativos · 2 encerrados",
+          "proc": 92,
+          "ativos": 90,
+          "procSub": "90 ativos · 2 encerrados",
+          "areas": 7,
           "areasSub": "Tributário, Trabalhista, Cível",
-          "tribSub": "TJMG, TRT02, OUTROS"
+          "trib": 12,
+          "tribSub": "TJMG, TRT02, OUTROS",
+          "encerrados": 2
         },
         "esforco": {
           "comProducao": 97,
-          "tramitacaoDias": 2030,
+          "tramitacaoDias": 2110.3,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -190,7 +190,7 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       },
       "encerradosTotal": 2
@@ -199,8 +199,8 @@
       "nome": "Indusflora Produtos Florestais S/A",
       "_idCliente": 2129739,
       "dataset": {
-        "total": 91,
-        "ativos": 89,
+        "total": 90,
+        "ativos": 88,
         "encerrados": {
           "2025": 4,
           "2026": 3
