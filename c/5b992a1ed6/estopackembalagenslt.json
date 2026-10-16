@@ -3,10 +3,10 @@
     "proc": 17,
     "ativos": 14,
     "areas": 3,
-    "trib": 4,
+    "trib": 5,
     "procSub": "14 ativos · 3 encerrados",
     "areasSub": "Bancário, Tributário, Cível",
-    "tribSub": "TJSC, STJ, TJRS",
+    "tribSub": "TJSC, OUTROS, STJ",
     "encerrados": 3
   },
   "empresas": {
@@ -22,42 +22,41 @@
         },
         "areaTotal": 14,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
           "2024": 6,
           "2025": 11,
           "2026": 14
         },
         "entradas": {
-          "2024": 8,
+          "2026": 3,
           "2025": 6,
-          "2026": 3
+          "2024": 8
         },
         "area": {
-          "Bancário": 6,
-          "Tributário": 5,
+          "Bancário": 8,
+          "Tributário": 6,
           "Cível": 3
         },
         "uf": {
-          "SC": 9,
           "DF": 2,
+          "SC": 9,
           "RS": 1,
-          "PR": 1,
-          "OUTROS": 1
+          "N/D": 4,
+          "PR": 1
         },
         "instancia": {
-          "1º Grau": 6,
-          "2º Grau": 6,
-          "Superiores": 2
+          "Superiores": 2,
+          "1º Grau": 10,
+          "2º Grau": 5
         },
         "polo": {
-          "Polo ativo": 8,
-          "Polo passivo": 6
+          "Polo Ativo": 10,
+          "Polo Passivo": 7
         },
         "tribunais": {
-          "TJSC": 9,
           "STJ": 2,
+          "TJSC": 9,
           "TJRS": 1,
+          "OUTROS": 4,
           "TRF4": 1
         },
         "ranking": [
@@ -90,15 +89,15 @@
         "kpi": {
           "proc": 17,
           "ativos": 14,
-          "areas": 3,
-          "trib": 4,
           "procSub": "14 ativos · 3 encerrados",
+          "areas": 3,
           "areasSub": "Bancário, Tributário, Cível",
-          "tribSub": "TJSC, STJ, TJRS"
+          "trib": 5,
+          "tribSub": "TJSC, OUTROS, STJ"
         },
         "esforco": {
           "comProducao": 16,
-          "tramitacaoDias": 465,
+          "tramitacaoDias": 511.5,
           "prazano": {
             "2021": 0,
             "2022": 0,
@@ -152,7 +151,11 @@
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
           "2026"
-        ]
+        ],
+        "proc": 17,
+        "procSub": "14 ativos · 3 encerrados",
+        "areasSub": "Bancário, Tributário, Cível",
+        "tribSub": "TJSC, OUTROS, STJ"
       }
     },
     "estopackembalagenslt_": {
@@ -167,42 +170,41 @@
         },
         "areaTotal": 14,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
           "2024": 6,
           "2025": 11,
           "2026": 14
         },
         "entradas": {
-          "2024": 8,
+          "2026": 3,
           "2025": 6,
-          "2026": 3
+          "2024": 8
         },
         "area": {
-          "Bancário": 6,
-          "Tributário": 5,
+          "Bancário": 8,
+          "Tributário": 6,
           "Cível": 3
         },
         "uf": {
-          "SC": 9,
           "DF": 2,
+          "SC": 9,
           "RS": 1,
-          "PR": 1,
-          "OUTROS": 1
+          "N/D": 4,
+          "PR": 1
         },
         "instancia": {
-          "1º Grau": 6,
-          "2º Grau": 6,
-          "Superiores": 2
+          "Superiores": 2,
+          "1º Grau": 10,
+          "2º Grau": 5
         },
         "polo": {
-          "Polo ativo": 8,
-          "Polo passivo": 6
+          "Polo Ativo": 10,
+          "Polo Passivo": 7
         },
         "tribunais": {
-          "TJSC": 9,
           "STJ": 2,
+          "TJSC": 9,
           "TJRS": 1,
+          "OUTROS": 4,
           "TRF4": 1
         },
         "ranking": [
@@ -236,10 +238,10 @@
           "proc": 17,
           "ativos": 14,
           "areas": 3,
-          "trib": 4,
+          "trib": 5,
           "procSub": "14 ativos · 3 encerrados",
           "areasSub": "Bancário, Tributário, Cível",
-          "tribSub": "TJSC, STJ, TJRS"
+          "tribSub": "TJSC, OUTROS, STJ"
         },
         "esforco": {
           "comProducao": 16,
@@ -295,7 +297,8 @@
         "encerradosTotal": 3,
         "estoqueHl": [
           "2026"
-        ]
+        ],
+        "proc": 17
       }
     }
   },

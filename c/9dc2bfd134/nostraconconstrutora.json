@@ -2,11 +2,11 @@
   "kpiGrupo": {
     "proc": 16,
     "ativos": 16,
-    "areas": 4,
-    "trib": 3,
+    "areas": 3,
+    "trib": 4,
     "procSub": "16 ativos · 0 encerrados",
-    "areasSub": "Cível, Trabalhista, Tributário, Bancário",
-    "tribSub": "TJSC, TRT12, TRF4/SC",
+    "areasSub": "Cível, Trabalhista, Tributário",
+    "tribSub": "TJSC, TRT12, STJ",
     "encerrados": 0
   },
   "empresas": {
@@ -17,7 +17,7 @@
         "total": 16,
         "ativos": 16,
         "encerrados": {},
-        "areaTotal": 16,
+        "areaTotal": 3,
         "estoque": {
           "2026": 16
         },
@@ -25,27 +25,29 @@
           "2026": 16
         },
         "area": {
-          "Cível": 10,
+          "Cível": 11,
           "Trabalhista": 4,
-          "Tributário": 1,
-          "Bancário": 1
+          "Tributário": 1
         },
         "uf": {
-          "SC": 16
+          "DF": 1,
+          "SC": 15
         },
         "instancia": {
-          "1º Grau": 15,
+          "Superiores": 1,
+          "1º Grau": 14,
           "2º Grau": 1
         },
         "polo": {
-          "Polo passivo": 14,
-          "Polo ativo": 1,
-          "Terceiro/Outros": 1
+          "Polo ativo": 2,
+          "Terceiro/Outros": 1,
+          "Polo passivo": 13
         },
         "tribunais": {
-          "TJSC": 11,
+          "STJ": 1,
           "TRT12": 4,
-          "TRF4/SC": 1
+          "TJSC": 10,
+          "OUTROS": 1
         },
         "ranking": [
           [
@@ -105,15 +107,16 @@
         "kpi": {
           "proc": 16,
           "ativos": 16,
-          "areas": 4,
-          "trib": 3,
           "procSub": "16 ativos · 0 encerrados",
-          "areasSub": "",
-          "tribSub": "TJSC, TRT12, Justiça Federal de Santa Catarina"
+          "areas": 3,
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 4,
+          "tribSub": "TJSC, TRT12, STJ",
+          "encerrados": 0
         },
         "esforco": {
-          "comProducao": 15,
-          "tramitacaoDias": 34,
+          "comProducao": 16,
+          "tramitacaoDias": 110.0,
           "prazano": {
             "2021": 0,
             "2022": 0,
@@ -177,37 +180,35 @@
         "encerrados": {},
         "areaTotal": 16,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
           "2026": 16
         },
         "entradas": {
           "2026": 16
         },
         "area": {
-          "Cível": 10,
+          "Cível": 11,
           "Trabalhista": 4,
-          "Tributário": 1,
-          "Bancário": 1
+          "Tributário": 1
         },
         "uf": {
-          "SC": 16
+          "DF": 1,
+          "SC": 15
         },
         "instancia": {
-          "1º Grau": 15,
+          "Superiores": 1,
+          "1º Grau": 14,
           "2º Grau": 1
         },
         "polo": {
-          "Polo passivo": 14,
-          "Polo ativo": 1,
-          "Terceiro/Outros": 1
+          "Polo ativo": 2,
+          "Terceiro/Outros": 1,
+          "Polo passivo": 13
         },
         "tribunais": {
-          "TJSC": 11,
+          "STJ": 1,
           "TRT12": 4,
-          "TRF4/SC": 1
+          "TJSC": 10,
+          "OUTROS": 1
         },
         "ranking": [
           [
@@ -267,11 +268,12 @@
         "kpi": {
           "proc": 16,
           "ativos": 16,
-          "areas": 4,
-          "trib": 3,
           "procSub": "16 ativos · 0 encerrados",
-          "areasSub": "Cível, Trabalhista, Tributário, Bancário",
-          "tribSub": "TJSC, TRT12, TRF4/SC"
+          "areas": 3,
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 4,
+          "tribSub": "TJSC, TRT12, STJ",
+          "encerrados": 0
         },
         "esforco": {
           "comProducao": 15,

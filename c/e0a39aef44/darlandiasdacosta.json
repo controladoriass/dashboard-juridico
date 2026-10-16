@@ -1,13 +1,13 @@
 {
   "kpiGrupo": {
-    "proc": 24,
-    "ativos": 21,
+    "proc": 22,
+    "ativos": 20,
     "areas": 4,
-    "trib": 4,
-    "procSub": "21 ativos · 3 encerrados",
-    "areasSub": "Cível, Penal-Criminal, Tributário",
-    "tribSub": "TJSC, OUTROS, TJPR",
-    "encerrados": 3,
+    "trib": 5,
+    "procSub": "20 ativos · 2 encerrados",
+    "areasSub": "Cível, Penal-Criminal, Família e Sucessões",
+    "tribSub": "TJSC, ADMINISTRATIVO, TJPR",
+    "encerrados": 2,
     "kHoras": 263.0
   },
   "empresas": {
@@ -15,11 +15,10 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 2129942,
       "dataset": {
-        "total": 24,
-        "ativos": 21,
+        "total": 22,
+        "ativos": 20,
         "encerrados": {
-          "2023": 2,
-          "2025": 1
+          "2023": 2
         },
         "areaTotal": 21,
         "estoque": {
@@ -27,41 +26,43 @@
           "2022": 8,
           "2023": 9,
           "2024": 10,
-          "2025": 16,
-          "2026": 21
+          "2025": 15,
+          "2026": 20
         },
         "entradas": {
-          "2021": 7,
-          "2022": 1,
-          "2023": 3,
+          "2026": 5,
+          "2025": 5,
           "2024": 1,
-          "2025": 7,
-          "2026": 5
+          "2023": 3,
+          "2022": 1,
+          "2021": 7
         },
         "area": {
-          "Cível": 11,
-          "Penal-Criminal": 8,
-          "Tributário": 1,
-          "Família e Sucessões": 1
+          "Família e Sucessões": 1,
+          "Penal-Criminal": 7,
+          "Cível": 13,
+          "Tributário": 1
         },
         "uf": {
-          "SC": 18,
+          "SC": 19,
           "PR": 3
         },
         "instancia": {
-          "1º Grau": 18,
-          "2º Grau": 3
+          "1º Grau": 17,
+          "2º Grau": 3,
+          "N/D": 2
         },
         "polo": {
-          "Polo ativo": 5,
-          "Polo passivo": 12,
-          "Terceiro/Outros": 4
+          "Polo passivo": 11,
+          "Terceiro/Outros": 5,
+          "Polo ativo": 6
         },
         "tribunais": {
-          "TJSC": 17,
-          "OUTROS": 2,
+          "TJSC": 18,
+          "ADMINISTRATIVO": 1,
           "TJPR": 1,
-          "TRF4": 1
+          "TRF4": 1,
+          "OUTROS": 1
         },
         "ranking": [
           [
@@ -111,17 +112,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 24,
-          "ativos": 21,
+          "proc": 22,
+          "ativos": 20,
+          "procSub": "20 ativos · 2 encerrados",
           "areas": 4,
-          "trib": 4,
-          "procSub": "21 ativos · 3 encerrados",
-          "areasSub": "Cível, Penal-Criminal, Tributário",
-          "tribSub": "TJSC, OUTROS, TJPR"
+          "areasSub": "Cível, Penal-Criminal, Família e Sucessões",
+          "trib": 5,
+          "tribSub": "TJSC, ADMINISTRATIVO, TJPR"
         },
         "esforco": {
           "comProducao": 23,
-          "tramitacaoDias": 877,
+          "tramitacaoDias": 919.0,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -145,14 +146,14 @@
             "2026": 86.4
           }
         },
-        "encerradosTotal": 3,
+        "encerradosTotal": 2,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "kpiGrupo": {
           "kHoras": 263.0
         },
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     },
@@ -160,11 +161,10 @@
       "nome": "Darlan Dias da Costa",
       "_idCliente": 2129942,
       "dataset": {
-        "total": 24,
-        "ativos": 21,
+        "total": 22,
+        "ativos": 20,
         "encerrados": {
-          "2023": 2,
-          "2025": 1
+          "2023": 2
         },
         "areaTotal": 21,
         "estoque": {
@@ -172,41 +172,43 @@
           "2022": 8,
           "2023": 9,
           "2024": 10,
-          "2025": 16,
-          "2026": 21
+          "2025": 15,
+          "2026": 20
         },
         "entradas": {
-          "2021": 7,
-          "2022": 1,
-          "2023": 3,
+          "2026": 5,
+          "2025": 5,
           "2024": 1,
-          "2025": 7,
-          "2026": 5
+          "2023": 3,
+          "2022": 1,
+          "2021": 7
         },
         "area": {
-          "Cível": 11,
-          "Penal-Criminal": 8,
-          "Tributário": 1,
-          "Família e Sucessões": 1
+          "Família e Sucessões": 1,
+          "Penal-Criminal": 7,
+          "Cível": 13,
+          "Tributário": 1
         },
         "uf": {
-          "SC": 18,
+          "SC": 19,
           "PR": 3
         },
         "instancia": {
-          "1º Grau": 18,
-          "2º Grau": 3
+          "1º Grau": 17,
+          "2º Grau": 3,
+          "N/D": 2
         },
         "polo": {
-          "Polo ativo": 5,
-          "Polo passivo": 12,
-          "Terceiro/Outros": 4
+          "Polo passivo": 11,
+          "Terceiro/Outros": 5,
+          "Polo ativo": 6
         },
         "tribunais": {
-          "TJSC": 17,
-          "OUTROS": 2,
+          "TJSC": 18,
+          "ADMINISTRATIVO": 1,
           "TJPR": 1,
-          "TRF4": 1
+          "TRF4": 1,
+          "OUTROS": 1
         },
         "ranking": [
           [
@@ -290,9 +292,9 @@
             "2026": 86.4
           }
         },
-        "encerradosTotal": 3,
+        "encerradosTotal": 2,
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     }
