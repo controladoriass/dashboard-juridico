@@ -1,80 +1,77 @@
 {
   "kpiGrupo": {
-    "proc": 109,
-    "ativos": 79,
-    "areas": 7,
+    "proc": 80,
+    "ativos": 53,
+    "areas": 6,
     "trib": 9,
-    "procSub": "79 ativos · 30 encerrados",
-    "areasSub": "Cível, Administrativo, Penal-Criminal",
+    "procSub": "53 ativos · 27 encerrados",
+    "areasSub": "Cível, Trabalhista, Administrativo",
     "tribSub": "OUTROS, TJSC, TRT12",
-    "encerrados": 30
+    "encerrados": 27
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 3777210,
       "dataset": {
-        "total": 109,
-        "ativos": 79,
+        "total": 80,
+        "ativos": 53,
         "encerrados": {
-          "2025": 21,
-          "2026": 5,
-          "2024": 2,
+          "2025": 20,
+          "2026": 4,
+          "2024": 1,
           "2023": 2
         },
         "areaTotal": 79,
         "estoque": {
           "2022": 25,
-          "2023": 32,
-          "2024": 48,
-          "2025": 45,
-          "2026": 77
+          "2023": 31,
+          "2024": 42,
+          "2025": 36,
+          "2026": 52
         },
         "entradas": {
-          "2022": 25,
-          "2023": 9,
-          "2024": 18,
-          "2025": 18,
-          "2026": 37
+          "2026": 20,
+          "2025": 15,
+          "2024": 12,
+          "2023": 8,
+          "2022": 25
         },
         "area": {
-          "Administrativo": 14,
-          "Cível": 16,
-          "Ambiental": 12,
-          "Trabalhista": 12,
-          "Tributário": 7,
-          "Pública": 2,
-          "Penal-Criminal": 14
+          "Cível": 28,
+          "Ambiental": 3,
+          "Trabalhista": 18,
+          "Administrativo": 15,
+          "Tributário": 14,
+          "Pública": 2
         },
         "uf": {
-          "SC": 64,
-          "DF": 4,
+          "SC": 62,
           "MT": 3,
-          "OUTROS": 3,
-          "SP": 1,
+          "PR": 1,
+          "N/D": 12,
+          "MA": 1,
           "RS": 1
         },
         "instancia": {
-          "1º Grau": 68,
-          "2º Grau": 7,
-          "Superiores": 2
+          "1º Grau": 73,
+          "2º Grau": 7
         },
         "polo": {
-          "Polo passivo": 47,
-          "Polo ativo": 17,
-          "Terceiro/Outros": 13
+          "Polo Passivo": 40,
+          "Polo Ativo": 37,
+          "Terceiro": 3
         },
         "tribunais": {
-          "OUTROS": 28,
-          "TJSC": 28,
-          "TRT12": 9,
-          "TRF4": 3,
-          "STJ": 3,
+          "TJSC": 25,
+          "OUTROS": 29,
+          "TRT12": 15,
+          "TRF4": 5,
+          "Justiça Federal de Santa Catarina": 1,
+          "TRT09": 1,
           "TJMT": 2,
-          "MINTRAB": 1,
-          "TJRS": 1,
-          "STF": 1,
-          "IBAMA": 1
+          "TRT16": 1,
+          "TJRS": 1
         },
         "ranking": [
           [
@@ -140,17 +137,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 109,
-          "ativos": 79,
-          "areas": 7,
-          "trib": 9,
-          "procSub": "79 ativos · 30 encerrados",
-          "areasSub": "Cível, Administrativo, Penal-Criminal",
-          "tribSub": "OUTROS, TJSC, TRT12"
+          "proc": 64,
+          "ativos": 43,
+          "procSub": "43 ativos · 21 encerrados",
+          "areas": 6,
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 8,
+          "tribSub": "TJSC, OUTROS, TRT12"
         },
         "esforco": {
           "comProducao": 99,
-          "tramitacaoDias": 560,
+          "tramitacaoDias": 689.8,
           "prazano": {
             "2021": 0,
             "2022": 140,
@@ -202,7 +199,7 @@
             "2026": 712.7
           }
         },
-        "encerradosTotal": 30,
+        "encerradosTotal": 27,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
@@ -215,8 +212,8 @@
       "nome": "Terra Brasil Comercio e Transportes de Materiais de Construcao LTDA",
       "_idCliente": 3777210,
       "dataset": {
-        "total": 29,
-        "ativos": 22,
+        "total": 28,
+        "ativos": 21,
         "encerrados": {
           "2025": 7
         },
@@ -508,8 +505,8 @@
       "nome": "Rharie Comercio e Transporte de Materiais de Construcao LTDA",
       "_idCliente": 4034124,
       "dataset": {
-        "total": 14,
-        "ativos": 9,
+        "total": 0,
+        "ativos": 0,
         "encerrados": {
           "2025": 1,
           "2026": 1
@@ -664,8 +661,8 @@
       "nome": "Rws Empreendimentos Imobiliarios SPE LTDA",
       "_idCliente": 4223474,
       "dataset": {
-        "total": 3,
-        "ativos": 2,
+        "total": 0,
+        "ativos": 0,
         "encerrados": {
           "2025": 1
         },
@@ -1184,8 +1181,8 @@
       "nome": "Rharie Robson de Souza Santos",
       "_idCliente": 679005191,
       "dataset": {
-        "total": 26,
-        "ativos": 23,
+        "total": 0,
+        "ativos": 0,
         "encerrados": {
           "2024": 1,
           "2025": 1,
@@ -1341,8 +1338,8 @@
       "nome": "Tihany Leticia de Souza",
       "_idCliente": 675672309,
       "dataset": {
-        "total": 1,
-        "ativos": 1,
+        "total": 0,
+        "ativos": 0,
         "encerrados": {},
         "areaTotal": 1,
         "estoque": {
@@ -1449,5 +1446,5 @@
   },
   "nome": "Grupo Terra Brasil",
   "nomeHtml": "Grupo <em>Terra Brasil</em>",
-  "nEmpresas": 9
+  "nEmpresas": 5
 }

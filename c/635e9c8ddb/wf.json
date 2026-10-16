@@ -8,8 +8,8 @@
     "procSub": "64 ativos · 74 encerrados",
     "areas": 8,
     "areasSub": "Cível, Trabalhista, Tributário",
-    "trib": 7,
-    "tribSub": "TJSC, OUTROS, TRT12",
+    "trib": 8,
+    "tribSub": "TJSC, ADMINISTRATIVO, OUTROS",
     "encerrados": 74
   },
   "empresas": {
@@ -52,10 +52,10 @@
           "2023": 14,
           "2022": 29,
           "2021": 14,
-          "2020": 9,
-          "2019": 10,
-          "2018": 3,
           "2016": 3,
+          "2020": 9,
+          "2018": 3,
+          "2019": 10,
           "2017": 2
         },
         "estoqueHl": [
@@ -80,8 +80,9 @@
         "tribunais": {
           "TJSC": 65,
           "TRT12": 13,
-          "OUTROS": 52,
+          "OUTROS": 24,
           "TRF4": 4,
+          "ADMINISTRATIVO": 28,
           "MINTRAB": 1,
           "TRT19": 1,
           "TJRS": 2
@@ -93,17 +94,17 @@
         },
         "polo": {
           "Terceiro": 2,
-          "Polo Passivo": 58,
-          "Polo Ativo": 78
+          "Polo Passivo": 64,
+          "Polo Ativo": 72
         },
         "kpi": {
           "proc": 138,
           "ativos": 64,
-          "procSub": "74 encerrados",
+          "procSub": "64 ativos · 74 encerrados",
           "areas": 8,
-          "areasSub": "Cível (64), Trabalhista (38), Tributário (18)",
-          "trib": 7,
-          "tribSub": "TJSC (65), OUTROS (52), TRT12 (13)"
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 8,
+          "tribSub": "TJSC, ADMINISTRATIVO, OUTROS"
         },
         "esforco": {
           "prazano": {
@@ -144,7 +145,7 @@
             "DILIGENCIA": 1
           },
           "extrajudtipo": {},
-          "tramitacaoDias": 965.9,
+          "tramitacaoDias": 966.9,
           "comProducao": 145,
           "people": []
         },
@@ -171,14 +172,17 @@
         "ativos": 40,
         "encerradosTotal": 40,
         "encerrados": {
-          "2018": 1,
-          "2021": 1,
-          "2022": 27,
+          "2025": 7,
+          "2026": 2,
           "2024": 2,
-          "2025": 8,
-          "2026": 2
+          "2022": 27,
+          "2021": 1,
+          "2018": 1
         },
         "estoque": {
+          "2016": 2,
+          "2018": 2,
+          "2019": 4,
           "2020": 9,
           "2021": 15,
           "2022": 10,
@@ -188,19 +192,19 @@
           "2026": 39
         },
         "entradas": {
-          "2016": 2,
-          "2018": 1,
-          "2019": 2,
-          "2020": 5,
-          "2021": 7,
-          "2022": 22,
-          "2023": 6,
-          "2024": 10,
+          "2026": 10,
           "2025": 15,
-          "2026": 10
+          "2024": 10,
+          "2023": 6,
+          "2022": 22,
+          "2021": 7,
+          "2016": 2,
+          "2020": 5,
+          "2018": 1,
+          "2019": 2
         },
         "estoqueHl": [
-          "2026"
+          2026
         ],
         "area": {
           "Família e Sucessões": 1,
@@ -214,14 +218,15 @@
         },
         "uf": {
           "SC": 60,
-          "OUTROS": 19,
+          "N/D": 19,
           "AL": 1
         },
         "tribunais": {
           "TJSC": 31,
           "TRT12": 10,
-          "OUTROS": 35,
+          "OUTROS": 13,
           "TRF4": 2,
+          "ADMINISTRATIVO": 22,
           "MINTRAB": 1,
           "TRT19": 1
         },
@@ -230,18 +235,17 @@
           "2º Grau": 11
         },
         "polo": {
-          "Terceiro/Outros": 21,
-          "Polo passivo": 37,
-          "Polo ativo": 22
+          "Polo Ativo": 40,
+          "Polo Passivo": 25
         },
         "kpi": {
           "proc": 80,
-          "ativos": 39,
-          "procSub": "41 encerrados",
+          "ativos": 40,
+          "procSub": "40 ativos · 40 encerrados",
           "areas": 8,
-          "areasSub": "Trabalhista (33), Cível (30), Administrativo (7)",
-          "trib": 6,
-          "tribSub": "OUTROS (35), TJSC (31), TRT12 (10)"
+          "areasSub": "Trabalhista, Cível, Administrativo",
+          "trib": 7,
+          "tribSub": "TJSC, ADMINISTRATIVO, OUTROS"
         },
         "esforco": {
           "prazano": {
@@ -308,41 +312,45 @@
         "encerradosTotal": 30,
         "encerrados": {
           "2017": 1,
-          "2019": 1,
-          "2021": 1,
-          "2022": 8,
-          "2023": 5,
-          "2024": 3,
           "2025": 9,
-          "2026": 2
+          "2024": 3,
+          "2023": 5,
+          "2022": 8,
+          "2026": 2,
+          "2021": 1,
+          "2019": 1
         },
         "estoque": {
+          "2016": 1,
+          "2017": 2,
+          "2018": 4,
+          "2019": 11,
           "2020": 14,
           "2021": 18,
           "2022": 17,
-          "2023": 17,
-          "2024": 18,
-          "2025": 17,
-          "2026": 18
+          "2023": 16,
+          "2024": 17,
+          "2025": 16,
+          "2026": 17
         },
         "entradas": {
-          "2016": 1,
-          "2017": 1,
+          "2026": 3,
+          "2025": 9,
+          "2024": 4,
+          "2023": 4,
+          "2022": 7,
+          "2021": 5,
           "2018": 2,
           "2019": 8,
           "2020": 3,
-          "2021": 5,
-          "2022": 7,
-          "2023": 5,
-          "2024": 4,
-          "2025": 9,
-          "2026": 3
+          "2017": 1,
+          "2016": 1
         },
         "estoqueHl": [
-          "2026"
+          2026
         ],
         "area": {
-          "Cível": 26,
+          "Cível": 25,
           "Recuperação Judicial": 1,
           "Administrativo": 4,
           "Falência": 1,
@@ -350,34 +358,35 @@
           "Trabalhista": 5
         },
         "uf": {
-          "SC": 39,
+          "SC": 38,
           "RS": 2,
-          "OUTROS": 7
+          "N/D": 7
         },
         "tribunais": {
-          "TJSC": 26,
+          "TJSC": 25,
           "TJRS": 2,
-          "OUTROS": 15,
+          "OUTROS": 9,
+          "ADMINISTRATIVO": 6,
           "TRT12": 3,
           "TRF4": 2
         },
         "instancia": {
           "2º Grau": 5,
-          "1º Grau": 43
+          "1º Grau": 41,
+          "N/D": 1
         },
         "polo": {
-          "Polo ativo": 19,
-          "Polo passivo": 26,
-          "Terceiro/Outros": 3
+          "Polo Ativo": 28,
+          "Polo Passivo": 17
         },
         "kpi": {
-          "proc": 48,
-          "ativos": 18,
-          "procSub": "30 encerrados",
+          "proc": 47,
+          "ativos": 17,
+          "procSub": "17 ativos · 30 encerrados",
           "areas": 6,
-          "areasSub": "Cível (26), Tributário (11), Trabalhista (5)",
-          "trib": 5,
-          "tribSub": "TJSC (26), OUTROS (15), TRT12 (3)"
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "trib": 6,
+          "tribSub": "TJSC, OUTROS, ADMINISTRATIVO"
         },
         "esforco": {
           "prazano": {
@@ -444,53 +453,49 @@
         "ativos": 3,
         "encerradosTotal": 1,
         "encerrados": {
-          "2025": 2
+          "2025": 1
         },
         "estoque": {
-          "2020": 1,
-          "2021": 2,
-          "2022": 2,
-          "2023": 3,
-          "2024": 4,
-          "2025": 2,
+          "2021": 1,
+          "2023": 2,
+          "2024": 3,
           "2026": 3
         },
         "entradas": {
-          "2019": 1,
-          "2021": 1,
-          "2023": 1,
+          "2026": 1,
           "2024": 1,
-          "2026": 1
+          "2023": 1,
+          "2021": 1
         },
         "estoqueHl": [
-          "2026"
+          2026
         ],
         "area": {
-          "Cível": 4,
+          "Cível": 3,
           "Tributário": 1
         },
         "uf": {
-          "SC": 5
+          "SC": 4
         },
         "tribunais": {
-          "TJSC": 5
+          "TJSC": 4
         },
         "instancia": {
           "1º Grau": 3,
-          "2º Grau": 2
+          "2º Grau": 1
         },
         "polo": {
-          "Polo ativo": 3,
-          "Polo passivo": 2
+          "Polo Ativo": 3,
+          "Polo Passivo": 1
         },
         "kpi": {
-          "proc": 5,
+          "proc": 4,
           "ativos": 3,
-          "procSub": "2 encerrados",
+          "procSub": "3 ativos · 1 encerrados",
           "areas": 2,
-          "areasSub": "Cível (4), Tributário (1)",
+          "areasSub": "Cível, Tributário",
           "trib": 1,
-          "tribSub": "TJSC (5)"
+          "tribSub": "TJSC"
         },
         "esforco": {
           "prazano": {
@@ -546,56 +551,45 @@
         "ativos": 3,
         "encerradosTotal": 1,
         "encerrados": {
-          "2022": 1,
-          "2024": 3
+          "2024": 1
         },
         "estoque": {
-          "2020": 4,
-          "2021": 4,
-          "2022": 3,
-          "2023": 6,
-          "2024": 5,
-          "2025": 5,
-          "2026": 5
+          "2017": 1,
+          "2023": 4
         },
         "entradas": {
-          "2015": 1,
-          "2017": 1,
-          "2019": 2,
           "2023": 3,
-          "2024": 2
+          "2017": 1
         },
         "estoqueHl": [
-          "2026"
+          2023
         ],
         "area": {
-          "Penal-Criminal": 5,
           "Cível": 3,
           "Administrativo": 1
         },
         "uf": {
-          "SC": 9
+          "SC": 4
         },
         "tribunais": {
-          "OUTROS": 2,
-          "TJSC": 7
+          "TJSC": 3,
+          "OUTROS": 1
         },
         "instancia": {
-          "1º Grau": 9
+          "1º Grau": 4
         },
         "polo": {
-          "Polo passivo": 7,
-          "Polo ativo": 1,
-          "Terceiro/Outros": 1
+          "Polo Ativo": 1,
+          "Polo Passivo": 3
         },
         "kpi": {
-          "proc": 9,
-          "ativos": 5,
-          "procSub": "4 encerrados",
-          "areas": 3,
-          "areasSub": "Penal-Criminal (5), Cível (3), Administrativo (1)",
+          "proc": 4,
+          "ativos": 3,
+          "procSub": "3 ativos · 1 encerrados",
+          "areas": 2,
+          "areasSub": "Cível, Administrativo",
           "trib": 2,
-          "tribSub": "TJSC (7), OUTROS (2)"
+          "tribSub": "TJSC, OUTROS"
         },
         "esforco": {
           "prazano": {
@@ -650,19 +644,19 @@
         "ativos": 0,
         "encerradosTotal": 2,
         "encerrados": {
-          "2021": 1,
-          "2022": 1
+          "2022": 1,
+          "2021": 1
         },
         "estoque": {
           "2020": 1,
           "2021": 1
         },
         "entradas": {
-          "2020": 1,
-          "2021": 1
+          "2021": 1,
+          "2020": 1
         },
         "estoqueHl": [
-          "2021"
+          2021
         ],
         "area": {
           "Cível": 2
@@ -678,16 +672,16 @@
           "1º Grau": 2
         },
         "polo": {
-          "Polo ativo": 2
+          "Polo Ativo": 2
         },
         "kpi": {
           "proc": 2,
           "ativos": 0,
-          "procSub": "2 encerrados",
+          "procSub": "0 ativos · 2 encerrados",
           "areas": 1,
-          "areasSub": "Cível (2)",
+          "areasSub": "Cível",
           "trib": 2,
-          "tribSub": "TJSC (1), OUTROS (1)"
+          "tribSub": "TJSC, OUTROS"
         },
         "esforco": {
           "prazano": {
@@ -732,15 +726,13 @@
         "encerradosTotal": 0,
         "encerrados": {},
         "estoque": {
-          "2024": 1,
-          "2025": 1,
-          "2026": 1
+          "2024": 1
         },
         "entradas": {
           "2024": 1
         },
         "estoqueHl": [
-          "2026"
+          2024
         ],
         "area": {
           "Cível": 1
@@ -755,16 +747,16 @@
           "1º Grau": 1
         },
         "polo": {
-          "Polo passivo": 1
+          "Polo Ativo": 1
         },
         "kpi": {
           "proc": 1,
           "ativos": 1,
-          "procSub": "0 encerrados",
+          "procSub": "1 ativos · 0 encerrados",
           "areas": 1,
-          "areasSub": "Cível (1)",
+          "areasSub": "Cível",
           "trib": 1,
-          "tribSub": "TJSC (1)"
+          "tribSub": "TJSC"
         },
         "esforco": {
           "prazano": {
@@ -810,7 +802,7 @@
         "kpi": {
           "proc": 0,
           "ativos": 0,
-          "procSub": "0 encerrados",
+          "procSub": "0 ativos · 0 encerrados",
           "areas": 0,
           "areasSub": "",
           "trib": 0,
@@ -869,7 +861,7 @@
         "kpi": {
           "proc": 0,
           "ativos": 0,
-          "procSub": "0 encerrados",
+          "procSub": "0 ativos · 0 encerrados",
           "areas": 0,
           "areasSub": "",
           "trib": 0,
@@ -913,7 +905,7 @@
         "kpi": {
           "proc": 0,
           "ativos": 0,
-          "procSub": "0 encerrados",
+          "procSub": "0 ativos · 0 encerrados",
           "areas": 0,
           "areasSub": "",
           "trib": 0,

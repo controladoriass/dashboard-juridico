@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 46,
-    "ativos": 42,
+    "proc": 44,
+    "ativos": 40,
     "areas": 5,
-    "trib": 4,
-    "procSub": "42 ativos · 4 encerrados",
+    "trib": 5,
+    "procSub": "40 ativos · 4 encerrados",
     "areasSub": "Cível, Administrativo, Tributário",
     "tribSub": "TJSC, OUTROS, Procon Municipal",
     "encerrados": 4
@@ -14,58 +14,60 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 2230415,
       "dataset": {
-        "total": 46,
-        "ativos": 42,
+        "total": 44,
+        "ativos": 40,
         "encerrados": {
-          "2020": 1,
           "2023": 1,
-          "2024": 1,
-          "2025": 1
+          "2020": 1,
+          "2025": 1,
+          "2024": 1
         },
         "areaTotal": 42,
         "estoque": {
           "2019": 13,
           "2020": 13,
           "2021": 19,
-          "2022": 31,
-          "2023": 33,
-          "2024": 36,
-          "2025": 37,
-          "2026": 42
+          "2022": 30,
+          "2023": 32,
+          "2024": 35,
+          "2025": 36,
+          "2026": 40
         },
         "entradas": {
+          "2024": 4,
+          "2023": 3,
+          "2022": 11,
+          "2021": 6,
           "2019": 13,
           "2020": 1,
-          "2021": 6,
-          "2022": 12,
-          "2023": 3,
-          "2024": 4,
-          "2025": 2,
-          "2026": 5
+          "2026": 4,
+          "2025": 2
         },
         "area": {
-          "Cível": 29,
-          "Administrativo": 6,
+          "Administrativo": 7,
           "Tributário": 4,
-          "Penal-Criminal": 2,
-          "Trabalhista": 1
+          "Cível": 30,
+          "Trabalhista": 1,
+          "Penal-Criminal": 2
         },
         "uf": {
-          "SC": 41
+          "SC": 41,
+          "N/D": 3
         },
         "instancia": {
-          "1º Grau": 27,
-          "2º Grau": 5
+          "1º Grau": 28,
+          "2º Grau": 5,
+          "N/D": 11
         },
         "polo": {
-          "Terceiro/Outros": 23,
-          "Polo passivo": 11,
-          "Polo ativo": 8
+          "Polo Passivo": 26,
+          "Polo Ativo": 17,
+          "Terceiro": 1
         },
         "tribunais": {
-          "TJSC": 30,
-          "OUTROS": 8,
           "Procon Municipal": 2,
+          "OUTROS": 11,
+          "TJSC": 29,
           "TRT12": 1,
           "TRF4": 1
         },
@@ -133,17 +135,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 46,
-          "ativos": 42,
+          "proc": 44,
+          "ativos": 40,
+          "procSub": "40 ativos · 4 encerrados",
           "areas": 5,
-          "trib": 4,
-          "procSub": "42 ativos · 4 encerrados",
           "areasSub": "Cível, Administrativo, Tributário",
+          "trib": 5,
           "tribSub": "TJSC, OUTROS, Procon Municipal"
         },
         "esforco": {
           "comProducao": 45,
-          "tramitacaoDias": 1442,
+          "tramitacaoDias": 1739.1,
           "prazano": {
             "2021": 10,
             "2022": 212,
@@ -199,7 +201,7 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     },
@@ -207,8 +209,8 @@
       "nome": "Itajai Comercio de Veiculos LTDA",
       "_idCliente": 2230415,
       "dataset": {
-        "total": 18,
-        "ativos": 16,
+        "total": 17,
+        "ativos": 15,
         "encerrados": {
           "2020": 1,
           "2023": 1
@@ -508,8 +510,8 @@
       "nome": "Gf Empreendimentos Imobiliários LTDA",
       "_idCliente": 2120257,
       "dataset": {
-        "total": 9,
-        "ativos": 7,
+        "total": 8,
+        "ativos": 6,
         "encerrados": {
           "2024": 1,
           "2025": 1

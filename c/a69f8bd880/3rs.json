@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 75,
-    "ativos": 69,
+    "proc": 74,
+    "ativos": 68,
     "areas": 6,
-    "trib": 5,
-    "procSub": "69 ativos · 6 encerrados",
+    "trib": 8,
+    "procSub": "68 ativos · 6 encerrados",
     "areasSub": "Tributário, Cível, Bancário",
     "tribSub": "TJSC, TRF4, JFSC",
     "encerrados": 6
@@ -14,58 +14,57 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 676852714,
       "dataset": {
-        "total": 75,
-        "ativos": 69,
+        "total": 74,
+        "ativos": 68,
         "encerrados": {
           "2024": 5,
           "2025": 1
         },
         "areaTotal": 69,
         "estoque": {
-          "2022": 0,
           "2023": 31,
-          "2024": 55,
-          "2025": 68,
-          "2026": 75
+          "2024": 49,
+          "2025": 61,
+          "2026": 68
         },
         "entradas": {
-          "2024": 24,
-          "2023": 31,
+          "2024": 23,
+          "2026": 7,
           "2025": 13,
-          "2026": 7
+          "2023": 31
         },
         "area": {
-          "Tributário": 38,
           "Cível": 18,
-          "Bancário": 11,
-          "Trabalhista": 3,
           "Pública": 2,
-          "OUTROS": 1,
-          "Penal-Criminal": 1
+          "Tributário": 38,
+          "Penal-Criminal": 1,
+          "Bancário": 12,
+          "Trabalhista": 2
         },
         "uf": {
-          "SC": 59,
-          "RS": 7,
-          "OUTROS": 3,
+          "OUTROS": 5,
+          "SC": 58,
+          "SP": 2,
           "PR": 2,
-          "SP": 1
+          "RS": 7
         },
         "instancia": {
-          "1º Grau": 62,
-          "2º Grau": 12
+          "1º Grau": 61,
+          "2º Grau": 13
         },
         "polo": {
-          "Terceiro/Outros": 14,
-          "Polo ativo": 36,
-          "Polo passivo": 22
+          "Polo Ativo": 44,
+          "Polo Passivo": 30
         },
         "tribunais": {
-          "TJSC": 33,
-          "TRF4": 17,
-          "JFSC": 16,
           "OUTROS": 5,
-          "TRT12": 2,
-          "TJSP": 1
+          "TJSC": 32,
+          "TRF4": 17,
+          "Justiça Federal de Santa Catarina": 3,
+          "TJSP": 2,
+          "ADMINISTRATIVO": 1,
+          "JFSC": 13,
+          "TRT12": 1
         },
         "ranking": [
           [
@@ -131,17 +130,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 75,
-          "ativos": 69,
+          "proc": 74,
+          "ativos": 68,
+          "procSub": "68 ativos · 6 encerrados",
           "areas": 6,
-          "trib": 5,
-          "procSub": "69 ativos · 6 encerrados",
           "areasSub": "Tributário, Cível, Bancário",
+          "trib": 8,
           "tribSub": "TJSC, TRF4, JFSC"
         },
         "esforco": {
           "comProducao": 72,
-          "tramitacaoDias": 739,
+          "tramitacaoDias": 787.1,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -167,7 +166,7 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       },
       "encerradosTotal": 6
@@ -444,8 +443,8 @@
       "nome": "Charlene Reis - 3RS",
       "_idCliente": 676704719,
       "dataset": {
-        "total": 12,
-        "ativos": 10,
+        "total": 11,
+        "ativos": 9,
         "encerrados": {
           "2024": 2
         },
@@ -639,8 +638,8 @@
       "nome": "3RS Confeccoes LTDA - 3RS",
       "_idCliente": 676683547,
       "dataset": {
-        "total": 40,
-        "ativos": 37,
+        "total": 41,
+        "ativos": 38,
         "encerrados": {
           "2024": 2,
           "2025": 1
@@ -901,8 +900,8 @@
       "nome": "Ecr Soluçoes Texteis LTDA - 3RS",
       "_idCliente": 676001655,
       "dataset": {
-        "total": 9,
-        "ativos": 9,
+        "total": 8,
+        "ativos": 8,
         "encerrados": {},
         "areaTotal": 9,
         "estoque": {
