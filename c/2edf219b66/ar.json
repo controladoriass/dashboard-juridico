@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 280,
-    "ativos": 192,
+    "proc": 279,
+    "ativos": 191,
     "areas": 11,
     "trib": 12,
-    "procSub": "192 ativos · 88 encerrados",
+    "procSub": "191 ativos · 88 encerrados",
     "areasSub": "Cível, Tributário, Trabalhista",
     "tribSub": "TJSC, OUTROS, TRT12",
     "encerrados": 88
@@ -14,24 +14,30 @@
       "nome": "Panorama do Grupo",
       "_idCliente": 0,
       "dataset": {
-        "total": 280,
-        "ativos": 192,
+        "total": 279,
+        "ativos": 191,
         "encerrados": {
-          "2013": 9,
-          "2014": 10,
-          "2015": 12,
-          "2016": 4,
-          "2017": 3,
+          "2026": 17,
+          "2025": 9,
+          "2024": 5,
+          "2023": 2,
+          "2022": 7,
           "2019": 7,
           "2020": 3,
-          "2022": 7,
-          "2023": 2,
-          "2024": 5,
-          "2025": 9,
-          "2026": 17
+          "2015": 3
         },
         "areaTotal": 11,
         "estoque": {
+          "2012": 2,
+          "2013": 21,
+          "2014": 35,
+          "2015": 50,
+          "2016": 61,
+          "2017": 70,
+          "2018": 77,
+          "2019": 101,
+          "2020": 121,
+          "2021": 147,
           "2022": 157,
           "2023": 168,
           "2024": 194,
@@ -39,67 +45,78 @@
           "2026": 223
         },
         "entradas": {
-          "2022": 18,
-          "2023": 13,
-          "2024": 31,
+          "2026": 24,
           "2025": 31,
-          "2026": 24
+          "2024": 31,
+          "2023": 13,
+          "2022": 18,
+          "2021": 26,
+          "2020": 23,
+          "2019": 33,
+          "2018": 7,
+          "2013": 19,
+          "2016": 11,
+          "2015": 18,
+          "2014": 14,
+          "2017": 9,
+          "2012": 2
         },
         "estoqueHl": [
           "2026"
         ],
         "area": {
-          "Cível": 125,
-          "Tributário": 73,
-          "Trabalhista": 63,
-          "Bancário": 9,
-          "Administrativo": 6,
-          "Penal-Criminal": 5,
+          "Trabalhista": 60,
+          "Tributário": 72,
+          "Cível": 122,
           "Recuperação Judicial": 1,
+          "Administrativo": 6,
+          "Bancário": 9,
           "Aduaneiro": 1,
+          "Penal-Criminal": 5,
           "Ambiental": 1,
-          "Outros": 1,
+          "Não informada": 1,
           "Imobiliário": 1
         },
         "uf": {
-          "SC": 222,
+          "SC": 221,
           "OUTROS": 35,
-          "SP": 10,
-          "DF": 9,
-          "PR": 2,
           "MG": 1,
+          "DF": 9,
+          "SP": 10,
+          "PR": 2,
           "RS": 1
         },
         "instancia": {
-          "1º Grau": 204,
+          "1º Grau": 203,
           "2º Grau": 35,
-          "Superiores": 16
+          "Superiores": 16,
+          "N/D": 25
         },
         "polo": {
-          "Polo ativo": 127,
-          "Polo passivo": 122,
-          "Terceiro/Outros": 31
+          "Polo passivo": 106,
+          "Terceiro/Outros": 43,
+          "Polo ativo": 130
         },
         "tribunais": {
-          "TJSC": 117,
-          "OUTROS": 69,
-          "TRT12": 39,
-          "TRF4": 33,
-          "TJSP": 11,
-          "STJ": 7,
+          "TRT12": 38,
+          "OUTROS": 67,
+          "TJSC": 114,
           "MINTRAB": 3,
+          "TJMG": 1,
           "STF": 2,
           "MPT": 2,
-          "TJMG": 1,
+          "TJSP": 10,
+          "STJ": 7,
+          "TRF4": 33,
           "TJRS": 1,
           "ALAC": 1
         },
         "ranking": [],
         "_complexidadeSoAtivos": false,
         "kpi": {
-          "proc": 280,
-          "ativos": 192,
-          "procSub": "192 ativos · 88 encerrados",
+          "proc": 279,
+          "ativos": 191,
+          "procSub": "191 ativos · 88 encerrados",
           "areas": 11,
           "areasSub": "Cível, Tributário, Trabalhista",
           "trib": 12,
@@ -159,14 +176,17 @@
         "total": 82,
         "ativos": 50,
         "encerrados": {
-          "2022": 5,
-          "2023": 2,
-          "2024": 5,
+          "2026": 17,
           "2025": 3,
-          "2026": 17
+          "2024": 5,
+          "2023": 2,
+          "2022": 5
         },
         "areaTotal": 8,
         "estoque": {
+          "2019": 3,
+          "2020": 11,
+          "2021": 18,
           "2022": 19,
           "2023": 23,
           "2024": 34,
@@ -174,55 +194,59 @@
           "2026": 50
         },
         "entradas": {
-          "2022": 6,
-          "2023": 6,
-          "2024": 16,
+          "2026": 19,
           "2025": 17,
-          "2026": 19
+          "2024": 16,
+          "2023": 6,
+          "2022": 6,
+          "2021": 7,
+          "2020": 8,
+          "2019": 3
         },
         "estoqueHl": [
           "2026"
         ],
         "area": {
           "Trabalhista": 29,
-          "Cível": 27,
           "Tributário": 19,
-          "Bancário": 3,
+          "Cível": 27,
           "Recuperação Judicial": 1,
           "Administrativo": 1,
+          "Bancário": 3,
           "Aduaneiro": 1,
           "Penal-Criminal": 1
         },
         "uf": {
           "SC": 61,
           "OUTROS": 11,
+          "MG": 1,
           "DF": 4,
           "SP": 3,
-          "MG": 1,
           "PR": 1,
           "RS": 1
         },
         "instancia": {
           "1º Grau": 67,
           "2º Grau": 9,
-          "Superiores": 5
+          "Superiores": 5,
+          "N/D": 1
         },
         "polo": {
-          "Polo ativo": 35,
-          "Polo passivo": 32,
-          "Terceiro/Outros": 15
+          "Polo passivo": 27,
+          "Terceiro/Outros": 18,
+          "Polo ativo": 37
         },
         "tribunais": {
-          "TJSC": 24,
           "TRT12": 20,
           "OUTROS": 19,
-          "TRF4": 5,
+          "TJSC": 24,
           "MINTRAB": 3,
+          "TJMG": 1,
+          "STF": 2,
+          "MPT": 1,
           "TJSP": 3,
           "STJ": 3,
-          "STF": 2,
-          "TJMG": 1,
-          "MPT": 1,
+          "TRF4": 5,
           "TJRS": 1
         },
         "ranking": [],
@@ -288,10 +312,23 @@
         "total": 99,
         "ativos": 71,
         "encerrados": {
-          "2025": 28
+          "2025": 2,
+          "2019": 3,
+          "2020": 2,
+          "2015": 1
         },
         "areaTotal": 6,
         "estoque": {
+          "2012": 1,
+          "2013": 9,
+          "2014": 15,
+          "2015": 23,
+          "2016": 27,
+          "2017": 31,
+          "2018": 35,
+          "2019": 49,
+          "2020": 54,
+          "2021": 71,
           "2022": 72,
           "2023": 75,
           "2024": 83,
@@ -299,47 +336,58 @@
           "2026": 90
         },
         "entradas": {
-          "2022": 1,
-          "2023": 3,
-          "2024": 8,
+          "2026": 2,
           "2025": 7,
-          "2026": 2
+          "2024": 8,
+          "2023": 3,
+          "2022": 1,
+          "2021": 17,
+          "2018": 4,
+          "2013": 8,
+          "2016": 4,
+          "2019": 18,
+          "2015": 9,
+          "2014": 6,
+          "2020": 7,
+          "2017": 4,
+          "2012": 1
         },
         "estoqueHl": [
           "2026"
         ],
         "area": {
+          "Bancário": 5,
+          "Ambiental": 1,
           "Cível": 50,
           "Trabalhista": 20,
           "Tributário": 19,
-          "Bancário": 5,
-          "Administrativo": 4,
-          "Ambiental": 1
+          "Administrativo": 4
         },
         "uf": {
           "SC": 81,
-          "OUTROS": 9,
           "SP": 7,
-          "DF": 2
+          "DF": 2,
+          "OUTROS": 9
         },
         "instancia": {
           "1º Grau": 68,
           "2º Grau": 14,
-          "Superiores": 2
+          "Superiores": 2,
+          "N/D": 15
         },
         "polo": {
-          "Polo ativo": 49,
-          "Polo passivo": 43,
-          "Terceiro/Outros": 7
+          "Polo ativo": 50,
+          "Terceiro/Outros": 13,
+          "Polo passivo": 36
         },
         "tribunais": {
           "TJSC": 38,
           "OUTROS": 27,
-          "TRF4": 13,
-          "TRT12": 11,
           "TJSP": 7,
           "STJ": 2,
-          "MPT": 1
+          "MPT": 1,
+          "TRF4": 13,
+          "TRT12": 11
         },
         "ranking": [],
         "_complexidadeSoAtivos": false,
@@ -402,11 +450,23 @@
         "total": 56,
         "ativos": 37,
         "encerrados": {
-          "2022": 8,
-          "2025": 11
+          "2025": 4,
+          "2015": 1,
+          "2019": 3,
+          "2022": 2
         },
         "areaTotal": 5,
         "estoque": {
+          "2012": 1,
+          "2013": 10,
+          "2014": 14,
+          "2015": 20,
+          "2016": 22,
+          "2017": 24,
+          "2018": 26,
+          "2019": 28,
+          "2020": 31,
+          "2021": 32,
           "2022": 33,
           "2023": 34,
           "2024": 39,
@@ -414,43 +474,54 @@
           "2026": 44
         },
         "entradas": {
-          "2022": 4,
-          "2023": 1,
-          "2024": 5,
+          "2026": 2,
           "2025": 7,
-          "2026": 2
+          "2024": 5,
+          "2023": 1,
+          "2022": 4,
+          "2013": 9,
+          "2019": 6,
+          "2020": 3,
+          "2017": 2,
+          "2016": 2,
+          "2014": 4,
+          "2018": 2,
+          "2021": 1,
+          "2015": 7,
+          "2012": 1
         },
         "estoqueHl": [
           "2026"
         ],
         "area": {
-          "Cível": 30,
           "Tributário": 23,
+          "Cível": 30,
           "Bancário": 1,
           "Não informada": 1,
           "Trabalhista": 1
         },
         "uf": {
           "SC": 40,
-          "OUTROS": 12,
+          "PR": 1,
           "DF": 3,
-          "PR": 1
+          "OUTROS": 12
         },
         "instancia": {
-          "1º Grau": 36,
           "2º Grau": 10,
-          "Superiores": 7
+          "1º Grau": 36,
+          "Superiores": 7,
+          "N/D": 3
         },
         "polo": {
           "Polo ativo": 29,
-          "Polo passivo": 22,
-          "Terceiro/Outros": 5
+          "Polo passivo": 21,
+          "Terceiro/Outros": 6
         },
         "tribunais": {
           "TJSC": 31,
-          "OUTROS": 14,
           "TRF4": 8,
           "STJ": 2,
+          "OUTROS": 14,
           "TRT12": 1
         },
         "ranking": [],
@@ -515,15 +586,27 @@
       "dataset": {
         "total": 11,
         "ativos": 6,
-        "encerrados": {},
+        "encerrados": {
+          "2015": 1
+        },
         "areaTotal": 3,
         "estoque": {
+          "2013": 1,
+          "2014": 5,
+          "2015": 5,
+          "2017": 6,
+          "2020": 7,
           "2023": 9,
           "2024": 10
         },
         "entradas": {
+          "2024": 1,
           "2023": 2,
-          "2024": 1
+          "2020": 1,
+          "2014": 4,
+          "2013": 1,
+          "2017": 1,
+          "2015": 1
         },
         "estoqueHl": [
           "2026"
@@ -606,52 +689,66 @@
       "nome": "RENZO LOGÍSTICA E SERVIÇOS EM TRANSPORTES EIRELI - AR",
       "_idCliente": 2122766,
       "dataset": {
-        "total": 19,
-        "ativos": 15,
-        "encerrados": {},
+        "total": 18,
+        "ativos": 14,
+        "encerrados": {
+          "2019": 1,
+          "2020": 1
+        },
         "areaTotal": 5,
         "estoque": {
+          "2016": 5,
+          "2017": 7,
+          "2019": 9,
+          "2020": 10,
+          "2021": 11,
           "2022": 16
         },
         "entradas": {
-          "2022": 5
+          "2022": 5,
+          "2021": 1,
+          "2016": 5,
+          "2020": 2,
+          "2019": 3,
+          "2017": 2
         },
         "estoqueHl": [
           "2026"
         ],
         "area": {
-          "Trabalhista": 8,
           "Tributário": 6,
+          "Administrativo": 1,
+          "Trabalhista": 8,
           "Penal-Criminal": 2,
-          "Cível": 2,
-          "Administrativo": 1
+          "Cível": 1
         },
         "uf": {
-          "SC": 18,
+          "SC": 17,
           "OUTROS": 1
         },
         "instancia": {
-          "1º Grau": 14,
+          "1º Grau": 13,
+          "N/D": 4,
           "2º Grau": 1
         },
         "polo": {
-          "Polo ativo": 2,
-          "Polo passivo": 14,
-          "Terceiro/Outros": 3
+          "Polo passivo": 10,
+          "Terceiro/Outros": 6,
+          "Polo ativo": 2
         },
         "tribunais": {
-          "TJSC": 6,
+          "TJSC": 5,
           "OUTROS": 5,
+          "ALAC": 1,
           "TRT12": 4,
-          "TRF4": 3,
-          "ALAC": 1
+          "TRF4": 3
         },
         "ranking": [],
         "_complexidadeSoAtivos": false,
         "kpi": {
-          "proc": 19,
-          "ativos": 15,
-          "procSub": "15 ativos · 4 encerrados",
+          "proc": 18,
+          "ativos": 14,
+          "procSub": "14 ativos · 4 encerrados",
           "areas": 5,
           "areasSub": "Trabalhista, Tributário, Penal-Criminal",
           "trib": 5,
@@ -718,7 +815,7 @@
           "ativos": 0,
           "procSub": "0 ativos · 0 encerrados",
           "areas": 0,
-          "areasSub": "—",
+          "areasSub": "",
           "trib": 0,
           "tribSub": ""
         },
@@ -767,7 +864,7 @@
           "ativos": 0,
           "procSub": "0 ativos · 0 encerrados",
           "areas": 0,
-          "areasSub": "—",
+          "areasSub": "",
           "trib": 0,
           "tribSub": ""
         },
@@ -799,8 +896,14 @@
         "ativos": 2,
         "encerrados": {},
         "areaTotal": 1,
-        "estoque": {},
-        "entradas": {},
+        "estoque": {
+          "2015": 1,
+          "2019": 2
+        },
+        "entradas": {
+          "2019": 1,
+          "2015": 1
+        },
         "estoqueHl": [
           "2026"
         ],
@@ -877,12 +980,16 @@
         "encerrados": {},
         "areaTotal": 3,
         "estoque": {
+          "2013": 1,
+          "2020": 3,
           "2023": 4,
           "2024": 5
         },
         "entradas": {
+          "2024": 1,
           "2023": 1,
-          "2024": 1
+          "2013": 1,
+          "2020": 2
         },
         "estoqueHl": [
           "2026"
@@ -896,7 +1003,8 @@
           "SC": 5
         },
         "instancia": {
-          "1º Grau": 4
+          "1º Grau": 4,
+          "N/D": 1
         },
         "polo": {
           "Polo ativo": 4,
@@ -969,8 +1077,8 @@
           "2026": 2
         },
         "entradas": {
-          "2022": 1,
-          "2026": 1
+          "2026": 1,
+          "2022": 1
         },
         "estoqueHl": [
           "2026"
@@ -1061,7 +1169,7 @@
           "2º Grau": 1
         },
         "polo": {
-          "Terceiro/Outros": 1
+          "Polo passivo": 1
         },
         "tribunais": {
           "TJSC": 1
@@ -1116,8 +1224,14 @@
         "ativos": 3,
         "encerrados": {},
         "areaTotal": 2,
-        "estoque": {},
-        "entradas": {},
+        "estoque": {
+          "2018": 1,
+          "2019": 3
+        },
+        "entradas": {
+          "2019": 2,
+          "2018": 1
+        },
         "estoqueHl": [
           "2026"
         ],
@@ -1129,6 +1243,7 @@
           "SC": 3
         },
         "instancia": {
+          "N/D": 1,
           "1º Grau": 2
         },
         "polo": {
