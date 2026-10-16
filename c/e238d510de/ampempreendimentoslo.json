@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 119,
-    "ativos": 99,
+    "proc": 116,
+    "ativos": 96,
     "areas": 8,
-    "trib": 5,
-    "procSub": "99 ativos · 20 encerrados",
+    "trib": 6,
+    "procSub": "96 ativos · 20 encerrados",
     "areasSub": "Cível, Tributário, Trabalhista",
     "tribSub": "TJSC, OUTROS, TRF4",
     "encerrados": 20
@@ -14,8 +14,8 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 2129993,
       "dataset": {
-        "total": 119,
-        "ativos": 99,
+        "total": 116,
+        "ativos": 96,
         "encerrados": {
           "2014": 2,
           "2015": 2,
@@ -40,10 +40,10 @@
           "2020": 49,
           "2021": 54,
           "2022": 67,
-          "2023": 82,
-          "2024": 91,
-          "2025": 108,
-          "2026": 119
+          "2023": 79,
+          "2024": 88,
+          "2025": 105,
+          "2026": 116
         },
         "entradas": {
           "2010": 7,
@@ -59,13 +59,13 @@
           "2020": 10,
           "2021": 5,
           "2022": 13,
-          "2023": 15,
+          "2023": 12,
           "2024": 9,
           "2025": 17,
           "2026": 11
         },
         "area": {
-          "Cível": 58,
+          "Cível": 55,
           "Tributário": 25,
           "Trabalhista": 14,
           "Imobiliário": 7,
@@ -75,25 +75,25 @@
           "Administrativo": 2
         },
         "uf": {
-          "SC": 100,
+          "SC": 97,
           "OUTROS": 15,
           "DF": 2,
           "RS": 1,
           "SP": 1
         },
         "instancia": {
-          "1º Grau": 98,
+          "1º Grau": 95,
           "2º Grau": 15,
           "N/I": 5,
           "Superiores": 1
         },
         "polo": {
-          "Polo ativo": 67,
-          "Polo passivo": 39,
+          "Polo ativo": 65,
+          "Polo passivo": 38,
           "Terceiro/Outros": 13
         },
         "tribunais": {
-          "TJSC": 57,
+          "TJSC": 54,
           "OUTROS": 40,
           "TRF4": 11,
           "TRT12": 8,
@@ -103,13 +103,14 @@
         "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 119,
-          "ativos": 99,
+          "proc": 116,
+          "ativos": 96,
+          "procSub": "96 ativos · 20 encerrados",
           "areas": 8,
-          "trib": 5,
-          "procSub": "99 ativos · 20 encerrados",
           "areasSub": "Cível, Tributário, Trabalhista",
-          "tribSub": "TJSC, OUTROS, TRF4"
+          "trib": 6,
+          "tribSub": "TJSC, OUTROS, TRF4",
+          "encerrados": 20
         },
         "esforco": {
           "comProducao": 119,
@@ -151,8 +152,8 @@
       "nome": "Amp Empreendimentos Logísticos LTDA",
       "_idCliente": 2129993,
       "dataset": {
-        "total": 119,
-        "ativos": 99,
+        "total": 116,
+        "ativos": 96,
         "encerrados": {
           "2014": 2,
           "2015": 2,
