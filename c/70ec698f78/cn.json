@@ -2,105 +2,118 @@
   "nome": "Grupo CN",
   "nomeHtml": "Grupo <em>CN</em>",
   "kpiGrupo": {
-    "proc": 158,
-    "ativos": 62,
-    "encerrados": 96,
-    "areas": 6,
-    "trib": 12,
-    "procSub": "62 ativos • 96 encerrados",
-    "areasSub": "Cível, Trabalhista, Tributário",
-    "tribSub": "TJSC, OUTROS, TJAP",
+    "proc": 225,
+    "ativos": 116,
+    "procSub": "116 ativos · 109 encerrados",
+    "areas": 7,
+    "areasSub": "Trabalhista, Cível, Tributário",
+    "trib": 14,
+    "tribSub": "TJSC, TRT12, ADMINISTRATIVO",
     "horas": "3.279",
     "horasSub": "horas apontadas",
-    "valor": "·"
+    "valor": "·",
+    "encerrados": 109
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
+      "nomeHtml": "Panorama Geral do Grupo",
       "dataset": {
-        "total": 158,
-        "ativos": 62,
-        "encerradosTotal": 96,
+        "total": 225,
+        "ativos": 116,
+        "encerradosTotal": 109,
         "encerrados": {
-          "2020": 1,
-          "2021": 47,
-          "2022": 7,
+          "2026": 10,
+          "2025": 17,
+          "2024": 17,
           "2023": 10,
-          "2024": 6,
-          "2025": 16,
-          "2026": 9
+          "2022": 7,
+          "2021": 47,
+          "2020": 1
         },
         "estoque": {
           "2019": 47,
           "2020": 57,
           "2021": 25,
-          "2022": 28,
-          "2023": 30,
-          "2024": 38,
-          "2025": 49,
-          "2026": 62
+          "2022": 30,
+          "2023": 35,
+          "2024": 45,
+          "2025": 78,
+          "2026": 115
         },
         "entradas": {
-          "2019": 47,
-          "2020": 11,
+          "2026": 48,
+          "2025": 50,
+          "2024": 27,
+          "2023": 15,
+          "2022": 12,
           "2021": 15,
-          "2022": 10,
-          "2023": 12,
-          "2024": 14,
-          "2025": 27,
-          "2026": 22
+          "2019": 47,
+          "2020": 11
         },
         "estoqueHl": [
           "2026"
         ],
         "area": {
-          "Cível": 84,
-          "Trabalhista": 46,
+          "Trabalhista": 111,
+          "Cível": 82,
+          "Administrativo": 5,
           "Tributário": 18,
+          "Família e Sucessões": 1,
           "Penal-Criminal": 5,
-          "Administrativo": 4,
-          "Família e Sucessões": 1
+          "Civel": 3
         },
         "uf": {
-          "SC": 131,
-          "AP": 9,
-          "OUTROS": 6,
-          "AL": 6,
+          "SC": 190,
+          "N/D": 8,
+          "MS": 1,
+          "GO": 1,
           "PR": 3,
-          "RS": 2,
-          "DF": 1
+          "PB": 1,
+          "PE": 2,
+          "RS": 3,
+          "DF": 1,
+          "AP": 9,
+          "AL": 6
         },
         "tribunais": {
-          "TJSC": 67,
-          "OUTROS": 62,
-          "TJAP": 9,
-          "TJAL": 6,
+          "TRT12": 55,
+          "OUTROS": 21,
+          "TRT24": 1,
+          "TJSC": 72,
+          "TRT18": 1,
+          "ADMINISTRATIVO": 50,
           "TJPR": 3,
-          "SEFAZ": 3,
+          "TRT13": 1,
+          "TRT06": 2,
           "TJRS": 2,
-          "TRT12": 2,
-          "PROCON-SC": 1,
-          "PROCON": 1,
-          "TJDFT": 1,
-          "TRF4": 1
+          "TJDF": 1,
+          "TJAP": 9,
+          "TRF4": 1,
+          "TJAL": 6
         },
         "instancia": {
-          "1º Grau": 146,
-          "2º Grau": 12
+          "1º Grau": 143,
+          "2º Grau": 18,
+          "Superiores": 3,
+          "N/D": 48,
+          "1 Grau": 11,
+          "2 Grau": 2
         },
         "polo": {
-          "Polo passivo": 90,
-          "Polo ativo": 36,
-          "Terceiro/Outros": 32
+          "Polo passivo": 158,
+          "Polo ativo": 60,
+          "Terceiro/Outros": 7
         },
         "kpi": {
-          "proc": 158,
-          "ativos": 62,
-          "procSub": "62 ativos • 96 encerrados",
-          "areas": 6,
-          "areasSub": "Cível, Trabalhista, Tributário",
-          "trib": 12,
-          "tribSub": "TJSC, OUTROS, TJAP"
+          "proc": 225,
+          "ativos": 116,
+          "procSub": "116 ativos · 109 encerrados",
+          "areas": 7,
+          "areasSub": "Trabalhista, Cível, Tributário",
+          "trib": 14,
+          "tribSub": "TJSC, TRT12, ADMINISTRATIVO",
+          "encerrados": 109
         },
         "esforco": {
           "prazano": {
@@ -144,8 +157,8 @@
             "DILIGENCIA": 1,
             "EXTRAJUDICIAL": 848
           },
-          "tramitacaoDias": 527,
-          "comProducao": 158,
+          "tramitacaoDias": 517.6,
+          "comProducao": 225,
           "people": [
             [
               "João Paulo Felisberto",
@@ -242,96 +255,107 @@
           "media": 14.58,
           "mediaAtivos": 28.52
         },
-        "_panorama": true
-      }
+        "_panorama": true,
+        "areaTotal": 7
+      },
+      "subtitle": null,
+      "_panorama": true
     },
     "cn_construtora": {
-      "_idCliente": 2129814,
       "nome": "CN Construtora e Incorporadora LTDA",
+      "nomeHtml": "CN Construtora e Incorporadora LTDA",
       "dataset": {
-        "total": 149,
-        "ativos": 57,
-        "encerradosTotal": 92,
+        "total": 205,
+        "ativos": 101,
+        "encerradosTotal": 104,
         "encerrados": {
           "2020": 1,
           "2021": 47,
           "2022": 7,
           "2023": 10,
-          "2024": 5,
-          "2025": 16,
+          "2024": 16,
+          "2025": 17,
           "2026": 6
         },
         "estoque": {
           "2019": 47,
           "2020": 55,
           "2021": 20,
-          "2022": 22,
-          "2023": 22,
-          "2024": 31,
-          "2025": 42,
-          "2026": 57
+          "2022": 24,
+          "2023": 27,
+          "2024": 36,
+          "2025": 66,
+          "2026": 101
         },
         "entradas": {
           "2019": 47,
           "2020": 9,
           "2021": 12,
-          "2022": 9,
-          "2023": 10,
-          "2024": 14,
-          "2025": 27,
-          "2026": 21
+          "2022": 11,
+          "2023": 13,
+          "2024": 25,
+          "2025": 47,
+          "2026": 41
         },
-        "estoqueHl": [
-          "2026"
-        ],
+        "estoqueHl": [],
         "area": {
-          "Cível": 77,
-          "Trabalhista": 45,
+          "Trabalhista": 100,
+          "Cível": 78,
           "Tributário": 18,
           "Administrativo": 4,
           "Penal-Criminal": 4,
           "Família e Sucessões": 1
         },
         "uf": {
-          "SC": 123,
+          "SC": 172,
           "AP": 9,
+          "N/I": 7,
           "AL": 6,
-          "OUTROS": 5,
           "PR": 3,
+          "PE": 2,
           "RS": 2,
+          "MS": 1,
+          "GO": 1,
+          "PB": 1,
           "DF": 1
         },
         "tribunais": {
-          "TJSC": 63,
-          "OUTROS": 57,
+          "TJSC": 67,
+          "Nao informado": 60,
+          "TRT12": 46,
           "TJAP": 9,
           "TJAL": 6,
           "TJPR": 3,
           "SEFAZ": 3,
+          "TRT06": 2,
           "TJRS": 2,
-          "TRT12": 2,
+          "TRT24": 1,
+          "TRT18": 1,
           "PROCON-SC": 1,
-          "PROCON": 1,
+          "TRT13": 1,
+          "Procon Municipal": 1,
           "TJDFT": 1,
           "TRF4": 1
         },
         "instancia": {
-          "1º Grau": 138,
-          "2º Grau": 11
+          "1º Grau": 137,
+          "Nao informado": 48,
+          "2º Grau": 18,
+          "Superiores": 2
         },
         "polo": {
-          "Polo passivo": 88,
-          "Polo ativo": 33,
+          "Polo passivo": 148,
+          "Polo ativo": 29,
           "Terceiro/Outros": 28
         },
         "kpi": {
-          "proc": 149,
-          "ativos": 57,
-          "procSub": "57 ativos • 92 encerrados",
+          "proc": 205,
+          "ativos": 101,
+          "procSub": "101 ativos | 104 encerrados",
           "areas": 6,
-          "areasSub": "Cível, Trabalhista, Tributário",
-          "trib": 12,
-          "tribSub": "TJSC, OUTROS, TJAP"
+          "areasSub": "Trabalhista, Cível, Tributário",
+          "trib": 15,
+          "tribSub": "TJSC, TRT12, TJAP"
         },
         "esforco": {
           "prazano": {
@@ -475,51 +499,187 @@
         }
       }
     },
+    "pedro_nozor": {
+      "nome": "Pedro Nozor Ferreira Neto",
+      "nomeHtml": "Pedro Nozor Ferreira Neto",
+      "dataset": {
+        "total": 4,
+        "ativos": 0,
+        "encerradosTotal": 4,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 1,
+          "2025": 0,
+          "2026": 3
+        },
+        "estoque": {
+          "2019": 0,
+          "2020": 2,
+          "2021": 3,
+          "2022": 3,
+          "2023": 4,
+          "2024": 3,
+          "2025": 3,
+          "2026": 0
+        },
+        "entradas": {
+          "2019": 0,
+          "2020": 2,
+          "2021": 1,
+          "2022": 0,
+          "2023": 1,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {
+          "Cível": 2,
+          "Penal-Criminal": 1,
+          "Trabalhista": 1
+        },
+        "uf": {
+          "SC": 4
+        },
+        "tribunais": {
+          "Nao informado": 3,
+          "TJSC": 1
+        },
+        "instancia": {
+          "1º Grau": 4
+        },
+        "polo": {
+          "Terceiro/Outros": 2,
+          "Polo passivo": 1,
+          "Polo ativo": 1
+        },
+        "kpi": {
+          "proc": 4,
+          "ativos": 0,
+          "procSub": "0 ativos | 4 encerrados",
+          "areas": 3,
+          "areasSub": "Cível, Penal-Criminal, Trabalhista",
+          "trib": 1,
+          "tribSub": "TJSC"
+        },
+        "esforco": {
+          "prazano": {
+            "2023": 6
+          },
+          "audano": {
+            "2023": 16
+          },
+          "tarefano": {
+            "2020": 2,
+            "2021": 5,
+            "2023": 1
+          },
+          "extrajudano": {},
+          "atividades": {
+            "TAREFA": 8,
+            "AUDIENCIA": 16,
+            "PRAZO": 6
+          },
+          "tramitacaoDias": 0,
+          "comProducao": 4,
+          "people": [
+            [
+              "Elis Regina de Ramos Silva",
+              4
+            ],
+            [
+              "Controladoria",
+              2
+            ],
+            [
+              "Joyce Menon dos Santos",
+              1
+            ],
+            [
+              "Luiz Ricardo Debértolis da Mota",
+              1
+            ],
+            [
+              "Daniel Fioreze",
+              1
+            ]
+          ]
+        },
+        "horas": {
+          "total": 1.97,
+          "horasano": {
+            "2026": 0.72,
+            "2023": 1.25
+          },
+          "media": 0.49
+        }
+      }
+    },
     "brava_garden": {
-      "_idCliente": 2160797,
       "nome": "Brava Garden Home Club",
+      "nomeHtml": "Brava Garden Home Club",
       "dataset": {
         "total": 2,
         "ativos": 2,
         "encerradosTotal": 0,
-        "encerrados": {},
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "estoque": {
+          "2019": 0,
+          "2020": 0,
           "2021": 1,
-          "2022": 2
+          "2022": 2,
+          "2023": 2,
+          "2024": 2,
+          "2025": 2,
+          "2026": 2
         },
         "entradas": {
+          "2019": 0,
+          "2020": 0,
           "2021": 1,
-          "2022": 1
+          "2022": 1,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
         },
-        "estoqueHl": [
-          "2022"
-        ],
+        "estoqueHl": [],
         "area": {
           "Cível": 2
         },
         "uf": {
-          "OUTROS": 1,
+          "N/I": 1,
           "SC": 1
         },
         "tribunais": {
-          "OUTROS": 2
+          "Nao informado": 2
         },
         "instancia": {
           "1º Grau": 2
         },
         "polo": {
           "Terceiro/Outros": 1,
-          "Polo ativo": 1,
-          "Polo passivo": 0
+          "Polo ativo": 1
         },
         "kpi": {
           "proc": 2,
           "ativos": 2,
-          "procSub": "2 ativos • 0 encerrados",
+          "procSub": "2 ativos | 0 encerrados",
           "areas": 1,
           "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "OUTROS"
+          "trib": 0,
+          "tribSub": ""
         },
         "esforco": {
           "prazano": {
@@ -555,53 +715,145 @@
         }
       }
     },
-    "brava_ocean": {
-      "_idCliente": 676704714,
-      "nome": "Brava Ocean SPE LTDA",
+    "brava_horizon": {
+      "nome": "Brava Horizon SPE LTDA",
+      "nomeHtml": "Brava Horizon SPE LTDA",
       "dataset": {
-        "total": 3,
-        "ativos": 3,
+        "total": 0,
+        "ativos": 0,
         "encerradosTotal": 0,
-        "encerrados": {},
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
         "estoque": {
-          "2021": 1,
-          "2023": 2,
-          "2026": 3
+          "2019": 0,
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
         },
         "entradas": {
-          "2021": 1,
-          "2023": 1,
+          "2019": 0,
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
+          "2026": 0
+        },
+        "estoqueHl": [],
+        "area": {},
+        "uf": {},
+        "tribunais": {},
+        "instancia": {},
+        "polo": {},
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos | 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
+        },
+        "esforco": {
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "atividades": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0,
+          "people": []
+        },
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {}
+        }
+      }
+    },
+    "brava_ocean": {
+      "nome": "Brava Ocean SPE LTDA",
+      "nomeHtml": "Brava Ocean SPE LTDA",
+      "dataset": {
+        "total": 14,
+        "ativos": 13,
+        "encerradosTotal": 1,
+        "encerrados": {
+          "2020": 0,
+          "2021": 0,
+          "2022": 0,
+          "2023": 0,
+          "2024": 0,
+          "2025": 0,
           "2026": 1
         },
-        "estoqueHl": [
-          "2026"
-        ],
+        "estoque": {
+          "2019": 0,
+          "2020": 0,
+          "2021": 1,
+          "2022": 1,
+          "2023": 2,
+          "2024": 4,
+          "2025": 7,
+          "2026": 13
+        },
+        "entradas": {
+          "2019": 0,
+          "2020": 0,
+          "2021": 1,
+          "2022": 0,
+          "2023": 1,
+          "2024": 2,
+          "2025": 3,
+          "2026": 7
+        },
+        "estoqueHl": [],
         "area": {
-          "Cível": 3
+          "Trabalhista": 10,
+          "Civel": 3,
+          "Administrativo": 1
         },
         "uf": {
-          "SC": 3
+          "SC": 13,
+          "RS": 1
         },
         "tribunais": {
-          "TJSC": 3
+          "TRT12": 9,
+          "TJSC": 4,
+          "ME": 1
         },
         "instancia": {
-          "1º Grau": 2,
-          "2º Grau": 1
+          "1 Grau": 11,
+          "2 Grau": 2,
+          "Superiores": 1
         },
         "polo": {
-          "Terceiro/Outros": 1,
-          "Polo passivo": 1,
+          "Polo passivo": 11,
+          "Terceiro/Outros": 2,
           "Polo ativo": 1
         },
         "kpi": {
-          "proc": 3,
-          "ativos": 3,
-          "procSub": "3 ativos • 0 encerrados",
-          "areas": 1,
-          "areasSub": "Cível",
-          "trib": 1,
-          "tribSub": "TJSC"
+          "proc": 14,
+          "ativos": 13,
+          "procSub": "13 ativos | 1 encerrados",
+          "areas": 3,
+          "areasSub": "Trabalhista, Civel, Administrativo",
+          "trib": 3,
+          "tribSub": "TRT12, TJSC, ME"
         },
         "esforco": {
           "prazano": {
@@ -726,162 +978,6 @@
           },
           "media": 27.31,
           "mediaAtivos": 29.41
-        }
-      }
-    },
-    "pedro_nozor": {
-      "_idCliente": 2125055,
-      "nome": "Pedro Nozor Ferreira Neto",
-      "dataset": {
-        "total": 4,
-        "ativos": 0,
-        "encerradosTotal": 4,
-        "encerrados": {
-          "2024": 1,
-          "2026": 3
-        },
-        "estoque": {
-          "2020": 2,
-          "2021": 3,
-          "2023": 4,
-          "2024": 3,
-          "2026": 0
-        },
-        "entradas": {
-          "2020": 2,
-          "2021": 1,
-          "2023": 1
-        },
-        "estoqueHl": [
-          "2026"
-        ],
-        "area": {
-          "Cível": 2,
-          "Penal-Criminal": 1,
-          "Trabalhista": 1
-        },
-        "uf": {
-          "SC": 4
-        },
-        "tribunais": {
-          "OUTROS": 3,
-          "TJSC": 1
-        },
-        "instancia": {
-          "1º Grau": 4
-        },
-        "polo": {
-          "Terceiro/Outros": 2,
-          "Polo passivo": 1,
-          "Polo ativo": 1
-        },
-        "kpi": {
-          "proc": 4,
-          "ativos": 0,
-          "procSub": "0 ativos • 4 encerrados",
-          "areas": 3,
-          "areasSub": "Cível, Penal-Criminal, Trabalhista",
-          "trib": 2,
-          "tribSub": "OUTROS, TJSC"
-        },
-        "esforco": {
-          "prazano": {
-            "2023": 6
-          },
-          "audano": {
-            "2023": 16
-          },
-          "tarefano": {
-            "2020": 2,
-            "2021": 5,
-            "2023": 1
-          },
-          "extrajudano": {},
-          "atividades": {
-            "TAREFA": 8,
-            "AUDIENCIA": 16,
-            "PRAZO": 6
-          },
-          "tramitacaoDias": 0,
-          "comProducao": 4,
-          "people": [
-            [
-              "Elis Regina de Ramos Silva",
-              4
-            ],
-            [
-              "Controladoria",
-              2
-            ],
-            [
-              "Joyce Menon dos Santos",
-              1
-            ],
-            [
-              "Luiz Ricardo Debértolis da Mota",
-              1
-            ],
-            [
-              "Daniel Fioreze",
-              1
-            ]
-          ]
-        },
-        "horas": {
-          "total": 1.97,
-          "horasano": {
-            "2026": 0.72,
-            "2023": 1.25
-          },
-          "media": 0.49
-        }
-      }
-    },
-    "brava_horizon": {
-      "_idCliente": 676683263,
-      "nome": "Brava Horizon SPE LTDA",
-      "dataset": {
-        "total": 0,
-        "ativos": 0,
-        "encerradosTotal": 0,
-        "encerrados": {},
-        "estoque": {},
-        "entradas": {},
-        "estoqueHl": [],
-        "area": {},
-        "uf": {},
-        "tribunais": {},
-        "instancia": {},
-        "polo": {
-          "Polo ativo": 0,
-          "Polo passivo": 0,
-          "Terceiro/Outros": 0
-        },
-        "kpi": {
-          "proc": 0,
-          "ativos": 0,
-          "procSub": "0 ativos • 0 encerrados",
-          "areas": 0,
-          "areasSub": "",
-          "trib": 0,
-          "tribSub": ""
-        },
-        "esforco": {
-          "prazano": {},
-          "audano": {},
-          "tarefano": {},
-          "extrajudano": {},
-          "atividades": {},
-          "extrajudtipo": {},
-          "tramitacaoDias": 0,
-          "comProducao": 0,
-          "people": []
-        },
-        "horas": {
-          "total": 0,
-          "media": 0,
-          "mediaAtivos": 0,
-          "horasano": {}
         }
       }
     }
