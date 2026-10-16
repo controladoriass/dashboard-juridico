@@ -5,7 +5,7 @@
     "areas": 1,
     "trib": 3,
     "procSub": "31 ativos · 4 encerrados",
-    "areasSub": "OUTROS",
+    "areasSub": "Bancário",
     "tribSub": "TJSC, OUTROS, STJ",
     "encerrados": 4
   },
@@ -30,7 +30,7 @@
           "2026": 6
         },
         "area": {
-          "OUTROS": 35
+          "Bancário": 31
         },
         "uf": {
           "SC": 28,
@@ -38,28 +38,36 @@
           "DF": 1
         },
         "instancia": {
-          "1º Grau": 24,
           "2º Grau": 10,
+          "1º Grau": 24,
           "Superiores": 1
         },
         "polo": {
-          "Polo ativo": 23,
-          "Terceiro/Outros": 7,
-          "Polo passivo": 5
+          "Polo ativo": 20,
+          "Polo passivo": 7,
+          "Terceiro/Outros": 8
         },
         "tribunais": {
-          "TJSC": 26,
-          "OUTROS": 4,
+          "TJSC": 28,
+          "OUTROS": 6,
           "STJ": 1
         },
         "ranking": [
           [
             "ITAU UNIBANCO S.A",
-            18
+            19
           ],
           [
             "BANCO DO BRASIL S/A",
             7
+          ],
+          [
+            "BANCO SANTANDER BRASIL S/A",
+            2
+          ],
+          [
+            "BANCO FIBRA SA",
+            2
           ],
           [
             "ITAU UNIBANCO S.A.",
@@ -80,10 +88,6 @@
           [
             "BANRISUL BANCO DO ESTADO DO RIO GRANDE DO SUL",
             1
-          ],
-          [
-            "BANCO FIBRA SA",
-            1
           ]
         ],
         "_complexidadeSoAtivos": true,
@@ -93,7 +97,7 @@
           "areas": 1,
           "trib": 3,
           "procSub": "31 ativos · 4 encerrados",
-          "areasSub": "OUTROS",
+          "areasSub": "Bancário",
           "tribSub": "TJSC, OUTROS, STJ"
         },
         "esforco": {
@@ -151,11 +155,11 @@
           }
         },
         "encerradosTotal": 4,
-        "_panorama": true,
-        "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
           "2026"
-        ]
+        ],
+        "_panorama": true,
+        "nome": "Panorama Geral do Grupo"
       }
     },
     "vitalmarcomercioeind_": {
@@ -170,9 +174,6 @@
         },
         "areaTotal": 31,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
           "2025": 28,
           "2026": 31
         },
@@ -184,31 +185,41 @@
           "Bancário": 31
         },
         "uf": {
-          "SC": 26,
+          "SC": 28,
+          "OUTROS": 6,
           "DF": 1
         },
         "instancia": {
-          "1º Grau": 20,
           "2º Grau": 10,
+          "1º Grau": 24,
           "Superiores": 1
         },
         "polo": {
-          "Terceiro/Outros": 25,
-          "Polo ativo": 6
+          "Polo ativo": 20,
+          "Polo passivo": 7,
+          "Terceiro/Outros": 8
         },
         "tribunais": {
-          "TJSC": 26,
-          "OUTROS": 4,
+          "TJSC": 28,
+          "OUTROS": 6,
           "STJ": 1
         },
         "ranking": [
           [
             "ITAU UNIBANCO S.A",
-            18
+            19
           ],
           [
             "BANCO DO BRASIL S/A",
             7
+          ],
+          [
+            "BANCO SANTANDER BRASIL S/A",
+            2
+          ],
+          [
+            "BANCO FIBRA SA",
+            2
           ],
           [
             "ITAU UNIBANCO S.A.",
@@ -229,10 +240,6 @@
           [
             "BANRISUL BANCO DO ESTADO DO RIO GRANDE DO SUL",
             1
-          ],
-          [
-            "BANCO FIBRA SA",
-            1
           ]
         ],
         "_complexidadeSoAtivos": true,
@@ -243,7 +250,7 @@
           "trib": 3,
           "procSub": "31 ativos · 4 encerrados",
           "areasSub": "Bancário",
-          "tribSub": "TJSC, STJ"
+          "tribSub": "TJSC, OUTROS, STJ"
         },
         "esforco": {
           "comProducao": 35,
