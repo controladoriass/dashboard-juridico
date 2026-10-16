@@ -1,12 +1,12 @@
 {
   "kpiGrupo": {
-    "proc": 9,
-    "ativos": 9,
+    "proc": 8,
+    "ativos": 8,
     "areas": 3,
     "trib": 3,
-    "procSub": "9 ativos · 0 encerrados",
-    "areasSub": "Família e Sucessões, Trabalhista, Tributário",
-    "tribSub": "TJSC, TRT12, OUTROS",
+    "procSub": "8 ativos · 0 encerrados",
+    "areasSub": "Trabalhista, Cível, Tributário",
+    "tribSub": "OUTROS, TRT12, TRT09",
     "encerrados": 0
   },
   "empresas": {
@@ -14,41 +14,40 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 681045484,
       "dataset": {
-        "total": 9,
-        "ativos": 9,
+        "total": 8,
+        "ativos": 8,
         "encerrados": {},
-        "areaTotal": 9,
+        "areaTotal": 8,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 6,
-          "2026": 9
+          "2025": 2,
+          "2026": 8
         },
         "entradas": {
-          "2025": 6,
-          "2026": 3
+          "2025": 2,
+          "2026": 6
         },
         "area": {
           "Tributário": 1,
-          "Família e Sucessões": 4,
+          "Cível": 3,
           "Trabalhista": 4
         },
         "uf": {
-          "SC": 9
+          "SC": 4,
+          "N/D": 3,
+          "PR": 1
         },
         "instancia": {
-          "1º Grau": 9
+          "1º Grau": 7,
+          "2º Grau": 1
         },
         "polo": {
-          "Polo ativo": 2,
-          "Terceiro/Outros": 3,
-          "Polo passivo": 2
+          "Polo ativo": 4,
+          "Terceiro/Outros": 1,
+          "Polo passivo": 3
         },
         "tribunais": {
-          "TJSC": 4,
+          "OUTROS": 4,
           "TRT12": 3,
-          "OUTROS": 1,
           "TRT09": 1
         },
         "ranking": [
@@ -67,17 +66,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 9,
-          "ativos": 9,
+          "proc": 8,
+          "ativos": 8,
+          "procSub": "8 ativos · 0 encerrados",
           "areas": 3,
+          "areasSub": "Trabalhista, Cível, Tributário",
           "trib": 3,
-          "procSub": "9 ativos · 0 encerrados",
-          "areasSub": "Família e Sucessões, Trabalhista, Tributário",
-          "tribSub": "TJSC, TRT12, OUTROS"
+          "tribSub": "OUTROS, TRT12, TRT09"
         },
         "esforco": {
           "comProducao": 7,
-          "tramitacaoDias": 1192,
+          "tramitacaoDias": 158.9,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -102,7 +101,7 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     },
@@ -183,8 +182,8 @@
       "nome": "Horacio Platao Goes de Figueiredo",
       "_idCliente": 675981467,
       "dataset": {
-        "total": 4,
-        "ativos": 4,
+        "total": 0,
+        "ativos": 0,
         "encerrados": {},
         "areaTotal": 4,
         "estoque": {
@@ -263,8 +262,8 @@
       "nome": "Vendecasa Empreendimentos Imobiliarios LTDA",
       "_idCliente": 675848897,
       "dataset": {
-        "total": 0,
-        "ativos": 0,
+        "total": 3,
+        "ativos": 3,
         "encerrados": {},
         "areaTotal": 0,
         "estoque": {
