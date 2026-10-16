@@ -1,23 +1,23 @@
 {
   "kpiGrupo": {
-    "proc": 73,
+    "proc": 72,
     "ativos": 56,
     "areas": 3,
     "trib": 10,
-    "procSub": "56 ativos · 17 encerrados",
+    "procSub": "56 ativos · 16 encerrados",
     "areasSub": "Tributário, Cível, Trabalhista",
     "tribSub": "TJSC, TRF4, TJRS",
-    "encerrados": 17
+    "encerrados": 16
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 683208995,
       "dataset": {
-        "total": 73,
+        "total": 72,
         "ativos": 56,
         "encerrados": {
-          "2025": 12,
+          "2025": 11,
           "2026": 2,
           "2023": 2,
           "2024": 1
@@ -27,8 +27,8 @@
           "2020": 10,
           "2021": 17,
           "2022": 28,
-          "2023": 34,
-          "2024": 38,
+          "2023": 33,
+          "2024": 37,
           "2025": 34,
           "2026": 56
         },
@@ -36,13 +36,13 @@
           "2026": 24,
           "2025": 8,
           "2024": 5,
-          "2023": 8,
+          "2023": 7,
           "2022": 11,
           "2020": 10,
           "2021": 7
         },
         "area": {
-          "Cível": 27,
+          "Cível": 26,
           "Tributário": 43,
           "Trabalhista": 3
         },
@@ -57,18 +57,18 @@
           "OUTROS": 1
         },
         "instancia": {
-          "2º Grau": 7,
+          "2º Grau": 6,
           "1º Grau": 62,
           "Superiores": 2,
           "N/D": 2
         },
         "polo": {
           "Polo ativo": 7,
-          "Polo passivo": 62,
+          "Polo passivo": 61,
           "Terceiro/Outros": 4
         },
         "tribunais": {
-          "TJSC": 42,
+          "TJSC": 41,
           "TJRS": 5,
           "TRF4": 13,
           "TRT12": 3,
@@ -196,7 +196,7 @@
             "2026": 212.0
           }
         },
-        "encerradosTotal": 17,
+        "encerradosTotal": 16,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
@@ -308,10 +308,10 @@
       "nome": "LSC Industria e Comercio LTDA - LSC",
       "_idCliente": 2437953,
       "dataset": {
-        "total": 73,
+        "total": 72,
         "ativos": 56,
         "encerrados": {
-          "2025": 12,
+          "2025": 11,
           "2026": 2,
           "2023": 2,
           "2024": 1
@@ -490,7 +490,7 @@
             "2026": 212.0
           }
         },
-        "encerradosTotal": 17,
+        "encerradosTotal": 16,
         "estoqueHl": [
           "2026"
         ]
