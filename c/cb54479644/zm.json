@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 221,
-    "ativos": 134,
+    "proc": 227,
+    "ativos": 140,
     "areas": 10,
-    "trib": 25,
-    "procSub": "134 ativos · 87 encerrados",
+    "trib": 26,
+    "procSub": "140 ativos · 87 encerrados",
     "areasSub": "Cível, Tributário, Trabalhista",
     "tribSub": "TJSC, OUTROS, TRT12",
     "encerrados": 87
@@ -15,8 +15,8 @@
       "nome": "Panorama Geral do Grupo",
       "dataset": {
         "_panorama": true,
-        "total": 221,
-        "ativos": 134,
+        "total": 227,
+        "ativos": 140,
         "encerradosTotal": 87,
         "encerrados": {
           "2026": 4,
@@ -29,27 +29,27 @@
         "estoque": {
           "2020": 0,
           "2021": 53,
-          "2022": 54,
-          "2023": 68,
-          "2024": 94,
-          "2025": 104,
-          "2026": 133
+          "2022": 58,
+          "2023": 72,
+          "2024": 98,
+          "2025": 109,
+          "2026": 139
         },
         "entradas": {
-          "2026": 34,
-          "2025": 50,
+          "2026": 35,
+          "2025": 51,
           "2024": 37,
           "2023": 26,
-          "2022": 23,
+          "2022": 27,
           "2021": 51
         },
         "estoqueHl": [
           "2026"
         ],
         "area": {
-          "Cível": 115,
+          "Cível": 120,
           "Trabalhista": 40,
-          "Administrativo": 9,
+          "Administrativo": 10,
           "Tributário": 45,
           "Recuperação Judicial": 5,
           "Falência": 1,
@@ -59,7 +59,7 @@
           "Pública": 1
         },
         "uf": {
-          "SC": 153,
+          "SC": 159,
           "RJ": 2,
           "OUTROS": 19,
           "SP": 8,
@@ -79,7 +79,7 @@
           "ES": 1
         },
         "tribunais": {
-          "TJSC": 82,
+          "TJSC": 87,
           "TRT12": 27,
           "TJRJ": 1,
           "OUTROS": 43,
@@ -103,25 +103,28 @@
           "TJMT": 2,
           "J": 1,
           "TJES": 1,
-          "ADMIN": 2
+          "ADMIN": 2,
+          "ADMINISTRATIVO": 1
         },
         "instancia": {
-          "1º Grau": 189,
-          "2º Grau": 29,
+          "1º Grau": 194,
+          "2º Grau": 30,
           "Superiores": 8
         },
         "polo": {
           "Polo ativo": 133,
           "Polo passivo": 60,
-          "Terceiro/Outros": 33
+          "Terceiro/Outros": 33,
+          "Polo Ativo": 4,
+          "Polo Passivo": 2
         },
         "kpi": {
-          "proc": 221,
-          "ativos": 134,
-          "procSub": "134 ativos · 87 encerrados",
+          "proc": 227,
+          "ativos": 140,
+          "procSub": "140 ativos · 87 encerrados",
           "areas": 10,
           "areasSub": "Cível, Tributário, Trabalhista",
-          "trib": 25,
+          "trib": 26,
           "tribSub": "TJSC, OUTROS, TRT12"
         },
         "esforco": {
@@ -1015,9 +1018,77 @@
           "people": {}
         }
       }
+    },
+    "carlos_zen": {
+      "nome": "Carlos Sérgio Zen",
+      "dataset": {
+        "total": 6,
+        "ativos": 6,
+        "encerradosTotal": 0,
+        "encerrados": {},
+        "estoque": {
+          "2022": 4,
+          "2025": 5,
+          "2026": 6
+        },
+        "estoqueHl": [
+          2026
+        ],
+        "entradas": {
+          "2026": 1,
+          "2025": 1,
+          "2022": 4
+        },
+        "area": {
+          "Administrativo": 1,
+          "Cível": 5
+        },
+        "uf": {
+          "SC": 6
+        },
+        "tribunais": {
+          "ADMINISTRATIVO": 1,
+          "TJSC": 5
+        },
+        "instancia": {
+          "1º Grau": 5,
+          "2º Grau": 1
+        },
+        "polo": {
+          "Polo Ativo": 4,
+          "Polo Passivo": 2
+        },
+        "kpi": {
+          "proc": 6,
+          "ativos": 6,
+          "procSub": "6 ativos · 0 encerrados",
+          "areas": 2,
+          "areasSub": "Cível, Administrativo",
+          "trib": 2,
+          "tribSub": "TJSC, ADMINISTRATIVO"
+        },
+        "esforco": {
+          "people": [],
+          "atividades": {},
+          "prazano": {},
+          "audano": {},
+          "tarefano": {},
+          "extrajudano": {},
+          "extrajudtipo": {},
+          "tramitacaoDias": 0,
+          "comProducao": 0
+        },
+        "horas": {
+          "total": 0,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {},
+          "people": {}
+        }
+      }
     }
   },
   "nome": "Grupo ZM S.A.",
   "nomeHtml": "Grupo <em>ZM S.A.</em>",
-  "nEmpresas": 9
+  "nEmpresas": 10
 }
