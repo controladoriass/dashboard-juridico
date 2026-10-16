@@ -1,112 +1,130 @@
 {
   "kpiGrupo": {
-    "proc": 251,
-    "ativos": 105,
-    "areas": 5,
-    "trib": 15,
-    "procSub": "105 ativos · 146 encerrados",
-    "areasSub": "Cível, Tributário, Penal-Criminal",
+    "proc": 248,
+    "ativos": 110,
+    "areas": 9,
+    "trib": 22,
+    "procSub": "110 ativos · 138 encerrados",
+    "areasSub": "Cível, Tributário, Trabalhista",
     "tribSub": "TJMT, OUTROS, TJPA",
-    "encerrados": 146
+    "encerrados": 138
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 681230654,
       "dataset": {
-        "total": 251,
-        "ativos": 105,
+        "total": 248,
+        "ativos": 110,
         "encerrados": {
+          "2025": 17,
+          "2024": 4,
+          "2022": 13,
+          "2020": 28,
+          "2021": 21,
+          "2019": 6,
+          "2023": 7,
           "2016": 1,
-          "2019": 10,
-          "2020": 41,
-          "2021": 30,
-          "2022": 18,
-          "2023": 10,
-          "2024": 6,
-          "2025": 27,
-          "2026": 3
+          "2026": 2
         },
         "areaTotal": 105,
         "estoque": {
-          "2013": 53,
-          "2014": 56,
-          "2015": 70,
+          "2013": 52,
+          "2014": 55,
+          "2015": 69,
           "2016": 76,
-          "2017": 90,
-          "2018": 107,
-          "2019": 125,
-          "2020": 155,
-          "2021": 151,
-          "2022": 150,
-          "2023": 155,
-          "2024": 155,
+          "2017": 89,
+          "2018": 105,
+          "2019": 123,
+          "2020": 153,
+          "2021": 149,
+          "2022": 148,
+          "2023": 153,
+          "2024": 153,
           "2025": 143,
-          "2026": 148
+          "2026": 147
         },
         "entradas": {
-          "2013": 53,
-          "2014": 3,
-          "2015": 14,
-          "2016": 7,
-          "2017": 14,
-          "2018": 17,
-          "2019": 25,
-          "2020": 59,
-          "2021": 17,
-          "2022": 12,
-          "2023": 12,
-          "2024": 4,
           "2025": 7,
-          "2026": 7
+          "2013": 52,
+          "2017": 13,
+          "2024": 4,
+          "2022": 12,
+          "2015": 14,
+          "2016": 8,
+          "2026": 6,
+          "2023": 12,
+          "2021": 17,
+          "2020": 59,
+          "2019": 25,
+          "2018": 16,
+          "2014": 3
         },
         "area": {
-          "Cível": 57,
-          "Tributário": 44,
+          "Tributario": 2,
+          "Civel": 6,
+          "Tributário": 96,
+          "Cível": 121,
+          "Trabalhista": 17,
           "Penal-Criminal": 2,
-          "Trabalhista": 1,
+          "Consumidor": 1,
+          "Administrativo": 1,
           "Imobiliário": 1
         },
         "uf": {
-          "MT": 39,
-          "SC": 29,
-          "PA": 11,
-          "DF": 5,
-          "GO": 4,
+          "DF": 7,
+          "MT": 87,
+          "PA": 19,
+          "SC": 65,
           "TO": 3,
-          "RS": 3,
-          "AC": 3,
-          "PE": 2,
+          "RS": 9,
+          "PE": 4,
+          "N/D": 19,
+          "GO": 17,
+          "AP": 2,
           "SP": 1,
-          "MG": 1,
-          "BA": 1
+          "AC": 8,
+          "PR": 1,
+          "CE": 1,
+          "BA": 4,
+          "MG": 1
         },
         "instancia": {
-          "1º Grau": 89,
-          "2º Grau": 11,
-          "Superiores": 5
+          "Superiores": 9,
+          "1o Grau": 5,
+          "2o Grau": 2,
+          "1º Grau": 160,
+          "2º Grau": 15,
+          "N/D": 57
         },
         "polo": {
-          "Polo ativo": 57,
-          "Terceiro/Outros": 39,
-          "Polo passivo": 8
+          "Polo Passivo": 69,
+          "Polo Ativo": 176,
+          "Terceiro": 3
         },
         "tribunais": {
-          "TJMT": 36,
-          "OUTROS": 30,
-          "TJPA": 11,
-          "TJSC": 7,
-          "TRF1": 6,
-          "STJ": 4,
-          "TJGO": 3,
-          "TJPE": 1,
-          "TJRS": 1,
+          "STJ": 5,
+          "TJMT": 74,
+          "TJPA": 18,
+          "STF": 2,
+          "TJSC": 16,
+          "Justiça Federal do Mato Grosso": 1,
+          "OUTROS": 67,
+          "TJRS": 5,
+          "TRF4": 12,
+          "TRF1": 14,
+          "TRT18": 5,
+          "TRT12": 3,
+          "TRT08": 2,
           "TJSP": 1,
-          "STF": 1,
-          "TRF4": 1,
-          "TJBA": 1,
-          "TJMG": 1,
-          "TRT04": 1
+          "TJGO": 10,
+          "TJPE": 2,
+          "TJAC": 1,
+          "TRF5": 2,
+          "TRT04": 3,
+          "TJBA": 3,
+          "TRT23": 1,
+          "TJMG": 1
         },
         "ranking": [
           [
@@ -172,17 +190,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 251,
-          "ativos": 105,
-          "areas": 5,
-          "trib": 15,
-          "procSub": "105 ativos · 146 encerrados",
-          "areasSub": "Cível, Tributário, Penal-Criminal",
+          "proc": 248,
+          "ativos": 110,
+          "procSub": "110 ativos · 138 encerrados",
+          "areas": 9,
+          "areasSub": "Cível, Tributário, Trabalhista",
+          "trib": 22,
           "tribSub": "TJMT, OUTROS, TJPA"
         },
         "esforco": {
           "comProducao": 307,
-          "tramitacaoDias": 2474,
+          "tramitacaoDias": 2536.3,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -206,11 +224,11 @@
             "2026": 374.2
           }
         },
-        "encerradosTotal": 101,
+        "encerradosTotal": 138,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       },
       "encerradosTotal": 146
@@ -419,7 +437,7 @@
             "2026": 31.5
           }
         },
-        "encerradosTotal": 2,
+        "encerradosTotal": 1,
         "estoqueHl": [
           "2026"
         ]
@@ -544,8 +562,8 @@
       "nome": "Rech Importadora e Distribuidora S/A - Rech",
       "_idCliente": 2163711,
       "dataset": {
-        "total": 188,
-        "ativos": 69,
+        "total": 186,
+        "ativos": 73,
         "encerrados": {
           "2016": 2,
           "2019": 10,
@@ -729,7 +747,7 @@
             "2026": 109.9
           }
         },
-        "encerradosTotal": 159,
+        "encerradosTotal": 113,
         "estoqueHl": [
           "2026"
         ]
@@ -740,8 +758,8 @@
       "nome": "Rech Agricola S/A Matriz - Rech",
       "_idCliente": 2130089,
       "dataset": {
-        "total": 55,
-        "ativos": 29,
+        "total": 54,
+        "ativos": 30,
         "encerrados": {
           "2019": 4,
           "2020": 6,
@@ -922,7 +940,7 @@
             "2026": 195.5
           }
         },
-        "encerradosTotal": 42,
+        "encerradosTotal": 24,
         "estoqueHl": [
           "2026"
         ]
