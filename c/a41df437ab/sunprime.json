@@ -3,14 +3,14 @@
   "nomeHtml": "Grupo <em>Sunprime</em>",
   "nEmpresas": 11,
   "kpiGrupo": {
-    "proc": 38,
-    "ativos": 38,
+    "proc": 37,
+    "ativos": 37,
     "encerrados": 0,
-    "areas": 5,
-    "trib": 4,
-    "procSub": "38 ativos · 0 encerrados",
+    "areas": 4,
+    "trib": 3,
+    "procSub": "37 ativos · 0 encerrados",
     "areasSub": "Cível, Trabalhista, Tributário",
-    "tribSub": "TJSC, TRT12, JF",
+    "tribSub": "TJSC, TRT12, ADMINISTRATIVO",
     "horas": "116",
     "horasSub": "horas apontadas (timesheet real)"
   },
@@ -19,40 +19,39 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": null,
       "dataset": {
-        "total": 38,
-        "ativos": 38,
+        "total": 37,
+        "ativos": 37,
         "encerrados": {},
         "areaTotal": 38,
         "estoque": {
-          "2026": 38
+          "2026": 37
         },
         "entradas": {
-          "2026": 38
+          "2026": 37
         },
-        "estoqueHl": [],
+        "estoqueHl": [
+          2026
+        ],
         "area": {
-          "Cível": 25,
           "Trabalhista": 10,
+          "Cível": 25,
           "Tributário": 1,
-          "Penal-Criminal": 1,
           "Ambiental": 1
         },
         "uf": {
-          "SC": 38
+          "SC": 37
         },
         "instancia": {
-          "1º Grau": 38
+          "1º Grau": 37
         },
         "polo": {
-          "Polo passivo": 24,
-          "Polo ativo": 12,
-          "Terceiro/Outros": 2
+          "Polo Passivo": 25,
+          "Polo Ativo": 12
         },
         "tribunais": {
-          "TJSC": 26,
           "TRT12": 10,
-          "JF": 1,
-          "OUTROS": 1
+          "TJSC": 26,
+          "ADMINISTRATIVO": 1
         },
         "ranking": [
           [
@@ -118,13 +117,13 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 38,
-          "ativos": 38,
-          "areas": 5,
-          "trib": 4,
-          "procSub": "38 ativos · 0 encerrados",
+          "proc": 37,
+          "ativos": 37,
+          "procSub": "37 ativos · 0 encerrados",
+          "areas": 4,
           "areasSub": "Cível, Trabalhista, Tributário",
-          "tribSub": "TJSC, TRT12, JF"
+          "trib": 3,
+          "tribSub": "TJSC, TRT12, ADMINISTRATIVO"
         },
         "encerradosTotal": 0,
         "_panorama": true,
@@ -153,7 +152,8 @@
             "Prazos": 334,
             "Audiências": 25,
             "Reuniões e Diligências": 93
-          }
+          },
+          "tramitacaoDias": 20.6
         },
         "nome": "Panorama Geral do Grupo"
       }
@@ -203,8 +203,8 @@
       "nome": "Sunprime Empreendimentos Imobiliarios LTDA",
       "_idCliente": "2125396",
       "dataset": {
-        "total": 37,
-        "ativos": 37,
+        "total": 36,
+        "ativos": 36,
         "encerrados": {},
         "areaTotal": 37,
         "estoque": {
