@@ -5,37 +5,37 @@
     "_panorama": {
       "dataset": {
         "nome": "Panorama Geral do Grupo",
-        "proc": 373,
-        "ativos": 189,
+        "proc": 387,
+        "ativos": 201,
         "encerrados": {
-          "2026": 1,
+          "2026": 3,
           "2025": 96,
           "2024": 23,
           "2023": 21,
           "2022": 42,
           "2021": 1
         },
-        "procSub": "189 ativos · 184 encerrados",
+        "procSub": "201 ativos · 186 encerrados",
         "areasSub": "Cível, Tributário, Trabalhista",
-        "tribSub": "OUTROS, TJSC, TRT12",
+        "tribSub": "OUTROS, TJSC, TJBA",
         "area": {
-          "Cível": 176,
-          "Tributário": 94,
-          "Trabalhista": 62,
-          "Administrativo": 34,
+          "Trabalhista": 64,
+          "Cível": 182,
+          "Tributário": 97,
+          "Administrativo": 36,
           "Penal-Criminal": 5,
-          "Ambiental": 1
+          "Ambiental": 2
         },
         "uf": {
-          "MA": 13,
+          "SC": 201,
+          "N/D": 36,
+          "MA": 14,
           "MS": 4,
           "BA": 11,
-          "DF": 31,
-          "SC": 197,
-          "MT": 6,
-          "N/D": 31,
+          "DF": 32,
+          "MT": 7,
           "GO": 11,
-          "PR": 22,
+          "PR": 24,
           "RS": 10,
           "MG": 9,
           "SE": 3,
@@ -47,46 +47,28 @@
           "RR": 1
         },
         "tribunais": {
-          "TJMA": 12,
-          "OUTROS": 104,
-          "STF": 2,
-          "TRT12": 35,
-          "TJSC": 73,
-          "TJGO": 9,
-          "MINTRAB": 5,
-          "TJPR": 13,
-          "STJ": 4,
-          "TJDFT": 17,
-          "DRF": 5,
-          "TRF4": 34,
-          "SEFAZ": 1,
-          "Justiça Federal de Santa Catarina": 1,
-          "TJMG": 5,
-          "TJMT": 4,
-          "TRT09": 4,
-          "MMA": 1,
-          "TJSP": 3,
-          "TJRS": 3,
-          "TJBA": 10,
-          "TJRN": 2,
-          "TRT04": 1,
-          "TJPE": 2,
+          "OUTROS": 345,
           "MPT": 1,
+          "TJDFT": 2,
           "Procon Estadual": 1,
-          "TJMS": 1,
-          "TJRJ": 4,
-          "TJSE": 1,
-          "TJRR": 1,
-          "CARF": 2,
-          "PREFEITURA MUNICIPAL": 4,
-          "Procon Municipal": 5,
-          "TRT15": 1,
-          "TRT01": 2
+          "TJRN": 1,
+          "TRT12": 4,
+          "TJPR": 5,
+          "TJSP": 1,
+          "DRF": 2,
+          "TJBA": 6,
+          "TJSC": 9,
+          "TRF4": 5,
+          "TJRS": 1,
+          "CARF": 1,
+          "Procon Municipal": 1,
+          "TJMG": 2
         },
         "instancia": {
-          "2º Grau": 33,
-          "1º Grau": 325,
-          "Superiores": 15
+          "1º Grau": 331,
+          "2º Grau": 34,
+          "Superiores": 17,
+          "1o Grau": 5
         },
         "estoque": {
           "2021": 72,
@@ -94,10 +76,10 @@
           "2023": 158,
           "2024": 201,
           "2025": 155,
-          "2026": 189
+          "2026": 201
         },
         "entradas": {
-          "2026": 35,
+          "2026": 49,
           "2025": 51,
           "2024": 66,
           "2023": 33,
@@ -140,7 +122,7 @@
           "extrajudtipo": {
             "Outros": 35
           },
-          "tramitacaoDias": 922.2,
+          "tramitacaoDias": 868.5,
           "comProducao": 190,
           "people": [
             "AMANDA CRISTINA DE REZENDES",
@@ -275,20 +257,20 @@
           "media": 20.4,
           "mediaAtivos": 42.3
         },
-        "total": 373,
-        "encerradosTotal": 184,
+        "total": 387,
+        "encerradosTotal": 186,
         "kpi": {
-          "proc": 373,
-          "ativos": 189,
-          "procSub": "189 ativos · 184 encerrados",
+          "proc": 387,
+          "ativos": 201,
+          "procSub": "201 ativos · 186 encerrados",
           "areas": 6,
           "areasSub": "Cível, Tributário, Trabalhista",
-          "trib": 35,
-          "tribSub": "OUTROS, TJSC, TRT12"
+          "trib": 16,
+          "tribSub": "OUTROS, TJSC, TJBA"
         },
         "polo": {
-          "Polo Ativo": 242,
-          "Polo Passivo": 124,
+          "Polo Passivo": 129,
+          "Polo Ativo": 251,
           "Terceiro": 7
         },
         "_panorama": true
@@ -299,30 +281,30 @@
     "energiaerbsindustria": {
       "dataset": {
         "nome": "Energia Erbs Indústria e Transporte Ltda",
-        "proc": 176,
-        "ativos": 109,
+        "proc": 184,
+        "ativos": 115,
         "encerrados": {
-          "2026": 1,
+          "2026": 3,
           "2025": 40,
           "2024": 5,
           "2023": 12,
           "2022": 9
         },
         "area": {
-          "Cível": 61,
-          "Tributário": 54,
-          "Trabalhista": 44,
-          "Administrativo": 14,
+          "Trabalhista": 45,
+          "Cível": 64,
+          "Tributário": 57,
+          "Administrativo": 15,
           "Penal-Criminal": 2
         },
         "uf": {
+          "SC": 86,
+          "N/D": 24,
           "MA": 9,
           "MS": 4,
           "BA": 2,
           "DF": 24,
-          "SC": 84,
-          "MT": 5,
-          "N/D": 19,
+          "MT": 6,
           "GO": 7,
           "PR": 5,
           "RS": 5,
@@ -334,38 +316,20 @@
           "PE": 1
         },
         "tribunais": {
-          "TJMA": 8,
-          "OUTROS": 57,
-          "STF": 1,
-          "TRT12": 26,
-          "TJSC": 17,
-          "TJGO": 5,
-          "MINTRAB": 5,
-          "TJPR": 4,
-          "STJ": 3,
-          "TJDFT": 16,
-          "DRF": 3,
-          "TRF4": 12,
-          "SEFAZ": 1,
-          "Justiça Federal de Santa Catarina": 1,
-          "TJMG": 1,
-          "TJMT": 3,
-          "TRT09": 1,
-          "MMA": 1,
-          "TJSP": 2,
-          "TJRS": 1,
-          "TJBA": 1,
-          "TJRN": 2,
-          "TRT04": 1,
-          "TJPE": 1,
+          "OUTROS": 176,
           "MPT": 1,
+          "TJDFT": 2,
           "Procon Estadual": 1,
-          "TJMS": 1
+          "TJRN": 1,
+          "TRT12": 1,
+          "TJPR": 1,
+          "TJSP": 1
         },
         "instancia": {
+          "1º Grau": 150,
           "2º Grau": 20,
-          "1º Grau": 147,
-          "Superiores": 9
+          "Superiores": 10,
+          "1o Grau": 4
         },
         "estoque": {
           "2021": 17,
@@ -373,10 +337,10 @@
           "2023": 56,
           "2024": 86,
           "2025": 87,
-          "2026": 109
+          "2026": 115
         },
         "entradas": {
-          "2026": 23,
+          "2026": 31,
           "2025": 41,
           "2024": 35,
           "2023": 20,
@@ -541,20 +505,20 @@
             "2026": 1030.7
           }
         },
-        "total": 176,
-        "encerradosTotal": 67,
+        "total": 184,
+        "encerradosTotal": 69,
         "kpi": {
-          "proc": 176,
-          "ativos": 109,
-          "procSub": "109 ativos · 67 encerrados",
+          "proc": 184,
+          "ativos": 115,
+          "procSub": "115 ativos · 69 encerrados",
           "areas": 5,
           "areasSub": "Cível, Tributário, Trabalhista",
-          "trib": 27,
-          "tribSub": "OUTROS, TRT12, TJSC"
+          "trib": 8,
+          "tribSub": "OUTROS, TJDFT, MPT"
         },
         "polo": {
-          "Polo Ativo": 113,
-          "Polo Passivo": 63
+          "Polo Passivo": 65,
+          "Polo Ativo": 119
         }
       },
       "_idCliente": 2171093,
@@ -563,8 +527,8 @@
     "botuveraindustria": {
       "dataset": {
         "nome": "Botuverá Indústria e Comércio de Acumuladores e Componentes Eireli",
-        "proc": 49,
-        "ativos": 27,
+        "proc": 50,
+        "ativos": 28,
         "encerrados": {
           "2022": 10,
           "2025": 7,
@@ -573,13 +537,13 @@
           "2021": 1
         },
         "area": {
-          "Cível": 40,
+          "Cível": 41,
           "Tributário": 8,
           "Trabalhista": 1
         },
         "uf": {
+          "DF": 4,
           "SC": 40,
-          "DF": 3,
           "GO": 2,
           "RJ": 1,
           "SE": 1,
@@ -587,19 +551,11 @@
           "MG": 1
         },
         "tribunais": {
-          "TJSC": 34,
-          "STJ": 1,
-          "OUTROS": 5,
-          "TJGO": 2,
-          "TJRJ": 1,
-          "STF": 1,
-          "TRT12": 1,
-          "TRF4": 3,
-          "TJMG": 1
+          "OUTROS": 50
         },
         "instancia": {
+          "Superiores": 4,
           "1º Grau": 40,
-          "Superiores": 3,
           "2º Grau": 6
         },
         "estoque": {
@@ -608,10 +564,10 @@
           "2023": 23,
           "2024": 29,
           "2025": 22,
-          "2026": 27
+          "2026": 28
         },
         "entradas": {
-          "2026": 5,
+          "2026": 6,
           "2025": 1,
           "2024": 8,
           "2023": 1,
@@ -719,20 +675,20 @@
             "2026": 171.1
           }
         },
-        "total": 49,
+        "total": 50,
         "encerradosTotal": 22,
         "kpi": {
-          "proc": 49,
-          "ativos": 27,
-          "procSub": "27 ativos · 22 encerrados",
+          "proc": 50,
+          "ativos": 28,
+          "procSub": "28 ativos · 22 encerrados",
           "areas": 3,
           "areasSub": "Cível, Tributário, Trabalhista",
-          "trib": 9,
-          "tribSub": "TJSC, OUTROS, TRF4"
+          "trib": 1,
+          "tribSub": "OUTROS"
         },
         "polo": {
-          "Polo Passivo": 12,
-          "Polo Ativo": 37
+          "Polo Ativo": 38,
+          "Polo Passivo": 12
         }
       },
       "_idCliente": 2125278,
@@ -741,15 +697,15 @@
     "botuveratransporte": {
       "dataset": {
         "nome": "Botuverá Transporte Rodoviário de Cargas e Recuperadora de Sucatas Ltda",
-        "proc": 32,
-        "ativos": 12,
+        "proc": 33,
+        "ativos": 13,
         "encerrados": {
           "2025": 15,
           "2022": 3,
           "2023": 2
         },
         "area": {
-          "Ambiental": 1,
+          "Ambiental": 2,
           "Trabalhista": 5,
           "Cível": 6,
           "Tributário": 8,
@@ -757,45 +713,37 @@
           "Penal-Criminal": 1
         },
         "uf": {
+          "SC": 25,
           "DF": 1,
           "SE": 1,
           "RR": 1,
           "RS": 2,
-          "SC": 24,
           "PR": 1,
           "SP": 2
         },
         "tribunais": {
-          "OUTROS": 14,
-          "TJSE": 1,
-          "TJRR": 1,
-          "CARF": 1,
-          "PREFEITURA MUNICIPAL": 4,
-          "TJSC": 1,
-          "TJPR": 1,
-          "TRF4": 3,
-          "TRT12": 4,
-          "TJSP": 1,
-          "TJRS": 1
+          "OUTROS": 33
         },
         "instancia": {
-          "1º Grau": 29,
+          "1º Grau": 30,
           "2º Grau": 3
         },
         "estoque": {
           "2021": 13,
           "2022": 20,
           "2024": 26,
-          "2025": 12
+          "2025": 12,
+          "2026": 13
         },
         "entradas": {
+          "2026": 1,
           "2025": 1,
           "2024": 8,
           "2022": 10,
           "2021": 13
         },
         "estoqueHl": [
-          "2025"
+          "2026"
         ],
         "esforco": {
           "prazano": {
@@ -879,19 +827,19 @@
             "2026": 22.5
           }
         },
-        "total": 32,
+        "total": 33,
         "encerradosTotal": 20,
         "kpi": {
-          "proc": 32,
-          "ativos": 12,
-          "procSub": "12 ativos · 20 encerrados",
+          "proc": 33,
+          "ativos": 13,
+          "procSub": "13 ativos · 20 encerrados",
           "areas": 6,
           "areasSub": "Administrativo, Tributário, Cível",
-          "trib": 11,
-          "tribSub": "OUTROS, PREFEITURA MUNICIPAL, TRT12"
+          "trib": 1,
+          "tribSub": "OUTROS"
         },
         "polo": {
-          "Polo Ativo": 16,
+          "Polo Ativo": 17,
           "Polo Passivo": 16
         }
       },
@@ -901,8 +849,8 @@
     "indcommotociclisticos": {
       "dataset": {
         "nome": "Indústria e Comércio de Acumuladores e Componentes Motociclísticos Erbs Ltda",
-        "proc": 44,
-        "ativos": 21,
+        "proc": 46,
+        "ativos": 23,
         "encerrados": {
           "2025": 10,
           "2022": 8,
@@ -910,42 +858,30 @@
           "2024": 4
         },
         "area": {
-          "Cível": 22,
-          "Administrativo": 6,
+          "Cível": 23,
+          "Administrativo": 7,
           "Trabalhista": 3,
           "Tributário": 11,
           "Penal-Criminal": 2
         },
         "uf": {
+          "PR": 4,
+          "MA": 5,
           "SC": 26,
           "MG": 3,
           "GO": 2,
-          "PR": 3,
           "PE": 2,
-          "MA": 4,
           "RS": 1,
           "MT": 1,
           "BA": 1,
           "DF": 1
         },
         "tribunais": {
-          "TJSC": 12,
-          "OUTROS": 7,
-          "Procon Municipal": 4,
-          "TJGO": 2,
-          "TJMA": 4,
-          "TJMT": 1,
-          "TJMG": 1,
-          "TRT09": 1,
-          "TRF4": 8,
-          "TJPE": 1,
-          "TRT12": 1,
-          "TJPR": 1,
-          "TJBA": 1
+          "OUTROS": 46
         },
         "instancia": {
-          "1º Grau": 42,
-          "2º Grau": 1,
+          "1º Grau": 43,
+          "2º Grau": 2,
           "Superiores": 1
         },
         "estoque": {
@@ -954,10 +890,10 @@
           "2023": 25,
           "2024": 24,
           "2025": 17,
-          "2026": 21
+          "2026": 23
         },
         "entradas": {
-          "2026": 4,
+          "2026": 6,
           "2025": 3,
           "2024": 3,
           "2023": 5,
@@ -1061,19 +997,19 @@
             "2026": 88.5
           }
         },
-        "total": 44,
+        "total": 46,
         "encerradosTotal": 23,
         "kpi": {
-          "proc": 44,
-          "ativos": 21,
-          "procSub": "21 ativos · 23 encerrados",
+          "proc": 46,
+          "ativos": 23,
+          "procSub": "23 ativos · 23 encerrados",
           "areas": 5,
           "areasSub": "Cível, Tributário, Administrativo",
-          "trib": 13,
-          "tribSub": "TJSC, TRF4, OUTROS"
+          "trib": 1,
+          "tribSub": "OUTROS"
         },
         "polo": {
-          "Polo Passivo": 11,
+          "Polo Passivo": 13,
           "Polo Ativo": 33
         }
       },
@@ -1083,8 +1019,8 @@
     "comerciobateriaserbs": {
       "dataset": {
         "nome": "Comércio de Baterias Erbs Ltda",
-        "proc": 43,
-        "ativos": 8,
+        "proc": 44,
+        "ativos": 9,
         "encerrados": {
           "2025": 19,
           "2024": 5,
@@ -1094,13 +1030,13 @@
         "area": {
           "Tributário": 5,
           "Cível": 31,
-          "Trabalhista": 6,
+          "Trabalhista": 7,
           "Administrativo": 1
         },
         "uf": {
           "RN": 1,
           "BA": 7,
-          "SC": 6,
+          "SC": 7,
           "PR": 9,
           "N/D": 12,
           "SP": 2,
@@ -1109,19 +1045,13 @@
         },
         "tribunais": {
           "DRF": 1,
-          "TJBA": 7,
+          "TJBA": 5,
           "TJSC": 1,
-          "TRF4": 4,
-          "OUTROS": 18,
-          "TJRJ": 3,
-          "TJPR": 3,
-          "TRT09": 2,
-          "TJDFT": 1,
-          "TRT15": 1,
-          "TRT01": 2
+          "TRF4": 1,
+          "OUTROS": 36
         },
         "instancia": {
-          "1º Grau": 41,
+          "1º Grau": 42,
           "2º Grau": 1,
           "Superiores": 1
         },
@@ -1130,10 +1060,10 @@
           "2022": 21,
           "2023": 22,
           "2024": 25,
-          "2026": 8
+          "2026": 9
         },
         "entradas": {
-          "2026": 2,
+          "2026": 3,
           "2024": 8,
           "2023": 4,
           "2022": 11,
@@ -1252,20 +1182,20 @@
             "2026": 30.6
           }
         },
-        "total": 43,
+        "total": 44,
         "encerradosTotal": 35,
         "kpi": {
-          "proc": 43,
-          "ativos": 8,
-          "procSub": "8 ativos · 35 encerrados",
+          "proc": 44,
+          "ativos": 9,
+          "procSub": "9 ativos · 35 encerrados",
           "areas": 4,
           "areasSub": "Cível, Trabalhista, Tributário",
-          "trib": 11,
-          "tribSub": "OUTROS, TJBA, TRF4"
+          "trib": 5,
+          "tribSub": "OUTROS, TJBA, DRF"
         },
         "polo": {
           "Polo Ativo": 31,
-          "Polo Passivo": 12
+          "Polo Passivo": 13
         }
       },
       "_idCliente": 677038842,
@@ -1913,16 +1843,30 @@
     "erbsconstrutora": {
       "dataset": {
         "nome": "Erbs Construtora Ltda",
-        "proc": 0,
-        "ativos": 0,
+        "proc": 1,
+        "ativos": 1,
         "encerrados": {},
-        "area": {},
-        "uf": {},
-        "tribunais": {},
-        "instancia": {},
-        "estoque": {},
-        "entradas": {},
-        "estoqueHl": [],
+        "area": {
+          "Cível": 1
+        },
+        "uf": {
+          "PR": 1
+        },
+        "tribunais": {
+          "OUTROS": 1
+        },
+        "instancia": {
+          "1o Grau": 1
+        },
+        "estoque": {
+          "2026": 1
+        },
+        "entradas": {
+          "2026": 1
+        },
+        "estoqueHl": [
+          "2026"
+        ],
         "esforco": {
           "prazano": {
             "2025": 63,
@@ -1973,18 +1917,20 @@
             "2026": 7.1
           }
         },
-        "total": 0,
+        "total": 1,
         "encerradosTotal": 0,
         "kpi": {
-          "proc": 0,
-          "ativos": 0,
-          "procSub": "0 ativos · 0 encerrados",
-          "areas": 0,
-          "areasSub": "",
-          "trib": 0,
-          "tribSub": ""
+          "proc": 1,
+          "ativos": 1,
+          "procSub": "1 ativos · 0 encerrados",
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 1,
+          "tribSub": "OUTROS"
         },
-        "polo": {}
+        "polo": {
+          "Polo Ativo": 1
+        }
       },
       "_idCliente": 677012411,
       "nome": "ERBS CONSTRUTORA LTDA"
@@ -2178,14 +2124,14 @@
   },
   "slug": "erbs",
   "kpiGrupo": {
-    "proc": 373,
-    "ativos": 189,
+    "proc": 387,
+    "ativos": 201,
     "areas": 6,
-    "trib": 35,
-    "procSub": "189 ativos · 184 encerrados",
+    "trib": 16,
+    "procSub": "201 ativos · 186 encerrados",
     "areasSub": "Cível, Tributário, Trabalhista",
-    "tribSub": "OUTROS, TJSC, TRT12",
-    "encerrados": 184
+    "tribSub": "OUTROS, TJSC, TJBA",
+    "encerrados": 186
   },
   "nEmpresas": 16,
   "nomeHtml": "Grupo <em>ERBS</em>"
