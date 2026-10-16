@@ -1,82 +1,82 @@
 {
   "kpiGrupo": {
-    "proc": 93,
-    "ativos": 78,
-    "areas": 6,
-    "trib": 8,
-    "procSub": "78 ativos · 15 encerrados",
+    "proc": 91,
+    "ativos": 77,
+    "areas": 5,
+    "trib": 9,
+    "procSub": "77 ativos · 14 encerrados",
     "areasSub": "Cível, Recuperação Judicial, Tributário",
     "tribSub": "TJPR, TJSC, OUTROS",
-    "encerrados": 15
+    "encerrados": 14
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 677012459,
       "dataset": {
-        "total": 93,
-        "ativos": 78,
+        "total": 91,
+        "ativos": 77,
         "encerrados": {
-          "2023": 13,
           "2026": 1,
+          "2023": 12,
           "2025": 1
         },
         "areaTotal": 78,
         "estoque": {
           "2019": 5,
-          "2020": 7,
-          "2021": 30,
-          "2022": 38,
-          "2023": 55,
-          "2024": 74,
-          "2025": 83,
-          "2026": 93
+          "2021": 28,
+          "2022": 36,
+          "2023": 41,
+          "2024": 60,
+          "2025": 68,
+          "2026": 77
         },
         "entradas": {
-          "2019": 5,
-          "2020": 2,
-          "2021": 23,
-          "2022": 8,
-          "2023": 17,
-          "2024": 19,
+          "2026": 10,
           "2025": 9,
-          "2026": 10
+          "2024": 19,
+          "2023": 17,
+          "2022": 8,
+          "2021": 23,
+          "2019": 5
         },
         "area": {
-          "Cível": 37,
+          "Trabalhista": 5,
           "Recuperação Judicial": 25,
-          "Tributário": 8,
-          "Trabalhista": 4,
-          "OUTROS": 3,
-          "Ambiental": 1
+          "Ambiental": 1,
+          "Cível": 48,
+          "Tributário": 9
         },
         "uf": {
-          "PR": 42,
-          "SC": 24,
-          "SP": 3,
+          "SC": 32,
+          "PR": 43,
+          "SP": 4,
+          "N/D": 4,
           "DF": 3,
+          "MG": 2,
           "RO": 2,
           "TJ": 1
         },
         "instancia": {
-          "1º Grau": 34,
+          "1º Grau": 47,
           "2º Grau": 35,
-          "N/I": 5,
-          "Superiores": 4
+          "Superiores": 4,
+          "N/D": 5
         },
         "polo": {
-          "Terceiro/Outros": 63,
-          "Polo ativo": 11,
-          "Polo passivo": 4
+          "Polo Passivo": 18,
+          "Polo Ativo": 67,
+          "Terceiro": 6
         },
         "tribunais": {
-          "TJPR": 41,
-          "TJSC": 14,
-          "OUTROS": 8,
-          "TRF4": 5,
-          "TRT12": 4,
-          "TJSP": 3,
+          "TRT12": 5,
+          "TJPR": 42,
+          "OUTROS": 10,
+          "TJSP": 4,
+          "TJSC": 19,
           "STJ": 2,
+          "TRF4": 6,
+          "TJMG": 2,
           "TJRO": 1
         },
         "ranking": [
@@ -143,17 +143,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 93,
-          "ativos": 78,
-          "areas": 6,
-          "trib": 8,
-          "procSub": "78 ativos · 15 encerrados",
+          "proc": 91,
+          "ativos": 77,
+          "procSub": "77 ativos · 14 encerrados",
+          "areas": 5,
           "areasSub": "Cível, Recuperação Judicial, Tributário",
+          "trib": 9,
           "tribSub": "TJPR, TJSC, OUTROS"
         },
         "esforco": {
           "comProducao": 106,
-          "tramitacaoDias": 1073,
+          "tramitacaoDias": 1139.4,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -177,11 +177,11 @@
             "2026": 107.9
           }
         },
-        "encerradosTotal": 15,
+        "encerradosTotal": 14,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     },
@@ -240,8 +240,8 @@
       "nome": "Primor Doces e Caramelos - Primor",
       "_idCliente": 2907781,
       "dataset": {
-        "total": 84,
-        "ativos": 71,
+        "total": 82,
+        "ativos": 70,
         "encerrados": {
           "2023": 12,
           "2026": 1

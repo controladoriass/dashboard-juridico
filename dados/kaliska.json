@@ -1,67 +1,64 @@
 {
   "kpiGrupo": {
-    "proc": 63,
-    "ativos": 58,
-    "areas": 7,
-    "trib": 8,
-    "procSub": "58 ativos · 5 encerrados",
-    "areasSub": "OUTROS",
-    "tribSub": "TJSC, TJSP, OUTROS",
-    "encerrados": 5
+    "proc": 50,
+    "ativos": 46,
+    "areas": 5,
+    "trib": 6,
+    "procSub": "46 ativos · 4 encerrados",
+    "areasSub": "Cível, Bancário, Penal-Criminal",
+    "tribSub": "TJSC, OUTROS, TJSP",
+    "encerrados": 4
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 685413942,
       "dataset": {
-        "total": 63,
-        "ativos": 58,
+        "total": 50,
+        "ativos": 46,
         "encerrados": {
-          "2024": 1,
-          "2025": 2,
-          "2026": 2
+          "2026": 2,
+          "2025": 2
         },
-        "areaTotal": 58,
+        "areaTotal": 5,
         "estoque": {
-          "2021": 4,
-          "2024": 3,
-          "2025": 35,
-          "2026": 58
+          "2025": 30,
+          "2026": 46
         },
         "entradas": {
-          "2021": 4,
-          "2025": 34,
-          "2026": 25
+          "2026": 18,
+          "2025": 32
         },
         "area": {
-          "OUTROS": 63
+          "Bancário": 20,
+          "Penal-Criminal": 2,
+          "Cível": 25,
+          "Trabalhista": 1,
+          "Pública": 2
         },
         "uf": {
-          "SC": 47,
-          "OUTROS": 7,
-          "SP": 5,
-          "RJ": 2,
+          "SC": 36,
           "DF": 1,
+          "SP": 5,
+          "OUTROS": 7,
           "RS": 1
         },
         "instancia": {
-          "1º Grau": 56,
-          "2º Grau": 6,
+          "1º Grau": 44,
+          "2º Grau": 5,
           "Superiores": 1
         },
         "polo": {
-          "Polo ativo": 27,
-          "Polo passivo": 20,
-          "Terceiro/Outros": 16
+          "Polo passivo": 23,
+          "Polo ativo": 21,
+          "Terceiro/Outros": 6
         },
         "tribunais": {
-          "TJSC": 40,
-          "TJSP": 5,
-          "OUTROS": 5,
-          "TRF4": 3,
-          "TJRJ": 2,
+          "TJSC": 35,
           "STJ": 1,
+          "TJSP": 5,
           "TRT12": 1,
+          "OUTROS": 7,
           "TJRS": 1
         },
         "ranking": [
@@ -128,13 +125,13 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 63,
-          "ativos": 58,
-          "areas": 7,
-          "trib": 8,
-          "procSub": "58 ativos · 5 encerrados",
-          "areasSub": "OUTROS",
-          "tribSub": "TJSC, TJSP, OUTROS"
+          "proc": 50,
+          "ativos": 46,
+          "procSub": "46 ativos · 4 encerrados",
+          "areas": 5,
+          "areasSub": "Cível, Bancário, Penal-Criminal",
+          "trib": 6,
+          "tribSub": "TJSC, OUTROS, TJSP"
         },
         "esforco": {
           "comProducao": 63,
@@ -162,7 +159,7 @@
             "2026": 667.4
           }
         },
-        "encerradosTotal": 5,
+        "encerradosTotal": 4,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
@@ -179,10 +176,6 @@
         "encerrados": {},
         "areaTotal": 1,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
           "2026": 1
         },
         "entradas": {
@@ -198,7 +191,7 @@
           "1º Grau": 1
         },
         "polo": {
-          "Terceiro/Outros": 1
+          "Polo passivo": 1
         },
         "tribunais": {
           "TJSC": 1
@@ -213,10 +206,10 @@
         "kpi": {
           "proc": 1,
           "ativos": 1,
-          "areas": 1,
-          "trib": 1,
           "procSub": "1 ativos · 0 encerrados",
+          "areas": 1,
           "areasSub": "Bancário",
+          "trib": 1,
           "tribSub": "TJSC"
         },
         "esforco": {
@@ -255,35 +248,34 @@
         "encerrados": {
           "2026": 1
         },
-        "areaTotal": 9,
+        "areaTotal": 3,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
           "2025": 3,
           "2026": 9
         },
         "entradas": {
-          "2025": 3,
-          "2026": 7
+          "2026": 7,
+          "2025": 3
         },
         "area": {
           "Bancário": 5,
-          "Cível": 3,
-          "Penal-Criminal": 1
+          "Penal-Criminal": 2,
+          "Cível": 3
         },
         "uf": {
-          "SC": 9
+          "SC": 10
         },
         "instancia": {
-          "1º Grau": 7,
-          "2º Grau": 2
+          "2º Grau": 2,
+          "1º Grau": 8
         },
         "polo": {
-          "Terceiro/Outros": 9
+          "Polo ativo": 4,
+          "Polo passivo": 5,
+          "Terceiro/Outros": 1
         },
         "tribunais": {
-          "TJSC": 9
+          "TJSC": 10
         },
         "ranking": [
           [
@@ -319,10 +311,10 @@
         "kpi": {
           "proc": 10,
           "ativos": 9,
+          "procSub": "9 ativos · 1 encerrados",
           "areas": 3,
-          "trib": 1,
-          "procSub": "9 ativos · 1 encerrado",
           "areasSub": "Bancário, Cível, Penal-Criminal",
+          "trib": 1,
           "tribSub": "TJSC"
         },
         "esforco": {
@@ -357,60 +349,50 @@
       "nome": "Kaliska Têxtil LTDA - Kaliska",
       "_idCliente": 2118745,
       "dataset": {
-        "total": 52,
-        "ativos": 48,
+        "total": 39,
+        "ativos": 36,
         "encerrados": {
-          "2024": 1,
           "2025": 2,
           "2026": 1
         },
-        "areaTotal": 48,
+        "areaTotal": 4,
         "estoque": {
-          "2021": 4,
-          "2022": 4,
-          "2023": 4,
-          "2024": 3,
-          "2025": 32,
-          "2026": 48
+          "2025": 27,
+          "2026": 36
         },
         "entradas": {
-          "2021": 4,
-          "2025": 31,
-          "2026": 17
+          "2026": 10,
+          "2025": 29
         },
         "area": {
-          "Cível": 20,
-          "Bancário": 13,
-          "Recuperação Judicial": 9,
-          "Tributário": 3,
-          "Pública": 2,
-          "Trabalhista": 1
+          "Cível": 22,
+          "Bancário": 14,
+          "Trabalhista": 1,
+          "Pública": 2
         },
         "uf": {
-          "SC": 34,
-          "SP": 5,
-          "RJ": 2,
           "DF": 1,
+          "SC": 25,
+          "SP": 5,
+          "OUTROS": 7,
           "RS": 1
         },
         "instancia": {
-          "1º Grau": 43,
-          "2º Grau": 4,
-          "Superiores": 1
+          "Superiores": 1,
+          "1º Grau": 35,
+          "2º Grau": 3
         },
         "polo": {
-          "Terceiro/Outros": 34,
-          "Polo ativo": 12,
-          "Polo passivo": 2
+          "Polo ativo": 17,
+          "Polo passivo": 17,
+          "Terceiro/Outros": 5
         },
         "tribunais": {
-          "TJSC": 30,
-          "TJSP": 5,
-          "OUTROS": 5,
-          "TRF4": 3,
-          "TJRJ": 2,
           "STJ": 1,
+          "TJSC": 24,
+          "TJSP": 5,
           "TRT12": 1,
+          "OUTROS": 7,
           "TJRS": 1
         },
         "ranking": [
@@ -477,13 +459,13 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 52,
-          "ativos": 48,
-          "areas": 6,
-          "trib": 8,
-          "procSub": "48 ativos · 4 encerrados",
-          "areasSub": "Cível, Bancário, Recuperação Judicial",
-          "tribSub": "TJSC, TJSP, TRF4"
+          "proc": 39,
+          "ativos": 36,
+          "procSub": "36 ativos · 3 encerrados",
+          "areas": 4,
+          "areasSub": "Cível, Bancário, Pública",
+          "trib": 6,
+          "tribSub": "TJSC, OUTROS, TJSP"
         },
         "esforco": {
           "comProducao": 52,
@@ -511,7 +493,7 @@
             "2026": 578.8
           }
         },
-        "encerradosTotal": 4,
+        "encerradosTotal": 3,
         "estoqueHl": [
           "2026"
         ]
