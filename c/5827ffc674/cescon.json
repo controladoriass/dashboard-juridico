@@ -1,72 +1,79 @@
 {
   "kpiGrupo": {
-    "proc": 51,
-    "ativos": 46,
+    "proc": 56,
+    "ativos": 50,
     "areas": 3,
-    "trib": 6,
-    "procSub": "46 ativos · 5 encerrados",
+    "trib": 7,
+    "procSub": "50 ativos · 6 encerrados",
     "areasSub": "Cível, Trabalhista, Penal-Criminal",
     "tribSub": "TJSC, TRT04, TRF4",
-    "encerrados": 5
+    "encerrados": 6
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 682153532,
       "dataset": {
-        "total": 51,
-        "ativos": 46,
+        "total": 56,
+        "ativos": 50,
         "encerrados": {
-          "2020": 1,
+          "2026": 4,
           "2025": 1,
-          "2026": 3
+          "2020": 1
         },
-        "areaTotal": 46,
+        "areaTotal": 56,
         "estoque": {
-          "2022": 0,
-          "2023": 3,
-          "2024": 3,
-          "2025": 2,
-          "2026": 46
-        },
-        "entradas": {
           "2023": 3,
           "2026": 48
         },
+        "entradas": {
+          "2026": 53,
+          "2023": 3
+        },
         "area": {
-          "Cível": 36,
+          "Cível": 46,
           "Trabalhista": 9,
           "Penal-Criminal": 1
         },
         "uf": {
-          "SC": 36,
+          "SC": 45,
           "MG": 1,
-          "RS": 9
+          "RS": 9,
+          "N/D": 1
         },
         "instancia": {
-          "1º Grau": 45,
-          "2º Grau": 1
+          "1º Grau": 51,
+          "2º Grau": 5
         },
         "polo": {
-          "Polo passivo": 26,
-          "Terceiro/Outros": 14,
-          "Polo ativo": 6
+          "Polo Passivo": 42,
+          "Polo Ativo": 13,
+          "Terceiro": 1
         },
         "tribunais": {
-          "TJSC": 31,
+          "TJSC": 39,
           "TJMG": 1,
           "TRT12": 2,
-          "TRF4": 3,
+          "OUTROS": 2,
           "TJRS": 2,
-          "TRT04": 7
+          "TRT04": 7,
+          "TRF4": 3
         },
         "ranking": [
+          [
+            "EVERALDO RODRIGUES DA COSTA",
+            3
+          ],
+          [
+            "GELSON FRANCO DOS SANTOS",
+            3
+          ],
           [
             "CAIXA ECONÔMICA FEDERAL",
             3
           ],
           [
-            "EVERALDO RODRIGUES DA COSTA",
+            "ASJ7 PLANEJAMENTOS IMOBILIARIOS LTDA",
             2
           ],
           [
@@ -74,12 +81,8 @@
             2
           ],
           [
-            "JOSUE DOS SANTOS FERNANDES",
-            1
-          ],
-          [
-            "GABRIELA ARRUDA DA SILVEIRA",
-            1
+            "EDEN ANTONIO RUTHS",
+            2
           ],
           [
             "GUILHERME PAULO KEHL",
@@ -116,25 +119,21 @@
           [
             "VIVIANE BERTOLINE DO NASCIMENTO FREIRE",
             1
-          ],
-          [
-            "KONA LIGHTING LTDA",
-            1
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 51,
-          "ativos": 46,
+          "proc": 56,
+          "ativos": 50,
           "areas": 3,
-          "trib": 6,
-          "procSub": "46 ativos · 5 encerrados",
-          "areasSub": "",
-          "tribSub": "TJSC, TRT04, TRF4"
+          "areasSub": "Cível, Trabalhista, Penal-Criminal",
+          "trib": 7,
+          "tribSub": "TJSC, TRT04, TRF4",
+          "procSub": "50 ativos · 6 encerrados"
         },
         "esforco": {
           "comProducao": 0,
-          "tramitacaoDias": 0,
+          "tramitacaoDias": 196.2,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -154,11 +153,11 @@
             "2026": 250.1
           }
         },
-        "encerradosTotal": 5,
+        "encerradosTotal": 6,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     },
@@ -166,8 +165,8 @@
       "nome": "Cescon Construtora e Incorporadora LTDA",
       "_idCliente": 682153532,
       "dataset": {
-        "total": 20,
-        "ativos": 17,
+        "total": 23,
+        "ativos": 19,
         "encerrados": {
           "2026": 3
         },
@@ -700,8 +699,8 @@
       "nome": "Ibiza Tower SPE 003 LTDA",
       "_idCliente": 684881767,
       "dataset": {
-        "total": 2,
-        "ativos": 2,
+        "total": 4,
+        "ativos": 4,
         "encerrados": {},
         "areaTotal": 2,
         "estoque": {
@@ -962,8 +961,8 @@
       "nome": "Costa Vitta Construtora LTDA",
       "_idCliente": 684881886,
       "dataset": {
-        "total": 1,
-        "ativos": 1,
+        "total": 0,
+        "ativos": 0,
         "encerrados": {},
         "areaTotal": 1,
         "estoque": {
@@ -1568,8 +1567,8 @@
       "nome": "Cesar Eduardo da Silveira",
       "_idCliente": 684610049,
       "dataset": {
-        "total": 14,
-        "ativos": 13,
+        "total": 15,
+        "ativos": 14,
         "encerrados": {
           "2020": 1
         },
