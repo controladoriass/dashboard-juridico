@@ -1,12 +1,12 @@
 {
   "kpiGrupo": {
-    "proc": 19,
-    "ativos": 15,
+    "proc": 20,
+    "ativos": 16,
     "areas": 2,
-    "trib": 2,
-    "procSub": "15 ativos · 4 encerrados",
-    "areasSub": "Bancário, Cível",
-    "tribSub": "TJSC, TRF4",
+    "trib": 3,
+    "procSub": "16 ativos · 4 encerrados",
+    "areasSub": "Bancário, Recuperação Judicial",
+    "tribSub": "TJSC, TRF4, OUTROS",
     "encerrados": 4
   },
   "empresas": {
@@ -14,44 +14,44 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 679019114,
       "dataset": {
-        "total": 19,
-        "ativos": 15,
+        "total": 20,
+        "ativos": 16,
         "encerrados": {
-          "2024": 1,
+          "2026": 1,
           "2025": 2,
-          "2026": 1
+          "2024": 1
         },
         "areaTotal": 15,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
           "2024": 6,
-          "2025": 11,
+          "2025": 10,
           "2026": 15
         },
         "entradas": {
-          "2024": 7,
+          "2026": 6,
           "2025": 7,
-          "2026": 5
+          "2024": 7
         },
         "area": {
-          "Bancário": 12,
-          "Cível": 3
+          "Bancário": 19,
+          "Recuperação Judicial": 1
         },
         "uf": {
-          "SC": 14
+          "SC": 17,
+          "N/D": 3
         },
         "instancia": {
-          "1º Grau": 12,
-          "2º Grau": 3
+          "2º Grau": 5,
+          "1º Grau": 15
         },
         "polo": {
-          "Terceiro/Outros": 10,
-          "Polo ativo": 4
+          "Polo Ativo": 12,
+          "Polo Passivo": 8
         },
         "tribunais": {
-          "TJSC": 12,
-          "TRF4": 3
+          "TJSC": 14,
+          "TRF4": 3,
+          "OUTROS": 3
         },
         "ranking": [
           [
@@ -81,17 +81,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 19,
-          "ativos": 15,
+          "proc": 20,
+          "ativos": 16,
+          "procSub": "16 ativos · 4 encerrados",
           "areas": 2,
-          "trib": 2,
-          "procSub": "15 ativos · 4 encerrados",
-          "areasSub": "Bancário, Cível",
-          "tribSub": "TJSC, TRF4"
+          "areasSub": "Bancário, Recuperação Judicial",
+          "trib": 3,
+          "tribSub": "TJSC, TRF4, OUTROS"
         },
         "esforco": {
           "comProducao": 18,
-          "tramitacaoDias": 357,
+          "tramitacaoDias": 390.0,
           "prazano": {
             "2021": 0,
             "2022": 0,
@@ -146,8 +146,9 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
-        ]
+          2026
+        ],
+        "encerradosTotal": 4
       },
       "encerradosTotal": 4,
       "_panorama": true
@@ -156,8 +157,8 @@
       "nome": "Piante Modas LTDA",
       "_idCliente": 679019114,
       "dataset": {
-        "total": 19,
-        "ativos": 15,
+        "total": 20,
+        "ativos": 16,
         "encerrados": {
           "2024": 1,
           "2025": 2,

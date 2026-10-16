@@ -3,10 +3,10 @@
     "proc": 20,
     "ativos": 19,
     "areas": 3,
-    "trib": 1,
-    "procSub": "19 ativos · 1 encerrados",
+    "trib": 3,
+    "procSub": "19 ativos · 1 encerrado",
     "areasSub": "Cível, Penal-Criminal, Administrativo",
-    "tribSub": "TJSC, OUTROS",
+    "tribSub": "TJSC, OUTROS, ADMINISTRATIVO",
     "encerrados": 1
   },
   "empresas": {
@@ -25,30 +25,31 @@
           "2026": 19
         },
         "entradas": {
-          "2025": 16,
-          "2026": 4
+          "2026": 4,
+          "2025": 16
         },
         "area": {
-          "Cível": 14,
           "Penal-Criminal": 4,
+          "Cível": 15,
           "Administrativo": 1
         },
         "uf": {
-          "SC": 16,
-          "OUTROS": 3
+          "OUTROS": 3,
+          "SC": 17
         },
         "instancia": {
           "1º Grau": 15,
-          "2º Grau": 4
+          "2º Grau": 5
         },
         "polo": {
-          "Polo ativo": 6,
-          "Polo passivo": 9,
-          "Terceiro/Outros": 3
+          "Terceiro/Outros": 4,
+          "Polo ativo": 7,
+          "Polo passivo": 9
         },
         "tribunais": {
-          "TJSC": 15,
-          "OUTROS": 4
+          "OUTROS": 3,
+          "TJSC": 16,
+          "ADMINISTRATIVO": 1
         },
         "ranking": [
           [
@@ -97,14 +98,15 @@
           "proc": 20,
           "ativos": 19,
           "areas": 3,
-          "trib": 1,
-          "procSub": "19 ativos · 1 encerrados",
+          "trib": 3,
+          "procSub": "19 ativos · 1 encerrado",
           "areasSub": "Cível, Penal-Criminal, Administrativo",
-          "tribSub": "TJSC, OUTROS"
+          "tribSub": "TJSC, OUTROS, ADMINISTRATIVO",
+          "encerrados": 1
         },
         "esforco": {
           "comProducao": 20,
-          "tramitacaoDias": 309,
+          "tramitacaoDias": 388.6,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -131,7 +133,7 @@
           "kHoras": 769.7
         },
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     },
@@ -146,37 +148,35 @@
         },
         "areaTotal": 19,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
           "2025": 16,
           "2026": 19
         },
         "entradas": {
-          "2025": 16,
-          "2026": 4
+          "2026": 4,
+          "2025": 16
         },
         "area": {
-          "Cível": 14,
           "Penal-Criminal": 4,
+          "Cível": 15,
           "Administrativo": 1
         },
         "uf": {
-          "SC": 16,
-          "OUTROS": 3
+          "OUTROS": 3,
+          "SC": 17
         },
         "instancia": {
           "1º Grau": 15,
-          "2º Grau": 4
+          "2º Grau": 5
         },
         "polo": {
-          "Polo ativo": 6,
-          "Polo passivo": 9,
-          "Terceiro/Outros": 3
+          "Terceiro/Outros": 4,
+          "Polo ativo": 7,
+          "Polo passivo": 9
         },
         "tribunais": {
-          "TJSC": 15,
-          "OUTROS": 4
+          "OUTROS": 3,
+          "TJSC": 16,
+          "ADMINISTRATIVO": 1
         },
         "ranking": [
           [
@@ -225,14 +225,15 @@
           "proc": 20,
           "ativos": 19,
           "areas": 3,
-          "trib": 1,
+          "trib": 3,
           "procSub": "19 ativos · 1 encerrado",
-          "areasSub": "",
-          "tribSub": ""
+          "areasSub": "Cível, Penal-Criminal, Administrativo",
+          "tribSub": "TJSC, OUTROS, ADMINISTRATIVO",
+          "encerrados": 1
         },
         "esforco": {
           "comProducao": 20,
-          "tramitacaoDias": 309,
+          "tramitacaoDias": 388.6,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -254,7 +255,7 @@
         },
         "encerradosTotal": 1,
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     }
