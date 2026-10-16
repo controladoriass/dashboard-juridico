@@ -5,8 +5,8 @@
     "areas": 3,
     "trib": 4,
     "procSub": "13 ativos · 3 encerrados",
-    "areasSub": "OUTROS",
-    "tribSub": "TJSC, TRT12, TRF4",
+    "areasSub": "Cível, Trabalhista, Tributário",
+    "tribSub": "TJSC, TRT12, OUTROS",
     "encerrados": 3
   },
   "empresas": {
@@ -23,7 +23,6 @@
         "areaTotal": 13,
         "estoque": {
           "2024": 14,
-          "2025": 12,
           "2026": 13
         },
         "entradas": {
@@ -31,11 +30,13 @@
           "2026": 1
         },
         "area": {
-          "OUTROS": 16
+          "Cível": 7,
+          "Trabalhista": 5,
+          "Tributário": 4
         },
         "uf": {
           "SC": 12,
-          "OUTROS": 3,
+          "N/D": 3,
           "PR": 1
         },
         "instancia": {
@@ -43,15 +44,14 @@
           "2º Grau": 1
         },
         "polo": {
-          "Polo passivo": 2,
-          "Terceiro/Outros": 8,
-          "Polo ativo": 6
+          "Polo Passivo": 7,
+          "Polo Ativo": 9
         },
         "tribunais": {
           "TJSC": 5,
           "TRT12": 5,
-          "TRF4": 2,
-          "Justiça Federal de Santa Catarina": 1
+          "OUTROS": 3,
+          "TRF4": 3
         },
         "ranking": [
           [
@@ -87,15 +87,15 @@
         "kpi": {
           "proc": 16,
           "ativos": 13,
-          "areas": 3,
-          "trib": 4,
           "procSub": "13 ativos · 3 encerrados",
-          "areasSub": "OUTROS",
-          "tribSub": "TJSC, TRT12, TRF4"
+          "areas": 3,
+          "areasSub": "Cível, Trabalhista, Tributário",
+          "trib": 4,
+          "tribSub": "TJSC, TRT12, OUTROS"
         },
         "esforco": {
           "comProducao": 17,
-          "tramitacaoDias": 801,
+          "tramitacaoDias": 881.9,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -120,8 +120,11 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
-        ]
+          2026
+        ],
+        "_CORTE_POR_GRUPO": {
+          "chady": "2026-09-30"
+        }
       }
     },
     "mariadefatimavieirac_": {

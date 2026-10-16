@@ -1,58 +1,58 @@
 {
   "kpiGrupo": {
-    "proc": 33,
-    "ativos": 33,
+    "proc": 40,
+    "ativos": 39,
     "areas": 5,
-    "trib": 2,
-    "procSub": "33 ativos · 0 encerrados",
+    "trib": 4,
+    "procSub": "39 ativos · 1 encerrados",
     "areasSub": "Cível, Trabalhista, Administrativo",
-    "tribSub": "TJSC, TRT12, OUTROS",
-    "encerrados": 0
+    "tribSub": "TJSC, TRT12, ADMINISTRATIVO",
+    "encerrados": 1
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 680630916,
       "dataset": {
-        "total": 33,
-        "ativos": 33,
-        "encerrados": {},
+        "total": 40,
+        "ativos": 39,
+        "encerrados": {
+          "2026": 1
+        },
         "areaTotal": 33,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
           "2025": 21,
-          "2026": 33
+          "2026": 39
         },
         "entradas": {
-          "2025": 21,
-          "2026": 12
+          "2026": 19,
+          "2025": 21
         },
         "area": {
-          "Cível": 17,
-          "Trabalhista": 9,
+          "Cível": 22,
+          "Trabalhista": 10,
           "Administrativo": 4,
           "Tributário": 2,
-          "Pública": 1
+          "Pública": 2
         },
         "uf": {
-          "SC": 32,
-          "OUTROS": 1
+          "SC": 38,
+          "N/D": 2
         },
         "instancia": {
-          "1º Grau": 31,
-          "2º Grau": 2
+          "1º Grau": 30,
+          "2º Grau": 3,
+          "1 Grau": 7
         },
         "polo": {
-          "Polo ativo": 7,
-          "Polo passivo": 16,
-          "Terceiro/Outros": 10
+          "Polo Passivo": 28,
+          "Polo Ativo": 12
         },
         "tribunais": {
-          "TJSC": 18,
-          "TRT12": 8,
-          "OUTROS": 7
+          "TJSC": 23,
+          "TRT12": 9,
+          "OUTROS": 3,
+          "ADMINISTRATIVO": 5
         },
         "ranking": [
           [
@@ -118,17 +118,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 33,
-          "ativos": 33,
+          "proc": 40,
+          "ativos": 39,
+          "procSub": "39 ativos · 1 encerrados",
           "areas": 5,
-          "trib": 2,
-          "procSub": "33 ativos · 0 encerrados",
           "areasSub": "Cível, Trabalhista, Administrativo",
-          "tribSub": "TJSC, TRT12, OUTROS"
+          "trib": 4,
+          "tribSub": "TJSC, TRT12, ADMINISTRATIVO"
         },
         "esforco": {
           "comProducao": 29,
-          "tramitacaoDias": 551,
+          "tramitacaoDias": 288.2,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -149,11 +149,11 @@
             "2026": 420.2
           }
         },
-        "encerradosTotal": 0,
+        "encerradosTotal": 1,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       }
     },
@@ -161,8 +161,8 @@
       "nome": "Praiholl Empreendimentos LTDA",
       "_idCliente": 680630916,
       "dataset": {
-        "total": 25,
-        "ativos": 25,
+        "total": 29,
+        "ativos": 28,
         "encerrados": {},
         "areaTotal": 25,
         "estoque": {
@@ -305,8 +305,8 @@
       "nome": "Dubai Mall Ph Empreendimentos SPE LTDA",
       "_idCliente": 682454260,
       "dataset": {
-        "total": 8,
-        "ativos": 8,
+        "total": 11,
+        "ativos": 11,
         "encerrados": {},
         "areaTotal": 8,
         "estoque": {

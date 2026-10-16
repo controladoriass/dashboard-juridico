@@ -1,12 +1,12 @@
 {
   "kpiGrupo": {
-    "proc": 31,
-    "ativos": 23,
-    "areas": 5,
+    "proc": 29,
+    "ativos": 21,
+    "areas": 4,
     "trib": 3,
-    "procSub": "23 ativos · 8 encerrados",
-    "areasSub": "OUTROS",
-    "tribSub": "TJSC, OUTROS, TJRS",
+    "procSub": "21 ativos · 8 encerrados",
+    "areasSub": "Cível, Tributário, Penal-Criminal",
+    "tribSub": "TJSC, TJRS, OUTROS",
     "encerrados": 8
   },
   "empresas": {
@@ -14,49 +14,60 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 684811608,
       "dataset": {
-        "total": 31,
-        "ativos": 23,
+        "total": 29,
+        "ativos": 21,
         "encerrados": {
           "2024": 3,
           "2025": 3,
           "2026": 2
         },
-        "areaTotal": 23,
+        "areaTotal": 29,
         "estoque": {
           "2024": 17,
-          "2025": 21,
-          "2026": 23
+          "2025": 18,
+          "2026": 20
         },
         "entradas": {
-          "2024": 20,
-          "2025": 7,
-          "2026": 4
+          "2026": 4,
+          "2025": 5,
+          "2024": 20
         },
         "area": {
-          "OUTROS": 31
+          "Cível": 21,
+          "Tributário": 6,
+          "Penal-Criminal": 1,
+          "Pública": 1
         },
         "uf": {
-          "SC": 28,
+          "SC": 26,
           "RS": 2,
-          "OUTROS": 1
+          "N/D": 1
         },
         "instancia": {
-          "1º Grau": 27,
+          "1º Grau": 25,
           "2º Grau": 4
         },
         "polo": {
-          "Polo ativo": 23,
-          "Polo passivo": 5,
-          "Terceiro/Outros": 3
+          "Terceiro": 1,
+          "Polo Ativo": 22,
+          "Polo Passivo": 6
         },
         "tribunais": {
-          "TJSC": 20,
-          "OUTROS": 2,
-          "TJRS": 1
+          "TJSC": 26,
+          "TJRS": 2,
+          "OUTROS": 1
         },
         "ranking": [
           [
             "ESTADO DE SANTA CATARINA",
+            5
+          ],
+          [
+            "IGREJA TEMPLO DA FE",
+            3
+          ],
+          [
+            "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
             3
           ],
           [
@@ -64,15 +75,7 @@
             3
           ],
           [
-            "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
-            2
-          ],
-          [
-            "IGREJA TEMPLO DA FE",
-            2
-          ],
-          [
-            "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+            "ALPHAMARE CONFECCOES LTDA",
             2
           ],
           [
@@ -104,31 +107,31 @@
             1
           ],
           [
-            "ALPHAMARE CONFECCOES LTDA",
+            "KELVIN RODRIGUES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
             1
           ],
           [
-            "EMPRESA MUNICIPAL DE ÁGUA E SANEAMENTO DE BALNEÁRIO CAMBORIÚ - EMASA",
+            "TIAGO DE MORAIS",
             1
           ],
           [
-            "INNOVARE COMERCIO E CONSTRUTORA LTDA",
+            "EDSON WANDERLEY BRENDLER",
             1
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 31,
-          "ativos": 23,
-          "areas": 5,
+          "proc": 29,
+          "ativos": 21,
+          "procSub": "21 ativos · 8 encerrados",
+          "areas": 4,
+          "areasSub": "Cível, Tributário, Penal-Criminal",
           "trib": 3,
-          "procSub": "23 ativos · 8 encerrados",
-          "areasSub": "OUTROS",
-          "tribSub": "TJSC, OUTROS, TJRS"
+          "tribSub": "TJSC, TJRS, OUTROS"
         },
         "esforco": {
           "comProducao": 34,
-          "tramitacaoDias": 601,
+          "tramitacaoDias": 706.7,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -165,13 +168,7 @@
         "ativos": 0,
         "encerrados": {},
         "areaTotal": 0,
-        "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
+        "estoque": {},
         "entradas": {},
         "area": {},
         "uf": {},
@@ -183,10 +180,10 @@
         "kpi": {
           "proc": 0,
           "ativos": 0,
-          "areas": 0,
-          "trib": 0,
           "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
           "areasSub": "",
+          "trib": 0,
           "tribSub": ""
         },
         "esforco": {
@@ -211,58 +208,33 @@
           }
         },
         "encerradosTotal": 0,
-        "estoqueHl": [
-          "2026"
-        ]
+        "estoqueHl": []
       }
     },
     "nomaempreendimentosl_682374145": {
       "nome": "Noma Empreendimentos LTDA - Mallon",
       "_idCliente": 682374145,
       "dataset": {
-        "total": 2,
-        "ativos": 2,
+        "total": 0,
+        "ativos": 0,
         "encerrados": {},
-        "areaTotal": 2,
-        "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 2,
-          "2026": 2
-        },
-        "entradas": {
-          "2025": 2
-        },
-        "area": {
-          "Propriedade intelectual": 2
-        },
-        "uf": {
-          "SC": 2
-        },
-        "instancia": {
-          "1º Grau": 2
-        },
-        "polo": {
-          "Polo ativo": 2
-        },
-        "tribunais": {
-          "OUTROS": 2
-        },
-        "ranking": [
-          [
-            "INPI - INSTITUTO NACIONAL DA PROPRIEDADE INDUSTRIAL",
-            2
-          ]
-        ],
+        "areaTotal": 0,
+        "estoque": {},
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 2,
-          "ativos": 2,
-          "areas": 1,
-          "trib": 1,
-          "procSub": "2 ativos · 0 encerrados",
-          "areasSub": "Propriedade intelectual",
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
           "tribSub": ""
         },
         "esforco": {
@@ -288,9 +260,7 @@
           }
         },
         "encerradosTotal": 0,
-        "estoqueHl": [
-          "2026"
-        ]
+        "estoqueHl": []
       }
     },
     "mfcacademialtdamallo_678933867": {
@@ -299,22 +269,17 @@
       "dataset": {
         "total": 3,
         "ativos": 3,
-        "encerrados": {
-          "2025": 1,
-          "2026": 1
-        },
+        "encerrados": {},
         "areaTotal": 3,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
           "2024": 1,
-          "2025": 3,
+          "2025": 2,
           "2026": 3
         },
         "entradas": {
-          "2024": 1,
-          "2025": 3,
-          "2026": 1
+          "2026": 1,
+          "2025": 1,
+          "2024": 1
         },
         "area": {
           "Cível": 3
@@ -326,8 +291,9 @@
           "1º Grau": 3
         },
         "polo": {
-          "Terceiro/Outros": 2,
-          "Polo ativo": 1
+          "Terceiro": 1,
+          "Polo Ativo": 1,
+          "Polo Passivo": 1
         },
         "tribunais": {
           "TJSC": 3
@@ -350,10 +316,10 @@
         "kpi": {
           "proc": 3,
           "ativos": 3,
+          "procSub": "3 ativos · 0 encerrados",
           "areas": 1,
-          "trib": 1,
-          "procSub": "3 ativos · 2 encerrados",
           "areasSub": "Cível",
+          "trib": 1,
           "tribSub": "TJSC"
         },
         "esforco": {
@@ -379,7 +345,7 @@
             "2026": 14.5
           }
         },
-        "encerradosTotal": 2,
+        "encerradosTotal": 0,
         "estoqueHl": [
           "2026"
         ]
@@ -393,13 +359,7 @@
         "ativos": 0,
         "encerrados": {},
         "areaTotal": 0,
-        "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
+        "estoque": {},
         "entradas": {},
         "area": {},
         "uf": {},
@@ -411,10 +371,10 @@
         "kpi": {
           "proc": 0,
           "ativos": 0,
-          "areas": 0,
-          "trib": 0,
           "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
           "areasSub": "",
+          "trib": 0,
           "tribSub": ""
         },
         "esforco": {
@@ -437,9 +397,7 @@
           "horasano": {}
         },
         "encerradosTotal": 0,
-        "estoqueHl": [
-          "2026"
-        ]
+        "estoqueHl": []
       }
     },
     "asmempreendimentoslt_677172846": {
@@ -451,32 +409,43 @@
         "encerrados": {
           "2024": 1
         },
-        "areaTotal": 0,
+        "areaTotal": 1,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
+          "2024": 0
         },
         "entradas": {
           "2024": 1
         },
-        "area": {},
-        "uf": {},
-        "instancia": {},
-        "polo": {},
-        "tribunais": {},
-        "ranking": [],
+        "area": {
+          "Tributário": 1
+        },
+        "uf": {
+          "SC": 1
+        },
+        "instancia": {
+          "1º Grau": 1
+        },
+        "polo": {
+          "Polo Ativo": 1
+        },
+        "tribunais": {
+          "TJSC": 1
+        },
+        "ranking": [
+          [
+            "ESTADO DE SANTA CATARINA",
+            1
+          ]
+        ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "proc": 1,
           "ativos": 0,
-          "areas": 0,
-          "trib": 0,
-          "procSub": "0 ativos · 1 encerrado",
-          "areasSub": "",
-          "tribSub": ""
+          "procSub": "0 ativos · 1 encerrados",
+          "areas": 1,
+          "areasSub": "Tributário",
+          "trib": 1,
+          "tribSub": "TJSC"
         },
         "esforco": {
           "comProducao": 1,
@@ -501,7 +470,7 @@
         },
         "encerradosTotal": 1,
         "estoqueHl": [
-          "2026"
+          "2024"
         ]
       }
     },
@@ -514,11 +483,7 @@
         "encerrados": {},
         "areaTotal": 1,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 1,
-          "2025": 1,
-          "2026": 1
+          "2024": 1
         },
         "entradas": {
           "2024": 1
@@ -533,7 +498,7 @@
           "1º Grau": 1
         },
         "polo": {
-          "Polo ativo": 1
+          "Polo Ativo": 1
         },
         "tribunais": {
           "TJSC": 1
@@ -548,10 +513,10 @@
         "kpi": {
           "proc": 1,
           "ativos": 1,
-          "areas": 1,
-          "trib": 1,
           "procSub": "1 ativos · 0 encerrados",
+          "areas": 1,
           "areasSub": "Cível",
+          "trib": 1,
           "tribSub": "TJSC"
         },
         "esforco": {
@@ -579,7 +544,7 @@
         },
         "encerradosTotal": 0,
         "estoqueHl": [
-          "2026"
+          "2024"
         ]
       }
     },
@@ -592,46 +557,44 @@
         "encerrados": {
           "2025": 1
         },
-        "areaTotal": 1,
+        "areaTotal": 2,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 2,
-          "2025": 1,
-          "2026": 1
+          "2024": 2
         },
         "entradas": {
           "2024": 2
         },
         "area": {
-          "Tributário": 1
+          "Tributário": 2
         },
         "uf": {
-          "SC": 1
+          "SC": 2
         },
         "instancia": {
-          "1º Grau": 1
+          "1º Grau": 1,
+          "2º Grau": 1
         },
         "polo": {
-          "Terceiro/Outros": 1
+          "Polo Passivo": 1,
+          "Polo Ativo": 1
         },
         "tribunais": {
-          "TJSC": 1
+          "TJSC": 2
         },
         "ranking": [
           [
             "ESTADO DE SANTA CATARINA",
-            1
+            2
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "proc": 2,
           "ativos": 1,
+          "procSub": "1 ativos · 1 encerrados",
           "areas": 1,
-          "trib": 1,
-          "procSub": "1 ativos · 1 encerrado",
           "areasSub": "Tributário",
+          "trib": 1,
           "tribSub": "TJSC"
         },
         "esforco": {
@@ -658,7 +621,7 @@
         },
         "encerradosTotal": 1,
         "estoqueHl": [
-          "2026"
+          "2024"
         ]
       }
     },
@@ -671,11 +634,7 @@
         "encerrados": {},
         "areaTotal": 5,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 5,
-          "2025": 5,
-          "2026": 5
+          "2024": 5
         },
         "entradas": {
           "2024": 5
@@ -686,20 +645,20 @@
           "Penal-Criminal": 1
         },
         "uf": {
-          "SC": 4,
-          "RS": 1
+          "RS": 1,
+          "SC": 4
         },
         "instancia": {
           "1º Grau": 4,
           "2º Grau": 1
         },
         "polo": {
-          "Terceiro/Outros": 4,
-          "Polo ativo": 1
+          "Polo Passivo": 2,
+          "Polo Ativo": 3
         },
         "tribunais": {
-          "TJSC": 4,
-          "TJRS": 1
+          "TJRS": 1,
+          "TJSC": 4
         },
         "ranking": [
           [
@@ -723,10 +682,10 @@
         "kpi": {
           "proc": 5,
           "ativos": 5,
-          "areas": 3,
-          "trib": 2,
           "procSub": "5 ativos · 0 encerrados",
+          "areas": 3,
           "areasSub": "Cível, Tributário, Penal-Criminal",
+          "trib": 2,
           "tribSub": "TJSC, TJRS"
         },
         "esforco": {
@@ -754,7 +713,7 @@
         },
         "encerradosTotal": 0,
         "estoqueHl": [
-          "2026"
+          "2024"
         ]
       }
     },
@@ -765,56 +724,71 @@
         "total": 17,
         "ativos": 11,
         "encerrados": {
-          "2024": 2,
+          "2026": 2,
           "2025": 2,
-          "2026": 3
+          "2024": 2
         },
-        "areaTotal": 11,
+        "areaTotal": 17,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 9,
-          "2025": 11,
-          "2026": 12
+          "2024": 8,
+          "2025": 9,
+          "2026": 10
         },
         "entradas": {
-          "2024": 11,
+          "2026": 3,
           "2025": 4,
-          "2026": 3
+          "2024": 10
         },
         "area": {
-          "Cível": 9,
+          "Cível": 15,
           "Pública": 1,
           "Tributário": 1
         },
         "uf": {
-          "SC": 11
+          "SC": 15,
+          "N/D": 1,
+          "RS": 1
         },
         "instancia": {
-          "1º Grau": 10,
-          "2º Grau": 1
+          "1º Grau": 15,
+          "2º Grau": 2
         },
         "polo": {
-          "Polo ativo": 11
+          "Polo Ativo": 15,
+          "Polo Passivo": 2
         },
         "tribunais": {
-          "TJSC": 11
+          "TJSC": 15,
+          "OUTROS": 1,
+          "TJRS": 1
         },
         "ranking": [
+          [
+            "IGREJA TEMPLO DA FE",
+            3
+          ],
+          [
+            "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
+            3
+          ],
           [
             "SOLUCOES CONTAINERS LTDA.",
             3
           ],
           [
-            "IGREJA TEMPLO DA FE",
-            2
-          ],
-          [
-            "MUNICÍPIO DE BALNEÁRIO CAMBORIÚ",
-            2
-          ],
-          [
             "ALPHAMARE CONFECCOES LTDA",
+            2
+          ],
+          [
+            "KELVIN RODRIGUES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+            1
+          ],
+          [
+            "TIAGO DE MORAIS",
+            1
+          ],
+          [
+            "EDSON WANDERLEY BRENDLER",
             1
           ],
           [
@@ -834,11 +808,11 @@
         "kpi": {
           "proc": 17,
           "ativos": 11,
+          "procSub": "11 ativos · 6 encerrados",
           "areas": 3,
-          "trib": 1,
-          "procSub": "11 ativos · 7 encerrados",
           "areasSub": "Cível, Pública, Tributário",
-          "tribSub": "TJSC"
+          "trib": 3,
+          "tribSub": "TJSC, OUTROS, TJRS"
         },
         "esforco": {
           "comProducao": 18,
@@ -863,7 +837,7 @@
             "2026": 173.7
           }
         },
-        "encerradosTotal": 7,
+        "encerradosTotal": 6,
         "estoqueHl": [
           "2026"
         ]

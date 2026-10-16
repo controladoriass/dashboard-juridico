@@ -1,12 +1,12 @@
 {
   "kpiGrupo": {
-    "proc": 38,
-    "ativos": 38,
+    "proc": 39,
+    "ativos": 39,
     "areas": 3,
-    "trib": 3,
-    "procSub": "38 ativos · 0 encerrados",
+    "trib": 5,
+    "procSub": "39 ativos · 0 encerrados",
     "areasSub": "Trabalhista, Tributário, Administrativo",
-    "tribSub": "TRT12, TRF4, OUTROS",
+    "tribSub": "TRT12, TRF4, ADMINISTRATIVO",
     "encerrados": 0
   },
   "empresas": {
@@ -14,42 +14,44 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 682162311,
       "dataset": {
-        "total": 38,
-        "ativos": 38,
+        "total": 39,
+        "ativos": 39,
         "encerrados": {},
-        "areaTotal": 38,
+        "areaTotal": 39,
         "estoque": {
           "2025": 22,
-          "2026": 38
+          "2026": 39
         },
         "entradas": {
           "2025": 22,
-          "2026": 16
+          "2026": 17
         },
         "area": {
-          "Trabalhista": 30,
+          "Trabalhista": 31,
           "Tributário": 7,
           "Administrativo": 1
         },
         "uf": {
           "SC": 37,
+          "PE": 1,
           "PR": 1
         },
         "instancia": {
-          "1º Grau": 35,
-          "2º Grau": 2,
-          "Superiores": 1
+          "1º Grau": 36,
+          "Superiores": 1,
+          "2º Grau": 2
         },
         "polo": {
           "Polo passivo": 33,
-          "Terceiro/Outros": 4,
+          "Terceiro/Outros": 5,
           "Polo ativo": 1
         },
         "tribunais": {
           "TRT12": 27,
+          "TJPE": 1,
+          "MPT": 1,
           "TRF4": 7,
-          "OUTROS": 3,
-          "MPT": 1
+          "ADMINISTRATIVO": 3
         },
         "ranking": [
           [
@@ -63,6 +65,14 @@
           [
             "NATANAEL PEREIRA DA SILVA",
             2
+          ],
+          [
+            "EMILSON OLIVEIRA MOURA",
+            1
+          ],
+          [
+            "ANTONIO VICENTE DA SILVA",
+            1
           ],
           [
             "LUIS FERNANDO RODRIGUES",
@@ -103,25 +113,17 @@
           [
             "MARCIO OLIVEIRA VIEIRA",
             1
-          ],
-          [
-            "OSVALDO ERASMO FERNANDES ARGUELLO",
-            1
-          ],
-          [
-            "GELIEL LUCAS GATIS",
-            1
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 38,
-          "ativos": 38,
+          "proc": 39,
+          "ativos": 39,
+          "procSub": "39 ativos · 0 encerrados",
           "areas": 3,
-          "trib": 3,
-          "procSub": "38 ativos · 0 encerrados",
           "areasSub": "Trabalhista, Tributário, Administrativo",
-          "tribSub": "TRT12, TRF4, OUTROS"
+          "trib": 5,
+          "tribSub": "TRT12, TRF4, ADMINISTRATIVO"
         },
         "esforco": {
           "comProducao": 56,
@@ -191,8 +193,7 @@
         "encerrados": {},
         "areaTotal": 1,
         "estoque": {
-          "2025": 1,
-          "2026": 1
+          "2025": 1
         },
         "entradas": {
           "2025": 1
@@ -222,10 +223,10 @@
         "kpi": {
           "proc": 1,
           "ativos": 1,
-          "areas": 1,
-          "trib": 1,
           "procSub": "1 ativos · 0 encerrados",
+          "areas": 1,
           "areasSub": "Trabalhista",
+          "trib": 1,
           "tribSub": "TRT12"
         },
         "esforco": {
@@ -280,7 +281,7 @@
         },
         "encerradosTotal": 0,
         "estoqueHl": [
-          "2026"
+          "2025"
         ]
       },
       "encerradosTotal": 0
@@ -289,42 +290,44 @@
       "nome": "Costa Verde Construtora LTDA - Costa Verde",
       "_idCliente": 681957359,
       "dataset": {
-        "total": 37,
-        "ativos": 37,
+        "total": 38,
+        "ativos": 38,
         "encerrados": {},
-        "areaTotal": 37,
+        "areaTotal": 38,
         "estoque": {
           "2025": 21,
-          "2026": 37
+          "2026": 38
         },
         "entradas": {
-          "2025": 21,
-          "2026": 16
+          "2026": 17,
+          "2025": 21
         },
         "area": {
-          "Trabalhista": 29,
+          "Trabalhista": 30,
           "Tributário": 7,
           "Administrativo": 1
         },
         "uf": {
+          "PE": 1,
           "SC": 36,
           "PR": 1
         },
         "instancia": {
-          "1º Grau": 34,
-          "2º Grau": 2,
-          "Superiores": 1
+          "1º Grau": 35,
+          "Superiores": 1,
+          "2º Grau": 2
         },
         "polo": {
+          "Terceiro/Outros": 5,
           "Polo passivo": 32,
-          "Terceiro/Outros": 4,
           "Polo ativo": 1
         },
         "tribunais": {
+          "TJPE": 1,
           "TRT12": 26,
+          "MPT": 1,
           "TRF4": 7,
-          "OUTROS": 3,
-          "MPT": 1
+          "ADMINISTRATIVO": 3
         },
         "ranking": [
           [
@@ -338,6 +341,10 @@
           [
             "NATANAEL PEREIRA DA SILVA",
             2
+          ],
+          [
+            "ANTONIO VICENTE DA SILVA",
+            1
           ],
           [
             "LUIS FERNANDO RODRIGUES",
@@ -382,21 +389,17 @@
           [
             "OSVALDO ERASMO FERNANDES ARGUELLO",
             1
-          ],
-          [
-            "GELIEL LUCAS GATIS",
-            1
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 37,
-          "ativos": 37,
+          "proc": 38,
+          "ativos": 38,
+          "procSub": "38 ativos · 0 encerrados",
           "areas": 3,
-          "trib": 3,
-          "procSub": "37 ativos · 0 encerrados",
           "areasSub": "Trabalhista, Tributário, Administrativo",
-          "tribSub": "TRT12, TRF4"
+          "trib": 5,
+          "tribSub": "TRT12, TRF4, ADMINISTRATIVO"
         },
         "esforco": {
           "comProducao": 54,
