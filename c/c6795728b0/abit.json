@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 11,
-    "ativos": 10,
+    "proc": 16,
+    "ativos": 15,
     "areas": 2,
-    "trib": 1,
-    "procSub": "10 ativos · 1 encerrado",
+    "trib": 2,
+    "procSub": "15 ativos · 1 encerrado",
     "areasSub": "Cível, Bancário",
     "tribSub": "TJSC, OUTROS",
     "encerrados": 1
@@ -14,48 +14,59 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 2130010,
       "dataset": {
-        "total": 11,
-        "ativos": 10,
+        "total": 16,
+        "ativos": 15,
         "encerrados": {
           "2024": 1
         },
-        "areaTotal": 10,
+        "areaTotal": 2,
         "estoque": {
           "2022": 3,
-          "2023": 7,
-          "2024": 8,
-          "2025": 8,
-          "2026": 10
+          "2023": 8,
+          "2024": 9,
+          "2025": 11,
+          "2026": 15
         },
         "entradas": {
-          "2022": 3,
-          "2023": 4,
+          "2026": 4,
+          "2025": 2,
           "2024": 2,
-          "2026": 2
+          "2023": 5,
+          "2022": 3
         },
         "area": {
-          "Cível": 9,
+          "Cível": 15,
           "Bancário": 1
         },
         "uf": {
-          "SC": 9
+          "SC": 15,
+          "N/D": 1
         },
         "instancia": {
-          "1º Grau": 10
+          "1º Grau": 15,
+          "2º Grau": 1
         },
         "polo": {
-          "Polo ativo": 7,
-          "Polo passivo": 2,
+          "Polo passivo": 4,
+          "Polo ativo": 11,
           "Terceiro/Outros": 1
         },
         "tribunais": {
-          "TJSC": 9,
+          "TJSC": 15,
           "OUTROS": 1
         },
         "ranking": [
           [
+            "POSITIVA CONSTRUTORA E INCORPORADORA LTDA",
+            4
+          ],
+          [
             "A SKAMORA COMERCIO ELETRONICO LTDA",
             4
+          ],
+          [
+            "VOLNEI ANTONIO TELLI",
+            2
           ],
           [
             "INSTITUTO SANTOS BRASIL LTDA",
@@ -63,14 +74,10 @@
           ],
           [
             "BANCO PAN S.A.",
-            1
+            2
           ],
           [
             "LUCIANA SCHRAMM",
-            1
-          ],
-          [
-            "POSITIVA CONSTRUTORA E INCORPORADORA LTDA",
             1
           ],
           [
@@ -80,17 +87,18 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 11,
-          "ativos": 10,
+          "proc": 16,
+          "ativos": 15,
+          "procSub": "15 ativos · 1 encerrado",
           "areas": 2,
-          "trib": 1,
-          "procSub": "10 ativos · 1 encerrado",
           "areasSub": "Cível, Bancário",
-          "tribSub": "TJSC, OUTROS"
+          "trib": 2,
+          "tribSub": "TJSC, OUTROS",
+          "encerrados": 1
         },
         "esforco": {
-          "comProducao": 11,
-          "tramitacaoDias": 958,
+          "comProducao": 16,
+          "tramitacaoDias": 822.5,
           "prazano": {
             "2021": 0,
             "2022": 12,
@@ -154,8 +162,8 @@
       "nome": "Vera Lúcia dos Reis Abitante - Abitante",
       "_idCliente": 2130010,
       "dataset": {
-        "total": 11,
-        "ativos": 10,
+        "total": 16,
+        "ativos": 15,
         "encerrados": {
           "2024": 1
         },
@@ -220,11 +228,11 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 11,
-          "ativos": 10,
+          "proc": 16,
+          "ativos": 15,
           "areas": 2,
           "trib": 1,
-          "procSub": "10 ativos · 1 encerrado",
+          "procSub": "15 ativos · 1 encerrado",
           "areasSub": "Cível, Bancário",
           "tribSub": "TJSC"
         },
