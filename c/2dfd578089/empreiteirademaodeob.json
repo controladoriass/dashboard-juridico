@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 110,
-    "ativos": 108,
+    "proc": 108,
+    "ativos": 106,
     "areas": 8,
     "trib": 7,
-    "procSub": "108 ativos · 2 encerrados",
+    "procSub": "106 ativos · 2 encerrados",
     "areasSub": "Administrativo, Cível, Tributário",
     "tribSub": "TJSC, OUTROS, TRF4",
     "encerrados": 2
@@ -14,64 +14,64 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 2227476,
       "dataset": {
-        "total": 110,
-        "ativos": 108,
+        "total": 108,
+        "ativos": 106,
         "encerrados": {
           "2024": 1,
           "2025": 1
         },
-        "areaTotal": 108,
+        "areaTotal": 8,
         "estoque": {
-          "2021": 27,
-          "2022": 46,
-          "2023": 67,
-          "2024": 86,
-          "2025": 104,
-          "2026": 108
+          "2021": 26,
+          "2022": 45,
+          "2023": 66,
+          "2024": 85,
+          "2025": 103,
+          "2026": 106
         },
         "entradas": {
-          "2021": 27,
-          "2022": 19,
-          "2023": 21,
-          "2024": 20,
+          "2026": 3,
           "2025": 19,
-          "2026": 4
+          "2024": 20,
+          "2023": 21,
+          "2022": 19,
+          "2021": 26
         },
         "area": {
           "Administrativo": 37,
+          "Tributário": 21,
           "Cível": 34,
-          "Tributário": 22,
-          "Trabalhista": 7,
-          "Penal-Criminal": 3,
           "Pública": 3,
+          "Penal-Criminal": 2,
+          "Trabalhista": 7,
           "Bancário": 2,
-          "OUTROS": 2
+          "Não informada": 2
         },
         "uf": {
-          "SC": 101,
+          "SC": 99,
           "OUTROS": 4,
           "PR": 3,
           "DF": 2
         },
         "instancia": {
-          "1º Grau": 86,
-          "2º Grau": 18,
-          "N/I": 4,
-          "Superiores": 2
+          "1º Grau": 85,
+          "2º Grau": 17,
+          "Superiores": 2,
+          "N/D": 4
         },
         "polo": {
-          "Terceiro/Outros": 13,
-          "Polo ativo": 44,
-          "Polo passivo": 53
+          "Polo ativo": 43,
+          "Terceiro/Outros": 25,
+          "Polo passivo": 40
         },
         "tribunais": {
-          "TJSC": 62,
           "OUTROS": 28,
-          "TRF4": 9,
-          "TRT12": 7,
-          "STJ": 2,
+          "TJSC": 61,
+          "TRF4": 8,
           "TJPR": 1,
-          "Justiça Federal de Santa Catarina": 1
+          "TRT12": 7,
+          "Justiça Federal de Santa Catarina": 1,
+          "STJ": 2
         },
         "ranking": [
           [
@@ -137,12 +137,12 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 110,
-          "ativos": 108,
+          "proc": 108,
+          "ativos": 106,
+          "procSub": "106 ativos · 2 encerrados",
           "areas": 8,
-          "trib": 7,
-          "procSub": "108 ativos · 2 encerrados",
           "areasSub": "Administrativo, Cível, Tributário",
+          "trib": 7,
           "tribSub": "TJSC, OUTROS, TRF4"
         },
         "esforco": {
@@ -213,64 +213,64 @@
       "nome": "Empreiteira de Mão de Obra Adrimar LTDA",
       "_idCliente": 2227476,
       "dataset": {
-        "total": 110,
-        "ativos": 108,
+        "total": 108,
+        "ativos": 106,
         "encerrados": {
           "2024": 1,
           "2025": 1
         },
-        "areaTotal": 108,
+        "areaTotal": 8,
         "estoque": {
-          "2021": 27,
-          "2022": 46,
-          "2023": 67,
-          "2024": 86,
-          "2025": 104,
-          "2026": 108
+          "2021": 26,
+          "2022": 45,
+          "2023": 66,
+          "2024": 85,
+          "2025": 103,
+          "2026": 106
         },
         "entradas": {
-          "2021": 27,
-          "2022": 19,
-          "2023": 21,
-          "2024": 20,
+          "2026": 3,
           "2025": 19,
-          "2026": 4
+          "2024": 20,
+          "2023": 21,
+          "2022": 19,
+          "2021": 26
         },
         "area": {
           "Administrativo": 37,
+          "Tributário": 21,
           "Cível": 34,
-          "Tributário": 22,
-          "Trabalhista": 7,
-          "Penal-Criminal": 3,
           "Pública": 3,
+          "Penal-Criminal": 2,
+          "Trabalhista": 7,
           "Bancário": 2,
-          "OUTROS": 2
+          "Não informada": 2
         },
         "uf": {
-          "SC": 101,
+          "SC": 99,
           "OUTROS": 4,
           "PR": 3,
           "DF": 2
         },
         "instancia": {
-          "1º Grau": 86,
-          "2º Grau": 18,
-          "N/I": 4,
-          "Superiores": 2
+          "1º Grau": 85,
+          "2º Grau": 17,
+          "Superiores": 2,
+          "N/D": 4
         },
         "polo": {
-          "Terceiro/Outros": 13,
-          "Polo ativo": 44,
-          "Polo passivo": 53
+          "Polo ativo": 43,
+          "Terceiro/Outros": 25,
+          "Polo passivo": 40
         },
         "tribunais": {
-          "TJSC": 62,
           "OUTROS": 28,
-          "TRF4": 9,
-          "TRT12": 7,
-          "STJ": 2,
+          "TJSC": 61,
+          "TRF4": 8,
           "TJPR": 1,
-          "Justiça Federal de Santa Catarina": 1
+          "TRT12": 7,
+          "Justiça Federal de Santa Catarina": 1,
+          "STJ": 2
         },
         "ranking": [
           [
@@ -336,13 +336,13 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 110,
-          "ativos": 108,
+          "proc": 108,
+          "ativos": 106,
+          "procSub": "106 ativos · 2 encerrados",
           "areas": 8,
-          "trib": 7,
-          "procSub": "108 ativos · 2 encerrados",
           "areasSub": "Administrativo, Cível, Tributário",
-          "tribSub": "TJSC, TRF4, TRT12"
+          "trib": 7,
+          "tribSub": "TJSC, OUTROS, TRF4"
         },
         "esforco": {
           "comProducao": 109,
