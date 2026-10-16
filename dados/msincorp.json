@@ -1,23 +1,23 @@
 {
   "kpiGrupo": {
-    "proc": 586,
-    "ativos": 454,
-    "areas": 7,
-    "trib": 11,
-    "procSub": "454 ativos · 132 encerrados",
-    "areasSub": "Cível, Bancário, Administrativo",
-    "tribSub": "TJSC, Justiça Federal de Santa Catarina, OUTROS",
-    "encerrados": 132
+    "proc": 647,
+    "ativos": 511,
+    "areas": 8,
+    "trib": 5,
+    "procSub": "511 ativos · 136 encerrados",
+    "areasSub": "Civel, Bancario, Administrativo",
+    "tribSub": "OUTROS, TJSC, TRF4",
+    "encerrados": 136
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 682208735,
       "dataset": {
-        "total": 586,
-        "ativos": 454,
+        "total": 647,
+        "ativos": 511,
         "encerrados": {
-          "2026": 80,
+          "2026": 85,
           "2024": 1,
           "2020": 1,
           "2025": 48,
@@ -25,52 +25,50 @@
         },
         "areaTotal": 445,
         "estoque": {
-          "2025": 368,
-          "2026": 455
+          "2025": 367,
+          "2026": 510
         },
         "entradas": {
-          "2026": 168,
+          "2026": 229,
           "2025": 418
         },
         "area": {
-          "Cível": 520,
-          "Administrativo": 13,
-          "Bancário": 24,
-          "Ambiental": 13,
-          "Tributário": 13,
-          "N/D": 1,
-          "Trabalhista": 2
+          "Administrativo": 16,
+          "N/D": 2,
+          "Civel": 563,
+          "Bancario": 30,
+          "Ambiental": 16,
+          "Tributario": 13,
+          "Trabalhista": 2,
+          "Cível": 5
         },
         "uf": {
-          "SC": 545,
-          "PR": 4,
           "N/D": 17,
-          "DF": 12,
-          "SP": 3,
+          "SC": 602,
+          "DF": 14,
+          "SP": 5,
+          "PR": 4,
           "RS": 5
         },
         "instancia": {
-          "1º Grau": 458,
-          "2º Grau": 118,
-          "Superiores": 10
+          "1º Grau": 440,
+          "Superiores": 11,
+          "2º Grau": 143,
+          "1": 45,
+          "2": 7,
+          "3": 1
         },
         "polo": {
-          "Polo Passivo": 415,
-          "Polo Ativo": 155,
-          "Terceiro": 16
+          "Polo Passivo": 474,
+          "Polo Ativo": 153,
+          "Terceiro": 20
         },
         "tribunais": {
-          "TJSC": 283,
-          "PROCON-SC": 3,
-          "OUTROS": 67,
-          "TRF4": 49,
-          "STJ": 11,
-          "Justiça Federal de Santa Catarina": 163,
-          "TJSP": 3,
-          "STF": 1,
-          "Justiça Federal do Rio Grande do Sul": 2,
-          "TRT12": 2,
-          "JFSC": 2
+          "OUTROS": 606,
+          "TJSC": 37,
+          "STJ": 1,
+          "TRF4": 2,
+          "TJSP": 1
         },
         "ranking": [
           [
@@ -136,17 +134,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 586,
-          "ativos": 454,
-          "procSub": "454 ativos · 132 encerrados",
-          "areas": 7,
-          "areasSub": "Cível, Bancário, Administrativo",
-          "trib": 11,
-          "tribSub": "TJSC, Justiça Federal de Santa Catarina, OUTROS"
+          "proc": 647,
+          "ativos": 511,
+          "procSub": "511 ativos · 136 encerrados",
+          "areas": 8,
+          "areasSub": "Civel, Bancario, Administrativo",
+          "trib": 5,
+          "tribSub": "OUTROS, TJSC, TRF4"
         },
         "esforco": {
           "comProducao": 645,
-          "tramitacaoDias": 308.2,
+          "tramitacaoDias": 278.5,
           "prazano": {
             "2021": 0,
             "2022": 0,
@@ -198,7 +196,7 @@
             "2026": 3258.2
           }
         },
-        "encerradosTotal": 132,
+        "encerradosTotal": 136,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
@@ -210,8 +208,8 @@
       "nome": "Ms Incorporadora S/A - Matriz",
       "_idCliente": 682208735,
       "dataset": {
-        "total": 490,
-        "ativos": 368,
+        "total": 522,
+        "ativos": 396,
         "encerrados": {
           "2024": 3,
           "2025": 44,
@@ -1046,8 +1044,8 @@
       "nome": "Ms Smart Porto Belo Empreendimentos LTDA",
       "_idCliente": 682541416,
       "dataset": {
-        "total": 4,
-        "ativos": 4,
+        "total": 6,
+        "ativos": 6,
         "encerrados": {},
         "areaTotal": 6,
         "estoque": {
@@ -1166,8 +1164,8 @@
       "nome": "Ms Vivendas do Atlantico Empreendimentos LTDA",
       "_idCliente": 682541387,
       "dataset": {
-        "total": 5,
-        "ativos": 5,
+        "total": 7,
+        "ativos": 7,
         "encerrados": {},
         "areaTotal": 6,
         "estoque": {
@@ -1292,8 +1290,8 @@
       "nome": "Ms Botanical Park Empreendimentos LTDA",
       "_idCliente": 682541386,
       "dataset": {
-        "total": 1,
-        "ativos": 1,
+        "total": 5,
+        "ativos": 5,
         "encerrados": {},
         "areaTotal": 3,
         "estoque": {
@@ -1397,8 +1395,8 @@
       "nome": "Ms Easy Up House Empreendimentos Imobiliarios LTDA",
       "_idCliente": 682541385,
       "dataset": {
-        "total": 2,
-        "ativos": 1,
+        "total": 3,
+        "ativos": 2,
         "encerrados": {
           "2026": 1
         },
@@ -1504,8 +1502,8 @@
       "nome": "Green Coast Residence Empreendimentos LTDA",
       "_idCliente": 682541378,
       "dataset": {
-        "total": 5,
-        "ativos": 5,
+        "total": 6,
+        "ativos": 6,
         "encerrados": {},
         "areaTotal": 6,
         "estoque": {
@@ -1723,8 +1721,8 @@
       "nome": "Ms Avivah Residence Club Empreendimentos LTDA",
       "_idCliente": 682541361,
       "dataset": {
-        "total": 14,
-        "ativos": 13,
+        "total": 20,
+        "ativos": 19,
         "encerrados": {},
         "areaTotal": 0,
         "estoque": {
@@ -1818,8 +1816,8 @@
       "nome": "Ms Itajuba Empreendimentos LTDA",
       "_idCliente": 682541359,
       "dataset": {
-        "total": 10,
-        "ativos": 10,
+        "total": 12,
+        "ativos": 12,
         "encerrados": {},
         "areaTotal": 0,
         "estoque": {
@@ -2373,8 +2371,8 @@
       "nome": "Ms Viva Citta Empreendimentos LTDA",
       "_idCliente": 682541335,
       "dataset": {
-        "total": 2,
-        "ativos": 2,
+        "total": 3,
+        "ativos": 3,
         "encerrados": {},
         "areaTotal": 0,
         "estoque": {
@@ -2467,8 +2465,8 @@
       "nome": "Ms Bogota Empreendimentos LTDA",
       "_idCliente": 682541331,
       "dataset": {
-        "total": 1,
-        "ativos": 1,
+        "total": 2,
+        "ativos": 2,
         "encerrados": {},
         "areaTotal": 0,
         "estoque": {
@@ -2653,8 +2651,8 @@
       "nome": "Ms One Ocean Empreendimentos LTDA",
       "_idCliente": 682541321,
       "dataset": {
-        "total": 3,
-        "ativos": 3,
+        "total": 5,
+        "ativos": 5,
         "encerrados": {},
         "areaTotal": 0,
         "estoque": {
@@ -2841,8 +2839,8 @@
       "nome": "Ms Pereque Home Park Empreendimentos",
       "_idCliente": 681587593,
       "dataset": {
-        "total": 37,
-        "ativos": 29,
+        "total": 44,
+        "ativos": 36,
         "encerrados": {
           "2026": 8
         },
