@@ -1,12 +1,12 @@
 {
   "kpiGrupo": {
-    "proc": 8,
-    "ativos": 8,
-    "areas": 3,
-    "trib": 3,
-    "procSub": "8 ativos · 0 encerrados",
-    "areasSub": "Trabalhista, Cível, Tributário",
-    "tribSub": "OUTROS, TRT12, TRT09",
+    "proc": 5,
+    "ativos": 5,
+    "areas": 2,
+    "trib": 2,
+    "procSub": "5 ativos · 0 encerrados",
+    "areasSub": "Trabalhista, Tributário",
+    "tribSub": "TRT12, OUTROS, TRT09",
     "encerrados": 0
   },
   "empresas": {
@@ -14,95 +14,94 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 681045484,
       "dataset": {
-        "total": 8,
-        "ativos": 8,
+        "total": 5,
+        "ativos": 5,
         "encerrados": {},
-        "areaTotal": 8,
+        "areaTotal": 5,
         "estoque": {
           "2025": 2,
-          "2026": 8
+          "2026": 5
         },
         "entradas": {
           "2025": 2,
-          "2026": 6
+          "2026": 3
         },
         "area": {
           "Tributário": 1,
-          "Cível": 3,
           "Trabalhista": 4
         },
         "uf": {
           "SC": 4,
-          "N/D": 3,
           "PR": 1
         },
         "instancia": {
-          "1º Grau": 7,
+          "1º Grau": 4,
           "2º Grau": 1
         },
         "polo": {
-          "Polo ativo": 4,
+          "Polo ativo": 1,
           "Terceiro/Outros": 1,
           "Polo passivo": 3
         },
         "tribunais": {
-          "OUTROS": 4,
+          "OUTROS": 1,
           "TRT12": 3,
           "TRT09": 1
         },
         "ranking": [
           [
-            "MARALINA PINTO DE FIGUEIREDO",
-            4
+            "OLIVIA ASHLING KEYS VIEIRA",
+            3
           ],
           [
             "ABNER AUGUSTO STEFFEN",
-            1
-          ],
-          [
-            "OLIVIA ASHLING KEYS VIEIRA",
             1
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 8,
-          "ativos": 8,
-          "procSub": "8 ativos · 0 encerrados",
-          "areas": 3,
-          "areasSub": "Trabalhista, Cível, Tributário",
-          "trib": 3,
-          "tribSub": "OUTROS, TRT12, TRT09"
+          "proc": 5,
+          "ativos": 5,
+          "procSub": "5 ativos · 0 encerrados",
+          "areas": 2,
+          "areasSub": "Trabalhista, Tributário",
+          "trib": 2,
+          "tribSub": "TRT12, OUTROS, TRT09"
         },
         "esforco": {
-          "comProducao": 7,
-          "tramitacaoDias": 158.9,
-          "prazano": {},
-          "audano": {},
-          "tarefano": {},
+          "comProducao": 5,
+          "tramitacaoDias": 237.4,
+          "prazano": {
+            "2026": 24
+          },
+          "audano": {
+            "2026": 5
+          },
+          "tarefano": {
+            "2026": 62
+          },
           "atividades": {
-            "Prazos": 0,
-            "Audiências": 0,
-            "Reuniões e Diligências": 0
+            "Prazos": 24,
+            "Audiências": 5,
+            "Reuniões e Diligências": 62
           },
           "extrajudano": {}
         },
         "horas": {
-          "total": 305.3,
-          "media": 33.9,
-          "mediaAtivos": 33.9,
+          "total": 240.6,
+          "media": 48.1,
+          "mediaAtivos": 48.1,
           "horasano": {
-            "2023": 2.7,
-            "2025": 169.4,
-            "2026": 133.2
+            "2026": 153.3,
+            "2025": 87.4
           }
         },
         "encerradosTotal": 0,
-        "_panorama": true,
-        "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          2026
-        ]
+          "2026"
+        ],
+        "_panorama": true,
+        "nome": "Panorama Geral do Grupo"
       }
     },
     "katafigosparticipaco_681045484": {
@@ -114,11 +113,7 @@
         "encerrados": {},
         "areaTotal": 1,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 1,
-          "2026": 1
+          "2025": 1
         },
         "entradas": {
           "2025": 1
@@ -143,22 +138,26 @@
         "kpi": {
           "proc": 1,
           "ativos": 1,
-          "areas": 1,
-          "trib": 0,
           "procSub": "1 ativos · 0 encerrados",
+          "areas": 1,
           "areasSub": "Tributário",
-          "tribSub": ""
+          "trib": 0,
+          "tribSub": "OUTROS"
         },
         "esforco": {
           "comProducao": 1,
-          "tramitacaoDias": 509,
-          "prazano": {},
+          "tramitacaoDias": 574.0,
+          "prazano": {
+            "2026": 1
+          },
           "audano": {},
-          "tarefano": {},
+          "tarefano": {
+            "2026": 1
+          },
           "atividades": {
-            "Prazos": 0,
+            "Prazos": 1,
             "Audiências": 0,
-            "Reuniões e Diligências": 0
+            "Reuniões e Diligências": 1
           },
           "extrajudano": {}
         },
@@ -167,13 +166,13 @@
           "media": 0.9,
           "mediaAtivos": 0.9,
           "horasano": {
-            "2025": 0.6,
-            "2026": 0.3
+            "2026": 0.3,
+            "2025": 0.6
           }
         },
         "encerradosTotal": 0,
         "estoqueHl": [
-          "2026"
+          "2025"
         ]
       },
       "encerradosTotal": 0
@@ -185,94 +184,8 @@
         "total": 0,
         "ativos": 0,
         "encerrados": {},
-        "areaTotal": 4,
-        "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 4,
-          "2026": 4
-        },
-        "entradas": {
-          "2025": 4
-        },
-        "area": {
-          "Família e Sucessões": 4
-        },
-        "uf": {
-          "SC": 4
-        },
-        "instancia": {
-          "1º Grau": 4
-        },
-        "polo": {
-          "Terceiro/Outros": 3,
-          "Polo ativo": 1
-        },
-        "tribunais": {
-          "TJSC": 4
-        },
-        "ranking": [
-          [
-            "MARALINA PINTO DE FIGUEIREDO",
-            4
-          ]
-        ],
-        "_complexidadeSoAtivos": true,
-        "kpi": {
-          "proc": 4,
-          "ativos": 4,
-          "areas": 1,
-          "trib": 1,
-          "procSub": "4 ativos · 0 encerrados",
-          "areasSub": "Família e Sucessões",
-          "tribSub": "TJSC"
-        },
-        "esforco": {
-          "comProducao": 4,
-          "tramitacaoDias": 489,
-          "prazano": {},
-          "audano": {},
-          "tarefano": {},
-          "atividades": {
-            "Prazos": 0,
-            "Audiências": 0,
-            "Reuniões e Diligências": 0
-          },
-          "extrajudano": {}
-        },
-        "horas": {
-          "total": 199.1,
-          "media": 49.8,
-          "mediaAtivos": 49.8,
-          "horasano": {
-            "2023": 2.7,
-            "2025": 128.8,
-            "2026": 67.6
-          }
-        },
-        "encerradosTotal": 0,
-        "estoqueHl": [
-          "2026"
-        ]
-      },
-      "encerradosTotal": 0
-    },
-    "vendecasaempreendime_675848897": {
-      "nome": "Vendecasa Empreendimentos Imobiliarios LTDA",
-      "_idCliente": 675848897,
-      "dataset": {
-        "total": 3,
-        "ativos": 3,
-        "encerrados": {},
         "areaTotal": 0,
-        "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
-          "2026": 0
-        },
+        "estoque": {},
         "entradas": {},
         "area": {},
         "uf": {},
@@ -284,10 +197,10 @@
         "kpi": {
           "proc": 0,
           "ativos": 0,
-          "areas": 0,
-          "trib": 0,
           "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
           "areasSub": "",
+          "trib": 0,
           "tribSub": ""
         },
         "esforco": {
@@ -304,19 +217,72 @@
           "extrajudano": {}
         },
         "horas": {
-          "total": 10.0,
+          "total": 150.2,
           "media": 0,
           "mediaAtivos": 0,
           "horasano": {
-            "2025": 3.8,
-            "2026": 6.2
+            "2026": 69.7,
+            "2025": 80.6
           }
         },
         "encerradosTotal": 0,
-        "_semProcessos": true,
-        "estoqueHl": [
-          "2026"
-        ]
+        "_semProcessos": true
+      },
+      "encerradosTotal": 0,
+      "_semProcessos": true
+    },
+    "vendecasaempreendime_675848897": {
+      "nome": "Vendecasa Empreendimentos Imobiliarios LTDA",
+      "_idCliente": 675848897,
+      "dataset": {
+        "total": 0,
+        "ativos": 0,
+        "encerrados": {},
+        "areaTotal": 0,
+        "estoque": {},
+        "entradas": {},
+        "area": {},
+        "uf": {},
+        "instancia": {},
+        "polo": {},
+        "tribunais": {},
+        "ranking": [],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 0,
+          "ativos": 0,
+          "procSub": "0 ativos · 0 encerrados",
+          "areas": 0,
+          "areasSub": "",
+          "trib": 0,
+          "tribSub": ""
+        },
+        "esforco": {
+          "comProducao": 0,
+          "tramitacaoDias": 0,
+          "prazano": {},
+          "audano": {},
+          "tarefano": {
+            "2026": 10
+          },
+          "atividades": {
+            "Prazos": 0,
+            "Audiências": 0,
+            "Reuniões e Diligências": 10
+          },
+          "extrajudano": {}
+        },
+        "horas": {
+          "total": 11.8,
+          "media": 0,
+          "mediaAtivos": 0,
+          "horasano": {
+            "2026": 8.1,
+            "2025": 3.8
+          }
+        },
+        "encerradosTotal": 0,
+        "_semProcessos": true
       },
       "encerradosTotal": 0,
       "_semProcessos": true
@@ -330,10 +296,6 @@
         "encerrados": {},
         "areaTotal": 2,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 0,
           "2026": 2
         },
         "entradas": {
@@ -343,47 +305,62 @@
           "Trabalhista": 2
         },
         "uf": {
-          "SC": 2
+          "SC": 1,
+          "PR": 1
         },
         "instancia": {
-          "1º Grau": 2
+          "1º Grau": 1,
+          "2º Grau": 1
         },
-        "polo": {},
+        "polo": {
+          "Terceiro/Outros": 1,
+          "Polo passivo": 1
+        },
         "tribunais": {
-          "TRT09": 1,
-          "TRT12": 1
+          "TRT12": 1,
+          "TRT09": 1
         },
-        "ranking": [],
+        "ranking": [
+          [
+            "OLIVIA ASHLING KEYS VIEIRA",
+            2
+          ]
+        ],
         "_complexidadeSoAtivos": true,
         "kpi": {
           "proc": 2,
           "ativos": 2,
-          "areas": 1,
-          "trib": 2,
           "procSub": "2 ativos · 0 encerrados",
+          "areas": 1,
           "areasSub": "Trabalhista",
-          "tribSub": "TRT09, TRT12"
+          "trib": 2,
+          "tribSub": "TRT12, TRT09"
         },
         "esforco": {
-          "comProducao": 0,
-          "tramitacaoDias": 0,
-          "prazano": {},
-          "audano": {},
-          "tarefano": {},
+          "comProducao": 2,
+          "tramitacaoDias": 47.5,
+          "prazano": {
+            "2026": 8
+          },
+          "audano": {
+            "2026": 5
+          },
+          "tarefano": {
+            "2026": 46
+          },
           "atividades": {
-            "Prazos": 0,
-            "Audiências": 0,
-            "Reuniões e Diligências": 0
+            "Prazos": 8,
+            "Audiências": 5,
+            "Reuniões e Diligências": 46
           },
           "extrajudano": {}
         },
         "horas": {
-          "total": 58.5,
-          "media": 29.2,
-          "mediaAtivos": 29.2,
+          "total": 34.4,
+          "media": 17.2,
+          "mediaAtivos": 17.2,
           "horasano": {
-            "2025": 29.7,
-            "2026": 28.8
+            "2026": 34.4
           }
         },
         "encerradosTotal": 0,
@@ -402,15 +379,12 @@
         "encerrados": {},
         "areaTotal": 2,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
           "2025": 1,
           "2026": 2
         },
         "entradas": {
-          "2025": 1,
-          "2026": 1
+          "2026": 1,
+          "2025": 1
         },
         "area": {
           "Trabalhista": 2
@@ -441,32 +415,36 @@
         "kpi": {
           "proc": 2,
           "ativos": 2,
-          "areas": 1,
-          "trib": 1,
           "procSub": "2 ativos · 0 encerrados",
+          "areas": 1,
           "areasSub": "Trabalhista",
+          "trib": 1,
           "tribSub": "TRT12"
         },
         "esforco": {
           "comProducao": 2,
-          "tramitacaoDias": 194,
-          "prazano": {},
+          "tramitacaoDias": 259.0,
+          "prazano": {
+            "2026": 15
+          },
           "audano": {},
-          "tarefano": {},
+          "tarefano": {
+            "2026": 5
+          },
           "atividades": {
-            "Prazos": 0,
+            "Prazos": 15,
             "Audiências": 0,
-            "Reuniões e Diligências": 0
+            "Reuniões e Diligências": 5
           },
           "extrajudano": {}
         },
         "horas": {
-          "total": 36.8,
-          "media": 18.4,
-          "mediaAtivos": 18.4,
+          "total": 43.2,
+          "media": 21.6,
+          "mediaAtivos": 21.6,
           "horasano": {
-            "2025": 6.5,
-            "2026": 30.3
+            "2026": 40.8,
+            "2025": 2.4
           }
         },
         "encerradosTotal": 0,
