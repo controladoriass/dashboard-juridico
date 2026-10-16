@@ -1,23 +1,23 @@
 {
   "kpiGrupo": {
-    "proc": 72,
-    "ativos": 56,
+    "proc": 78,
+    "ativos": 61,
     "areas": 3,
     "trib": 10,
-    "procSub": "56 ativos · 16 encerrados",
+    "procSub": "61 ativos • 17 encerrados",
     "areasSub": "Tributário, Cível, Trabalhista",
     "tribSub": "TJSC, TRF4, TJRS",
-    "encerrados": 16
+    "encerrados": 17
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 683208995,
       "dataset": {
-        "total": 72,
-        "ativos": 56,
+        "total": 78,
+        "ativos": 61,
         "encerrados": {
-          "2025": 11,
+          "2025": 12,
           "2026": 2,
           "2023": 2,
           "2024": 1
@@ -26,58 +26,59 @@
         "estoque": {
           "2020": 10,
           "2021": 17,
-          "2022": 28,
-          "2023": 33,
-          "2024": 37,
-          "2025": 34,
-          "2026": 56
+          "2022": 30,
+          "2023": 37,
+          "2024": 41,
+          "2025": 37,
+          "2026": 61
         },
         "entradas": {
-          "2026": 24,
+          "2026": 26,
           "2025": 8,
           "2024": 5,
-          "2023": 7,
-          "2022": 11,
+          "2023": 9,
+          "2022": 13,
           "2020": 10,
           "2021": 7
         },
         "area": {
-          "Cível": 26,
+          "Cível": 32,
           "Tributário": 43,
           "Trabalhista": 3
         },
         "uf": {
-          "SC": 59,
-          "RS": 6,
-          "DF": 2,
+          "SC": 61,
+          "RS": 7,
+          "DF": 4,
           "BA": 2,
-          "SP": 1,
+          "SP": 2,
           "MG": 1,
           "RJ": 1,
           "OUTROS": 1
         },
         "instancia": {
           "2º Grau": 6,
-          "1º Grau": 62,
-          "Superiores": 2,
+          "1º Grau": 67,
+          "Superiores": 3,
           "N/D": 2
         },
         "polo": {
           "Polo ativo": 7,
-          "Polo passivo": 61,
+          "Polo passivo": 67,
           "Terceiro/Outros": 4
         },
         "tribunais": {
-          "TJSC": 41,
-          "TJRS": 5,
+          "TJSC": 43,
+          "TJRS": 6,
           "TRF4": 13,
           "TRT12": 3,
-          "STJ": 2,
+          "STJ": 3,
           "TJBA": 2,
-          "TJSP": 1,
+          "TJSP": 2,
           "TJMG": 1,
           "TRF2": 1,
-          "OUTROS": 3
+          "OUTROS": 3,
+          "TJDFT": 1
         },
         "ranking": [
           [
@@ -102,6 +103,14 @@
           ],
           [
             "RECKITT BENCKISER (BRASIL) COMERCIAL DE PRODUTOS DE HIGIENE, LIMPEZA E COSMETICOS LTDA.",
+            2
+          ],
+          [
+            "MALUPI EVENTOS LTDA",
+            2
+          ],
+          [
+            "LEONARDO NOVELLI",
             2
           ],
           [
@@ -139,45 +148,53 @@
           [
             "SCHEILA CRISTINA STRINGARI",
             1
+          ],
+          [
+            "FREDERICO AUGUSTO MENDES DOS SANTOS",
+            1
+          ],
+          [
+            "ANDRE YUKIO BORBA",
+            1
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 73,
-          "ativos": 56,
-          "procSub": "56 ativos · 17 encerrados",
+          "proc": 78,
+          "ativos": 61,
+          "procSub": "61 ativos • 17 encerrados",
           "areas": 3,
           "areasSub": "Tributário, Cível, Trabalhista",
           "trib": 10,
           "tribSub": "TJSC, TRF4, TJRS"
         },
         "esforco": {
-          "comProducao": 94,
+          "comProducao": 182,
           "tramitacaoDias": 801,
           "prazano": {
             "2022": 418,
-            "2023": 533,
-            "2024": 758,
-            "2025": 693,
-            "2026": 926
+            "2023": 534,
+            "2024": 786,
+            "2025": 714,
+            "2026": 948
           },
           "audano": {
             "2022": 3,
-            "2024": 30,
-            "2025": 50,
-            "2026": 20
+            "2024": 38,
+            "2025": 54,
+            "2026": 21
           },
           "tarefano": {
             "2022": 171,
             "2023": 2,
             "2024": 4,
             "2025": 9,
-            "2026": 7
+            "2026": 10
           },
           "atividades": {
-            "Prazos": 3328,
-            "Audiências": 103,
-            "Reuniões e Diligências": 193
+            "Prazos": 3400,
+            "Audiências": 116,
+            "Reuniões e Diligências": 196
           },
           "extrajudano": {
             "2022": 14,
@@ -185,18 +202,18 @@
           }
         },
         "horas": {
-          "total": 869.2,
-          "media": 11.1,
-          "mediaAtivos": 16.7,
+          "total": 1034.8,
+          "media": 13.3,
+          "mediaAtivos": 17.0,
           "horasano": {
-            "2022": 154.4,
-            "2023": 173.7,
-            "2024": 163.2,
-            "2025": 165.9,
-            "2026": 212.0
+            "2022": 160.9,
+            "2023": 203.0,
+            "2024": 204.8,
+            "2025": 188.5,
+            "2026": 277.6
           }
         },
-        "encerradosTotal": 16,
+        "encerradosTotal": 17,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
@@ -495,9 +512,124 @@
           "2026"
         ]
       }
+    },
+    "performancefranchisi_675906175": {
+      "nome": "Performance Franchising LTDA",
+      "_idCliente": 675906175,
+      "dataset": {
+        "total": 6,
+        "ativos": 5,
+        "encerrados": {
+          "2025": 1
+        },
+        "areaTotal": 1,
+        "estoque": {
+          "2022": 2,
+          "2023": 4,
+          "2024": 4,
+          "2025": 3,
+          "2026": 5
+        },
+        "entradas": {
+          "2026": 2,
+          "2023": 2,
+          "2022": 2
+        },
+        "area": {
+          "Cível": 6
+        },
+        "uf": {
+          "DF": 2,
+          "SP": 1,
+          "SC": 2,
+          "RS": 1
+        },
+        "instancia": {
+          "Superiores": 1,
+          "1º Grau": 5
+        },
+        "polo": {
+          "Polo passivo": 6
+        },
+        "tribunais": {
+          "STJ": 1,
+          "TJSP": 1,
+          "TJSC": 2,
+          "TJRS": 1,
+          "TJDFT": 1
+        },
+        "ranking": [
+          [
+            "MALUPI EVENTOS LTDA",
+            2
+          ],
+          [
+            "LEONARDO NOVELLI",
+            2
+          ],
+          [
+            "FREDERICO AUGUSTO MENDES DOS SANTOS",
+            1
+          ],
+          [
+            "ANDRE YUKIO BORBA",
+            1
+          ]
+        ],
+        "_complexidadeSoAtivos": true,
+        "kpi": {
+          "proc": 6,
+          "ativos": 5,
+          "procSub": "5 ativos • 1 encerrado",
+          "areas": 1,
+          "areasSub": "Cível",
+          "trib": 5,
+          "tribSub": "TJSC, STJ, TJSP"
+        },
+        "esforco": {
+          "comProducao": 88,
+          "tramitacaoDias": 1200,
+          "prazano": {
+            "2026": 22,
+            "2025": 21,
+            "2024": 28,
+            "2023": 1
+          },
+          "audano": {
+            "2026": 1,
+            "2025": 4,
+            "2024": 8
+          },
+          "tarefano": {
+            "2026": 3
+          },
+          "atividades": {
+            "Prazos": 72,
+            "Audiências": 13,
+            "Reuniões e Diligências": 3
+          },
+          "extrajudano": {}
+        },
+        "horas": {
+          "total": 165.6,
+          "media": 27.6,
+          "mediaAtivos": 33.1,
+          "horasano": {
+            "2022": 6.5,
+            "2023": 29.3,
+            "2024": 41.6,
+            "2025": 22.6,
+            "2026": 65.6
+          }
+        },
+        "encerradosTotal": 1,
+        "estoqueHl": [
+          "2026"
+        ]
+      }
     }
   },
   "nome": "Grupo LSC Industria e Comercio LTDA",
   "nomeHtml": "Grupo <em>LSC Industria e Comercio LTDA</em>",
-  "nEmpresas": 3
+  "nEmpresas": 4
 }
