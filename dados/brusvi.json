@@ -1,10 +1,10 @@
 {
   "kpiGrupo": {
-    "proc": 35,
-    "ativos": 35,
+    "proc": 36,
+    "ativos": 36,
     "areas": 1,
-    "trib": 4,
-    "procSub": "35 ativos · 0 encerrados",
+    "trib": 5,
+    "procSub": "36 ativos · 0 encerrados",
     "areasSub": "Tributário",
     "tribSub": "TRF4, JFSC, TJSP",
     "encerrados": 0
@@ -14,42 +14,40 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 2147653,
       "dataset": {
-        "total": 35,
-        "ativos": 35,
+        "total": 36,
+        "ativos": 36,
         "encerrados": {},
-        "areaTotal": 35,
+        "areaTotal": 36,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
           "2024": 24,
           "2025": 30,
-          "2026": 35
+          "2026": 36
         },
         "entradas": {
-          "2024": 24,
+          "2026": 6,
           "2025": 6,
-          "2026": 5
+          "2024": 24
         },
         "area": {
-          "Tributário": 35
+          "Tributário": 36
         },
         "uf": {
+          "SP": 6,
           "SC": 24,
-          "PR": 6,
-          "SP": 5
+          "PR": 6
         },
         "instancia": {
-          "1º Grau": 35
+          "1º Grau": 36
         },
         "polo": {
-          "Polo passivo": 34,
-          "Terceiro/Outros": 1
+          "Polo Passivo": 36
         },
         "tribunais": {
+          "TRF3": 1,
+          "TJSP": 5,
           "TRF4": 20,
           "JFSC": 9,
-          "TJSP": 5,
-          "Justiça Federal do Parana": 1
+          "JFPR": 1
         },
         "ranking": [
           [
@@ -61,23 +59,27 @@
             5
           ],
           [
+            "AGÊNCIA NACIONAL DE TRANSPORTES TERRESTRES - ANTT",
+            1
+          ],
+          [
             "MINISTERIO DA FAZENDA - SECRETARIA DO TESOURO NACIONAL",
             1
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 35,
-          "ativos": 35,
+          "proc": 36,
+          "ativos": 36,
+          "procSub": "36 ativos · 0 encerrados",
           "areas": 1,
-          "trib": 4,
-          "procSub": "35 ativos · 0 encerrados",
-          "areasSub": "",
+          "areasSub": "Tributário",
+          "trib": 5,
           "tribSub": "TRF4, JFSC, TJSP"
         },
         "esforco": {
           "comProducao": 37,
-          "tramitacaoDias": 616,
+          "tramitacaoDias": 678.9,
           "prazano": {
             "2021": 0,
             "2022": 0,
@@ -141,42 +143,40 @@
       "nome": "Transportes Brusville LTDA - Brusville",
       "_idCliente": 2147653,
       "dataset": {
-        "total": 35,
-        "ativos": 35,
+        "total": 36,
+        "ativos": 36,
         "encerrados": {},
-        "areaTotal": 35,
+        "areaTotal": 36,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
           "2024": 24,
           "2025": 30,
-          "2026": 35
+          "2026": 36
         },
         "entradas": {
-          "2024": 24,
+          "2026": 6,
           "2025": 6,
-          "2026": 5
+          "2024": 24
         },
         "area": {
-          "Tributário": 35
+          "Tributário": 36
         },
         "uf": {
+          "SP": 6,
           "SC": 24,
-          "PR": 6,
-          "SP": 5
+          "PR": 6
         },
         "instancia": {
-          "1º Grau": 35
+          "1º Grau": 36
         },
         "polo": {
-          "Polo passivo": 34,
-          "Terceiro/Outros": 1
+          "Polo Passivo": 36
         },
         "tribunais": {
+          "TRF3": 1,
+          "TJSP": 5,
           "TRF4": 20,
           "JFSC": 9,
-          "TJSP": 5,
-          "Justiça Federal do Parana": 1
+          "JFPR": 1
         },
         "ranking": [
           [
@@ -188,23 +188,27 @@
             5
           ],
           [
+            "AGÊNCIA NACIONAL DE TRANSPORTES TERRESTRES - ANTT",
+            1
+          ],
+          [
             "MINISTERIO DA FAZENDA - SECRETARIA DO TESOURO NACIONAL",
             1
           ]
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 35,
-          "ativos": 35,
+          "proc": 36,
+          "ativos": 36,
+          "procSub": "36 ativos · 0 encerrados",
           "areas": 1,
-          "trib": 4,
-          "procSub": "35 ativos · 0 encerrados",
           "areasSub": "Tributário",
+          "trib": 5,
           "tribSub": "TRF4, JFSC, TJSP"
         },
         "esforco": {
           "comProducao": 37,
-          "tramitacaoDias": 616,
+          "tramitacaoDias": 678.9,
           "prazano": {
             "2021": 0,
             "2022": 0,
