@@ -1,12 +1,12 @@
 {
   "kpiGrupo": {
-    "proc": 107,
-    "ativos": 106,
-    "areas": 4,
-    "trib": 4,
-    "procSub": "106 ativos · 1 encerrados",
-    "areasSub": "Bancário, Cível, Falência",
-    "tribSub": "TJSC, OUTROS, TJSP",
+    "proc": 92,
+    "ativos": 91,
+    "areas": 3,
+    "trib": 1,
+    "procSub": "91 ativos · 1 encerrados",
+    "areasSub": "Bancário, Cível, OUTROS",
+    "tribSub": "OUTROS",
     "encerrados": 1
   },
   "empresas": {
@@ -14,53 +14,42 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 680985119,
       "dataset": {
-        "total": 107,
-        "ativos": 106,
+        "total": 92,
+        "ativos": 91,
         "encerrados": {
           "2025": 1
         },
-        "areaTotal": 106,
+        "areaTotal": 93,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 71,
-          "2026": 107
+          "2025": 59,
+          "2026": 91
         },
         "entradas": {
-          "2025": 71,
-          "2026": 36
+          "2026": 32,
+          "2025": 60
         },
         "area": {
           "Bancário": 81,
           "Cível": 11,
-          "Falência": 9,
-          "Recuperação Judicial": 5,
           "OUTROS": 1
         },
         "uf": {
-          "SC": 51,
-          "OUTROS": 40,
+          "SC": 36,
           "SP": 14,
+          "OUTROS": 40,
           "DF": 1,
           "RS": 1
         },
         "instancia": {
-          "1º Grau": 79,
-          "2º Grau": 27,
-          "Superiores": 1
+          "N/D": 92
         },
         "polo": {
-          "Terceiro/Outros": 52,
-          "Polo ativo": 31,
-          "Polo passivo": 24
+          "Polo ativo": 28,
+          "Polo passivo": 20,
+          "Terceiro/Outros": 44
         },
         "tribunais": {
-          "TJSC": 50,
-          "OUTROS": 41,
-          "TJSP": 14,
-          "STJ": 1,
-          "TRF4": 1
+          "OUTROS": 92
         },
         "ranking": [
           [
@@ -126,13 +115,13 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 107,
-          "ativos": 106,
-          "areas": 4,
-          "trib": 4,
-          "procSub": "106 ativos · 1 encerrados",
-          "areasSub": "Bancário, Cível, Falência",
-          "tribSub": "TJSC, OUTROS, TJSP"
+          "proc": 92,
+          "ativos": 91,
+          "procSub": "91 ativos · 1 encerrados",
+          "areas": 3,
+          "areasSub": "Bancário, Cível, OUTROS",
+          "trib": 1,
+          "tribSub": "OUTROS"
         },
         "esforco": {
           "comProducao": 106,
@@ -168,53 +157,42 @@
       "nome": "M.S. Luzitania Transportes, EXPORTACAO e IMPORTACAO de Pescados e Frutos do Mar LTDA",
       "_idCliente": 680985119,
       "dataset": {
-        "total": 107,
-        "ativos": 106,
+        "total": 92,
+        "ativos": 91,
         "encerrados": {
           "2025": 1
         },
-        "areaTotal": 106,
+        "areaTotal": 93,
         "estoque": {
-          "2022": 0,
-          "2023": 0,
-          "2024": 0,
-          "2025": 71,
-          "2026": 107
+          "2025": 59,
+          "2026": 91
         },
         "entradas": {
-          "2025": 71,
-          "2026": 36
+          "2026": 32,
+          "2025": 60
         },
         "area": {
           "Bancário": 81,
           "Cível": 11,
-          "Falência": 9,
-          "Recuperação Judicial": 5,
           "OUTROS": 1
         },
         "uf": {
-          "SC": 51,
-          "OUTROS": 40,
+          "SC": 36,
           "SP": 14,
+          "OUTROS": 40,
           "DF": 1,
           "RS": 1
         },
         "instancia": {
-          "1º Grau": 79,
-          "2º Grau": 27,
-          "Superiores": 1
+          "N/D": 92
         },
         "polo": {
-          "Terceiro/Outros": 52,
-          "Polo ativo": 31,
-          "Polo passivo": 24
+          "Polo ativo": 28,
+          "Polo passivo": 20,
+          "Terceiro/Outros": 44
         },
         "tribunais": {
-          "TJSC": 50,
-          "OUTROS": 41,
-          "TJSP": 14,
-          "STJ": 1,
-          "TRF4": 1
+          "OUTROS": 92
         },
         "ranking": [
           [
@@ -280,12 +258,12 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 107,
-          "ativos": 106,
-          "areas": 4,
-          "trib": 4,
-          "procSub": "106 ativos · 1 encerrados",
+          "proc": 92,
+          "ativos": 91,
+          "procSub": "91 ativos · 1 encerrados",
+          "areas": 3,
           "areasSub": "",
+          "trib": 1,
           "tribSub": ""
         },
         "esforco": {

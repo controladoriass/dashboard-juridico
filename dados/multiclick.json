@@ -1,11 +1,11 @@
 {
   "kpiGrupo": {
-    "proc": 106,
-    "ativos": 88,
+    "proc": 105,
+    "ativos": 87,
     "areas": 3,
     "trib": 16,
-    "procSub": "88 ativos · 18 encerrados",
-    "areasSub": "Cível, Consumidor, Pública",
+    "procSub": "87 ativos · 18 encerrados",
+    "areasSub": "Cível, Consumidor, Penal-Criminal",
     "tribSub": "TJBA, TJRS, TJSC",
     "encerrados": 18
   },
@@ -14,82 +14,71 @@
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 680953495,
       "dataset": {
-        "total": 106,
-        "ativos": 88,
+        "total": 105,
+        "ativos": 87,
         "encerrados": {
-          "2014": 1,
+          "2026": 7,
           "2024": 1,
-          "2025": 9,
-          "2026": 7
+          "2014": 1,
+          "2025": 9
         },
         "areaTotal": 88,
         "estoque": {
-          "2014": -1,
-          "2015": -1,
-          "2016": -1,
-          "2017": -1,
-          "2018": -1,
-          "2019": -1,
-          "2020": -1,
-          "2021": -1,
-          "2022": -1,
-          "2023": -1,
-          "2024": -2,
-          "2025": 92,
-          "2026": 88
+          "2025": 90,
+          "2026": 86
         },
         "entradas": {
-          "2025": 103,
-          "2026": 3
+          "2026": 3,
+          "2025": 102
         },
         "area": {
-          "Cível": 85,
+          "Cível": 102,
           "Consumidor": 2,
-          "Pública": 1
+          "Penal-Criminal": 1
         },
         "uf": {
-          "BA": 19,
-          "RS": 12,
-          "SC": 11,
-          "MS": 8,
-          "SP": 8,
-          "MG": 7,
-          "MT": 4,
-          "CE": 4,
-          "PR": 4,
-          "PE": 3,
-          "PB": 2,
-          "ES": 2,
           "DF": 1,
+          "RS": 15,
+          "SC": 15,
           "RN": 1,
-          "TO": 1,
+          "PB": 2,
+          "PE": 5,
+          "MS": 9,
+          "MT": 4,
+          "ES": 3,
+          "CE": 6,
+          "TO": 2,
+          "MG": 7,
+          "PR": 4,
+          "SP": 9,
+          "BA": 21,
           "RJ": 1
         },
         "instancia": {
-          "1º Grau": 83,
+          "Superiores": 1,
           "2º Grau": 4,
-          "Superiores": 1
+          "1º Grau": 100
         },
         "polo": {
-          "Terceiro/Outros": 87,
-          "Polo ativo": 1
+          "Polo Passivo": 93,
+          "Polo Ativo": 12
         },
         "tribunais": {
-          "TJBA": 19,
-          "TJRS": 12,
-          "TJSC": 11,
-          "TJMS": 8,
-          "TJSP": 8,
-          "TJMG": 7,
-          "TJCE": 4,
-          "TJMT": 4,
-          "TJPR": 4,
-          "TJPE": 3,
-          "TJES": 2,
-          "TJPB": 2,
-          "TJRN": 1,
-          "TJTO": 1,
           "STJ": 1,
+          "TJRS": 15,
+          "TJSC": 15,
+          "TJRN": 1,
+          "TJPB": 2,
+          "TJPE": 5,
+          "TJMS": 9,
+          "TJMT": 4,
+          "TJES": 3,
+          "TJCE": 6,
+          "TJTO": 2,
+          "TJMG": 7,
+          "TJPR": 4,
+          "TJSP": 9,
+          "TJBA": 21,
           "TJRJ": 1
         },
         "ranking": [
@@ -156,17 +145,17 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 106,
-          "ativos": 88,
+          "proc": 105,
+          "ativos": 87,
+          "procSub": "87 ativos · 18 encerrados",
           "areas": 3,
+          "areasSub": "Cível, Consumidor, Penal-Criminal",
           "trib": 16,
-          "procSub": "88 ativos · 18 encerrados",
-          "areasSub": "Cível, Consumidor, Pública",
           "tribSub": "TJBA, TJRS, TJSC"
         },
         "esforco": {
           "comProducao": 108,
-          "tramitacaoDias": 371,
+          "tramitacaoDias": 450.7,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -190,7 +179,7 @@
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
-          "2026"
+          2026
         ]
       },
       "encerradosTotal": 18
@@ -199,8 +188,8 @@
       "nome": "Multiclick Brasil Publicidade LTDA",
       "_idCliente": 680953495,
       "dataset": {
-        "total": 102,
-        "ativos": 85,
+        "total": 101,
+        "ativos": 84,
         "encerrados": {
           "2014": 1,
           "2024": 1,
