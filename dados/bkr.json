@@ -1,13 +1,13 @@
 {
   "kpiGrupo": {
     "proc": 63,
-    "ativos": 47,
-    "areas": 6,
-    "trib": 4,
-    "procSub": "47 ativos · 16 encerrados",
+    "ativos": 48,
+    "areas": 7,
+    "trib": 5,
+    "procSub": "48 ativos · 15 encerrados",
     "areasSub": "Cível, Trabalhista, Administrativo",
-    "tribSub": "TRT12, TJSC, OUTROS",
-    "encerrados": 16
+    "tribSub": "TJSC, TRT12, OUTROS",
+    "encerrados": 15
   },
   "empresas": {
     "_panorama": {
@@ -15,59 +15,59 @@
       "_idCliente": 2129893,
       "dataset": {
         "total": 63,
-        "ativos": 47,
+        "ativos": 48,
         "encerrados": {
           "2025": 14,
-          "2026": 1,
-          "2024": 1
+          "2026": 1
         },
-        "areaTotal": 47,
+        "areaTotal": 7,
         "estoque": {
           "2021": 4,
           "2022": 6,
           "2023": 14,
-          "2024": 24,
-          "2025": 42,
-          "2026": 63
+          "2024": 25,
+          "2025": 29,
+          "2026": 48
         },
         "entradas": {
-          "2021": 4,
-          "2022": 2,
-          "2023": 8,
-          "2024": 10,
+          "2026": 20,
           "2025": 18,
-          "2026": 21
+          "2024": 11,
+          "2023": 8,
+          "2022": 2,
+          "2021": 4
         },
         "area": {
-          "Cível": 20,
-          "Trabalhista": 20,
+          "Trabalhista": 24,
+          "Cível": 30,
+          "Ambiental": 1,
           "Administrativo": 3,
-          "Tributário": 2,
-          "Penal-Criminal": 1,
-          "Previdenciário": 1
+          "Penal-Criminal": 2,
+          "Previdenciário": 1,
+          "Tributário": 2
         },
         "uf": {
-          "SC": 57,
-          "OUTROS": 6,
-          "PR": 2
+          "SC": 56,
+          "PR": 2,
+          "N/D": 5
         },
         "instancia": {
-          "1º Grau": 38,
-          "2º Grau": 6,
-          "N/I": 2,
-          "Superiores": 1
+          "1º Grau": 51,
+          "2º Grau": 9,
+          "Superiores": 1,
+          "N/D": 2
         },
         "polo": {
-          "Terceiro/Outros": 36,
-          "Polo ativo": 26,
-          "Polo passivo": 3
+          "Polo passivo": 34,
+          "Polo ativo": 27,
+          "Terceiro/Outros": 2
         },
         "tribunais": {
-          "TRT12": 20,
-          "TJSC": 18,
-          "OUTROS": 6,
-          "TRF4": 2,
-          "TJPR": 1
+          "TRT12": 23,
+          "TJSC": 26,
+          "TJPR": 2,
+          "OUTROS": 10,
+          "TRF4": 2
         },
         "ranking": [
           [
@@ -134,16 +134,17 @@
         "_complexidadeSoAtivos": true,
         "kpi": {
           "proc": 63,
-          "ativos": 47,
-          "areas": 6,
-          "trib": 4,
-          "procSub": "47 ativos · 16 encerrados",
+          "ativos": 48,
+          "procSub": "48 ativos · 15 encerrados",
+          "areas": 7,
           "areasSub": "Cível, Trabalhista, Administrativo",
-          "tribSub": "TRT12, TJSC, OUTROS"
+          "trib": 5,
+          "tribSub": "TJSC, TRT12, OUTROS",
+          "encerrados": 15
         },
         "esforco": {
-          "comProducao": 86,
-          "tramitacaoDias": 438,
+          "comProducao": 63,
+          "tramitacaoDias": 526.4,
           "prazano": {},
           "audano": {},
           "tarefano": {},
@@ -167,7 +168,7 @@
             "2026": 644.4
           }
         },
-        "encerradosTotal": 16,
+        "encerradosTotal": 15,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
@@ -179,8 +180,8 @@
       "nome": "BKR Empreendimentos Imobiliários LTDA SPE",
       "_idCliente": 2129893,
       "dataset": {
-        "total": 27,
-        "ativos": 20,
+        "total": 28,
+        "ativos": 21,
         "encerrados": {
           "2025": 6,
           "2026": 1
@@ -338,7 +339,7 @@
       "_idCliente": 3773556,
       "dataset": {
         "total": 31,
-        "ativos": 23,
+        "ativos": 24,
         "encerrados": {
           "2024": 1,
           "2025": 7
@@ -491,8 +492,8 @@
       "nome": "BKR Sports LTDA",
       "_idCliente": 684748526,
       "dataset": {
-        "total": 3,
-        "ativos": 3,
+        "total": 2,
+        "ativos": 2,
         "encerrados": {},
         "areaTotal": 3,
         "estoque": {
