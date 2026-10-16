@@ -1,81 +1,79 @@
 {
   "kpiGrupo": {
-    "proc": 86,
+    "proc": 85,
     "ativos": 71,
     "areas": 5,
-    "trib": 6,
-    "procSub": "71 ativos · 15 encerrados",
+    "trib": 7,
+    "procSub": "71 ativos · 14 encerrados",
     "areasSub": "Cível, Trabalhista, Tributário",
     "tribSub": "TJSC, OUTROS, TRT12",
-    "encerrados": 15
+    "encerrados": 14
   },
   "empresas": {
     "_panorama": {
       "nome": "Panorama Geral do Grupo",
       "_idCliente": 677012424,
       "dataset": {
-        "total": 86,
+        "total": 85,
         "ativos": 71,
         "encerrados": {
-          "2019": 1,
-          "2021": 1,
           "2022": 2,
-          "2023": 2,
+          "2025": 7,
+          "2021": 1,
           "2024": 2,
-          "2025": 7
+          "2023": 1,
+          "2019": 1
         },
-        "areaTotal": 71,
+        "areaTotal": 5,
         "estoque": {
           "2017": 1,
-          "2018": 1,
           "2019": 1,
-          "2020": 2,
-          "2021": 20,
-          "2022": 35,
-          "2023": 46,
-          "2024": 53,
-          "2025": 55,
-          "2026": 71
+          "2021": 19,
+          "2022": 33,
+          "2023": 43,
+          "2024": 49,
+          "2025": 50,
+          "2026": 66
         },
         "entradas": {
-          "2017": 1,
-          "2019": 1,
-          "2020": 1,
-          "2021": 19,
-          "2022": 17,
-          "2023": 13,
-          "2024": 9,
+          "2026": 16,
           "2025": 9,
-          "2026": 16
+          "2024": 9,
+          "2023": 13,
+          "2022": 17,
+          "2021": 19,
+          "2019": 1,
+          "2017": 1
         },
         "area": {
-          "Cível": 34,
-          "Trabalhista": 13,
-          "Tributário": 12,
           "Administrativo": 6,
-          "Penal-Criminal": 6
+          "Penal-Criminal": 6,
+          "Cível": 44,
+          "Tributário": 14,
+          "Trabalhista": 15
         },
         "uf": {
-          "SC": 60,
+          "N/D": 10,
+          "SC": 73,
           "DF": 1,
           "MT": 1
         },
         "instancia": {
-          "1º Grau": 64,
-          "2º Grau": 5,
-          "Superiores": 2
+          "1º Grau": 76,
+          "Superiores": 2,
+          "2º Grau": 7
         },
         "polo": {
-          "Polo passivo": 43,
-          "Terceiro/Outros": 16,
-          "Polo ativo": 12
+          "Polo ativo": 33,
+          "Terceiro/Outros": 3,
+          "Polo passivo": 49
         },
         "tribunais": {
-          "TJSC": 41,
-          "OUTROS": 14,
-          "TRT12": 9,
+          "OUTROS": 15,
+          "TJSC": 53,
           "TRF4": 3,
           "Justiça Federal de Santa Catarina": 2,
+          "TRT12": 10,
           "STJ": 1,
           "TJMT": 1
         },
@@ -143,17 +141,18 @@
         ],
         "_complexidadeSoAtivos": true,
         "kpi": {
-          "proc": 86,
+          "proc": 85,
           "ativos": 71,
+          "procSub": "71 ativos · 14 encerrados",
           "areas": 5,
-          "trib": 6,
-          "procSub": "71 ativos · 15 encerrados",
           "areasSub": "Cível, Trabalhista, Tributário",
-          "tribSub": "TJSC, OUTROS, TRT12"
+          "trib": 7,
+          "tribSub": "TJSC, OUTROS, TRT12",
+          "encerrados": 14
         },
         "esforco": {
-          "comProducao": 86,
-          "tramitacaoDias": 1061,
+          "comProducao": 85,
+          "tramitacaoDias": 1076.0,
           "prazano": {
             "2021": 1,
             "2022": 41,
@@ -205,7 +204,7 @@
             "2021": 4.3
           }
         },
-        "encerradosTotal": 15,
+        "encerradosTotal": 14,
         "_panorama": true,
         "nome": "Panorama Geral do Grupo",
         "estoqueHl": [
@@ -582,7 +581,7 @@
       "nome": "Eliane Eufrasio Feltz ME - Feltz",
       "_idCliente": 2416563,
       "dataset": {
-        "total": 24,
+        "total": 23,
         "ativos": 19,
         "encerrados": {
           "2021": 1,
